@@ -1,0 +1,269 @@
+{
+  "items": [
+    {
+      "title": "Early Fault Detection in Pump Systems Using Unsupervised Anomaly Detection Techniques",
+      "year": 2026,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Bảo trì dự đoán",
+        "Máy bơm công nghiệp"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Phát hiện sớm bất thường của máy bơm khi thiếu nhãn lỗi.",
+      "ai_methods": [
+        "HBOS",
+        "KNN",
+        "Local Outlier Factor",
+        "Isolation Forest"
+      ],
+      "method_vi": "So sánh bốn thuật toán phát hiện bất thường không giám sát trên dữ liệu vận hành máy bơm.",
+      "contribution_vi": "Đánh giá khả năng nhận biết dấu hiệu bất thường để hỗ trợ bảo trì dự đoán.",
+      "application_vi": "Bảo trì dự đoán; Máy bơm công nghiệp",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-07721-9_29",
+      "doi": "10.1007/978-3-032-07721-9_29",
+      "source_urls": [
+        "https://link.springer.com/chapter/10.1007/978-3-032-07721-9_29"
+      ],
+      "institution_evidence_vi": "Trang Springer liệt kê cả bốn tác giả thuộc các trường Điện–Điện tử và CNTT&TT của HUST.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã đọc abstract, metadata và affiliation. Hội nghị SCFF2025, xuất bản trực tuyến01/05/2026; danh mục HUST cũ ghi2025. Không đọc toàn văn.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "conference_year": 2025,
+      "published_date": "2026-05-01",
+      "data_url": "https://www.kaggle.com/datasets/nphantawee/pump-sensor-data/data"
+    },
+    {
+      "title": "FedPC Cloud CPU Forecasting using Federated Learning and Periodicity-based Clustering",
+      "year": 2025,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Dự báo tải điện toán đám mây",
+        "Quản lý tài nguyên hạ tầng"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo tải CPU cho máy ảo mới có ít lịch sử, trong điều kiện dữ liệu phân tán.",
+      "ai_methods": [
+        "Federated Learning",
+        "LSTM",
+        "Periodicity-based Clustering"
+      ],
+      "method_vi": "Phân cụm máy ảo theo chu kỳ tải và học các LSTM bằng quy trình học liên kết.",
+      "contribution_vi": "Đánh giá dự báo tài nguyên trên Azure Public Dataset V1, xét trường hợp khởi đầu với ít dữ liệu.",
+      "application_vi": "Dự báo tải điện toán đám mây; Quản lý tài nguyên hạ tầng",
+      "url": "https://isj.vn/index.php/journal_STIS/article/view/1115",
+      "doi": "10.54654/isj.v2i25.1115",
+      "source_urls": [
+        "https://isj.vn/index.php/journal_STIS/article/view/1115",
+        "https://soict.hust.edu.vn/en/2025-publications.html"
+      ],
+      "institution_evidence_vi": "Trang tạp chí ghi Nguyen Quoc Khanh thuộc SoICT,HUST; danh mục công bố HUST xác nhận bài.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đọc abstract và metadata của nhà xuất bản qua kết quả chỉ mục; mở trực tiếp bị timeout. Ngày công bố30/09/2025. Không suy diễn bảo đảm riêng tư mật mã từ việc dùng FL.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "reading_depth_note": "publisher_indexed_abstract_and_metadata",
+      "published_date": "2025-09-30"
+    },
+    {
+      "title": "Federated Learning based Workload Prediction in Cloud Computing",
+      "year": 2025,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Dự báo tải điện toán đám mây",
+        "Quản lý tài nguyên hạ tầng"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo nhu cầu CPU từ nhiều máy ảo mà không tập trung dữ liệu huấn luyện thô.",
+      "ai_methods": [
+        "LSTM",
+        "Federated Learning",
+        "FedAvg"
+      ],
+      "method_vi": "FL-LSTM huấn luyện LSTM tại từng client, tổng hợp mô hình bằng FedAvg.",
+      "contribution_vi": "Đánh giá trên tám cụm dữ liệu Google cluster traces cho bài toán dự báo tải đám mây.",
+      "application_vi": "Dự báo tải điện toán đám mây; Quản lý tài nguyên hạ tầng",
+      "url": "https://tapchi.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1674",
+      "doi": null,
+      "source_urls": [
+        "https://tapchi.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1674",
+        "https://soict.hust.edu.vn/en/2025-publications.html"
+      ],
+      "institution_evidence_vi": "Trang tạp chí ghi tác giả Khanh Nguyen thuộc SoICT,HUST; tên bài xuất hiện trong danh mục HUST.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đọc abstract và metadata. Tạp chí do PTIT vận hành không đồng nghĩa bài thuộc PTIT: chỉ gán HUST theo affiliation. Công bố18/09/2025.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "published_date": "2025-09-18"
+    },
+    {
+      "title": "Convolutional Neural Network for Automatic Meter Reading: A Case Study in a Vietnamese Building Material Factory",
+      "year": 2026,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Giám sát công nghiệp",
+        "Đọc đồng hồ tự động"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Số hóa chỉ số đồng hồ công nghiệp truyền thống mà không thay toàn bộ thiết bị.",
+      "ai_methods": [
+        "Convolutional Neural Network",
+        "Image Recognition"
+      ],
+      "method_vi": "Huấn luyện CNN nhận dạng chỉ số từ ảnh trên bộ dữ liệu do nhóm xây dựng.",
+      "contribution_vi": "Nghiên cứu trường hợp đọc đồng hồ tại nhà máy vật liệu xây dựng Việt Nam.",
+      "application_vi": "Giám sát công nghiệp; Đọc đồng hồ tự động",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-07721-9_30",
+      "doi": "10.1007/978-3-032-07721-9_30",
+      "source_urls": [
+        "https://link.springer.com/chapter/10.1007/978-3-032-07721-9_30",
+        "https://research.hust.edu.vn/en/anh.danghoang?ws=seee-lab-power-grid-and-renewable-energy-lab"
+      ],
+      "institution_evidence_vi": "Affiliation Springer xác nhận cả bốn tác giả thuộc Trường Điện–Điện tử,HUST.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã đọc abstract, affiliation và ngày công bố01/05/2026. Hội nghịSCFF2025; vài trang HUST ghi2025 hoặc04/2026, dùng ngày nhà xuất bản cho năm báo cáo. Không ghi chỉ số hiệu năng chưa kiểm chứng.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "conference_year": 2025,
+      "published_date": "2026-05-01"
+    },
+    {
+      "title": "Nghiên cứu ứng dụng học máy và học tăng cường trong dự báo và quản lý vận hành tối ưu MicroGrid",
+      "year": 2026,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển microgrid",
+        "Lưu trữ năng lượng",
+        "Sạc xe điện và điều chỉnh phụ tải"
+      ],
+      "type": "institutional_research_project",
+      "status": "approved_project",
+      "problem_vi": "Dự báo và vận hành lưới điện nhỏ có năng lượng tái tạo, pin lưu trữ và nhu cầu sạc xe điện.",
+      "ai_methods": [
+        "Machine Learning",
+        "Deep Reinforcement Learning",
+        "Constrained Markov Decision Process"
+      ],
+      "method_vi": "Đề xuất dự báo bằng học máy và mô hình CMDP cho tác tử học tăng cường có ràng buộc vận hành.",
+      "contribution_vi": "Mục tiêu đề tài là phối hợp chi phí vận hành, tuổi thọ pin, năng lượng tái tạo và điều chỉnh phụ tải; chưa có kết quả hoàn thành trong nguồn.",
+      "application_vi": "Điều khiển microgrid; Lưu trữ năng lượng; Sạc xe điện và điều chỉnh phụ tải",
+      "url": "https://research.hust.edu.vn/en/anh.danghoang?ws=seee-lab-power-grid-and-renewable-energy-lab",
+      "doi": null,
+      "source_urls": [
+        "https://research.hust.edu.vn/en/anh.danghoang?ws=seee-lab-power-grid-and-renewable-energy-lab"
+      ],
+      "institution_evidence_vi": "Cổng nghiên cứu HUST ghi TS.Đặng Hoàng Anh là chủ nhiệm, mãT2025-PC-053.",
+      "reading_depth": "official_project_registry",
+      "verification_note_vi": "Nguồn ghi bắt đầu18/01/2026,trạng tháiĐãduyệt. Nội dung là mục tiêu/phương pháp dự kiến, không phải kết quả đã nghiệm thu.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "project_code": "T2025-PC-053",
+      "start_date": "2026-01-18"
+    },
+    {
+      "title": "Deep Learning-Based Auto Meter Reading for Industrial Gas Meters",
+      "year": 2025,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Giám sát công nghiệp",
+        "Đọc đồng hồ khí"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Đọc tự động đồng hồ khí trong môi trường công nghiệp.",
+      "ai_methods": [
+        "Deep Learning"
+      ],
+      "method_vi": "Hồ sơ chính thức xác nhận dùng học sâu cho đọc đồng hồ; chưa dùng nguồn sơ cấp để xác định đầy đủ kiến trúc.",
+      "contribution_vi": "Ghi nhận công trình ứng dụng học sâu trong hệ thống giám sát chỉ số khí tại nhà máy.",
+      "application_vi": "Giám sát công nghiệp; Đọc đồng hồ khí",
+      "url": "https://ieeexplore.ieee.org/document/11473863/",
+      "doi": "10.1109/EEE-AM66675.2025.11473863",
+      "source_urls": [
+        "https://ieeexplore.ieee.org/document/11473863/",
+        "https://research.hust.edu.vn/en/anh.danghoang?ws=seee-lab-power-grid-and-renewable-energy-lab",
+        "https://api.crossref.org/works/10.1109/EEE-AM66675.2025.11473863"
+      ],
+      "institution_evidence_vi": "Metadata IEEE gửi Crossref ghi cả năm tác giả thuộc Trường Điện–Điện tử,HUST; cổng HUST liệt kê công trình.",
+      "reading_depth": "official_publication_metadata",
+      "verification_note_vi": "Đã đối chiếu metadata nhà xuất bản/Crossref và cổng HUST; chưa đọc abstract sơ cấp/toàn văn. Crossref ghi05/11/2025,cổng hồ sơ ghi04/2026, giữ năm xuất bản2025 và chú thích sai khác.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "published_date": "2025-11-05"
+    },
+    {
+      "title": "End-to-end neural network based optimal quadcopter control",
+      "year": 2024,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3",
+        "G5",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển drone",
+        "Tối ưu năng lượng vận hành",
+        "Suy luận điều khiển trên thiết bị"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Tạo điều khiển quadcopter tối ưu năng lượng đủ nhẹ để chạy trên robot và thích nghi sai lệch mô hình.",
+      "ai_methods": [
+        "Supervised learning",
+        "Guidance and Control Networks",
+        "Energy-optimal control",
+        "Sim-to-real adaptation"
+      ],
+      "method_vi": "G&CNet học ánh xạ trạng thái sang tốc độ quay động cơ từ dữ liệu quỹ đạo tối ưu; nhánh thích nghi nhận ước lượng mô-men chưa mô hình hóa.",
+      "contribution_vi": "Đánh giá bay thật giữa các trạng thái treo và qua waypoint; mạng chạy onboard, thay phần tính tối ưu trực tuyến bằng chính sách đã học.",
+      "application_vi": "Điều khiển drone; Tối ưu năng lượng vận hành; Suy luận điều khiển trên thiết bị",
+      "url": "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+      "doi": "10.1016/j.robot.2023.104588",
+      "source_urls": [
+        "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+        "https://mavlab.tudelft.nl/end-to-end-neural-network-based-optimal-quadcopter-control/"
+      ],
+      "institution_evidence_vi": "Kho TU Delft ghi Ferede,de Croon,De Wagter thuộc nhóm Control & Simulation; hợp tác với Dario Izzo của ESA.",
+      "reading_depth": "official_abstract_and_lab_description",
+      "verification_note_vi": "Đọc abstract và metadata kho trường cùng bản tin MAVLab về tính toán onboard. Đây là học có giám sát từ nghiệm tối ưu, không gán nhầm là RL. Năm số tạp chí2024 dù DOI có2023. Không ghi mức giảm năng lượng định lượng khi chưa đọc đầy đủ thiết lập.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30"
+    }
+  ]
+}

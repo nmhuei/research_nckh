@@ -1,0 +1,740 @@
+{
+  "vn_relevance_review": {
+    "keep": [
+      "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+      "BLOOD CELL DETECTION AND CLASSIFICATION USING FASTER R-CNN, RETINANET, AND YOLOv12",
+      "ANALYSIS OF BRAKING DYNAMICS AND THERMAL CHARACTERISTICS IN PASSENGER CARS BASED ON A BIDIRECTIONAL INTERACTION MODEL",
+      "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+      "Research on sustainable aspects in wire arc additive manufacturing of nickel-based alloy components",
+      "Phát triển giao thức tính toán bảo mật và ứng dụng cho hệ tư vấn người dùng có đảm bảo tính riêng tư",
+      "Nghiên cứu xây dựng công cụ kiểm tra an toàn cho mã nguồn sinh bởi LLM",
+      "Tính chất cơ - lý của vữa rót giữ nước sử dụng phụ phẩm công nghiệp cho mặt đường bán mềm",
+      "Nghiên cứu ứng dụng điện toán đám mây và công nghệ Internet vạn vật (IoT) trong quan trắc dao động thời gian thực công trình cầu dây văng ở Việt Nam",
+      "Nghiên cứu chế tạo sơn lót bảo vệ chống ăn mòn thép CT3 trên cơ sở nhựa epoxy và chất ức chế hạt nano SiO2 biến tính 3,5 - dinitrobenzoic axit",
+      "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+      "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+      "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+      "Nghiên cứu phát triển mô hình Transformer sử dụng WiFi Fingerprinting cho định vị trong nhà",
+      "Nghiên cứu phát triển các giải pháp định vị hiệu quả cho ứng dụng robot di động tự hành (ARM) tích hợp công nghệ Ultrawideband (UWB) trong các nhà máy thông minh",
+      "Thiết kế và mô phỏng vật liệu hai chiều boron-nitride dang hexagon ứng dụng trong linh kiện trở nhớ",
+      "Synthesis of an imine-type nickel complex and investigation of its electrocatalytic activity for H2 evolution",
+      "Design and Development of a Fuzzy-PID Controller with Integrated Wind Estimation for UAV Hexacopter Stabilization",
+      "Vehicle Detection and Tracking in Vietnam’s Complex Urban Traffic",
+      "Improving computational drug repositioning through multi-source disease similarity networks",
+      "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+      "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+      "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation",
+      "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+      "Toward Sustainable and Cost-Efficient HPC Systems: A Deep Reinforcement Learning Job Scheduling Approach",
+      "Fine-Tuned Sentence-BERT for HPC Job Outcome Prediction via Textual Feature Embedding",
+      "AI- and GIS-based Flood Warning System for Ho Chi Minh City",
+      "Fusurge: An Accelerated Query-Driven System for Multimodal Information Retrieval",
+      "From Prediction to Understanding: A Robustness and Explainability Study of LLM-Based Vulnerability Detection",
+      "Proposed Data Roaming Network Simulation Environment for 5G Network",
+      "AUTOGENT: Multi-Agent AI Framework for Automated Vulnerability Detection and Security Alerting in Networked Systems",
+      "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+      "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+      "Model-based design of a ballbot system controlled by mindstorms EV3",
+      "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+      "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+      "Domain-Oriented GCN Method for Sentiment Analysis",
+      "Nonlinear model predictive control for trajectory tracking and dynamic obstacle avoidance in differential-drive mobile robots"
+    ],
+    "exclude": [
+      {
+        "title": "Đánh giá nhận thức về rủi ro an toàn giao thông trong hoạt động tìm kiếm chỗ đỗ và đỗ xe trên đường tại Hà Nội theo cách tiếp cận đa chiều",
+        "reason_vi": "Khảo sát nhận thức và hành vi về rủi ro đỗ xe trên 485 người; dùng thống kê để mô tả vấn đề quản lý/an toàn giao thông. Tóm tắt không xác lập đóng góp về thuật toán, hệ thống số, cảm biến, thiết bị, vật liệu hoặc phương pháp thiết kế kỹ thuật. Loại theo phạm vi công nghệ chặt chẽ của yêu cầu mới."
+      }
+    ],
+    "uncertain": []
+  },
+  "us_relevance_review": {
+    "keep": [
+      "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+      "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN",
+      "Tensor Learning and Compression of N-Phonon Interactions",
+      "Supervised learning in DNA neural networks",
+      "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies",
+      "Deep domain adaptation eliminates costly data required for task-agnostic wearable robotic control",
+      "Sabermetrics for Cyber: Collecting and Analyzing User Activity Data from Ephemeral Exercises",
+      "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming?",
+      "Electrospun Boron Nitride Nanotube Fabrics: Tunable Thermal Conductivity through Controlled Nanotube Orientation",
+      "Consequential Climate and Energy Analysis of Steel Electrification via Hydrogen Direct Reduction",
+      "Atomic lift-off of epitaxial membranes for cooling-free infrared detection",
+      "Dimensionality and dynamics for next-generation artificial neural networks",
+      "Combining and Decoupling Rigid and Soft Grippers to Enhance Robotic Manipulation",
+      "Game-Theoretic and Machine Learning-based Defensive Deception for Dependable and Secure Cyber-Physical Systems",
+      "Organic dual-ion batteries with low-temperature operability and structural reinforcement",
+      "Graphene oxide synthesis at a nonthermal plasma-water interface",
+      "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach",
+      "STRIFE: A Socio-Technical Framework for Threat Modeling of Artificial Intelligence Systems",
+      "Anion sublattice design enables superionic conductivity in crystalline oxyhalides"
+    ],
+    "exclude": [
+      {
+        "title": "Probing Curved Spacetime with a Distributed Atomic Processor Clock",
+        "reason_vi": "Mục tiêu chính trong abstract PRX Quantum là kiểm nghiệm lý thuyết lượng tử trên không-thời gian cong. Giao thức đồng hồ và mạng lượng tử phục vụ phép thử vật lý nền tảng; chưa nêu ứng dụng công nghệ ngoài phép thử đó. Loại theo phạm vi công nghệ ứng dụng chặt, dù nghiên cứu có dùng thiết bị lượng tử."
+      }
+    ],
+    "uncertain": []
+  },
+  "eu_relevance_review": {
+    "keep": [
+      "Rambo: RL-Augmented Model-Based Whole-Body Control for Loco-Manipulation",
+      "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+      "Techno-economic analysis framework for perovskite solar module production at various manufacturing capacities",
+      "Electroactive naphthalimide and naphthalenediimide interlayers for inverted perovskite solar cells",
+      "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+      "Machine learning tabulation of thermochemistry: transfer learning for non-adiabatic flames",
+      "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+      "DRONE-RL: Dynamic reinforcement learning for online navigation of UAVs in evolving environments",
+      "InP Temperature Sensor with Si-CMOS Interface for Photonic Integrated Circuits",
+      "Challenges in Insertion Loss-Based Characterization of InP Technology for Sub-THz Antenna Systems",
+      "The hydrogen supply chain — A comprehensive literature review incorporating purity analysis",
+      "Optimal control of an over-actuated spark-ignited hydrogen engine",
+      "Zono-Conformal Prediction: Zonotope-Based Uncertainty Quantification for Regression and Classification Tasks",
+      "Machine Learning Driven Materials Design from the Perspective of Charge Transport",
+      "SVN-ICP: Uncertainty estimation of ICP-based LiDAR odometry using Stein Variational Newton",
+      "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments",
+      "AttentionGuard: Transformer-based Misbehavior Detection for Secure Vehicular Platoons",
+      "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+      "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+      "Smart sensing breaks the accuracy barrier in battery state monitoring",
+      "Probing fast quantum circuit refrigeration in the quantum regime",
+      "Thermal spectrometer for superconducting circuits",
+      "Blueish hydrogen production via methane pyrolysis and remote CO2 capture and storage",
+      "Energy and economic assessment of LH2, NH3, TOL/MCH and H0-DBT/H18-DBT for large-scale hydrogen transport",
+      "The collaboration scale: A novel approach for assessing robotic systems collaboration capabilities",
+      "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+      "A thorium-229 optical nuclear clock with feedback loop",
+      "Advanced Bioenergy Lab Austria – Phase 1"
+    ],
+    "exclude": [],
+    "uncertain": []
+  },
+  "hust_bib_relevance": {
+    "keep": [
+      "FI-NL2PY2SQL: Financial Industry NL2SQL Innovation Model Based on Python and Large Language Model",
+      "A multi-population multi-tasking Tabu Search with Variable Neighborhood Search algorithm to solve post-disaster clustered repairman problem with priorities",
+      "Certified Unlearning for Federated Recommendation",
+      "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+      "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+      "CoreNet: Leveraging context-aware representations via MLP networks for CTR prediction",
+      "Quantum-Annealing-Based Sum Rate Maximization for Multi-UAV-Aided Wireless Networks",
+      "A novel fuzzy knowledge graph structure for decision making of multimodal big data",
+      "SAFA: Handling Sparse and Scarce Data in Federated Learning with Accumulative Learning",
+      "Kernelshap-nas: a shapley additive explanatory approach for characterizing operation influences",
+      "The interplay of assortativity, centrality, and robustness in human signaling networks: Implications for drug discovery",
+      "CoNet: a lightweight color classification architecture using residual connection and MBConv",
+      "GAMR: Revolutionizing Multi-Objective Routing in SDN Networks With Dynamic Genetic Algorithms",
+      "ECODI: a novel evolutionary coreset distillation with LLM-assisted fitness evaluation for encrypted network traffics",
+      "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+      "AIM: an accurate and explainable model for ATAC to GEX translation and pathway analysis",
+      "Propagation-aware Q-coverage and Q-connectivity network design in relay-aided IoT sensor systems using heuristic and genetic algorithms",
+      "Exploring Non-Matching Multiple References for Speech Quality Assessment",
+      "Metaheuristic Optimization of Trajectory and Dynamic Time Splitting for UAV Communication Systems",
+      "IoT-Powered Mental Healthcare: Sleep State Analyzing and Monitoring based on EEG Signals",
+      "Gentle local robustness implies generalization",
+      "Noisy Data-based Attack: a New Type of Untargeted Attack in Federated Learning and Its Countermeasures",
+      "The interictal transcriptomic map of migraine without aura",
+      "Modeling Academic Social Networks Using Covering and Matching in Intuitionistic Fuzzy Influence Graphs",
+      "Heuristic and approximate Steiner tree algorithms for ensuring network connectivity in mobile wireless sensor networks",
+      "Zero Trust: Deep Learning and NLP for HTTP Anomaly Detection in IDS",
+      "Real-time person re-identification and tracking on edge devices with distributed optimization",
+      "The Proposed Smart Supply Chain Management of Operations and Distributions in Forest and Agricultural Products",
+      "An efficient discretization and transformation scheme for maximizing secure lifetime problem in heterogeneous wireless rotatable camera sensor networks with barrier coverage",
+      "Optimizing Answer Generator in Vietnamese Legal Question Answering Systems Using Language Models",
+      "Generalized ordered Wasserstein distance for sequential data",
+      "Multiple-UAV Path Planning in Obstacle Environments with Evolutionary Computation",
+      "SPARTA-GEMSTONE: A two-phase approach for efficient node placement in 3D WSNs under Q-Coverage and Q-Connectivity constraints",
+      "Federated Learning for Network Traffic Classification: A Knowledge Consolidation Approach",
+      "A Survey on Video Big Data Analytics: Architecture, Technologies, and Open Research Challenges",
+      "Hybrid Quantum Convolutional Neural Network-Aided Pilot Assignment in Cell-Free Massive MIMO Systems",
+      "DASF-Net: A Multimodal Framework for Stock Price Forecasting with Diffusion-Based Graph Learning and Optimized Sentiment Fusion",
+      "Distance of Intuitionistic Fuzzy Sets Based on Score Function of a Decision Support System and its Application",
+      "PRAU-GIN: GIN-based android malware classification with traffic refinement and node augmentation",
+      "Integrating diffusion models and molecular modeling for PARP1 inhibitors generation",
+      "LSHADE-NGS: enhancing Q-coverage in directional sensor networks through navigated generation search",
+      "Enhancing GNSS Spoofing Detection by Carrier-Smoothing Pseudorange Double Difference Measurements",
+      "M3-SLR: Self-Supervised Pretraining with MaxFlow MaskFeat for Improved Multi-View Sign Language Representation",
+      "Controlling Heterogeneous Multi-Agent Systems Under Uncertainty Using Fuzzy Inference and Evolutionary Search",
+      "UFR-GAN: A lightweight multi-degradation image restoration model",
+      "Joint Access Point Activation and Power Allocation for Cell-Free Massive MIMO Aided ISAC Systems",
+      "M3D‐MDA: New scratchpad memory for enhancing GPU performance and energy efficiency",
+      "Improved Differential Evolution for Enhancing the Aggregated Channel Estimation of RIS-Aided Cell-Free Massive MIMO",
+      "An Efficient Parameterized Algorithm for Computing Quantum Channel Fidelity via Symmetries Exploitation",
+      "Combination of 2D and 3D nnU-Net for ground glass opacity segmentation in CT images of Post-COVID-19 patients",
+      "Integrating multiple microRNA functional similarity networks for improved disease–microRNA association prediction",
+      "FedImp: Enhancing Federated Learning Convergence with Impurity-Based Weighting",
+      "Real-time Android malware detection using Graph Isomorphism Network and statistical network traffic features",
+      "Evaluating MPQUIC Schedulers in Dynamic Wireless Networks with 2D and 3D Mobility",
+      "New Local Search Strategy for the Minimum s-Club Cover Problem",
+      "Context-Enriched Dynamic Graph Word Embeddings for Robust NLP Applications",
+      "Enhancing continual semantic segmentation with visual explanations and model adaptations",
+      "Constructions of covering sequences and 2D-sequences",
+      "A Survey of Machine Unlearning",
+      "Enhancing Tropical Cyclone Intensity Forecasting over the Bien Dong Sea with Foundation Model and Prompt Tuning",
+      "Demand-Based Adaptive Multi-Beam Placement and Resource Allocation in Non-GSO Satellite Systems",
+      "Adaptive ant colony optimization for solving dynamic vehicle and drone routing with time window constraints",
+      "Graph Neural Network-Based Active and Passive Beamforming for Distributed STAR-RIS-Assisted Multi-User MISO Systems",
+      "Prioritizing cancer therapeutic genes using BioRank: A biologically-informed PageRank framework",
+      "Mobile device-target association optimization for connectivity enhancement in wireless IoT sensor networks",
+      "A study of competitions in different fields through graphs under bipolar picture fuzzy environment",
+      "Performance Evaluation of a Deep Learning-Enhanced Software-Defined Receiver for IRNSS SPS Signals in Vietnam",
+      "Fast marching firework method for multi-goal mobile robot path planning in complex obstacle maps",
+      "Recognition of breast cancer from heterogeneous ultrasound images: A multi-level deep learning approach",
+      "A review of instruction-guided image editing",
+      "Detection and Classification of Diseases of Cassava Leaves Using Deep Neural Networks and Various Optimization Algorithms on Large Image Datasets",
+      "TopiCOT: Neural topic model aligning with pre-trained clustering and optimal transport",
+      "Graph Neural Networks for Next-Generation-IoT: Recent Advances and Open Challenges",
+      "Outage Analysis of a Hybrid Relay-Backscatter Communication System With Energy Harvesting for IoT and 6G Networks",
+      "Towards Efficient and Adaptive Traffic Classification: A Knowledge Distillation-Based Personalized Federated Learning Framework",
+      "Fairness Designs for Load Balancing Optimization in Satellite-Cell-Free Massive MIMO Systems",
+      "Simultaneous acquisition of geometry and material for translucent objects",
+      "Machine learning for predicting drug–drug interactions: Graph neural networks and beyond",
+      "Secure Distributed RIS-MIMO over Double Scattering Channels: Adversarial Attack, Defense, and SER Improvement",
+      "EmoDim: An independent dimensional contrastive learning with pseudo-labeling for speech emotion recognition",
+      "Multipath Detection in GNSS Using Differential Corrections and Machine Learning-Based Classification",
+      "Exact and Heuristic Approaches for Anti-aircraft Mission Planning for Defensive Missile Battalions",
+      "ULNet: Federated Unlearning for SDN Control-Plane Anomaly Detection",
+      "Causal Graph Learning via Distributional Invariance of Cause-Effect Relationship",
+      "Carixray: a periapical X-ray dataset for machine vision-based dental caries recognition",
+      "Trigonometric function transformation and its application in software reliability modeling",
+      "Design and Manufacture of Public Lighting Control Systems Based on Light Intensity Measurement",
+      "Solving the maximal exposure path problem in heterogeneous directional wireless sensor networks using an improved genetic algorithm",
+      "Điều khiển xoay tải trong hệ thống cần cẩu sử dụng phương pháp trượt phân cấp kết hợp tối ưu bầy đàn",
+      "A fuzzy soft planar graph with application in image segmentation",
+      "Chấm điểm tín dụng cá nhân từ dữ liệu thay thế: Trường hợp các tổ chức tín dụng tại Việt Nam",
+      "Improving computational drug repositioning through multi-source disease similarity networks",
+      "Analysis and visualization of QUIC protocol deployment in Vietnam",
+      "Federated Learning Based Workload Prediction in Cloud Computing",
+      "FedPC Cloud CPU Forecasting using Federated Learning and Periodicity-based Clustering",
+      "The 2025 VLSP Task on Vietnamese Voice Conversion: Overview and Preliminary Results",
+      "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+      "Adversarial Vulnerabilities in Federated Time Series Forecasting: A Comprehensive Analysis",
+      "Enhancing Automated Penetration Testing Using Reasoning Large Language Model",
+      "SATUN: Saliency-Guided Parameter-Space Unlearning for Generative Adversarial Networks",
+      "CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding & Reasoning Capabilities of CodeLLMs",
+      "Linear Algebraic Partial Evaluation of Logic Programs",
+      "Mixture of Experts Meets Prompt-Based Continual Learning",
+      "Fuzzy Logic and Quadtree-Based Control for Mobile Robots in Dynamic Environments",
+      "Plant Species in Classification using Convolutional Neural Networks on Leaf Images",
+      "Boosting Multiple Views for pretrained-based Continual Learning",
+      "DPaI: Differentiable Pruning at Initialization with Node-Path Balance Principle",
+      "Sign Language Recognition: A Large-scale Multi-view Dataset and Comprehensive Evaluation",
+      "CT to PET Translation: A Large-scale Dataset and Domain-Knowledge-Guided Diffusion Approach",
+      "VoxVietnam: a Large-Scale Multi-Genre Dataset for Vietnamese Speaker Recognition",
+      "ViFin-Gen: Efficient Vietnamese Instruction Dataset Generation Pipeline for Finance Domain",
+      "Transformating trigonometric function to apply in software reliability modeling",
+      "Design and Implementation of a Big Data Platform for Production and Business Management: A Case Study from Vietnam National Coal and Mineral Industries Group",
+      "A Novel Framework for Fuzzy Knowledge Graph Integration from Multiple Data Sources: Case Study in Healthcare",
+      "A Novel Electronic Payment System Based on Zero-Knowledge Proof and Blockchain",
+      "Adaptive Prompting for Continual Relation Extraction: A Within-Task Variance Perspective",
+      "Voice Conversion for Low-Resource Languages via Knowledge Transfer and Domain-Adversarial Training",
+      "Foundation Model and Temporal Priors-guided Transductive Few-shot Action Recognition",
+      "HSEvo: Elevating Automatic Heuristic Design with Diversity-Driven Harmony Search and Genetic Algorithm Using LLMs",
+      "Few-Shot, No Problem: Descriptive Continual Relation Extraction",
+      "Bridging Classification and Segmentation in Osteosarcoma Assessment via Foundation and Discrete Diffusion Models",
+      "A Semi-Supervised Learning Framework with Cross-Magnification Attention for Glioma Mitosis Classification",
+      "NeurFlow: Interpreting Neural Networks Through Neuron Groups and Functional Interactions",
+      "Contrastive Perturbation Enhancement for LLM-Based Machine Translation",
+      "Towards a Unified Delegated Authorization Framework for Microservice-Based ERP Systems",
+      "An Efficient Explainable Unsupervised Machine Learning Approach for Network Intrusion Detection in IoMT",
+      "A User Privacy Risk-Driven Approach to Web Cookie Classification",
+      "A Low-Cost EEG-Based System for Measuring and Forecasting Levels of Alertness with Long Short-Term Memory",
+      "AYO-GAN: A novel GAN-based adversarial attack on YOLO object detection models",
+      "A Diffusion Model for Personalized Text-to-Image Generation",
+      "Optimizing Winograd-Based Convolution on GPUs",
+      "Improving Vietnamese Legal Document Retrieval Using Synthetic Data",
+      "A MAC Protocol for multi-cluster scheduling based on geographical segmentation and Precoloring Extension",
+      "Flow Velocity Analysis of Rivers Using Farneback Optical Flow and STIV Techniques With Drone Data",
+      "Improving Quality of Vietnamese to Khmer Neural Machine Translation Using Multi-stage Fine-Tuning Strategy",
+      "CoverNexus: Multi-agent LLM System for Automated Code Coverage Enhancement",
+      "BKCrawler: A Scalable Web Data Extraction System Using Weak Supervision",
+      "A Hybrid Multifactorial Evolutionary Algorithm for the Minimum s-Club Cover Problem",
+      "Enhancing Discriminative Representation in Similar Relation Clusters for Few-Shot Continual Relation Extraction",
+      "Improving Vietnamese-English Cross-Lingual Retrieval for Legal and General Domains",
+      "Mutual-pairing Data Augmentation for Fewshot Continual Relation Extraction",
+      "Leveraging Dynamic Graph Word Embedding for Efficient Contextual Representations",
+      "H-LSHADE: An Efficient Hybrid Approach for Solving Heterogeneous Target Coverage in Visual Sensor Networks",
+      "On the Impacts of Contexts on Repository-Level Code Generation",
+      "GloCOM: A Short Text Neural Topic Model via Global Clustering Context",
+      "Sharpness-Aware Minimization for Topic Models with High-Quality Document Representations",
+      "ToVo: Toxicity Taxonomy via Voting",
+      "A Deep Learning Approach to Early Identification of Remote Access Trojans",
+      "Open-domain Named Entity Recognition for Low Resource Languages: A Case Study on Vietnamese",
+      "Enhancing ColBERT: A Method for Reducing Space Complexity and Accelerating Retrieval Speed",
+      "Online Robust Reinforcement Learning Through Monte-Carlo Planning",
+      "Power Mean Estimation in Stochastic Continuous Monte-Carlo Tree Search",
+      "Monte-Carlo Tree Search with Uncertainty Propagation via Optimal Transport",
+      "A Tool for Preventing Consanguineous Marriages Using Vietnam’s National Residents Database",
+      "Early Fault Detection in Pump Systems Using Unsupervised Anomaly Detection Techniques",
+      "Potential Customer Detection for Decentralized Finance Applications Based on Wallet Transactions",
+      "Enhancing Taxonomy Construction via Sentence Embedding Models Trained with LLM-Generated Similarity Scores",
+      "Provably Improving Generalization of Few-shot models with Synthetic Data",
+      "Constructing Decision Trees from Data Streams",
+      "Advanced GNSS Spoofing Mitigation: A Gaussian Mixture Model Approach Based on Carrier Phase Double Differences",
+      "Differential Evolution for Infeasible Circumstances in Network-Assisted Full-Duplex Cell-Free Massive MIMO",
+      "Pareto Front Grid Guided Multiobjective Optimization In Dynamic Pickup And Delivery Problem Considering Two-Sided Fairness",
+      "Hybrid Deterministic and Metaheuristic Optimization for Physical Adversarial Attack on End-to-End Autoencoder Wireless Communication Systems",
+      "A bi-objective Medical Sampling Service System",
+      "Multi-Objective Signal Optimization to Balance Multiple Conflicting Metrics in RIS-Assisted MIMO Systems",
+      "HiCOT: Improving Neural Topic Models via Optimal Transport and Contrastive Learning",
+      "Topic Modeling for Short Texts via Optimal Transport-Based Clustering",
+      "Mitigating Non-Representative Prototypes and Representation Bias in Few-Shot Continual Relation Extraction",
+      "A Web3 System for Management and Authentication of Image Copyright Using Watermarking and Blockchain",
+      "Reinforcement Learning-based Genetic Algorithm for Computation Offloading Optimization in UAV-assisted MEC Systems",
+      "MTMLD-AWSR: A Novel Multi-Teacher Multi-Level Distillation Approach for Class Incremental Learning in Edge-Cloud Systems",
+      "LLM-Based Compliance Analysis of Declared Policies and Actual Cookie Usage on Websites",
+      "Efficient Sign Language Recognition with Skeleton Data: A Study of Keypoint Selection, Pose Estimators, and GCN Models",
+      "Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering",
+      "Reducing Communication Overhead in Federated Learning using Deep Reinforcement Learning",
+      "POSTER: Multimodal Graph Networks for Systematic Generalization in Code Clone Detection",
+      "Detection of Varroa Mites from Bee Images Using YOLO Architecture",
+      "A Semi-decentralized PKI Based on Blockchain with Identity Retention",
+      "MolHFCNet: Enhancing Molecular Graph Representations with Hierarchical Feature Combining and Hybrid Pretraining",
+      "Deep Learning-Based GNSS Jamming Classification Using Simulation-Generated Data and Time-Frequency Analysis",
+      "GRFuzz: A Deep Reinforcement Learning Approach to Python Library Fuzzing with GRPO",
+      "Efficient Federated Learning Convergence with Epoch Adaptation",
+      "Enhancing Unsupervised Domain Adaptation in Semantic Segmentation Through Selective Consensus and Gaussian Mixture Model-Based Pseudo-Labeling",
+      "ThyroidXL: Advancing Thyroid Nodule Diagnosis with an Expert-Labeled, Pathology-Validated Dataset",
+      "Optimal Regret Bounds via Low-Rank Structured Variation in Non-Stationary Reinforcement Learning",
+      "Unleashing SAM for Few-Shot Medical Image Segmentation with Dual-Encoder and Automated Prompting",
+      "PedCLIP: A Vision-Language model for Pediatric X-rays with Mixture of Body part Experts",
+      "When Retriever Meets Generator: A Joint Model for Code Comment Generation",
+      "Classification of Waste Bottles Using Image Processing and Deep Neural Networks",
+      "Clustering Strategies in Satellite-Aided Communications",
+      "SmaLLaMA-A*: Lightweight Language Models for Efficient and Robust Path Planning",
+      "More Reliable Pseudo-Labels, Better Performance: A Generalized Approach to Single Positive Multi-Label Learning",
+      "ConstStyle: Robust Domain Generalization with Unified Style Transformation",
+      "Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding",
+      "Region-Level Data Attribution for Text-to-Image Generative Models",
+      "Federated Prompt-Tuning with Heterogeneous and Incomplete Multimodal Client Data",
+      "Framework for Detecting and Suggesting Corrections for Missing and Inconsistent Data in Vietnam’s National Residents Database",
+      "Toward Realistic Evaluations of Just-In-Time Vulnerability Prediction",
+      "VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models",
+      "O_O-VC: Synthetic Data-Driven One-to-One Alignment for Any-to-Any Voice Conversion",
+      "XTRA: Cross-Lingual Topic Modeling with Topic and Representation Alignments",
+      "Multi-Surrogate-Objective Optimization for Neural Topic Models",
+      "EMO: Embedding Model Distillation via Intra-Model Relation and Optimal Transport Alignments",
+      "MaGiX: A Multi-Granular Adaptive Graph Intelligence Framework for Enhancing Cross-Lingual RAG",
+      "PADM: A Physics-aware Diffusion Model for Attenuation Correction",
+      "Building Reliable Covert Timing Channels via Error Correction Codes",
+      "Sketch2comic: A Diffusion-Based Framework for Consistent Multi-Character Comic Synthesis",
+      "WSS-CL: Weight Saliency Soft-Guided Contrastive Learning for Efficient Machine Unlearning Image Classification",
+      "MLAlgo-Bench: Can Machines Implement Machine Learning Algorithms?",
+      "Planning to Prove: Improving Informal Proofs of Olympiad Inequalities from Large Language Models",
+      "Community Detection in Complex Overlapping Networks Using Graph Autoencoders with Semi-supervised Fuzzy Clustering",
+      "MAML AE-SAC: A Synergy Framework of Meta-Learning and Adversarial Reinforcement Learning for Adaptive Intrusion Detection",
+      "Token-Level Self-Play with Importance-Aware Guidance for Large Language Models",
+      "Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data",
+      "ROOT: Rethinking Offline Optimization as Distributional Translation via Probabilistic Bridge",
+      "Towards Improving Low-Resource Machine Translation with Lightweight Training and Synthetic Data: Case Study of Vietnamese – Khmer",
+      "Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation",
+      "Proposing Deep Learning Models for Vietnamese Medical Prescription Information Extraction",
+      "Proposing Deep Learning Models for Vietnamese Medical Prescription Named Entity Recognition",
+      "A Lightweight Incentive Mechanism for Blockchain-based VANET",
+      "DBA: A Novel Diffusion-Based Method for Adversarial Defense via Image Restoration",
+      "Bake Two Cakes with One Oven: RL for Defusing Popularity Bias and Cold-start in Third-Party Library Recommendations",
+      "Privacy-Preserving Personalized Federated Learning for Encrypted Traffic Classification",
+      "Zenid: Facefusionnet-Guided Diffusion for Parent-to-Child Facial Prediction"
+    ],
+    "exclude": [
+      {
+        "title": "Framing a Global Pandemic: Journalism Cultures and Media Coverage of COVID-19 in China, South Korea, the United Kingdom, and the United States",
+        "reason_vi": "Nghiên cứu văn hóa báo chí và cách truyền thông đưa tin về COVID-19; không có đóng góp thuật toán, hệ thống hay kỹ thuật công nghệ cụ thể."
+      },
+      {
+        "title": "Học bổng thu hút sinh viên giỏi học các ngành khoa học cơ bản, kỹ thuật, công nghệ – Bài học từ các quốc gia phát triển và giải pháp cho Việt Nam",
+        "reason_vi": "Nghiên cứu chính sách học bổng và thu hút người học. Việc nhắc tới ngành kỹ thuật/công nghệ không biến nội dung chính sách giáo dục thành nghiên cứu công nghệ."
+      },
+      {
+        "title": "Fairness in Credit Scoring: A Bibliometric Analysis of the Last 15 Years",
+        "reason_vi": "Phân tích thư mục về công bằng trong chấm điểm tín dụng, không phải xây dựng hoặc đánh giá một thuật toán/hệ thống chấm điểm cụ thể."
+      },
+      {
+        "title": "The Proposed Smart Model to Impact of Brand Equity on Purchases Intention in Vietnam’s Fast Fashion Market",
+        "reason_vi": "Abstract Springer tập trung vào quan hệ giữa giá trị thương hiệu, tính bền vững và ý định mua hàng. Cụm smart model/information system không đi kèm đóng góp kỹ thuật cụ thể trong nguồn đã đọc; đây là nghiên cứu hành vi người tiêu dùng/quản trị."
+      }
+    ],
+    "uncertain": [
+      {
+        "title": "Some Novel Concepts of Bipolar Picture Fuzzy Influence Graphs Models With Application Toward MADM",
+        "reason_vi": "Tiêu đề và thông tin truy cập được nêu các khái niệm đồ thị mờ cùng ứng dụng ra quyết định đa thuộc tính. Chưa xác minh được đóng góp thuật toán, triển khai hệ thống hoặc ứng dụng kỹ thuật đủ cụ thể từ nguồn nhà xuất bản; không giữ chỉ vì nhãn mô hình toán/IEEE Access."
+      },
+      {
+        "title": "Some Concepts of Interval Valued Pythagorean Fuzzy Graphs and Analysis of Socioeconomic Conditions of Communities",
+        "reason_vi": "Bản ghi tập trung mở rộng khái niệm đồ thị mờ để phân tích điều kiện kinh tế-xã hội. Chưa có bằng chứng nguồn chính đủ rõ về thuật toán hay ứng dụng công nghệ cụ thể; loại khỏi tập chính cho tới khi xác minh."
+      },
+      {
+        "title": "Khai thác hình ảnh vệ tinh, khám phá sự bất bình đẳng kinh tế các địa phương và hoạt động kinh doanh bền vững của doanh nghiệp",
+        "reason_vi": "Nguồn thư mục cho biết dùng ảnh vệ tinh để nghiên cứu bất bình đẳng và hoạt động kinh doanh, nhưng liên kết bài không truy cập được. Chưa chứng minh đóng góp xử lý ảnh, viễn thám hoặc thuật toán mới; dữ liệu lấy từ công nghệ chưa đủ để xếp chính nghiên cứu là công nghệ."
+      },
+      {
+        "title": "A Generative AI-Based Framework for E-Content Production: A Case Study in Higher Education",
+        "reason_vi": "Chỉ có thông tin thư mục về khung dùng AI tạo sinh để sản xuất học liệu; chưa tìm được abstract hoặc mô tả kỹ thuật để phân biệt hệ thống/phương pháp AI cụ thể với quy trình sư phạm sử dụng công cụ có sẵn. Đưa ra khỏi tập chính theo nguyên tắc chặt."
+      }
+    ]
+  },
+  "vku_bib_relevance": {
+    "keep": [
+      "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+      "A TRIZ-Based Experimental Design Approach to Enhance Wave Soldering Efficiency in Electronics Manufacturing",
+      "Üng dung chuyén giao trong phåt hien nguy co chåy rừng",
+      "A Novel Hybrid Deep Learning Framework for Automated Malaria Parasite Detection in Microscopic Blood Smear Images",
+      "Improving Machine Learning-based Test Smell Prediction using Data Processing Techniques",
+      "Detecting ODE Mells in Java Rojects: A Omparative Tudy of Raditional Achine Earning and EEP Earning Approaches",
+      "A Hybrid Deep Learning Architecture for Multi-Task Financial Forecasting: Integrating Bi-LSTM and Hierarchical Attention",
+      "DWACE: Enhancing Graph Clustering via Autoencoder and Contrastive Learning Refinement of DeepWalk Embeddings",
+      "Performance Analysis of Wireless Optical Link with RIS Aided and the Implications of using Gaussian Q-function",
+      "Enhancing Software Fault Prediction using Wrapper-based Metaheuristic Feature Selection Methods",
+      "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+      "Applications of Artificial Intelligence in Indoor Fire Prevention and Fighting",
+      "Test Smell Prediction Via Automated Machine Learning",
+      "Intellectual Rooms based on AmI and IoT technologies",
+      "Detecting Abnormal Cervical Cells Based on Segmentation of Overlapping Cells",
+      "Combining Lightweight Deep Learning Models with Data Augmentation for Analysis of Cervical Cells",
+      "Cross-modal prototype based multimodal federated learning under severely missing modality",
+      "Analysis and evaluation about the dimmable light affect positioning-based MISO visible light communication",
+      "Resource-Efficient Federated Multimodal Learning via Layer-Wise and Progressive Training",
+      "A Comparative Study of Deep Learning Methods for Cyberbullying Detection",
+      "Research and implementation a contactless delivery system utilizing IoT technology",
+      "Design And Implementation of a Smart Parking System",
+      "Enhancing Age and Gender Detection Performance in CNNs Through Optimization of Batch Normalization and Dropout Settings with Iterative Parameter",
+      "A Study on the Benefits and Effectiveness of a Deep Analysis Model in Implementing Hands-on Exercises for DDoS Attack Detection and Prevention",
+      "AnImproved the Fractional- Order Accumulated Grey Model by Trigonometric series and Its Application in Tourism Industry",
+      "Animproved the prediction accuracy of the Fractional- order accumulated Grey model by Fourier series and Its application in Container Throughput Forecasting in Danang Port, Vietnam",
+      "Hybrid Number Theoretic Transform Architecture for Homomorphic Encryption",
+      "Effects of atmospheric turbulence and reconfigurable intelligent surfaces on near terrestrial optical link for internet of things",
+      "Some applications of Normal distribution in Machine Learning algorithms",
+      "Facial Expression Recognition: A Lite Deep Learning-Based Approach",
+      "Fake News Detection System, based on CBOW and BERT",
+      "FedMEKT: Distillation-based embedding knowledge transfer for multimodal federated learning",
+      "Utilization of Abductive Reasoning for Finding Missing Information in Gene Networks",
+      "Enhancing Data Security in Federated Learning with Dilithium",
+      "Enhancing Software Fault Localization with Variational Autoencoder and Residual Neural Networks",
+      "Performance Analysis of Deep Learning Models for Software Fault Prediction Using the BugHunter Dataset",
+      "A comparative study of handling imbalanced data using generative adversarial networks for machine learning based software fault prediction",
+      "SPARTA-GEMSTONE: A two-phase approach for efficient node placement in 3D WSNs under Q-Coverage and Q-Connectivity constraints",
+      "Deep learning model to identify Vietnamese historical figures",
+      "E2v-PhoBERT: A Fine-Tuned PhoBERT Model with Enhanced Accuracy for High-Performance Vietnamese Sentiment Analysis"
+    ],
+    "exclude": [
+      {
+        "title": "Applying Practical Approaches in Teaching General Physics – Mechanics to Enhance Students’ Engagement At the Vietnam–Korea University of Information and Communication Technology",
+        "reason_vi": "Nghiên cứu phương pháp giảng dạy vật lý và mức độ tham gia/sáng tạo của sinh viên; không phải nghiên cứu thiết bị, thuật toán hoặc công nghệ vật lý."
+      },
+      {
+        "title": "Legal Framework for Electronic Labor Contracts in Enterprises",
+        "reason_vi": "Nghiên cứu khung pháp luật cho hợp đồng lao động điện tử; không trình bày đóng góp công nghệ hợp đồng hay an toàn hệ thống."
+      },
+      {
+        "title": "Verb Form Errors Made by Non-English Major University Students in Vietnam",
+        "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+      },
+      {
+        "title": "The Role of Green Finance in Sustainable Development and Climate Change Adaptation in Danang City",
+        "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+      },
+      {
+        "title": "Application of Blockchain Technology in Developing Supply Chain Finance Products for Commercial Banks in Vietnam",
+        "reason_vi": "Đã đọc abstract: đánh giá khái niệm, lợi ích, rào cản và khuyến nghị quản trị/pháp lý cho blockchain trong tài trợ chuỗi cung ứng; không thiết kế thuật toán, giao thức hoặc hệ thống blockchain."
+      },
+      {
+        "title": "Special Issue on “Simulation, Modeling, and Decision-Making Processes in Manufacturing Systems and Industrial Engineering”",
+        "reason_vi": "Mục giới thiệu số chuyên đề (special issue/editorial), không phải một công trình nghiên cứu công nghệ cụ thể."
+      },
+      {
+        "title": "OMO Education Model-flexible and Comprehenshive Learning Solution in Current Open Education",
+        "reason_vi": "Mô hình tổ chức giáo dục OMO và giải pháp học tập; tiêu đề không nêu thiết kế phần mềm, thuật toán hoặc hạ tầng kỹ thuật cụ thể."
+      },
+      {
+        "title": "Enhancing Speaking skills for ESL Learners",
+        "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+      },
+      {
+        "title": "Influences Of Destination Experience And Destination Service Factors On Domestic Tourists’ Revisiting Intention To Danang City And How To Increase Their 2nd Time Rate: A Case Study Of Beach Destinations",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Bảo vệ môi trường, sức khỏe và tăng trưởng kinh tế: Định hướng chính sách phát triển bền vững của Việt Nam",
+        "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+      },
+      {
+        "title": "The Role of Artificial Intelligence (AI) in Educational and Vocational Guidance for Students",
+        "reason_vi": "Đã đọc abstract: khảo sát nhận thức, kỳ vọng và ý định dùng tư vấn AI, kèm phân tích thang đo; không xây dựng hoặc đánh giá thuật toán/hệ thống tư vấn AI."
+      },
+      {
+        "title": "The Influence of University Branding on high School Students' Academic Major and Institution Choice",
+        "reason_vi": "Nghiên cứu thương hiệu đại học và quyết định chọn trường/ngành; thuộc marketing/giáo dục, không phải công nghệ."
+      },
+      {
+        "title": "The Impact of University Branding on High School Students' College Choice",
+        "reason_vi": "Nghiên cứu thương hiệu đại học và quyết định chọn trường/ngành; thuộc marketing/giáo dục, không phải công nghệ."
+      },
+      {
+        "title": "The Impact of Information Technology in Educational Counseling for High School Students",
+        "reason_vi": "Đã đọc abstract: bàn về lợi ích, thách thức và khuyến nghị sử dụng CNTT trong tư vấn giáo dục; không có hệ thống hay phương pháp tính toán được triển khai."
+      },
+      {
+        "title": "Tổng quan về kế toán xanh qua phân tích trắc lượng thư mục",
+        "reason_vi": "Tổng quan trắc lượng thư mục về kế toán xanh; sử dụng công cụ phân tích tài liệu không tự tạo thành đóng góp công nghệ."
+      },
+      {
+        "title": "Does Age Impact Work-life Balance? Perspective on Remote Work in Polish Public Institutions",
+        "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+      },
+      {
+        "title": "Learning Outcomes Assessment for Students of International Studies: Situation and Solutions",
+        "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+      },
+      {
+        "title": "Độ mở kinh tế tỉnh Quảng Nam (2010-2024): Tác động của xuất nhập khẩu và đầu tư trực tiếp nước ngoài",
+        "reason_vi": "Nghiên cứu kinh tế, thương mại và đầu tư; không nêu đóng góp công nghệ hoặc phương pháp tính toán mới."
+      },
+      {
+        "title": "Ứng dụng Padlet trong giảng dạy các học phần Tiếng Anh nâng cao tại Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",
+        "reason_vi": "Nghiên cứu sử dụng nền tảng Padlet có sẵn để dạy tiếng Anh; thuộc sư phạm ứng dụng công cụ, không phát triển công nghệ."
+      },
+      {
+        "title": "Building Personal Brand: Advantage and Method in Marketing",
+        "reason_vi": "Nghiên cứu chiến lược marketing, sử dụng công cụ quảng cáo hoặc phát triển sản phẩm du lịch; không phát triển thuật toán/hệ thống kỹ thuật."
+      },
+      {
+        "title": "The Impacts of Total Quality Management (TQM) on Employee’s Productivity",
+        "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+      },
+      {
+        "title": "The Impact of Digital Influence on Tourist Decision-Making Behavior",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Investigating the role of DCM to consumer behavioral intention: A study on the Vietnamese tourism industry",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Some Solutions to Improve the Effectiveness of Legal Education for Students of Vietnam-Korea University of Information and Communication Technology",
+        "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+      },
+      {
+        "title": "Deepfake Identity Risks and Its Financial Impact in Vietnam's Digital Era",
+        "reason_vi": "Đã đọc abstract: phân tích rủi ro/thiệt hại deepfake và đưa khuyến nghị pháp lý, nhận thức, phối hợp; không thiết kế hoặc kiểm thử cơ chế phát hiện/xác thực kỹ thuật."
+      },
+      {
+        "title": "The Impact of Artificial Intelligence on Personalizing User Experience in E-Commerce Platforms in Vietnam",
+        "reason_vi": "Đã đọc abstract: nghiên cứu tình huống và phản hồi người dùng về tác động AI đến trải nghiệm/mua sắm; không phát triển hệ gợi ý, mô hình AI hoặc chatbot."
+      },
+      {
+        "title": "Application Of Blockchain Technology in Vietnamese Logistics Enterprises: Current Situation and Solutions",
+        "reason_vi": "Đã đọc abstract: tổng quan tình hình, lợi ích và rào cản chấp nhận blockchain tại doanh nghiệp logistics; đóng góp là giải pháp quản trị, không phải thuật toán/giao thức/hệ thống."
+      },
+      {
+        "title": "Vietnam’s Merchandise Exports in the Current Context: Opportunities And Challenges",
+        "reason_vi": "Nghiên cứu kinh tế, thương mại và đầu tư; không nêu đóng góp công nghệ hoặc phương pháp tính toán mới."
+      },
+      {
+        "title": "Targeting Features in Google Ads: A Strategic Approach for Vietnamese Businesses",
+        "reason_vi": "Nghiên cứu chiến lược marketing, sử dụng công cụ quảng cáo hoặc phát triển sản phẩm du lịch; không phát triển thuật toán/hệ thống kỹ thuật."
+      },
+      {
+        "title": "A Study on the Integration of Multiple Intelligences-Oriented Activities into the Development of Speaking Skills Among Non-English Major Sophomores at Vietnam-Korea University of Information and Communication Technology",
+        "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+      },
+      {
+        "title": "Strategic Recommendations for Enhancing the Development of Unique Tourism Products in Da Nang, Vietnam",
+        "reason_vi": "Nghiên cứu chiến lược marketing, sử dụng công cụ quảng cáo hoặc phát triển sản phẩm du lịch; không phát triển thuật toán/hệ thống kỹ thuật."
+      },
+      {
+        "title": "Price Discrimination and the Influence on Foreign Tourists’ Decision of Returning in Hoi An Ancient Town, Vietnam",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Using AHP Technology to Analysis Factors Affecting to Innovative Business Model of Start-Ups in Viet Nam",
+        "reason_vi": "Đã đọc abstract: dùng AHP có sẵn trên khảo sát chuyên gia để xếp hạng yếu tố mô hình kinh doanh; đóng góp chính là quản trị khởi nghiệp, không cải tiến thuật toán AHP."
+      },
+      {
+        "title": "Stimulate Students' Thinking and Creativity by Active Teaching Methods in the Content Section \"Electromagnetic Induction\" - General Physics",
+        "reason_vi": "Nghiên cứu phương pháp giảng dạy vật lý và mức độ tham gia/sáng tạo của sinh viên; không phải nghiên cứu thiết bị, thuật toán hoặc công nghệ vật lý."
+      },
+      {
+        "title": "Research on Customer Satisfaction with Service Quality at Da Nang Food Tour Festival 2025",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Model of Factors Influencing Rural Tourism Development in Vietnam",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "The Current State of Smart Tourism in Da Nang City and a Proposed Model for Measuring Tourist Satisfaction via Destination Image, Perceived Smart Tourism Technologies, and Memorable Tourism Experiences",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Comparison of the impact of Korean and Chinese tourists on the economy of Da Nang city, Vietnam",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "The Impact of Macroenvironment to Sustainable Tourism Development",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Artificial Intelligence in Higher Education: Opportunities and Challenges from the Perspective of the Information Technology Industry",
+        "reason_vi": "Đã đọc abstract: tổng quan cơ hội, thách thức, đạo đức và khung đào tạo khi sử dụng AI ở đại học; không trình bày công nghệ hay hệ thống AI cụ thể được phát triển."
+      },
+      {
+        "title": "Potential Application of the Transtheoretical Model of Behavior Change (TTM) in the Study of the Motivation of Social Entrepreneurs",
+        "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+      },
+      {
+        "title": "Empowering Women in Entrepreneurship: Lessons and Recommendations for Vietnam",
+        "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+      },
+      {
+        "title": "Why do clients switch? An empirical study on third-party logistics (3PL) service providers’ loyalty in Vietnam",
+        "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+      },
+      {
+        "title": "Topic-Comment Sentences in English and Vietnamese: A Contrastive Analysis",
+        "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+      },
+      {
+        "title": "Các hoạt động nhằm tăng tính hứng thú cho giờ học đọc hiểu ở các lớp không chuyên tiếng Anh tại Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",
+        "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+      },
+      {
+        "title": "Nâng cao nhận thức của sinh viên về chủ nghĩa xã hội và con đường đi lên xã hội chủ nghĩa ở Việt Nam trong bối cảnh hiện nay",
+        "reason_vi": "Nghiên cứu chính trị, tư tưởng hoặc triết học; không liên quan đến nghiên cứu công nghệ."
+      },
+      {
+        "title": "Triết lý \"Khổ tận cam lai\" từ Nguyễn Du đến Hồ Chí Minh",
+        "reason_vi": "Nghiên cứu chính trị, tư tưởng hoặc triết học; không liên quan đến nghiên cứu công nghệ."
+      },
+      {
+        "title": "Negative Transfer of Topic-Comment Structures: Causes and Implications",
+        "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+      },
+      {
+        "title": "Ứng dụng chatbot trong bán lẻ trực tuyến tại Việt Nam: Các yếu tố quyết định và tác động đến trải nghiệm người dùng",
+        "reason_vi": "Đã đọc abstract: dùng TAM/UTAUT nghiên cứu sự chấp nhận chatbot và trải nghiệm khách hàng; không phát triển chatbot hay thuật toán ngôn ngữ."
+      },
+      {
+        "title": "Chiến lược phát triển năng lực số trong giáo dục Việt Nam: Bài học quốc tế và định hướng thực tiễn",
+        "reason_vi": "Chiến lược phát triển năng lực số trong giáo dục; thuộc chính sách/đào tạo, không nghiên cứu kỹ thuật số cụ thể."
+      },
+      {
+        "title": "Các yếu tố tác động đến ý định chuyển đổi số trong hoạt động tài chính - kế toán của doanh nghiệp",
+        "reason_vi": "Nghiên cứu ý định chuyển đổi số hoặc hiệu quả doanh nghiệp tài chính/kế toán; không có đóng góp thuật toán, phần mềm hoặc hệ thống."
+      },
+      {
+        "title": "Phân tích và dự đoán dữ liệu từ các hệ thống IoT sử dụng Big Data trong giáo dục đại học",
+        "reason_vi": "Đã đọc abstract: nội dung là tổng quan ứng dụng công nghệ số, IoT và Big Data để nâng chất lượng giáo dục; không có thiết kế pipeline dữ liệu, mô hình dự đoán hoặc hệ thống được kiểm thử."
+      },
+      {
+        "title": "Public service motivation in Vietnam: Insights from a Q-methodology approach",
+        "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+      },
+      {
+        "title": "Impact of Artificial Intelligence Technology on English Language Teaching and Learning",
+        "reason_vi": "Đánh giá tác động của công cụ AI/hợp tác trực tuyến trong dạy học; không thể hiện phát triển công nghệ hay phương pháp tính toán."
+      },
+      {
+        "title": "Green Economy in the Modern Economy: A Comprehensive Study on Its Role and Impact in the Contemporary World",
+        "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+      },
+      {
+        "title": "Impact of Digital Transformation on the Performance of Accounting Service Enterprises",
+        "reason_vi": "Nghiên cứu ý định chuyển đổi số hoặc hiệu quả doanh nghiệp tài chính/kế toán; không có đóng góp thuật toán, phần mềm hoặc hệ thống."
+      },
+      {
+        "title": "Research on the Impact of Electronic Word-of-Mouth (EWOM), User-Generated Content and Subjective Norm on the Intention to Purchase Vegan Cosmetics of Gen Z Women Through Social Media Platforms in Vietnam",
+        "reason_vi": "Nghiên cứu hành vi mua hàng, ảnh hưởng truyền thông và mức sẵn sàng chi trả; thuộc marketing/kinh tế tiêu dùng."
+      },
+      {
+        "title": "Exploring Italian consumers’ willingness to pay for sustainable fashion: the roles of eco‑consciousness and vintage preference",
+        "reason_vi": "Nghiên cứu hành vi mua hàng, ảnh hưởng truyền thông và mức sẵn sàng chi trả; thuộc marketing/kinh tế tiêu dùng."
+      },
+      {
+        "title": "Bàn về phát triển bền vững và kinh tế xanh ở Việt Nam",
+        "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+      },
+      {
+        "title": "Applying Inquiry Based Learningmethod in Teaching Marketing Essentialssubject At Vietnam - Korea University of Information and Communication Technology - University of Da Nang",
+        "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+      },
+      {
+        "title": "Giải pháp hỗ trợ tạo động lực cho hiện thực hóa ý tưởng khởi sự kinh doanh trong sinh viên",
+        "reason_vi": "Giải pháp tạo động lực khởi sự kinh doanh cho sinh viên; không phải công trình công nghệ."
+      },
+      {
+        "title": "Các mô hình đào tạo nhân lực du lịch đạt chuẩn quốc tế - Bài học rút ra từ các nước phát triển",
+        "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+      },
+      {
+        "title": "Tác động của các công cụ hợp tác trực tuyến trong giáo dục đại học",
+        "reason_vi": "Đánh giá tác động của công cụ AI/hợp tác trực tuyến trong dạy học; không thể hiện phát triển công nghệ hay phương pháp tính toán."
+      },
+      {
+        "title": "How Does Public Service Motivation Mediate the Relationship between Adaptive and Authentic Leadership and Employee Outcomes? Empirical Evidence in Vietnam",
+        "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+      }
+    ],
+    "uncertain": [
+      {
+        "title": "Application of Grey forecasting model to estimate the Cargo throughput in Vietnam seaports",
+        "reason_vi": "Tóm tắt chỉ áp dụng và so sánh GM/FGM có sẵn để dự báo hàng hóa cho quy hoạch cảng; chưa xác định được đóng góp mới về thuật toán, phần mềm hoặc hệ thống kỹ thuật. Tạm loại khỏi dữ liệu chính."
+      },
+      {
+        "title": "Sử dụng mô hình Xám để dự báo giá trị kim ngạch xuất khẩu của Việt Nam giai đoạn 2025-2030",
+        "reason_vi": "Tóm tắt chủ yếu dự báo kim ngạch xuất khẩu bằng GM/DGM có sẵn để hỗ trợ hoạch định kinh tế; chưa đủ bằng chứng về đóng góp phương pháp tính toán hoặc công nghệ. Tạm loại khỏi dữ liệu chính."
+      },
+      {
+        "title": "A Data-Driven Approach to Business Intelligence for Evaluating Football Player Performance",
+        "reason_vi": "Tóm tắt nêu khung phân tích KPI cầu thủ và advanced analytics nhưng không chỉ rõ thuật toán, hệ thống hay cải tiến kỹ thuật; chưa phân biệt được nghiên cứu công nghệ với báo cáo phân tích thể thao. Tạm loại khỏi dữ liệu chính."
+      },
+      {
+        "title": "Short-Term Forecasting of Student Dropout Trends Using Minimal-Data Predictive Modeling",
+        "reason_vi": "Tóm tắt mô tả áp dụng GM(1,1) có sẵn cho dự báo bỏ học và khuyến nghị quản lý; chưa thấy đóng góp về thuật toán, phần mềm hoặc hệ thống giáo dục thông minh. Tạm loại khỏi dữ liệu chính."
+      },
+      {
+        "title": "Ứng dụng mô hình Xám để dự đoán lượng hàng hóa lưu thông qua cảng biển ở Việt Nam",
+        "reason_vi": "Tóm tắt áp dụng GM/DGM có sẵn để dự báo hàng hóa phục vụ chính sách và quản lý cảng; chưa đủ bằng chứng đóng góp kỹ thuật của phương pháp hay hệ thống. Tạm loại khỏi dữ liệu chính."
+      },
+      {
+        "title": "Supplier selection through an integrated multi-criteria decision-making model: A study on barge service providers in the Mekong Delta of Vietnam",
+        "reason_vi": "Tóm tắt nêu mô hình MCDM tích hợp để chọn nhà cung cấp vận tải nhưng không đủ chi tiết xác nhận cải tiến thuật toán hoặc hệ thống quyết định; có thể chỉ là ứng dụng phương pháp quản trị. Tạm loại khỏi dữ liệu chính."
+      },
+      {
+        "title": "Ứng dụng mô hình Xám để dự đoán lượng hàng hóa lưu thông qua cảng biển ở Việt Nam",
+        "reason_vi": "Tóm tắt áp dụng GM/DGM có sẵn để dự báo hàng hóa phục vụ chính sách và quản lý cảng; chưa đủ bằng chứng đóng góp kỹ thuật của phương pháp hay hệ thống. Tạm loại khỏi dữ liệu chính."
+      }
+    ]
+  },
+  "ptit_bib_relevance": {
+    "keep": [
+      "MULTI-LEVEL STACKING ENSEMBLE LEARNING FOR ENHANCED ECG-BASED ARRHYTHMIA DETECTION",
+      "PERFORMANCE OF MULTI RIS AIDED UPLINK WIRELESS SYSTEMS WITH SHORT PACKET COMMUNICATIONS",
+      "Ăng ten MIMO 2×2 băng siêu rộng có hệ số cách ly cao ứng dụng cho truyền thông 5G băng tần dưới 6GHz",
+      "Electrocardiogram Based Heartbeat Detection Using Deep Learning",
+      "A Perception-Driven Framework for Robust V2V Cooperative Localization",
+      "MACHINE LEARNING-BASED PREDICTION OF HEART FAILURE USING GENETIC DATA",
+      "IDENTIFYING RISK FACTORS AND SURVIVAL PREDICTION OF HEART FAILURE PATIENTS USING MACHINE LEARNING",
+      "EXPERIMENTAL PERFORMANCE EVALUATION OF WIREGUARD PROTOCOL COMPARED TO OPENVPN AND IPsec IN VIRTUAL PRIVATE NETWORKS",
+      "Outage Probability of Adaptive RIS-NOMA Downlink System with Channel-Aware Scheduling for Heterogeneous Users",
+      "Hiệu năng chiến lược chuyển giao phổ tần trong mạng vô tuyến hợp tác nhận thức hỗ trợ IoT",
+      "Performance Analysis of RIS-UAV-Assisted Cooperative NOMA with Two-Phase Transmission for Finite Blocklength Communications",
+      "Improving the performance of FBG optical sensor networks integrated with DWDM optical transmission networks",
+      "ECG-Based Arrhythmia Classification with Principal Component Analysis and Machine Learning",
+      "Đánh giá hiệu năng mạng cảm biến đa sự kiện sử dụng giao thức PMME thích nghi",
+      "Design of a Multi-Band RF-DC Circuit for Energy Harvesting in IoT Sensor Systems",
+      "Thiết kế nền tảng thực hành trực tuyến AIoT",
+      "Ứng dụng Lý thuyết Dấu ấn trong xây dựng mô hình phân tích dữ liệu thời gian thực.",
+      "NGHIÊN CỨU ỨNG DỤNG HỌC MÁY NHỎ TINYML CHO NÔNG NGHIỆP VÀ SẢN XUẤT CÔNG NGHIỆP",
+      "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+      "Design and Performance Analysis of an SCM-Integrated SIKD Satellite FSO System Using Dual-Threshold CV-QKD",
+      "KỸ THUẬT MIMO CỠ LỚN PHI TẾ BÀO VÀ ỨNG DỤNG TRONG MẠNG TRUYỀN THÔNG VỆ TINH QUỸ ĐẠO THẤP",
+      "Secure Block-Error Rate in Cooperative SPC Systems with Collaborative Jamming",
+      "A Study on Feature Selection Algorithms for Machine Learning-based ALS Diagnosis"
+    ],
+    "exclude": [],
+    "uncertain": []
+  }
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "url": "https://engineering.purdue.edu/ETSL/publication.html",
+    "http_status": 200,
+    "final_url": "https://engineering.purdue.edu/ETSL/publication.html",
+    "page_title": "Energy and Transport Sciences Lab",
+    "checked_on": "2026-10-30",
+    "content_sha256": "a4815cd4b6c2e2bc799df114301c6d75e9a05f58ce77bdb272863a1c1124c0bd"
+  },
+  {
+    "url": "https://engineering.purdue.edu/MTEC/",
+    "http_status": 200,
+    "final_url": "https://engineering.purdue.edu/MTEC",
+    "page_title": "Marconnet Thermal and Energy Conversion Lab - Purdue University",
+    "checked_on": "2026-10-30",
+    "content_sha256": "427b959bb9001f411e2bc363d816381a45ede43f54ea384660325d3c68c9aa7b"
+  },
+  {
+    "url": "https://engineering.purdue.edu/MTEC/publications/electrospun-boron-nitride-nanotube-fabrics-tunable-thermal-conductivity-through-controlled-nanotube-orientation",
+    "http_status": 200,
+    "final_url": "https://engineering.purdue.edu/MTEC/publications/electrospun-boron-nitride-nanotube-fabrics-tunable-thermal-conductivity-through-controlled-nanotube-orientation",
+    "page_title": "Electrospun Boron Nitride Nanotube Fabrics: Tunable Thermal Conductivity through Controlled Nanotube Orientation - Marconnet Thermal and Energy Conversion Lab - Purdue University",
+    "checked_on": "2026-10-30",
+    "content_sha256": "8ea88780f2d7dbf5d4fc92284d4f3ba537bf27abdd9b68ba8fd95741d8692036"
+  },
+  {
+    "url": "https://news.engineering.tamu.edu/",
+    "http_status": 200,
+    "final_url": "https://news.engineering.tamu.edu/",
+    "page_title": "Engineering News - Engineering News",
+    "checked_on": "2026-10-30",
+    "content_sha256": "de4a0f0d835a4873ba5c09760336a983729f0bb2b7b9778ebcba69fff6c71b6a"
+  },
+  {
+    "url": "https://news.engineering.tamu.edu/news/2026/07/03/unexpected-discovery-yields-new-graphene-oxide-production-method/",
+    "http_status": 200,
+    "final_url": "https://news.engineering.tamu.edu/news/2026/07/03/unexpected-discovery-yields-new-graphene-oxide-production-method/",
+    "page_title": "Unexpected discovery yields new graphene oxide production method - Engineering News",
+    "checked_on": "2026-10-30",
+    "content_sha256": "6680ceff8923bffc564fa54af39be9d8af4c64d07ea15a1aa596fe6abe70446f"
+  },
+  {
+    "url": "https://news.gatech.edu/",
+    "http_status": 200,
+    "final_url": "https://news.gatech.edu/",
+    "page_title": "Georgia Tech News Center",
+    "checked_on": "2026-10-30",
+    "content_sha256": "070d713dc885cdfbddbe6310f894700db69bd2bb697a5c709246e5cf15a3009f"
+  },
+  {
+    "url": "https://news.mit.edu/",
+    "http_status": 200,
+    "final_url": "https://news.mit.edu/",
+    "page_title": "MIT News | Massachusetts Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "39b664ab9edca6a9d7b3caae2d24fe9906a5d0c33760896c070ed4912b79762a"
+  },
+  {
+    "url": "https://news.mit.edu/2025/security-scheme-could-protect-sensitive-data-during-cloud-computation-0319",
+    "http_status": 200,
+    "final_url": "https://news.mit.edu/2025/security-scheme-could-protect-sensitive-data-during-cloud-computation-0319",
+    "page_title": "Security scheme could protect sensitive data during cloud computation | MIT News | Massachusetts Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "3a390a361ca5de8c2a5218b2193757a68ae8d5274f00982a4620d6f5b9e6f139"
+  },
+  {
+    "url": "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+    "http_status": 200,
+    "final_url": "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+    "page_title": "Using generative AI to help robots jump higher and land safely | MIT News | Massachusetts Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "f772bb8b67c8fd046f5623bd3562a0dcd3395b36919230690cef6b6469ae132b"
+  },
+  {
+    "url": "https://news.rpi.edu/",
+    "http_status": 200,
+    "final_url": "https://news.rpi.edu/",
+    "page_title": "News | Rensselaer Polytechnic Institute",
+    "checked_on": "2026-10-30",
+    "content_sha256": "6b179a498d0c8c4d51f7578422b3b22a49fc027873d24076a783f303df6b47e1"
+  },
+  {
+    "url": "https://news.rpi.edu/2025/06/16/ai-rethought-rpi-researchers-propose-more-effective-human-approach",
+    "http_status": 200,
+    "final_url": "https://news.rpi.edu/2025/06/16/ai-rethought-rpi-researchers-propose-more-effective-human-approach",
+    "page_title": "AI Rethought: RPI Researchers Propose a More Effective, Human-Like Approach | News",
+    "checked_on": "2026-10-30",
+    "content_sha256": "2290e5e4ba44abb5cf4cb2c72014b6f9fb70ed4cd3c5e99482400192d28605c8"
+  },
+  {
+    "url": "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+    "http_status": 200,
+    "final_url": "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+    "page_title": "Nanomanufacturing Breakthrough Could Revolutionize Night Vision Technology, Other Fields | News",
+    "checked_on": "2026-10-30",
+    "content_sha256": "95f8918511e160632b47bcf964f8840f16c783e766e6231332240b8f41c8649a"
+  },
+  {
+    "url": "https://news.vt.edu/",
+    "http_status": 200,
+    "final_url": "https://news.vt.edu/",
+    "page_title": "Virginia Tech News | Virginia Tech News | Virginia Tech VT News logo",
+    "checked_on": "2026-10-30",
+    "content_sha256": "6fe336554f34f579a00413e2615d0b1860db67ec0677b9dba52b22436d3a6f65"
+  },
+  {
+    "url": "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+    "http_status": 200,
+    "final_url": "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+    "page_title": "But first, pizza: Team creates assistive robotics that can make you a meal | Virginia Tech News | Virginia Tech VT News logo",
+    "checked_on": "2026-10-30",
+    "content_sha256": "734faeb7b1eb31e8a3c789f0fc6d58c6409e92a4f980fde378de26912762c736"
+  },
+  {
+    "url": "https://people.csail.mit.edu/vinodv/pubs.html",
+    "http_status": 200,
+    "final_url": "https://people.csail.mit.edu/vinodv/pubs.html",
+    "page_title": "Publications â Vinod Vaikuntanathan",
+    "checked_on": "2026-10-30",
+    "content_sha256": "cc2081e37a5ea2c584160d10d9764c58d6aa5d2fdc5918cd8eaa5b6809048269"
+  },
+  {
+    "url": "https://researchwith.stevens.edu/en/",
+    "http_status": 403,
+    "final_url": "https://researchwith.stevens.edu/en/",
+    "page_title": "Just a moment...",
+    "checked_on": "2026-10-30",
+    "content_sha256": "ae5b7643272b7f5c73b49c250654ea28a4beaffad89d706e07f0e1516c948325"
+  },
+  {
+    "url": "https://researchwith.stevens.edu/en/publications/probing-curved-spacetime-with-a-distributed-atomic-processor-cloc/",
+    "http_status": 200,
+    "final_url": "https://researchwith.stevens.edu/en/publications/probing-curved-spacetime-with-a-distributed-atomic-processor-cloc/",
+    "page_title": "Probing Curved Spacetime with a Distributed Atomic Processor Clock - Stevens Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "3824dce9617a6a8bb3e21bf28aaf1e7202f117afac88f4cb0798d4265ac29d84"
+  },
+  {
+    "url": "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/",
+    "http_status": 200,
+    "final_url": "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/",
+    "page_title": "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach - Stevens Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "084c9bb008fe34e97dab1684995117a7058def440ec10f92e1c5f73e70532f92"
+  },
+  {
+    "url": "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/",
+    "http_status": 200,
+    "final_url": "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/",
+    "page_title": "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming? | CMU Software Engineering Institute icon-carat-right menu search cmu-wordmark cmu-wordmark",
+    "checked_on": "2026-10-30",
+    "content_sha256": "a0ae1c4cf7594709d1958e873a522faccdcf7d025210b274d9e29bccdbadcec2"
+  },
+  {
+    "url": "https://stories.tamu.edu/",
+    "http_status": 200,
+    "final_url": "https://stories.tamu.edu/",
+    "page_title": "Texas A&M Stories – News and Stories from Texas A&M University",
+    "checked_on": "2026-10-30",
+    "content_sha256": "ab3a72784f6c701c50da99eaf7de809734b9bc11d07eeecc110ebc23f11cb572"
+  },
+  {
+    "url": "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/",
+    "http_status": 200,
+    "final_url": "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/",
+    "page_title": "Building batteries that don’t break in the cold – Texas A&M Stories",
+    "checked_on": "2026-10-30",
+    "content_sha256": "50be7a4c9fbd01d7a75e30b4f427a545bfefe7c87b92c6da3469c47f49cfaaf4"
+  },
+  {
+    "url": "https://vtechworks.lib.vt.edu/",
+    "http_status": 200,
+    "final_url": "https://vtechworks.lib.vt.edu/",
+    "page_title": "VTechWorks Repository :: Home",
+    "checked_on": "2026-10-30",
+    "content_sha256": "796be812279f40ece41292b0bce07c9bad70b22044fae5b563cf0f79e504d0bb"
+  },
+  {
+    "url": "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff",
+    "http_status": 200,
+    "final_url": "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff",
+    "page_title": "Game-Theoretic and Machine Learning-based Defensive Deception for Dependable and Secure Cyber-Physical Systems",
+    "checked_on": "2026-10-30",
+    "content_sha256": "74994d069befcb2f5bc95051e0080f3cb23b2495d5e5e0799346186f4e3e07a2"
+  },
+  {
+    "url": "https://www.caltech.edu/about/news",
+    "http_status": 403,
+    "final_url": "https://www.caltech.edu/about/news",
+    "page_title": "Just a moment...",
+    "checked_on": "2026-10-30",
+    "content_sha256": "7a690b71486eacacb92bff805643625025a9864a396646281b8877974985965a"
+  },
+  {
+    "url": "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+    "http_status": 200,
+    "final_url": "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+    "page_title": "DNA-based Neural Network Learns from Examples to Solve Problems - www.caltech.edu",
+    "checked_on": "2026-10-30",
+    "content_sha256": "2cb06f152d5b303b8b69904c132d72fb99597b6d6a3b9bf43f4a1243000baafb"
+  },
+  {
+    "url": "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+    "http_status": 200,
+    "final_url": "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+    "page_title": "New AI Technique Unravels Quantum Atomic Vibrations in Materials - www.caltech.edu",
+    "checked_on": "2026-10-30",
+    "content_sha256": "613053975dd512e1df0788b82425583042cf8e1621fa85a938ccaf0d7ef86455"
+  },
+  {
+    "url": "https://www.caltech.edu/research",
+    "http_status": 200,
+    "final_url": "https://www.caltech.edu/research",
+    "page_title": "Research - www.caltech.edu",
+    "checked_on": "2026-10-30",
+    "content_sha256": "3ec8ff0460e5b34e833d7590a42ac13b2781b324f9dd32707791085c12145187"
+  },
+  {
+    "url": "https://www.epic.gatech.edu/",
+    "http_status": 200,
+    "final_url": "https://www.epic.gatech.edu/",
+    "page_title": "Home - EPIC Lab at Georgia Tech",
+    "checked_on": "2026-10-30",
+    "content_sha256": "35c35e1a85506df939e5e032cf48d917a0bbee9c9a6936dac01bca6339190be2"
+  },
+  {
+    "url": "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/",
+    "http_status": 200,
+    "final_url": "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/",
+    "page_title": "Keaton and Carlos Published a New Paper in Science Roboitcs - EPIC Lab at Georgia Tech",
+    "checked_on": "2026-10-30",
+    "content_sha256": "b6066a8c03489722dc5acb03b6992d19bd2a1b83bbae8adaae4a686cf59c147e"
+  },
+  {
+    "url": "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+    "http_status": 200,
+    "final_url": "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+    "page_title": "Smarter, Faster, and More Human: A Leap Toward General-Purpose Robots",
+    "checked_on": "2026-10-30",
+    "content_sha256": "6f8152808d9e3de7319326adcb48da91c142a6a61874e5ed16410b3c724d8d36"
+  },
+  {
+    "url": "https://www.iit.edu/news",
+    "http_status": 200,
+    "final_url": "https://www.iit.edu/news",
+    "page_title": "News | Illinois Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "5788ed7c774ca73ba41b956ca9000c746e68f1bbccf890bd11fd11ec8a722039"
+  },
+  {
+    "url": "https://www.iit.edu/news/researchers-introduce-socio-technical-approach-ai-threat-modeling",
+    "http_status": 200,
+    "final_url": "https://www.iit.edu/news/researchers-introduce-socio-technical-approach-ai-threat-modeling",
+    "page_title": "Researchers Introduce Socio-Technical Approach to AI Threat Modeling | Illinois Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "25d2804104825ffc8ac5329386ce094f5b02d09301fc2d2f2bd773b60ae124b3"
+  },
+  {
+    "url": "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+    "http_status": 200,
+    "final_url": "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+    "page_title": "Tracking Hidden Highways to Build Better Batteries | Illinois Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "269081ea75596803540f94b7ae4f1c5e02128f545a3aea8b7a4979a37da1c093"
+  },
+  {
+    "url": "https://www.iit.edu/research",
+    "http_status": 200,
+    "final_url": "https://www.iit.edu/research",
+    "page_title": "Research | Illinois Institute of Technology",
+    "checked_on": "2026-10-30",
+    "content_sha256": "c1a6ca817ecdca202fcb619489ae6826774b86607a4de249ccd3aec080a22b31"
+  },
+  {
+    "url": "https://www.sei.cmu.edu/library/",
+    "http_status": 200,
+    "final_url": "https://www.sei.cmu.edu/library/",
+    "page_title": "SEI Digital Library | CMU Software Engineering Institute icon-carat-right menu search cmu-wordmark cmu-wordmark",
+    "checked_on": "2026-10-30",
+    "content_sha256": "ef7ff5a22a6f77df7d17ee95d142d16b674d9cec0b03b2b2c879d594a9c0a477"
+  },
+  {
+    "url": "https://www.sei.cmu.edu/library/sabermetrics-for-cyber-collecting-and-analyzing-user-activity-data-from-ephemeral-exercises/",
+    "http_status": 200,
+    "final_url": "https://www.sei.cmu.edu/library/sabermetrics-for-cyber-collecting-and-analyzing-user-activity-data-from-ephemeral-exercises/",
+    "page_title": "Sabermetrics for Cyber: Collecting and Analyzing User Activity Data from Ephemeral Exercises | CMU Software Engineering Institute icon-carat-right menu search cmu-wordmark cmu-wordmark",
+    "checked_on": "2026-10-30",
+    "content_sha256": "a0f569cb28f3e0210d599dbc7a97d09ee3abdbed66e017294b407ddb66274d55"
+  }
+]

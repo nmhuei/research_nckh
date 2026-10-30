@@ -1,0 +1,1718 @@
+{
+  "records": [
+    {
+      "title": "FI-NL2PY2SQL: Financial Industry NL2SQL Innovation Model Based on Python and Large Language Model",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A multi-population multi-tasking Tabu Search with Variable Neighborhood Search algorithm to solve post-disaster clustered repairman problem with priorities",
+      "topic_codes": [
+        "COMPUTING",
+        "CONSTRUCTION_TRANSPORT"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Certified Unlearning for Federated Recommendation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "CoreNet: Leveraging context-aware representations via MLP networks for CTR prediction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Quantum-Annealing-Based Sum Rate Maximization for Multi-UAV-Aided Wireless Networks",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "A novel fuzzy knowledge graph structure for decision making of multimodal big data",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "SAFA: Handling Sparse and Scarce Data in Federated Learning with Accumulative Learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Kernelshap-nas: a shapley additive explanatory approach for characterizing operation influences",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "The interplay of assortativity, centrality, and robustness in human signaling networks: Implications for drug discovery",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "CoNet: a lightweight color classification architecture using residual connection and MBConv",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "GAMR: Revolutionizing Multi-Objective Routing in SDN Networks With Dynamic Genetic Algorithms",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "ECODI: a novel evolutionary coreset distillation with LLM-assisted fitness evaluation for encrypted network traffics",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "AIM: an accurate and explainable model for ATAC to GEX translation and pathway analysis",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Propagation-aware Q-coverage and Q-connectivity network design in relay-aided IoT sensor systems using heuristic and genetic algorithms",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Exploring Non-Matching Multiple References for Speech Quality Assessment",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Metaheuristic Optimization of Trajectory and Dynamic Time Splitting for UAV Communication Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "ROBOTICS",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "IoT-Powered Mental Healthcare: Sleep State Analyzing and Monitoring based on EEG Signals",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Gentle local robustness implies generalization",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Noisy Data-based Attack: a New Type of Untargeted Attack in Federated Learning and Its Countermeasures",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "The interictal transcriptomic map of migraine without aura",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Modeling Academic Social Networks Using Covering and Matching in Intuitionistic Fuzzy Influence Graphs",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Heuristic and approximate Steiner tree algorithms for ensuring network connectivity in mobile wireless sensor networks",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Zero Trust: Deep Learning and NLP for HTTP Anomaly Detection in IDS",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Real-time person re-identification and tracking on edge devices with distributed optimization",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "The Proposed Smart Supply Chain Management of Operations and Distributions in Forest and Agricultural Products",
+      "topic_codes": [
+        "COMPUTING",
+        "AGRI_FOOD"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "An efficient discretization and transformation scheme for maximizing secure lifetime problem in heterogeneous wireless rotatable camera sensor networks with barrier coverage",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Optimizing Answer Generator in Vietnamese Legal Question Answering Systems Using Language Models",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Generalized ordered Wasserstein distance for sequential data",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Multiple-UAV Path Planning in Obstacle Environments with Evolutionary Computation",
+      "topic_codes": [
+        "ROBOTICS",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "SPARTA-GEMSTONE: A two-phase approach for efficient node placement in 3D WSNs under Q-Coverage and Q-Connectivity constraints",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Federated Learning for Network Traffic Classification: A Knowledge Consolidation Approach",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A Survey on Video Big Data Analytics: Architecture, Technologies, and Open Research Challenges",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Hybrid Quantum Convolutional Neural Network-Aided Pilot Assignment in Cell-Free Massive MIMO Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "DASF-Net: A Multimodal Framework for Stock Price Forecasting with Diffusion-Based Graph Learning and Optimized Sentiment Fusion",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Distance of Intuitionistic Fuzzy Sets Based on Score Function of a Decision Support System and its Application",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "PRAU-GIN: GIN-based android malware classification with traffic refinement and node augmentation",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Integrating diffusion models and molecular modeling for PARP1 inhibitors generation",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "LSHADE-NGS: enhancing Q-coverage in directional sensor networks through navigated generation search",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Enhancing GNSS Spoofing Detection by Carrier-Smoothing Pseudorange Double Difference Measurements",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "M3-SLR: Self-Supervised Pretraining with MaxFlow MaskFeat for Improved Multi-View Sign Language Representation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Controlling Heterogeneous Multi-Agent Systems Under Uncertainty Using Fuzzy Inference and Evolutionary Search",
+      "topic_codes": [
+        "ROBOTICS",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "UFR-GAN: A lightweight multi-degradation image restoration model",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Joint Access Point Activation and Power Allocation for Cell-Free Massive MIMO Aided ISAC Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "M3D‐MDA: New scratchpad memory for enhancing GPU performance and energy efficiency",
+      "topic_codes": [
+        "COMPUTING",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Improved Differential Evolution for Enhancing the Aggregated Channel Estimation of RIS-Aided Cell-Free Massive MIMO",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "An Efficient Parameterized Algorithm for Computing Quantum Channel Fidelity via Symmetries Exploitation",
+      "topic_codes": [
+        "COMPUTING",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Combination of 2D and 3D nnU-Net for ground glass opacity segmentation in CT images of Post-COVID-19 patients",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Integrating multiple microRNA functional similarity networks for improved disease–microRNA association prediction",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "FedImp: Enhancing Federated Learning Convergence with Impurity-Based Weighting",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Real-time Android malware detection using Graph Isomorphism Network and statistical network traffic features",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Evaluating MPQUIC Schedulers in Dynamic Wireless Networks with 2D and 3D Mobility",
+      "topic_codes": [
+        "COMPUTING",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "New Local Search Strategy for the Minimum s-Club Cover Problem",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Context-Enriched Dynamic Graph Word Embeddings for Robust NLP Applications",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing continual semantic segmentation with visual explanations and model adaptations",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Constructions of covering sequences and 2D-sequences",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A Survey of Machine Unlearning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing Tropical Cyclone Intensity Forecasting over the Bien Dong Sea with Foundation Model and Prompt Tuning",
+      "topic_codes": [
+        "ENVIRONMENT",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ENVIRONMENT"
+    },
+    {
+      "title": "Demand-Based Adaptive Multi-Beam Placement and Resource Allocation in Non-GSO Satellite Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Adaptive ant colony optimization for solving dynamic vehicle and drone routing with time window constraints",
+      "topic_codes": [
+        "CONSTRUCTION_TRANSPORT",
+        "ROBOTICS",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+    },
+    {
+      "title": "Graph Neural Network-Based Active and Passive Beamforming for Distributed STAR-RIS-Assisted Multi-User MISO Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Prioritizing cancer therapeutic genes using BioRank: A biologically-informed PageRank framework",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Mobile device-target association optimization for connectivity enhancement in wireless IoT sensor networks",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "A study of competitions in different fields through graphs under bipolar picture fuzzy environment",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Performance Evaluation of a Deep Learning-Enhanced Software-Defined Receiver for IRNSS SPS Signals in Vietnam",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Fast marching firework method for multi-goal mobile robot path planning in complex obstacle maps",
+      "topic_codes": [
+        "ROBOTICS",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "Recognition of breast cancer from heterogeneous ultrasound images: A multi-level deep learning approach",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "A review of instruction-guided image editing",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Detection and Classification of Diseases of Cassava Leaves Using Deep Neural Networks and Various Optimization Algorithms on Large Image Datasets",
+      "topic_codes": [
+        "AGRI_FOOD",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AGRI_FOOD"
+    },
+    {
+      "title": "TopiCOT: Neural topic model aligning with pre-trained clustering and optimal transport",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Graph Neural Networks for Next-Generation-IoT: Recent Advances and Open Challenges",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Outage Analysis of a Hybrid Relay-Backscatter Communication System With Energy Harvesting for IoT and 6G Networks",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "ENERGY"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Towards Efficient and Adaptive Traffic Classification: A Knowledge Distillation-Based Personalized Federated Learning Framework",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Fairness Designs for Load Balancing Optimization in Satellite-Cell-Free Massive MIMO Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Simultaneous acquisition of geometry and material for translucent objects",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Machine learning for predicting drug–drug interactions: Graph neural networks and beyond",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Secure Distributed RIS-MIMO over Double Scattering Channels: Adversarial Attack, Defense, and SER Improvement",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "EmoDim: An independent dimensional contrastive learning with pseudo-labeling for speech emotion recognition",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Multipath Detection in GNSS Using Differential Corrections and Machine Learning-Based Classification",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Exact and Heuristic Approaches for Anti-aircraft Mission Planning for Defensive Missile Battalions",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "ULNet: Federated Unlearning for SDN Control-Plane Anomaly Detection",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Causal Graph Learning via Distributional Invariance of Cause-Effect Relationship",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Carixray: a periapical X-ray dataset for machine vision-based dental caries recognition",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Trigonometric function transformation and its application in software reliability modeling",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Design and Manufacture of Public Lighting Control Systems Based on Light Intensity Measurement",
+      "topic_codes": [
+        "ENERGY",
+        "ELECTRONICS_TELECOM",
+        "ROBOTICS"
+      ],
+      "primary_topic_code": "ENERGY"
+    },
+    {
+      "title": "Solving the maximal exposure path problem in heterogeneous directional wireless sensor networks using an improved genetic algorithm",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Điều khiển xoay tải trong hệ thống cần cẩu sử dụng phương pháp trượt phân cấp kết hợp tối ưu bầy đàn",
+      "topic_codes": [
+        "ROBOTICS",
+        "CONSTRUCTION_TRANSPORT"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "A fuzzy soft planar graph with application in image segmentation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Chấm điểm tín dụng cá nhân từ dữ liệu thay thế: Trường hợp các tổ chức tín dụng tại Việt Nam",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Improving computational drug repositioning through multi-source disease similarity networks",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Analysis and visualization of QUIC protocol deployment in Vietnam",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Federated Learning Based Workload Prediction in Cloud Computing",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "FedPC Cloud CPU Forecasting using Federated Learning and Periodicity-based Clustering",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "The 2025 VLSP Task on Vietnamese Voice Conversion: Overview and Preliminary Results",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Adversarial Vulnerabilities in Federated Time Series Forecasting: A Comprehensive Analysis",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Enhancing Automated Penetration Testing Using Reasoning Large Language Model",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "SATUN: Saliency-Guided Parameter-Space Unlearning for Generative Adversarial Networks",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding & Reasoning Capabilities of CodeLLMs",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Linear Algebraic Partial Evaluation of Logic Programs",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Mixture of Experts Meets Prompt-Based Continual Learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Fuzzy Logic and Quadtree-Based Control for Mobile Robots in Dynamic Environments",
+      "topic_codes": [
+        "ROBOTICS",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "Plant Species in Classification using Convolutional Neural Networks on Leaf Images",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Boosting Multiple Views for pretrained-based Continual Learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "DPaI: Differentiable Pruning at Initialization with Node-Path Balance Principle",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Sign Language Recognition: A Large-scale Multi-view Dataset and Comprehensive Evaluation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "CT to PET Translation: A Large-scale Dataset and Domain-Knowledge-Guided Diffusion Approach",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "VoxVietnam: a Large-Scale Multi-Genre Dataset for Vietnamese Speaker Recognition",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "ViFin-Gen: Efficient Vietnamese Instruction Dataset Generation Pipeline for Finance Domain",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Transformating trigonometric function to apply in software reliability modeling",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Design and Implementation of a Big Data Platform for Production and Business Management: A Case Study from Vietnam National Coal and Mineral Industries Group",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A Novel Framework for Fuzzy Knowledge Graph Integration from Multiple Data Sources: Case Study in Healthcare",
+      "topic_codes": [
+        "AI_DATA",
+        "BIOTECH_HEALTH"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Novel Electronic Payment System Based on Zero-Knowledge Proof and Blockchain",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Adaptive Prompting for Continual Relation Extraction: A Within-Task Variance Perspective",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Voice Conversion for Low-Resource Languages via Knowledge Transfer and Domain-Adversarial Training",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Foundation Model and Temporal Priors-guided Transductive Few-shot Action Recognition",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "HSEvo: Elevating Automatic Heuristic Design with Diversity-Driven Harmony Search and Genetic Algorithm Using LLMs",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Few-Shot, No Problem: Descriptive Continual Relation Extraction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Bridging Classification and Segmentation in Osteosarcoma Assessment via Foundation and Discrete Diffusion Models",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "A Semi-Supervised Learning Framework with Cross-Magnification Attention for Glioma Mitosis Classification",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "NeurFlow: Interpreting Neural Networks Through Neuron Groups and Functional Interactions",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Contrastive Perturbation Enhancement for LLM-Based Machine Translation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Towards a Unified Delegated Authorization Framework for Microservice-Based ERP Systems",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "An Efficient Explainable Unsupervised Machine Learning Approach for Network Intrusion Detection in IoMT",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "A User Privacy Risk-Driven Approach to Web Cookie Classification",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "A Low-Cost EEG-Based System for Measuring and Forecasting Levels of Alertness with Long Short-Term Memory",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "AYO-GAN: A novel GAN-based adversarial attack on YOLO object detection models",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "A Diffusion Model for Personalized Text-to-Image Generation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Optimizing Winograd-Based Convolution on GPUs",
+      "topic_codes": [
+        "COMPUTING",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Improving Vietnamese Legal Document Retrieval Using Synthetic Data",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A MAC Protocol for multi-cluster scheduling based on geographical segmentation and Precoloring Extension",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Flow Velocity Analysis of Rivers Using Farneback Optical Flow and STIV Techniques With Drone Data",
+      "topic_codes": [
+        "ENVIRONMENT",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ENVIRONMENT"
+    },
+    {
+      "title": "Improving Quality of Vietnamese to Khmer Neural Machine Translation Using Multi-stage Fine-Tuning Strategy",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "CoverNexus: Multi-agent LLM System for Automated Code Coverage Enhancement",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "BKCrawler: A Scalable Web Data Extraction System Using Weak Supervision",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A Hybrid Multifactorial Evolutionary Algorithm for the Minimum s-Club Cover Problem",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Enhancing Discriminative Representation in Similar Relation Clusters for Few-Shot Continual Relation Extraction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Improving Vietnamese-English Cross-Lingual Retrieval for Legal and General Domains",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Mutual-pairing Data Augmentation for Fewshot Continual Relation Extraction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Leveraging Dynamic Graph Word Embedding for Efficient Contextual Representations",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "H-LSHADE: An Efficient Hybrid Approach for Solving Heterogeneous Target Coverage in Visual Sensor Networks",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "On the Impacts of Contexts on Repository-Level Code Generation",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "GloCOM: A Short Text Neural Topic Model via Global Clustering Context",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Sharpness-Aware Minimization for Topic Models with High-Quality Document Representations",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "ToVo: Toxicity Taxonomy via Voting",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Deep Learning Approach to Early Identification of Remote Access Trojans",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Open-domain Named Entity Recognition for Low Resource Languages: A Case Study on Vietnamese",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing ColBERT: A Method for Reducing Space Complexity and Accelerating Retrieval Speed",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Online Robust Reinforcement Learning Through Monte-Carlo Planning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Power Mean Estimation in Stochastic Continuous Monte-Carlo Tree Search",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Monte-Carlo Tree Search with Uncertainty Propagation via Optimal Transport",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Tool for Preventing Consanguineous Marriages Using Vietnam’s National Residents Database",
+      "topic_codes": [
+        "COMPUTING",
+        "BIOTECH_HEALTH"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Early Fault Detection in Pump Systems Using Unsupervised Anomaly Detection Techniques",
+      "topic_codes": [
+        "ROBOTICS",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "Potential Customer Detection for Decentralized Finance Applications Based on Wallet Transactions",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing Taxonomy Construction via Sentence Embedding Models Trained with LLM-Generated Similarity Scores",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Provably Improving Generalization of Few-shot models with Synthetic Data",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Constructing Decision Trees from Data Streams",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Advanced GNSS Spoofing Mitigation: A Gaussian Mixture Model Approach Based on Carrier Phase Double Differences",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Differential Evolution for Infeasible Circumstances in Network-Assisted Full-Duplex Cell-Free Massive MIMO",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Pareto Front Grid Guided Multiobjective Optimization In Dynamic Pickup And Delivery Problem Considering Two-Sided Fairness",
+      "topic_codes": [
+        "CONSTRUCTION_TRANSPORT",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+    },
+    {
+      "title": "Hybrid Deterministic and Metaheuristic Optimization for Physical Adversarial Attack on End-to-End Autoencoder Wireless Communication Systems",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "A bi-objective Medical Sampling Service System",
+      "topic_codes": [
+        "CONSTRUCTION_TRANSPORT",
+        "ROBOTICS",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+    },
+    {
+      "title": "Multi-Objective Signal Optimization to Balance Multiple Conflicting Metrics in RIS-Assisted MIMO Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "HiCOT: Improving Neural Topic Models via Optimal Transport and Contrastive Learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Topic Modeling for Short Texts via Optimal Transport-Based Clustering",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Mitigating Non-Representative Prototypes and Representation Bias in Few-Shot Continual Relation Extraction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Web3 System for Management and Authentication of Image Copyright Using Watermarking and Blockchain",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Reinforcement Learning-based Genetic Algorithm for Computation Offloading Optimization in UAV-assisted MEC Systems",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "MTMLD-AWSR: A Novel Multi-Teacher Multi-Level Distillation Approach for Class Incremental Learning in Edge-Cloud Systems",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "LLM-Based Compliance Analysis of Declared Policies and Actual Cookie Usage on Websites",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Efficient Sign Language Recognition with Skeleton Data: A Study of Keypoint Selection, Pose Estimators, and GCN Models",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Localizing Before Answering: A Benchmark for Grounded Medical Visual Question Answering",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Reducing Communication Overhead in Federated Learning using Deep Reinforcement Learning",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "POSTER: Multimodal Graph Networks for Systematic Generalization in Code Clone Detection",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Detection of Varroa Mites from Bee Images Using YOLO Architecture",
+      "topic_codes": [
+        "AGRI_FOOD",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AGRI_FOOD"
+    },
+    {
+      "title": "A Semi-decentralized PKI Based on Blockchain with Identity Retention",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "MolHFCNet: Enhancing Molecular Graph Representations with Hierarchical Feature Combining and Hybrid Pretraining",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Deep Learning-Based GNSS Jamming Classification Using Simulation-Generated Data and Time-Frequency Analysis",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "GRFuzz: A Deep Reinforcement Learning Approach to Python Library Fuzzing with GRPO",
+      "topic_codes": [
+        "COMPUTING",
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Efficient Federated Learning Convergence with Epoch Adaptation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing Unsupervised Domain Adaptation in Semantic Segmentation Through Selective Consensus and Gaussian Mixture Model-Based Pseudo-Labeling",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "ThyroidXL: Advancing Thyroid Nodule Diagnosis with an Expert-Labeled, Pathology-Validated Dataset",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Optimal Regret Bounds via Low-Rank Structured Variation in Non-Stationary Reinforcement Learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Unleashing SAM for Few-Shot Medical Image Segmentation with Dual-Encoder and Automated Prompting",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "PedCLIP: A Vision-Language model for Pediatric X-rays with Mixture of Body part Experts",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "When Retriever Meets Generator: A Joint Model for Code Comment Generation",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Classification of Waste Bottles Using Image Processing and Deep Neural Networks",
+      "topic_codes": [
+        "ENVIRONMENT",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ENVIRONMENT"
+    },
+    {
+      "title": "Clustering Strategies in Satellite-Aided Communications",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "SmaLLaMA-A*: Lightweight Language Models for Efficient and Robust Path Planning",
+      "topic_codes": [
+        "ROBOTICS",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ROBOTICS"
+    },
+    {
+      "title": "More Reliable Pseudo-Labels, Better Performance: A Generalized Approach to Single Positive Multi-Label Learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "ConstStyle: Robust Domain Generalization with Unified Style Transformation",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Seeing the Trees for the Forest: Rethinking Weakly-Supervised Medical Visual Grounding",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Region-Level Data Attribution for Text-to-Image Generative Models",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Federated Prompt-Tuning with Heterogeneous and Incomplete Multimodal Client Data",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Framework for Detecting and Suggesting Corrections for Missing and Inconsistent Data in Vietnam’s National Residents Database",
+      "topic_codes": [
+        "COMPUTING"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Toward Realistic Evaluations of Just-In-Time Vulnerability Prediction",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "VulGuard: An Unified Tool for Evaluating Just-In-Time Vulnerability Prediction Models",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "O_O-VC: Synthetic Data-Driven One-to-One Alignment for Any-to-Any Voice Conversion",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "XTRA: Cross-Lingual Topic Modeling with Topic and Representation Alignments",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Multi-Surrogate-Objective Optimization for Neural Topic Models",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "EMO: Embedding Model Distillation via Intra-Model Relation and Optimal Transport Alignments",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "MaGiX: A Multi-Granular Adaptive Graph Intelligence Framework for Enhancing Cross-Lingual RAG",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "PADM: A Physics-aware Diffusion Model for Attenuation Correction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Building Reliable Covert Timing Channels via Error Correction Codes",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Sketch2comic: A Diffusion-Based Framework for Consistent Multi-Character Comic Synthesis",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "WSS-CL: Weight Saliency Soft-Guided Contrastive Learning for Efficient Machine Unlearning Image Classification",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "MLAlgo-Bench: Can Machines Implement Machine Learning Algorithms?",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Planning to Prove: Improving Informal Proofs of Olympiad Inequalities from Large Language Models",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Community Detection in Complex Overlapping Networks Using Graph Autoencoders with Semi-supervised Fuzzy Clustering",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "MAML AE-SAC: A Synergy Framework of Meta-Learning and Adversarial Reinforcement Learning for Adaptive Intrusion Detection",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Token-Level Self-Play with Importance-Aware Guidance for Large Language Models",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Learning Reconfigurable Representations for Multimodal Federated Learning with Missing Data",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "ROOT: Rethinking Offline Optimization as Distributional Translation via Probabilistic Bridge",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Towards Improving Low-Resource Machine Translation with Lightweight Training and Synthetic Data: Case Study of Vietnamese – Khmer",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Toward a Vision-Language Foundation Model for Medical Data: Multimodal Dataset and Benchmarks for Vietnamese PET/CT Report Generation",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Proposing Deep Learning Models for Vietnamese Medical Prescription Information Extraction",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Proposing Deep Learning Models for Vietnamese Medical Prescription Named Entity Recognition",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "A Lightweight Incentive Mechanism for Blockchain-based VANET",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "DBA: A Novel Diffusion-Based Method for Adversarial Defense via Image Restoration",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Bake Two Cakes with One Oven: RL for Defusing Popularity Bias and Cold-start in Third-Party Library Recommendations",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Privacy-Preserving Personalized Federated Learning for Encrypted Traffic Classification",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Zenid: Facefusionnet-Guided Diffusion for Parent-to-Child Facial Prediction",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    }
+  ]
+}

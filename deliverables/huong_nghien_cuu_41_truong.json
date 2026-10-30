@@ -1,0 +1,1407 @@
+{
+  "metadata": {
+    "date": "2026-10-30",
+    "scope_note_vi": "Hướng nghiên cứu được chọn từ công trình mẫu; một số trường có đối chiếu trang tổng quan chính thức. Cột phạm vi và ghi chú chỉ rõ cấp trường, đơn vị hay mẫu công trình; không phải danh sách đầy đủ hoặc xếp hạng."
+  },
+  "schools": [
+    {
+      "short_name": "USTH",
+      "domain": "usth.edu.vn",
+      "directions_vi": [
+        "Chế tạo xúc tác điện hóa từ phức nickel để tạo hydro.",
+        "Ổn định UAV sáu cánh bằng điều khiển Fuzzy-PID kết hợp ước lượng gió.",
+        "Phát hiện và theo dõi phương tiện trong giao thông đô thị Việt Nam."
+      ],
+      "problems_vi": [
+        "Lựa chọn cấu trúc xúc tác có hoạt tính tạo hydro phù hợp.",
+        "Giữ ổn định UAV khi có gió và theo dõi phương tiện trong giao thông phức tạp."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://pubs.rsc.org/en/content/articlelanding/2025/ra/d4ra08116a",
+        "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+      ],
+      "scope_note_vi": "Rút ra từ 3 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T001",
+        "T002",
+        "T003"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Chế tạo xúc tác điện hóa từ phức nickel để tạo hydro.",
+          "record_ids": [
+            "T001"
+          ],
+          "source_urls": [
+            "https://pubs.rsc.org/en/content/articlelanding/2025/ra/d4ra08116a"
+          ]
+        },
+        {
+          "direction_vi": "Ổn định UAV sáu cánh bằng điều khiển Fuzzy-PID kết hợp ước lượng gió.",
+          "record_ids": [
+            "T002"
+          ],
+          "source_urls": [
+            "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+          ]
+        },
+        {
+          "direction_vi": "Phát hiện và theo dõi phương tiện trong giao thông đô thị Việt Nam.",
+          "record_ids": [
+            "T003"
+          ],
+          "source_urls": [
+            "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "HUST",
+      "domain": "hust.edu.vn",
+      "directions_vi": [
+        "Dự đoán ứng dụng mới của thuốc bằng mạng tương đồng bệnh từ nhiều nguồn dữ liệu.",
+        "Phân loại lưu lượng mạng mã hóa bằng học sâu thích nghi miền.",
+        "Tự động phát hiện dấu hiệu thiết kế mã nguồn kém bằng học tổ hợp và mô hình ngôn ngữ lập trình."
+      ],
+      "problems_vi": [
+        "Kết hợp dữ liệu kiểu hình và phân tử để dự đoán liên hệ thuốc–bệnh.",
+        "Học biểu diễn lưu lượng/mã nguồn để phân loại và phát hiện vấn đề phần mềm."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-025-04772-0",
+        "https://ieeexplore.ieee.org/document/10855613",
+        "https://www.sciencedirect.com/science/article/pii/S0164121225000433",
+        "https://www.hust.edu.vn/vi/nghien-cuu/",
+        "https://www.hust.edu.vn/vi/nghien-cuu/dinh-huong-nghien-cuu/linh-vuc-uu-tien-nghien-cuu-cua-dai-hoc-bach-khoa-ha-noi-650174.html"
+      ],
+      "scope_note_vi": "Rút ra từ 3 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T004",
+        "T005",
+        "T006"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Dự đoán ứng dụng mới của thuốc bằng mạng tương đồng bệnh từ nhiều nguồn dữ liệu.",
+          "record_ids": [
+            "T004"
+          ],
+          "source_urls": [
+            "https://www.nature.com/articles/s41598-025-04772-0"
+          ]
+        },
+        {
+          "direction_vi": "Phân loại lưu lượng mạng mã hóa bằng học sâu thích nghi miền.",
+          "record_ids": [
+            "T005"
+          ],
+          "source_urls": [
+            "https://ieeexplore.ieee.org/document/10855613"
+          ]
+        },
+        {
+          "direction_vi": "Tự động phát hiện dấu hiệu thiết kế mã nguồn kém bằng học tổ hợp và mô hình ngôn ngữ lập trình.",
+          "record_ids": [
+            "T006"
+          ],
+          "source_urls": [
+            "https://www.sciencedirect.com/science/article/pii/S0164121225000433"
+          ]
+        }
+      ],
+      "official_overview": {
+        "scope": "official_institution_overview_verified",
+        "level": "whole_university",
+        "priorities_vi": [
+          "AI và công nghệ dữ liệu",
+          "Công nghệ sức khỏe",
+          "Vật liệu mới",
+          "Năng lượng và môi trường bền vững",
+          "Hệ thống thông minh"
+        ],
+        "source_url": "https://www.hust.edu.vn/vi/nghien-cuu/dinh-huong-nghien-cuu/linh-vuc-uu-tien-nghien-cuu-cua-dai-hoc-bach-khoa-ha-noi-650174.html",
+        "verification_note_vi": "Trang chính thức được tác vụ tổng hợp chính kiểm tra, nêu năm lĩnh vực ưu tiên năm 2026. Định hướng cấp đại học được tách biệt ba hướng cụ thể rút ra từ mẫu."
+      }
+    },
+    {
+      "short_name": "UET",
+      "domain": "uet.vnu.edu.vn",
+      "directions_vi": [
+        "Thích nghi mô hình ngôn ngữ lớn với dữ liệu pháp luật tiếng Việt.",
+        "So sánh tinh chỉnh mô hình với truy xuất tăng cường RAG cho tác vụ chuyên ngành.",
+        "Hỏi đáp sản phẩm bằng nhiều tác tử, lập kế hoạch và truy xuất tri thức động."
+      ],
+      "problems_vi": [
+        "Lựa chọn cách bổ sung kiến thức pháp luật cho LLM.",
+        "Chia câu hỏi phức tạp thành bước truy xuất cơ sở dữ liệu, lịch sử hỏi đáp và web."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://doi.org/10.1109/KSE63888.2024.11063566",
+        "https://doi.org/10.1007/978-981-92-2590-3_24"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T007",
+        "T008"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Thích nghi mô hình ngôn ngữ lớn với dữ liệu pháp luật tiếng Việt.",
+          "record_ids": [
+            "T007"
+          ],
+          "source_urls": [
+            "https://doi.org/10.1109/KSE63888.2024.11063566"
+          ]
+        },
+        {
+          "direction_vi": "So sánh tinh chỉnh mô hình với truy xuất tăng cường RAG cho tác vụ chuyên ngành.",
+          "record_ids": [
+            "T007"
+          ],
+          "source_urls": [
+            "https://doi.org/10.1109/KSE63888.2024.11063566"
+          ]
+        },
+        {
+          "direction_vi": "Hỏi đáp sản phẩm bằng nhiều tác tử, lập kế hoạch và truy xuất tri thức động.",
+          "record_ids": [
+            "T008"
+          ],
+          "source_urls": [
+            "https://doi.org/10.1007/978-981-92-2590-3_24"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "HCMUT",
+      "domain": "hcmut.edu.vn",
+      "directions_vi": [
+        "Lập lịch tác vụ HPC bằng học tăng cường sâu, xét chi phí và tính bền vững.",
+        "Dự đoán kết quả tác vụ HPC từ đặc trưng văn bản bằng Sentence-BERT.",
+        "Kết hợp AI và GIS để xây dựng hệ thống cảnh báo ngập đô thị."
+      ],
+      "problems_vi": [
+        "Phân bổ tài nguyên tính toán cho tác vụ và dự báo kết quả trước khi thực thi.",
+        "Khai thác dữ liệu không gian và AI cho cảnh báo ngập tại TP.HCM."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://hpcc.hcmut.edu.vn/publications",
+        "https://hpcc.hcmut.edu.vn/research"
+      ],
+      "scope_note_vi": "Rút ra từ 3 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình. Mẫu tập trung vào HPCC, không đại diện tất cả các khoa của HCMUT.",
+      "sample_record_ids": [
+        "T009",
+        "T010",
+        "T011"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Lập lịch tác vụ HPC bằng học tăng cường sâu, xét chi phí và tính bền vững.",
+          "record_ids": [
+            "T009"
+          ],
+          "source_urls": [
+            "https://hpcc.hcmut.edu.vn/publications"
+          ]
+        },
+        {
+          "direction_vi": "Dự đoán kết quả tác vụ HPC từ đặc trưng văn bản bằng Sentence-BERT.",
+          "record_ids": [
+            "T010"
+          ],
+          "source_urls": [
+            "https://hpcc.hcmut.edu.vn/publications"
+          ]
+        },
+        {
+          "direction_vi": "Kết hợp AI và GIS để xây dựng hệ thống cảnh báo ngập đô thị.",
+          "record_ids": [
+            "T011"
+          ],
+          "source_urls": [
+            "https://hpcc.hcmut.edu.vn/research"
+          ]
+        }
+      ],
+      "official_unit_overview": {
+        "level": "HPCC research laboratory, not whole university",
+        "directions_vi": [
+          "Hệ tính toán hiệu năng cao cho AI và ứng dụng khoa học",
+          "Nền tảng dữ liệu dòng cho IoT và dữ liệu lớn",
+          "Phương pháp lượng tử và hệ tính toán dựa trên tác tử"
+        ],
+        "source_url": "https://hpcc.hcmut.edu.vn/research",
+        "verification_note_vi": "Đã đọc ba Research Pillars do HPCC công bố; chỉ áp dụng cho phòng thí nghiệm này."
+      }
+    },
+    {
+      "short_name": "UIT",
+      "domain": "uit.edu.vn",
+      "directions_vi": [
+        "Truy xuất video đa phương thức bằng kết hợp hình ảnh, chữ và tiếng nói.",
+        "Tìm kiếm theo câu hỏi với mã hóa CLIP và xếp hạng lại dựa trên tương tác.",
+        "Đánh giá độ ổn định và khả năng giải thích của LLM phát hiện lỗ hổng phần mềm."
+      ],
+      "problems_vi": [
+        "Tìm đúng đoạn video từ nhiều loại tín hiệu và yêu cầu người dùng.",
+        "Kiểm tra kết luận và giải thích phát hiện lỗ hổng khi mã nguồn bị viết lại."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025",
+        "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T012",
+        "T013"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Truy xuất video đa phương thức bằng kết hợp hình ảnh, chữ và tiếng nói.",
+          "record_ids": [
+            "T012"
+          ],
+          "source_urls": [
+            "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+          ]
+        },
+        {
+          "direction_vi": "Tìm kiếm theo câu hỏi với mã hóa CLIP và xếp hạng lại dựa trên tương tác.",
+          "record_ids": [
+            "T012"
+          ],
+          "source_urls": [
+            "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+          ]
+        },
+        {
+          "direction_vi": "Đánh giá độ ổn định và khả năng giải thích của LLM phát hiện lỗ hổng phần mềm.",
+          "record_ids": [
+            "T013"
+          ],
+          "source_urls": [
+            "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "PTIT",
+      "domain": "ptit.edu.vn",
+      "directions_vi": [
+        "Mô phỏng chuyển vùng dữ liệu trong mạng 5G để phân tích độ trễ và hiệu năng.",
+        "Tự động phát hiện lỗ hổng và cảnh báo an ninh mạng bằng hệ AI đa tác tử.",
+        "Dự báo trạng thái môi trường nhà kính bằng học máy."
+      ],
+      "problems_vi": [
+        "Tái hiện và đánh giá các kịch bản roaming 5G.",
+        "Phối hợp thu thập dữ liệu, phát hiện lỗ hổng và tạo cảnh báo tự động."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/",
+        "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+      ],
+      "scope_note_vi": "Rút ra từ 3 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T014",
+        "T015",
+        "T016"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Mô phỏng chuyển vùng dữ liệu trong mạng 5G để phân tích độ trễ và hiệu năng.",
+          "record_ids": [
+            "T014"
+          ],
+          "source_urls": [
+            "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/"
+          ]
+        },
+        {
+          "direction_vi": "Tự động phát hiện lỗ hổng và cảnh báo an ninh mạng bằng hệ AI đa tác tử.",
+          "record_ids": [
+            "T015"
+          ],
+          "source_urls": [
+            "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/"
+          ]
+        },
+        {
+          "direction_vi": "Dự báo trạng thái môi trường nhà kính bằng học máy.",
+          "record_ids": [
+            "T016"
+          ],
+          "source_urls": [
+            "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "DUT",
+      "domain": "dut.udn.vn",
+      "directions_vi": [
+        "Thiết kế tay máy sáu bậc tự do tích hợp AI để nhận dạng bao gói và tư thế vật thể.",
+        "Kết hợp camera với truyền động robot cho thao tác trên băng chuyền.",
+        "Thiết kế robot Ballbot theo mô hình, dùng PID/LQR và sinh mã cho bộ điều khiển."
+      ],
+      "problems_vi": [
+        "Nhận biết loại vật thể và hướng đặt để robot xử lý đúng.",
+        "Giữ cân bằng robot qua nhận dạng hệ, mô phỏng và triển khai điều khiển."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://jst-ud.vn/jst-ud/article/view/10204",
+        "https://jst-ud.vn/jst-ud/article/view/10268"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T017",
+        "T018"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Thiết kế tay máy sáu bậc tự do tích hợp AI để nhận dạng bao gói và tư thế vật thể.",
+          "record_ids": [
+            "T017"
+          ],
+          "source_urls": [
+            "https://jst-ud.vn/jst-ud/article/view/10204"
+          ]
+        },
+        {
+          "direction_vi": "Kết hợp camera với truyền động robot cho thao tác trên băng chuyền.",
+          "record_ids": [
+            "T017"
+          ],
+          "source_urls": [
+            "https://jst-ud.vn/jst-ud/article/view/10204"
+          ]
+        },
+        {
+          "direction_vi": "Thiết kế robot Ballbot theo mô hình, dùng PID/LQR và sinh mã cho bộ điều khiển.",
+          "record_ids": [
+            "T018"
+          ],
+          "source_urls": [
+            "https://jst-ud.vn/jst-ud/article/view/10268"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "VKU",
+      "domain": "vku.udn.vn",
+      "directions_vi": [
+        "Ước lượng nỗ lực phát triển phần mềm bằng học sâu kết hợp tối ưu Walrus.",
+        "Phát hiện cháy trong nhà từ camera và cảm biến môi trường IoT.",
+        "Hợp nhất kết quả nhận dạng đa phương thức để giảm báo động cháy giả."
+      ],
+      "problems_vi": [
+        "Tối ưu mô hình dự báo nỗ lực phần mềm và đánh giá sai số trên nhiều bộ dữ liệu.",
+        "Xử lý trường hợp tín hiệu hình ảnh và cảm biến đưa ra kết luận khác nhau."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://elib.vku.udn.vn/handle/123456789/7683",
+        "https://elib.vku.udn.vn/handle/123456789/7663"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T019",
+        "T020"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Ước lượng nỗ lực phát triển phần mềm bằng học sâu kết hợp tối ưu Walrus.",
+          "record_ids": [
+            "T019"
+          ],
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7683"
+          ]
+        },
+        {
+          "direction_vi": "Phát hiện cháy trong nhà từ camera và cảm biến môi trường IoT.",
+          "record_ids": [
+            "T020"
+          ],
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7663"
+          ]
+        },
+        {
+          "direction_vi": "Hợp nhất kết quả nhận dạng đa phương thức để giảm báo động cháy giả.",
+          "record_ids": [
+            "T020"
+          ],
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7663"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "HCMUTE",
+      "domain": "hcmute.edu.vn",
+      "directions_vi": [
+        "Phân tích cảm xúc theo miền bằng biểu diễn DomBert và mạng tích chập đồ thị.",
+        "Kết hợp các bộ phân loại theo miền để tổng hợp quyết định phân tích cảm xúc.",
+        "Điều khiển dự báo phi tuyến cho robot di động bám quỹ đạo và tránh vật cản động."
+      ],
+      "problems_vi": [
+        "Trích xuất đặc trưng ngôn ngữ phù hợp với từng miền dữ liệu.",
+        "Giữ robot trong giới hạn vận tốc và khoảng cách an toàn khi di chuyển."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://doi.org/10.1007/978-981-96-6005-6_29",
+        "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/inPress/8547"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T021",
+        "T022"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Phân tích cảm xúc theo miền bằng biểu diễn DomBert và mạng tích chập đồ thị.",
+          "record_ids": [
+            "T021"
+          ],
+          "source_urls": [
+            "https://doi.org/10.1007/978-981-96-6005-6_29"
+          ]
+        },
+        {
+          "direction_vi": "Kết hợp các bộ phân loại theo miền để tổng hợp quyết định phân tích cảm xúc.",
+          "record_ids": [
+            "T021"
+          ],
+          "source_urls": [
+            "https://doi.org/10.1007/978-981-96-6005-6_29"
+          ]
+        },
+        {
+          "direction_vi": "Điều khiển dự báo phi tuyến cho robot di động bám quỹ đạo và tránh vật cản động.",
+          "record_ids": [
+            "T022"
+          ],
+          "source_urls": [
+            "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/inPress/8547"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "VLUTE",
+      "domain": "vlute.edu.vn",
+      "directions_vi": [
+        "AI có thể giải thích hỗ trợ nhận diện Alzheimer từ ảnh MRI.",
+        "Phát hiện và phân loại tế bào máu bằng Faster R-CNN, RetinaNet và YOLO.",
+        "Mô phỏng tương tác giữa động lực học phanh và nhiệt của phanh đĩa ô tô."
+      ],
+      "problems_vi": [
+        "Giải thích các vùng ảnh tác động đến dự đoán bệnh của mô hình học sâu.",
+        "So sánh khả năng nhận dạng nhiều loại tế bào và mô phỏng sự thay đổi nhiệt khi phanh."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323",
+        "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/326",
+        "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/175"
+      ],
+      "scope_note_vi": "Rút ra từ 3 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình. Quan hệ của tác giả với VLUTE hiện được hỗ trợ bởi email trên trang tạp chí; chưa kiểm tra affiliation toàn văn.",
+      "sample_record_ids": [
+        "T023",
+        "T024",
+        "T025"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "AI có thể giải thích hỗ trợ nhận diện Alzheimer từ ảnh MRI.",
+          "record_ids": [
+            "T023"
+          ],
+          "source_urls": [
+            "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323"
+          ]
+        },
+        {
+          "direction_vi": "Phát hiện và phân loại tế bào máu bằng Faster R-CNN, RetinaNet và YOLO.",
+          "record_ids": [
+            "T024"
+          ],
+          "source_urls": [
+            "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/326"
+          ]
+        },
+        {
+          "direction_vi": "Mô phỏng tương tác giữa động lực học phanh và nhiệt của phanh đĩa ô tô.",
+          "record_ids": [
+            "T025"
+          ],
+          "source_urls": [
+            "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/175"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "MTA",
+      "domain": "mta.edu.vn",
+      "directions_vi": [
+        "Dự đoán trường áp suất và vận tốc quanh cánh máy bay bằng mạng U-Net.",
+        "Chế tạo chi tiết hợp kim nickel bằng đắp dây hồ quang kết hợp gia công CNC.",
+        "Đánh giá vòng đời và chi phí của các phương án chế tạo chi tiết hợp kim."
+      ],
+      "problems_vi": [
+        "Học ánh xạ từ hình học/bối cảnh dòng chảy đến trường dòng quanh vật thể.",
+        "So sánh quy trình đắp vật liệu–CNC với chỉ gia công CNC về tài nguyên và chi phí."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909",
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T026",
+        "T027"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Dự đoán trường áp suất và vận tốc quanh cánh máy bay bằng mạng U-Net.",
+          "record_ids": [
+            "T026"
+          ],
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909"
+          ]
+        },
+        {
+          "direction_vi": "Chế tạo chi tiết hợp kim nickel bằng đắp dây hồ quang kết hợp gia công CNC.",
+          "record_ids": [
+            "T027"
+          ],
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382"
+          ]
+        },
+        {
+          "direction_vi": "Đánh giá vòng đời và chi phí của các phương án chế tạo chi tiết hợp kim.",
+          "record_ids": [
+            "T027"
+          ],
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "KMA",
+      "domain": "actvn.edu.vn",
+      "directions_vi": [
+        "Phát triển giao thức tính toán bảo mật trên dữ liệu phân tán.",
+        "Xây dựng hệ tư vấn người dùng có bảo vệ dữ liệu riêng tư.",
+        "Phát triển công cụ kiểm tra an toàn mã nguồn do LLM sinh."
+      ],
+      "problems_vi": [
+        "Cân bằng tính đúng đắn, riêng tư và hiệu quả khi tính toán hệ gợi ý.",
+        "Phát hiện vấn đề bảo mật trong mã được AI tạo ra."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf",
+        "https://thuvien.actvn.edu.vn/"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình. Mục kiểm tra mã LLM là đồ án sinh viên mới kiểm tra metadata; không nâng thành ưu tiên cấp học viện.",
+      "sample_record_ids": [
+        "T028",
+        "T029"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Phát triển giao thức tính toán bảo mật trên dữ liệu phân tán.",
+          "record_ids": [
+            "T028"
+          ],
+          "source_urls": [
+            "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf"
+          ]
+        },
+        {
+          "direction_vi": "Xây dựng hệ tư vấn người dùng có bảo vệ dữ liệu riêng tư.",
+          "record_ids": [
+            "T028"
+          ],
+          "source_urls": [
+            "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf"
+          ]
+        },
+        {
+          "direction_vi": "Phát triển công cụ kiểm tra an toàn mã nguồn do LLM sinh.",
+          "record_ids": [
+            "T029"
+          ],
+          "source_urls": [
+            "https://thuvien.actvn.edu.vn/"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "UTC",
+      "domain": "utc.edu.vn",
+      "directions_vi": [
+        "Chế tạo vữa rót giữ nước từ xỉ lò cao, tro bay và vôi cho mặt đường bán mềm.",
+        "Khảo sát tác động của tỷ lệ nước/bột xỉ đến độ chảy và khả năng hút nước của vữa.",
+        "Đánh giá cường độ và tính chất cơ lý của vật liệu mặt đường dùng phụ phẩm công nghiệp."
+      ],
+      "problems_vi": [
+        "Chọn thành phần vữa đáp ứng đồng thời khả năng thi công, giữ nước và cường độ."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123"
+      ],
+      "scope_note_vi": "Rút ra từ 1 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình. Cả ba hướng đều từ một bài vật liệu mặt đường; bài không đánh giá hiệu quả làm mát thực tế.",
+      "sample_record_ids": [
+        "T030"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Chế tạo vữa rót giữ nước từ xỉ lò cao, tro bay và vôi cho mặt đường bán mềm.",
+          "record_ids": [
+            "T030"
+          ],
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123"
+          ]
+        },
+        {
+          "direction_vi": "Khảo sát tác động của tỷ lệ nước/bột xỉ đến độ chảy và khả năng hút nước của vữa.",
+          "record_ids": [
+            "T030"
+          ],
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123"
+          ]
+        },
+        {
+          "direction_vi": "Đánh giá cường độ và tính chất cơ lý của vật liệu mặt đường dùng phụ phẩm công nghiệp.",
+          "record_ids": [
+            "T030"
+          ],
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "HUMG",
+      "domain": "humg.edu.vn",
+      "directions_vi": [
+        "Quan trắc dao động cầu dây văng theo thời gian thực bằng GNSS-RTK và IoT.",
+        "Tích hợp dữ liệu cảm biến công trình với nền tảng điện toán đám mây.",
+        "Chế tạo sơn epoxy chứa nano silica biến tính để chống ăn mòn thép."
+      ],
+      "problems_vi": [
+        "Theo dõi dao động công trình từ dữ liệu đo được truyền và xử lý trực tuyến.",
+        "Tăng khả năng bảo vệ thép trong môi trường có clorua bằng phụ gia nano."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399",
+        "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9430"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T031",
+        "T032"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Quan trắc dao động cầu dây văng theo thời gian thực bằng GNSS-RTK và IoT.",
+          "record_ids": [
+            "T031"
+          ],
+          "source_urls": [
+            "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399"
+          ]
+        },
+        {
+          "direction_vi": "Tích hợp dữ liệu cảm biến công trình với nền tảng điện toán đám mây.",
+          "record_ids": [
+            "T031"
+          ],
+          "source_urls": [
+            "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399"
+          ]
+        },
+        {
+          "direction_vi": "Chế tạo sơn epoxy chứa nano silica biến tính để chống ăn mòn thép.",
+          "record_ids": [
+            "T032"
+          ],
+          "source_urls": [
+            "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9430"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "HUCE",
+      "domain": "huce.edu.vn",
+      "directions_vi": [
+        "Phát hiện tấn công xen giữa trong mạng điều khiển công nghiệp bằng học tổ hợp LSTM.",
+        "Mô phỏng hệ ICS sử dụng SDN để đánh giá cơ chế phát hiện tấn công.",
+        "Phân loại bối cảnh cháy trong nhà bằng mô hình ngôn ngữ–thị giác gọn."
+      ],
+      "problems_vi": [
+        "Nhận biết tấn công MITM trong lưu lượng của hệ thống điều khiển.",
+        "Phân biệt lửa được kiểm soát với cháy nguy hiểm bằng ngữ cảnh ảnh và ngữ nghĩa."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://isj.vn/index.php/journal_STIS/article/view/1137",
+        "https://www.nature.com/articles/s41598-026-48743-5"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình.",
+      "sample_record_ids": [
+        "T033",
+        "T034"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Phát hiện tấn công xen giữa trong mạng điều khiển công nghiệp bằng học tổ hợp LSTM.",
+          "record_ids": [
+            "T033"
+          ],
+          "source_urls": [
+            "https://isj.vn/index.php/journal_STIS/article/view/1137"
+          ]
+        },
+        {
+          "direction_vi": "Mô phỏng hệ ICS sử dụng SDN để đánh giá cơ chế phát hiện tấn công.",
+          "record_ids": [
+            "T033"
+          ],
+          "source_urls": [
+            "https://isj.vn/index.php/journal_STIS/article/view/1137"
+          ]
+        },
+        {
+          "direction_vi": "Phân loại bối cảnh cháy trong nhà bằng mô hình ngôn ngữ–thị giác gọn.",
+          "record_ids": [
+            "T034"
+          ],
+          "source_urls": [
+            "https://www.nature.com/articles/s41598-026-48743-5"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "FPT",
+      "domain": "daihoc.fpt.edu.vn",
+      "directions_vi": [
+        "Phát triển mô hình AI/học máy để cá nhân hóa trải nghiệm học tập.",
+        "Xây dựng ứng dụng web tích hợp mô hình cá nhân hóa học tập.",
+        "Định vị trong nhà bằng Transformer trên dấu vân tay tín hiệu WiFi."
+      ],
+      "problems_vi": [
+        "Chuyển đầu ra mô hình cá nhân hóa thành chức năng hỗ trợ học tập.",
+        "Ước lượng vị trí từ đặc trưng cường độ/tín hiệu WiFi."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình. Đây là mục tiêu đề tài được công bố; chưa coi là kết quả hoàn thành.",
+      "sample_record_ids": [
+        "T035",
+        "T036"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Phát triển mô hình AI/học máy để cá nhân hóa trải nghiệm học tập.",
+          "record_ids": [
+            "T035"
+          ],
+          "source_urls": [
+            "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+          ]
+        },
+        {
+          "direction_vi": "Xây dựng ứng dụng web tích hợp mô hình cá nhân hóa học tập.",
+          "record_ids": [
+            "T035"
+          ],
+          "source_urls": [
+            "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+          ]
+        },
+        {
+          "direction_vi": "Định vị trong nhà bằng Transformer trên dấu vân tay tín hiệu WiFi.",
+          "record_ids": [
+            "T036"
+          ],
+          "source_urls": [
+            "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "Phenikaa",
+      "domain": "phenikaa-uni.edu.vn",
+      "directions_vi": [
+        "Phát triển giải pháp định vị UWB cho robot di động tự hành trong nhà máy.",
+        "Tích hợp kỹ thuật định vị với ứng dụng robot trong sản xuất thông minh.",
+        "Thiết kế và mô phỏng vật liệu boron nitride hai chiều cho linh kiện trở nhớ."
+      ],
+      "problems_vi": [
+        "Xác định vị trí robot tự hành trong môi trường nhà máy.",
+        "Khảo sát cấu trúc vật liệu hai chiều phù hợp cho ứng dụng memristor."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+      ],
+      "scope_note_vi": "Rút ra từ 2 công trình trong mẫu đã thu thập; không đại diện toàn bộ hướng hoặc ưu tiên nghiên cứu của trường. Các hướng có thể là những khía cạnh của cùng một công trình. Đây là mục tiêu đề tài được công bố; chưa coi là kết quả hoàn thành.",
+      "sample_record_ids": [
+        "T037",
+        "T038"
+      ],
+      "direction_evidence": [
+        {
+          "direction_vi": "Phát triển giải pháp định vị UWB cho robot di động tự hành trong nhà máy.",
+          "record_ids": [
+            "T037"
+          ],
+          "source_urls": [
+            "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+          ]
+        },
+        {
+          "direction_vi": "Tích hợp kỹ thuật định vị với ứng dụng robot trong sản xuất thông minh.",
+          "record_ids": [
+            "T037"
+          ],
+          "source_urls": [
+            "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+          ]
+        },
+        {
+          "direction_vi": "Thiết kế và mô phỏng vật liệu boron nitride hai chiều cho linh kiện trở nhớ.",
+          "record_ids": [
+            "T038"
+          ],
+          "source_urls": [
+            "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "short_name": "MIT",
+      "domain": "mit.edu",
+      "directions_vi": [
+        "Thiết kế hình học robot bằng AI tạo sinh kết hợp mô phỏng vật lý.",
+        "Mật mã đồng cấu để tính toán trên dữ liệu vẫn được mã hóa.",
+        "Thiết bị y sinh thu nhỏ và công nghệ đưa thuốc chính xác.",
+        "Công nghệ năng lượng nhiệt hạch."
+      ],
+      "problems_vi": [
+        "Tối ưu robot nhảy để tăng độ cao và tiếp đất ổn định.",
+        "Thực hiện truy vấn hoặc phép tính trên dữ liệu nhạy cảm mà không phải giải mã."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.mit.edu/research/",
+        "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+        "https://doi.org/10.1109/ICRA55743.2025.11128113",
+        "https://news.mit.edu/2025/security-scheme-could-protect-sensitive-data-during-cloud-computation-0319",
+        "https://people.csail.mit.edu/vinodv/pubs.html",
+        "https://link.springer.com/chapter/10.1007/978-3-031-91124-8_1"
+      ],
+      "scope_note_vi": "Đã đối chiếu trang tổng quan nghiên cứu chính thức và các công trình mẫu; các hướng được chọn để minh họa, không phải danh mục đầy đủ hay xếp hạng ưu tiên của trường. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "Caltech",
+      "domain": "caltech.edu",
+      "directions_vi": [
+        "Học và nén tensor để tính tương tác nguyên tử và truyền nhiệt trong vật liệu.",
+        "Tính toán phân tử bằng mạng nơ-ron DNA học từ ví dụ.",
+        "Robot đeo và thiết bị hỗ trợ phục hồi khả năng đi lại.",
+        "Chụp ảnh y sinh bằng quang âm và kỹ thuật quan sát mô.",
+        "Phát triển vật liệu phục vụ nhiên liệu mặt trời."
+      ],
+      "problems_vi": [
+        "Giảm chi phí tính độ dẫn nhiệt mà vẫn giữ độ chính xác.",
+        "Làm cho hệ phân tử DNA học được mẫu mới từ dữ liệu hóa học."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.caltech.edu/research",
+        "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+        "https://journals.aps.org/prl/abstract/10.1103/nmgj-yq1g",
+        "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+        "https://www.nature.com/articles/s41586-025-09479-w"
+      ],
+      "scope_note_vi": "Đã đối chiếu trang tổng quan nghiên cứu chính thức và các công trình mẫu; các hướng được chọn để minh họa, không phải danh mục đầy đủ hay xếp hạng ưu tiên của trường. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "Georgia Tech",
+      "domain": "gatech.edu",
+      "directions_vi": [
+        "Robot học thao tác từ con người và điều khiển bộ khung trợ lực.",
+        "Tính toán hiệu năng cao, mô phỏng khoa học và phân tích dữ liệu lớn.",
+        "An ninh hệ thống vật lý số và bảo vệ quyền riêng tư.",
+        "Kỹ thuật phần mềm, kiến trúc máy tính và hệ thống mạng.",
+        "Tự động hóa thiết kế, chế tạo và xây dựng công trình thông minh."
+      ],
+      "problems_vi": [
+        "Cho robot thực hiện thao tác nhanh hơn bản trình diễn mà vẫn bám quỹ đạo.",
+        "Điều khiển thiết bị trợ lực mới với ít dữ liệu thu riêng cho từng người dùng."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://research.gatech.edu/colleges-schools",
+        "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+        "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/"
+      ],
+      "scope_note_vi": "Đã đối chiếu trang tổng quan nghiên cứu chính thức và các công trình mẫu; các hướng được chọn để minh họa, không phải danh mục đầy đủ hay xếp hạng ưu tiên của trường. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "CMU",
+      "domain": "cmu.edu",
+      "directions_vi": [
+        "AI có khả năng giải thích, chịu tấn công và vận hành ở quy mô lớn.",
+        "Robot tương tác với con người, cảm nhận môi trường và thao tác vật thể.",
+        "Công nghệ ngôn ngữ đa ngữ, tiếng nói và AI đa phương thức.",
+        "Kỹ thuật phần mềm an toàn, quyền riêng tư và kiểm thử đối kháng hệ thống AI.",
+        "Tin sinh học cho hệ gen, phát hiện kháng thể và phân tích bệnh."
+      ],
+      "problems_vi": [
+        "Đo kỹ năng an ninh mạng từ dữ liệu hành vi trong môi trường diễn tập tạm thời.",
+        "Chuyển kinh nghiệm red teaming an ninh mạng sang kiểm thử AI tạo sinh."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.cs.cmu.edu/research/",
+        "https://www.sei.cmu.edu/library/sabermetrics-for-cyber-collecting-and-analyzing-user-activity-data-from-ephemeral-exercises/",
+        "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/"
+      ],
+      "scope_note_vi": "Đã đối chiếu tổng quan chính thức của School of Computer Science, kết hợp các công trình SEI; không đại diện toàn bộ các khoa của CMU. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "Purdue",
+      "domain": "purdue.edu",
+      "directions_vi": [
+        "Chế tạo vải ống nano nitride bo bằng kéo sợi điện.",
+        "Điều chỉnh hướng và liên kết sợi để thiết kế vật liệu quản lý nhiệt.",
+        "Mô hình hóa điện khí hóa sản xuất thép bằng hydro và tác động khí hậu."
+      ],
+      "problems_vi": [
+        "Điều khiển độ dẫn nhiệt của vật liệu thông qua cấu trúc mạng ống nano.",
+        "Xác định cơ cấu nguồn điện và vận hành điện phân phù hợp để giảm phát thải ngành thép."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://engineering.purdue.edu/MTEC/publications/electrospun-boron-nitride-nanotube-fabrics-tunable-thermal-conductivity-through-controlled-nanotube-orientation",
+        "https://engineering.purdue.edu/ETSL/publication.html",
+        "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01961"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "RPI",
+      "domain": "rpi.edu",
+      "directions_vi": [
+        "Tách màng tinh thể siêu mỏng bằng kỹ thuật xử lý bề mặt tiếp xúc.",
+        "Vật liệu và cấu trúc cảm biến hồng ngoại không cần làm lạnh.",
+        "Kiến trúc mạng nơ-ron khai thác cấu trúc không gian và phản hồi theo thời gian."
+      ],
+      "problems_vi": [
+        "Tách màng epitaxy mà không cần lớp giải phóng nhân tạo.",
+        "Thiết kế mạng nơ-ron có khả năng biểu diễn tốt hơn và sử dụng tài nguyên hiệu quả hơn."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+        "https://www.nature.com/articles/s41586-025-08874-7",
+        "https://news.rpi.edu/2025/06/16/ai-rethought-rpi-researchers-propose-more-effective-human-approach",
+        "https://doi.org/10.1016/j.patter.2025.101231"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "Virginia Tech",
+      "domain": "vt.edu",
+      "directions_vi": [
+        "Tay kẹp robot kết hợp cấu trúc cứng và vật liệu mềm.",
+        "Điều khiển bám dính có thể bật/tắt để thao tác nhiều loại vật thể.",
+        "Phòng thủ đánh lừa đối phương bằng lý thuyết trò chơi và học máy cho hệ thống vật lý số."
+      ],
+      "problems_vi": [
+        "Giúp robot cầm nắm và di chuyển các vật thể khác nhau trong công việc hằng ngày.",
+        "Duy trì nhiệm vụ của IoT, UAV và nhóm người–robot khi bị đe dọa an ninh mạng."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+        "https://journals.sagepub.com/doi/abs/10.1089/soro.2024.0062",
+        "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "Texas A&M",
+      "domain": "tamu.edu",
+      "directions_vi": [
+        "Pin hữu cơ hai ion kết hợp khả năng tích trữ điện và chịu lực.",
+        "Thiết kế điện cực polymer và chất điện phân hoạt động ở nhiệt độ thấp.",
+        "Tổng hợp graphene oxide từ methane tại bề mặt tiếp xúc plasma–nước, đồng thời tạo hydro."
+      ],
+      "problems_vi": [
+        "Giữ pin hoạt động trong điều kiện lạnh đồng thời tăng độ bền cơ học.",
+        "Tạo vật liệu carbon có giá trị từ nguyên liệu khí bằng quy trình plasma không nhiệt."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/",
+        "https://news.engineering.tamu.edu/news/2026/07/03/unexpected-discovery-yields-new-graphene-oxide-production-method/",
+        "https://www.nature.com/articles/s41467-026-69831-0",
+        "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41467-026-69831-0"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "Stevens",
+      "domain": "stevens.edu",
+      "directions_vi": [
+        "Học biểu diễn chuỗi thời gian cảm biến bằng phương pháp tự giám sát.",
+        "Học tương phản dựa trên quan hệ theo thời gian giữa các tín hiệu.",
+        "Kết hợp nhiều cảm biến để nhận dạng hoạt động con người với ít dữ liệu gán nhãn."
+      ],
+      "problems_vi": [
+        "Giảm công sức gán nhãn dữ liệu nhận dạng hoạt động.",
+        "Khai thác thông tin bổ sung giữa các kênh cảm biến và các thời điểm."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/"
+      ],
+      "scope_note_vi": "Suy ra từ 1 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường. Ba hướng là các khía cạnh của cùng một công trình, không phải ba chương trình nghiên cứu độc lập."
+    },
+    {
+      "short_name": "IIT",
+      "domain": "iit.edu",
+      "directions_vi": [
+        "Mô hình hóa mối đe dọa đối với hệ thống AI trong toàn bộ vòng đời.",
+        "Thiết kế mạng anion của chất điện phân rắn oxyhalide để tăng dẫn ion lithium.",
+        "Phát triển vật liệu pin thể rắn có khả năng hoạt động ở nhiệt độ thấp."
+      ],
+      "problems_vi": [
+        "Nhận diện rủi ro kỹ thuật của AI cùng các yếu tố con người và tổ chức liên quan.",
+        "Tạo đường dẫn ion hiệu quả trong chất điện phân rắn để cải thiện hoạt động của pin."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.iit.edu/news/researchers-introduce-socio-technical-approach-ai-threat-modeling",
+        "https://www.igi-global.com/viewtitle.aspx?titleid=370967",
+        "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+        "https://www.science.org/doi/10.1126/science.adt9678"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "ETH Zurich",
+      "domain": "ethz.ch",
+      "directions_vi": [
+        "Học tăng cường kết hợp mô hình động lực học để điều khiển toàn thân robot có chân.",
+        "Robot vừa di chuyển vừa thao tác đồ vật: đẩy xe, giữ vật và xử lý vật mềm.",
+        "Di chuyển tự chủ trên địa hình khó bằng cảm biến chiều sâu và bản đồ độ cao với tài nguyên tính toán hạn chế."
+      ],
+      "problems_vi": [
+        "Làm sao robot giữ thăng bằng trong khi đồng thời di chuyển và tác động lên đồ vật?",
+        "Làm sao robot bốn chân nhỏ vượt địa hình khó với cảm biến và bộ xử lý hạn chế?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457",
+        "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "EPFL",
+      "domain": "epfl.ch",
+      "directions_vi": [
+        "Khoa học dữ liệu phục vụ nghiên cứu và các ứng dụng công nghệ.",
+        "Kỹ thuật y sinh và công nghệ chăm sóc sức khỏe cá nhân hóa.",
+        "Công nghệ năng lượng; mẫu công trình hiện có tập trung vào pin mặt trời perovskite và quy trình sản xuất mô-đun.",
+        "Robot và công nghệ chế tạo tiên tiến."
+      ],
+      "problems_vi": [
+        "Lựa chọn lớp tiếp xúc hữu cơ nào giúp pin mặt trời perovskite đảo cấu trúc hoạt động hiệu quả và ổn định hơn?",
+        "Vật liệu, tự động hóa và quy mô nhà máy ảnh hưởng thế nào đến chi phí sản xuất mô-đun quang điện?"
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.epfl.ch/research/",
+        "https://infoscience.epfl.ch/bitstreams/274f1852-8680-43df-867a-91945191f191/download",
+        "https://infoscience.epfl.ch/bitstreams/2215a38e-8549-4842-ba53-488fce913c09/download"
+      ],
+      "scope_note_vi": "Hướng tổng quát đối chiếu trang giới thiệu nghiên cứu chính thức của trường; vấn đề cụ thể lấy từ 2 công trình mẫu. Đây là lựa chọn minh họa, không phải bảng xếp hạng hay danh sách đầy đủ."
+    },
+    {
+      "short_name": "Imperial",
+      "domain": "imperial.ac.uk",
+      "directions_vi": [
+        "Học máy dự đoán truyền nhiệt khi dòng lưu chất ngưng tụ trong ống trơn và ống tăng cường truyền nhiệt.",
+        "Mạng nơ-ron thay thế các phép tính nhiệt hóa học tốn kém trong mô phỏng dòng phản ứng.",
+        "Học chuyển giao cho mô hình ngọn lửa có trao đổi nhiệt, hướng tới mô phỏng đốt cháy trong tua-bin khí."
+      ],
+      "problems_vi": [
+        "Làm sao dự đoán truyền nhiệt cho các cấu hình ống khác nhau bằng mô hình học máy?",
+        "Làm sao giảm chi phí mô phỏng đốt cháy mà vẫn mô tả được ảnh hưởng của mất nhiệt?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+        "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "TU Delft",
+      "domain": "tudelft.nl",
+      "directions_vi": [
+        "Công nghệ y tế và giải pháp kỹ thuật phục vụ sức khỏe.",
+        "Hệ thống số: chip, trí tuệ nhân tạo, robot và internet lượng tử.",
+        "Đô thị có khả năng chống chịu và công nghệ giao thông, di chuyển.",
+        "Công nghệ khí hậu và năng lượng.",
+        "Trong mẫu công trình: phối hợp người–robot và điều hướng UAV thích nghi khi môi trường thay đổi."
+      ],
+      "problems_vi": [
+        "Làm sao dự đoán hành động của con người để đội robot lập kế hoạch an toàn mà vẫn giữ kết nối?",
+        "Làm sao UAV thích nghi trực tuyến với môi trường mới mà không phải huấn luyện lại toàn bộ chính sách?"
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.tudelft.nl/en/research",
+        "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+        "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/"
+      ],
+      "scope_note_vi": "Hướng tổng quát đối chiếu trang giới thiệu nghiên cứu chính thức của trường; vấn đề cụ thể lấy từ 2 công trình mẫu. Đây là lựa chọn minh họa, không phải bảng xếp hạng hay danh sách đầy đủ."
+    },
+    {
+      "short_name": "TU/e",
+      "domain": "tue.nl",
+      "directions_vi": [
+        "Cảm biến nhiệt độ trên nền InP kết hợp giao diện silicon CMOS cho mạch quang tích hợp.",
+        "Tích hợp quang tử và điện tử để theo dõi trạng thái nhiệt ngay trên chip.",
+        "Ăng-ten trên chip InP và kỹ thuật đo, hiệu chuẩn tổn hao ở tần số dưới terahertz."
+      ],
+      "problems_vi": [
+        "Làm sao đo nhiệt độ chính xác trong mạch quang tích hợp bằng cấu trúc cảm biến tương thích InP–CMOS?",
+        "Làm sao phân biệt tổn hao thật của cấu trúc InP với sai số phép đo và hiệu chuẩn ở dải dưới THz?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://research.tue.nl/en/publications/inp-temperature-sensor-with-si-cmos-interface-for-photonic-integr/",
+        "https://research.tue.nl/en/publications/challenges-in-insertion-loss-based-characterization-of-inp-techno/"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "RWTH Aachen",
+      "domain": "rwth-aachen.de",
+      "directions_vi": [
+        "Chuỗi cung ứng hydro xét đến yêu cầu độ tinh khiết và xử lý tạp chất.",
+        "Động cơ đốt hydro đánh lửa cưỡng bức.",
+        "Điều khiển tối ưu động cơ có nhiều cơ cấu chấp hành cần phối hợp."
+      ],
+      "problems_vi": [
+        "Làm sao bảo đảm độ tinh khiết của hydro phù hợp với từng công đoạn và thiết bị sử dụng cuối?",
+        "Làm sao phối hợp nhiều cơ cấu chấp hành để điều khiển động cơ hydro một cách tối ưu?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://publications.rwth-aachen.de/record/1018025",
+        "https://publications.rwth-aachen.de/record/1012916"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "TUM",
+      "domain": "tum.de",
+      "directions_vi": [
+        "Định lượng độ bất định của mô hình hồi quy và phân loại bằng tập dự đoán conformal dạng zonotope.",
+        "Học máy cho thiết kế vật liệu, dựa trên đặc tính vận chuyển điện tích.",
+        "Tìm đặc trưng cấu trúc có thể giải thích để lựa chọn vật liệu dẫn điện ổn định, gồm khung hữu cơ cộng hóa trị và perovskite lai."
+      ],
+      "problems_vi": [
+        "Làm sao xây dựng vùng dự đoán có bảo đảm thống kê và vẫn biểu diễn được phụ thuộc giữa nhiều đầu ra?",
+        "Làm sao dùng học máy để liên hệ cấu trúc vật liệu với vận chuyển điện tích và hỗ trợ thiết kế vật liệu mới?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://mediatum.ub.tum.de/doc/1793700/kz2rmzi7ls47ch7vdmshwjxd0.25-1161_published.pdf",
+        "https://mediatum.ub.tum.de/1785191"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "TU Berlin",
+      "domain": "tu.berlin",
+      "directions_vi": [
+        "Ước lượng độ bất định trong định vị bằng LiDAR và thuật toán ghép đám mây điểm ICP.",
+        "Kết hợp LiDAR với cảm biến quán tính để ước lượng chuyển động của robot.",
+        "Học tăng cường sâu cho lập kế hoạch chuyển động robot công nghiệp trong môi trường cộng tác động.",
+        "Chuyển chính sách điều khiển từ mô phỏng sang robot thật với thông tin khoảng cách và camera chiều sâu."
+      ],
+      "problems_vi": [
+        "Làm sao biết khi nào kết quả định vị LiDAR thiếu tin cậy và đưa độ bất định đó vào hợp nhất cảm biến?",
+        "Làm sao robot lập quỹ đạo kịp thời khi chướng ngại vật di chuyển và khi chuyển từ mô phỏng sang thực tế?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://depositonce.tu-berlin.de/items/8b5fd8c1-bb27-42f2-a79b-bfa997b81604",
+        "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "KTH",
+      "domain": "kth.se",
+      "directions_vi": [
+        "Phát hiện hành vi sai lệch trong đoàn xe kết nối bằng mô hình Transformer.",
+        "An ninh thông tin V2X trước dữ liệu chuyển động giả hoặc bất thường.",
+        "Nhận dạng thiết bị IoT bằng dấu vân tay tín hiệu vô tuyến.",
+        "Triển khai mô hình học sâu gọn nhẹ trên thiết bị biên để xác thực nguồn phát vô tuyến."
+      ],
+      "problems_vi": [
+        "Làm sao phát hiện dữ liệu chuyển động giả có thể gây nguy hiểm cho đoàn xe kết nối?",
+        "Làm sao xác thực thiết bị từ đặc trưng tín hiệu vô tuyến trên phần cứng biên có tài nguyên hạn chế?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301",
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Chalmers",
+      "domain": "chalmers.se",
+      "directions_vi": [
+        "Học máy ước lượng nguy cơ mạ lithium để hỗ trợ sạc pin nhanh và bảo vệ tuổi thọ.",
+        "Giám sát trạng thái pin bằng kết hợp tín hiệu điện, nhiệt, cơ, khí và quang.",
+        "Học máy có khả năng giải thích cho ước lượng trạng thái pin và lựa chọn thông tin cảm biến hữu ích."
+      ],
+      "problems_vi": [
+        "Làm sao sạc nhanh mà vẫn tránh điều kiện gây mạ lithium khi pin già hóa?",
+        "Những loại cảm biến nào giúp ước lượng trạng thái pin chính xác hơn dữ liệu điện đơn thuần?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/543531",
+        "https://research.chalmers.se/en/publication/547452"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Aalto",
+      "domain": "aalto.fi",
+      "directions_vi": [
+        "Làm lạnh nhanh mạch lượng tử siêu dẫn bằng các cấu trúc tiếp giáp xuyên hầm.",
+        "Đo động học làm lạnh trong chế độ lượng tử bằng bộ dò photon dựa trên qubit.",
+        "Đo phổ mạch siêu dẫn bằng cảm biến nhiệt bolometer tích hợp trên chip."
+      ],
+      "problems_vi": [
+        "Làm sao chủ động lấy năng lượng dư khỏi mạch lượng tử và đo được quá trình làm lạnh nhanh?",
+        "Làm sao suy ra tần số cộng hưởng và hệ số phẩm chất của mạch từ phép đo hấp thụ nhiệt?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://research.aalto.fi/en/publications/probing-fast-quantum-circuit-refrigeration-in-the-quantum-regime/",
+        "https://research.aalto.fi/fi/publications/thermal-spectrometer-for-superconducting-circuits/"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Politecnico di Milano",
+      "domain": "polimi.it",
+      "directions_vi": [
+        "Sản xuất hydro bằng nhiệt phân methane kết hợp xử lý carbon và thu giữ, lưu trữ CO₂.",
+        "Thiết kế và đánh giá hiệu suất năng lượng của chuỗi sản xuất hydro phân tán.",
+        "Vận chuyển hydro quy mô lớn bằng hydro lỏng, amoniac và chất mang hydro hữu cơ lỏng.",
+        "So sánh kỹ thuật các công đoạn chuyển đổi, lưu trữ, vận tải biển và thu hồi hydro."
+      ],
+      "problems_vi": [
+        "Làm sao kết hợp nhiệt phân methane và xử lý carbon để giảm phát thải của quy trình sản xuất hydro?",
+        "Chất mang và cấu hình chuỗi nào giảm tổn thất năng lượng, chi phí chuyển đổi và vận chuyển hydro đường dài?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1293138",
+        "https://re.public.polimi.it/handle/11311/1295776"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Politecnico di Torino",
+      "domain": "polito.it",
+      "directions_vi": [
+        "Đánh giá năng lực cộng tác của robot qua nhận thức tình huống, thích nghi, giao tiếp, học và di chuyển.",
+        "Điều khiển tối ưu bằng học tăng cường cho robot liên tục dùng trong phẫu thuật.",
+        "Thiết kế ràng buộc sai số bám và thời gian hội tụ cho điều khiển robot có độ chính xác cao."
+      ],
+      "problems_vi": [
+        "Làm sao so sánh năng lực cộng tác giữa các hệ robot bằng thước đo kỹ thuật nhất quán?",
+        "Làm sao giữ sai số chuyển động trong giới hạn an toàn và đạt thời gian hội tụ đặt trước cho robot liên tục?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://iris.polito.it/handle/11583/3000290",
+        "https://iris.polito.it/handle/11583/3005921"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường. Công trình robot phẫu thuật trong mẫu được kiểm chứng bằng mô phỏng; không suy ra đã triển khai lâm sàng."
+    },
+    {
+      "short_name": "TU Wien",
+      "domain": "tuwien.at",
+      "directions_vi": [
+        "Đồng hồ hạt nhân quang học thorium-229 với vòng phản hồi tự ổn định.",
+        "Điều khiển và đo lường chính xác dựa trên khóa laser vào chuyển tiếp hạt nhân.",
+        "Chuyển hóa sinh khối và phụ phẩm thành diesel Fischer–Tropsch và khí tự nhiên tổng hợp.",
+        "Hạ tầng thực nghiệm để phát triển công nghệ nhiên liệu sinh học bền vững."
+      ],
+      "problems_vi": [
+        "Làm sao duy trì laser ổn định theo chuyển tiếp hạt nhân để vận hành đồng hồ tự ổn định?",
+        "Làm sao phát triển và kiểm chứng quy trình tạo nhiên liệu lỏng, khí từ sinh khối và phụ phẩm?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.nature.com/articles/s41586-026-11084-4",
+        "https://www.tuwien.at/en/tu-wien/news/news-articles/news/reallabor-fuer-nachhaltige-treibstoffe"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường. Mẫu gồm một bài báo và một dự án hạ tầng nhiên liệu sinh học, được phân biệt trong dữ liệu gốc."
+    }
+  ]
+}

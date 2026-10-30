@@ -1,0 +1,304 @@
+{
+  "records": [
+    {
+      "title": "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A TRIZ-Based Experimental Design Approach to Enhance Wave Soldering Efficiency in Electronics Manufacturing",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Üng dung chuyén giao trong phåt hien nguy co chåy rừng",
+      "topic_codes": [
+        "AI_DATA",
+        "ENVIRONMENT"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Novel Hybrid Deep Learning Framework for Automated Malaria Parasite Detection in Microscopic Blood Smear Images",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Improving Machine Learning-based Test Smell Prediction using Data Processing Techniques",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Detecting ODE Mells in Java Rojects: A Omparative Tudy of Raditional Achine Earning and EEP Earning Approaches",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A Hybrid Deep Learning Architecture for Multi-Task Financial Forecasting: Integrating Bi-LSTM and Hierarchical Attention",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "DWACE: Enhancing Graph Clustering via Autoencoder and Contrastive Learning Refinement of DeepWalk Embeddings",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Performance Analysis of Wireless Optical Link with RIS Aided and the Implications of using Gaussian Q-function",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Enhancing Software Fault Prediction using Wrapper-based Metaheuristic Feature Selection Methods",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Applications of Artificial Intelligence in Indoor Fire Prevention and Fighting",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Test Smell Prediction Via Automated Machine Learning",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Intellectual Rooms based on AmI and IoT technologies",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Detecting Abnormal Cervical Cells Based on Segmentation of Overlapping Cells",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Combining Lightweight Deep Learning Models with Data Augmentation for Analysis of Cervical Cells",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Cross-modal prototype based multimodal federated learning under severely missing modality",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Analysis and evaluation about the dimmable light affect positioning-based MISO visible light communication",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Resource-Efficient Federated Multimodal Learning via Layer-Wise and Progressive Training",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Comparative Study of Deep Learning Methods for Cyberbullying Detection",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Research and implementation a contactless delivery system utilizing IoT technology",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Design And Implementation of a Smart Parking System",
+      "topic_codes": [
+        "CONSTRUCTION_TRANSPORT",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+    },
+    {
+      "title": "Enhancing Age and Gender Detection Performance in CNNs Through Optimization of Batch Normalization and Dropout Settings with Iterative Parameter",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "A Study on the Benefits and Effectiveness of a Deep Analysis Model in Implementing Hands-on Exercises for DDoS Attack Detection and Prevention",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "AnImproved the Fractional- Order Accumulated Grey Model by Trigonometric series and Its Application in Tourism Industry",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Animproved the prediction accuracy of the Fractional- order accumulated Grey model by Fourier series and Its application in Container Throughput Forecasting in Danang Port, Vietnam",
+      "topic_codes": [
+        "AI_DATA",
+        "CONSTRUCTION_TRANSPORT"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Hybrid Number Theoretic Transform Architecture for Homomorphic Encryption",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Effects of atmospheric turbulence and reconfigurable intelligent surfaces on near terrestrial optical link for internet of things",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Some applications of Normal distribution in Machine Learning algorithms",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Facial Expression Recognition: A Lite Deep Learning-Based Approach",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Fake News Detection System, based on CBOW and BERT",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "FedMEKT: Distillation-based embedding knowledge transfer for multimodal federated learning",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Utilization of Abductive Reasoning for Finding Missing Information in Gene Networks",
+      "topic_codes": [
+        "AI_DATA",
+        "BIOTECH_HEALTH"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Enhancing Data Security in Federated Learning with Dilithium",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Enhancing Software Fault Localization with Variational Autoencoder and Residual Neural Networks",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "Performance Analysis of Deep Learning Models for Software Fault Prediction Using the BugHunter Dataset",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "A comparative study of handling imbalanced data using generative adversarial networks for machine learning based software fault prediction",
+      "topic_codes": [
+        "COMPUTING",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "COMPUTING"
+    },
+    {
+      "title": "SPARTA-GEMSTONE: A two-phase approach for efficient node placement in 3D WSNs under Q-Coverage and Q-Connectivity constraints",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Deep learning model to identify Vietnamese historical figures",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "E2v-PhoBERT: A Fine-Tuned PhoBERT Model with Enhanced Accuracy for High-Performance Vietnamese Sentiment Analysis",
+      "topic_codes": [
+        "AI_DATA"
+      ],
+      "primary_topic_code": "AI_DATA"
+    }
+  ]
+}

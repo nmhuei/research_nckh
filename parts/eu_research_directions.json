@@ -1,0 +1,279 @@
+{
+  "schools": [
+    {
+      "short_name": "ETH Zurich",
+      "domain": "ethz.ch",
+      "directions_vi": [
+        "Học tăng cường kết hợp mô hình động lực học để điều khiển toàn thân robot có chân.",
+        "Robot vừa di chuyển vừa thao tác đồ vật: đẩy xe, giữ vật và xử lý vật mềm.",
+        "Di chuyển tự chủ trên địa hình khó bằng cảm biến chiều sâu và bản đồ độ cao với tài nguyên tính toán hạn chế."
+      ],
+      "problems_vi": [
+        "Làm sao robot giữ thăng bằng trong khi đồng thời di chuyển và tác động lên đồ vật?",
+        "Làm sao robot bốn chân nhỏ vượt địa hình khó với cảm biến và bộ xử lý hạn chế?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457",
+        "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "EPFL",
+      "domain": "epfl.ch",
+      "directions_vi": [
+        "Khoa học dữ liệu phục vụ nghiên cứu và các ứng dụng công nghệ.",
+        "Kỹ thuật y sinh và công nghệ chăm sóc sức khỏe cá nhân hóa.",
+        "Công nghệ năng lượng; mẫu công trình hiện có tập trung vào pin mặt trời perovskite và quy trình sản xuất mô-đun.",
+        "Robot và công nghệ chế tạo tiên tiến."
+      ],
+      "problems_vi": [
+        "Lựa chọn lớp tiếp xúc hữu cơ nào giúp pin mặt trời perovskite đảo cấu trúc hoạt động hiệu quả và ổn định hơn?",
+        "Vật liệu, tự động hóa và quy mô nhà máy ảnh hưởng thế nào đến chi phí sản xuất mô-đun quang điện?"
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.epfl.ch/research/",
+        "https://infoscience.epfl.ch/bitstreams/274f1852-8680-43df-867a-91945191f191/download",
+        "https://infoscience.epfl.ch/bitstreams/2215a38e-8549-4842-ba53-488fce913c09/download"
+      ],
+      "scope_note_vi": "Hướng tổng quát đối chiếu trang giới thiệu nghiên cứu chính thức của trường; vấn đề cụ thể lấy từ 2 công trình mẫu. Đây là lựa chọn minh họa, không phải bảng xếp hạng hay danh sách đầy đủ."
+    },
+    {
+      "short_name": "Imperial",
+      "domain": "imperial.ac.uk",
+      "directions_vi": [
+        "Học máy dự đoán truyền nhiệt khi dòng lưu chất ngưng tụ trong ống trơn và ống tăng cường truyền nhiệt.",
+        "Mạng nơ-ron thay thế các phép tính nhiệt hóa học tốn kém trong mô phỏng dòng phản ứng.",
+        "Học chuyển giao cho mô hình ngọn lửa có trao đổi nhiệt, hướng tới mô phỏng đốt cháy trong tua-bin khí."
+      ],
+      "problems_vi": [
+        "Làm sao dự đoán truyền nhiệt cho các cấu hình ống khác nhau bằng mô hình học máy?",
+        "Làm sao giảm chi phí mô phỏng đốt cháy mà vẫn mô tả được ảnh hưởng của mất nhiệt?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+        "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "TU Delft",
+      "domain": "tudelft.nl",
+      "directions_vi": [
+        "Công nghệ y tế và giải pháp kỹ thuật phục vụ sức khỏe.",
+        "Hệ thống số: chip, trí tuệ nhân tạo, robot và internet lượng tử.",
+        "Đô thị có khả năng chống chịu và công nghệ giao thông, di chuyển.",
+        "Công nghệ khí hậu và năng lượng.",
+        "Trong mẫu công trình: phối hợp người–robot và điều hướng UAV thích nghi khi môi trường thay đổi."
+      ],
+      "problems_vi": [
+        "Làm sao dự đoán hành động của con người để đội robot lập kế hoạch an toàn mà vẫn giữ kết nối?",
+        "Làm sao UAV thích nghi trực tuyến với môi trường mới mà không phải huấn luyện lại toàn bộ chính sách?"
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.tudelft.nl/en/research",
+        "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+        "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/"
+      ],
+      "scope_note_vi": "Hướng tổng quát đối chiếu trang giới thiệu nghiên cứu chính thức của trường; vấn đề cụ thể lấy từ 2 công trình mẫu. Đây là lựa chọn minh họa, không phải bảng xếp hạng hay danh sách đầy đủ."
+    },
+    {
+      "short_name": "TU/e",
+      "domain": "tue.nl",
+      "directions_vi": [
+        "Cảm biến nhiệt độ trên nền InP kết hợp giao diện silicon CMOS cho mạch quang tích hợp.",
+        "Tích hợp quang tử và điện tử để theo dõi trạng thái nhiệt ngay trên chip.",
+        "Ăng-ten trên chip InP và kỹ thuật đo, hiệu chuẩn tổn hao ở tần số dưới terahertz."
+      ],
+      "problems_vi": [
+        "Làm sao đo nhiệt độ chính xác trong mạch quang tích hợp bằng cấu trúc cảm biến tương thích InP–CMOS?",
+        "Làm sao phân biệt tổn hao thật của cấu trúc InP với sai số phép đo và hiệu chuẩn ở dải dưới THz?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://research.tue.nl/en/publications/inp-temperature-sensor-with-si-cmos-interface-for-photonic-integr/",
+        "https://research.tue.nl/en/publications/challenges-in-insertion-loss-based-characterization-of-inp-techno/"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "RWTH Aachen",
+      "domain": "rwth-aachen.de",
+      "directions_vi": [
+        "Chuỗi cung ứng hydro xét đến yêu cầu độ tinh khiết và xử lý tạp chất.",
+        "Động cơ đốt hydro đánh lửa cưỡng bức.",
+        "Điều khiển tối ưu động cơ có nhiều cơ cấu chấp hành cần phối hợp."
+      ],
+      "problems_vi": [
+        "Làm sao bảo đảm độ tinh khiết của hydro phù hợp với từng công đoạn và thiết bị sử dụng cuối?",
+        "Làm sao phối hợp nhiều cơ cấu chấp hành để điều khiển động cơ hydro một cách tối ưu?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://publications.rwth-aachen.de/record/1018025",
+        "https://publications.rwth-aachen.de/record/1012916"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "TUM",
+      "domain": "tum.de",
+      "directions_vi": [
+        "Định lượng độ bất định của mô hình hồi quy và phân loại bằng tập dự đoán conformal dạng zonotope.",
+        "Học máy cho thiết kế vật liệu, dựa trên đặc tính vận chuyển điện tích.",
+        "Tìm đặc trưng cấu trúc có thể giải thích để lựa chọn vật liệu dẫn điện ổn định, gồm khung hữu cơ cộng hóa trị và perovskite lai."
+      ],
+      "problems_vi": [
+        "Làm sao xây dựng vùng dự đoán có bảo đảm thống kê và vẫn biểu diễn được phụ thuộc giữa nhiều đầu ra?",
+        "Làm sao dùng học máy để liên hệ cấu trúc vật liệu với vận chuyển điện tích và hỗ trợ thiết kế vật liệu mới?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://mediatum.ub.tum.de/doc/1793700/kz2rmzi7ls47ch7vdmshwjxd0.25-1161_published.pdf",
+        "https://mediatum.ub.tum.de/1785191"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "TU Berlin",
+      "domain": "tu.berlin",
+      "directions_vi": [
+        "Ước lượng độ bất định trong định vị bằng LiDAR và thuật toán ghép đám mây điểm ICP.",
+        "Kết hợp LiDAR với cảm biến quán tính để ước lượng chuyển động của robot.",
+        "Học tăng cường sâu cho lập kế hoạch chuyển động robot công nghiệp trong môi trường cộng tác động.",
+        "Chuyển chính sách điều khiển từ mô phỏng sang robot thật với thông tin khoảng cách và camera chiều sâu."
+      ],
+      "problems_vi": [
+        "Làm sao biết khi nào kết quả định vị LiDAR thiếu tin cậy và đưa độ bất định đó vào hợp nhất cảm biến?",
+        "Làm sao robot lập quỹ đạo kịp thời khi chướng ngại vật di chuyển và khi chuyển từ mô phỏng sang thực tế?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://depositonce.tu-berlin.de/items/8b5fd8c1-bb27-42f2-a79b-bfa997b81604",
+        "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "KTH",
+      "domain": "kth.se",
+      "directions_vi": [
+        "Phát hiện hành vi sai lệch trong đoàn xe kết nối bằng mô hình Transformer.",
+        "An ninh thông tin V2X trước dữ liệu chuyển động giả hoặc bất thường.",
+        "Nhận dạng thiết bị IoT bằng dấu vân tay tín hiệu vô tuyến.",
+        "Triển khai mô hình học sâu gọn nhẹ trên thiết bị biên để xác thực nguồn phát vô tuyến."
+      ],
+      "problems_vi": [
+        "Làm sao phát hiện dữ liệu chuyển động giả có thể gây nguy hiểm cho đoàn xe kết nối?",
+        "Làm sao xác thực thiết bị từ đặc trưng tín hiệu vô tuyến trên phần cứng biên có tài nguyên hạn chế?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301",
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Chalmers",
+      "domain": "chalmers.se",
+      "directions_vi": [
+        "Học máy ước lượng nguy cơ mạ lithium để hỗ trợ sạc pin nhanh và bảo vệ tuổi thọ.",
+        "Giám sát trạng thái pin bằng kết hợp tín hiệu điện, nhiệt, cơ, khí và quang.",
+        "Học máy có khả năng giải thích cho ước lượng trạng thái pin và lựa chọn thông tin cảm biến hữu ích."
+      ],
+      "problems_vi": [
+        "Làm sao sạc nhanh mà vẫn tránh điều kiện gây mạ lithium khi pin già hóa?",
+        "Những loại cảm biến nào giúp ước lượng trạng thái pin chính xác hơn dữ liệu điện đơn thuần?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/543531",
+        "https://research.chalmers.se/en/publication/547452"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Aalto",
+      "domain": "aalto.fi",
+      "directions_vi": [
+        "Làm lạnh nhanh mạch lượng tử siêu dẫn bằng các cấu trúc tiếp giáp xuyên hầm.",
+        "Đo động học làm lạnh trong chế độ lượng tử bằng bộ dò photon dựa trên qubit.",
+        "Đo phổ mạch siêu dẫn bằng cảm biến nhiệt bolometer tích hợp trên chip."
+      ],
+      "problems_vi": [
+        "Làm sao chủ động lấy năng lượng dư khỏi mạch lượng tử và đo được quá trình làm lạnh nhanh?",
+        "Làm sao suy ra tần số cộng hưởng và hệ số phẩm chất của mạch từ phép đo hấp thụ nhiệt?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://research.aalto.fi/en/publications/probing-fast-quantum-circuit-refrigeration-in-the-quantum-regime/",
+        "https://research.aalto.fi/fi/publications/thermal-spectrometer-for-superconducting-circuits/"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Politecnico di Milano",
+      "domain": "polimi.it",
+      "directions_vi": [
+        "Sản xuất hydro bằng nhiệt phân methane kết hợp xử lý carbon và thu giữ, lưu trữ CO₂.",
+        "Thiết kế và đánh giá hiệu suất năng lượng của chuỗi sản xuất hydro phân tán.",
+        "Vận chuyển hydro quy mô lớn bằng hydro lỏng, amoniac và chất mang hydro hữu cơ lỏng.",
+        "So sánh kỹ thuật các công đoạn chuyển đổi, lưu trữ, vận tải biển và thu hồi hydro."
+      ],
+      "problems_vi": [
+        "Làm sao kết hợp nhiệt phân methane và xử lý carbon để giảm phát thải của quy trình sản xuất hydro?",
+        "Chất mang và cấu hình chuỗi nào giảm tổn thất năng lượng, chi phí chuyển đổi và vận chuyển hydro đường dài?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1293138",
+        "https://re.public.polimi.it/handle/11311/1295776"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường."
+    },
+    {
+      "short_name": "Politecnico di Torino",
+      "domain": "polito.it",
+      "directions_vi": [
+        "Đánh giá năng lực cộng tác của robot qua nhận thức tình huống, thích nghi, giao tiếp, học và di chuyển.",
+        "Điều khiển tối ưu bằng học tăng cường cho robot liên tục dùng trong phẫu thuật.",
+        "Thiết kế ràng buộc sai số bám và thời gian hội tụ cho điều khiển robot có độ chính xác cao."
+      ],
+      "problems_vi": [
+        "Làm sao so sánh năng lực cộng tác giữa các hệ robot bằng thước đo kỹ thuật nhất quán?",
+        "Làm sao giữ sai số chuyển động trong giới hạn an toàn và đạt thời gian hội tụ đặt trước cho robot liên tục?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://iris.polito.it/handle/11583/3000290",
+        "https://iris.polito.it/handle/11583/3005921"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường. Công trình robot phẫu thuật trong mẫu được kiểm chứng bằng mô phỏng; không suy ra đã triển khai lâm sàng."
+    },
+    {
+      "short_name": "TU Wien",
+      "domain": "tuwien.at",
+      "directions_vi": [
+        "Đồng hồ hạt nhân quang học thorium-229 với vòng phản hồi tự ổn định.",
+        "Điều khiển và đo lường chính xác dựa trên khóa laser vào chuyển tiếp hạt nhân.",
+        "Chuyển hóa sinh khối và phụ phẩm thành diesel Fischer–Tropsch và khí tự nhiên tổng hợp.",
+        "Hạ tầng thực nghiệm để phát triển công nghệ nhiên liệu sinh học bền vững."
+      ],
+      "problems_vi": [
+        "Làm sao duy trì laser ổn định theo chuyển tiếp hạt nhân để vận hành đồng hồ tự ổn định?",
+        "Làm sao phát triển và kiểm chứng quy trình tạo nhiên liệu lỏng, khí từ sinh khối và phụ phẩm?"
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.nature.com/articles/s41586-026-11084-4",
+        "https://www.tuwien.at/en/tu-wien/news/news-articles/news/reallabor-fuer-nachhaltige-treibstoffe"
+      ],
+      "scope_note_vi": "Các hướng và vấn đề dưới đây rút từ 2 công trình mẫu đã kiểm tra; không đại diện toàn bộ lĩnh vực hay thứ hạng ưu tiên của trường. Mẫu gồm một bài báo và một dự án hạ tầng nhiên liệu sinh học, được phân biệt trong dữ liệu gốc."
+    }
+  ]
+}

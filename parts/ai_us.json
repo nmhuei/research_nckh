@@ -1,0 +1,930 @@
+{
+  "metadata": {
+    "checked_on": "2026-10-30",
+    "scope_vi": "20 công trình AI chọn lọc của 10 trường Mỹ; phân biệt loại công bố và mức đọc. Không phải rà soát hệ thống hoặc tổng quan đầy đủ của mỗi trường.",
+    "existing_enriched_count": 7,
+    "new_targeted_search_count": 13,
+    "classification_method_vi": "Phân loại thủ công theo tóm tắt/phương pháp và nguồn trường, không chỉ dựa từ AI trong tiêu đề.",
+    "allowed_ai_topic_codes": [
+      "LLM_RAG_AGENTS",
+      "NLP_SPEECH",
+      "VISION_MULTIMODAL",
+      "ROBOTICS_RL",
+      "SECURITY_TRUST_PRIVACY",
+      "HEALTH_BIOAI",
+      "EDGE_SYSTEMS",
+      "SCIENTIFIC_INDUSTRIAL_AI",
+      "ML_FOUNDATIONS",
+      "FORECAST_RECOMMEND"
+    ]
+  },
+  "schools": [
+    {
+      "short_name": "MIT",
+      "name": "Massachusetts Institute of Technology",
+      "domain": "mit.edu",
+      "ai_portals": [
+        {
+          "title": "MIT News — nghiên cứu AI",
+          "url": "https://news.mit.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "IEEE ICRA 2025",
+          "authors": [
+            "Byungchul Kim",
+            "Tsun-Hsuan Wang",
+            "Daniela Rus"
+          ],
+          "affiliation": "MIT CSAIL xác nhận nghiên cứu của Byungchul Kim, Tsun-Hsuan Wang và Daniela Rus.",
+          "url": "https://doi.org/10.1109/ICRA55743.2025.11128113",
+          "doi": "10.1109/ICRA55743.2025.11128113",
+          "summary_vi": "Dùng mô hình khuếch tán và mô phỏng vật lý để tối ưu hình học robot nhảy có thể in 3D. Thử nghiệm so sánh cho thấy thiết kế mới nhảy cao hơn và tiếp đất ổn định hơn thiết kế cơ sở.",
+          "problem_vi": "Thiết kế hình học robot nhảy vừa đạt độ cao vừa tiếp đất ổn định.",
+          "ai_method_vi": "Mô hình khuếch tán sinh thiết kế, kết hợp mô phỏng vật lý để đánh giá và tối ưu.",
+          "reading_depth": "university_news_and_publisher_abstract",
+          "verification_note": "Đã đọc bản tin MIT và abstract IEEE; bản tin liên kết bản PDF tác giả. Công trình tại ICRA 2025; chưa đánh giá toàn văn hoặc khả năng tái lập.",
+          "source_urls": [
+            "https://doi.org/10.1109/ICRA55743.2025.11128113",
+            "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Thiết kế robot",
+            "Chế tạo bằng in 3D"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched"
+        },
+        {
+          "title": "Vision-Language Models Do Not Understand Negation",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "CVPR 2025",
+          "authors": [
+            "Kumail Alhamoud",
+            "Shaden Alshammari",
+            "Yonglong Tian",
+            "Guohao Li",
+            "Philip H. S. Torr",
+            "Yoon Kim",
+            "Marzyeh Ghassemi"
+          ],
+          "affiliation": "Kumail Alhamoud, Shaden Alshammari, Yoon Kim và Marzyeh Ghassemi thuộc MIT; hợp tác với OpenAI và University of Oxford.",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Alhamoud_Vision-Language_Models_Do_Not_Understand_Negation_CVPR_2025_paper.html",
+          "doi": null,
+          "summary_vi": "Xây dựng NegBench để kiểm tra hiểu phủ định trong mô hình thị giác–ngôn ngữ; thử tinh chỉnh CLIP bằng chú thích tổng hợp có phủ định.",
+          "problem_vi": "Mô hình có thể tìm đúng vật thể nhưng hiểu sai yêu cầu không chứa vật thể đó.",
+          "ai_method_vi": "Đánh giá truy hồi và trắc nghiệm đa phương thức; tinh chỉnh bằng dữ liệu phủ định tổng hợp.",
+          "reading_depth": "abstract_and_first_page",
+          "verification_note": "Đã đọc abstract, trang đầu PDF và bản tin MIT. Không thấy DOI trên trang CVF đã đọc; không tự suy đoán DOI.",
+          "source_urls": [
+            "https://openaccess.thecvf.com/content/CVPR2025/html/Alhamoud_Vision-Language_Models_Do_Not_Understand_Negation_CVPR_2025_paper.html",
+            "https://news.mit.edu/2025/study-shows-vision-language-models-cant-handle-negation-words-queries-0514",
+            "https://openaccess.thecvf.com/content/CVPR2025/papers/Alhamoud_Vision-Language_Models_Do_Not_Understand_Negation_CVPR_2025_paper.pdf"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "Truy hồi ảnh và video",
+            "Độ tin cậy mô hình đa phương thức"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "Caltech",
+      "name": "California Institute of Technology",
+      "domain": "caltech.edu",
+      "ai_portals": [
+        {
+          "title": "Caltech — nghiên cứu",
+          "url": "https://www.caltech.edu/research"
+        },
+        {
+          "title": "Qian Lab — tài liệu nghiên cứu DNA neural networks",
+          "url": "https://www.qianlab.caltech.edu/41586_2025_9479_MOESM1_ESM.pdf"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tensor Learning and Compression of N-Phonon Interactions",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Physical Review Letters",
+          "authors": [
+            "Yao Luo",
+            "Dhruv Mangtani",
+            "Shiyu Peng",
+            "Jia Yao",
+            "Sergei Kliavinek",
+            "Marco Bernardi"
+          ],
+          "affiliation": "Bản tin Caltech và trang Physical Review Letters ghi nhóm Marco Bernardi, Yao Luo cùng các tác giả thuộc Caltech.",
+          "url": "https://doi.org/10.1103/nmgj-yq1g",
+          "doi": "10.1103/nmgj-yq1g",
+          "summary_vi": "Học và nén tensor biểu diễn tương tác phonon để giảm chi phí tính toán tính chất nhiệt của vật liệu. Phương pháp giữ độ chính xác cao khi tính tốc độ tán xạ phonon và độ dẫn nhiệt trên các vật liệu được khảo sát.",
+          "problem_vi": "Tính tương tác nhiều phonon và truyền nhiệt đòi hỏi tensor rất lớn.",
+          "ai_method_vi": "Tensor learning tìm xấp xỉ hạng thấp và nén các tensor hằng số lực liên nguyên tử.",
+          "reading_depth": "publisher_abstract_and_affiliation",
+          "verification_note": "Đã đọc bản tin và abstract nhà xuất bản; chưa đọc phần toàn văn có yêu cầu quyền truy cập.",
+          "source_urls": [
+            "https://doi.org/10.1103/nmgj-yq1g",
+            "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+            "https://journals.aps.org/prl/abstract/10.1103/nmgj-yq1g",
+            "https://arxiv.org/abs/2503.05913",
+            "https://journals.aps.org/prl/supplemental/10.1103/nmgj-yq1g/Supplementary_Information_for_compressing_n_ph_interactions.pdf"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Mô phỏng vật liệu",
+            "Truyền nhiệt"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched"
+        },
+        {
+          "title": "Supervised learning in DNA neural networks",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Nature",
+          "authors": [
+            "Kevin M. Cherry",
+            "Lulu Qian"
+          ],
+          "affiliation": "Caltech xác nhận nghiên cứu tại phòng thí nghiệm Lulu Qian, với Kevin Cherry là tác giả thứ nhất.",
+          "url": "https://doi.org/10.1038/s41586-025-09479-w",
+          "doi": "10.1038/s41586-025-09479-w",
+          "summary_vi": "Xây dựng mạng nơ-ron bằng phân tử DNA có thể học từ ví dụ hóa học và nhận dạng mẫu mới. Thông tin học được lưu qua nồng độ và tương tác của các chuỗi DNA, mở hướng nghiên cứu tính toán phân tử và vật liệu thích nghi.",
+          "problem_vi": "Cho hệ phân tử học từ ví dụ và nhãn thay vì chỉ thực hiện cấu hình đặt sẵn.",
+          "ai_method_vi": "Mạng winner-take-all bằng phản ứng DNA; học có giám sát cập nhật ký ức phân tử từ mẫu và nhãn.",
+          "reading_depth": "publisher_methods_excerpt_and_university_news",
+          "verification_note": "Đã đọc tóm lược trường, phần phương pháp học và affiliation Nature; chưa đọc toàn văn. Đây là tính toán phân tử, không phải hệ chẩn đoán bệnh đã triển khai.",
+          "source_urls": [
+            "https://doi.org/10.1038/s41586-025-09479-w",
+            "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+            "https://www.nature.com/articles/s41586-025-09479-w"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Tính toán phân tử",
+            "Phần cứng mạng nơ-ron bằng DNA"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "Georgia Tech",
+      "name": "Georgia Institute of Technology",
+      "domain": "gatech.edu",
+      "ai_portals": [
+        {
+          "title": "EPIC Lab",
+          "url": "https://www.epic.gatech.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "CoRL 2025",
+          "authors": [
+            "Nadun Ranawaka Arachchige",
+            "Zhenyang Chen",
+            "Wonsuhk Jung",
+            "Woo Chul Shin",
+            "Rohan Bansal",
+            "Pierre Barroso",
+            "Yu Hang He",
+            "Yingyan Celine Lin",
+            "Benjamin Joffe",
+            "Shreyas Kousik",
+            "Danfei Xu"
+          ],
+          "affiliation": "Georgia Tech nêu nhóm Shreyas Kousik, Benjamin Joffe và Danfei Xu, cùng trích dẫn công trình CoRL 2025.",
+          "url": "https://arxiv.org/abs/2506.11948",
+          "doi": "10.48550/arXiv.2506.11948",
+          "summary_vi": "Điều chỉnh tốc độ thực thi của robot học từ thao tác mẫu của con người. Hệ thống phối hợp làm mượt chuyển động, bám quỹ đạo và bù độ trễ để tăng tốc nhiều tác vụ thao tác mà vẫn duy trì độ chính xác trong thử nghiệm.",
+          "problem_vi": "Robot học thao tác mẫu thường bị giới hạn bởi tốc độ của người biểu diễn.",
+          "ai_method_vi": "Học bắt chước với suy luận hành động nhất quán, điều chỉnh tốc độ thích nghi, bám quỹ đạo và lập lịch bù trễ.",
+          "reading_depth": "abstract_and_first_page",
+          "verification_note": "Đã đọc abstract và trang đầu bản tác giả, xác nhận toàn bộ affiliation Georgia Tech. Bản tin trường xác nhận CoRL 2025; DOI là của bản arXiv.",
+          "source_urls": [
+            "https://arxiv.org/abs/2506.11948",
+            "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+            "https://nadunranawaka1.github.io/sail-policy/static/SAIL_paper.pdf"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "Robot thao tác",
+            "Tự động hóa"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched",
+          "doi_type": "arxiv_preprint_identifier"
+        },
+        {
+          "title": "Deep domain adaptation eliminates costly data required for task-agnostic wearable robotic control",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Science Robotics",
+          "authors": [
+            "Keaton L. Scherpereel",
+            "Matthew C. Gombolay",
+            "Max K. Shepherd",
+            "Carlos A. Carrasquillo",
+            "Omer T. Inan",
+            "Aaron J. Young"
+          ],
+          "affiliation": "Các tác giả thuộc Georgia Tech, trừ Max K. Shepherd thuộc Northeastern University; affiliation xác nhận trong metadata bài báo.",
+          "url": "https://doi.org/10.1126/scirobotics.ads8652",
+          "doi": "10.1126/scirobotics.ads8652",
+          "summary_vi": "Chuyển dữ liệu cơ sinh học sẵn có sang điều khiển bộ khung trợ lực mới bằng thích nghi miền sâu. Mục tiêu là ước lượng mô-men khớp thời gian thực và giảm nhu cầu thu thập dữ liệu riêng cho từng thiết bị, người dùng và tác vụ.",
+          "problem_vi": "Bộ khung trợ lực thiếu dữ liệu có nhãn riêng cho thiết bị và người dùng mới.",
+          "ai_method_vi": "Deep domain adaptation qua miền cảm biến mô phỏng từ mô hình cơ sinh học; dùng dữ liệu công khai và dữ liệu exoskeleton không nhãn.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã bổ sung abstract và affiliation do nhà xuất bản cung cấp cho PubMed; xuất bản 19/11/2025. Đã thử điều khiển thời gian thực; chưa đánh giá toàn văn.",
+          "source_urls": [
+            "https://doi.org/10.1126/scirobotics.ads8652",
+            "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/",
+            "https://pubmed.ncbi.nlm.nih.gov/41259448/"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL",
+            "HEALTH_BIOAI"
+          ],
+          "application_domains": [
+            "Robot đeo hỗ trợ vận động",
+            "Ước lượng mô-men khớp"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched",
+          "publication_date": "2025-11-19"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "CMU",
+      "name": "Carnegie Mellon University",
+      "domain": "cmu.edu",
+      "ai_portals": [
+        {
+          "title": "Virginia Smith — công bố về học máy và LLM",
+          "url": "https://www.cs.cmu.edu/~smithv/index.html"
+        },
+        {
+          "title": "CMU SEI — thư viện nghiên cứu",
+          "url": "https://www.sei.cmu.edu/library/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Semantic Agreement Enables Efficient Open-Ended LLM Cascades",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "EMNLP 2025 Industry Track",
+          "authors": [
+            "Duncan Soiffer",
+            "Steven Kolawole",
+            "Virginia Smith"
+          ],
+          "affiliation": "Cả ba tác giả ghi Carnegie Mellon University trên trang đầu bài báo.",
+          "url": "https://aclanthology.org/2025.emnlp-industry.171/",
+          "doi": "10.18653/v1/2025.emnlp-industry.171",
+          "summary_vi": "Dùng sự đồng thuận về ý nghĩa giữa các câu trả lời để quyết định khi nào chuyển yêu cầu từ LLM nhỏ sang LLM lớn.",
+          "problem_vi": "Giảm chi phí và độ trễ trong tác vụ sinh câu trả lời mở mà vẫn giữ chất lượng.",
+          "ai_method_vi": "Ensemble và đo đồng thuận ngữ nghĩa làm tín hiệu định tuyến; không cần huấn luyện thêm hoặc truy cập trọng số.",
+          "reading_depth": "abstract_and_first_page",
+          "verification_note": "Đã đọc tóm tắt và thông tin công bố; chưa đánh giá toàn văn hoặc khả năng tái lập.",
+          "source_urls": [
+            "https://aclanthology.org/2025.emnlp-industry.171/",
+            "https://aclanthology.org/2025.emnlp-industry.171.pdf"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Hệ thống phục vụ LLM",
+            "Định tuyến truy vấn"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        },
+        {
+          "title": "Can Large Language Models Autoformalize Kinematics?",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "FMCAD 2025",
+          "authors": [
+            "Aditi Kabra",
+            "Jonathan Laurent",
+            "Sagar Bharadwaj",
+            "Ruben Martins",
+            "Stefan Mitsch",
+            "André Platzer"
+          ],
+          "affiliation": "Kabra, Bharadwaj và Martins thuộc CMU; Laurent và Platzer thuộc KIT; Mitsch thuộc DePaul.",
+          "url": "https://repositum.tuwien.at/handle/20.500.12708/219541",
+          "doi": "10.34727/2025/isbn.978-3-85448-084-6_13",
+          "summary_vi": "Kiểm tra LLM chuyển mô tả chuyển động bằng ngôn ngữ tự nhiên thành mô hình logic hình thức trên bộ 20 bài toán động học.",
+          "problem_vi": "Tạo mô hình vật lý đúng để hỗ trợ kiểm chứng hệ thống điều khiển tự hành.",
+          "ai_method_vi": "Few-shot prompting, vòng sửa lỗi theo parser và kiểm tra ngữ nghĩa bằng thực thi ký hiệu.",
+          "reading_depth": "abstract_first_page_and_methods_excerpt",
+          "verification_note": "DOI bài hội nghị được xác nhận tại TU Wien Academic Press. DOI 10.1184/R1/28934195 là artifact, không phải DOI bài. Bản CMU hiện trả 404 khi mở trực tiếp; bản nhà xuất bản còn truy cập được.",
+          "source_urls": [
+            "https://repositum.tuwien.at/handle/20.500.12708/219541",
+            "https://arxiv.org/abs/2509.21840",
+            "https://www.cs.cmu.edu/~jlaurent/pdf/papers/fmcad25.pdf",
+            "https://repositum.tuwien.at/bitstream/20.500.12708/219541/1/Kabra-2025-Can%20Large%20Language%20Models%20Autoformalize%20Kinematics-vor.pdf"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Kiểm chứng hệ thống vật lý số",
+            "Tự động hình thức hóa"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search",
+          "artifact_doi": "10.1184/R1/28934195"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "Purdue",
+      "name": "Purdue University",
+      "domain": "purdue.edu",
+      "ai_portals": [
+        {
+          "title": "AI Systems Lab — công bố",
+          "url": "https://engineering.purdue.edu/AISL/publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "Rethinking the Starting Point: Collaborative Pre-Training for Federated Downstream Tasks",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "AAAI 2025",
+          "authors": [
+            "Yun-Wei Chu",
+            "Dong-Jun Han",
+            "Seyyedali Hosseinalipour",
+            "Christopher G. Brinton"
+          ],
+          "affiliation": "Chu và Brinton thuộc Purdue; Han thuộc Yonsei; Hosseinalipour thuộc University at Buffalo.",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/33764",
+          "doi": "10.1609/aaai.v39i15.33764",
+          "summary_vi": "CoPreFL tiền huấn luyện cộng tác để mô hình thích ứng tốt với các tác vụ học liên kết mới và dữ liệu không đồng nhất giữa thiết bị.",
+          "problem_vi": "Điểm khởi tạo chung có thể làm một số nhóm người dùng học kém trong tác vụ mới.",
+          "ai_method_vi": "Meta-learning theo MAML, mô phỏng tác vụ liên kết và đưa độ chênh lệch hiệu quả giữa client vào mục tiêu.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc tóm tắt và thông tin công bố; chưa đánh giá toàn văn hoặc khả năng tái lập.",
+          "source_urls": [
+            "https://ojs.aaai.org/index.php/AAAI/article/view/33764"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Học liên kết",
+            "Học phân tán"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search",
+          "publication_date": "2025-04-11"
+        },
+        {
+          "title": "Transformers and Long Short-Term Memory Transfer Learning for GenIV Reactor Temperature Time Series Forecasting",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Energies",
+          "authors": [
+            "Stella Pantopoulou",
+            "Anthonie Cilliers",
+            "Lefteri H. Tsoukalas",
+            "Alexander Heifetz"
+          ],
+          "affiliation": "Pantopoulou và Tsoukalas ghi Purdue School of Nuclear Engineering; hợp tác với Argonne National Laboratory và Kairos Power.",
+          "url": "https://www.mdpi.com/1996-1073/18/9/2286",
+          "doi": "10.3390/en18092286",
+          "summary_vi": "Tiền huấn luyện mạng trên vòng thí nghiệm nhiệt thủy lực rồi tinh chỉnh để dự báo nhiệt độ tại cơ sở thử nghiệm nhiệt độ cao.",
+          "problem_vi": "Lò thế hệ IV còn thiếu dữ liệu vận hành dài hạn để huấn luyện mô hình giám sát.",
+          "ai_method_vi": "Transfer learning cho Transformer và LSTM; so sánh cửa sổ quan sát và độ dài dự báo.",
+          "reading_depth": "abstract_and_methods_excerpt",
+          "verification_note": "Đã đọc abstract và trích đoạn phương pháp; thử trên dữ liệu cơ sở thí nghiệm, không trình bày như hệ tự vận hành lò thương mại.",
+          "source_urls": [
+            "https://www.mdpi.com/1996-1073/18/9/2286",
+            "https://engineering.purdue.edu/AISL/publications"
+          ],
+          "ai_topic_codes": [
+            "FORECAST_RECOMMEND",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Giám sát hệ thống năng lượng",
+            "Dự báo chuỗi thời gian cảm biến"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search",
+          "publication_date": "2025-04-30"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "RPI",
+      "name": "Rensselaer Polytechnic Institute",
+      "domain": "rpi.edu",
+      "ai_portals": [
+        {
+          "title": "Mohammed J. Zaki — công bố",
+          "url": "https://www.cs.rpi.edu/~zaki/publications/"
+        },
+        {
+          "title": "FCRC — công bố",
+          "url": "https://fcrc.rpi.edu/research-outcomes/publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "Emergence of diffusion models from associative memory through memorization and generalization",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "accepted_manuscript_published_online",
+          "publication_venue": "Nature Communications",
+          "authors": [
+            "Bao Pham",
+            "Gabriel Raya",
+            "Matteo Negri",
+            "Mohammed J. Zaki",
+            "Luca Ambrogioni",
+            "Dmitry Krotov"
+          ],
+          "affiliation": "Danh mục công bố chính thức của Mohammed J. Zaki tại RPI xác nhận công trình hợp tác; không gán toàn bộ nhóm cho RPI.",
+          "url": "https://www.nature.com/articles/s41467-026-78727-y",
+          "doi": "10.1038/s41467-026-78727-y",
+          "summary_vi": "Phân tích khi mô hình khuếch tán chuyển từ ghi nhớ mẫu sang tạo mẫu mới qua góc nhìn mạng bộ nhớ liên tưởng.",
+          "problem_vi": "Hiểu nguồn gốc khả năng khái quát hóa và hiện tượng ghi nhớ của mô hình sinh.",
+          "ai_method_vi": "Lý thuyết Dense Associative Memories kết hợp thí nghiệm trên nhiều kiến trúc và bộ dữ liệu diffusion.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Nature ghi công bố trực tuyến 25/10/2026 dưới dạng bản đã phản biện và chấp nhận, còn được biên tập trước Version of Record. Tên bài hiện tại khác tiêu đề preprint 2025; dùng DOI tạp chí.",
+          "source_urls": [
+            "https://www.nature.com/articles/s41467-026-78727-y",
+            "https://www.cs.rpi.edu/~zaki/publications/",
+            "https://arxiv.org/abs/2505.21777"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "AI tạo sinh",
+            "Khái quát hóa mô hình"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search",
+          "publication_date": "2026-10-25"
+        },
+        {
+          "title": "Training Nonlinear Transformers for Chain-of-Thought Inference: A Theoretical Generalization Analysis",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "ICLR 2025",
+          "authors": [
+            "Hongkang Li",
+            "Songtao Lu",
+            "Pin-Yu Chen",
+            "Xiaodong Cui",
+            "Meng Wang"
+          ],
+          "affiliation": "Hongkang Li và Meng Wang thuộc RPI; Songtao Lu thuộc Chinese University of Hong Kong; Chen và Cui thuộc IBM Research.",
+          "url": "https://openreview.net/pdf?id=n7n8McETXw",
+          "doi": null,
+          "summary_vi": "Phân tích lý thuyết việc huấn luyện Transformer có attention phi tuyến để suy luận Chain-of-Thought trên tác vụ chưa thấy.",
+          "problem_vi": "Giải thích điều kiện học giúp Transformer khái quát hóa suy luận nhiều bước.",
+          "ai_method_vi": "Phân tích tối ưu phi lồi và khả năng khái quát hóa của Transformer phi tuyến trong thiết lập Chain-of-Thought.",
+          "reading_depth": "indexed_first_page_and_abstract_excerpt",
+          "verification_note": "Trang đầu PDF được lập chỉ mục xác nhận ICLR 2025, tác giả và affiliation. Mở trực tiếp OpenReview gặp kiểm tra trình duyệt; không tuyên bố đã đọc toàn văn hoặc có DOI.",
+          "source_urls": [
+            "https://openreview.net/pdf?id=n7n8McETXw",
+            "https://fcrc.rpi.edu/research-outcomes/publications"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "LLM_RAG_AGENTS"
+          ],
+          "application_domains": [
+            "Lý thuyết học máy",
+            "Suy luận nhiều bước"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "Virginia Tech",
+      "name": "Virginia Polytechnic Institute and State University",
+      "domain": "vt.edu",
+      "ai_portals": [
+        {
+          "title": "VTechWorks — kho nghiên cứu",
+          "url": "https://vtechworks.lib.vt.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Game-Theoretic and Machine Learning-based Defensive Deception for Dependable and Secure Cyber-Physical Systems",
+          "year": 2025,
+          "type": "doctoral_dissertation",
+          "status": "deposited_doctoral_dissertation",
+          "publication_venue": "Virginia Tech doctoral dissertation",
+          "authors": [
+            "Zelin Wan"
+          ],
+          "affiliation": "VTechWorks ghi tác giả Zelin Wan, đơn vị xuất bản Virginia Tech và bộ sưu tập Doctoral Dissertations.",
+          "url": "https://hdl.handle.net/10919/135538",
+          "doi": null,
+          "summary_vi": "Kết hợp lý thuyết trò chơi và học máy để xây dựng phòng thủ đánh lừa đối phương trong hệ thống vật lý số và nhóm người–máy. Luận án khảo sát IoT, nhiệm vụ UAV và phối hợp người với robot mặt đất trước các mối đe dọa mạng.",
+          "problem_vi": "Bảo vệ IoT và nhóm người–robot trước đối thủ có thể thích nghi chiến thuật.",
+          "ai_method_vi": "Kết hợp lý thuyết trò chơi và học máy để thiết kế, lựa chọn chiến lược phòng thủ đánh lừa.",
+          "reading_depth": "repository_abstract_and_metadata",
+          "verification_note": "Đã đọc metadata và abstract trong kho trường; đây là luận án tiến sĩ, chưa đọc toàn văn PDF. Kho cung cấp Handle, không thấy DOI trong metadata đã đọc.",
+          "source_urls": [
+            "https://hdl.handle.net/10919/135538",
+            "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff"
+          ],
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "An ninh hệ thống vật lý số",
+            "UAV và phối hợp người–robot"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched"
+        },
+        {
+          "title": "LLMs Can Reason Faster Only If We Let Them",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "ICML 2025, PMLR 267",
+          "authors": [
+            "Bilgehan Sel",
+            "Lifu Huang",
+            "Naren Ramakrishnan",
+            "Ruoxi Jia",
+            "Ming Jin"
+          ],
+          "affiliation": "Sel, Ramakrishnan, Jia và Jin thuộc Virginia Tech; Huang thuộc University of California, Davis.",
+          "url": "https://proceedings.mlr.press/v267/sel25a.html",
+          "doi": null,
+          "summary_vi": "AoT-O3 huấn luyện LLM tìm kế hoạch ngắn hơn nhưng vẫn hợp lệ, hướng đến suy luận ít tốn tài nguyên hơn.",
+          "problem_vi": "Suy luận theo cây hoặc thuật toán thường sinh lời giải dài và tăng chi phí.",
+          "ai_method_vi": "Tinh chỉnh có giám sát trên kế hoạch Algorithm-of-Thoughts, sau đó học tăng cường thưởng lời giải ngắn và đúng.",
+          "reading_depth": "abstract_and_first_page",
+          "verification_note": "Đã đọc abstract PMLR và trang đầu PDF xác nhận affiliation. Không thấy DOI bài trên PMLR; RL là phương pháp, chưa phải thử nghiệm robot.",
+          "source_urls": [
+            "https://proceedings.mlr.press/v267/sel25a.html",
+            "https://people.cs.vt.edu/~naren/papers/LLMs_Faster_ICML25.pdf",
+            "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sel25a/sel25a.pdf"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "Lập kế hoạch tự động",
+            "Hiệu quả suy luận LLM"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "Texas A&M",
+      "name": "Texas A&M University",
+      "domain": "tamu.edu",
+      "ai_portals": [
+        {
+          "title": "Guni Sharon — nhóm nghiên cứu",
+          "url": "https://people.engr.tamu.edu/guni/group.html"
+        },
+        {
+          "title": "Texas A&M Engineering — nghiên cứu ERIC",
+          "url": "https://engineering.tamu.edu/news/2025/07/the-key-to-lowering-your-water-bill-may-already-be-at-your-door.html"
+        }
+      ],
+      "items": [
+        {
+          "title": "ERIC: Estimating Rainfall with Commodity Doorbell Camera for Precision Residential Irrigation",
+          "year": 2024,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "ACM BuildSys 2024",
+          "authors": [
+            "Tian Liu",
+            "Liuyi Jin",
+            "Radu Stoleru",
+            "Amran Haroon",
+            "Charles Swanson",
+            "Kexin Feng"
+          ],
+          "affiliation": "Bản tin Texas A&M xác nhận nhóm Stoleru, Liu và các đồng tác giả; Swanson thuộc Texas A&M AgriLife Extension.",
+          "url": "https://arxiv.org/abs/2409.13104",
+          "doi": "10.1145/3671127.3698186",
+          "summary_vi": "ERIC dùng camera chuông cửa và mô hình học máy ước lượng mưa tại nhà rồi tự điều chỉnh lịch tưới.",
+          "problem_vi": "Dữ liệu mưa từ trạm xa không phản ánh lượng mưa thực tế tại từng nhà.",
+          "ai_method_vi": "Đặc trưng hình ảnh và âm thanh với mạng nơ-ron nhẹ chạy ở biên; tích hợp điều khiển tưới.",
+          "reading_depth": "preprint_abstract_and_university_news",
+          "verification_note": "Chọn bài BuildSys 2024, không trộn với bản mở rộng tạp chí DOI 10.1145/3734526. DOI hội nghị được repository tác giả và liên kết bản tin trường xác nhận; trang ACM trả 403.",
+          "source_urls": [
+            "https://arxiv.org/abs/2409.13104",
+            "https://dl.acm.org/doi/10.1145/3671127.3698186",
+            "https://github.com/LENSS/ERIC-BuildSys2024",
+            "https://engineering.tamu.edu/news/2025/07/the-key-to-lowering-your-water-bill-may-already-be-at-your-door.html"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Tưới chính xác",
+            "Tiết kiệm nước",
+            "Nhà thông minh"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        },
+        {
+          "title": "Policy-Guided Search on Tree-of-Thoughts for Efficient Problem Solving with Bounded Language Model Queries",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Transactions on Machine Learning Research",
+          "authors": [
+            "Sumedh Pendurkar",
+            "Guni Sharon"
+          ],
+          "affiliation": "Cả hai tác giả ghi Department of Computer Science & Engineering, Texas A&M University.",
+          "url": "https://people.engr.tamu.edu/guni/papers/TMLR25_Sumedh.pdf",
+          "doi": null,
+          "summary_vi": "Dùng xác suất do mô hình ngôn ngữ gán cho các bước suy nghĩ để dẫn hướng tìm kiếm trong ngân sách truy vấn cố định.",
+          "problem_vi": "Tìm kiếm Tree-of-Thoughts tốn nhiều lượt gọi để sinh và chấm điểm nhánh.",
+          "ai_method_vi": "Điều chỉnh Levin Tree Search cho cây suy nghĩ; dùng LM làm policy và phân tích chặn số bước mở rộng.",
+          "reading_depth": "abstract_first_page_and_introduction",
+          "verification_note": "Bản tác giả ghi Published in TMLR (12/2025); xác nhận affiliation trên trang đầu. Không thấy DOI riêng; giữ liên kết OpenReview.",
+          "source_urls": [
+            "https://people.engr.tamu.edu/guni/papers/TMLR25_Sumedh.pdf",
+            "https://openreview.net/forum?id=Rlk1bWe2ii",
+            "https://people.engr.tamu.edu/guni/group.html"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Suy luận LLM",
+            "Tìm kiếm và lập kế hoạch"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "Stevens",
+      "name": "Stevens Institute of Technology",
+      "domain": "stevens.edu",
+      "ai_portals": [
+        {
+          "title": "Stevens Research Portal",
+          "url": "https://researchwith.stevens.edu/en/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "IEEE Sensors Journal",
+          "authors": [
+            "Xiaobing Chen",
+            "Xiangwei Zhou",
+            "Mingxuan Sun",
+            "Hao Wang"
+          ],
+          "affiliation": "Stevens Research Portal gắn công bố với Hao Wang và Department of Electrical and Computer Engineering; đồng thời ghi đối tác Louisiana State University.",
+          "url": "https://doi.org/10.1109/JSEN.2024.3491933",
+          "doi": "10.1109/JSEN.2024.3491933",
+          "summary_vi": "Học biểu diễn chuỗi thời gian cảm biến bằng quan hệ đồng xuất hiện theo thời gian để giảm nhu cầu dữ liệu có nhãn. Khung TCLHAR kết hợp thông tin nhiều loại cảm biến và được đánh giá trên các tập dữ liệu nhận dạng hoạt động người.",
+          "problem_vi": "Nhận dạng hoạt động từ thiết bị đeo cần nhiều dữ liệu cảm biến được gán nhãn tốn kém.",
+          "ai_method_vi": "TCLHAR tiền huấn luyện tương phản bằng quan hệ đồng xuất hiện thời gian; encoder hợp nhất nhiều loại cảm biến.",
+          "reading_depth": "institutional_abstract_and_metadata",
+          "verification_note": "Đã đọc abstract và metadata Stevens; năm số tạp chí 2025, bản quyền/DOI chứa 2024. Nhãn đa phương thức ở đây là hợp nhất cảm biến, không phải thị giác ảnh.",
+          "source_urls": [
+            "https://doi.org/10.1109/JSEN.2024.3491933",
+            "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "VISION_MULTIMODAL"
+          ],
+          "application_domains": [
+            "Nhận dạng hoạt động người",
+            "Cảm biến đeo"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "existing_enriched"
+        },
+        {
+          "title": "MSFT-transformer: a multistage fusion tabular transformer for disease prediction using metagenomic data",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Briefings in Bioinformatics",
+          "authors": [
+            "Ning Wang",
+            "Minghui Wu",
+            "Wenchao Gu",
+            "Chenglong Dai",
+            "Zongru Shao",
+            "K. P. Subbalakshmi"
+          ],
+          "affiliation": "Stevens Research Portal gắn K. P. Subbalakshmi với Department of Electrical and Computer Engineering; công trình hợp tác Jiangnan University và Silicon Austria Labs.",
+          "url": "https://researchwith.stevens.edu/en/publications/msft-transformer-a-multistage-fusion-tabular-transformer-for-dise/",
+          "doi": "10.1093/bib/bbaf217",
+          "summary_vi": "Transformer hợp nhất nhiều loại đặc trưng metagenomic để dự đoán bệnh, đánh giá trên năm bộ dữ liệu.",
+          "problem_vi": "Các mô hình dùng một loại đặc trưng bỏ lỡ thông tin bổ sung trong dữ liệu hệ vi sinh.",
+          "ai_method_vi": "Tabular Transformer với trích xuất đặc trưng, căn chỉnh liên phương thức và hợp nhất quyết định qua ba giai đoạn.",
+          "reading_depth": "institutional_abstract_and_metadata",
+          "verification_note": "Đọc abstract và metadata của kho trường; chưa đọc toàn văn. Đa phương thức là nhiều nhóm dữ liệu bảng, không phải ảnh; không suy ra hiệu quả lâm sàng.",
+          "source_urls": [
+            "https://researchwith.stevens.edu/en/publications/msft-transformer-a-multistage-fusion-tabular-transformer-for-dise/",
+            "https://doi.org/10.1093/bib/bbaf217"
+          ],
+          "ai_topic_codes": [
+            "HEALTH_BIOAI",
+            "VISION_MULTIMODAL"
+          ],
+          "application_domains": [
+            "Dữ liệu hệ vi sinh",
+            "Dự đoán bệnh"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    },
+    {
+      "short_name": "IIT",
+      "name": "Illinois Institute of Technology",
+      "domain": "iit.edu",
+      "ai_portals": [
+        {
+          "title": "ECASP Laboratory — công bố",
+          "url": "https://ecasp.ece.iit.edu/2012-present.html"
+        }
+      ],
+      "items": [
+        {
+          "title": "Deep Learning-augmented SHS Model for Accurate AoI Analysis in Heterogeneous Unsaturated CSMA Networks",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "publication_venue": "IEEE INFOCOM 2025",
+          "authors": [
+            "Suyang Wang",
+            "Yu Cheng"
+          ],
+          "affiliation": "Cả hai tác giả ghi Department of Electrical and Computer Engineering, Illinois Institute of Technology.",
+          "url": "https://www.ece.iit.edu/~yucheng/YCheng_INFOCOM25.pdf",
+          "doi": "10.1109/INFOCOM55648.2025.11044711",
+          "summary_vi": "Kết hợp học sâu với mô hình hệ lai ngẫu nhiên để ước lượng độ mới thông tin trong mạng CSMA có tải không đồng nhất.",
+          "problem_vi": "Mô hình giải tích đơn thuần khó tính tuổi thông tin khi các nút chưa bão hòa và cạnh tranh truyền.",
+          "ai_method_vi": "Mạng học sâu suy ra tham số truy cập và va chạm từ quan sát tại điểm truy cập, rồi đưa vào mô hình SHS.",
+          "reading_depth": "abstract_and_first_two_pages",
+          "verification_note": "Đọc hai trang đầu bản tác giả, xác nhận phương pháp và affiliation. Đánh giá mô phỏng mạng; không suy ra triển khai thực địa.",
+          "source_urls": [
+            "https://www.ece.iit.edu/~yucheng/YCheng_INFOCOM25.pdf",
+            "https://doi.org/10.1109/INFOCOM55648.2025.11044711"
+          ],
+          "ai_topic_codes": [
+            "EDGE_SYSTEMS",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Mạng không dây",
+            "Phân tích tuổi thông tin"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search"
+        },
+        {
+          "title": "Deep Learning Scheduling on a Field-Programmable Gate Array Cluster Using Configurable Deep Learning Accelerators",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "publication_venue": "Information",
+          "authors": [
+            "Tianyang Fang",
+            "Alejandro Perez-Vicente",
+            "Hans Johnson",
+            "Jafar Saniie"
+          ],
+          "affiliation": "Toàn bộ tác giả ghi Department of Electrical and Computer Engineering, Illinois Institute of Technology.",
+          "url": "https://www.mdpi.com/2078-2489/16/4/298",
+          "doi": "10.3390/info16040298",
+          "summary_vi": "Xây dựng và đánh giá cụm FPGA để phân phối suy luận mạng nơ-ron, giảm độ trễ bằng các cách lập lịch và cấu hình bộ tăng tốc.",
+          "problem_vi": "Triển khai mô hình học sâu ở biên bị giới hạn tài nguyên và độ trễ.",
+          "ai_method_vi": "Phân hoạch đồ thị tính toán DNN, pipeline và phân bổ tác vụ trên các kiến trúc tăng tốc cấu hình được.",
+          "reading_depth": "abstract_first_page_and_results_excerpt",
+          "verification_note": "Đã đọc abstract, affiliation và trích đoạn đánh giá. Đây là nghiên cứu hệ thống triển khai AI; bộ lập lịch không được mô tả là tự học bằng AI.",
+          "source_urls": [
+            "https://www.mdpi.com/2078-2489/16/4/298",
+            "https://ecasp.ece.iit.edu/publications/2012-present/2025-02.pdf",
+            "https://ecasp.ece.iit.edu/2012-present.html"
+          ],
+          "ai_topic_codes": [
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Phần cứng tăng tốc AI",
+            "Suy luận ở biên"
+          ],
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "source_relation": "new_targeted_search",
+          "publication_date": "2025-04-08"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026."
+    }
+  ]
+}

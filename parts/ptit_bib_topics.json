@@ -1,0 +1,183 @@
+{
+  "records": [
+    {
+      "title": "MULTI-LEVEL STACKING ENSEMBLE LEARNING FOR ENHANCED ECG-BASED ARRHYTHMIA DETECTION",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "PERFORMANCE OF MULTI RIS AIDED UPLINK WIRELESS SYSTEMS WITH SHORT PACKET COMMUNICATIONS",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Ăng ten MIMO 2×2 băng siêu rộng có hệ số cách ly cao ứng dụng cho truyền thông 5G băng tần dưới 6GHz",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Electrocardiogram Based Heartbeat Detection Using Deep Learning",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "A Perception-Driven Framework for Robust V2V Cooperative Localization",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "CONSTRUCTION_TRANSPORT"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "MACHINE LEARNING-BASED PREDICTION OF HEART FAILURE USING GENETIC DATA",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "IDENTIFYING RISK FACTORS AND SURVIVAL PREDICTION OF HEART FAILURE PATIENTS USING MACHINE LEARNING",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "EXPERIMENTAL PERFORMANCE EVALUATION OF WIREGUARD PROTOCOL COMPARED TO OPENVPN AND IPsec IN VIRTUAL PRIVATE NETWORKS",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "Outage Probability of Adaptive RIS-NOMA Downlink System with Channel-Aware Scheduling for Heterogeneous Users",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Hiệu năng chiến lược chuyển giao phổ tần trong mạng vô tuyến hợp tác nhận thức hỗ trợ IoT",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Performance Analysis of RIS-UAV-Assisted Cooperative NOMA with Two-Phase Transmission for Finite Blocklength Communications",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Improving the performance of FBG optical sensor networks integrated with DWDM optical transmission networks",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "ECG-Based Arrhythmia Classification with Principal Component Analysis and Machine Learning",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    },
+    {
+      "title": "Đánh giá hiệu năng mạng cảm biến đa sự kiện sử dụng giao thức PMME thích nghi",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Design of a Multi-Band RF-DC Circuit for Energy Harvesting in IoT Sensor Systems",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "ENERGY"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Thiết kế nền tảng thực hành trực tuyến AIoT",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Ứng dụng Lý thuyết Dấu ấn trong xây dựng mô hình phân tích dữ liệu thời gian thực.",
+      "topic_codes": [
+        "AI_DATA",
+        "COMPUTING"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "NGHIÊN CỨU ỨNG DỤNG HỌC MÁY NHỎ TINYML CHO NÔNG NGHIỆP VÀ SẢN XUẤT CÔNG NGHIỆP",
+      "topic_codes": [
+        "AI_DATA",
+        "AGRI_FOOD",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "AI_DATA"
+    },
+    {
+      "title": "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+      "topic_codes": [
+        "AGRI_FOOD",
+        "AI_DATA",
+        "ENVIRONMENT"
+      ],
+      "primary_topic_code": "AGRI_FOOD"
+    },
+    {
+      "title": "Design and Performance Analysis of an SCM-Integrated SIKD Satellite FSO System Using Dual-Threshold CV-QKD",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM",
+        "CYBERSECURITY"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "KỸ THUẬT MIMO CỠ LỚN PHI TẾ BÀO VÀ ỨNG DỤNG TRONG MẠNG TRUYỀN THÔNG VỆ TINH QUỸ ĐẠO THẤP",
+      "topic_codes": [
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "ELECTRONICS_TELECOM"
+    },
+    {
+      "title": "Secure Block-Error Rate in Cooperative SPC Systems with Collaborative Jamming",
+      "topic_codes": [
+        "CYBERSECURITY",
+        "ELECTRONICS_TELECOM"
+      ],
+      "primary_topic_code": "CYBERSECURITY"
+    },
+    {
+      "title": "A Study on Feature Selection Algorithms for Machine Learning-based ALS Diagnosis",
+      "topic_codes": [
+        "BIOTECH_HEALTH",
+        "AI_DATA"
+      ],
+      "primary_topic_code": "BIOTECH_HEALTH"
+    }
+  ]
+}

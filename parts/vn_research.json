@@ -1,0 +1,603 @@
+{
+  "retrieved_at": "2026-10-30",
+  "scope": "Initial evidenced research scan for 8 Vietnamese technology-focused institutions; representative samples, not exhaustive research inventory.",
+  "schools": [
+    {
+      "name": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "domain": "vlute.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://qlkh.vlute.edu.vn/",
+          "title": "Cơ sở dữ liệu khoa học công nghệ VLUTE"
+        },
+        {
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi",
+          "title": "Tạp chí Khoa học VLUTE"
+        }
+      ],
+      "items": [
+        {
+          "title": "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "AI và học máy",
+            "AI y tế",
+            "AI có thể giải thích"
+          ],
+          "summary_vi": "XAI-NET kết hợp các kiến trúc học sâu và SHAP/LIME để phân tích ảnh MRI trong bài toán nhận diện Alzheimer; đánh giá trên dữ liệu ADNI.",
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323",
+          "doi": "10.64215/sr6dr289",
+          "verification_note": "Đã đọc trang bài báo và abstract, ngày xuất bản 29/09/2026; tác giả có địa chỉ email thuộc vlute.edu.vn. Chưa đọc toàn văn hay kiểm định ứng dụng lâm sàng. Quan hệ với VLUTE được hỗ trợ bởi email tác giả trên trang tạp chí; chưa đối chiếu trang nhân sự hoặc dòng affiliation trong PDF.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Khac Tuong Nguyen",
+            "Anh Cang Phan"
+          ],
+          "published_date": "2026-09-29",
+          "topic_codes": [
+            "AI_DATA",
+            "BIOTECH_HEALTH"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation.",
+          "affiliation_evidence_level": "institutional_author_email_on_publisher_page"
+        },
+        {
+          "title": "BLOOD CELL DETECTION AND CLASSIFICATION USING FASTER R-CNN, RETINANET, AND YOLOv12",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "AI và học máy",
+            "Thị giác máy tính",
+            "AI y tế"
+          ],
+          "summary_vi": "So sánh ba mô hình phát hiện vật thể để nhận diện 13 loại tế bào máu ngoại vi trong ảnh kính hiển vi.",
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/326",
+          "doi": "10.64215/7cxagb47",
+          "verification_note": "Đã đọc metadata/abstract; cả hai tác giả có email thuộc vlute.edu.vn. Chưa đọc toàn văn. Quan hệ với VLUTE được hỗ trợ bởi email tác giả trên trang tạp chí; chưa đối chiếu trang nhân sự hoặc dòng affiliation trong PDF.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Nguyen Ngoc Hoang Quyen",
+            "Phan Anh Cang"
+          ],
+          "published_date": "2026-09-29",
+          "topic_codes": [
+            "AI_DATA",
+            "BIOTECH_HEALTH"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation.",
+          "affiliation_evidence_level": "institutional_author_email_on_publisher_page"
+        },
+        {
+          "title": "ANALYSIS OF BRAKING DYNAMICS AND THERMAL CHARACTERISTICS IN PASSENGER CARS BASED ON A BIDIRECTIONAL INTERACTION MODEL",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "Ô tô và giao thông",
+            "Cơ khí và mô phỏng",
+            "Nhiệt kỹ thuật"
+          ],
+          "summary_vi": "Mô phỏng quan hệ giữa tác động phanh, động lực học xe và nhiệt của phanh đĩa bằng MATLAB và mô hình nhiệt trong Ansys.",
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/175",
+          "doi": "10.64215/yfdhzs46",
+          "verification_note": "Đã đọc metadata/abstract; Nguyễn Thái Vân có email vlute.edu.vn, Vũ Dương có email duytan.edu.vn; đây là công bố có đồng tác giả từ nhiều cơ sở. Metadata ghi 07/08/2026, trong số tháng 9/2026. Quan hệ với VLUTE được hỗ trợ bởi email tác giả trên trang tạp chí; chưa đối chiếu trang nhân sự hoặc dòng affiliation trong PDF.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Võ Huỳnh Phi",
+            "Nguyễn Thái Vân",
+            "Vũ Dương"
+          ],
+          "published_date": "2026-08-07",
+          "topic_codes": [
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "CONSTRUCTION_TRANSPORT",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation.",
+          "affiliation_evidence_level": "institutional_author_email_on_publisher_page"
+        }
+      ]
+    },
+    {
+      "name": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+      "domain": "mta.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://jst.lqdtu.edu.vn/index.php/jst",
+          "title": "Journal of Science and Technique"
+        },
+        {
+          "url": "https://sdh.mta.edu.vn/",
+          "title": "Cổng thông tin sau đại học và nghiên cứu"
+        }
+      ],
+      "items": [
+        {
+          "title": "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI và học máy",
+            "Hàng không",
+            "Cơ học chất lưu"
+          ],
+          "summary_vi": "Dùng mạng U-Net cải tiến để dự báo trường áp suất và vận tốc quanh cánh máy bay và mô hình vật thể đáy tù.",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909",
+          "doi": "10.47869/tcsj.76.1.3",
+          "verification_note": "Trang của nhà xuất bản ghi rõ tác giả Tran The Hung thuộc Faculty of Aerospace Engineering, Le Quy Don Technical University. Chỉ đọc metadata/abstract. Tạp chí do UTC xuất bản nhưng bài này thuộc MTA theo affiliation.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Tran The Hung"
+          ],
+          "published_date": "2025-01-15",
+          "topic_codes": [
+            "AI_DATA",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Research on sustainable aspects in wire arc additive manufacturing of nickel-based alloy components",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "In 3D và chế tạo",
+            "Vật liệu tiên tiến",
+            "Sản xuất bền vững"
+          ],
+          "summary_vi": "Đánh giá vòng đời và chi phí khi chế tạo chi tiết Inconel 625 bằng đắp dây hồ quang kết hợp CNC, so với phương án chỉ gia công CNC.",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382",
+          "doi": "10.47869/tcsj.76.4.3",
+          "verification_note": "Đã kiểm tra affiliation MTA/LQDTU của nhiều tác giả trên trang xuất bản và đọc abstract. Trang HTML ghi 15/05/2025, PDF ghi online 15/04/2025; năm thống nhất là 2025.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Le Van Thao",
+            "Hoang Minh Phuc",
+            "Doan Tat Khoa",
+            "Le Duc Anh",
+            "Dang Van Thuc",
+            "Mai Dinh Si"
+          ],
+          "topic_codes": [
+            "CONSTRUCTION_TRANSPORT",
+            "MATERIALS",
+            "ENVIRONMENT"
+          ],
+          "primary_topic_code": "CONSTRUCTION_TRANSPORT",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+      "domain": "actvn.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://actvn.edu.vn/",
+          "title": "Cổng thông tin Học viện — Nghiên cứu"
+        },
+        {
+          "url": "https://thuvien.actvn.edu.vn/",
+          "title": "Thư viện và danh mục luận án, đồ án"
+        }
+      ],
+      "items": [
+        {
+          "title": "Phát triển giao thức tính toán bảo mật và ứng dụng cho hệ tư vấn người dùng có đảm bảo tính riêng tư",
+          "year": 2025,
+          "type": "doctoral_thesis",
+          "topics": [
+            "Mật mã và quyền riêng tư",
+            "Hệ gợi ý",
+            "Tính toán bảo mật"
+          ],
+          "summary_vi": "Phát triển giao thức tính toán bảo mật cho hệ gợi ý trên dữ liệu phân tán, với các phần đánh giá tính đúng đắn, riêng tư và hiệu quả.",
+          "url": "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf",
+          "doi": null,
+          "verification_note": "PDF chính thức 142 trang; đã kiểm tra trang tên, năm 2025, mục lục và một số đoạn kết luận. Không tuyên bố đã đọc toàn bộ luận án.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Vũ Thị Vân"
+          ],
+          "topic_codes": [
+            "CYBERSECURITY",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Nghiên cứu xây dựng công cụ kiểm tra an toàn cho mã nguồn sinh bởi LLM",
+          "year": 2025,
+          "type": "student_graduation_project",
+          "topics": [
+            "An toàn phần mềm",
+            "AI tạo sinh",
+            "Kiểm tra mã nguồn"
+          ],
+          "summary_vi": "Đồ án AT18 hướng tới kiểm tra bảo mật mã do mô hình ngôn ngữ lớn sinh ra.",
+          "url": "https://thuvien.actvn.edu.vn/",
+          "doi": null,
+          "verification_note": "Được ghi trong danh mục Tài liệu mới của thư viện: tác giả Lê Đức Thắng, Hà Thị Thanh hướng dẫn, Học viện KTMM, 2025. Trang chi tiết dmd_id=11172 trả 404 khi kiểm tra; phân loại dựa trên metadata/tên đồ án, chưa đọc nội dung hay xác nhận kết quả.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Lê Đức Thắng"
+          ],
+          "catalogue_detail_url": "https://thuvien.actvn.edu.vn/Opac/DmdInfo.aspx?dmd_id=11172",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Trường Đại học Giao thông vận tải (UTC)",
+      "domain": "utc.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://tcsj.utc.edu.vn/",
+          "title": "Tạp chí Khoa học Giao thông vận tải"
+        },
+        {
+          "url": "https://khcn.utc.edu.vn/",
+          "title": "Cổng Khoa học công nghệ"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tính chất cơ - lý của vữa rót giữ nước sử dụng phụ phẩm công nghiệp cho mặt đường bán mềm",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "Vật liệu xây dựng",
+            "Giao thông bền vững",
+            "Tái sử dụng phụ phẩm"
+          ],
+          "summary_vi": "Thử các tỷ lệ nước/bột xỉ trong vữa chứa xỉ lò cao, tro bay và vôi; so sánh độ chảy, hút nước và cường độ cho mặt đường bán mềm.",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123",
+          "doi": "10.47869/tcsj.77.8.3",
+          "verification_note": "Đã đọc abstract và kiểm tra affiliation UTC của các tác giả; nghiên cứu chưa đánh giá hiệu quả làm mát thực tế. Chưa đọc toàn văn.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Nguyễn Viết Đạt",
+            "Bùi Tuấn Anh",
+            "Trần Danh Hợi",
+            "Nguyễn Quang Phúc"
+          ],
+          "published_date": "2026-10-15",
+          "topic_codes": [
+            "MATERIALS",
+            "CONSTRUCTION_TRANSPORT",
+            "ENVIRONMENT"
+          ],
+          "primary_topic_code": "MATERIALS",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Đánh giá nhận thức về rủi ro an toàn giao thông trong hoạt động tìm kiếm chỗ đỗ và đỗ xe trên đường tại Hà Nội theo cách tiếp cận đa chiều",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "An toàn giao thông",
+            "Quy hoạch giao thông",
+            "Hành vi người dùng"
+          ],
+          "summary_vi": "Phân tích khảo sát 485 người về rủi ro khi tìm và sử dụng chỗ đỗ xe trên đường; hỗ trợ tổ chức đỗ xe đô thị.",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3056",
+          "doi": "10.47869/tcsj.77.8.2",
+          "verification_note": "Đã đọc abstract và kiểm tra affiliation UTC; một tác giả có thêm affiliation Đại học Kiến trúc Hà Nội. Đây là nghiên cứu giao thông, không phải hệ thống AI.",
+          "retrieved_at": "2026-10-30",
+          "authors": [
+            "Lê Văn Chè",
+            "Đặng Minh Tân",
+            "Bùi Xuân Cậy"
+          ],
+          "published_date": "2026-10-15",
+          "topic_codes": [
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "CONSTRUCTION_TRANSPORT",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Trường Đại học Mỏ - Địa chất (HUMG)",
+      "domain": "humg.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://humg.edu.vn/tin-tuc/Pages/khoa-hoc-cong-nghe.aspx",
+          "title": "Tin và kết quả khoa học công nghệ"
+        },
+        {
+          "url": "https://qlkh.humg.edu.vn/",
+          "title": "Quản lý khoa học công nghệ"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nghiên cứu ứng dụng điện toán đám mây và công nghệ Internet vạn vật (IoT) trong quan trắc dao động thời gian thực công trình cầu dây văng ở Việt Nam",
+          "year": 2026,
+          "type": "funded_research_project",
+          "topics": [
+            "IoT và cảm biến",
+            "Điện toán đám mây",
+            "Giám sát kết cấu"
+          ],
+          "summary_vi": "Tích hợp GNSS-RTK, cảm biến dao động và đám mây để theo dõi cầu theo thời gian thực; nguồn báo cáo thực nghiệm tại cầu Nhật Tân và Ba Son.",
+          "url": "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399",
+          "doi": null,
+          "verification_note": "Thông báo nghiệm thu cấp Bộ đăng 11/09/2026, chứa mục kết quả nghiên cứu; thực hiện 2024–2025, gia hạn đến 06/2026. Chưa kiểm tra biên bản nghiệm thu cuối cùng.",
+          "retrieved_at": "2026-10-30",
+          "project_id": "B2024-MDA-08",
+          "principal_investigator": "PGS.TS. Nguyễn Việt Hà",
+          "period": "2024–2026",
+          "topic_codes": [
+            "ELECTRONICS_TELECOM",
+            "COMPUTING",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "ELECTRONICS_TELECOM",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Nghiên cứu chế tạo sơn lót bảo vệ chống ăn mòn thép CT3 trên cơ sở nhựa epoxy và chất ức chế hạt nano SiO2 biến tính 3,5 - dinitrobenzoic axit",
+          "year": 2026,
+          "type": "funded_research_project",
+          "topics": [
+            "Vật liệu nano",
+            "Chống ăn mòn",
+            "Hóa học vật liệu"
+          ],
+          "summary_vi": "Chế tạo lớp phủ epoxy có hạt nano silica mang chất ức chế hữu cơ nhằm tăng khả năng bảo vệ thép trong môi trường chứa clorua.",
+          "url": "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9430",
+          "doi": null,
+          "verification_note": "Thông báo ngày 05/10/2026 về nghiệm thu cấp cơ sở, kèm mục kết quả nghiên cứu và sản phẩm. Thực hiện 2024–2025, gia hạn 06/2026; chưa đọc báo cáo toàn văn hoặc biên bản nghiệm thu.",
+          "retrieved_at": "2026-10-30",
+          "project_id": "B2024-MDA-02",
+          "principal_investigator": "TS. Hà Mạnh Hùng",
+          "period": "2024–2026",
+          "topic_codes": [
+            "MATERIALS"
+          ],
+          "primary_topic_code": "MATERIALS",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+      "domain": "huce.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://khcn.huce.edu.vn/",
+          "title": "Phòng Khoa học công nghệ"
+        },
+        {
+          "url": "https://fit.huce.edu.vn/danh-muc-ca",
+          "title": "Danh mục công trình khoa học Khoa CNTT 2025–2026"
+        }
+      ],
+      "items": [
+        {
+          "title": "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "An ninh mạng",
+            "AI và học máy",
+            "Hệ thống điều khiển công nghiệp"
+          ],
+          "summary_vi": "Đề xuất mô phỏng mạng ICS dùng SDN và mô hình học tổ hợp kết hợp LSTM để phát hiện tấn công xen giữa.",
+          "url": "https://isj.vn/index.php/journal_STIS/article/view/1137",
+          "doi": "10.54654/isj.v3i26.1137",
+          "verification_note": "Đã đọc abstract của nhà xuất bản; HUCE xác nhận Đào Việt Cường là tác giả của khoa trong danh mục công trình. Chưa đọc toàn văn.",
+          "retrieved_at": "2026-10-30",
+          "source_urls": [
+            "https://isj.vn/index.php/journal_STIS/article/view/1137",
+            "https://fit.huce.edu.vn/danh-muc-ca"
+          ],
+          "authors": [
+            "Nguyen Tuan Anh",
+            "Le Van Dong",
+            "Dao Viet Cuong",
+            "Nguyen Dinh Nghia",
+            "Tran Quang Duc"
+          ],
+          "published_date": "2025-12-31",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "AI và học máy",
+            "Thị giác máy tính",
+            "Mô hình ngôn ngữ thị giác",
+            "An toàn công trình"
+          ],
+          "summary_vi": "Kết hợp thông tin hình ảnh và ngữ nghĩa để phân biệt không cháy, lửa được kiểm soát và cháy nguy hiểm trong nhà.",
+          "url": "https://www.nature.com/articles/s41598-026-48743-5",
+          "doi": "10.1038/s41598-026-48743-5",
+          "verification_note": "Đã đọc abstract và xác nhận Trần Khánh Dung thuộc HUCE trong bản tác giả của nhà xuất bản; đồng tác giả từ USTH và Lyon. Chưa đọc toàn văn.",
+          "retrieved_at": "2026-10-30",
+          "source_urls": [
+            "https://www.nature.com/articles/s41598-026-48743-5",
+            "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+            "https://fit.huce.edu.vn/danh-muc-ca"
+          ],
+          "authors": [
+            "Anh Tuan Giang",
+            "Nhat Quang Doan",
+            "Minh Duong Tran",
+            "Khanh Dung Tran",
+            "Hoang Ha Nguyen",
+            "Anthony Busson"
+          ],
+          "published_date": "2026-04-14",
+          "collaborating_universities": [
+            "USTH",
+            "University Lyon 1 / ENS de Lyon"
+          ],
+          "topic_codes": [
+            "AI_DATA",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Trường Đại học FPT",
+      "domain": "daihoc.fpt.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://science.fpt.edu.vn/",
+          "title": "Cổng khoa học Tổ chức Giáo dục FPT"
+        },
+        {
+          "url": "https://daihoc.fpt.edu.vn/nghien-cuu-doi-moi/",
+          "title": "Nghiên cứu và Đổi mới của Đại học FPT"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+          "year": 2025,
+          "type": "institutional_research_project",
+          "topics": [
+            "AI và học máy",
+            "Công nghệ giáo dục",
+            "Cá nhân hóa học tập"
+          ],
+          "summary_vi": "Đề tài xây dựng mô hình AI và ứng dụng web hỗ trợ trải nghiệm học tập cá nhân.",
+          "url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025",
+          "doi": null,
+          "verification_note": "Danh mục chính thức đăng 22/09/2025 ghi Đang thực hiện; sản phẩm là mục tiêu kê khai, chưa được coi là kết quả hoàn tất.",
+          "retrieved_at": "2026-10-30",
+          "project_id": "DHFPT/2025/3",
+          "principal_investigator": "Nguyễn Thị Cẩm Hương",
+          "status_as_reported": "Đang thực hiện",
+          "duration_months": 12,
+          "topic_codes": [
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Nghiên cứu phát triển mô hình Transformer sử dụng WiFi Fingerprinting cho định vị trong nhà",
+          "year": 2025,
+          "type": "institutional_research_project",
+          "topics": [
+            "AI và học máy",
+            "Định vị trong nhà",
+            "Mạng không dây"
+          ],
+          "summary_vi": "Áp dụng Transformer cho bài toán định vị bằng dấu vân tay tín hiệu WiFi.",
+          "url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025",
+          "doi": null,
+          "verification_note": "Danh mục chính thức đăng 22/09/2025 ghi Đang thực hiện; chỉ đọc metadata đề tài, chưa có abstract hay kết quả độc lập được kiểm tra.",
+          "retrieved_at": "2026-10-30",
+          "project_id": "DHFPT/2025/22",
+          "principal_investigator": "Lê Anh Ngọc",
+          "status_as_reported": "Đang thực hiện",
+          "duration_months": 12,
+          "topic_codes": [
+            "AI_DATA",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    },
+    {
+      "name": "Đại học Phenikaa",
+      "domain": "phenikaa-uni.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://pse.phenikaa-uni.edu.vn/",
+          "title": "Trường Kỹ thuật Phenikaa — Nghiên cứu"
+        },
+        {
+          "url": "https://phenikaa-uni.edu.vn/vi/category/nghien-cuu/tin-tuc/tu-hao-phenikaa",
+          "title": "Tin nghiên cứu Phenikaa"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nghiên cứu phát triển các giải pháp định vị hiệu quả cho ứng dụng robot di động tự hành (ARM) tích hợp công nghệ Ultrawideband (UWB) trong các nhà máy thông minh",
+          "year": 2025,
+          "type": "funded_research_project",
+          "topics": [
+            "Robot và tự động hóa",
+            "Định vị UWB",
+            "Nhà máy thông minh"
+          ],
+          "summary_vi": "Đề tài NAFOSTED về định vị cho robot tự hành trong môi trường sản xuất thông minh.",
+          "url": "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025",
+          "doi": null,
+          "verification_note": "Danh mục Trường Kỹ thuật công bố 12/01/2026, dẫn quyết định 47/QĐ-HĐQL-NAFOSTED ngày 30/09/2025. Chỉ xác nhận đề tài được liệt kê; không xác nhận đã hoàn thành.",
+          "retrieved_at": "2026-10-30",
+          "project_id": "102.05-2025.1",
+          "principal_investigator": "TS. Bạch Sỹ Hưng",
+          "duration_months": 36,
+          "topic_codes": [
+            "ROBOTICS",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        },
+        {
+          "title": "Thiết kế và mô phỏng vật liệu hai chiều boron-nitride dang hexagon ứng dụng trong linh kiện trở nhớ",
+          "year": 2025,
+          "type": "funded_research_project",
+          "topics": [
+            "Vật liệu hai chiều",
+            "Linh kiện điện tử",
+            "Memristor"
+          ],
+          "summary_vi": "Thiết kế và mô phỏng boron nitride hai chiều cho ứng dụng linh kiện trở nhớ.",
+          "url": "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025",
+          "doi": null,
+          "verification_note": "Giữ nguyên tên đề tài theo nguồn, kể cả chữ \"dang\". Danh mục ngày 12/01/2026 dẫn quyết định tài trợ năm 2025; chưa kiểm tra kết quả hay công bố phát sinh.",
+          "retrieved_at": "2026-10-30",
+          "project_id": "103.01-2025.9",
+          "principal_investigator": "TS. Nguyễn Ngọc Lĩnh",
+          "duration_months": 36,
+          "topic_codes": [
+            "MATERIALS",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "MATERIALS",
+          "classification_method": "Manually assigned from research aim, method and application described in source; labels are analyst interpretation."
+        }
+      ]
+    }
+  ],
+  "methodology_vi": "Dò cổng khoa học, kho luận án/đồ án, danh mục đề tài và trang bài báo của nhà xuất bản. Chỉ gắn bài với trường khi có affiliation, danh mục công bố của trường hoặc bằng chứng tên miền tác giả. Phân loại chủ đề do người tổng hợp suy luận từ tiêu đề/abstract/nội dung tóm tắt của nguồn.",
+  "limitations_vi": [
+    "Mỗi trường chỉ có mẫu công trình; không dùng mẫu này để xếp hạng hay suy ra toàn bộ thế mạnh nghiên cứu.",
+    "Các bài báo chủ yếu mới đọc metadata và abstract; luận án chỉ kiểm tra một số phần; không tuyên bố rà soát toàn văn.",
+    "Trạng thái đề tài giữ đúng theo nguồn ở thời điểm công bố, có thể đã thay đổi.",
+    "Website tạp chí của một trường có thể đăng bài của tác giả trường khác; đã phân biệt đơn vị xuất bản với đơn vị tác giả.",
+    "Một số cổng lỗi chuyển hướng hoặc chặn web tool; đã đọc HTML công khai bằng requests và lưu tệp chứng cứ."
+  ]
+}

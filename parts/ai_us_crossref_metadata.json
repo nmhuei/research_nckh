@@ -1,0 +1,328 @@
+{
+  "10.1109/ICRA55743.2025.11128113": {
+    "title": [
+      "Generative-AI-Driven Jumping Robot Design Using Diffusion Models"
+    ],
+    "author": [
+      {
+        "given": "Byungchul",
+        "family": "Kim",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology,Distributed Robotics Laboratory, Computer Science and Artificial Intelligence Laboratory (CSAIL),Cambridge,MA,USA,02139"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tsun-Hsuan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology,Distributed Robotics Laboratory, Computer Science and Artificial Intelligence Laboratory (CSAIL),Cambridge,MA,USA,02139"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniela",
+        "family": "Rus",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Massachusetts Institute of Technology,Distributed Robotics Laboratory, Computer Science and Artificial Intelligence Laboratory (CSAIL),Cambridge,MA,USA,02139"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "type": "proceedings-article"
+  },
+  "10.1103/nmgj-yq1g": "Expecting value: line 1 column 1 (char 0)",
+  "10.1038/s41586-025-09479-w": "Expecting value: line 1 column 1 (char 0)",
+  "10.1126/scirobotics.ads8652": "Expecting value: line 1 column 1 (char 0)",
+  "10.1016/j.patter.2025.101231": {
+    "title": [
+      "Dimensionality and dynamics for next-generation artificial neural networks"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2656-7705",
+        "authenticated-orcid": false,
+        "given": "Ge",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Feng-Lei",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "type": "journal-article"
+  },
+  "10.1109/JSEN.2024.3491933": "Expecting value: line 1 column 1 (char 0)",
+  "10.3390/en18092286": {
+    "title": [
+      "Transformers and Long Short-Term Memory Transfer Learning for GenIV Reactor Temperature Time Series Forecasting"
+    ],
+    "author": [
+      {
+        "given": "Stella",
+        "family": "Pantopoulou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Nuclear Science and Engineering Division, Argonne National Laboratory, Argonne, IL 60439, USA"
+          },
+          {
+            "name": "School of Nuclear Engineering, Purdue University, West Lafayette, IN 47906, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9377-6067",
+        "authenticated-orcid": false,
+        "given": "Anthonie",
+        "family": "Cilliers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kairos Power, Alameda, CA 94501, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lefteri H.",
+        "family": "Tsoukalas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Nuclear Engineering, Purdue University, West Lafayette, IN 47906, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8891-9323",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Heifetz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nuclear Science and Engineering Division, Argonne National Laboratory, Argonne, IL 60439, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          30
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          30
+        ]
+      ]
+    },
+    "published-print": null,
+    "type": "journal-article"
+  },
+  "10.3390/info16040298": {
+    "title": [
+      "Deep Learning Scheduling on a Field-Programmable Gate Array Cluster Using Configurable Deep Learning Accelerators"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-8741-0473",
+        "authenticated-orcid": false,
+        "given": "Tianyang",
+        "family": "Fang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Illinois Institute of Technology, Chicago, IL 60616, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alejandro",
+        "family": "Perez-Vicente",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Illinois Institute of Technology, Chicago, IL 60616, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9153-921X",
+        "authenticated-orcid": false,
+        "given": "Hans",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Illinois Institute of Technology, Chicago, IL 60616, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2655-6950",
+        "authenticated-orcid": false,
+        "given": "Jafar",
+        "family": "Saniie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Illinois Institute of Technology, Chicago, IL 60616, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ]
+    },
+    "published-print": null,
+    "type": "journal-article"
+  },
+  "10.1145/3671127.3698186": "Expecting value: line 1 column 1 (char 0)"
+}

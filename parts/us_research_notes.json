@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-30",
+  "schools": 10,
+  "works": 20,
+  "works_by_type": {
+    "conference_paper": 4,
+    "journal_article": 14,
+    "technical_report": 1,
+    "doctoral_dissertation": 1
+  },
+  "works_with_doi": 19,
+  "works_with_handle_only": 1,
+  "evidence_urls_http200": 20,
+  "portal_root_challenges": [
+    "https://researchwith.stevens.edu/en/",
+    "https://www.caltech.edu/about/news"
+  ],
+  "doi_check_note": "Metadata registry requests supplement source checks. HTTP 429 means rate limiting, not invalid DOI. CMU SEI report and arXiv identifiers use DataCite. Exact titles and DOI links are sourced from university or publisher records.",
+  "reading_depth": "Metadata, abstracts, and official university/lab summaries only; not a full-text literature review.",
+  "scope_note": "Selected evidence map, 2 works per each of 10 US technology/engineering universities. Not exhaustive research inventory; no ranking or school-wide topic share inferred.",
+  "canonical_topic_config": "/home/ubuntu/university_research/config.py",
+  "primary_topic_counts": {
+    "ROBOTICS": 4,
+    "CYBERSECURITY": 5,
+    "MATERIALS": 4,
+    "BIOTECH_HEALTH": 1,
+    "ENERGY": 3,
+    "AI_DATA": 2,
+    "BASIC_SCIENCE": 1
+  }
+}

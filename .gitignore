@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.deps/
+.venv/
+venv/
+**/vn_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credentials and machine-local files
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# Downloaded pages, PDFs, and superseded report copies
+raw/
+ai_work/
+archive_before_technology_filter/
+parts/ai_vn_sources/
+parts/vn_sources/

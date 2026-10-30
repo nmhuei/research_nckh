@@ -1,0 +1,933 @@
+{
+  "metadata": {
+    "date": "2026-10-30",
+    "selection_note_vi": "Mỗi trường chọn một công trình minh họa trong tập đã rà soát; không xếp hạng công trình tốt nhất, trích dẫn nhiều nhất hoặc toàn bộ thế mạnh của trường. Tên tiếng Việt là diễn giải ngắn; tên gốc được giữ riêng.",
+    "reading_note_vi": "Bài công bố, bài đã chấp nhận, luận án, báo cáo và dự án được ghi loại riêng; xem ghi chú kiểm chứng để biết mức đọc nguồn."
+  },
+  "records": [
+    {
+      "school": "USTH",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Synthesis of an imine-type nickel complex and investigation of its electrocatalytic activity for H2 evolution",
+      "summary": "Tổng hợp phức nickel và khảo sát xúc tác điện hóa tạo hydro. Nguồn mô tả thí nghiệm điện hóa và phân tích cơ chế; đây là nghiên cứu xúc tác ở quy mô phòng thí nghiệm.",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2025/ra/d4ra08116a",
+      "record_id": "T001",
+      "title_vi": "Chế tạo phức nickel làm xúc tác điện hóa tạo hydro",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Vật liệu, nano và công nghệ hóa học"
+      ],
+      "doi": "10.1039/D4RA08116A",
+      "verification_note": "Đã đọc metadata và tóm tắt; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://pubs.rsc.org/en/content/articlelanding/2025/ra/d4ra08116a",
+        "https://usth.edu.vn/en/publications-4442/"
+      ]
+    },
+    {
+      "school": "HUST",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Improving computational drug repositioning through multi-source disease similarity networks",
+      "summary": "Kết hợp mạng tương đồng bệnh từ kiểu hình, ontology và dữ liệu phân tử, dùng Random Walk with Restart để dự đoán liên hệ thuốc–bệnh. Mục tiêu là tìm ứng dụng mới của thuốc; chưa phải bằng chứng hiệu quả điều trị.",
+      "url": "https://www.nature.com/articles/s41598-025-04772-0",
+      "record_id": "T004",
+      "title_vi": "Dự đoán công dụng mới của thuốc bằng mạng tương đồng bệnh đa nguồn",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Công nghệ sinh học và kỹ thuật y sinh",
+        "Phần mềm, hệ thống tính toán và mạng"
+      ],
+      "doi": "10.1038/s41598-025-04772-0",
+      "verification_note": "Đã đọc abstract và mô tả phương pháp; xác nhận đơn vị HUST qua thông tin tác giả/PubMed. Chưa thẩm định toàn văn hoặc tái lập.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-025-04772-0",
+        "https://soict.hust.edu.vn/en/2025-publications.html",
+        "https://pubmed.ncbi.nlm.nih.gov/40841559/"
+      ]
+    },
+    {
+      "school": "UET",
+      "year": 2026,
+      "type": "conference_paper",
+      "title": "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+      "summary": "Khung hỏi đáp sản phẩm phối hợp nhiều tác tử, truy xuất cơ sở dữ liệu sản phẩm, nhật ký hỏi đáp và nội dung web. Bộ lập kế hoạch chia nhỏ câu hỏi và hạn chế hành động dư thừa; abstract mô tả đánh giá trên ba miền sản phẩm.",
+      "url": "https://doi.org/10.1007/978-981-92-2590-3_24",
+      "record_id": "T008",
+      "title_vi": "PRADA-QA: hỏi đáp sản phẩm bằng AI đa tác tử và truy xuất tri thức động",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài hội nghị",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Phần mềm, hệ thống tính toán và mạng"
+      ],
+      "doi": "10.1007/978-981-92-2590-3_24",
+      "verification_note": "Đã đọc abstract và Authors and Affiliations trên Springer. Hội nghị SOICT 2025; First Online/Published 02/09/2026; mục Cite this paper và copyright lại ghi 2027. Trường year dùng năm công bố online 2026 và lưu riêng năm hội nghị/năm trích dẫn. Chưa đọc toàn văn.",
+      "source_urls": [
+        "https://doi.org/10.1007/978-981-92-2590-3_24",
+        "https://uet.vnu.edu.vn/~cuongnv/",
+        "https://link.springer.com/chapter/10.1007/978-981-92-2590-3_24"
+      ]
+    },
+    {
+      "school": "HCMUT",
+      "year": 2025,
+      "type": "book_chapter",
+      "title": "Toward Sustainable and Cost-Efficient HPC Systems: A Deep Reinforcement Learning Job Scheduling Approach",
+      "summary": "Ứng dụng học tăng cường sâu cho lập lịch tác vụ trên hệ thống tính toán hiệu năng cao, hướng đến hiệu quả chi phí và tính bền vững.",
+      "url": "https://hpcc.hcmut.edu.vn/publications",
+      "record_id": "T009",
+      "title_vi": "Lập lịch tác vụ siêu máy tính bằng học tăng cường sâu",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Chương sách/kỷ yếu",
+      "topics_vi": [
+        "Phần mềm, hệ thống tính toán và mạng",
+        "AI, học máy và dữ liệu",
+        "Năng lượng và công nghệ điện"
+      ],
+      "doi": null,
+      "verification_note": "HPCC ghi năm2025, Lecture Notes in Computer Science16354,trang409–420. Đã đọc thông tin thư mục và nhãn chủ đề của phòng thí nghiệm; chưa đọc abstract/toàn văn.",
+      "source_urls": [
+        "https://hpcc.hcmut.edu.vn/publications"
+      ]
+    },
+    {
+      "school": "UIT",
+      "year": 2026,
+      "type": "accepted_conference_paper",
+      "title": "From Prediction to Understanding: A Robustness and Explainability Study of LLM-Based Vulnerability Detection",
+      "summary": "Đánh giá khả năng phát hiện lỗ hổng và độ ổn định của giải thích khi mã nguồn bị viết lại. Nguồn mô tả đánh giá sáu mô hình trên C/C++ và Java.",
+      "url": "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem",
+      "record_id": "T013",
+      "title_vi": "Đánh giá độ bền vững và khả năng giải thích của LLM phát hiện lỗ hổng mã nguồn",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài đã chấp nhận; chưa xác nhận xuất bản",
+      "topics_vi": [
+        "An ninh mạng và mật mã",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": null,
+      "verification_note": "Bản tinUIT10/10/2026 nói đã được chấp nhận tại ICPADS2026; chưa xác nhận xuất bản kỷ yếu. Đã đọc tóm tắt, chưa đọc toàn văn.",
+      "source_urls": [
+        "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem"
+      ]
+    },
+    {
+      "school": "PTIT",
+      "year": 2025,
+      "type": "accepted_conference_paper",
+      "title": "AUTOGENT: Multi-Agent AI Framework for Automated Vulnerability Detection and Security Alerting in Networked Systems",
+      "summary": "Khung AI đa tác tử cho thu thập dữ liệu, phát hiện lỗ hổng và tạo cảnh báo an ninh mạng. Nguồn là bản tin nghiên cứu của chương trình UDU.",
+      "url": "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/",
+      "record_id": "T015",
+      "title_vi": "AUTOGENT: AI đa tác tử phát hiện lỗ hổng và cảnh báo an ninh mạng",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài đã chấp nhận; chưa xác nhận xuất bản",
+      "topics_vi": [
+        "An ninh mạng và mật mã",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": null,
+      "verification_note": "Bản tin chính thức xác nhận tác giả và người hướng dẫn; loại ghi nhận là bài đã được chấp nhận, chưa xác minh DOI/xuất bản chính thức.",
+      "source_urls": [
+        "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/"
+      ]
+    },
+    {
+      "school": "DUT",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+      "summary": "Thiết kế tay máy sáu bậc tự do với hai camera để nhận dạng bao gói và tư thế lon trên băng chuyền. Abstract có mô tả chế tạo, hệ truyền động và thử nghiệm nhận dạng.",
+      "url": "https://jst-ud.vn/jst-ud/article/view/10204",
+      "record_id": "T017",
+      "title_vi": "Tay máy sáu bậc tự do tích hợp AI nhận dạng bao gói và tư thế sản phẩm",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Robot, điều khiển và tự động hóa",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": "10.31130/ud-jst.2025.23(9D).555E",
+      "verification_note": "Đã đọc abstract và affiliation: ba tác giảDUT, một tác giảChungnam. Xuất bản30/09/2025; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://jst-ud.vn/jst-ud/article/view/10204"
+      ]
+    },
+    {
+      "school": "VKU",
+      "year": 2025,
+      "type": "conference_paper",
+      "title": "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+      "summary": "Kết hợp camera và cảm biến môi trường để nhận diện cháy, giảm báo động giả. Kết quả từ hai mô hình được đối chiếu; trường hợp không thống nhất cần người dùng xác nhận.",
+      "url": "https://elib.vku.udn.vn/handle/123456789/7663",
+      "record_id": "T020",
+      "title_vi": "Phát hiện cháy trong nhà bằng thị giác máy tính kết hợp cảm biến IoT",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài hội nghị",
+      "topics_vi": [
+        "Điện tử, bán dẫn, viễn thông và IoT",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": "10.1109/ATC67618.2025.11268781",
+      "verification_note": "Đã đọc metadata/abstract ở khoVKU, ATC2025; toàn văn yêu cầu đăng nhập. Không suy ra độ chính xác cụ thể từ nhận xét định tính trong abstract.",
+      "source_urls": [
+        "https://elib.vku.udn.vn/handle/123456789/7663"
+      ]
+    },
+    {
+      "school": "HCMUTE",
+      "year": 2026,
+      "type": "journal_article",
+      "title": "Nonlinear model predictive control for trajectory tracking and dynamic obstacle avoidance in differential-drive mobile robots",
+      "summary": "Điều khiển dự báo phi tuyến cho robot hai bánh: ràng buộc vận tốc và khoảng cách an toàn, mô phỏng Gazebo/ROS và thử nghiệm robot thực, đối chiếu phương pháp DWA.",
+      "url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/inPress/8547",
+      "record_id": "T022",
+      "title_vi": "Điều khiển robot di động bám quỹ đạo và tránh vật cản động",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Robot, điều khiển và tự động hóa"
+      ],
+      "doi": "10.22144/ctujos.2026.075",
+      "verification_note": "Đã đọc abstract, metadata và trang đầu PDF; PDF xác nhận tên bài, DOI và affiliation HCMUTE của cả bốn tác giả. Trang ghi xuất bản 22/05/2026 nhưng URL chứa inPress; giữ thông tin theo metadata. Chưa đọc toàn văn.",
+      "source_urls": [
+        "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/inPress/8547",
+        "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/download/8547/5156/33230"
+      ]
+    },
+    {
+      "school": "VLUTE",
+      "year": 2026,
+      "type": "journal_article",
+      "title": "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+      "summary": "XAI-NET kết hợp các kiến trúc học sâu và SHAP/LIME để phân tích ảnh MRI trong bài toán nhận diện Alzheimer; đánh giá trên dữ liệu ADNI.",
+      "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323",
+      "record_id": "T023",
+      "title_vi": "AI có thể giải thích hỗ trợ nhận diện Alzheimer từ ảnh MRI",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Công nghệ sinh học và kỹ thuật y sinh"
+      ],
+      "doi": "10.64215/sr6dr289",
+      "verification_note": "Đã đọc trang bài báo và abstract, ngày xuất bản 29/09/2026; tác giả có địa chỉ email thuộc vlute.edu.vn. Chưa đọc toàn văn hay kiểm định ứng dụng lâm sàng. Quan hệ với VLUTE được hỗ trợ bởi email tác giả trên trang tạp chí; chưa đối chiếu trang nhân sự hoặc dòng affiliation trong PDF.",
+      "source_urls": [
+        "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323"
+      ]
+    },
+    {
+      "school": "MTA",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Research on sustainable aspects in wire arc additive manufacturing of nickel-based alloy components",
+      "summary": "Đánh giá vòng đời và chi phí khi chế tạo chi tiết Inconel 625 bằng đắp dây hồ quang kết hợp CNC, so với phương án chỉ gia công CNC.",
+      "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382",
+      "record_id": "T027",
+      "title_vi": "Đánh giá tính bền vững khi chế tạo hợp kim nickel bằng đắp dây hồ quang",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Xây dựng, giao thông và cơ khí",
+        "Vật liệu, nano và công nghệ hóa học",
+        "Môi trường, khí hậu và tài nguyên"
+      ],
+      "doi": "10.47869/tcsj.76.4.3",
+      "verification_note": "Đã kiểm tra affiliation MTA/LQDTU của nhiều tác giả trên trang xuất bản và đọc abstract. Trang HTML ghi 15/05/2025, PDF ghi online 15/04/2025; năm thống nhất là 2025.",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382"
+      ]
+    },
+    {
+      "school": "KMA",
+      "year": 2025,
+      "type": "doctoral_thesis",
+      "title": "Phát triển giao thức tính toán bảo mật và ứng dụng cho hệ tư vấn người dùng có đảm bảo tính riêng tư",
+      "summary": "Phát triển giao thức tính toán bảo mật cho hệ gợi ý trên dữ liệu phân tán, với các phần đánh giá tính đúng đắn, riêng tư và hiệu quả.",
+      "url": "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf",
+      "record_id": "T028",
+      "title_vi": "Tính toán bảo mật cho hệ gợi ý có đảm bảo quyền riêng tư",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Luận án tiến sĩ",
+      "topics_vi": [
+        "An ninh mạng và mật mã",
+        "Phần mềm, hệ thống tính toán và mạng"
+      ],
+      "doi": null,
+      "verification_note": "PDF chính thức 142 trang; đã kiểm tra trang tên, năm 2025, mục lục và một số đoạn kết luận. Không tuyên bố đã đọc toàn bộ luận án.",
+      "source_urls": [
+        "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf"
+      ]
+    },
+    {
+      "school": "UTC",
+      "year": 2026,
+      "type": "journal_article",
+      "title": "Tính chất cơ - lý của vữa rót giữ nước sử dụng phụ phẩm công nghiệp cho mặt đường bán mềm",
+      "summary": "Thử các tỷ lệ nước/bột xỉ trong vữa chứa xỉ lò cao, tro bay và vôi; so sánh độ chảy, hút nước và cường độ cho mặt đường bán mềm.",
+      "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123",
+      "record_id": "T030",
+      "title_vi": "Vữa dùng phụ phẩm công nghiệp cho mặt đường bán mềm",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Vật liệu, nano và công nghệ hóa học",
+        "Xây dựng, giao thông và cơ khí",
+        "Môi trường, khí hậu và tài nguyên"
+      ],
+      "doi": "10.47869/tcsj.77.8.3",
+      "verification_note": "Đã đọc abstract và kiểm tra affiliation UTC của các tác giả; nghiên cứu chưa đánh giá hiệu quả làm mát thực tế. Chưa đọc toàn văn.",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123"
+      ]
+    },
+    {
+      "school": "HUMG",
+      "year": 2026,
+      "type": "funded_research_project",
+      "title": "Nghiên cứu ứng dụng điện toán đám mây và công nghệ Internet vạn vật (IoT) trong quan trắc dao động thời gian thực công trình cầu dây văng ở Việt Nam",
+      "summary": "Tích hợp GNSS-RTK, cảm biến dao động và đám mây để theo dõi cầu theo thời gian thực; nguồn báo cáo thực nghiệm tại cầu Nhật Tân và Ba Son.",
+      "url": "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399",
+      "record_id": "T031",
+      "title_vi": "Giám sát dao động cầu dây văng theo thời gian thực bằng IoT và đám mây",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Đề tài/dự án được tài trợ",
+      "topics_vi": [
+        "Điện tử, bán dẫn, viễn thông và IoT",
+        "Phần mềm, hệ thống tính toán và mạng",
+        "Xây dựng, giao thông và cơ khí"
+      ],
+      "doi": null,
+      "verification_note": "Thông báo nghiệm thu cấp Bộ đăng 11/09/2026, chứa mục kết quả nghiên cứu; thực hiện 2024–2025, gia hạn đến 06/2026. Chưa kiểm tra biên bản nghiệm thu cuối cùng.",
+      "source_urls": [
+        "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399"
+      ]
+    },
+    {
+      "school": "HUCE",
+      "year": 2026,
+      "type": "journal_article",
+      "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+      "summary": "Kết hợp thông tin hình ảnh và ngữ nghĩa để phân biệt không cháy, lửa được kiểm soát và cháy nguy hiểm trong nhà.",
+      "url": "https://www.nature.com/articles/s41598-026-48743-5",
+      "record_id": "T034",
+      "title_vi": "Mô hình thị giác–ngôn ngữ nhỏ gọn để phân loại tình huống cháy trong nhà",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Xây dựng, giao thông và cơ khí"
+      ],
+      "doi": "10.1038/s41598-026-48743-5",
+      "verification_note": "Đã đọc abstract và xác nhận Trần Khánh Dung thuộc HUCE trong bản tác giả của nhà xuất bản; đồng tác giả từ USTH và Lyon. Chưa đọc toàn văn.",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-48743-5",
+        "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+        "https://fit.huce.edu.vn/danh-muc-ca"
+      ]
+    },
+    {
+      "school": "FPT",
+      "year": 2025,
+      "type": "institutional_research_project",
+      "title": "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+      "summary": "Đề tài xây dựng mô hình AI và ứng dụng web hỗ trợ trải nghiệm học tập cá nhân.",
+      "url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025",
+      "record_id": "T035",
+      "title_vi": "AI và học máy cá nhân hóa trải nghiệm học tập",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Đề tài cấp cơ sở",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Phần mềm, hệ thống tính toán và mạng"
+      ],
+      "doi": null,
+      "verification_note": "Danh mục chính thức đăng 22/09/2025 ghi Đang thực hiện; sản phẩm là mục tiêu kê khai, chưa được coi là kết quả hoàn tất.",
+      "source_urls": [
+        "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+      ]
+    },
+    {
+      "school": "Phenikaa",
+      "year": 2025,
+      "type": "funded_research_project",
+      "title": "Nghiên cứu phát triển các giải pháp định vị hiệu quả cho ứng dụng robot di động tự hành (ARM) tích hợp công nghệ Ultrawideband (UWB) trong các nhà máy thông minh",
+      "summary": "Đề tài NAFOSTED về định vị cho robot tự hành trong môi trường sản xuất thông minh.",
+      "url": "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025",
+      "record_id": "T037",
+      "title_vi": "Định vị robot tự hành bằng UWB trong nhà máy thông minh",
+      "region": "Việt Nam",
+      "country_code": "VN",
+      "type_vi": "Đề tài/dự án được tài trợ",
+      "topics_vi": [
+        "Robot, điều khiển và tự động hóa",
+        "Điện tử, bán dẫn, viễn thông và IoT"
+      ],
+      "doi": null,
+      "verification_note": "Danh mục Trường Kỹ thuật công bố 12/01/2026, dẫn quyết định 47/QĐ-HĐQL-NAFOSTED ngày 30/09/2025. Chỉ xác nhận đề tài được liệt kê; không xác nhận đã hoàn thành.",
+      "source_urls": [
+        "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+      ]
+    },
+    {
+      "school": "MIT",
+      "year": 2025,
+      "type": "conference_paper",
+      "title": "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+      "summary": "Dùng mô hình khuếch tán và mô phỏng vật lý để tối ưu hình học robot nhảy có thể in 3D. Thử nghiệm so sánh cho thấy thiết kế mới nhảy cao hơn và tiếp đất ổn định hơn thiết kế cơ sở.",
+      "url": "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+      "record_id": "T039",
+      "title_vi": "Thiết kế robot nhảy bằng AI tạo sinh và mô phỏng vật lý",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài hội nghị",
+      "topics_vi": [
+        "Robot, điều khiển và tự động hóa",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": "10.1109/ICRA55743.2025.11128113",
+      "verification_note": "Đã đọc bản tin MIT và abstract IEEE; bản tin liên kết bản PDF tác giả. Công trình tại ICRA 2025; chưa đánh giá toàn văn hoặc khả năng tái lập.",
+      "source_urls": [
+        "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+        "https://doi.org/10.1109/ICRA55743.2025.11128113"
+      ]
+    },
+    {
+      "school": "Caltech",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Supervised learning in DNA neural networks",
+      "summary": "Xây dựng mạng nơ-ron bằng phân tử DNA có thể học từ ví dụ hóa học và nhận dạng mẫu mới. Thông tin học được lưu qua nồng độ và tương tác của các chuỗi DNA, mở hướng nghiên cứu tính toán phân tử và vật liệu thích nghi.",
+      "url": "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+      "record_id": "T042",
+      "title_vi": "Mạng nơ-ron bằng DNA có thể học từ các ví dụ hóa học",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Công nghệ sinh học và kỹ thuật y sinh",
+        "AI, học máy và dữ liệu",
+        "Phần mềm, hệ thống tính toán và mạng"
+      ],
+      "doi": "10.1038/s41586-025-09479-w",
+      "verification_note": "Đã đọc bản tóm lược chính thức của trường và xác nhận trang Nature được liên kết; chưa đọc toàn văn. Các ứng dụng thuốc hoặc vật liệu thông minh là định hướng tương lai.",
+      "source_urls": [
+        "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+        "https://www.nature.com/articles/s41586-025-09479-w"
+      ]
+    },
+    {
+      "school": "Georgia Tech",
+      "year": 2025,
+      "type": "conference_paper",
+      "title": "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies",
+      "summary": "Điều chỉnh tốc độ thực thi của robot học từ thao tác mẫu của con người. Hệ thống phối hợp làm mượt chuyển động, bám quỹ đạo và bù độ trễ để tăng tốc nhiều tác vụ thao tác mà vẫn duy trì độ chính xác trong thử nghiệm.",
+      "url": "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+      "record_id": "T043",
+      "title_vi": "SAIL: tăng tốc thao tác của robot học từ động tác mẫu của người",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài hội nghị",
+      "topics_vi": [
+        "Robot, điều khiển và tự động hóa",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": "10.48550/arXiv.2506.11948",
+      "verification_note": "Đã đọc bản tin trường; năm 2025 là năm hội nghị, còn bản tin đăng năm 2026. DOI được trường cung cấp là DOI bản arXiv, không phải DOI riêng của kỷ yếu; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots"
+      ]
+    },
+    {
+      "school": "CMU",
+      "year": 2025,
+      "type": "technical_report",
+      "title": "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming?",
+      "summary": "Tổng hợp có hệ thống hai dòng nghiên cứu về red teaming: an ninh mạng và AI tạo sinh. Báo cáo xem xét cách chuyển phương pháp đánh giá đối kháng đã có sang kiểm tra độ an toàn của hệ thống AI.",
+      "url": "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/",
+      "record_id": "T046",
+      "title_vi": "Khảo sát cách vận dụng kiểm thử đối kháng an ninh mạng vào AI tạo sinh",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Báo cáo kỹ thuật",
+      "topics_vi": [
+        "An ninh mạng và mật mã",
+        "AI, học máy và dữ liệu"
+      ],
+      "doi": "10.1184/R1/29410136",
+      "verification_note": "Đã đọc metadata và abstract. Đây là báo cáo kỹ thuật CMU/SEI-2025-TR-006, không gán là bài tạp chí; chưa đọc toàn văn PDF.",
+      "source_urls": [
+        "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/"
+      ]
+    },
+    {
+      "school": "Purdue",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Consequential Climate and Energy Analysis of Steel Electrification via Hydrogen Direct Reduction",
+      "summary": "Mô hình hóa nhu cầu điện và phát thải khi chuyển sản xuất thép sang khử trực tiếp bằng hydro và lò hồ quang điện. Kết quả nhấn mạnh việc phối hợp nhà máy điện phân với cơ cấu nguồn điện, đặc biệt điện gió và mặt trời.",
+      "url": "https://engineering.purdue.edu/ETSL/publication.html",
+      "record_id": "T048",
+      "title_vi": "Phân tích năng lượng và khí hậu của sản xuất thép dùng hydro",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Môi trường, khí hậu và tài nguyên"
+      ],
+      "doi": "10.1021/acsenergylett.5c01961",
+      "verification_note": "Đã đọc abstract ở danh mục phòng thí nghiệm và ACS. Các kết quả phát thải là dự báo theo kịch bản, không phải mức giảm đã xảy ra; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://engineering.purdue.edu/ETSL/publication.html",
+        "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01961"
+      ]
+    },
+    {
+      "school": "RPI",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Atomic lift-off of epitaxial membranes for cooling-free infrared detection",
+      "summary": "Phát triển phương pháp tách màng tinh thể siêu mỏng mà không cần lớp giải phóng nhân tạo. Màng vật liệu nhiệt điện được nghiên cứu cho cảm biến hồng ngoại không cần làm lạnh; nhóm RPI đóng góp tính toán cơ chế liên kết tại bề mặt tiếp xúc.",
+      "url": "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+      "record_id": "T049",
+      "title_vi": "Tách màng tinh thể siêu mỏng cho cảm biến hồng ngoại không cần làm lạnh",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Vật liệu, nano và công nghệ hóa học",
+        "Điện tử, bán dẫn, viễn thông và IoT"
+      ],
+      "doi": "10.1038/s41586-025-08874-7",
+      "verification_note": "Đã đọc bản tin RPI và đối chiếu tên bài, DOI, ngày công bố Nature. Bản tin tháng 8 khác ngày xuất bản bài báo tháng 4; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+        "https://www.nature.com/articles/s41586-025-08874-7"
+      ]
+    },
+    {
+      "school": "Virginia Tech",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Combining and Decoupling Rigid and Soft Grippers to Enhance Robotic Manipulation",
+      "summary": "Kết hợp kẹp cứng với bề mặt bám dính mềm có thể bật/tắt để robot thao tác nhiều loại vật thể. Thiết kế và điều khiển hỗ trợ người dùng thực hiện các tác vụ hằng ngày, được minh họa bằng việc chuẩn bị đồ ăn.",
+      "url": "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+      "record_id": "T051",
+      "title_vi": "Kết hợp kẹp cứng và kẹp mềm để robot thao tác đồ vật linh hoạt",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Robot, điều khiển và tự động hóa",
+        "Vật liệu, nano và công nghệ hóa học"
+      ],
+      "doi": "10.1089/soro.2024.0062",
+      "verification_note": "Đã đọc bản tin trường và abstract Soft Robotics. DOI chứa 2024 nhưng bài được xuất bản trực tuyến năm 2025; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+        "https://journals.sagepub.com/doi/abs/10.1089/soro.2024.0062"
+      ]
+    },
+    {
+      "school": "Texas A&M",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Organic dual-ion batteries with low-temperature operability and structural reinforcement",
+      "summary": "Kết hợp điện cực polymer hoạt tính oxy hóa-khử với chất điện phân chịu lạnh để pin vẫn hoạt động dưới nhiệt độ âm sâu. Sợi carbon đồng thời làm bộ thu dòng và gia cường cơ học, hướng tới pin vừa tích trữ điện vừa chịu lực.",
+      "url": "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/",
+      "record_id": "T053",
+      "title_vi": "Pin hữu cơ hai ion hoạt động ở nhiệt độ thấp và có khả năng gia cường kết cấu",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Vật liệu, nano và công nghệ hóa học"
+      ],
+      "doi": "10.1039/D5TA01626F",
+      "verification_note": "Đã đọc bản tin trường và trích dẫn bài báo. Bài báo thuộc năm 2025; bản tin được đăng tháng 2/2026. Chưa đọc toàn văn.",
+      "source_urls": [
+        "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/"
+      ]
+    },
+    {
+      "school": "Stevens",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach",
+      "summary": "Học biểu diễn chuỗi thời gian cảm biến bằng quan hệ đồng xuất hiện theo thời gian để giảm nhu cầu dữ liệu có nhãn. Khung TCLHAR kết hợp thông tin nhiều loại cảm biến và được đánh giá trên các tập dữ liệu nhận dạng hoạt động người.",
+      "url": "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/",
+      "record_id": "T055",
+      "title_vi": "Nhận dạng hoạt động người từ cảm biến bằng học tự giám sát",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Điện tử, bán dẫn, viễn thông và IoT"
+      ],
+      "doi": "10.1109/JSEN.2024.3491933",
+      "verification_note": "Đã đọc metadata và abstract trong cổng nghiên cứu Stevens. Năm tạp chí là 2025 mặc dù DOI chứa 2024; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/"
+      ]
+    },
+    {
+      "school": "IIT",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Anion sublattice design enables superionic conductivity in crystalline oxyhalides",
+      "summary": "Thiết kế mạng anion hỗn hợp cho chất điện phân rắn oxyhalide giúp ion lithium di chuyển qua các kênh trong tinh thể. Nghiên cứu vật liệu lithium tantalum oxychloride nhằm cải thiện pin thể rắn, bao gồm khả năng hoạt động ở nhiệt độ thấp.",
+      "url": "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+      "record_id": "T057",
+      "title_vi": "Thiết kế chất điện phân rắn oxyhalide dẫn ion lithium cho pin thể rắn",
+      "region": "Hoa Kỳ",
+      "country_code": "US",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Vật liệu, nano và công nghệ hóa học"
+      ],
+      "doi": "10.1126/science.adt9678",
+      "verification_note": "Đã đọc bản tin trường, kiểm tra liên kết DOI và metadata Science. Bài báo xuất bản năm 2025, bản tin trường ngày 05/01/2026; chưa đọc toàn văn.",
+      "source_urls": [
+        "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+        "https://www.science.org/doi/10.1126/science.adt9678"
+      ]
+    },
+    {
+      "school": "ETH Zurich",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Rambo: RL-Augmented Model-Based Whole-Body Control for Loco-Manipulation",
+      "summary": "Kết hợp điều khiển toàn thân dựa trên mô hình với học tăng cường để robot chân vừa di chuyển vừa thao tác đồ vật. Thử nghiệm gồm đẩy xe đẩy, giữ đĩa và cầm vật mềm.",
+      "url": "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457",
+      "record_id": "T058",
+      "title_vi": "RAMBO: điều khiển toàn thân để robot vừa di chuyển vừa thao tác đồ vật",
+      "region": "Châu Âu",
+      "country_code": "CH",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Robot, điều khiển và tự động hóa"
+      ],
+      "doi": "10.1109/lra.2025.3594984",
+      "verification_note": "ETH Research Collection ghi Journal Article, ETH Bibliography: yes, tháng 9/2025; nội dung truy xuất từ chỉ mục công khai của kho. Truy cập trực tiếp sau đó trả HTTP 403.",
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457"
+      ]
+    },
+    {
+      "school": "EPFL",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Electroactive naphthalimide and naphthalenediimide interlayers for inverted perovskite solar cells",
+      "summary": "Thiết kế lớp tiếp xúc có hoạt tính điện tử nhằm hỗ trợ truyền điện tích trong pin mặt trời perovskite đảo cấu trúc; nghiên cứu báo cáo cải thiện hiệu suất và độ ổn định vận hành.",
+      "url": "https://infoscience.epfl.ch/bitstreams/2215a38e-8549-4842-ba53-488fce913c09/download",
+      "record_id": "T061",
+      "title_vi": "Thiết kế lớp tiếp xúc điện tử cho pin mặt trời perovskite đảo cấu trúc",
+      "region": "Châu Âu",
+      "country_code": "CH",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Vật liệu, nano và công nghệ hóa học",
+        "Năng lượng và công nghệ điện",
+        "Điện tử, bán dẫn, viễn thông và IoT"
+      ],
+      "doi": "10.1039/d5tc01418b",
+      "verification_note": "Bản toàn văn trên Infoscience nêu Laboratory of Photonics and Interfaces, EPFL và đồng tác giả Michael Grätzel; công bố online 30/09/2025.",
+      "source_urls": [
+        "https://infoscience.epfl.ch/bitstreams/2215a38e-8549-4842-ba53-488fce913c09/download"
+      ]
+    },
+    {
+      "school": "Imperial",
+      "year": 2026,
+      "type": "journal_article",
+      "title": "Machine learning tabulation of thermochemistry: transfer learning for non-adiabatic flames",
+      "summary": "Dùng mạng nơ-ron tăng tốc tính toán nhiệt hóa học và mở rộng dữ liệu huấn luyện cho ngọn lửa có trao đổi nhiệt; kiểm tra khả năng chuyển giao sang bài toán buồng đốt tua-bin khí.",
+      "url": "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+      "record_id": "T063",
+      "title_vi": "Học chuyển giao để tăng tốc tính nhiệt hóa học trong mô phỏng cháy",
+      "region": "Châu Âu",
+      "country_code": "GB",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Năng lượng và công nghệ điện"
+      ],
+      "doi": "10.1016/j.egyai.2026.100746",
+      "verification_note": "Kho Spiral ghi tác giả A. Darzi, W. P. Jones, S. Rigopoulos; Journal Article, số tạp chí tháng 5/2026 và ngày online 20/04/2026. Attribution dựa trên hồ sơ trong kho nghiên cứu chính thức của Imperial.",
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905"
+      ]
+    },
+    {
+      "school": "TU Delft",
+      "year": 2026,
+      "type": "journal_article",
+      "title": "DRONE-RL: Dynamic reinforcement learning for online navigation of UAVs in evolving environments",
+      "summary": "Huấn luyện trước nhiều chính sách điều hướng UAV rồi chọn chính sách trực tuyến khi môi trường thay đổi, nhằm tăng khả năng thích nghi mà không phải huấn luyện lại ngay lúc vận hành.",
+      "url": "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/",
+      "record_id": "T065",
+      "title_vi": "DRONE-RL: UAV tự điều hướng khi môi trường thay đổi",
+      "region": "Châu Âu",
+      "country_code": "NL",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Robot, điều khiển và tự động hóa"
+      ],
+      "doi": "10.1016/j.knosys.2025.115147",
+      "verification_note": "Hồ sơ TU Delft ghi Published – 2026, Knowledge-Based Systems 334, 115147. DOI chứa 2025 nhưng không được dùng để suy ra năm xuất bản; năm ở đây theo metadata của trường.",
+      "source_urls": [
+        "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/"
+      ]
+    },
+    {
+      "school": "TU/e",
+      "year": 2025,
+      "type": "conference_paper",
+      "title": "InP Temperature Sensor with Si-CMOS Interface for Photonic Integrated Circuits",
+      "summary": "Ghép hai diode InP trên mạch quang tích hợp với chip Si-CMOS để tạo cảm biến nhiệt độ có đầu ra số; nghiên cứu đánh giá độ phân giải và sai số trong dải nhiệt vận hành.",
+      "url": "https://research.tue.nl/en/publications/inp-temperature-sensor-with-si-cmos-interface-for-photonic-integr/",
+      "record_id": "T066",
+      "title_vi": "Cảm biến nhiệt độ InP kết nối Si-CMOS cho mạch quang tích hợp",
+      "region": "Châu Âu",
+      "country_code": "NL",
+      "type_vi": "Bài hội nghị",
+      "topics_vi": [
+        "Điện tử, bán dẫn, viễn thông và IoT"
+      ],
+      "doi": "10.1109/ECOC66593.2025.11263152",
+      "verification_note": "Portal TU/e ghi conference contribution phản biện, Published 05/12/2025, ECOC 2025; các đơn vị gồm Integrated Circuits, Photonic Integration và Electrical Engineering.",
+      "source_urls": [
+        "https://research.tue.nl/en/publications/inp-temperature-sensor-with-si-cmos-interface-for-photonic-integr/"
+      ]
+    },
+    {
+      "school": "RWTH Aachen",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Optimal control of an over-actuated spark-ignited hydrogen engine",
+      "summary": "Nghiên cứu điều khiển tối ưu động cơ hydro đánh lửa cưỡng bức có nhiều cơ cấu chấp hành, gắn với phát triển hệ động lực sử dụng hydro.",
+      "url": "https://publications.rwth-aachen.de/record/1012916",
+      "record_id": "T069",
+      "title_vi": "Điều khiển tối ưu động cơ hydro đánh lửa cưỡng bức",
+      "region": "Châu Âu",
+      "country_code": "DE",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Robot, điều khiển và tự động hóa",
+        "Xây dựng, giao thông và cơ khí"
+      ],
+      "doi": "10.1016/j.ijhydene.2025.05.171",
+      "verification_note": "RWTH Publications ghi năm 2025, DOI, tác giả có dấu RWTH và đơn vị Lehrstuhl und Institut für Regelungstechnik; mô tả dựa trên tiêu đề và metadata, không suy diễn mức cải thiện hiệu suất.",
+      "source_urls": [
+        "https://publications.rwth-aachen.de/record/1012916"
+      ]
+    },
+    {
+      "school": "TUM",
+      "year": 2025,
+      "type": "doctoral_thesis",
+      "title": "Machine Learning Driven Materials Design from the Perspective of Charge Transport",
+      "summary": "Dùng học máy dự đoán đặc tính vận chuyển điện tích trong khung hữu cơ cộng hóa trị và perovskite lai, đồng thời phân tích đặc trưng cấu trúc để hỗ trợ tối ưu vật liệu.",
+      "url": "https://mediatum.ub.tum.de/1785191",
+      "record_id": "T071",
+      "title_vi": "Thiết kế vật liệu bằng học máy dựa trên đặc tính vận chuyển điện tích",
+      "region": "Châu Âu",
+      "country_code": "DE",
+      "type_vi": "Luận án tiến sĩ",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Vật liệu, nano và công nghệ hóa học",
+        "Năng lượng và công nghệ điện"
+      ],
+      "doi": null,
+      "verification_note": "mediaTUM ghi Dissertation của Yuxuan Yao, TUM School of Natural Sciences, Professur für Theoretische Chemie; công bố 25/09/2025. Đây là luận án tiến sĩ, không phải bài báo tạp chí.",
+      "source_urls": [
+        "https://mediatum.ub.tum.de/1785191"
+      ]
+    },
+    {
+      "school": "TU Berlin",
+      "year": 2025,
+      "type": "doctoral_thesis",
+      "title": "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments",
+      "summary": "Đề xuất lập kế hoạch chuyển động bằng học tăng cường sâu cho robot công nghiệp trong môi trường hợp tác; dùng thông tin khoảng cách để giảm khối lượng dữ liệu và chuyển mô hình từ mô phỏng sang robot thật.",
+      "url": "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+      "record_id": "T073",
+      "title_vi": "Học tăng cường sâu cho lập kế hoạch chuyển động robot công nghiệp cộng tác",
+      "region": "Châu Âu",
+      "country_code": "DE",
+      "type_vi": "Luận án tiến sĩ",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Robot, điều khiển và tự động hóa"
+      ],
+      "doi": "10.14279/depositonce-24638",
+      "verification_note": "DepositOnce ghi Doctoral Thesis của Teham Bhuiyan, năm 2025, Inst. Telekommunikationssysteme. DOI là DOI luận án trong kho, không phải DOI bài báo.",
+      "source_urls": [
+        "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220"
+      ]
+    },
+    {
+      "school": "KTH",
+      "year": 2025,
+      "type": "conference_paper",
+      "title": "AttentionGuard: Transformer-based Misbehavior Detection for Secure Vehicular Platoons",
+      "summary": "Dùng mô hình Transformer phát hiện dữ liệu chuyển động giả mạo trong đoàn xe kết nối V2X. Đánh giá dựa trên dữ liệu mô phỏng các kiểu tấn công và thao tác đoàn xe.",
+      "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301",
+      "record_id": "T074",
+      "title_vi": "AttentionGuard: phát hiện dữ liệu giả mạo trong đoàn xe kết nối bằng Transformer",
+      "region": "Châu Âu",
+      "country_code": "SE",
+      "type_vi": "Bài hội nghị",
+      "topics_vi": [
+        "An ninh mạng và mật mã",
+        "AI, học máy và dữ liệu",
+        "Xây dựng, giao thông và cơ khí"
+      ],
+      "doi": "10.1145/3733965.3733966",
+      "verification_note": "Trang tác giả chính thức KTH DiVA cung cấp tiêu đề, DOI, năm, tóm tắt và affiliation KTH EECS cho các tác giả. Trang record trực tiếp có chặn Anubis; không vượt qua chặn.",
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301"
+      ]
+    },
+    {
+      "school": "Chalmers",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+      "summary": "Ước lượng nguy cơ mạ lithium bằng học máy để điều khiển sạc pin nhanh hơn nhưng vẫn chú ý tuổi thọ; phương pháp sử dụng dữ liệu pin có thể thu được trên xe điện.",
+      "url": "https://research.chalmers.se/en/publication/543531",
+      "record_id": "T076",
+      "title_vi": "Ước lượng nguy cơ mạ lithium bằng học máy để hỗ trợ sạc pin nhanh",
+      "region": "Châu Âu",
+      "country_code": "SE",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Năng lượng và công nghệ điện",
+        "Xây dựng, giao thông và cơ khí"
+      ],
+      "doi": "10.1016/j.ensm.2024.103877",
+      "verification_note": "Chalmers Research ghi Journal article, 2025; Yizhou Zhang, Torsten Wik, Changfu Zou thuộc Electrical Engineering, Systems and Control. DOI chứa 2024 nhưng năm số tạp chí ghi 2025.",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/543531"
+      ]
+    },
+    {
+      "school": "Aalto",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Probing fast quantum circuit refrigeration in the quantum regime",
+      "summary": "Thực nghiệm làm lạnh nhanh mạch lượng tử bằng xuyên hầm hỗ trợ photon; sử dụng qubit làm đầu dò để theo dõi số photon trong bộ cộng hưởng siêu dẫn.",
+      "url": "https://research.aalto.fi/en/publications/probing-fast-quantum-circuit-refrigeration-in-the-quantum-regime/",
+      "record_id": "T078",
+      "title_vi": "Làm lạnh nhanh mạch lượng tử bằng xuyên hầm hỗ trợ photon",
+      "region": "Châu Âu",
+      "country_code": "FI",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Điện tử, bán dẫn, viễn thông và IoT"
+      ],
+      "doi": "10.1103/PhysRevApplied.23.L011003",
+      "verification_note": "Aalto Research Portal ghi bài báo phản biện, Published Jan 2025, đơn vị Quantum Phenomena and Devices và Department of Applied Physics, có đồng tác giả Jukka Pekola.",
+      "source_urls": [
+        "https://research.aalto.fi/en/publications/probing-fast-quantum-circuit-refrigeration-in-the-quantum-regime/"
+      ]
+    },
+    {
+      "school": "Politecnico di Milano",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "Blueish hydrogen production via methane pyrolysis and remote CO2 capture and storage",
+      "summary": "Đánh giá quy trình sản xuất hydro từ nhiệt phân methane, vận chuyển carbon rắn sang cơ sở oxy hóa tập trung rồi thu giữ CO₂; xem xét hiệu quả năng lượng, chi phí và phát thải trong kịch bản cụ thể.",
+      "url": "https://re.public.polimi.it/handle/11311/1293138",
+      "record_id": "T080",
+      "title_vi": "Sản xuất hydro từ nhiệt phân methane kết hợp thu giữ CO₂",
+      "region": "Châu Âu",
+      "country_code": "IT",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Môi trường, khí hậu và tài nguyên"
+      ],
+      "doi": "10.1016/j.ijhydene.2025.05.353",
+      "verification_note": "Hồ sơ RE.PUBLIC@POLIMI và bản bài báo ghi năm 2025, đồng tác giả thuộc Department of Energy, Politecnico di Milano; không khái quát kết quả kịch bản thành hiệu quả thương mại phổ quát.",
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1293138"
+      ]
+    },
+    {
+      "school": "Politecnico di Torino",
+      "year": 2025,
+      "type": "journal_article",
+      "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+      "summary": "Kết hợp ràng buộc sai số bám với học tăng cường actor–critic để điều khiển robot phẫu thuật dạng liên tục. Nguồn mô tả đánh giá bằng mô phỏng robot hai đoạn, chưa phải thử nghiệm điều trị trên người.",
+      "url": "https://iris.polito.it/handle/11583/3005921",
+      "record_id": "T083",
+      "title_vi": "Điều khiển có ràng buộc an toàn cho robot phẫu thuật dạng liên tục",
+      "region": "Châu Âu",
+      "country_code": "IT",
+      "type_vi": "Bài báo tạp chí",
+      "topics_vi": [
+        "AI, học máy và dữ liệu",
+        "Robot, điều khiển và tự động hóa",
+        "Công nghệ sinh học và kỹ thuật y sinh"
+      ],
+      "doi": "10.1016/j.robot.2025.104992",
+      "verification_note": "PORTO ghi Articolo in rivista, năm 2025; tác giả Jabari, Botta, Tagliavini, Visconte, Quaglia. Tóm tắt chỉ khẳng định kết quả mô phỏng.",
+      "source_urls": [
+        "https://iris.polito.it/handle/11583/3005921"
+      ]
+    },
+    {
+      "school": "TU Wien",
+      "year": 2026,
+      "type": "research_project",
+      "title": "Advanced Bioenergy Lab Austria – Phase 1",
+      "summary": "Dự án xây dựng hạ tầng thí nghiệm sản xuất nhiên liệu bền vững từ sinh khối lâm nghiệp và phụ phẩm sinh học, gồm diesel Fischer–Tropsch và khí tự nhiên tổng hợp.",
+      "url": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/reallabor-fuer-nachhaltige-treibstoffe",
+      "record_id": "T085",
+      "title_vi": "Advanced Bioenergy Lab Austria: hạ tầng thí nghiệm nhiên liệu bền vững từ sinh khối",
+      "region": "Châu Âu",
+      "country_code": "AT",
+      "type_vi": "Dự án nghiên cứu",
+      "topics_vi": [
+        "Năng lượng và công nghệ điện",
+        "Môi trường, khí hậu và tài nguyên"
+      ],
+      "doi": null,
+      "verification_note": "Tin chính thức TU Wien ngày 27/10/2026 nêu tên dự án, việc trường nhận vai trò dẫn đầu consortium vào mùa thu 2026 và mục tiêu hạ tầng. Đây là dự án được mô tả qua tin chính thức, không phải bài báo khoa học.",
+      "source_urls": [
+        "https://www.tuwien.at/en/tu-wien/news/news-articles/news/reallabor-fuer-nachhaltige-treibstoffe"
+      ]
+    }
+  ]
+}

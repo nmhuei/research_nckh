@@ -1,0 +1,30 @@
+{
+  "keep": [
+    "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+    "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN",
+    "Tensor Learning and Compression of N-Phonon Interactions",
+    "Supervised learning in DNA neural networks",
+    "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies",
+    "Deep domain adaptation eliminates costly data required for task-agnostic wearable robotic control",
+    "Sabermetrics for Cyber: Collecting and Analyzing User Activity Data from Ephemeral Exercises",
+    "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming?",
+    "Electrospun Boron Nitride Nanotube Fabrics: Tunable Thermal Conductivity through Controlled Nanotube Orientation",
+    "Consequential Climate and Energy Analysis of Steel Electrification via Hydrogen Direct Reduction",
+    "Atomic lift-off of epitaxial membranes for cooling-free infrared detection",
+    "Dimensionality and dynamics for next-generation artificial neural networks",
+    "Combining and Decoupling Rigid and Soft Grippers to Enhance Robotic Manipulation",
+    "Game-Theoretic and Machine Learning-based Defensive Deception for Dependable and Secure Cyber-Physical Systems",
+    "Organic dual-ion batteries with low-temperature operability and structural reinforcement",
+    "Graphene oxide synthesis at a nonthermal plasma-water interface",
+    "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach",
+    "STRIFE: A Socio-Technical Framework for Threat Modeling of Artificial Intelligence Systems",
+    "Anion sublattice design enables superionic conductivity in crystalline oxyhalides"
+  ],
+  "exclude": [
+    {
+      "title": "Probing Curved Spacetime with a Distributed Atomic Processor Clock",
+      "reason_vi": "Mục tiêu chính trong abstract PRX Quantum là kiểm nghiệm lý thuyết lượng tử trên không-thời gian cong. Giao thức đồng hồ và mạng lượng tử phục vụ phép thử vật lý nền tảng; chưa nêu ứng dụng công nghệ ngoài phép thử đó. Loại theo phạm vi công nghệ ứng dụng chặt, dù nghiên cứu có dùng thiết bị lượng tử."
+    }
+  ],
+  "uncertain": []
+}

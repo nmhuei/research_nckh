@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-30",
+  "schools_in_search_scope": 41,
+  "schools_with_works": 40,
+  "unique_works": 122,
+  "new_vs_previous_87_ai_works": 84,
+  "school_work_associations": 129,
+  "group_counts": {
+    "G3": 40,
+    "G5": 44,
+    "G7": 58
+  },
+  "group_school_counts": {
+    "G3": 28,
+    "G5": 29,
+    "G7": 34
+  },
+  "works_with_doi": 90,
+  "multi_group_works": 17,
+  "direct_triple_group_works": 3,
+  "technology_families_retained_across_three_groups": 5,
+  "technology_supporting_works": 14,
+  "bibliographic_leads_not_in_main_catalogue": 39,
+  "previous_bibliography_entries_screened": 287,
+  "school_group_search_audit_records": 123,
+  "status_counts": {
+    "published": 104,
+    "approved_project": 1,
+    "presented_workshop_paper": 1,
+    "thesis_published": 3,
+    "doctoral_thesis_defended_per_official_notice": 1,
+    "project_prototype": 1,
+    "preprint": 4,
+    "preprint_under_review": 1,
+    "published_online": 1,
+    "listed_on_official_project_portal": 1,
+    "accepted": 1,
+    "completed_thesis": 1,
+    "published_workshop_paper": 1,
+    "ongoing": 1
+  },
+  "evidence_level_counts": {
+    "abstract_or_content_reviewed": 115,
+    "official_metadata_or_project_registry": 7
+  },
+  "year_counts": {
+    "2023": 1,
+    "2024": 10,
+    "2025": 94,
+    "2026": 17
+  },
+  "regional_coverage": [
+    {
+      "region": "Việt Nam",
+      "schools_in_scope": 17,
+      "schools_with_works": 16,
+      "unique_works_in_region": 42
+    },
+    {
+      "region": "Hoa Kỳ",
+      "schools_in_scope": 10,
+      "schools_with_works": 10,
+      "unique_works_in_region": 28
+    },
+    {
+      "region": "Châu Âu",
+      "schools_in_scope": 14,
+      "schools_with_works": 14,
+      "unique_works_in_region": 52
+    }
+  ]
+}

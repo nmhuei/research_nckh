@@ -1,0 +1,180 @@
+[
+  {
+    "school": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+    "items": [
+      {
+        "title": "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+        "topic_codes": [
+          "AI_DATA",
+          "BIOTECH_HEALTH"
+        ],
+        "primary_topic_code": "AI_DATA"
+      },
+      {
+        "title": "BLOOD CELL DETECTION AND CLASSIFICATION USING FASTER R-CNN, RETINANET, AND YOLOv12",
+        "topic_codes": [
+          "AI_DATA",
+          "BIOTECH_HEALTH"
+        ],
+        "primary_topic_code": "AI_DATA"
+      },
+      {
+        "title": "ANALYSIS OF BRAKING DYNAMICS AND THERMAL CHARACTERISTICS IN PASSENGER CARS BASED ON A BIDIRECTIONAL INTERACTION MODEL",
+        "topic_codes": [
+          "CONSTRUCTION_TRANSPORT"
+        ],
+        "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+      }
+    ]
+  },
+  {
+    "school": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+    "items": [
+      {
+        "title": "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+        "topic_codes": [
+          "AI_DATA",
+          "CONSTRUCTION_TRANSPORT"
+        ],
+        "primary_topic_code": "AI_DATA"
+      },
+      {
+        "title": "Research on sustainable aspects in wire arc additive manufacturing of nickel-based alloy components",
+        "topic_codes": [
+          "CONSTRUCTION_TRANSPORT",
+          "MATERIALS",
+          "ENVIRONMENT"
+        ],
+        "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+      }
+    ]
+  },
+  {
+    "school": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+    "items": [
+      {
+        "title": "Phát triển giao thức tính toán bảo mật và ứng dụng cho hệ tư vấn người dùng có đảm bảo tính riêng tư",
+        "topic_codes": [
+          "CYBERSECURITY",
+          "COMPUTING"
+        ],
+        "primary_topic_code": "CYBERSECURITY"
+      },
+      {
+        "title": "Nghiên cứu xây dựng công cụ kiểm tra an toàn cho mã nguồn sinh bởi LLM",
+        "topic_codes": [
+          "CYBERSECURITY",
+          "AI_DATA",
+          "COMPUTING"
+        ],
+        "primary_topic_code": "CYBERSECURITY"
+      }
+    ]
+  },
+  {
+    "school": "Trường Đại học Giao thông vận tải (UTC)",
+    "items": [
+      {
+        "title": "Tính chất cơ - lý của vữa rót giữ nước sử dụng phụ phẩm công nghiệp cho mặt đường bán mềm",
+        "topic_codes": [
+          "MATERIALS",
+          "CONSTRUCTION_TRANSPORT",
+          "ENVIRONMENT"
+        ],
+        "primary_topic_code": "MATERIALS"
+      },
+      {
+        "title": "Đánh giá nhận thức về rủi ro an toàn giao thông trong hoạt động tìm kiếm chỗ đỗ và đỗ xe trên đường tại Hà Nội theo cách tiếp cận đa chiều",
+        "topic_codes": [
+          "CONSTRUCTION_TRANSPORT"
+        ],
+        "primary_topic_code": "CONSTRUCTION_TRANSPORT"
+      }
+    ]
+  },
+  {
+    "school": "Trường Đại học Mỏ - Địa chất (HUMG)",
+    "items": [
+      {
+        "title": "Nghiên cứu ứng dụng điện toán đám mây và công nghệ Internet vạn vật (IoT) trong quan trắc dao động thời gian thực công trình cầu dây văng ở Việt Nam",
+        "topic_codes": [
+          "ELECTRONICS_TELECOM",
+          "COMPUTING",
+          "CONSTRUCTION_TRANSPORT"
+        ],
+        "primary_topic_code": "ELECTRONICS_TELECOM"
+      },
+      {
+        "title": "Nghiên cứu chế tạo sơn lót bảo vệ chống ăn mòn thép CT3 trên cơ sở nhựa epoxy và chất ức chế hạt nano SiO2 biến tính 3,5 - dinitrobenzoic axit",
+        "topic_codes": [
+          "MATERIALS"
+        ],
+        "primary_topic_code": "MATERIALS"
+      }
+    ]
+  },
+  {
+    "school": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+    "items": [
+      {
+        "title": "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+        "topic_codes": [
+          "CYBERSECURITY",
+          "AI_DATA",
+          "COMPUTING"
+        ],
+        "primary_topic_code": "CYBERSECURITY"
+      },
+      {
+        "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+        "topic_codes": [
+          "AI_DATA",
+          "CONSTRUCTION_TRANSPORT"
+        ],
+        "primary_topic_code": "AI_DATA"
+      }
+    ]
+  },
+  {
+    "school": "Trường Đại học FPT",
+    "items": [
+      {
+        "title": "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+        "topic_codes": [
+          "AI_DATA",
+          "COMPUTING"
+        ],
+        "primary_topic_code": "AI_DATA"
+      },
+      {
+        "title": "Nghiên cứu phát triển mô hình Transformer sử dụng WiFi Fingerprinting cho định vị trong nhà",
+        "topic_codes": [
+          "AI_DATA",
+          "ELECTRONICS_TELECOM"
+        ],
+        "primary_topic_code": "AI_DATA"
+      }
+    ]
+  },
+  {
+    "school": "Đại học Phenikaa",
+    "items": [
+      {
+        "title": "Nghiên cứu phát triển các giải pháp định vị hiệu quả cho ứng dụng robot di động tự hành (ARM) tích hợp công nghệ Ultrawideband (UWB) trong các nhà máy thông minh",
+        "topic_codes": [
+          "ROBOTICS",
+          "ELECTRONICS_TELECOM"
+        ],
+        "primary_topic_code": "ROBOTICS"
+      },
+      {
+        "title": "Thiết kế và mô phỏng vật liệu hai chiều boron-nitride dang hexagon ứng dụng trong linh kiện trở nhớ",
+        "topic_codes": [
+          "MATERIALS",
+          "ELECTRONICS_TELECOM"
+        ],
+        "primary_topic_code": "MATERIALS"
+      }
+    ]
+  }
+]

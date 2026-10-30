@@ -1,0 +1,44 @@
+{
+  "reviewed_on": "2026-10-30",
+  "scope_vi": "Chỉ giữ nội dung có phương pháp tính toán, thuật toán, bảo mật kỹ thuật, phần mềm, điện tử, robot, vật liệu/kỹ thuật hóa học, năng lượng/môi trường hoặc công nghệ y sinh cụ thể. Không coi một bài nghiên cứu là công nghệ chỉ vì dùng công cụ số, thống kê khảo sát, hoặc nhắc AI/blockchain. Uncertain phải loại khỏi bản dữ liệu chính.",
+  "eu_counts": {
+    "keep": 28,
+    "exclude": 0,
+    "uncertain": 0
+  },
+  "vku_counts": {
+    "keep": 40,
+    "exclude": 64,
+    "uncertain": 7
+  },
+  "evidence_vi": "Đã rà soát toàn bộ 28 mục EU với tóm tắt/nguồn chính thức đã đọc ở lượt trước; toàn bộ 111 tiêu đề VKU và 25 abstract bổ sung từ elib.vku.udn.vn. Không đọc toàn văn các mục VKU có yêu cầu đăng nhập.",
+  "vku_abstract_evidence_file": "/home/ubuntu/university_research/raw/europe/vku_relevance_evidence.json",
+  "eu_borderline_keep_reasons_vi": {
+    "technoeconomic_perovskite": "Có mô hình quá trình sản xuất từ dưới lên, xét vật liệu, kỹ thuật chế tạo và mức tự động hóa; là đánh giá kỹ thuật-kinh tế công nghệ năng lượng, không phải kinh tế thuần túy.",
+    "hydrogen_transport_assessment": "Phân tích chuỗi chuyển đổi, lưu trữ, hóa lỏng/khí hóa và hoàn nguyên các chất mang hydro với hiệu suất năng lượng; có nội dung kỹ thuật quá trình cụ thể.",
+    "hydrogen_supply_chain_review": "Tổng quan kỹ thuật có phân tích độ tinh khiết và công nghệ chuỗi cung ứng hydro; giữ dưới loại review_article.",
+    "robot_collaboration_scale": "Đánh giá năng lực của hệ robot qua nhận biết tình huống, thích nghi, giao tiếp, học và di chuyển; đối tượng và chỉ tiêu là kỹ thuật robot, không phải quản trị nhân sự.",
+    "quantum_devices_and_clock": "Có bộ làm lạnh mạch lượng tử, máy đo phổ nhiệt trên chip và đồng hồ hạt nhân có vòng phản hồi được thực nghiệm; không phải vật lý thuần túy không ứng dụng."
+  },
+  "vku_kept_borderline_indices": [
+    11,
+    15,
+    22,
+    61,
+    72,
+    73,
+    95,
+    103,
+    110
+  ],
+  "vku_uncertain_indices": [
+    27,
+    40,
+    41,
+    57,
+    75,
+    91,
+    109
+  ],
+  "original_files_edited": false
+}

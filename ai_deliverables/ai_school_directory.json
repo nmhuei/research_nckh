@@ -1,0 +1,1048 @@
+{
+  "metadata": {
+    "date": "2026-10-30",
+    "statistics": {
+      "date": "2026-10-30",
+      "schools": 41,
+      "institution_work_records": 89,
+      "unique_works": 87,
+      "new_unique_works_vs_previous_detailed_ai_subset": 44,
+      "ai_topic_groups": 10,
+      "regional_coverage": [
+        {
+          "region": "Việt Nam",
+          "schools": 17,
+          "institution_work_records": 41,
+          "unique_works_in_region": 39
+        },
+        {
+          "region": "Hoa Kỳ",
+          "schools": 10,
+          "institution_work_records": 20,
+          "unique_works_in_region": 20
+        },
+        {
+          "region": "Châu Âu",
+          "schools": 14,
+          "institution_work_records": 28,
+          "unique_works_in_region": 28
+        }
+      ],
+      "unique_works_with_doi": 62,
+      "primary_topic_counts": {
+        "VISION_MULTIMODAL": 10,
+        "HEALTH_BIOAI": 6,
+        "SECURITY_TRUST_PRIVACY": 7,
+        "SCIENTIFIC_INDUSTRIAL_AI": 18,
+        "LLM_RAG_AGENTS": 12,
+        "ROBOTICS_RL": 10,
+        "NLP_SPEECH": 4,
+        "FORECAST_RECOMMEND": 6,
+        "ML_FOUNDATIONS": 11,
+        "EDGE_SYSTEMS": 3
+      },
+      "multi_label_counts": {
+        "VISION_MULTIMODAL": 15,
+        "NLP_SPEECH": 11,
+        "ML_FOUNDATIONS": 22,
+        "HEALTH_BIOAI": 10,
+        "SECURITY_TRUST_PRIVACY": 15,
+        "FORECAST_RECOMMEND": 10,
+        "SCIENTIFIC_INDUSTRIAL_AI": 32,
+        "LLM_RAG_AGENTS": 16,
+        "ROBOTICS_RL": 14,
+        "EDGE_SYSTEMS": 13
+      },
+      "type_counts": {
+        "journal_article": 46,
+        "conference_paper": 27,
+        "workshop_paper": 3,
+        "accepted_conference_paper": 2,
+        "doctoral_thesis": 4,
+        "student_graduation_project": 1,
+        "institutional_research_project": 3,
+        "doctoral_dissertation": 1
+      },
+      "status_counts": {
+        "published": 72,
+        "presented_workshop_paper": 2,
+        "accepted": 2,
+        "public_thesis_pdf_defense_status_not_checked": 1,
+        "student_project_catalogued": 1,
+        "approved_project": 1,
+        "ongoing_as_reported_2025_09_22": 2,
+        "accepted_manuscript_published_online": 1,
+        "deposited_doctoral_dissertation": 1,
+        "thesis_published": 3,
+        "published_workshop_paper": 1
+      },
+      "reading_depth_counts": {
+        "abstract_and_metadata": 31,
+        "abstract_and_selected_methods": 2,
+        "bibliography_only": 3,
+        "abstract_and_first_page_affiliations": 4,
+        "source_content_reviewed": 8,
+        "abstract_first_page_and_selected_methods": 1,
+        "pdf_selected_sections": 1,
+        "catalogue_metadata_only": 1,
+        "project_registry_metadata": 3,
+        "abstract_and_pdf_first_page": 1,
+        "university_news_and_publisher_abstract": 1,
+        "abstract_and_first_page": 4,
+        "publisher_methods_excerpt_and_university_news": 1,
+        "publisher_abstract_and_affiliation": 1,
+        "abstract_first_page_and_methods_excerpt": 1,
+        "abstract_and_methods_excerpt": 1,
+        "indexed_first_page_and_abstract_excerpt": 1,
+        "repository_abstract_and_metadata": 1,
+        "preprint_abstract_and_university_news": 1,
+        "abstract_first_page_and_introduction": 1,
+        "institutional_abstract_and_metadata": 2,
+        "abstract_first_page_and_results_excerpt": 1,
+        "abstract_and_first_two_pages": 1,
+        "indexed_official_repository_abstract_and_metadata": 2,
+        "official_repository_metadata_limited_abstract": 1,
+        "abstract_and_selected_methods_sections": 1,
+        "abstract_and_metadata_reviewed_previously": 8,
+        "official_author_portal_abstract_and_metadata": 2,
+        "official_university_reproduced_abstract_and_metadata": 1
+      },
+      "full_text_read_count": 0,
+      "schools_without_ai_items": []
+    },
+    "ai_taxonomy": {
+      "LLM_RAG_AGENTS": "AI tạo sinh, LLM, RAG và hệ đa tác tử",
+      "NLP_SPEECH": "Xử lý ngôn ngữ và tiếng nói",
+      "VISION_MULTIMODAL": "Thị giác máy tính và AI đa phương thức",
+      "ROBOTICS_RL": "Robot, tác tử tự hành và học tăng cường",
+      "SECURITY_TRUST_PRIVACY": "An toàn AI, AI cho an ninh mạng và quyền riêng tư",
+      "HEALTH_BIOAI": "AI y sinh và chăm sóc sức khỏe",
+      "EDGE_SYSTEMS": "AI tại biên, hệ thống tính toán và hạ tầng AI",
+      "SCIENTIFIC_INDUSTRIAL_AI": "AI cho khoa học, kỹ thuật và công nghiệp",
+      "ML_FOUNDATIONS": "Nền tảng học máy, học biểu diễn và suy luận",
+      "FORECAST_RECOMMEND": "AI dự báo chuỗi thời gian và hệ gợi ý"
+    },
+    "selection_rules_vi": [
+      "Giữ công trình có phương pháp AI cụ thể: học máy/học sâu, mô hình ngôn ngữ, học tăng cường, học biểu diễn, AI tạo sinh, hệ tác tử hoặc suy luận AI. Loại IoT, vật liệu, điều khiển cổ điển và nghiên cứu xã hội về AI nếu nguồn chưa thể hiện đóng góp AI.",
+      "Phân loại theo hai trục: nhóm/phương pháp AI và lĩnh vực ứng dụng. Một công trình có thể có nhiều nhãn. Nhãn đa tác tử không tự khẳng định sử dụng LLM; phương pháp chưa rõ được ghi trong phần kiểm chứng.",
+      "Đối chiếu quan hệ tác giả–trường bằng affiliation nhà xuất bản, PDF, kho cơ quan hoặc danh mục chính thức. Độ mạnh của bằng chứng được ghi theo từng mục; không coi mọi bài đăng trên tạp chí của trường là của trường.",
+      "Gộp bản ghi trùng DOI hoặc tên chuẩn hóa. Công trình hợp tác được liệt kê ở nhiều trường nhưng chỉ tính một lần trong danh mục công trình duy nhất."
+    ],
+    "limitations_vi": [
+      "Phạm vi là41 trường của báo cáo trước, ưu tiên Việt Nam, Mỹ và Châu Âu. Đây là tập công trình AI chọn lọc, chưa phải toàn bộ sản lượng của các trường hoặc toàn bộ589 trường trong thống kê ban đầu.",
+      "Phần lớn được đọc metadata và abstract; một số có đọc trang đầu hoặc phương pháp chọn lọc, một số chỉ có thư mục/metadata. Không mục nào được khẳng định đã thẩm định toàn văn hay tái lập kết quả.",
+      "Giữ riêng bài đã công bố, bài đã chấp nhận, bản tác giả/workshop, luận án, đồ án sinh viên và dự án được phê duyệt/đang triển khai. Không suy ra kết quả đã hoàn thành từ một dự án.",
+      "Năm công bố lấy theo nguồn, không suy đoán từ chuỗi DOI. Các khác biệt giữa năm hội nghị, năm số tạp chí và ngày online được giữ trong ghi chú.",
+      "Không dùng số công trình trong mẫu để xếp hạng trường hoặc so sánh độ chính xác giữa những bài có dữ liệu/thiết lập khác nhau. Tóm tắt y sinh mô tả nghiên cứu, không xác nhận hiệu quả lâm sàng."
+    ]
+  },
+  "schools": [
+    {
+      "short_name": "USTH",
+      "name": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+      "domain": "usth.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Công bố Khoa Công nghệ và Kỹ thuật",
+          "url": "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+        },
+        {
+          "title": "Công bố Khoa Công nghệ Hóa học và Môi trường",
+          "url": "https://usth.edu.vn/en/publications-4442/"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://usth.edu.vn/",
+      "ai_work_ids": [
+        "AI001",
+        "AI002",
+        "AI003"
+      ]
+    },
+    {
+      "short_name": "HUST",
+      "name": "Đại học Bách khoa Hà Nội (HUST)",
+      "domain": "hust.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Nghiên cứu HUST",
+          "url": "https://www.hust.edu.vn/vi/nghien-cuu/"
+        },
+        {
+          "title": "Công bố SoICT năm2025",
+          "url": "https://soict.hust.edu.vn/en/2025-publications.html"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://hust.edu.vn/",
+      "ai_work_ids": [
+        "AI005",
+        "AI006",
+        "AI004"
+      ]
+    },
+    {
+      "short_name": "UET",
+      "name": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+      "domain": "uet.vnu.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Trang nghiên cứu và công bố Nguyễn Việt Cường",
+          "url": "https://uet.vnu.edu.vn/~cuongnv/"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn. Không gán ViLLM-Eval cho UET vì chưa thấy affiliation UET trong bản bài báo, dù có tên trong danh mục cá nhân giảng viên.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://uet.vnu.edu.vn/",
+      "ai_work_ids": [
+        "AI007",
+        "AI008"
+      ]
+    },
+    {
+      "short_name": "HCMUT",
+      "name": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+      "domain": "hcmut.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Nghiên cứu HPCC",
+          "url": "https://hpcc.hcmut.edu.vn/research"
+        },
+        {
+          "title": "Công bố HPCC",
+          "url": "https://hpcc.hcmut.edu.vn/publications"
+        },
+        {
+          "title": "Công bố Địa chất–Dầu khí",
+          "url": "https://geopet.hcmut.edu.vn/en/nghien-cuu/cong-bo-khoa-hoc?year=2025"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn. Hai mục HPCC mới ở mức danh mục phòng thí nghiệm; chưa đọc abstract/toàn văn. Không đưa bài cảng container vào vì affiliation tại thời điểm công bố chưa được xác nhận.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://hcmut.edu.vn/",
+      "ai_work_ids": [
+        "AI009",
+        "AI010"
+      ]
+    },
+    {
+      "short_name": "UIT",
+      "name": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+      "domain": "uit.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Phòng ĐTSĐH & KHCN",
+          "url": "https://khcn.uit.edu.vn/"
+        },
+        {
+          "title": "Công bố và tin nghiên cứu UIT",
+          "url": "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://uit.edu.vn/",
+      "ai_work_ids": [
+        "AI011",
+        "AI012"
+      ]
+    },
+    {
+      "short_name": "PTIT",
+      "name": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "domain": "ptit.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Công bố Khoa Viễn thông1",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+        },
+        {
+          "title": "Dự án Khoa Viễn thông1",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/du-an-khoa-hoc/"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://ptit.edu.vn/",
+      "ai_work_ids": [
+        "AI013",
+        "AI014",
+        "AI015"
+      ]
+    },
+    {
+      "short_name": "DUT",
+      "name": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+      "domain": "dut.udn.vn",
+      "ai_portals": [
+        {
+          "title": "Phòng KHCN và HTQT",
+          "url": "https://dut.udn.vn/Phong/Khoahoc"
+        },
+        {
+          "title": "Danh mục công bố2025–2026",
+          "url": "https://dut.udn.vn/Phong/Khoahoc/Thongbao/id/12140"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://dut.udn.vn/",
+      "ai_work_ids": [
+        "AI016",
+        "AI017"
+      ]
+    },
+    {
+      "short_name": "VKU",
+      "name": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+      "domain": "vku.udn.vn",
+      "ai_portals": [
+        {
+          "title": "Kho tài nguyên số VKU",
+          "url": "https://elib.vku.udn.vn/community-list?locale=vi"
+        },
+        {
+          "title": "Bài báo2025",
+          "url": "https://elib.vku.udn.vn/handle/123456789/5064"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://vku.udn.vn/",
+      "ai_work_ids": [
+        "AI020",
+        "AI018",
+        "AI019",
+        "AI021"
+      ]
+    },
+    {
+      "short_name": "HCMUTE",
+      "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+      "domain": "hcmute.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Khoa CNTT",
+          "url": "https://fit.hcmute.edu.vn/"
+        },
+        {
+          "title": "Danh mục công bố giảng viên Trần Quang Khải",
+          "url": "https://fit.hcmute.edu.vn/Resources/Docs/SubDomain/fit/2025/HCMUTE_SCIENTIFIC_CV_TranQuangKhai.pdf",
+          "access_note": "Kiểm tra 30/10/2026: URL trả trang HTML không tìm thấy trang, không phải PDF. Công bố GCN được xác minh lại trực tiếp trên Springer."
+        },
+        {
+          "title": "Computer Vision & Intelligent Systems Laboratory",
+          "url": "https://cvis.hcmute.edu.vn/Research"
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn.",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://hcmute.edu.vn/",
+      "ai_work_ids": [
+        "AI022",
+        "AI023"
+      ]
+    },
+    {
+      "short_name": "VLUTE",
+      "name": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "domain": "vlute.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://qlkh.vlute.edu.vn/",
+          "title": "Cơ sở dữ liệu khoa học công nghệ VLUTE"
+        },
+        {
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi",
+          "title": "Tạp chí Khoa học VLUTE"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ. Bổ sung nguồn trường xác nhận vai trò Phan Anh Cang để củng cố quan hệ tác giả–trường; chưa có dòng affiliation PDF.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://vlute.edu.vn/",
+      "ai_work_ids": [
+        "AI024",
+        "AI025"
+      ]
+    },
+    {
+      "short_name": "MTA",
+      "name": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+      "domain": "mta.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://jst.lqdtu.edu.vn/index.php/jst",
+          "title": "Journal of Science and Technique"
+        },
+        {
+          "url": "https://sdh.mta.edu.vn/",
+          "title": "Cổng thông tin sau đại học và nghiên cứu"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://mta.edu.vn/",
+      "ai_work_ids": [
+        "AI026",
+        "AI027"
+      ]
+    },
+    {
+      "short_name": "KMA",
+      "name": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+      "domain": "actvn.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://actvn.edu.vn/",
+          "title": "Cổng thông tin Học viện — Nghiên cứu"
+        },
+        {
+          "url": "https://thuvien.actvn.edu.vn/",
+          "title": "Thư viện và danh mục luận án, đồ án"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ. Hai mục gồm luận án ML và đồ án kiểm tra mã LLM. Chưa xác định thuật toán kiểm tra của đồ án; không khẳng định công cụ đó dùng AI bên trong.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://actvn.edu.vn/",
+      "ai_work_ids": [
+        "AI028",
+        "AI029"
+      ]
+    },
+    {
+      "short_name": "UTC",
+      "name": "Trường Đại học Giao thông vận tải (UTC)",
+      "domain": "utc.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://tcsj.utc.edu.vn/",
+          "title": "Tạp chí Khoa học Giao thông vận tải"
+        },
+        {
+          "url": "https://khcn.utc.edu.vn/",
+          "title": "Cổng Khoa học công nghệ"
+        },
+        {
+          "title": "TCSJ: công trình AI phải kiểm tra affiliation",
+          "url": "https://tcsj.utc.edu.vn/"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://utc.edu.vn/",
+      "ai_work_ids": [
+        "AI031",
+        "AI030"
+      ]
+    },
+    {
+      "short_name": "HUMG",
+      "name": "Trường Đại học Mỏ - Địa chất (HUMG)",
+      "domain": "humg.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://humg.edu.vn/tin-tuc/Pages/khoa-hoc-cong-nghe.aspx",
+          "title": "Tin và kết quả khoa học công nghệ"
+        },
+        {
+          "url": "https://qlkh.humg.edu.vn/",
+          "title": "Quản lý khoa học công nghệ"
+        },
+        {
+          "title": "Tạp chí KHKT Mỏ–Địa chất: kiểm tra affiliation từng bài",
+          "url": "https://tapchi.humg.edu.vn/"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://humg.edu.vn/",
+      "ai_work_ids": [
+        "AI027",
+        "AI032"
+      ]
+    },
+    {
+      "short_name": "HUCE",
+      "name": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+      "domain": "huce.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://khcn.huce.edu.vn/",
+          "title": "Phòng Khoa học công nghệ"
+        },
+        {
+          "url": "https://fit.huce.edu.vn/danh-muc-ca",
+          "title": "Danh mục công trình khoa học Khoa CNTT 2025–2026"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://huce.edu.vn/",
+      "ai_work_ids": [
+        "AI033",
+        "AI034",
+        "AI035"
+      ]
+    },
+    {
+      "short_name": "FPT",
+      "name": "Trường Đại học FPT",
+      "domain": "daihoc.fpt.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://science.fpt.edu.vn/",
+          "title": "Cổng khoa học Tổ chức Giáo dục FPT"
+        },
+        {
+          "url": "https://daihoc.fpt.edu.vn/nghien-cuu-doi-moi/",
+          "title": "Nghiên cứu và Đổi mới của Đại học FPT"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ. Hai dự án giữ nguyên trạng thái theo danh mục 22/09/2025. Bài X-quang có đồng affiliation USTH–FPT.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://daihoc.fpt.edu.vn/",
+      "ai_work_ids": [
+        "AI037",
+        "AI036",
+        "AI002"
+      ]
+    },
+    {
+      "short_name": "Phenikaa",
+      "name": "Đại học Phenikaa",
+      "domain": "phenikaa-uni.edu.vn",
+      "ai_portals": [
+        {
+          "title": "ORLab / công bố Canh V. Pham",
+          "url": "https://cvpham1989.github.io/publications/"
+        },
+        {
+          "title": "ICSLab News and Events",
+          "url": "https://icslab.phenikaa-uni.edu.vn/news-events"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://phenikaa-uni.edu.vn/",
+      "ai_work_ids": [
+        "AI038",
+        "AI039"
+      ]
+    },
+    {
+      "short_name": "MIT",
+      "name": "Massachusetts Institute of Technology",
+      "domain": "mit.edu",
+      "ai_portals": [
+        {
+          "title": "MIT News — nghiên cứu AI",
+          "url": "https://news.mit.edu/"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.mit.edu/",
+      "ai_work_ids": [
+        "AI040",
+        "AI041"
+      ]
+    },
+    {
+      "short_name": "Caltech",
+      "name": "California Institute of Technology",
+      "domain": "caltech.edu",
+      "ai_portals": [
+        {
+          "title": "Caltech — nghiên cứu",
+          "url": "https://www.caltech.edu/research"
+        },
+        {
+          "title": "Qian Lab — tài liệu nghiên cứu DNA neural networks",
+          "url": "https://www.qianlab.caltech.edu/41586_2025_9479_MOESM1_ESM.pdf"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.caltech.edu/",
+      "ai_work_ids": [
+        "AI043",
+        "AI042"
+      ]
+    },
+    {
+      "short_name": "Georgia Tech",
+      "name": "Georgia Institute of Technology",
+      "domain": "gatech.edu",
+      "ai_portals": [
+        {
+          "title": "EPIC Lab",
+          "url": "https://www.epic.gatech.edu/"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.gatech.edu/",
+      "ai_work_ids": [
+        "AI045",
+        "AI044"
+      ]
+    },
+    {
+      "short_name": "CMU",
+      "name": "Carnegie Mellon University",
+      "domain": "cmu.edu",
+      "ai_portals": [
+        {
+          "title": "Virginia Smith — công bố về học máy và LLM",
+          "url": "https://www.cs.cmu.edu/~smithv/index.html"
+        },
+        {
+          "title": "CMU SEI — thư viện nghiên cứu",
+          "url": "https://www.sei.cmu.edu/library/"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.cmu.edu/",
+      "ai_work_ids": [
+        "AI047",
+        "AI046"
+      ]
+    },
+    {
+      "short_name": "Purdue",
+      "name": "Purdue University",
+      "domain": "purdue.edu",
+      "ai_portals": [
+        {
+          "title": "AI Systems Lab — công bố",
+          "url": "https://engineering.purdue.edu/AISL/publications"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.purdue.edu/",
+      "ai_work_ids": [
+        "AI048",
+        "AI049"
+      ]
+    },
+    {
+      "short_name": "RPI",
+      "name": "Rensselaer Polytechnic Institute",
+      "domain": "rpi.edu",
+      "ai_portals": [
+        {
+          "title": "Mohammed J. Zaki — công bố",
+          "url": "https://www.cs.rpi.edu/~zaki/publications/"
+        },
+        {
+          "title": "FCRC — công bố",
+          "url": "https://fcrc.rpi.edu/research-outcomes/publications"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.rpi.edu/",
+      "ai_work_ids": [
+        "AI051",
+        "AI050"
+      ]
+    },
+    {
+      "short_name": "Virginia Tech",
+      "name": "Virginia Polytechnic Institute and State University",
+      "domain": "vt.edu",
+      "ai_portals": [
+        {
+          "title": "VTechWorks — kho nghiên cứu",
+          "url": "https://vtechworks.lib.vt.edu/"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.vt.edu/",
+      "ai_work_ids": [
+        "AI052",
+        "AI053"
+      ]
+    },
+    {
+      "short_name": "Texas A&M",
+      "name": "Texas A&M University",
+      "domain": "tamu.edu",
+      "ai_portals": [
+        {
+          "title": "Guni Sharon — nhóm nghiên cứu",
+          "url": "https://people.engr.tamu.edu/guni/group.html"
+        },
+        {
+          "title": "Texas A&M Engineering — nghiên cứu ERIC",
+          "url": "https://engineering.tamu.edu/news/2025/07/the-key-to-lowering-your-water-bill-may-already-be-at-your-door.html"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.tamu.edu/",
+      "ai_work_ids": [
+        "AI054",
+        "AI055"
+      ]
+    },
+    {
+      "short_name": "Stevens",
+      "name": "Stevens Institute of Technology",
+      "domain": "stevens.edu",
+      "ai_portals": [
+        {
+          "title": "Stevens Research Portal",
+          "url": "https://researchwith.stevens.edu/en/"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.stevens.edu/",
+      "ai_work_ids": [
+        "AI057",
+        "AI056"
+      ]
+    },
+    {
+      "short_name": "IIT",
+      "name": "Illinois Institute of Technology",
+      "domain": "iit.edu",
+      "ai_portals": [
+        {
+          "title": "ECASP Laboratory — công bố",
+          "url": "https://ecasp.ece.iit.edu/2012-present.html"
+        }
+      ],
+      "search_note_vi": "Mẫu chọn lọc 2 công trình có phương pháp AI cụ thể; không phải toàn bộ danh mục AI của trường hoặc xếp hạng chất lượng. Đối chiếu nguồn chính thức ngày 30/10/2026.",
+      "country_code": "US",
+      "region": "Hoa Kỳ",
+      "website": "https://www.iit.edu/",
+      "ai_work_ids": [
+        "AI059",
+        "AI058"
+      ]
+    },
+    {
+      "short_name": "ETH Zurich",
+      "name": "ETH Zürich",
+      "domain": "ethz.ch",
+      "ai_portals": [
+        {
+          "url": "https://www.research-collection.ethz.ch/",
+          "title": "ETH Research Collection"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "CH",
+      "region": "Châu Âu",
+      "website": "https://ethz.ch/",
+      "ai_work_ids": [
+        "AI060",
+        "AI061"
+      ]
+    },
+    {
+      "short_name": "EPFL",
+      "name": "EPFL",
+      "domain": "epfl.ch",
+      "ai_portals": [
+        {
+          "url": "https://infoscience.epfl.ch/",
+          "title": "Infoscience – EPFL"
+        },
+        {
+          "url": "https://www.epfl.ch/labs/lsmo/",
+          "title": "EPFL LSMO publications"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "CH",
+      "region": "Châu Âu",
+      "website": "https://epfl.ch/",
+      "ai_work_ids": [
+        "AI062",
+        "AI063"
+      ]
+    },
+    {
+      "short_name": "Imperial",
+      "name": "Imperial College London",
+      "domain": "imperial.ac.uk",
+      "ai_portals": [
+        {
+          "url": "https://spiral.imperial.ac.uk/",
+          "title": "Spiral – Imperial institutional repository"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "GB",
+      "region": "Châu Âu",
+      "website": "https://imperial.ac.uk/",
+      "ai_work_ids": [
+        "AI064",
+        "AI065"
+      ]
+    },
+    {
+      "short_name": "TU Delft",
+      "name": "Delft University of Technology",
+      "domain": "tudelft.nl",
+      "ai_portals": [
+        {
+          "url": "https://research.tudelft.nl/",
+          "title": "TU Delft Research Portal"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "NL",
+      "region": "Châu Âu",
+      "website": "https://tudelft.nl/",
+      "ai_work_ids": [
+        "AI066",
+        "AI067"
+      ]
+    },
+    {
+      "short_name": "TU/e",
+      "name": "Eindhoven University of Technology",
+      "domain": "tue.nl",
+      "ai_portals": [
+        {
+          "url": "https://research.tue.nl/",
+          "title": "TU/e Research Portal"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "NL",
+      "region": "Châu Âu",
+      "website": "https://tue.nl/",
+      "ai_work_ids": [
+        "AI069",
+        "AI068"
+      ]
+    },
+    {
+      "short_name": "RWTH Aachen",
+      "name": "RWTH Aachen University",
+      "domain": "rwth-aachen.de",
+      "ai_portals": [
+        {
+          "url": "https://publications.rwth-aachen.de/",
+          "title": "RWTH Publications"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "DE",
+      "region": "Châu Âu",
+      "website": "https://rwth-aachen.de/",
+      "ai_work_ids": [
+        "AI071",
+        "AI070"
+      ]
+    },
+    {
+      "short_name": "TUM",
+      "name": "Technical University of Munich",
+      "domain": "tum.de",
+      "ai_portals": [
+        {
+          "url": "https://mediatum.ub.tum.de/",
+          "title": "mediaTUM – TUM publication repository"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "DE",
+      "region": "Châu Âu",
+      "website": "https://tum.de/",
+      "ai_work_ids": [
+        "AI073",
+        "AI072"
+      ]
+    },
+    {
+      "short_name": "TU Berlin",
+      "name": "Technische Universität Berlin",
+      "domain": "tu.berlin",
+      "ai_portals": [
+        {
+          "url": "https://depositonce.tu-berlin.de/",
+          "title": "DepositOnce – TU Berlin"
+        },
+        {
+          "url": "https://ml.tu-berlin.de/publication/",
+          "title": "TU Berlin Machine Learning publications"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng. Không đưa SVN-ICP vào tập AI nghiêm ngặt: mô tả hiện có nêu ước lượng xác suất số nhưng chưa chứng minh thành phần học máy.",
+      "country_code": "DE",
+      "region": "Châu Âu",
+      "website": "https://tu.berlin/",
+      "ai_work_ids": [
+        "AI075",
+        "AI074"
+      ]
+    },
+    {
+      "short_name": "KTH",
+      "name": "KTH Royal Institute of Technology",
+      "domain": "kth.se",
+      "ai_portals": [
+        {
+          "url": "https://kth.diva-portal.org/",
+          "title": "KTH DiVA publications"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "SE",
+      "region": "Châu Âu",
+      "website": "https://kth.se/",
+      "ai_work_ids": [
+        "AI076",
+        "AI077"
+      ]
+    },
+    {
+      "short_name": "Chalmers",
+      "name": "Chalmers University of Technology",
+      "domain": "chalmers.se",
+      "ai_portals": [
+        {
+          "url": "https://research.chalmers.se/",
+          "title": "Chalmers Research"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "SE",
+      "region": "Châu Âu",
+      "website": "https://chalmers.se/",
+      "ai_work_ids": [
+        "AI078",
+        "AI079"
+      ]
+    },
+    {
+      "short_name": "Aalto",
+      "name": "Aalto University",
+      "domain": "aalto.fi",
+      "ai_portals": [
+        {
+          "url": "https://research.aalto.fi/",
+          "title": "Aalto Research Portal"
+        },
+        {
+          "url": "https://quml.aalto.fi/publication/",
+          "title": "Aalto QuML publications"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "FI",
+      "region": "Châu Âu",
+      "website": "https://aalto.fi/",
+      "ai_work_ids": [
+        "AI080",
+        "AI081"
+      ]
+    },
+    {
+      "short_name": "Politecnico di Milano",
+      "name": "Politecnico di Milano",
+      "domain": "polimi.it",
+      "ai_portals": [
+        {
+          "url": "https://re.public.polimi.it/",
+          "title": "RE.PUBLIC@POLIMI"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "IT",
+      "region": "Châu Âu",
+      "website": "https://polimi.it/",
+      "ai_work_ids": [
+        "AI083",
+        "AI082"
+      ]
+    },
+    {
+      "short_name": "Politecnico di Torino",
+      "name": "Politecnico di Torino",
+      "domain": "polito.it",
+      "ai_portals": [
+        {
+          "url": "https://iris.polito.it/",
+          "title": "PORTO – Politecnico di Torino institutional repository"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "IT",
+      "region": "Châu Âu",
+      "website": "https://polito.it/",
+      "ai_work_ids": [
+        "AI084",
+        "AI085"
+      ]
+    },
+    {
+      "short_name": "TU Wien",
+      "name": "TU Wien",
+      "domain": "tuwien.at",
+      "ai_portals": [
+        {
+          "url": "https://informatics.tuwien.ac.at/",
+          "title": "TU Wien Informatics"
+        },
+        {
+          "url": "https://repositum.tuwien.at/",
+          "title": "reposiTUm"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng.",
+      "country_code": "AT",
+      "region": "Châu Âu",
+      "website": "https://tuwien.at/",
+      "ai_work_ids": [
+        "AI086",
+        "AI087"
+      ]
+    }
+  ]
+}

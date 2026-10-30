@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "schools": 41,
+  "unique_ai_works": 87,
+  "institution_work_records": 89,
+  "new_vs_previous_detailed_ai_subset": 44,
+  "topic_groups": 10,
+  "shared_works_deduplicated": 2,
+  "doi_count": 62,
+  "no_missing_school": true,
+  "xlsx_docx_json_csv_zip_readable": true,
+  "full_text_review_claimed": false,
+  "scope": "41 previously listed institutions, selected works only"
+}

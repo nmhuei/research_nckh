@@ -1,0 +1,860 @@
+{
+  "checked_on": "2026-10-30",
+  "scope": "Đợt quét có chọn lọc: 10 đại học công nghệ/kỹ thuật tại Hoa Kỳ, mỗi trường 2 công trình; không phải toàn bộ công bố của trường hoặc bảng xếp hạng.",
+  "selection_method": "Tìm trên website chính thức của trường, kho nghiên cứu và trang phòng thí nghiệm; ưu tiên công trình 2023–2026 có nội dung và quan hệ tác giả–trường xác minh được. Đối chiếu trang nhà xuất bản khi cần tên chính xác, DOI hoặc ngày công bố.",
+  "reading_depth": "Metadata, abstract và bản tóm lược chính thức. Không công trình nào được đánh dấu đã đọc toàn văn đầy đủ.",
+  "topic_taxonomy": {
+    "AI_DATA": "AI, học máy và dữ liệu",
+    "CYBERSECURITY": "An ninh mạng và mật mã",
+    "COMPUTING": "Phần mềm, hệ thống tính toán và mạng",
+    "ELECTRONICS_TELECOM": "Điện tử, bán dẫn, viễn thông và IoT",
+    "ROBOTICS": "Robot, điều khiển và tự động hóa",
+    "MATERIALS": "Vật liệu, nano và công nghệ hóa học",
+    "ENERGY": "Năng lượng và công nghệ điện",
+    "ENVIRONMENT": "Môi trường, khí hậu và tài nguyên",
+    "BIOTECH_HEALTH": "Công nghệ sinh học và kỹ thuật y sinh",
+    "CONSTRUCTION_TRANSPORT": "Xây dựng, giao thông và cơ khí",
+    "AGRI_FOOD": "Công nghệ nông nghiệp và thực phẩm",
+    "BASIC_SCIENCE": "Khoa học nền tảng phục vụ công nghệ",
+    "OTHER": "Khác hoặc chưa đủ dữ liệu phân loại"
+  },
+  "schools": [
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "mit.edu",
+      "website": "https://www.mit.edu/",
+      "research_portals": [
+        {
+          "title": "MIT News — nghiên cứu",
+          "url": "https://news.mit.edu/"
+        },
+        {
+          "title": "Danh mục công bố của nhóm Vinod Vaikuntanathan, CSAIL",
+          "url": "https://people.csail.mit.edu/vinodv/pubs.html"
+        }
+      ],
+      "items": [
+        {
+          "title": "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "Robot, điều khiển và tự động hóa",
+            "AI, học máy và dữ liệu"
+          ],
+          "topic_codes": [
+            "ROBOTICS",
+            "AI_DATA"
+          ],
+          "summary_vi": "Dùng mô hình khuếch tán và mô phỏng vật lý để tối ưu hình học robot nhảy có thể in 3D. Thử nghiệm so sánh cho thấy thiết kế mới nhảy cao hơn và tiếp đất ổn định hơn thiết kế cơ sở.",
+          "url": "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+          "doi": "10.1109/ICRA55743.2025.11128113",
+          "publication_url": "https://doi.org/10.1109/ICRA55743.2025.11128113",
+          "publication_date": null,
+          "source_date": "2025-06-27",
+          "source_type": "university_research_news_and_publisher_abstract",
+          "university_attribution": "MIT CSAIL xác nhận nghiên cứu của Byungchul Kim, Tsun-Hsuan Wang và Daniela Rus.",
+          "verification_note": "Đã đọc bản tin MIT và abstract IEEE; bản tin liên kết bản PDF tác giả. Công trình tại ICRA 2025; chưa đánh giá toàn văn hoặc khả năng tái lập.",
+          "source_urls": [
+            "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+            "https://doi.org/10.1109/ICRA55743.2025.11128113"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ROBOTICS",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ]
+        },
+        {
+          "title": "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "topic_codes": [
+            "CYBERSECURITY",
+            "COMPUTING"
+          ],
+          "summary_vi": "Đề xuất cơ chế mã hóa cho phép thực hiện một số phép tính giới hạn trực tiếp trên dữ liệu mã hóa. Hướng nghiên cứu phục vụ tra cứu cơ sở dữ liệu và phân tích thống kê bảo mật; kết quả đang ở mức xây dựng lý thuyết.",
+          "url": "https://news.mit.edu/2025/security-scheme-could-protect-sensitive-data-during-cloud-computation-0319",
+          "doi": "10.1007/978-3-031-91124-8_1",
+          "publication_url": "https://doi.org/10.1007/978-3-031-91124-8_1",
+          "publication_date": null,
+          "source_date": "2025-03-19",
+          "source_type": "university_research_news_and_publication_list",
+          "university_attribution": "Bản tin MIT nêu các tác giả thuộc EECS/CSAIL; danh mục của Vinod Vaikuntanathan xác nhận EUROCRYPT 2025.",
+          "verification_note": "Đã đọc bản tin trường và thông tin công bố; phân biệt preprint IACR 2024/1760 với bài hội nghị năm 2025. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://news.mit.edu/2025/security-scheme-could-protect-sensitive-data-during-cloud-computation-0319",
+            "https://people.csail.mit.edu/vinodv/pubs.html",
+            "https://link.springer.com/chapter/10.1007/978-3-031-91124-8_1"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "CYBERSECURITY",
+          "secondary_topic_codes": [
+            "COMPUTING"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "California Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "caltech.edu",
+      "website": "https://www.caltech.edu/",
+      "research_portals": [
+        {
+          "title": "Caltech — tin nghiên cứu chính thức",
+          "url": "https://www.caltech.edu/about/news"
+        },
+        {
+          "title": "Caltech Research",
+          "url": "https://www.caltech.edu/research"
+        }
+      ],
+      "items": [
+        {
+          "title": "Tensor Learning and Compression of N-Phonon Interactions",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Vật liệu, nano và công nghệ hóa học",
+            "AI, học máy và dữ liệu",
+            "Khoa học nền tảng phục vụ công nghệ"
+          ],
+          "topic_codes": [
+            "MATERIALS",
+            "AI_DATA",
+            "BASIC_SCIENCE"
+          ],
+          "summary_vi": "Học và nén tensor biểu diễn tương tác phonon để giảm chi phí tính toán tính chất nhiệt của vật liệu. Phương pháp giữ độ chính xác cao khi tính tốc độ tán xạ phonon và độ dẫn nhiệt trên các vật liệu được khảo sát.",
+          "url": "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+          "doi": "10.1103/nmgj-yq1g",
+          "publication_url": "https://doi.org/10.1103/nmgj-yq1g",
+          "publication_date": "2025-09-16",
+          "source_date": "2025-09-16",
+          "source_type": "university_research_news_and_publisher_abstract",
+          "university_attribution": "Bản tin Caltech và trang Physical Review Letters ghi nhóm Marco Bernardi, Yao Luo cùng các tác giả thuộc Caltech.",
+          "verification_note": "Đã đọc bản tin và abstract nhà xuất bản; chưa đọc phần toàn văn có yêu cầu quyền truy cập.",
+          "source_urls": [
+            "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+            "https://journals.aps.org/prl/abstract/10.1103/nmgj-yq1g"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "MATERIALS",
+          "secondary_topic_codes": [
+            "AI_DATA",
+            "BASIC_SCIENCE"
+          ]
+        },
+        {
+          "title": "Supervised learning in DNA neural networks",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Công nghệ sinh học và kỹ thuật y sinh",
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "topic_codes": [
+            "BIOTECH_HEALTH",
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "summary_vi": "Xây dựng mạng nơ-ron bằng phân tử DNA có thể học từ ví dụ hóa học và nhận dạng mẫu mới. Thông tin học được lưu qua nồng độ và tương tác của các chuỗi DNA, mở hướng nghiên cứu tính toán phân tử và vật liệu thích nghi.",
+          "url": "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+          "doi": "10.1038/s41586-025-09479-w",
+          "publication_url": "https://doi.org/10.1038/s41586-025-09479-w",
+          "publication_date": "2025-09-03",
+          "source_date": "2025-09-03",
+          "source_type": "university_research_news",
+          "university_attribution": "Caltech xác nhận nghiên cứu tại phòng thí nghiệm Lulu Qian, với Kevin Cherry là tác giả thứ nhất.",
+          "verification_note": "Đã đọc bản tóm lược chính thức của trường và xác nhận trang Nature được liên kết; chưa đọc toàn văn. Các ứng dụng thuốc hoặc vật liệu thông minh là định hướng tương lai.",
+          "source_urls": [
+            "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+            "https://www.nature.com/articles/s41586-025-09479-w"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "BIOTECH_HEALTH",
+          "secondary_topic_codes": [
+            "AI_DATA",
+            "COMPUTING"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "gatech.edu",
+      "website": "https://www.gatech.edu/",
+      "research_portals": [
+        {
+          "title": "Georgia Tech — tin nghiên cứu",
+          "url": "https://news.gatech.edu/"
+        },
+        {
+          "title": "EPIC Lab — công bố và dự án",
+          "url": "https://www.epic.gatech.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "Robot, điều khiển và tự động hóa",
+            "AI, học máy và dữ liệu"
+          ],
+          "topic_codes": [
+            "ROBOTICS",
+            "AI_DATA"
+          ],
+          "summary_vi": "Điều chỉnh tốc độ thực thi của robot học từ thao tác mẫu của con người. Hệ thống phối hợp làm mượt chuyển động, bám quỹ đạo và bù độ trễ để tăng tốc nhiều tác vụ thao tác mà vẫn duy trì độ chính xác trong thử nghiệm.",
+          "url": "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+          "doi": "10.48550/arXiv.2506.11948",
+          "publication_url": "https://arxiv.org/abs/2506.11948",
+          "publication_date": null,
+          "source_date": "2026-03-19",
+          "source_type": "university_research_news",
+          "university_attribution": "Georgia Tech nêu nhóm Shreyas Kousik, Benjamin Joffe và Danfei Xu, cùng trích dẫn công trình CoRL 2025.",
+          "verification_note": "Đã đọc bản tin trường; năm 2025 là năm hội nghị, còn bản tin đăng năm 2026. DOI được trường cung cấp là DOI bản arXiv, không phải DOI riêng của kỷ yếu; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ROBOTICS",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ]
+        },
+        {
+          "title": "Deep domain adaptation eliminates costly data required for task-agnostic wearable robotic control",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Robot, điều khiển và tự động hóa",
+            "AI, học máy và dữ liệu",
+            "Công nghệ sinh học và kỹ thuật y sinh"
+          ],
+          "topic_codes": [
+            "ROBOTICS",
+            "AI_DATA",
+            "BIOTECH_HEALTH"
+          ],
+          "summary_vi": "Chuyển dữ liệu cơ sinh học sẵn có sang điều khiển bộ khung trợ lực mới bằng thích nghi miền sâu. Mục tiêu là ước lượng mô-men khớp thời gian thực và giảm nhu cầu thu thập dữ liệu riêng cho từng thiết bị, người dùng và tác vụ.",
+          "url": "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/",
+          "doi": "10.1126/scirobotics.ads8652",
+          "publication_url": "https://doi.org/10.1126/scirobotics.ads8652",
+          "publication_date": null,
+          "source_date": "2025-11-30",
+          "source_type": "official_lab_publication_news",
+          "university_attribution": "EPIC Lab tại Georgia Tech xác nhận công bố Science Robotics của Keaton Scherpereel và Carlos Carrasquillo.",
+          "verification_note": "Đã đọc bản tin phòng thí nghiệm; DOI lấy từ liên kết bài Science Robotics. Trang nhà xuất bản trả 403; chưa đọc abstract nhà xuất bản hoặc toàn văn.",
+          "source_urls": [
+            "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ROBOTICS",
+          "secondary_topic_codes": [
+            "AI_DATA",
+            "BIOTECH_HEALTH"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "cmu.edu",
+      "website": "https://www.cmu.edu/",
+      "research_portals": [
+        {
+          "title": "Software Engineering Institute — thư viện công bố",
+          "url": "https://www.sei.cmu.edu/library/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Sabermetrics for Cyber: Collecting and Analyzing User Activity Data from Ephemeral Exercises",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "topic_codes": [
+            "CYBERSECURITY",
+            "COMPUTING"
+          ],
+          "summary_vi": "Đề xuất thu giữ và lưu dữ liệu hành vi người tham gia trong môi trường diễn tập an ninh mạng tạm thời. Dữ liệu giúp phân tích kỹ năng, đánh giá hiệu quả và cải thiện thiết kế hoạt động đào tạo an ninh mạng.",
+          "url": "https://www.sei.cmu.edu/library/sabermetrics-for-cyber-collecting-and-analyzing-user-activity-data-from-ephemeral-exercises/",
+          "doi": "10.34190/eccws.24.1.3354",
+          "publication_url": "https://doi.org/10.34190/eccws.24.1.3354",
+          "publication_date": "2025-06-25",
+          "source_date": null,
+          "source_type": "institutional_publication_abstract",
+          "university_attribution": "Trang công bố của Software Engineering Institute, Carnegie Mellon University, nêu nghiên cứu và tác giả của SEI.",
+          "verification_note": "Đã đọc metadata và abstract của SEI; bài hội nghị ECCWS 2025. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://www.sei.cmu.edu/library/sabermetrics-for-cyber-collecting-and-analyzing-user-activity-data-from-ephemeral-exercises/"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "CYBERSECURITY",
+          "secondary_topic_codes": [
+            "COMPUTING"
+          ]
+        },
+        {
+          "title": "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming?",
+          "year": 2025,
+          "type": "technical_report",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA"
+          ],
+          "summary_vi": "Tổng hợp có hệ thống hai dòng nghiên cứu về red teaming: an ninh mạng và AI tạo sinh. Báo cáo xem xét cách chuyển phương pháp đánh giá đối kháng đã có sang kiểm tra độ an toàn của hệ thống AI.",
+          "url": "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/",
+          "doi": "10.1184/R1/29410136",
+          "publication_url": "https://doi.org/10.1184/R1/29410136",
+          "publication_date": "2025-07-16",
+          "source_date": null,
+          "source_type": "institutional_publication_abstract",
+          "university_attribution": "Metadata chính thức ghi cơ quan xuất bản Software Engineering Institute, Carnegie Mellon University.",
+          "verification_note": "Đã đọc metadata và abstract. Đây là báo cáo kỹ thuật CMU/SEI-2025-TR-006, không gán là bài tạp chí; chưa đọc toàn văn PDF.",
+          "source_urls": [
+            "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "CYBERSECURITY",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Purdue University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "purdue.edu",
+      "website": "https://www.purdue.edu/",
+      "research_portals": [
+        {
+          "title": "Energy and Transport Sciences Laboratory — Publications",
+          "url": "https://engineering.purdue.edu/ETSL/publication.html"
+        },
+        {
+          "title": "Marconnet Thermal and Energy Conversion Lab",
+          "url": "https://engineering.purdue.edu/MTEC/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Electrospun Boron Nitride Nanotube Fabrics: Tunable Thermal Conductivity through Controlled Nanotube Orientation",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Vật liệu, nano và công nghệ hóa học"
+          ],
+          "topic_codes": [
+            "MATERIALS"
+          ],
+          "summary_vi": "Dùng kéo sợi điện và nhiệt phân để tạo vải ống nano nitride bo có định hướng điều khiển được. Công trình phân tích ảnh hưởng của định hướng, liên kết giữa sợi và chiều dài ống nano lên truyền nhiệt, phục vụ vật liệu quản lý nhiệt.",
+          "url": "https://engineering.purdue.edu/MTEC/publications/electrospun-boron-nitride-nanotube-fabrics-tunable-thermal-conductivity-through-controlled-nanotube-orientation",
+          "doi": "10.1002/adem.202500703",
+          "publication_url": "https://doi.org/10.1002/adem.202500703",
+          "publication_date": null,
+          "source_date": "2025-08-03",
+          "source_type": "official_lab_publication_abstract",
+          "university_attribution": "Trang công bố của Marconnet Thermal and Energy Conversion Lab thuộc Purdue nêu tác giả A. Marconnet và cộng sự.",
+          "verification_note": "Đã đọc metadata và abstract trên trang phòng thí nghiệm. Trang lab ghi Event Date 03/08/2025; không dùng trường này làm ngày xuất bản vì khác metadata Crossref. Chưa đọc toàn văn nhà xuất bản.",
+          "source_urls": [
+            "https://engineering.purdue.edu/MTEC/publications/electrospun-boron-nitride-nanotube-fabrics-tunable-thermal-conductivity-through-controlled-nanotube-orientation"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "MATERIALS",
+          "secondary_topic_codes": []
+        },
+        {
+          "title": "Consequential Climate and Energy Analysis of Steel Electrification via Hydrogen Direct Reduction",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng và công nghệ điện",
+            "Môi trường, khí hậu và tài nguyên"
+          ],
+          "topic_codes": [
+            "ENERGY",
+            "ENVIRONMENT"
+          ],
+          "summary_vi": "Mô hình hóa nhu cầu điện và phát thải khi chuyển sản xuất thép sang khử trực tiếp bằng hydro và lò hồ quang điện. Kết quả nhấn mạnh việc phối hợp nhà máy điện phân với cơ cấu nguồn điện, đặc biệt điện gió và mặt trời.",
+          "url": "https://engineering.purdue.edu/ETSL/publication.html",
+          "doi": "10.1021/acsenergylett.5c01961",
+          "publication_url": "https://doi.org/10.1021/acsenergylett.5c01961",
+          "publication_date": "2025-09-02",
+          "source_date": null,
+          "source_type": "official_lab_publication_abstract_and_publisher_abstract",
+          "university_attribution": "Danh mục ETSL và metadata ACS ghi các tác giả thuộc các trường kỹ thuật của Purdue.",
+          "verification_note": "Đã đọc abstract ở danh mục phòng thí nghiệm và ACS. Các kết quả phát thải là dự báo theo kịch bản, không phải mức giảm đã xảy ra; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://engineering.purdue.edu/ETSL/publication.html",
+            "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01961"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ENERGY",
+          "secondary_topic_codes": [
+            "ENVIRONMENT"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rensselaer Polytechnic Institute",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "rpi.edu",
+      "website": "https://www.rpi.edu/",
+      "research_portals": [
+        {
+          "title": "RPI — tin nghiên cứu chính thức",
+          "url": "https://news.rpi.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Atomic lift-off of epitaxial membranes for cooling-free infrared detection",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Vật liệu, nano và công nghệ hóa học",
+            "Điện tử, bán dẫn, viễn thông và IoT"
+          ],
+          "topic_codes": [
+            "MATERIALS",
+            "ELECTRONICS_TELECOM"
+          ],
+          "summary_vi": "Phát triển phương pháp tách màng tinh thể siêu mỏng mà không cần lớp giải phóng nhân tạo. Màng vật liệu nhiệt điện được nghiên cứu cho cảm biến hồng ngoại không cần làm lạnh; nhóm RPI đóng góp tính toán cơ chế liên kết tại bề mặt tiếp xúc.",
+          "url": "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+          "doi": "10.1038/s41586-025-08874-7",
+          "publication_url": "https://doi.org/10.1038/s41586-025-08874-7",
+          "publication_date": "2025-04-23",
+          "source_date": "2025-08-18",
+          "source_type": "university_research_news",
+          "university_attribution": "RPI xác nhận Yunfeng Shi là đồng tác giả lãnh đạo phần tính toán; đây là hợp tác với MIT và các trường khác.",
+          "verification_note": "Đã đọc bản tin RPI và đối chiếu tên bài, DOI, ngày công bố Nature. Bản tin tháng 8 khác ngày xuất bản bài báo tháng 4; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+            "https://www.nature.com/articles/s41586-025-08874-7"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "MATERIALS",
+          "secondary_topic_codes": [
+            "ELECTRONICS_TELECOM"
+          ]
+        },
+        {
+          "title": "Dimensionality and dynamics for next-generation artificial neural networks",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI, học máy và dữ liệu"
+          ],
+          "topic_codes": [
+            "AI_DATA"
+          ],
+          "summary_vi": "Thảo luận thiết kế mạng nơ-ron tăng cấu trúc theo chiều không gian và bổ sung vòng phản hồi theo thời gian. Định hướng lấy cảm hứng từ não bộ nhằm cải thiện biểu diễn, khả năng học và hiệu quả sử dụng tài nguyên của AI.",
+          "url": "https://news.rpi.edu/2025/06/16/ai-rethought-rpi-researchers-propose-more-effective-human-approach",
+          "doi": "10.1016/j.patter.2025.101231",
+          "publication_url": "https://doi.org/10.1016/j.patter.2025.101231",
+          "publication_date": null,
+          "source_date": "2025-06-12",
+          "source_type": "university_research_news",
+          "university_attribution": "RPI ghi nghiên cứu do Ge Wang của RPI và Fenglei Fan của City University of Hong Kong dẫn dắt.",
+          "verification_note": "Đã đọc bản tin trường; dùng tên bài đầy đủ từ trang nhà xuất bản Patterns, bổ sung từ artificial mà bản tin rút gọn. Nội dung là định hướng kiến trúc, không suy diễn đã triển khai thương mại; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://news.rpi.edu/2025/06/16/ai-rethought-rpi-researchers-propose-more-effective-human-approach",
+            "https://doi.org/10.1016/j.patter.2025.101231"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "AI_DATA",
+          "secondary_topic_codes": []
+        }
+      ]
+    },
+    {
+      "name": "Virginia Polytechnic Institute and State University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "vt.edu",
+      "website": "https://www.vt.edu/",
+      "research_portals": [
+        {
+          "title": "VTechWorks — kho nghiên cứu Virginia Tech",
+          "url": "https://vtechworks.lib.vt.edu/"
+        },
+        {
+          "title": "Virginia Tech News",
+          "url": "https://news.vt.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Combining and Decoupling Rigid and Soft Grippers to Enhance Robotic Manipulation",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Robot, điều khiển và tự động hóa",
+            "Vật liệu, nano và công nghệ hóa học"
+          ],
+          "topic_codes": [
+            "ROBOTICS",
+            "MATERIALS"
+          ],
+          "summary_vi": "Kết hợp kẹp cứng với bề mặt bám dính mềm có thể bật/tắt để robot thao tác nhiều loại vật thể. Thiết kế và điều khiển hỗ trợ người dùng thực hiện các tác vụ hằng ngày, được minh họa bằng việc chuẩn bị đồ ăn.",
+          "url": "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+          "doi": "10.1089/soro.2024.0062",
+          "publication_url": "https://doi.org/10.1089/soro.2024.0062",
+          "publication_date": "2025-03-10",
+          "source_date": "2025-07-28",
+          "source_type": "university_research_news_and_publisher_abstract",
+          "university_attribution": "Bản tin Virginia Tech xác nhận nhóm Dylan Losey và Michael Bartlett; trang bài báo liệt kê nhóm tác giả tương ứng.",
+          "verification_note": "Đã đọc bản tin trường và abstract Soft Robotics. DOI chứa 2024 nhưng bài được xuất bản trực tuyến năm 2025; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+            "https://journals.sagepub.com/doi/abs/10.1089/soro.2024.0062"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ROBOTICS",
+          "secondary_topic_codes": [
+            "MATERIALS"
+          ]
+        },
+        {
+          "title": "Game-Theoretic and Machine Learning-based Defensive Deception for Dependable and Secure Cyber-Physical Systems",
+          "year": 2025,
+          "type": "doctoral_dissertation",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu",
+            "Robot, điều khiển và tự động hóa"
+          ],
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA",
+            "ROBOTICS"
+          ],
+          "summary_vi": "Kết hợp lý thuyết trò chơi và học máy để xây dựng phòng thủ đánh lừa đối phương trong hệ thống vật lý số và nhóm người–máy. Luận án khảo sát IoT, nhiệm vụ UAV và phối hợp người với robot mặt đất trước các mối đe dọa mạng.",
+          "url": "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff",
+          "doi": null,
+          "publication_url": "https://hdl.handle.net/10919/135538",
+          "publication_date": "2025-06-18",
+          "source_date": null,
+          "source_type": "institutional_repository_abstract",
+          "university_attribution": "VTechWorks ghi tác giả Zelin Wan, đơn vị xuất bản Virginia Tech và bộ sưu tập Doctoral Dissertations.",
+          "verification_note": "Đã đọc metadata và abstract trong kho trường; đây là luận án tiến sĩ, chưa đọc toàn văn PDF. Kho cung cấp Handle, không thấy DOI trong metadata đã đọc.",
+          "source_urls": [
+            "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "CYBERSECURITY",
+          "secondary_topic_codes": [
+            "AI_DATA",
+            "ROBOTICS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Texas A&M University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "tamu.edu",
+      "website": "https://www.tamu.edu/",
+      "research_portals": [
+        {
+          "title": "Texas A&M Engineering News",
+          "url": "https://news.engineering.tamu.edu/"
+        },
+        {
+          "title": "Texas A&M Stories",
+          "url": "https://stories.tamu.edu/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Organic dual-ion batteries with low-temperature operability and structural reinforcement",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng và công nghệ điện",
+            "Vật liệu, nano và công nghệ hóa học"
+          ],
+          "topic_codes": [
+            "ENERGY",
+            "MATERIALS"
+          ],
+          "summary_vi": "Kết hợp điện cực polymer hoạt tính oxy hóa-khử với chất điện phân chịu lạnh để pin vẫn hoạt động dưới nhiệt độ âm sâu. Sợi carbon đồng thời làm bộ thu dòng và gia cường cơ học, hướng tới pin vừa tích trữ điện vừa chịu lực.",
+          "url": "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/",
+          "doi": "10.1039/D5TA01626F",
+          "publication_url": "https://doi.org/10.1039/D5TA01626F",
+          "publication_date": null,
+          "source_date": "2026-02-11",
+          "source_type": "university_research_news",
+          "university_attribution": "Texas A&M xác nhận nhóm Jodie Lutkenhaus của College of Engineering thực hiện nghiên cứu.",
+          "verification_note": "Đã đọc bản tin trường và trích dẫn bài báo. Bài báo thuộc năm 2025; bản tin được đăng tháng 2/2026. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ENERGY",
+          "secondary_topic_codes": [
+            "MATERIALS"
+          ]
+        },
+        {
+          "title": "Graphene oxide synthesis at a nonthermal plasma-water interface",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "Vật liệu, nano và công nghệ hóa học",
+            "Năng lượng và công nghệ điện"
+          ],
+          "topic_codes": [
+            "MATERIALS",
+            "ENERGY"
+          ],
+          "summary_vi": "Tổng hợp graphene oxide trực tiếp từ methane tại bề mặt tiếp xúc plasma không nhiệt và nước, đồng thời tạo hydro. Công trình tìm hướng sản xuất vật liệu carbon có giá trị từ nguyên liệu khí, phục vụ nghiên cứu pin, điện tử và chế tạo.",
+          "url": "https://news.engineering.tamu.edu/news/2026/07/03/unexpected-discovery-yields-new-graphene-oxide-production-method/",
+          "doi": "10.1038/s41467-026-69831-0",
+          "publication_url": "https://doi.org/10.1038/s41467-026-69831-0",
+          "publication_date": "2026-02-19",
+          "source_date": "2026-07-03",
+          "source_type": "university_research_news_and_publisher_metadata",
+          "university_attribution": "Texas A&M Engineering xác nhận nghiên cứu của nhóm David Staack, Micah Green và các cộng sự công nghiệp.",
+          "verification_note": "Đã đọc bản tin trường và kiểm tra tên bài, DOI, ngày công bố qua metadata nhà xuất bản/Crossmark. Chưa đọc toàn văn; không tự suy ra cân bằng phát thải vòng đời.",
+          "source_urls": [
+            "https://news.engineering.tamu.edu/news/2026/07/03/unexpected-discovery-yields-new-graphene-oxide-production-method/",
+            "https://www.nature.com/articles/s41467-026-69831-0",
+            "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41467-026-69831-0"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "MATERIALS",
+          "secondary_topic_codes": [
+            "ENERGY"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stevens Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "stevens.edu",
+      "website": "https://www.stevens.edu/",
+      "research_portals": [
+        {
+          "title": "Stevens Research Portal",
+          "url": "https://researchwith.stevens.edu/en/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Probing Curved Spacetime with a Distributed Atomic Processor Clock",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Khoa học nền tảng phục vụ công nghệ",
+            "Điện tử, bán dẫn, viễn thông và IoT"
+          ],
+          "topic_codes": [
+            "BASIC_SCIENCE",
+            "ELECTRONICS_TELECOM"
+          ],
+          "summary_vi": "Đề xuất mạng đồng hồ nguyên tử liên kết lượng tử đặt ở các độ cao khác nhau để kiểm tra tương tác giữa lý thuyết lượng tử và độ cong không-thời gian. Đây là thiết kế thí nghiệm và phân tích lý thuyết sử dụng công nghệ mạng lượng tử.",
+          "url": "https://researchwith.stevens.edu/en/publications/probing-curved-spacetime-with-a-distributed-atomic-processor-cloc/",
+          "doi": "10.1103/q188-b1cr",
+          "publication_url": "https://doi.org/10.1103/q188-b1cr",
+          "publication_date": "2025-07-21",
+          "source_date": null,
+          "source_type": "institutional_publication_abstract_and_publisher_abstract",
+          "university_attribution": "Kho công bố Stevens và PRX Quantum ghi Igor Pikovski thuộc Department of Physics, Stevens Institute of Technology.",
+          "verification_note": "Đã đọc metadata/abstract và bản tin Stevens; chưa đọc toàn bộ bài. Phương án mới được đề xuất, không trình bày như thí nghiệm đã hoàn tất.",
+          "source_urls": [
+            "https://researchwith.stevens.edu/en/publications/probing-curved-spacetime-with-a-distributed-atomic-processor-cloc/",
+            "https://journals.aps.org/prxquantum/abstract/10.1103/q188-b1cr",
+            "https://www.stevens.edu/news/quantum-internet-meets-space-time-in-this-new-ingenious-idea"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "BASIC_SCIENCE",
+          "secondary_topic_codes": [
+            "ELECTRONICS_TELECOM"
+          ]
+        },
+        {
+          "title": "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI, học máy và dữ liệu",
+            "Điện tử, bán dẫn, viễn thông và IoT"
+          ],
+          "topic_codes": [
+            "AI_DATA",
+            "ELECTRONICS_TELECOM"
+          ],
+          "summary_vi": "Học biểu diễn chuỗi thời gian cảm biến bằng quan hệ đồng xuất hiện theo thời gian để giảm nhu cầu dữ liệu có nhãn. Khung TCLHAR kết hợp thông tin nhiều loại cảm biến và được đánh giá trên các tập dữ liệu nhận dạng hoạt động người.",
+          "url": "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/",
+          "doi": "10.1109/JSEN.2024.3491933",
+          "publication_url": "https://doi.org/10.1109/JSEN.2024.3491933",
+          "publication_date": null,
+          "source_date": null,
+          "source_type": "institutional_publication_abstract",
+          "university_attribution": "Stevens Research Portal gắn công bố với Hao Wang và Department of Electrical and Computer Engineering; đồng thời ghi đối tác Louisiana State University.",
+          "verification_note": "Đã đọc metadata và abstract trong cổng nghiên cứu Stevens. Năm tạp chí là 2025 mặc dù DOI chứa 2024; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "AI_DATA",
+          "secondary_topic_codes": [
+            "ELECTRONICS_TELECOM"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Illinois Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "iit.edu",
+      "website": "https://www.iit.edu/",
+      "research_portals": [
+        {
+          "title": "Illinois Tech — nghiên cứu",
+          "url": "https://www.iit.edu/research"
+        },
+        {
+          "title": "Illinois Tech — tin chính thức",
+          "url": "https://www.iit.edu/news"
+        }
+      ],
+      "items": [
+        {
+          "title": "STRIFE: A Socio-Technical Framework for Threat Modeling of Artificial Intelligence Systems",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA"
+          ],
+          "summary_vi": "Khung mô hình hóa mối đe dọa AI kết hợp góc nhìn kỹ thuật, đạo đức và pháp lý. Công trình xem xét rủi ro phát sinh trong toàn bộ vòng đời hệ thống và mối liên hệ với bối cảnh con người, tổ chức và xã hội.",
+          "url": "https://www.iit.edu/news/researchers-introduce-socio-technical-approach-ai-threat-modeling",
+          "doi": "10.4018/IJIIT.370967",
+          "publication_url": "https://doi.org/10.4018/IJIIT.370967",
+          "publication_date": null,
+          "source_date": "2025-10-29",
+          "source_type": "university_research_news_and_publisher_metadata",
+          "university_attribution": "Illinois Tech xác nhận hai đồng tác giả Anuradha/Ann Rangarajan và Saran Ghatak; metadata của nhà xuất bản ghi affiliation Illinois Institute of Technology.",
+          "verification_note": "Đã đọc bản tin trường và thông tin đầu bài/abstract được lập chỉ mục của nhà xuất bản. Chưa đọc toàn văn; bản tin không phải chính bài nghiên cứu.",
+          "source_urls": [
+            "https://www.iit.edu/news/researchers-introduce-socio-technical-approach-ai-threat-modeling",
+            "https://www.igi-global.com/viewtitle.aspx?titleid=370967"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "CYBERSECURITY",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ]
+        },
+        {
+          "title": "Anion sublattice design enables superionic conductivity in crystalline oxyhalides",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng và công nghệ điện",
+            "Vật liệu, nano và công nghệ hóa học"
+          ],
+          "topic_codes": [
+            "ENERGY",
+            "MATERIALS"
+          ],
+          "summary_vi": "Thiết kế mạng anion hỗn hợp cho chất điện phân rắn oxyhalide giúp ion lithium di chuyển qua các kênh trong tinh thể. Nghiên cứu vật liệu lithium tantalum oxychloride nhằm cải thiện pin thể rắn, bao gồm khả năng hoạt động ở nhiệt độ thấp.",
+          "url": "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+          "doi": "10.1126/science.adt9678",
+          "publication_url": "https://doi.org/10.1126/science.adt9678",
+          "publication_date": "2025-10-09",
+          "source_date": "2026-01-05",
+          "source_type": "university_research_news",
+          "university_attribution": "Illinois Tech mô tả đóng góp xác định vị trí lithium của James Kaduk trong nhóm hợp tác quốc tế; đây không phải công trình chỉ của một trường.",
+          "verification_note": "Đã đọc bản tin trường, kiểm tra liên kết DOI và metadata Science. Bài báo xuất bản năm 2025, bản tin trường ngày 05/01/2026; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+            "https://www.science.org/doi/10.1126/science.adt9678"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "classification_method": "Phân loại thủ công theo nội dung tóm tắt đã đọc; một công trình có thể thuộc nhiều nhóm.",
+          "primary_topic_code": "ENERGY",
+          "secondary_topic_codes": [
+            "MATERIALS"
+          ]
+        }
+      ]
+    }
+  ]
+}

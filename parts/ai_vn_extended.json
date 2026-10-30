@@ -1,0 +1,911 @@
+{
+  "retrieved_at": "2026-10-30",
+  "scope_vi": "Mẫu công trình AI có chứng cứ của 8 trường; không phải toàn bộ sản lượng nghiên cứu hoặc xếp hạng. Tìm mới trên nguồn chính thức và giữ lại các mục AI phù hợp từ bộ dữ liệu trước.",
+  "schools": [
+    {
+      "short_name": "VLUTE",
+      "name": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "domain": "vlute.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://qlkh.vlute.edu.vn/",
+          "title": "Cơ sở dữ liệu khoa học công nghệ VLUTE"
+        },
+        {
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi",
+          "title": "Tạp chí Khoa học VLUTE"
+        }
+      ],
+      "items": [
+        {
+          "title": "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Khac Tuong Nguyen",
+            "Anh Cang Phan"
+          ],
+          "school_attribution": "Đồng tác giả Phan Anh Cang được trang VLUTE ngày 07/04/2026 xác nhận là Phó Hiệu trưởng, Trưởng Khoa CNTT; bài tạp chí có tên tác giả tương ứng và email thuộc trường. Chưa thấy dòng affiliation trong PDF.",
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323",
+          "doi": "10.64215/sr6dr289",
+          "summary_vi": "XAI-NET kết hợp các kiến trúc học sâu và SHAP/LIME để phân tích ảnh MRI trong bài toán nhận diện Alzheimer; đánh giá trên dữ liệu ADNI.",
+          "problem_vi": "Nhận diện Alzheimer từ MRI và giải thích những đặc trưng ảnh ảnh hưởng đến dự đoán.",
+          "ai_method_vi": "XAI-NET dùng EfficientNet_V2, MobileNet_V2 và Xception; SHAP/LIME giải thích dự đoán.",
+          "ai_methods": [
+            "CNN",
+            "XAI-NET",
+            "SHAP",
+            "LIME"
+          ],
+          "application_domains": [
+            "Y tế",
+            "Ảnh MRI",
+            "Alzheimer"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "HEALTH_BIOAI",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đọc lại abstract và metadata HTML 30/10/2026; thêm nguồn trường xác nhận vai trò của đồng tác giả. Không thấy liên kết PDF tải được; chưa đọc toàn văn hoặc đánh giá hiệu quả lâm sàng.",
+          "source_urls": [
+            "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323",
+            "https://vlute.edu.vn/le-xuat-quan-tham-du-ky-thi-olympic-toan-hoc-sinh-vien-va-hoc-sin?language=vi"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T023",
+          "published_date": "2026-09-29"
+        },
+        {
+          "title": "BLOOD CELL DETECTION AND CLASSIFICATION USING FASTER R-CNN, RETINANET, AND YOLOv12",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Quyen Nguyen Ngoc Hoang",
+            "Cang Phan Anh"
+          ],
+          "school_attribution": "Đồng tác giả Phan Anh Cang được trang VLUTE ngày 07/04/2026 xác nhận là Phó Hiệu trưởng, Trưởng Khoa CNTT; bài tạp chí có tên tác giả tương ứng và email thuộc trường. Chưa thấy dòng affiliation trong PDF.",
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/326",
+          "doi": "10.64215/7cxagb47",
+          "summary_vi": "So sánh ba mô hình phát hiện vật thể để nhận diện 13 loại tế bào máu ngoại vi trong ảnh kính hiển vi.",
+          "problem_vi": "Tự động khoanh vùng và phân biệt 13 loại tế bào máu trong ảnh kính hiển vi.",
+          "ai_method_vi": "So sánh bộ phát hiện vật thể Faster R-CNN, RetinaNet và YOLOv12.",
+          "ai_methods": [
+            "Faster R-CNN",
+            "RetinaNet",
+            "YOLOv12"
+          ],
+          "application_domains": [
+            "Y tế",
+            "Huyết học",
+            "Ảnh kính hiển vi"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "HEALTH_BIOAI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đọc lại abstract và metadata; email tác giả liên hệ cangpa@vlute.edu.vn và nguồn trường xác nhận Phan Anh Cang. Tên tác giả giữ theo metadata hiện tại; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/326",
+            "https://vlute.edu.vn/le-xuat-quan-tham-du-ky-thi-olympic-toan-hoc-sinh-vien-va-hoc-sin?language=vi"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T024",
+          "published_date": "2026-09-29"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ. Bổ sung nguồn trường xác nhận vai trò Phan Anh Cang để củng cố quan hệ tác giả–trường; chưa có dòng affiliation PDF.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "MTA",
+      "name": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+      "domain": "mta.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://jst.lqdtu.edu.vn/index.php/jst",
+          "title": "Journal of Science and Technique"
+        },
+        {
+          "url": "https://sdh.mta.edu.vn/",
+          "title": "Cổng thông tin sau đại học và nghiên cứu"
+        }
+      ],
+      "items": [
+        {
+          "title": "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Tran The Hung"
+          ],
+          "school_attribution": "Trang nhà xuất bản ghi Tran The Hung thuộc Faculty of Aerospace Engineering, Le Quy Don Technical University (MTA).",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909",
+          "doi": "10.47869/tcsj.76.1.3",
+          "summary_vi": "Dùng mạng U-Net cải tiến để dự báo trường áp suất và vận tốc quanh cánh máy bay và mô hình vật thể đáy tù.",
+          "problem_vi": "Dự đoán trường áp suất và vận tốc quanh cánh máy bay/vật thể đáy tù bằng mô hình học từ dữ liệu.",
+          "ai_method_vi": "Mạng tích chập U-Net cải tiến để tái tạo trường dòng chảy.",
+          "ai_methods": [
+            "CNN",
+            "U-Net"
+          ],
+          "application_domains": [
+            "Hàng không",
+            "Cơ học chất lưu",
+            "Mô phỏng kỹ thuật"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Trang của nhà xuất bản ghi rõ tác giả Tran The Hung thuộc Faculty of Aerospace Engineering, Le Quy Don Technical University. Chỉ đọc metadata/abstract. Tạp chí do UTC xuất bản nhưng bài này thuộc MTA theo affiliation.",
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T026",
+          "published_date": "2025-01-15"
+        },
+        {
+          "title": "Ứng dụng viễn thám và kỹ thuật học máy trong dự báo nguy cơ hạn hán, thử nghiệm tại tỉnh Quảng Trị",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Trần Thị Thu Trang",
+            "Trịnh Lê Hùng",
+            "Đỗ Thị Phương Thảo",
+            "Nguyễn Mai Hà",
+            "Lê Văn Phú"
+          ],
+          "school_attribution": "Trang nhà xuất bản ghi Trịnh Lê Hùng và Lê Văn Phú thuộc Đại học Lê Quý Đôn (MTA); ba tác giả còn lại thuộc HUMG.",
+          "url": "https://tapchi.humg.edu.vn/vi/archives?article=1670",
+          "doi": "10.46326/JMES.2025.66(5).02",
+          "summary_vi": "Tích hợp ảnh Landsat/Sentinel-2 và chỉ số viễn thám để phân loại, lập bản đồ nguy cơ hạn hán tại Quảng Trị.",
+          "problem_vi": "Phân biệt năm mức hạn hán từ dữ liệu vệ tinh và so sánh các bộ phân loại.",
+          "ai_method_vi": "Random Forest, SVM và Gradient Tree Boosting trên dữ liệu/chỉ số ảnh xử lý trong Google Earth Engine.",
+          "ai_methods": [
+            "Random Forest",
+            "SVM",
+            "Gradient Tree Boosting"
+          ],
+          "application_domains": [
+            "Viễn thám",
+            "Hạn hán",
+            "Môi trường"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "FORECAST_RECOMMEND"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract, danh sách tác giả, affiliation, DOI và ngày đăng 01/10/2025. Trường ngày nhận bài bị lỗi trên website, không dùng trường đó. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://tapchi.humg.edu.vn/vi/archives?article=1670"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2025-10-01",
+          "origin": "new_targeted_search",
+          "collaborating_universities": [
+            "HUMG",
+            "MTA"
+          ]
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "KMA",
+      "name": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+      "domain": "actvn.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://actvn.edu.vn/",
+          "title": "Cổng thông tin Học viện — Nghiên cứu"
+        },
+        {
+          "url": "https://thuvien.actvn.edu.vn/",
+          "title": "Thư viện và danh mục luận án, đồ án"
+        }
+      ],
+      "items": [
+        {
+          "title": "NGHIÊN CỨU NÂNG CAO HIỆU QUẢ PHÁT HIỆN MÃ ĐỘC IOT DỰA TRÊN HỌC MÁY SỬ DỤNG CÁC ĐẶC TRƯNG CỦA TẬP TIN THỰC THI",
+          "year": 2024,
+          "type": "doctoral_thesis",
+          "status": "public_thesis_pdf_defense_status_not_checked",
+          "authors": [
+            "Nguyễn Ngọc Toàn"
+          ],
+          "school_attribution": "Trang tên PDF ghi Học viện Kỹ thuật Mật mã, luận án tiến sĩ ngành An toàn thông tin, Nguyễn Ngọc Toàn, Hà Nội 2024.",
+          "url": "https://actvn.edu.vn/Images/Uploadfiles/Lu%E1%BA%ADn%20%C3%A1n%20ch%C3%ADnh%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20To%C3%A0n-12-12-2024.pdf",
+          "doi": null,
+          "summary_vi": "Phát triển mô hình phát hiện mã độc trên thiết bị IoT từ đặc trưng tập tin thực thi, xét nhiều kiến trúc vi xử lý và giới hạn tài nguyên.",
+          "problem_vi": "Giảm chi phí thu thập đặc trưng và kích thước mô hình trong khi phát hiện mã độc trên một hoặc nhiều kiến trúc CPU.",
+          "ai_method_vi": "Biểu diễn đặc trưng chuỗi lời gọi hệ thống/opcode; thử nghiệm SVM, Random Forest, Naive Bayes và ánh xạ không gian biểu diễn giữa kiến trúc.",
+          "ai_methods": [
+            "Học máy có giám sát",
+            "SVM",
+            "Random Forest",
+            "Naive Bayes",
+            "Biểu diễn đặc trưng"
+          ],
+          "application_domains": [
+            "An ninh mạng",
+            "Mã độc IoT",
+            "Thiết bị tài nguyên hạn chế"
+          ],
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY",
+            "EDGE_SYSTEMS"
+          ],
+          "reading_depth": "pdf_selected_sections",
+          "verification_note": "Đã kiểm tra trang tên, mục tiêu/phạm vi, mô tả thử nghiệm và một số đoạn kết luận của PDF 157 trang. Không tuyên bố đọc toàn bộ hoặc xác nhận ngày bảo vệ.",
+          "source_urls": [
+            "https://actvn.edu.vn/Images/Uploadfiles/Lu%E1%BA%ADn%20%C3%A1n%20ch%C3%ADnh%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20To%C3%A0n-12-12-2024.pdf"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "new_targeted_search"
+        },
+        {
+          "title": "Nghiên cứu xây dựng công cụ kiểm tra an toàn cho mã nguồn sinh bởi LLM",
+          "year": 2025,
+          "type": "student_graduation_project",
+          "status": "student_project_catalogued",
+          "authors": [
+            "Lê Đức Thắng"
+          ],
+          "school_attribution": "Danh mục Tài liệu mới của thư viện KMA ghi tác giả Lê Đức Thắng, hướng dẫn Hà Thị Thanh, Học viện Kỹ thuật Mật mã, 2025.",
+          "url": "https://thuvien.actvn.edu.vn/",
+          "doi": null,
+          "summary_vi": "Đồ án AT18 hướng tới kiểm tra bảo mật mã do mô hình ngôn ngữ lớn sinh ra.",
+          "problem_vi": "Kiểm tra vấn đề bảo mật của mã nguồn được mô hình ngôn ngữ lớn sinh ra.",
+          "ai_method_vi": "Nguồn thư viện chỉ nêu công cụ kiểm tra mã sinh bởi LLM; chưa xác định thuật toán kiểm tra hoặc mô hình LLM cụ thể.",
+          "ai_methods": [
+            "LLM-generated-code evaluation; phương pháp kiểm tra chưa công bố trong metadata"
+          ],
+          "application_domains": [
+            "An toàn phần mềm",
+            "Đồ án sinh viên"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "reading_depth": "catalogue_metadata_only",
+          "verification_note": "Được ghi trong danh mục Tài liệu mới của thư viện: tác giả Lê Đức Thắng, Hà Thị Thanh hướng dẫn, Học viện KTMM, 2025. Trang chi tiết dmd_id=11172 trả 404 khi kiểm tra; phân loại dựa trên metadata/tên đồ án, chưa đọc nội dung hay xác nhận kết quả.",
+          "source_urls": [
+            "https://thuvien.actvn.edu.vn/"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T029",
+          "catalogue_detail_url": "https://thuvien.actvn.edu.vn/Opac/DmdInfo.aspx?dmd_id=11172"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ. Hai mục gồm luận án ML và đồ án kiểm tra mã LLM. Chưa xác định thuật toán kiểm tra của đồ án; không khẳng định công cụ đó dùng AI bên trong.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "UTC",
+      "name": "Trường Đại học Giao thông vận tải (UTC)",
+      "domain": "utc.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://tcsj.utc.edu.vn/",
+          "title": "Tạp chí Khoa học Giao thông vận tải"
+        },
+        {
+          "url": "https://khcn.utc.edu.vn/",
+          "title": "Cổng Khoa học công nghệ"
+        },
+        {
+          "title": "TCSJ: công trình AI phải kiểm tra affiliation",
+          "url": "https://tcsj.utc.edu.vn/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Self-supervised deep learning for gnss time series imputation: a comparative study of neural network architectures",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Le Khanh Giang",
+            "Tran Duc Cong",
+            "Ho Thi Lan Huong"
+          ],
+          "school_attribution": "Cả ba tác giả được trang bài báo ghi thuộc University of Transport and Communications.",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2759",
+          "doi": "10.47869/tcsj.77.1.10",
+          "summary_vi": "Học tự giám sát bằng che đoạn dữ liệu để khôi phục khoảng thiếu trong chuỗi dịch chuyển GNSS của cầu Cần Thơ.",
+          "problem_vi": "Điền các đoạn thiếu liên tục trong dữ liệu quan trắc cầu không có nhãn.",
+          "ai_method_vi": "So sánh ANN, CNN, GRU và LSTM trong quy trình che đoạn liên tục, cửa sổ trượt và chuẩn hóa tín hiệu.",
+          "ai_methods": [
+            "Self-supervised learning",
+            "Span masking",
+            "ANN",
+            "CNN",
+            "GRU",
+            "LSTM"
+          ],
+          "application_domains": [
+            "Quan trắc cầu",
+            "Dữ liệu GNSS",
+            "Kết cấu công trình"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract, affiliation và metadata. Thử nghiệm dùng dữ liệu lấy mẫu 10 phút trong một năm; không suy ra hiệu quả triển khai cho mọi cầu.",
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2759"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2026-01-15",
+          "origin": "new_targeted_search"
+        },
+        {
+          "title": "Nghiên cứu ứng dụng thuật toán phân cụm không giám sát trong phân tích dữ liệu GNSS-RTK phục vụ quan trắc cầu dây văng",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Trần Đức Công",
+            "Hồ Thị Lan Hương",
+            "Lê Khánh Giang",
+            "Lê Văn Hiến"
+          ],
+          "school_attribution": "Cả bốn tác giả được trang bài báo ghi thuộc Trường Đại học Giao thông vận tải.",
+          "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2613",
+          "doi": "10.47869/tcsj.76.8.8",
+          "summary_vi": "Phân cụm chuỗi dịch chuyển đứng GNSS-RTK tại cầu Nhật Tân để phân biệt trạng thái quan trắc.",
+          "problem_vi": "Phân tích dữ liệu có nhiễu, ngoại lai và thiếu nhãn nhằm hỗ trợ nhận biết trạng thái bất thường của cầu.",
+          "ai_method_vi": "Phân cụm phân cấp HAC và mô hình hỗn hợp Gaussian GMM; tiền xử lý Hampel, nội suy, phân đoạn, chuẩn hóa và đánh giá Silhouette.",
+          "ai_methods": [
+            "Unsupervised learning",
+            "HAC",
+            "Gaussian Mixture Model"
+          ],
+          "application_domains": [
+            "Quan trắc cầu",
+            "GNSS-RTK",
+            "Bảo trì công trình"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract, affiliation và ngày xuất bản; không đồng nhất hai cụm quan trắc với chẩn đoán hư hỏng đã xác nhận độc lập.",
+          "source_urls": [
+            "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2613"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2025-10-15",
+          "origin": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "HUMG",
+      "name": "Trường Đại học Mỏ - Địa chất (HUMG)",
+      "domain": "humg.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://humg.edu.vn/tin-tuc/Pages/khoa-hoc-cong-nghe.aspx",
+          "title": "Tin và kết quả khoa học công nghệ"
+        },
+        {
+          "url": "https://qlkh.humg.edu.vn/",
+          "title": "Quản lý khoa học công nghệ"
+        },
+        {
+          "title": "Tạp chí KHKT Mỏ–Địa chất: kiểm tra affiliation từng bài",
+          "url": "https://tapchi.humg.edu.vn/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Ứng dụng viễn thám và kỹ thuật học máy trong dự báo nguy cơ hạn hán, thử nghiệm tại tỉnh Quảng Trị",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Trần Thị Thu Trang",
+            "Trịnh Lê Hùng",
+            "Đỗ Thị Phương Thảo",
+            "Nguyễn Mai Hà",
+            "Lê Văn Phú"
+          ],
+          "school_attribution": "Trang nhà xuất bản ghi Trần Thị Thu Trang, Đỗ Thị Phương Thảo, Nguyễn Mai Hà thuộc HUMG; hai đồng tác giả thuộc MTA.",
+          "url": "https://tapchi.humg.edu.vn/vi/archives?article=1670",
+          "doi": "10.46326/JMES.2025.66(5).02",
+          "summary_vi": "Tích hợp ảnh Landsat/Sentinel-2 và chỉ số viễn thám để phân loại, lập bản đồ nguy cơ hạn hán tại Quảng Trị.",
+          "problem_vi": "Phân biệt năm mức hạn hán từ dữ liệu vệ tinh và so sánh các bộ phân loại.",
+          "ai_method_vi": "Random Forest, SVM và Gradient Tree Boosting trên dữ liệu/chỉ số ảnh xử lý trong Google Earth Engine.",
+          "ai_methods": [
+            "Random Forest",
+            "SVM",
+            "Gradient Tree Boosting"
+          ],
+          "application_domains": [
+            "Viễn thám",
+            "Hạn hán",
+            "Môi trường"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "FORECAST_RECOMMEND"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract, danh sách tác giả, affiliation, DOI và ngày đăng 01/10/2025. Trường ngày nhận bài bị lỗi trên website, không dùng trường đó. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://tapchi.humg.edu.vn/vi/archives?article=1670"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2025-10-01",
+          "origin": "new_targeted_search",
+          "collaborating_universities": [
+            "HUMG",
+            "MTA"
+          ]
+        },
+        {
+          "title": "Nghiên cứu ứng dụng mô hình LSMT (Long Short-Term Memory) dự báo thủy triều: trường hợp nghiên cứu tại trạm đo mực nước Bà Rịa - Vũng Tàu, Việt Nam",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Huỳnh Nguyễn Định Quốc",
+            "Nguyễn Gia Trọng"
+          ],
+          "school_attribution": "Nguyễn Gia Trọng được ghi thuộc Khoa Trắc địa–Bản đồ và Quản lý đất đai, cùng nhóm Trắc địa cao cấp–môi trường của HUMG.",
+          "url": "https://tapchi.humg.edu.vn/vi/archives?article=1677",
+          "doi": "10.46326/JMES.2025.66(5).09",
+          "summary_vi": "Dự báo mực nước thủy triều tại Bà Rịa–Vũng Tàu từ chuỗi quan trắc bằng mạng LSTM.",
+          "problem_vi": "Khai thác phụ thuộc thời gian để dự báo mực nước từ dữ liệu đơn biến.",
+          "ai_method_vi": "LSTM với loại ngoại lai IQR, chuẩn hóa Min-Max và dự báo cuốn trượt; huấn luyện 1999–2021, kiểm thử 2022.",
+          "ai_methods": [
+            "LSTM",
+            "Recursive forecasting"
+          ],
+          "application_domains": [
+            "Thủy triều",
+            "Dự báo môi trường",
+            "Quan trắc ven biển"
+          ],
+          "ai_topic_codes": [
+            "FORECAST_RECOMMEND",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Giữ nguyên lỗi chữ LSMT trong tên bài; thuật toán mô tả trong abstract là LSTM. Đã đọc affiliation và abstract; nguồn nêu chưa tích hợp gió, áp suất hoặc sóng biển.",
+          "source_urls": [
+            "https://tapchi.humg.edu.vn/vi/archives?article=1677"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2025-10-01",
+          "origin": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "HUCE",
+      "name": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+      "domain": "huce.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://khcn.huce.edu.vn/",
+          "title": "Phòng Khoa học công nghệ"
+        },
+        {
+          "url": "https://fit.huce.edu.vn/danh-muc-ca",
+          "title": "Danh mục công trình khoa học Khoa CNTT 2025–2026"
+        }
+      ],
+      "items": [
+        {
+          "title": "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Nguyen Tuan Anh",
+            "Le Van Dong",
+            "Dao Viet Cuong",
+            "Nguyen Dinh Nghia",
+            "Tran Quang Duc"
+          ],
+          "school_attribution": "Danh mục công trình Khoa CNTT HUCE ghi Đào Việt Cường là tác giả thuộc khoa; đã đọc abstract trên trang nhà xuất bản.",
+          "url": "https://isj.vn/index.php/journal_STIS/article/view/1137",
+          "doi": "10.54654/isj.v3i26.1137",
+          "summary_vi": "Đề xuất mô phỏng mạng ICS dùng SDN và mô hình học tổ hợp kết hợp LSTM để phát hiện tấn công xen giữa.",
+          "problem_vi": "Phát hiện tấn công xen giữa trong mạng điều khiển công nghiệp.",
+          "ai_method_vi": "Học tổ hợp kết hợp LSTM trên mô phỏng ICS dùng SDN.",
+          "ai_methods": [
+            "LSTM",
+            "Hybrid ensemble learning"
+          ],
+          "application_domains": [
+            "An ninh mạng",
+            "Điều khiển công nghiệp",
+            "ICS/SDN"
+          ],
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract của nhà xuất bản; HUCE xác nhận Đào Việt Cường là tác giả của khoa trong danh mục công trình. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://isj.vn/index.php/journal_STIS/article/view/1137",
+            "https://fit.huce.edu.vn/danh-muc-ca"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T033",
+          "published_date": "2025-12-31"
+        },
+        {
+          "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Anh Tuan Giang",
+            "Nhat Quang Doan",
+            "Minh Duong Tran",
+            "Khanh Dung Tran",
+            "Hoang Ha Nguyen",
+            "Anthony Busson"
+          ],
+          "school_attribution": "Bản tác giả của nhà xuất bản ghi Trần Khánh Dung thuộc HUCE; có đồng tác giả USTH và Lyon.",
+          "url": "https://www.nature.com/articles/s41598-026-48743-5",
+          "doi": "10.1038/s41598-026-48743-5",
+          "summary_vi": "Kết hợp thông tin hình ảnh và ngữ nghĩa để phân biệt không cháy, lửa được kiểm soát và cháy nguy hiểm trong nhà.",
+          "problem_vi": "Phân biệt không cháy, lửa có kiểm soát và cháy nguy hiểm trong nhà theo ngữ cảnh.",
+          "ai_method_vi": "Mô hình ngôn ngữ–thị giác gọn kết hợp thông tin hình ảnh và ngữ nghĩa.",
+          "ai_methods": [
+            "Vision-language models",
+            "Multimodal classification"
+          ],
+          "application_domains": [
+            "Phát hiện cháy",
+            "An toàn công trình"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract và xác nhận Trần Khánh Dung thuộc HUCE trong bản tác giả của nhà xuất bản; đồng tác giả từ USTH và Lyon. Chưa đọc toàn văn.",
+          "source_urls": [
+            "https://www.nature.com/articles/s41598-026-48743-5",
+            "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+            "https://fit.huce.edu.vn/danh-muc-ca"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T034",
+          "published_date": "2026-04-14",
+          "collaborating_universities": [
+            "USTH",
+            "University Lyon 1 / ENS de Lyon"
+          ]
+        },
+        {
+          "title": "Tích hợp mô hình ngôn ngữ lớn tại chỗ (LLM on‑premises) với Autodesk Revit thông qua giao thức ngữ cảnh mô hình (Model Context Protocol)",
+          "year": 2026,
+          "type": "institutional_research_project",
+          "status": "approved_project",
+          "authors": [
+            "Nguyễn Thị Hải Như"
+          ],
+          "school_attribution": "Khoa CNTT HUCE liệt kê chủ nhiệm và mã 52-2026/KHXD-TĐ trong danh mục đề tài được phê duyệt năm 2025–2026.",
+          "url": "https://fit.huce.edu.vn/danh-muc-ca",
+          "doi": null,
+          "summary_vi": "Đề tài tích hợp LLM chạy tại chỗ với phần mềm Revit thông qua MCP.",
+          "problem_vi": "Kết nối mô hình ngôn ngữ với công cụ thiết kế BIM trong môi trường triển khai tại chỗ.",
+          "ai_method_vi": "LLM on-premises và Model Context Protocol; danh mục chưa nêu mô hình nền, bộ dữ liệu hoặc cách đánh giá.",
+          "ai_methods": [
+            "LLM",
+            "Model Context Protocol",
+            "Tool integration"
+          ],
+          "application_domains": [
+            "BIM",
+            "Thiết kế xây dựng",
+            "Phần mềm kỹ thuật"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "project_registry_metadata",
+          "verification_note": "Đây là đề tài được phê duyệt, không phải bài báo hay kết quả hoàn thành. Chỉ đọc tên, chủ nhiệm và mã số trong danh mục chính thức.",
+          "source_urls": [
+            "https://fit.huce.edu.vn/danh-muc-ca"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "project_id": "52-2026/KHXD-TĐ",
+          "origin": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "FPT",
+      "name": "Trường Đại học FPT",
+      "domain": "daihoc.fpt.edu.vn",
+      "ai_portals": [
+        {
+          "url": "https://science.fpt.edu.vn/",
+          "title": "Cổng khoa học Tổ chức Giáo dục FPT"
+        },
+        {
+          "url": "https://daihoc.fpt.edu.vn/nghien-cuu-doi-moi/",
+          "title": "Nghiên cứu và Đổi mới của Đại học FPT"
+        }
+      ],
+      "items": [
+        {
+          "title": "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+          "year": 2025,
+          "type": "institutional_research_project",
+          "status": "ongoing_as_reported_2025_09_22",
+          "authors": [
+            "Nguyễn Thị Cẩm Hương"
+          ],
+          "school_attribution": "Danh mục chính thức Tổ chức Giáo dục FPT ghi mã DHFPT/2025/3, chủ nhiệm Nguyễn Thị Cẩm Hương và Đại học FPT trong tên đề tài.",
+          "url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025",
+          "doi": null,
+          "summary_vi": "Đề tài xây dựng mô hình AI và ứng dụng web hỗ trợ trải nghiệm học tập cá nhân.",
+          "problem_vi": "Cá nhân hóa trải nghiệm học tập dựa trên dữ liệu và mô hình AI.",
+          "ai_method_vi": "AI/học máy và ứng dụng web; danh mục chưa chỉ rõ thuật toán hoặc dữ liệu.",
+          "ai_methods": [
+            "Machine learning; thuật toán chưa nêu"
+          ],
+          "application_domains": [
+            "Công nghệ giáo dục",
+            "Học tập cá nhân hóa"
+          ],
+          "ai_topic_codes": [
+            "FORECAST_RECOMMEND"
+          ],
+          "reading_depth": "project_registry_metadata",
+          "verification_note": "Danh mục chính thức đăng 22/09/2025 ghi Đang thực hiện; sản phẩm là mục tiêu kê khai, chưa được coi là kết quả hoàn tất.",
+          "source_urls": [
+            "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T035",
+          "project_id": "DHFPT/2025/3",
+          "status_as_reported": "Đang thực hiện",
+          "principal_investigator": "Nguyễn Thị Cẩm Hương"
+        },
+        {
+          "title": "Nghiên cứu phát triển mô hình Transformer sử dụng WiFi Fingerprinting cho định vị trong nhà",
+          "year": 2025,
+          "type": "institutional_research_project",
+          "status": "ongoing_as_reported_2025_09_22",
+          "authors": [
+            "Lê Anh Ngọc"
+          ],
+          "school_attribution": "Danh mục chính thức FPT ghi đề tài cấp trường DHFPT/2025/22, chủ nhiệm Lê Anh Ngọc. Thuộc danh mục Tổ chức Giáo dục FPT; chưa đối chiếu quyết định hoặc cơ sở triển khai cụ thể.",
+          "url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025",
+          "doi": null,
+          "summary_vi": "Áp dụng Transformer cho bài toán định vị bằng dấu vân tay tín hiệu WiFi.",
+          "problem_vi": "Ước lượng vị trí trong nhà từ đặc trưng tín hiệu WiFi.",
+          "ai_method_vi": "Transformer sử dụng WiFi fingerprinting; chưa có kiến trúc hoặc kết quả chi tiết trong nguồn.",
+          "ai_methods": [
+            "Transformer",
+            "WiFi fingerprinting"
+          ],
+          "application_domains": [
+            "Định vị trong nhà",
+            "Mạng không dây"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "reading_depth": "project_registry_metadata",
+          "verification_note": "Danh mục chính thức đăng 22/09/2025 ghi Đang thực hiện; chỉ đọc metadata đề tài, chưa có abstract hay kết quả độc lập được kiểm tra.",
+          "source_urls": [
+            "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "retained_and_reassessed",
+          "previous_record_id": "T036",
+          "project_id": "DHFPT/2025/22",
+          "status_as_reported": "Đang thực hiện",
+          "principal_investigator": "Lê Anh Ngọc"
+        },
+        {
+          "title": "Apply a CNN-Based Ensemble Model to Chest-X Ray Image-Based Pneumonia Classification",
+          "year": 2024,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Ngoc Ha Pham",
+            "Giang Son Tran"
+          ],
+          "school_attribution": "Nhà xuất bản ghi Ngoc Ha Pham đồng thời thuộc ICT Laboratory USTH và Information and Communication Technology Department, FPT University.",
+          "url": "https://www.jait.us/show-246-1597-1.html",
+          "doi": "10.12720/jait.15.11.1205-1214",
+          "summary_vi": "Kết hợp ba mạng CNN để phân loại ảnh X-quang ngực có hoặc không có viêm phổi.",
+          "problem_vi": "So sánh học tổ hợp với từng mạng riêng cho phân loại ảnh X-quang phổi.",
+          "ai_method_vi": "Ensemble InceptionResNetV2, DenseNet201 và VGG16.",
+          "ai_methods": [
+            "CNN",
+            "Ensemble learning",
+            "InceptionResNetV2",
+            "DenseNet201",
+            "VGG16"
+          ],
+          "application_domains": [
+            "Y tế",
+            "X-quang ngực",
+            "Viêm phổi"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "HEALTH_BIOAI"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract, tác giả, hai affiliation của Ngoc Ha Pham, DOI và ngày đăng 08/11/2024. Đây là công trình chung FPT–USTH, không đếm hai bài độc lập. Chưa đọc toàn văn hoặc xác nhận triển khai lâm sàng.",
+          "source_urls": [
+            "https://www.jait.us/show-246-1597-1.html"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2024-11-08",
+          "origin": "new_targeted_search",
+          "collaborating_universities": [
+            "FPT",
+            "USTH"
+          ]
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ. Hai dự án giữ nguyên trạng thái theo danh mục 22/09/2025. Bài X-quang có đồng affiliation USTH–FPT.",
+      "search_status": "found"
+    },
+    {
+      "short_name": "Phenikaa",
+      "name": "Đại học Phenikaa",
+      "domain": "phenikaa-uni.edu.vn",
+      "ai_portals": [
+        {
+          "title": "ORLab / công bố Canh V. Pham",
+          "url": "https://cvpham1989.github.io/publications/"
+        },
+        {
+          "title": "ICSLab News and Events",
+          "url": "https://icslab.phenikaa-uni.edu.vn/news-events"
+        }
+      ],
+      "items": [
+        {
+          "title": "Hephaestus: Mixture Generative Modeling with Energy Guidance for Large-scale QoS Degradation",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Nguyen Do",
+            "Bach Ngo",
+            "Youval Kashuv",
+            "Canh V. Pham",
+            "Hanghang Tong",
+            "My T. Thai"
+          ],
+          "school_attribution": "Trang đầu PDF kỷ yếu ghi Canh V. Pham thuộc ORLab, Phenikaa University, Viet Nam.",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6836e35b748feddc69078faf1b7387d7-Abstract-Conference.html",
+          "doi": "10.52202/085713-2418",
+          "summary_vi": "Khung mô hình sinh kết hợp tối ưu đồ thị và học tăng cường để nghiên cứu suy giảm chất lượng dịch vụ trên mạng quy mô lớn.",
+          "problem_vi": "Tìm nghiệm khả thi cho bài toán tối ưu tổ hợp QoSD với hàm trọng số cạnh phi tuyến.",
+          "ai_method_vi": "PPS kết hợp học đồ thị/xấp xỉ; hỗn hợp CVAE được mô hình năng lượng dẫn hướng; tác tử RL tinh chỉnh nghiệm trong không gian ẩn.",
+          "ai_methods": [
+            "Graph learning",
+            "Mixture of conditional VAEs",
+            "Energy-based guidance",
+            "Reinforcement learning"
+          ],
+          "application_domains": [
+            "Tối ưu mạng",
+            "Hệ phân tán",
+            "Độ tin cậy mạng"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "ROBOTICS_RL",
+            "EDGE_SYSTEMS"
+          ],
+          "reading_depth": "abstract_and_pdf_first_page",
+          "verification_note": "Đã đọc abstract của kỷ yếu NeurIPS 2025, DOI và trang đầu PDF xác nhận affiliation. Bản tin trường nói accepted; kỷ yếu nay xác nhận đã xuất bản. Không đọc toàn bộ 62 trang.",
+          "source_urls": [
+            "https://proceedings.neurips.cc/paper_files/paper/2025/hash/6836e35b748feddc69078faf1b7387d7-Abstract-Conference.html",
+            "https://proceedings.neurips.cc/paper_files/paper/2025/file/6836e35b748feddc69078faf1b7387d7-Paper-Conference.pdf",
+            "https://phenikaa-uni.edu.vn/en/post/newswire/lecturer-from-phenikaa-school-of-information-technology-publishes-research-at-the-worlds-most-prestigious-ai-machine-learning-conference"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "origin": "new_targeted_search"
+        },
+        {
+          "title": "LightEdit: Textual Image Editing With Lightweight Stable Diffusion",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Thuy Phuong Vu",
+            "Minhhuy Le",
+            "Eiji Kamioka",
+            "Phan Xuan Tan"
+          ],
+          "school_attribution": "Metadata IEEE đăng ký tại Crossref ghi Thuy Phuong Vu, Minhhuy Le và Phan Xuan Tan thuộc Phenikaa; ICSLab xác nhận công trình của nghiên cứu viên Vu Phuong Thuy.",
+          "url": "https://ieeexplore.ieee.org/document/11152344/",
+          "doi": "10.1109/ACCESS.2025.3606427",
+          "summary_vi": "Mô hình diffusion gọn chỉnh sửa ảnh theo chỉ dẫn văn bản, hướng đến giảm số tham số mà vẫn bảo toàn cấu trúc ảnh.",
+          "problem_vi": "Giảm tài nguyên tính toán khi chỉnh sửa đúng vùng ảnh theo câu lệnh.",
+          "ai_method_vi": "U-Net chuyên biệt với attention và chưng cất tri thức từ nhiều mô hình thầy theo giai đoạn.",
+          "ai_methods": [
+            "Diffusion models",
+            "U-Net",
+            "Attention",
+            "Knowledge distillation"
+          ],
+          "application_domains": [
+            "Chỉnh sửa ảnh",
+            "AI tạo sinh"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "EDGE_SYSTEMS"
+          ],
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đã đọc abstract IEEE, ngày xuất bản 05/09/2025 và metadata affiliation Crossref. Tin ICSLab chỉ ghi accepted nhưng nhà xuất bản xác nhận đã xuất bản; chưa đọc toàn văn.",
+          "source_urls": [
+            "https://ieeexplore.ieee.org/document/11152344/",
+            "https://api.crossref.org/works/10.1109/ACCESS.2025.3606427",
+            "https://icslab.phenikaa-uni.edu.vn/news-events"
+          ],
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "published_date": "2025-09-05",
+          "origin": "new_targeted_search"
+        }
+      ],
+      "search_note_vi": "Đã tìm mới theo tên miền trường/tạp chí và kiểm tra quan hệ tác giả hoặc đơn vị thực hiện. Chỉ giữ AI/học máy thực chất; không tự gán nhãn AI cho IoT, UWB hoặc vật liệu. Mẫu không đầy đủ.",
+      "search_status": "found"
+    }
+  ]
+}

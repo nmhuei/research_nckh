@@ -1,0 +1,584 @@
+{
+  "checked_on": "2026-10-30",
+  "checks": [
+    {
+      "title": "Rambo: RL-Augmented Model-Based Whole-Body Control for Loco-Manipulation",
+      "doi": "10.1109/lra.2025.3594984",
+      "status": 429
+    },
+    {
+      "title": "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+      "doi": "10.1109/ICRA55743.2025.11128474",
+      "status": "ok",
+      "crossref_title": "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            5,
+            19
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Techno-economic analysis framework for perovskite solar module production at various manufacturing capacities",
+      "doi": "10.1016/j.renene.2025.123752",
+      "status": 429
+    },
+    {
+      "title": "Electroactive naphthalimide and naphthalenediimide interlayers for inverted perovskite solar cells",
+      "doi": "10.1039/d5tc01418b",
+      "status": "ok",
+      "crossref_title": "Electroactive naphthalimide and naphthalenediimide interlayers for inverted perovskite solar cells",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025
+          ]
+        ],
+        "published-online": [
+          [
+            2025
+          ]
+        ],
+        "issued": [
+          [
+            2025
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+      "doi": "10.1016/j.energy.2025.134592",
+      "status": "ok",
+      "crossref_title": "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            2
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            2
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Machine learning tabulation of thermochemistry: transfer learning for non-adiabatic flames",
+      "doi": "10.1016/j.egyai.2026.100746",
+      "status": "ok",
+      "crossref_title": "Machine learning tabulation of thermochemistry: Transfer learning for non-adiabatic flames",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2026,
+            5
+          ]
+        ],
+        "published-print": [
+          [
+            2026,
+            5
+          ]
+        ],
+        "issued": [
+          [
+            2026,
+            5
+          ]
+        ]
+      },
+      "record_year": 2026
+    },
+    {
+      "title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+      "doi": "10.1007/s12369-025-01332-4",
+      "status": "ok",
+      "crossref_title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            10,
+            20
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            10,
+            20
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            12
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            10,
+            20
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "DRONE-RL: Dynamic reinforcement learning for online navigation of UAVs in evolving environments",
+      "doi": "10.1016/j.knosys.2025.115147",
+      "status": 429
+    },
+    {
+      "title": "InP Temperature Sensor with Si-CMOS Interface for Photonic Integrated Circuits",
+      "doi": "10.1109/ECOC66593.2025.11263152",
+      "status": "ok",
+      "crossref_title": "InP Temperature Sensor with Si-CMOS Interface for Photonic Integrated Circuits",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            9,
+            28
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            9,
+            28
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            9,
+            28
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Challenges in Insertion Loss-Based Characterization of InP Technology for Sub-THz Antenna Systems",
+      "doi": "10.1109/CAMA65664.2025.11335176",
+      "status": "ok",
+      "crossref_title": "Challenges in Insertion Loss-Based Characterization of InP Technology for Sub-THz Antenna Systems",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            11,
+            18
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            11,
+            18
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            11,
+            18
+          ]
+        ]
+      },
+      "record_year": 2026
+    },
+    {
+      "title": "The hydrogen supply chain — A comprehensive literature review incorporating purity analysis",
+      "doi": "10.1016/j.ijhydene.2025.04.532",
+      "status": "ok",
+      "crossref_title": "The hydrogen supply chain — A comprehensive literature review incorporating purity analysis",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            9
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            9
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Optimal control of an over-actuated spark-ignited hydrogen engine",
+      "doi": "10.1016/j.ijhydene.2025.05.171",
+      "status": 429
+    },
+    {
+      "title": "Zono-Conformal Prediction: Zonotope-Based Uncertainty Quantification for Regression and Classification Tasks",
+      "status": "no_doi_in_read_metadata"
+    },
+    {
+      "title": "Machine Learning Driven Materials Design from the Perspective of Charge Transport",
+      "status": "no_doi_in_read_metadata"
+    },
+    {
+      "title": "SVN-ICP: Uncertainty estimation of ICP-based LiDAR odometry using Stein Variational Newton",
+      "doi": "10.1109/lra.2025.3619836",
+      "status": 429
+    },
+    {
+      "title": "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments",
+      "doi": "10.14279/depositonce-24638",
+      "status": 404
+    },
+    {
+      "title": "AttentionGuard: Transformer-based Misbehavior Detection for Secure Vehicular Platoons",
+      "doi": "10.1145/3733965.3733966",
+      "status": 429
+    },
+    {
+      "title": "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+      "doi": "10.1109/IWCMC65282.2025.11059726",
+      "status": "ok",
+      "crossref_title": "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+      "doi": "10.1016/j.ensm.2024.103877",
+      "status": "ok",
+      "crossref_title": "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            1
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            1
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            1
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Smart sensing breaks the accuracy barrier in battery state monitoring",
+      "doi": "10.1016/j.ensm.2025.104410",
+      "status": 429
+    },
+    {
+      "title": "Probing fast quantum circuit refrigeration in the quantum regime",
+      "doi": "10.1103/PhysRevApplied.23.L011003",
+      "status": "ok",
+      "crossref_title": "Probing fast quantum circuit refrigeration in the quantum regime",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            1,
+            10
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Thermal spectrometer for superconducting circuits",
+      "doi": "10.1038/s41467-025-58919-8",
+      "status": "ok",
+      "crossref_title": "Thermal spectrometer for superconducting circuits",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            5,
+            13
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            5,
+            13
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            5,
+            13
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Blueish hydrogen production via methane pyrolysis and remote CO2 capture and storage",
+      "doi": "10.1016/j.ijhydene.2025.05.353",
+      "status": "ok",
+      "crossref_title": "Blueish hydrogen production via methane pyrolysis and remote CO2 capture and storage",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            7
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            7
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "Energy and economic assessment of LH2, NH3, TOL/MCH and H0-DBT/H18-DBT for large-scale hydrogen transport",
+      "doi": "10.1016/j.mtsust.2025.101187",
+      "status": "ok",
+      "crossref_title": "Energy and economic assessment of LH2, NH3, TOL/MCH and H0-DBT/H18-DBT for large-scale hydrogen transport",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            9
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            9
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "The collaboration scale: A novel approach for assessing robotic systems collaboration capabilities",
+      "doi": "10.1016/j.rcim.2025.103062",
+      "status": "ok",
+      "crossref_title": "The collaboration scale: A novel approach for assessing robotic systems collaboration capabilities",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            12
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            12
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+      "doi": "10.1016/j.robot.2025.104992",
+      "status": "ok",
+      "crossref_title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2025,
+            8
+          ]
+        ],
+        "published-print": [
+          [
+            2025,
+            8
+          ]
+        ],
+        "issued": [
+          [
+            2025,
+            8
+          ]
+        ]
+      },
+      "record_year": 2025
+    },
+    {
+      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "doi": "10.1038/s41586-026-11084-4",
+      "status": "ok",
+      "crossref_title": "A thorium-229 optical nuclear clock with feedback loop",
+      "exact_title_normalized_match": true,
+      "dates": {
+        "published": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "published-online": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "published-print": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ],
+        "issued": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ]
+      },
+      "record_year": 2026
+    },
+    {
+      "title": "Advanced Bioenergy Lab Austria – Phase 1",
+      "status": "no_doi_in_read_metadata"
+    }
+  ],
+  "datacite_check": {
+    "doi": "10.14279/depositonce-24638",
+    "titles": [
+      {
+        "lang": "en",
+        "title": "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments"
+      },
+      {
+        "lang": "de",
+        "title": "Bewegungsplanung für Industrieroboter in kollaborativen Umgebungen mittels Deep Reinforcement Learning",
+        "titleType": "TranslatedTitle"
+      }
+    ],
+    "publicationYear": 2025,
+    "url": "https://depositonce.tu-berlin.de/handle/11303/25814"
+  },
+  "interpretation": "Crossref is supplementary metadata checking only. HTTP 429 means rate-limited, not invalid. The TU Berlin thesis DOI is registered with DataCite, so Crossref 404 is not an invalid DOI. All 17 successful Crossref title checks matched after punctuation/case normalization."
+}

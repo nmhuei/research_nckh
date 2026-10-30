@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-30",
+  "schools": 41,
+  "institution_work_records": 89,
+  "unique_works": 87,
+  "new_unique_works_vs_previous_detailed_ai_subset": 44,
+  "ai_topic_groups": 10,
+  "regional_coverage": [
+    {
+      "region": "Việt Nam",
+      "schools": 17,
+      "institution_work_records": 41,
+      "unique_works_in_region": 39
+    },
+    {
+      "region": "Hoa Kỳ",
+      "schools": 10,
+      "institution_work_records": 20,
+      "unique_works_in_region": 20
+    },
+    {
+      "region": "Châu Âu",
+      "schools": 14,
+      "institution_work_records": 28,
+      "unique_works_in_region": 28
+    }
+  ],
+  "unique_works_with_doi": 62,
+  "primary_topic_counts": {
+    "VISION_MULTIMODAL": 10,
+    "HEALTH_BIOAI": 6,
+    "SECURITY_TRUST_PRIVACY": 7,
+    "SCIENTIFIC_INDUSTRIAL_AI": 18,
+    "LLM_RAG_AGENTS": 12,
+    "ROBOTICS_RL": 10,
+    "NLP_SPEECH": 4,
+    "FORECAST_RECOMMEND": 6,
+    "ML_FOUNDATIONS": 11,
+    "EDGE_SYSTEMS": 3
+  },
+  "multi_label_counts": {
+    "VISION_MULTIMODAL": 15,
+    "NLP_SPEECH": 11,
+    "ML_FOUNDATIONS": 22,
+    "HEALTH_BIOAI": 10,
+    "SECURITY_TRUST_PRIVACY": 15,
+    "FORECAST_RECOMMEND": 10,
+    "SCIENTIFIC_INDUSTRIAL_AI": 32,
+    "LLM_RAG_AGENTS": 16,
+    "ROBOTICS_RL": 14,
+    "EDGE_SYSTEMS": 13
+  },
+  "type_counts": {
+    "journal_article": 46,
+    "conference_paper": 27,
+    "workshop_paper": 3,
+    "accepted_conference_paper": 2,
+    "doctoral_thesis": 4,
+    "student_graduation_project": 1,
+    "institutional_research_project": 3,
+    "doctoral_dissertation": 1
+  },
+  "status_counts": {
+    "published": 72,
+    "presented_workshop_paper": 2,
+    "accepted": 2,
+    "public_thesis_pdf_defense_status_not_checked": 1,
+    "student_project_catalogued": 1,
+    "approved_project": 1,
+    "ongoing_as_reported_2025_09_22": 2,
+    "accepted_manuscript_published_online": 1,
+    "deposited_doctoral_dissertation": 1,
+    "thesis_published": 3,
+    "published_workshop_paper": 1
+  },
+  "reading_depth_counts": {
+    "abstract_and_metadata": 31,
+    "abstract_and_selected_methods": 2,
+    "bibliography_only": 3,
+    "abstract_and_first_page_affiliations": 4,
+    "source_content_reviewed": 8,
+    "abstract_first_page_and_selected_methods": 1,
+    "pdf_selected_sections": 1,
+    "catalogue_metadata_only": 1,
+    "project_registry_metadata": 3,
+    "abstract_and_pdf_first_page": 1,
+    "university_news_and_publisher_abstract": 1,
+    "abstract_and_first_page": 4,
+    "publisher_methods_excerpt_and_university_news": 1,
+    "publisher_abstract_and_affiliation": 1,
+    "abstract_first_page_and_methods_excerpt": 1,
+    "abstract_and_methods_excerpt": 1,
+    "indexed_first_page_and_abstract_excerpt": 1,
+    "repository_abstract_and_metadata": 1,
+    "preprint_abstract_and_university_news": 1,
+    "abstract_first_page_and_introduction": 1,
+    "institutional_abstract_and_metadata": 2,
+    "abstract_first_page_and_results_excerpt": 1,
+    "abstract_and_first_two_pages": 1,
+    "indexed_official_repository_abstract_and_metadata": 2,
+    "official_repository_metadata_limited_abstract": 1,
+    "abstract_and_selected_methods_sections": 1,
+    "abstract_and_metadata_reviewed_previously": 8,
+    "official_author_portal_abstract_and_metadata": 2,
+    "official_university_reproduced_abstract_and_metadata": 1
+  },
+  "full_text_read_count": 0,
+  "schools_without_ai_items": []
+}

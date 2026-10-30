@@ -1,0 +1,1993 @@
+{
+  "group_code": "G7",
+  "group_name_vi": "AI tối ưu năng lượng và vận hành hệ thống kỹ thuật, công nghiệp",
+  "scope_note_vi": "Rà soát 41 trường trong school_scope.json, ít nhất một truy vấn đích mỗi trường; ưu tiên 2024–2026 đến 30/10/2026. Giữ công trình có học máy rõ ràng phục vụ điều khiển, dự báo, giám sát hoặc tối ưu hệ năng lượng/kỹ thuật; không coi tối ưu cổ điển, vật liệu/hoá học thuần tuý hay an ninh mạng chung là G7. Tập này gồm 21 công trình được giữ từ catalog AI đã xác minh và 23 công trình bổ sung từ nguồn gốc. Có phân biệt bài báo, preprint, luận án và dự án đang thực hiện. Đọc ở mức được ghi cho từng mục, không đọc toàn văn hoàn chỉnh, không khẳng định danh sách tuyệt đối đầy đủ. Nhãn giao G3/G5 chỉ dùng khi có bằng chứng tương ứng; không suy diễn tiết kiệm năng lượng robot từ việc mô hình chạy nhanh. Các kết quả HUST do nhóm tổng hợp kiểm tra riêng sẽ được tích hợp bên ngoài tệp này.",
+  "items": [
+    {
+      "title": "Toward Sustainable and Cost-Efficient HPC Systems: A Deep Reinforcement Learning Job Scheduling Approach",
+      "year": 2025,
+      "schools": [
+        "HCMUT"
+      ],
+      "group_codes": [
+        "G7",
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Siêu máy tính",
+        "Lập lịch"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Điều chỉnh thời điểm và thứ tự chạy tác vụ HPC theo năng lượng tái tạo và giá điện mà vẫn duy trì khả năng đáp ứng.",
+      "ai_methods": [
+        "Deep reinforcement learning",
+        "Multi-action scheduling",
+        "Cost-aware reward"
+      ],
+      "method_vi": "Học tăng cường sâu với nhiều hành động tách chọn tác vụ và trì hoãn chạy; hàm thưởng xét giá điện biến thiên và nguồn tái tạo.",
+      "contribution_vi": "Đưa mô hình chi phí năng lượng hỗn hợp vào môi trường lập lịch, đánh giá trên dấu vết tải HPC quy mô thực và dữ liệu tái tạo đo được.",
+      "application_vi": "Siêu máy tính; Lập lịch",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-95-4960-3_33",
+      "doi": "10.1007/978-981-95-4960-3_33",
+      "source_urls": [
+        "https://link.springer.com/chapter/10.1007/978-981-95-4960-3_33",
+        "https://hpcc.hcmut.edu.vn/publications"
+      ],
+      "institution_evidence_vi": "Springer ghi nhóm tác giả thuộc HCMUT/VNU-HCM; đồng thời có danh mục chính thức HPCC.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã nâng từ danh mục HPCC sang abstract và metadata Springer: conference paper, first online27/11/2025, MIWAI2025, trang409–420. Chưa đọc toàn văn trả phí. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Fine-Tuned Sentence-BERT for HPC Job Outcome Prediction via Textual Feature Embedding",
+      "year": 2026,
+      "schools": [
+        "HCMUT"
+      ],
+      "group_codes": [
+        "G7",
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Siêu máy tính",
+        "Dự đoán tác vụ"
+      ],
+      "type": "workshop_paper",
+      "status": "presented_workshop_paper",
+      "problem_vi": "Khai thác ngữ nghĩa mô tả tác vụ để dự báo thời gian chạy, năng lượng và lớp kết quả trước khi lập lịch.",
+      "ai_methods": [
+        "Sentence-BERT",
+        "Contrastive fine-tuning",
+        "Text embedding",
+        "Supervised prediction"
+      ],
+      "method_vi": "HPCBERT+ tinh chỉnh Sentence-BERT trên log HPC bằng mục tiêu contrastive và phân loại; kết hợp nhúng văn bản với đặc trưng số cho bộ dự đoán.",
+      "contribution_vi": "Tinh chỉnh mô hình nhúng cho dữ liệu chuyên ngành HPC, rồi kết hợp đặc trưng văn bản và số. Bản tác giả mô tả đánh giá trên log của hai siêu máy tính.",
+      "application_vi": "Siêu máy tính; Dự đoán tác vụ",
+      "url": "https://ist.hcmut.edu.vn/~thanhhoang/papers/dream2026.pdf",
+      "doi": null,
+      "source_urls": [
+        "https://ist.hcmut.edu.vn/~thanhhoang/papers/dream2026.pdf",
+        "https://ist.hcmut.edu.vn/~thanhhoang/",
+        "https://hpcc.hcmut.edu.vn/publications"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi cả5 tác giả thuộc Ho Chi Minh City University of Technology.",
+      "reading_depth": "abstract_first_page_and_selected_methods",
+      "verification_note_vi": "Đã đọc abstract, affiliation trang đầu và một số phần phương pháp của bản tác giả trên tên miềnHCMUT. PDF còn mẫu năm2018/DOIXXXX, không dùng làm dữ liệu công bố; năm2026 và việc trình bày DREAM được xác nhận trên trang tác giả. Chưa đối chiếu bản kỷ yếu cuối cùng. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+      "year": 2025,
+      "schools": [
+        "DUT"
+      ],
+      "group_codes": [
+        "G7",
+        "G5"
+      ],
+      "subtopics_vi": [
+        "Tự động hóa sản xuất"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Robot xác định loại bao gói và tư thế lon trên băng chuyền để gắp đúng vị trí.",
+      "ai_methods": [
+        "AI image recognition; kiến trúc chưa được abstract nêu"
+      ],
+      "method_vi": "Xử lý ảnh và bộ nhận dạng AI cho tư thế sản phẩm; abstract chưa nêu kiến trúc mô hình.",
+      "contribution_vi": "Thiết kế tay máy sáu bậc tự do với hai camera để nhận dạng bao gói và tư thế lon trên băng chuyền. Abstract có mô tả chế tạo, hệ truyền động và thử nghiệm nhận dạng.",
+      "application_vi": "Tự động hóa sản xuất",
+      "url": "https://jst-ud.vn/jst-ud/article/view/10204",
+      "doi": "10.31130/ud-jst.2025.23(9d).555e",
+      "source_urls": [
+        "https://jst-ud.vn/jst-ud/article/view/10204"
+      ],
+      "institution_evidence_vi": "Trang tạp chí ghi ba tác giả thuộc DUT và một tác giả thuộc Chungnam; đã kiểm tra affiliation theo ghi chú nguồn.",
+      "reading_depth": "source_content_reviewed",
+      "verification_note_vi": "Đã đọc abstract và affiliation: ba tác giảDUT, một tác giảChungnam. Xuất bản30/09/2025; chưa đọc toàn văn. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Hybrid deep learning model for improving the operational efficiency of microgrids",
+      "year": 2025,
+      "schools": [
+        "DUT"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điện gió",
+        "Điện mặt trời",
+        "Lưới điện nhỏ"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo công suất tái tạo theo nhiều chân trời và biểu diễn độ bất định phục vụ vận hành microgrid.",
+      "ai_methods": [
+        "LSTM",
+        "Inductive Conformal Prediction"
+      ],
+      "method_vi": "Kết hợp LSTM với Inductive Conformal Prediction để dự báo kèm khoảng tin cậy.",
+      "contribution_vi": "Đánh giá LSTM+ICP trên dữ liệu nhà máy điện gió và mặt trời ở Việt Nam, đối chiếu Random Forest và LSTM cơ sở.",
+      "application_vi": "Điện gió; Điện mặt trời; Lưới điện nhỏ",
+      "url": "https://jst-ud.vn/jst-ud/article/view/9828",
+      "doi": "10.31130/ud-jst.2025.23(6a).214e",
+      "source_urls": [
+        "https://jst-ud.vn/jst-ud/article/view/9828"
+      ],
+      "institution_evidence_vi": "Affiliation tác giả trên trang tạp chí xác nhận DUT.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã đọc abstract, affiliation và ngày xuất bản30/06/2025. Bốn tác giả thuộc DUT, một tác giả Delta Electronic. Chưa đọc toàn văn. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+      "year": 2025,
+      "schools": [
+        "VKU"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Phòng cháy",
+        "IoT"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Kết hợp hai nguồn dữ liệu để phát hiện cháy và giảm báo động giả.",
+      "ai_methods": [
+        "CNN",
+        "Random Forest",
+        "Multimodal fusion"
+      ],
+      "method_vi": "CNN xử lý ảnh kết hợp Random Forest trên dữ liệu cảm biến môi trường.",
+      "contribution_vi": "Kết hợp camera và cảm biến môi trường để nhận diện cháy, giảm báo động giả. Kết quả từ hai mô hình được đối chiếu; trường hợp không thống nhất cần người dùng xác nhận.",
+      "application_vi": "Phòng cháy; IoT",
+      "url": "https://elib.vku.udn.vn/handle/123456789/7663",
+      "doi": "10.1109/atc67618.2025.11268781",
+      "source_urls": [
+        "https://elib.vku.udn.vn/handle/123456789/7663"
+      ],
+      "institution_evidence_vi": "Bản ghi trong bộ sưu tập bài báo của kho VKU; đã đọc metadata/abstract, chưa đối chiếu từng affiliation trong toàn văn.",
+      "reading_depth": "source_content_reviewed",
+      "verification_note_vi": "Đã đọc metadata/abstract ở khoVKU, ATC2025; toàn văn yêu cầu đăng nhập. Không suy ra độ chính xác cụ thể từ nhận xét định tính trong abstract. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Enhanced Monthly Load Forecasting With RapidMiner-Based Deep Learning",
+      "year": 2026,
+      "schools": [
+        "HCMUTE"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Dự báo phụ tải điện",
+        "Hệ thống điện"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo phụ tải điện ngày qua nhiều tháng để hỗ trợ lập kế hoạch vận hành.",
+      "ai_methods": [
+        "Deep learning on RapidMiner"
+      ],
+      "method_vi": "Mạng học sâu trên RapidMiner với dữ liệu tiêu thụ điện và thời tiết.",
+      "contribution_vi": "Huấn luyện và kiểm tra mô hình trên một nghiên cứu trường hợp tại TP.HCM; so sánh với Decision Tree và SVM.",
+      "application_vi": "Dự báo phụ tải điện; Hệ thống điện",
+      "url": "https://www.jte.edu.vn/index.php/jte/article/view/1901",
+      "doi": "10.54644/jte.2025.1901",
+      "source_urls": [
+        "https://www.jte.edu.vn/index.php/jte/article/view/1901"
+      ],
+      "institution_evidence_vi": "Trang tác giả xác nhận cả hai thuộc HCM-UTE.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đọc abstract, affiliation và metadata. Trang ghi xuất bản28/08/2026, số21(03)2026; DOI chứa2025 không được dùng để suy ra năm công bố. Chưa đọc toàn văn. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+      "year": 2025,
+      "schools": [
+        "MTA"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Hàng không",
+        "Cơ học chất lưu",
+        "Mô phỏng kỹ thuật"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự đoán trường áp suất và vận tốc quanh cánh máy bay/vật thể đáy tù bằng mô hình học từ dữ liệu.",
+      "ai_methods": [
+        "CNN",
+        "U-Net"
+      ],
+      "method_vi": "Mạng tích chập U-Net cải tiến để tái tạo trường dòng chảy.",
+      "contribution_vi": "Dùng mạng U-Net cải tiến để dự báo trường áp suất và vận tốc quanh cánh máy bay và mô hình vật thể đáy tù.",
+      "application_vi": "Hàng không; Cơ học chất lưu; Mô phỏng kỹ thuật",
+      "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909",
+      "doi": "10.47869/tcsj.76.1.3",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909"
+      ],
+      "institution_evidence_vi": "Trang nhà xuất bản ghi Tran The Hung thuộc Faculty of Aerospace Engineering, Le Quy Don Technical University (MTA).",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Trang của nhà xuất bản ghi rõ tác giả Tran The Hung thuộc Faculty of Aerospace Engineering, Le Quy Don Technical University. Chỉ đọc metadata/abstract. Tạp chí do UTC xuất bản nhưng bài này thuộc MTA theo affiliation. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Nghiên cứu ứng dụng thuật toán phân cụm không giám sát trong phân tích dữ liệu GNSS-RTK phục vụ quan trắc cầu dây văng",
+      "year": 2025,
+      "schools": [
+        "UTC"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Quan trắc cầu",
+        "GNSS-RTK",
+        "Bảo trì công trình"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phân tích dữ liệu có nhiễu, ngoại lai và thiếu nhãn nhằm hỗ trợ nhận biết trạng thái bất thường của cầu.",
+      "ai_methods": [
+        "Unsupervised learning",
+        "HAC",
+        "Gaussian Mixture Model"
+      ],
+      "method_vi": "Phân cụm phân cấp HAC và mô hình hỗn hợp Gaussian GMM; tiền xử lý Hampel, nội suy, phân đoạn, chuẩn hóa và đánh giá Silhouette.",
+      "contribution_vi": "Phân cụm chuỗi dịch chuyển đứng GNSS-RTK tại cầu Nhật Tân để phân biệt trạng thái quan trắc.",
+      "application_vi": "Quan trắc cầu; GNSS-RTK; Bảo trì công trình",
+      "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2613",
+      "doi": "10.47869/tcsj.76.8.8",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2613"
+      ],
+      "institution_evidence_vi": "Cả bốn tác giả được trang bài báo ghi thuộc Trường Đại học Giao thông vận tải.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã đọc abstract, affiliation và ngày xuất bản; không đồng nhất hai cụm quan trắc với chẩn đoán hư hỏng đã xác nhận độc lập. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Self-supervised deep learning for gnss time series imputation: a comparative study of neural network architectures",
+      "year": 2026,
+      "schools": [
+        "UTC"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Quan trắc cầu",
+        "Dữ liệu GNSS",
+        "Kết cấu công trình"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Điền các đoạn thiếu liên tục trong dữ liệu quan trắc cầu không có nhãn.",
+      "ai_methods": [
+        "Self-supervised learning",
+        "Span masking",
+        "ANN",
+        "CNN",
+        "GRU",
+        "LSTM"
+      ],
+      "method_vi": "So sánh ANN, CNN, GRU và LSTM trong quy trình che đoạn liên tục, cửa sổ trượt và chuẩn hóa tín hiệu.",
+      "contribution_vi": "Học tự giám sát bằng che đoạn dữ liệu để khôi phục khoảng thiếu trong chuỗi dịch chuyển GNSS của cầu Cần Thơ.",
+      "application_vi": "Quan trắc cầu; Dữ liệu GNSS; Kết cấu công trình",
+      "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2759",
+      "doi": "10.47869/tcsj.77.1.10",
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2759"
+      ],
+      "institution_evidence_vi": "Cả ba tác giả được trang bài báo ghi thuộc University of Transport and Communications.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã đọc abstract, affiliation và metadata. Thử nghiệm dùng dữ liệu lấy mẫu 10 phút trong một năm; không suy ra hiệu quả triển khai cho mọi cầu. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+      "year": 2026,
+      "schools": [
+        "HUCE"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Phát hiện cháy",
+        "An toàn công trình"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phân biệt không cháy, lửa có kiểm soát và cháy nguy hiểm trong nhà theo ngữ cảnh.",
+      "ai_methods": [
+        "Vision-language models",
+        "Multimodal classification"
+      ],
+      "method_vi": "Mô hình ngôn ngữ–thị giác gọn kết hợp thông tin hình ảnh và ngữ nghĩa.",
+      "contribution_vi": "Kết hợp thông tin hình ảnh và ngữ nghĩa để phân biệt không cháy, lửa được kiểm soát và cháy nguy hiểm trong nhà.",
+      "application_vi": "Phát hiện cháy; An toàn công trình",
+      "url": "https://www.nature.com/articles/s41598-026-48743-5",
+      "doi": "10.1038/s41598-026-48743-5",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-48743-5",
+        "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+        "https://fit.huce.edu.vn/danh-muc-ca"
+      ],
+      "institution_evidence_vi": "Bản tác giả của nhà xuất bản ghi Trần Khánh Dung thuộc HUCE; có đồng tác giả USTH và Lyon.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đã đọc abstract và xác nhận Trần Khánh Dung thuộc HUCE trong bản tác giả của nhà xuất bản; đồng tác giả từ USTH và Lyon. Chưa đọc toàn văn. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Transformers and Long Short-Term Memory Transfer Learning for GenIV Reactor Temperature Time Series Forecasting",
+      "year": 2025,
+      "schools": [
+        "Purdue"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Giám sát hệ thống năng lượng",
+        "Dự báo chuỗi thời gian cảm biến"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Lò thế hệ IV còn thiếu dữ liệu vận hành dài hạn để huấn luyện mô hình giám sát.",
+      "ai_methods": [
+        "Transfer learning cho Transformer và LSTM; so sánh cửa sổ quan sát và độ dài dự báo."
+      ],
+      "method_vi": "Transfer learning cho Transformer và LSTM; so sánh cửa sổ quan sát và độ dài dự báo.",
+      "contribution_vi": "Tiền huấn luyện mạng trên vòng thí nghiệm nhiệt thủy lực rồi tinh chỉnh để dự báo nhiệt độ tại cơ sở thử nghiệm nhiệt độ cao.",
+      "application_vi": "Giám sát hệ thống năng lượng; Dự báo chuỗi thời gian cảm biến",
+      "url": "https://www.mdpi.com/1996-1073/18/9/2286",
+      "doi": "10.3390/en18092286",
+      "source_urls": [
+        "https://www.mdpi.com/1996-1073/18/9/2286",
+        "https://engineering.purdue.edu/AISL/publications"
+      ],
+      "institution_evidence_vi": "Pantopoulou và Tsoukalas ghi Purdue School of Nuclear Engineering; hợp tác với Argonne National Laboratory và Kairos Power.",
+      "reading_depth": "abstract_and_methods_excerpt",
+      "verification_note_vi": "Đã đọc abstract và trích đoạn phương pháp; thử trên dữ liệu cơ sở thí nghiệm, không trình bày như hệ tự vận hành lò thương mại. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "ERIC: Estimating Rainfall with Commodity Doorbell Camera for Precision Residential Irrigation",
+      "year": 2024,
+      "schools": [
+        "Texas A&M"
+      ],
+      "group_codes": [
+        "G7",
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Tưới chính xác",
+        "Tiết kiệm nước",
+        "Nhà thông minh"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Dữ liệu mưa từ trạm xa không phản ánh lượng mưa thực tế tại từng nhà.",
+      "ai_methods": [
+        "Đặc trưng hình ảnh và âm thanh với mạng nơ-ron nhẹ chạy ở biên; tích hợp điều khiển tưới."
+      ],
+      "method_vi": "Đặc trưng hình ảnh và âm thanh với mạng nơ-ron nhẹ chạy ở biên; tích hợp điều khiển tưới.",
+      "contribution_vi": "ERIC dùng camera chuông cửa và mô hình học máy ước lượng mưa tại nhà rồi tự điều chỉnh lịch tưới.",
+      "application_vi": "Tưới chính xác; Tiết kiệm nước; Nhà thông minh",
+      "url": "https://arxiv.org/abs/2409.13104",
+      "doi": "10.1145/3671127.3698186",
+      "source_urls": [
+        "https://arxiv.org/abs/2409.13104",
+        "https://dl.acm.org/doi/10.1145/3671127.3698186",
+        "https://github.com/LENSS/ERIC-BuildSys2024",
+        "https://engineering.tamu.edu/news/2025/07/the-key-to-lowering-your-water-bill-may-already-be-at-your-door.html"
+      ],
+      "institution_evidence_vi": "Bản tin Texas A&M xác nhận nhóm Stoleru, Liu và các đồng tác giả; Swanson thuộc Texas A&M AgriLife Extension.",
+      "reading_depth": "preprint_abstract_and_university_news",
+      "verification_note_vi": "Chọn bài BuildSys 2024, không trộn với bản mở rộng tạp chí DOI 10.1145/3734526. DOI hội nghị được repository tác giả và liên kết bản tin trường xác nhận; trang ACM trả 403. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+      "year": 2025,
+      "schools": [
+        "Imperial"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "kỹ thuật nhiệt",
+        "thiết bị trao đổi nhiệt"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao dự đoán hệ số truyền nhiệt khi dòng lưu chất ngưng tụ trong các cấu hình ống khác nhau?",
+      "ai_methods": [
+        "Mô hình học máy tích hợp; nguồn tóm tắt hiện có chưa đủ để ghi chắc tên từng thuật toán thành phần."
+      ],
+      "method_vi": "Mô hình học máy tích hợp; nguồn tóm tắt hiện có chưa đủ để ghi chắc tên từng thuật toán thành phần.",
+      "contribution_vi": "Ứng dụng mô hình học máy tích hợp để nghiên cứu truyền nhiệt của dòng ngưng tụ trong ống trơn và ống tăng cường truyền nhiệt.",
+      "application_vi": "kỹ thuật nhiệt; thiết bị trao đổi nhiệt",
+      "url": "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+      "doi": "10.1016/j.energy.2025.134592",
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+        "https://api.crossref.org/works/10.1016/j.energy.2025.134592"
+      ],
+      "institution_evidence_vi": "Spiral ghi Journal Article, xuất bản 15/02/2025, đồng tác giả Christos N. Markides; có bản accepted manuscript theo chính sách Open Access của Imperial. Tóm tắt công khai của record chỉ lặp lại tiêu đề nên mô tả không suy diễn kết quả.",
+      "reading_depth": "official_repository_metadata_limited_abstract",
+      "verification_note_vi": "Spiral ghi Journal Article, xuất bản 15/02/2025, đồng tác giả Christos N. Markides; có bản accepted manuscript theo chính sách Open Access của Imperial. Tóm tắt công khai của record chỉ lặp lại tiêu đề nên mô tả không suy diễn kết quả. Chỉ mô tả mục tiêu theo nhan đề và metadata; không suy diễn kiến trúc hoặc hiệu quả định lượng. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Machine learning tabulation of thermochemistry: transfer learning for non-adiabatic flames",
+      "year": 2026,
+      "schools": [
+        "Imperial"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "mô phỏng đốt cháy",
+        "tua-bin khí"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao giảm chi phí tính nhiệt hóa học trong mô phỏng đốt cháy có mất nhiệt?",
+      "ai_methods": [
+        "Mạng MLP lập bảng nhiệt hóa học; tạo dữ liệu Hybrid Flamelet/Random Data mở rộng bằng kiểm soát phân bố nhiệt độ để học chuyển giao sang ngọn lửa không đoạn nhiệt."
+      ],
+      "method_vi": "Mạng MLP lập bảng nhiệt hóa học; tạo dữ liệu Hybrid Flamelet/Random Data mở rộng bằng kiểm soát phân bố nhiệt độ để học chuyển giao sang ngọn lửa không đoạn nhiệt.",
+      "contribution_vi": "Dùng mạng nơ-ron tăng tốc tính toán nhiệt hóa học và mở rộng dữ liệu huấn luyện cho ngọn lửa có trao đổi nhiệt; kiểm tra khả năng chuyển giao sang bài toán buồng đốt tua-bin khí.",
+      "application_vi": "mô phỏng đốt cháy; tua-bin khí",
+      "url": "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+      "doi": "10.1016/j.egyai.2026.100746",
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+        "https://www.sciencedirect.com/science/article/pii/S2666546826000728"
+      ],
+      "institution_evidence_vi": "Kho Spiral ghi tác giả A. Darzi, W. P. Jones, S. Rigopoulos; Journal Article, số tạp chí tháng 5/2026 và ngày online 20/04/2026. Attribution dựa trên hồ sơ trong kho nghiên cứu chính thức của Imperial.",
+      "reading_depth": "abstract_and_selected_methods_sections",
+      "verification_note_vi": "Kho Spiral ghi tác giả A. Darzi, W. P. Jones, S. Rigopoulos; Journal Article, số tạp chí tháng 5/2026 và ngày online 20/04/2026. Attribution dựa trên hồ sơ trong kho nghiên cứu chính thức của Imperial. Đợt AI đã đọc abstract và các đoạn phương pháp trên publisher, đối chiếu tác giả trong CRediT; chưa đọc toàn bài. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Neural Augmented Kalman Filters for Road Network assisted GNSS positioning",
+      "year": 2025,
+      "schools": [
+        "TU/e"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "định vị GNSS",
+        "giao thông",
+        "hợp nhất cảm biến"
+      ],
+      "type": "workshop_paper",
+      "status": "published_workshop_paper",
+      "problem_vi": "Làm sao giảm sai số GNSS do đa đường và che khuất bằng cách tận dụng mạng đường?",
+      "ai_methods": [
+        "Temporal Graph Neural Network kết hợp bước cập nhật đo của Kalman Filter."
+      ],
+      "method_vi": "Temporal Graph Neural Network kết hợp bước cập nhật đo của Kalman Filter.",
+      "contribution_vi": "Mạng đồ thị theo thời gian dự đoán đoạn đường và độ bất định, rồi đưa kết quả vào bộ lọc Kalman để cải thiện định vị GNSS trong đô thị.",
+      "application_vi": "định vị GNSS; giao thông; hợp nhất cảm biến",
+      "url": "https://research.tue.nl/en/publications/neural-augmented-kalman-filters-for-road-network-assisted-gnss-po/",
+      "doi": null,
+      "source_urls": [
+        "https://research.tue.nl/en/publications/neural-augmented-kalman-filters-for-road-network-assisted-gnss-po/",
+        "https://icml.cc/virtual/2025/47044"
+      ],
+      "institution_evidence_vi": "Cổng TU/e ghi Hans van Gorp và các đơn vị BioMedical Diagnostics, Signal Processing Systems.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Cổng chính thức ghi bài workshop ML4Wireless thuộc ICML 2025 ngày 18/07/2025. Không gọi đây là bài main-track ICML; chưa thấy DOI trên hồ sơ. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Neural Combinatorial Optimization for Stochastic Flexible Job Shop Scheduling Problems",
+      "year": 2025,
+      "schools": [
+        "TU/e"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "lập lịch sản xuất",
+        "tối ưu tổ hợp"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Làm sao lập lịch job shop linh hoạt khi thời gian xử lý biến động, với mục tiêu thời gian hoàn thành hoặc rủi ro?",
+      "ai_methods": [
+        "Neural combinatorial optimization; attention-based scenario processing module; huấn luyện chính sách theo expected makespan hoặc Value-at-Risk."
+      ],
+      "method_vi": "Neural combinatorial optimization; attention-based scenario processing module; huấn luyện chính sách theo expected makespan hoặc Value-at-Risk.",
+      "contribution_vi": "Bổ sung mô-đun attention xử lý các kịch bản ngẫu nhiên để mạng học chính sách lập lịch sản xuất khi thời gian gia công không chắc chắn.",
+      "application_vi": "lập lịch sản xuất; tối ưu tổ hợp",
+      "url": "https://research.tue.nl/en/publications/neural-combinatorial-optimization-for-stochastic-flexible-job-sho/",
+      "doi": "10.1609/aaai.v39i25.34870",
+      "source_urls": [
+        "https://research.tue.nl/en/publications/neural-combinatorial-optimization-for-stochastic-flexible-job-sho/"
+      ],
+      "institution_evidence_vi": "Cổng TU/e ghi tác giả cùng các đơn vị Process Analytics, Information Systems IE&IS và EAISI.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đọc abstract, tác giả, DOI và trạng thái Published 11/04/2025 trên cổng TU/e; bài AAAI 2025 có phản biện. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Explainable neural network for time series-based condition monitoring in sheet metal shearing",
+      "year": 2025,
+      "schools": [
+        "RWTH Aachen"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "gia công kim loại",
+        "bảo trì dự đoán",
+        "AI có thể giải thích"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao biết mạng dự đoán mòn dụng cụ dựa trên dấu hiệu vật lý thật hay sai lệch trong phép đo?",
+      "ai_methods": [
+        "Variational autoencoder cho causal representation learning, mô hình biến ẩn và mạng dự đoán độ mòn."
+      ],
+      "method_vi": "Variational autoencoder cho causal representation learning, mô hình biến ẩn và mạng dự đoán độ mòn.",
+      "contribution_vi": "Học biểu diễn nhân quả từ tín hiệu lực đột để tách ảnh hưởng của mài mòn dụng cụ và sai lệch đo; kết hợp với mạng dự đoán mòn nhằm giải thích và kiểm tra độ tin cậy.",
+      "application_vi": "gia công kim loại; bảo trì dự đoán; AI có thể giải thích",
+      "url": "https://publications.rwth-aachen.de/record/1009539",
+      "doi": "10.1007/s10845-025-02596-3",
+      "source_urls": [
+        "https://publications.rwth-aachen.de/record/1009539",
+        "https://publications.rwth-aachen.de/record/1009539/files/1009539.pdf"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi Manufacturing Technology Institute, RWTH Aachen cho cả ba tác giả.",
+      "reading_depth": "abstract_and_first_page_affiliations",
+      "verification_note_vi": "Đã đọc abstract và affiliation trang đầu. Online 28/03/2025; hồ sơ hiện gán tập 37(3), 2026, nên year dùng năm online 2025 và ghi rõ năm số báo 2026. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments",
+      "year": 2025,
+      "schools": [
+        "TU Berlin"
+      ],
+      "group_codes": [
+        "G7",
+        "G5"
+      ],
+      "subtopics_vi": [
+        "robot công nghiệp",
+        "môi trường cộng tác"
+      ],
+      "type": "doctoral_thesis",
+      "status": "thesis_published",
+      "problem_vi": "Làm sao robot công nghiệp lập quỹ đạo khi môi trường thay đổi và chuyển chính sách từ mô phỏng sang thực tế?",
+      "ai_methods": [
+        "Học tăng cường sâu dùng thông tin khoảng cách và camera chiều sâu cho lập kế hoạch chuyển động."
+      ],
+      "method_vi": "Học tăng cường sâu dùng thông tin khoảng cách và camera chiều sâu cho lập kế hoạch chuyển động.",
+      "contribution_vi": "Đề xuất lập kế hoạch chuyển động bằng học tăng cường sâu cho robot công nghiệp trong môi trường hợp tác; dùng thông tin khoảng cách để giảm khối lượng dữ liệu và chuyển mô hình từ mô phỏng sang robot thật.",
+      "application_vi": "robot công nghiệp; môi trường cộng tác",
+      "url": "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+      "doi": "10.14279/depositonce-24638",
+      "source_urls": [
+        "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+        "https://api.datacite.org/dois/10.14279/depositonce-24638"
+      ],
+      "institution_evidence_vi": "DepositOnce ghi Doctoral Thesis của Teham Bhuiyan, năm 2025, Inst. Telekommunikationssysteme. DOI là DOI luận án trong kho, không phải DOI bài báo.",
+      "reading_depth": "abstract_and_metadata_reviewed_previously",
+      "verification_note_vi": "DepositOnce ghi Doctoral Thesis của Teham Bhuiyan, năm 2025, Inst. Telekommunikationssysteme. DOI là DOI luận án trong kho, không phải DOI bài báo. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+      "year": 2025,
+      "schools": [
+        "Chalmers"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "pin lithium-ion",
+        "sạc nhanh",
+        "xe điện"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao sạc pin nhanh mà vẫn tránh mạ lithium khi pin già hóa?",
+      "ai_methods": [
+        "Học máy ước lượng điện thế liên quan đến mạ lithium từ dữ liệu pin khả dụng để hỗ trợ chiến lược sạc."
+      ],
+      "method_vi": "Học máy ước lượng điện thế liên quan đến mạ lithium từ dữ liệu pin khả dụng để hỗ trợ chiến lược sạc.",
+      "contribution_vi": "Ước lượng nguy cơ mạ lithium bằng học máy để điều khiển sạc pin nhanh hơn nhưng vẫn chú ý tuổi thọ; phương pháp sử dụng dữ liệu pin có thể thu được trên xe điện.",
+      "application_vi": "pin lithium-ion; sạc nhanh; xe điện",
+      "url": "https://research.chalmers.se/en/publication/543531",
+      "doi": "10.1016/j.ensm.2024.103877",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/543531"
+      ],
+      "institution_evidence_vi": "Cổng Chalmers ghi Yizhou Zhang, Torsten Wik và Changfu Zou thuộc Electrical Engineering, Systems and Control; John Bergström thuộc Zeekr Technology EU.",
+      "reading_depth": "abstract_and_metadata_reviewed_previously",
+      "verification_note_vi": "Chalmers Research ghi Journal article, 2025; Yizhou Zhang, Torsten Wik, Changfu Zou thuộc Electrical Engineering, Systems and Control. DOI chứa 2024 nhưng năm số tạp chí ghi 2025. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Smart sensing breaks the accuracy barrier in battery state monitoring",
+      "year": 2025,
+      "schools": [
+        "Chalmers"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "giám sát pin",
+        "cảm biến đa phương thức"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Những loại cảm biến nào giúp ước lượng trạng thái pin chính xác hơn dữ liệu điện đơn thuần?",
+      "ai_methods": [
+        "Hợp nhất dữ liệu cảm biến cơ, nhiệt, khí, quang và điện với học máy có khả năng giải thích."
+      ],
+      "method_vi": "Hợp nhất dữ liệu cảm biến cơ, nhiệt, khí, quang và điện với học máy có khả năng giải thích.",
+      "contribution_vi": "Kết hợp cảm biến cơ học, nhiệt, khí, quang và điện với học máy có khả năng giải thích để ước lượng trạng thái sạc pin; nghiên cứu xây dựng ba bộ dữ liệu đa cảm biến.",
+      "application_vi": "giám sát pin; cảm biến đa phương thức",
+      "url": "https://research.chalmers.se/en/publication/547452",
+      "doi": "10.1016/j.ensm.2025.104410",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/547452",
+        "https://api.crossref.org/works/10.1016/j.ensm.2025.104410"
+      ],
+      "institution_evidence_vi": "Chalmers Research ghi Journal article, 2025; các tác giả Xiaolei Bian, Changfu Zou và Torsten Wik thuộc Electrical Engineering, Systems and Control.",
+      "reading_depth": "abstract_and_metadata_reviewed_previously",
+      "verification_note_vi": "Chalmers Research ghi Journal article, 2025; các tác giả Xiaolei Bian, Changfu Zou và Torsten Wik thuộc Electrical Engineering, Systems and Control. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Milano"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "điều khiển hệ phân bố",
+        "mô phỏng chất lưu",
+        "mô hình giảm bậc"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao tránh mô phỏng phương trình vi phân tốn kém mỗi lần cần cập nhật điều khiển cho một kịch bản mới?",
+      "ai_methods": [
+        "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn."
+      ],
+      "method_vi": "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn.",
+      "contribution_vi": "Nén trạng thái và điều khiển hệ phân bố nhiều chiều vào không gian ẩn để tính điều khiển vòng kín thời gian thực, kể cả khi không có đầy đủ phép đo trạng thái.",
+      "application_vi": "điều khiển hệ phân bố; mô phỏng chất lưu; mô hình giảm bậc",
+      "url": "https://re.public.polimi.it/handle/11311/1290369",
+      "doi": "10.1016/j.cma.2025.118030",
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1290369",
+        "https://www.sciencedirect.com/science/article/pii/S0045782525003020"
+      ],
+      "institution_evidence_vi": "Kho RE.PUBLIC@POLIMI ghi công trình của Tomasetto, Braghin và Manzoni với liên kết tác giả nội bộ.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+      "full_text_read": false,
+      "evidence_origin": "previous_verified_catalog"
+    },
+    {
+      "title": "A Novel Method Forecasting for Big Data Analytics in Microgrid Energy Management",
+      "year": 2026,
+      "schools": [
+        "HUST",
+        "DUT"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Dự báo năng lượng microgrid",
+        "Bất định dự báo"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo và quản lý năng lượng microgrid khi nguồn tái tạo và nhu cầu biến động.",
+      "ai_methods": [
+        "LSTM",
+        "Inductive conformal prediction",
+        "Reinforcement learning"
+      ],
+      "method_vi": "Kết hợp LSTM với dự báo khoảng bằng conformal prediction và phân tích dữ liệu phục vụ tối ưu vận hành.",
+      "contribution_vi": "Đề xuất kết hợp dự báo và quản lý năng lượng trong microgrid.",
+      "application_vi": "Vận hành microgrid, cân bằng nguồn và tải.",
+      "url": "https://jst.vn/index.php/ssad/article/view/1259",
+      "doi": "10.51316/jst.187.ssad.2026.36.1.10",
+      "source_urls": [
+        "https://jst.vn/index.php/ssad/article/view/1259"
+      ],
+      "institution_evidence_vi": "Trang bài báo ghi Châu Lê Thị Minh và Tùng Lê Đức thuộc HUST; An Nguyễn Hồng Duy và Quân Dương Minh thuộc DUT.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Tạp chí ghi xuất bản 15/01/2026. Đọc abstract và metadata; không kiểm chứng độc lập các chỉ số trong abstract.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "MRMR Feature Selection Algorithm for Microgrid Frequency Stability Classification",
+      "year": 2025,
+      "schools": [
+        "HCMUTE"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Ổn định tần số microgrid",
+        "Chọn đặc trưng"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phân loại trạng thái ổn định tần số microgrid với ít đặc trưng đầu vào hơn.",
+      "ai_methods": [
+        "Minimum redundancy maximum relevance",
+        "1-nearest neighbor",
+        "BiLSTM"
+      ],
+      "method_vi": "Chọn đặc trưng MRMR và 1-NN, kết hợp mạng BiLSTM-FC để phân loại ổn định tần số.",
+      "contribution_vi": "Đánh giá lựa chọn đặc trưng và bộ phân loại trên hệ microgrid 16 nút.",
+      "application_vi": "Giám sát ổn định tần số và hỗ trợ vận hành microgrid.",
+      "url": "https://etasr.com/index.php/ETASR/article/view/10711",
+      "doi": "10.48084/etasr.10711",
+      "source_urls": [
+        "https://etasr.com/index.php/ETASR/article/view/10711"
+      ],
+      "institution_evidence_vi": "Trang nhà xuất bản ghi bốn tác giả có cơ quan HCMUTE; một tác giả đồng thời thuộc Cao Thắng.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Xuất bản 04/06/2025; đánh giá trên hệ thống nghiên cứu, không khẳng định đã triển khai lưới thực.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Prediction of flyrock distance in open-pit mines using an optimized artificial neural network with evolution strategies",
+      "year": 2025,
+      "schools": [
+        "HUMG"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "An toàn nổ mìn",
+        "Dự báo đá văng"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Ước lượng khoảng cách đá văng để hỗ trợ thiết kế và vùng an toàn khi nổ mìn lộ thiên.",
+      "ai_methods": [
+        "Artificial neural network",
+        "Evolution strategies"
+      ],
+      "method_vi": "Tối ưu mạng neural bằng evolution strategies rồi so sánh với các mô hình ANN khác.",
+      "contribution_vi": "Xây dựng và đánh giá mô hình dự báo từ dữ liệu nổ mìn tại mỏ đồng Tả Phời.",
+      "application_vi": "Lập kế hoạch nổ mìn và an toàn vận hành mỏ.",
+      "url": "https://jmes.humg.edu.vn/en/archives?article=1648&s=3",
+      "doi": "10.46326/JMES.2025.66(2).03",
+      "source_urls": [
+        "https://jmes.humg.edu.vn/en/archives?article=1648&s=3"
+      ],
+      "institution_evidence_vi": "Trang tạp chí chính thức HUMG nêu cơ quan HUMG của nhiều tác giả.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Đọc abstract và cơ quan tác giả; công bố năm 2025, tập 66 số 2.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "A robust XGBoost-based multi-objective optimization algorithm for nonlinear truss structures",
+      "year": 2025,
+      "schools": [
+        "HUCE"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Thiết kế kết cấu",
+        "Mô hình thay thế học máy"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Giảm chi phí tính toán trong tối ưu đa mục tiêu kết cấu giàn phi tuyến.",
+      "ai_methods": [
+        "XGBoost surrogate model",
+        "MOEA/D-DRA",
+        "Differential evolution"
+      ],
+      "method_vi": "Dùng XGBoost làm mô hình thay thế phân tích phần tử hữu hạn trong thuật toán tối ưu đa mục tiêu.",
+      "contribution_vi": "Kiểm tra phương pháp trên bài toán giàn đường dây điện 47 thanh.",
+      "application_vi": "Thiết kế kết cấu kỹ thuật.",
+      "url": "https://stce.huce.edu.vn/index.php/en/article/view/3248",
+      "doi": "10.31814/stce.huce2025-19(1)-11",
+      "source_urls": [
+        "https://stce.huce.edu.vn/index.php/en/article/view/3248"
+      ],
+      "institution_evidence_vi": "Trang tạp chí ghi Mạnh Hùng Hà và Văn Thuật Đinh thuộc HUCE; các tác giả còn lại có cơ quan khác.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Xuất bản 25/03/2025. Có thành phần học máy rõ ràng; không coi toàn bộ thuật toán tối ưu là AI.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "A modified fusion trend extraction with attention model for industrial systems forecasting",
+      "year": 2026,
+      "schools": [
+        "FPT"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Dự báo phụ tải điện",
+        "Hợp nhất xu hướng và attention"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo phụ tải điện ngày tới từ chuỗi thời gian có nhiều thang biến thiên.",
+      "ai_methods": [
+        "Multiscale convolution",
+        "Attention",
+        "Gated fusion",
+        "SHAP"
+      ],
+      "method_vi": "Kết hợp nhánh trích xuất xu hướng bằng convolution với nhánh attention và cổng hợp nhất; dùng SHAP hỗ trợ diễn giải.",
+      "contribution_vi": "Đánh giá mô hình dự báo tải trên dữ liệu ENTSO-E.",
+      "application_vi": "Hỗ trợ dự báo và lập kế hoạch vận hành hệ thống điện.",
+      "url": "https://link.springer.com/article/10.1007/s42452-026-08766-z",
+      "doi": "10.1007/s42452-026-08766-z",
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s42452-026-08766-z"
+      ],
+      "institution_evidence_vi": "Phần cơ quan tác giả trên Springer ghi Minh Anh Hoàng và Hiếu Lê Minh Phan thuộc FPT University, Swinburne Vietnam.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Xuất bản 29/05/2026. Bài đánh giá độ chính xác dự báo; tác động lên quyết định vận hành thực tế còn là hướng nghiên cứu tiếp.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Physics-Informed Weakly-Supervised Learning for Quality Prediction of Manufacturing Processes",
+      "year": 2025,
+      "schools": [
+        "Georgia Tech"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Dự báo chất lượng sản xuất",
+        "Học giám sát yếu có thông tin vật lý"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự báo chất lượng khi nhãn đo chất lượng ít, đắt hoặc cần thử nghiệm phá hủy.",
+      "ai_methods": [
+        "Physics-informed machine learning",
+        "Weakly supervised learning"
+      ],
+      "method_vi": "Dùng mô hình vật lý tạo thông tin giám sát yếu và đồng thời học hiệu chỉnh sai lệch mô hình.",
+      "contribution_vi": "Kết hợp kiến thức vật lý với dữ liệu ít nhãn; đánh giá bằng hai trường hợp sản xuất.",
+      "application_vi": "Kiểm soát chất lượng quá trình chế tạo.",
+      "url": "https://sites.gatech.edu/jianjun-shi/files/2025/02/Physics-Informed_Weakly-Supervised_Learning_for_Quality_Prediction_of_Manufacturing_Processes.pdf",
+      "doi": "10.1109/TASE.2024.3374098",
+      "source_urls": [
+        "https://sites.gatech.edu/jianjun-shi/files/2025/02/Physics-Informed_Weakly-Supervised_Learning_for_Quality_Prediction_of_Manufacturing_Processes.pdf",
+        "https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/4/216/files/2025/02/Physics-Informed_Weakly-Supervised_Learning_for_Quality_Prediction_of_Manufacturing_Processes.pdf"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF trên website Georgia Tech ghi cơ quan Georgia Tech của nhóm tác giả.",
+      "reading_depth": "abstract_and_first_page_affiliations",
+      "verification_note_vi": "Năm 2025 là năm tập IEEE TASE 22; bài được công bố trực tuyến lần đầu 18/03/2024. Chỉ đọc abstract và trang đầu.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Comparative Field Deployment of Reinforcement Learning and Model Predictive Control for Residential HVAC",
+      "year": 2025,
+      "schools": [
+        "CMU"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển HVAC",
+        "Đánh giá thực địa RL"
+      ],
+      "type": "preprint",
+      "status": "preprint_under_review",
+      "problem_vi": "So sánh học tăng cường và MPC trong điều khiển sưởi nhà ở thực với mục tiêu năng lượng và tiện nghi.",
+      "ai_methods": [
+        "Model-based reinforcement learning",
+        "Model predictive control"
+      ],
+      "method_vi": "Triển khai Ibex-RL và MPC để điều khiển điểm đặt bơm nhiệt tại nhà có người ở, mỗi phương pháp khoảng một tháng.",
+      "contribution_vi": "Cung cấp đối chiếu thực địa và phân tích vấn đề thích nghi ban đầu của RL.",
+      "application_vi": "Quản lý điện năng và tiện nghi nhiệt nhà ở.",
+      "url": "https://arxiv.org/abs/2510.01475",
+      "doi": "10.48550/arXiv.2510.01475",
+      "source_urls": [
+        "https://arxiv.org/abs/2510.01475",
+        "https://energy.cmu.edu/news/2026/01/08-berges-ibex-rl.html"
+      ],
+      "institution_evidence_vi": "Bài viết chính thức CMU xác nhận Mario Bergés và Ozan Mulayim tham gia nghiên cứu.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Bản đầu ngày 01/10/2025; bản sửa ngày 16/07/2026 ghi đang phản biện tại Applied Energy. Thử nghiệm ghi nhận phản ánh khó chịu của cư dân trong giai đoạn RL thích nghi.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Model-Free Resilient Grid-Forming and Grid-Following Inverter Control Against Cyberattacks Using Reinforcement Learning",
+      "year": 2025,
+      "schools": [
+        "Virginia Tech"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển inverter",
+        "Chống chịu tấn công vào vận hành lưới"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Duy trì điều khiển inverter khi có nhiễu và tấn công mà không cần biết đầy đủ tham số bên trong.",
+      "ai_methods": [
+        "Model-free reinforcement learning"
+      ],
+      "method_vi": "Huấn luyện điều khiển RL cho inverter grid-forming và grid-following, thử trong mô phỏng PSCAD.",
+      "contribution_vi": "Đánh giá điều khiển trên lưới CIGRE 14 nút với bảy nguồn inverter trong tình huống quá độ và tấn công.",
+      "application_vi": "Độ tin cậy vận hành lưới tích hợp nguồn điện tử công suất.",
+      "url": "https://vtechworks.lib.vt.edu/items/cb7e6699-ffc9-4486-b302-018640fb7ebb",
+      "doi": null,
+      "source_urls": [
+        "https://vtechworks.lib.vt.edu/items/cb7e6699-ffc9-4486-b302-018640fb7ebb"
+      ],
+      "institution_evidence_vi": "Kho VTechWorks chính thức ghi tác giả Beikbabaei, Kwiatkowski, Mehrizi-Sani và đặt bài trong bộ sưu tập Electrical and Computer Engineering.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Bài Electronics năm 2025, tập 14, bài 288. Đọc metadata và abstract; DOI chưa ghi lại chắc chắn. Đây là điều khiển hệ vật lý, không chỉ phân loại tấn công mạng.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Integrating machine learning with multimodal monitoring system utilizing acoustic and vision sensing to evaluate geometric variations in laser directed energy deposition",
+      "year": 2025,
+      "schools": [
+        "Stevens"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Giám sát chế tạo bồi đắp",
+        "Cảm biến âm thanh và thị giác"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Nhận biết biến thiên hình học trong quá trình laser directed energy deposition.",
+      "ai_methods": [
+        "Support vector machine",
+        "Neural networks",
+        "Random forest",
+        "Gradient boosting",
+        "XGBoost",
+        "Logistic regression"
+      ],
+      "method_vi": "Kết hợp đặc trưng phát xạ âm với camera đồng trục và so sánh các bộ học máy dự báo biến thiên hình học từng lớp.",
+      "contribution_vi": "Đánh giá giám sát đa phương thức trên ba hình học chi tiết.",
+      "application_vi": "Theo dõi chất lượng sản xuất bồi đắp kim loại.",
+      "url": "https://researchwith.stevens.edu/en/publications/integrating-machine-learning-with-multimodal-monitoring-system-ut/",
+      "doi": "10.1007/s00170-025-16946-1",
+      "source_urls": [
+        "https://researchwith.stevens.edu/en/publications/integrating-machine-learning-with-multimodal-monitoring-system-ut/"
+      ],
+      "institution_evidence_vi": "Cổng nghiên cứu Stevens gắn Ke Xu, Vallabh và Manoochehri với Mechanical Engineering.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Cổng ghi công bố tháng 12/2025; kết quả trên ba hình học nghiên cứu không chứng minh bao phủ mọi dạng khuyết tật.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Practical deployment of reinforcement learning for building controls using an imitation learning approach",
+      "year": 2025,
+      "schools": [
+        "ETH Zurich",
+        "Politecnico di Torino"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển tòa nhà",
+        "Học bắt chước trước khi triển khai RL"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Giảm rủi ro khởi động và nhu cầu dữ liệu khi triển khai học tăng cường điều khiển tòa nhà.",
+      "ai_methods": [
+        "Imitation learning",
+        "Behavior cloning",
+        "Deep reinforcement learning"
+      ],
+      "method_vi": "Khởi tạo chính sách bằng behavior cloning từ bộ điều khiển luật rồi thích nghi trực tuyến bằng DRL.",
+      "contribution_vi": "Đề xuất quy trình triển khai RL tận dụng bộ điều khiển đang hoạt động.",
+      "application_vi": "Điều khiển HVAC tòa nhà.",
+      "url": "https://www.research-collection.ethz.ch/entities/publication/ff2717a6-1b04-4d58-9244-e2364482c352",
+      "doi": null,
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/ff2717a6-1b04-4d58-9244-e2364482c352",
+        "https://www.research-collection.ethz.ch/bitstreams/a1bf0254-c93a-400e-b98f-53521f2ac344/download"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi Silvestri và Schlueter thuộc ETH Zurich; Coraci, Brandi và Capozzoli thuộc Politecnico di Torino.",
+      "reading_depth": "indexed_abstract_and_first_page_affiliations",
+      "verification_note_vi": "Energy and Buildings 335, 115511, năm 2025. Kho chặn truy cập trực tiếp; đọc abstract được lập chỉ mục và thông tin cơ quan trên trang đầu PDF. Chưa xác minh DOI nên để trống.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "RL-ADN: A high-performance Deep Reinforcement Learning environment for optimal Energy Storage Systems dispatch in active distribution networks",
+      "year": 2025,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều độ lưu trữ năng lượng",
+        "Môi trường huấn luyện RL cho lưới phân phối"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Huấn luyện và so sánh bộ điều khiển lưu trữ năng lượng trong lưới phân phối với chi phí mô phỏng phù hợp.",
+      "ai_methods": [
+        "Deep reinforcement learning",
+        "Gaussian mixture model",
+        "Copula-based data augmentation"
+      ],
+      "method_vi": "Kết hợp môi trường DRL với sinh dữ liệu và bộ giải Tensor Power Flow.",
+      "contribution_vi": "Cung cấp thư viện và môi trường thực nghiệm mở cho điều độ hệ lưu trữ năng lượng.",
+      "application_vi": "Điều độ pin trong lưới phân phối chủ động.",
+      "url": "https://research.tudelft.nl/en/publications/rl-adn-a-high-performance-deep-reinforcement-learning-environment/",
+      "doi": "10.1016/j.egyai.2024.100457",
+      "source_urls": [
+        "https://research.tudelft.nl/en/publications/rl-adn-a-high-performance-deep-reinforcement-learning-environment/"
+      ],
+      "institution_evidence_vi": "Cổng nghiên cứu TU Delft liên kết bài với Electrical Sustainable Energy và Intelligent Power Grids.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Năm 2025 theo tập 19 của Energy and AI; DOI chứa năm 2024 không dùng để thay năm xuất bản.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search",
+      "code_url": "https://github.com/distributionnetworksTUDelft/RL-ADN"
+    },
+    {
+      "title": "Boosting the Performance of Deep Reinforcement Learning for Energy Management Systems using Behavior Cloning from Linear Programming Solutions",
+      "year": 2025,
+      "schools": [
+        "TUM"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Quản lý hệ điện mặt trời và pin",
+        "Khởi tạo chính sách RL"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Cải thiện hiệu quả huấn luyện RL cho quản lý năng lượng khi có giá điện biến động.",
+      "ai_methods": [
+        "Behavior cloning",
+        "Proximal policy optimization"
+      ],
+      "method_vi": "Khởi tạo chính sách PPO bằng behavior cloning từ nghiệm quy hoạch tuyến tính.",
+      "contribution_vi": "Đánh giá cách sử dụng lời giải tối ưu để hỗ trợ học chính sách quản lý năng lượng.",
+      "application_vi": "Quản lý điện mặt trời, pin và chi phí điện.",
+      "url": "https://mediatum.ub.tum.de/doc/1832932/document.pdf",
+      "doi": "10.1145/3679240.3734605",
+      "source_urls": [
+        "https://mediatum.ub.tum.de/doc/1832932/document.pdf"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi Christoph Goebel thuộc TUM; Sheng Yin và Holger Hesse thuộc Kempten.",
+      "reading_depth": "indexed_abstract_and_first_page_affiliations",
+      "verification_note_vi": "Bài ACM e-Energy 2025, hội nghị 17–20/06/2025. Truy cập PDF trực tiếp bị giới hạn; đọc nội dung abstract và trang đầu được lập chỉ mục.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Offline to Online Reinforcement Learning for Optimizing FACTS Setpoints",
+      "year": 2025,
+      "schools": [
+        "KTH"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển FACTS",
+        "Điều chỉnh điện áp và dòng công suất"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Học điểm đặt thiết bị FACTS để hỗ trợ điều khiển lưới và giảm chi phí học trực tuyến.",
+      "ai_methods": [
+        "Offline reinforcement learning",
+        "Online reinforcement learning"
+      ],
+      "method_vi": "Tiền huấn luyện từ dữ liệu rồi chuyển sang học trực tuyến điều chỉnh điểm đặt FACTS.",
+      "contribution_vi": "Đánh giá cách chuyển từ học offline sang online trên các hệ kiểm tra 14 và 57 nút.",
+      "application_vi": "Điều khiển công suất và điện áp trong hệ thống điện.",
+      "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1979922",
+      "doi": "10.1016/j.segan.2025.101826",
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1979922",
+        "https://www.sciencedirect.com/science/article/abs/pii/S2352467725002085"
+      ],
+      "institution_evidence_vi": "Bản ghi KTH DiVA xác định Magnus Tarle thuộc KTH EECS, Robotics, Perception and Learning; có các tác giả KTH Lars Nordström và Mårten Björkman.",
+      "reading_depth": "indexed_abstract_and_official_metadata",
+      "verification_note_vi": "Tập 43 của Sustainable Energy, Grids and Networks năm 2025. Kho có chặn tự động; đọc bản ghi được lập chỉ mục và abstract nhà xuất bản. Chưa chứng minh triển khai lưới thật.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Safe reinforcement learning for ship energy management optimization with LLM-based reward shaping",
+      "year": 2025,
+      "schools": [
+        "Aalto"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Quản lý năng lượng tàu",
+        "RL an toàn"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Tối ưu vận hành năng lượng tàu trong khi ngăn các hành động vi phạm ràng buộc an toàn.",
+      "ai_methods": [
+        "Safe reinforcement learning",
+        "Formal shielding",
+        "LLM-based reward shaping"
+      ],
+      "method_vi": "Dùng lớp bảo vệ hình thức chặn hành động không an toàn, LLM hỗ trợ tạo phần thưởng và mô hình vật lý/mô hình thay thế cho huấn luyện.",
+      "contribution_vi": "Báo cáo bước đầu kết hợp RL an toàn với tạo phần thưởng bằng LLM.",
+      "application_vi": "Hệ quản lý năng lượng tàu.",
+      "url": "https://research.aalto.fi/fi/publications/safe-reinforcement-learning-for-ship-energy-management-optimizati/",
+      "doi": "10.1109/ETFA65518.2025.11205530",
+      "source_urls": [
+        "https://research.aalto.fi/fi/publications/safe-reinforcement-learning-for-ship-energy-management-optimizati/"
+      ],
+      "institution_evidence_vi": "Cổng Aalto gắn Udayanto Dwi Atmojo với Electrical Engineering and Automation và Information Technologies in Industrial Automation.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Bài ETFA 2025 dài bốn trang, dạng work-in-progress với kết quả sơ bộ; không diễn đạt thành hệ thống công nghiệp đã triển khai.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Data-Driven Energy Modeling of Machining Centers Through Automata Learning",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Milano"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Mô hình năng lượng máy CNC",
+        "Học automata"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Dự đoán điện năng của chương trình gia công trước khi thực hiện cắt.",
+      "ai_methods": [
+        "Automata learning",
+        "Hybrid stochastic modeling"
+      ],
+      "method_vi": "Học mô hình lai ngẫu nhiên của trạng thái máy từ tín hiệu như tốc độ trục chính và tải.",
+      "contribution_vi": "Xây dựng mô hình năng lượng dựa trên dữ liệu và đánh giá bằng dữ liệu sản xuất công nghiệp.",
+      "application_vi": "Lập kế hoạch gia công CNC và quản lý điện năng.",
+      "url": "https://re.public.polimi.it/handle/11311/1270148",
+      "doi": null,
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1270148"
+      ],
+      "institution_evidence_vi": "Kho Polimi liên kết nội bộ với Livia Lestingi, Nicla Frigerio, Marcello Bersani, Andrea Matta và Matteo Rossi.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Metadata ghi IEEE Transactions on Automation Science and Engineering năm 2025. DOI chưa được xác minh trong lượt đọc.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "CityLearn v2: energy-flexible, resilient, occupant-centric, and carbon-aware management of grid-interactive communities",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Torino"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Quản lý năng lượng cộng đồng tòa nhà",
+        "Môi trường kiểm thử RL"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Đánh giá điều khiển cộng đồng tòa nhà theo điện năng, phát thải, độ bền vững và tiện nghi cư dân.",
+      "ai_methods": [
+        "Reinforcement learning",
+        "Data-driven thermal modeling"
+      ],
+      "method_vi": "Xây dựng môi trường mô phỏng RL có pin, xe điện, bơm nhiệt và mô hình nhiệt học từ dữ liệu.",
+      "contribution_vi": "Mở rộng nền tảng kiểm thử cho điều khiển phối hợp tòa nhà tương tác với lưới.",
+      "application_vi": "Quản lý tải và thiết bị năng lượng ở quy mô cộng đồng.",
+      "url": "https://iris.polito.it/handle/11583/2995379",
+      "doi": "10.1080/19401493.2024.2418813",
+      "source_urls": [
+        "https://iris.polito.it/handle/11583/2995379"
+      ],
+      "institution_evidence_vi": "Kho Polito liên kết tác giả Giacomo Buscemi, Giuseppe Pinto và Alfonso Capozzoli.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Năm 2025 theo bản ghi tạp chí; DOI chứa năm 2024. Đây là môi trường kiểm thử, không đồng nghĩa một chính sách điều khiển đã triển khai thực.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Deep reinforcement learning as a tool for the analysis and optimization of energy flows in multi-energy systems",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Torino"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Hệ đa năng lượng",
+        "Diễn giải chính sách điều khiển"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phối hợp các dòng điện, nhiệt và lưu trữ để tối ưu vận hành hệ đa năng lượng.",
+      "ai_methods": [
+        "Deep reinforcement learning",
+        "Policy interpretation"
+      ],
+      "method_vi": "Học chính sách điều khiển các thiết bị CHP, pin, bơm nhiệt và power-to-gas; phân tích chính sách để rút ra luật vận hành.",
+      "contribution_vi": "Sử dụng RL vừa để tối ưu, vừa để hiểu và cải thiện chiến lược điều khiển.",
+      "application_vi": "Hệ đa năng lượng có nhiều thiết bị chuyển đổi và lưu trữ.",
+      "url": "https://iris.polito.it/handle/11583/3001325",
+      "doi": "10.1016/j.enconman.2025.120095",
+      "source_urls": [
+        "https://iris.polito.it/handle/11583/3001325"
+      ],
+      "institution_evidence_vi": "Kho Polito liên kết Andrea Franzoso, Gabriele Fambri và Marco Badami.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Bài Energy Conversion and Management tập 341 năm 2025; chỉ tóm tắt nội dung abstract.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "FedCCL: Federated Clustered Continual Learning Framework for Privacy-Focused Energy Forecasting",
+      "year": 2025,
+      "schools": [
+        "TU Wien"
+      ],
+      "group_codes": [
+        "G7",
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Dự báo điện mặt trời",
+        "Học liên kết liên tục"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Dự báo năng lượng phân tán khi dữ liệu cần giữ riêng và mức độ tham gia của các nút thay đổi.",
+      "ai_methods": [
+        "Federated learning",
+        "Clustered continual learning",
+        "Asynchronous FedAvg"
+      ],
+      "method_vi": "Kết hợp phân cụm ban đầu với các mô hình toàn cục, theo cụm và cục bộ trong quy trình học liên kết bất đồng bộ.",
+      "contribution_vi": "Đánh giá dự báo điện mặt trời với dữ liệu Trung Âu và các tình huống tham gia không đồng đều.",
+      "application_vi": "Dự báo sản lượng năng lượng ở các nút phân tán.",
+      "url": "https://ieeexplore.ieee.org/document/11044556/",
+      "doi": "10.1109/ICFEC65699.2025.00012",
+      "source_urls": [
+        "https://ieeexplore.ieee.org/document/11044556/",
+        "https://repositum.tuwien.at/handle/20.500.12708/218535"
+      ],
+      "institution_evidence_vi": "Kho TU Wien ghi Michael A. Helcig và Stefan Nastic của Distributed Systems Group.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Kho có bản preprint ngày 28/04/2025; IEEE xác nhận bản xuất bản ICFEC 2025, hội nghị 19–22/05/2025. Dùng trạng thái bản hội nghị đã xuất bản.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search",
+      "code_url": "https://github.com/polaris-slo-cloud/fedccl"
+    },
+    {
+      "title": "FurnAIce: Integrating Physical Modeling, AI, and Human Expertise for Energy-Efficient Tunnel Kiln Brick Production",
+      "year": 2025,
+      "schools": [
+        "TU Wien"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Lò nung gạch tiết kiệm năng lượng",
+        "Mô hình lai vật lý và AI"
+      ],
+      "type": "research_project",
+      "status": "ongoing",
+      "problem_vi": "Giảm năng lượng và cải thiện vận hành lò nung hầm trong sản xuất gạch.",
+      "ai_methods": [
+        "Hybrid physical and machine-learning models",
+        "Reinforcement learning",
+        "Model predictive control"
+      ],
+      "method_vi": "Dự án kết hợp mô hình nhiệt động, học máy, điều khiển dự báo/học tăng cường và tri thức người vận hành.",
+      "contribution_vi": "Xây dựng phương pháp và mô hình số để nghiên cứu điều khiển lò nung hiệu quả hơn.",
+      "application_vi": "Sản xuất gạch công nghiệp.",
+      "url": "https://www.tuwien.at/en/mwbw/mec/e325-04-research-unit-of-control-and-process-automation/research-projects/furnaice",
+      "doi": null,
+      "source_urls": [
+        "https://www.tuwien.at/en/mwbw/mec/e325-04-research-unit-of-control-and-process-automation/research-projects/furnaice"
+      ],
+      "institution_evidence_vi": "Trang dự án chính thức TU Wien, nhóm Control and Process Automation, nêu hợp tác với Wienerberger.",
+      "reading_depth": "official_project_description",
+      "verification_note_vi": "Dự án từ 04/2025 đến 03/2028. Các mức giảm năng lượng và kiểm chứng công nghiệp trên trang là mục tiêu dự án; chưa xem là kết quả đã đạt.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "A reinforcement learning approach for optimal control in microgrids",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Milano"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển microgrid",
+        "Giao dịch điện và lưu trữ"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Lựa chọn giao dịch điện và vận hành pin trong microgrid với sản lượng, nhu cầu và giá biến động.",
+      "ai_methods": [
+        "Reinforcement learning",
+        "Battery digital twin"
+      ],
+      "method_vi": "Huấn luyện chính sách bằng dữ liệu lịch sử và mô hình pin có suy giảm.",
+      "contribution_vi": "Đánh giá chính sách điều khiển microgrid với dữ liệu thực từ hệ thống điện Italy.",
+      "application_vi": "Quản lý lưu trữ và chi phí giao dịch điện.",
+      "url": "https://re.public.polimi.it/handle/11311/1295842",
+      "doi": null,
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1295842"
+      ],
+      "institution_evidence_vi": "Kho Polimi liên kết nội bộ D. Salaorni, M. Restelli và F. Trovo.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Bài IJCNN 2025. Dùng dữ liệu thực để đánh giá không đồng nghĩa điều khiển đã triển khai tại microgrid thực; DOI chưa xác minh.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Active ramp-down control and trajectory design for tokamaks with neural differential equations and reinforcement learning",
+      "year": 2025,
+      "schools": [
+        "MIT"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển tokamak",
+        "Mô hình lai vật lý và học máy"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Thiết kế quá trình giảm dòng plasma đáp ứng các ràng buộc vận hành tokamak.",
+      "ai_methods": [
+        "Neural differential equations",
+        "Reinforcement learning",
+        "Hybrid physics-ML modeling"
+      ],
+      "method_vi": "Dùng neural differential equations tạo môi trường mô phỏng và huấn luyện chính sách RL, kiểm tra độ bền vững qua biến thiên tham số vật lý.",
+      "contribution_vi": "Đề xuất phương pháp thiết kế và điều khiển quỹ đạo ramp-down cho tokamak.",
+      "application_vi": "Nghiên cứu điều khiển hệ thống năng lượng nhiệt hạch.",
+      "url": "https://www.nature.com/articles/s42005-025-02146-6",
+      "doi": "10.1038/s42005-025-02146-6",
+      "source_urls": [
+        "https://www.nature.com/articles/s42005-025-02146-6",
+        "https://www.psfc.mit.edu/about/people/researchers/cristina-rea"
+      ],
+      "institution_evidence_vi": "Hồ sơ nghiên cứu chính thức MIT Plasma Science and Fusion Center của Cristina Rea liệt kê đúng bài này.",
+      "reading_depth": "indexed_publisher_abstract_and_official_author_page",
+      "verification_note_vi": "Communications Physics 8, 231, xuất bản 04/06/2025. Đánh giá trên mô phỏng SPARC và mô phỏng vận chuyển; không phải vận hành máy SPARC thực.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Deep learning-enhanced defects detection for printed circuit boards",
+      "year": 2025,
+      "schools": [
+        "UET"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Kiểm tra chất lượng PCB",
+        "Phát hiện khuyết tật bằng thị giác"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phát hiện vết nứt và xước trên bảng mạch in trong điều kiện ảnh và chiếu sáng thay đổi.",
+      "ai_methods": [
+        "U-Net",
+        "Image segmentation",
+        "ORB features"
+      ],
+      "method_vi": "Kết hợp phân đoạn bằng U-Net với đăng ký ảnh dùng đặc trưng ORB và ghép đặc trưng brute-force.",
+      "contribution_vi": "Đánh giá quy trình phát hiện khuyết tật trên ảnh PCB.",
+      "application_vi": "Kiểm tra chất lượng chế tạo điện tử.",
+      "url": "https://shibaura.elsevierpure.com/en/publications/deep-learning-enhanced-defects-detection-for-printed-circuit-boar/",
+      "doi": "10.1016/j.rineng.2025.104067",
+      "source_urls": [
+        "https://shibaura.elsevierpure.com/en/publications/deep-learning-enhanced-defects-detection-for-printed-circuit-boar/",
+        "https://pure.qub.ac.uk/files/631105026/1-s2.0-S2590123025001550-main.pdf"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi Xiêm Hoàng Văn thuộc Faculty of Electronics and Telecommunications, VNU University of Engineering and Technology.",
+      "reading_depth": "abstract_and_first_page_affiliations",
+      "verification_note_vi": "Results in Engineering 25, 104067, tháng 03/2025. Đọc abstract, metadata và cơ quan tác giả; không gán YOLO cho bài này.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    },
+    {
+      "title": "Machine learning-driven diagnosis of lithium-ion battery performance in electric vehicles",
+      "year": 2025,
+      "schools": [
+        "Phenikaa"
+      ],
+      "group_codes": [
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Chẩn đoán pin xe điện",
+        "Phân loại trạng thái vận hành"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phân biệt trạng thái bình thường, quá xả và đoản mạch của pin lithium-ion.",
+      "ai_methods": [
+        "Supervised machine-learning classification"
+      ],
+      "method_vi": "Huấn luyện và so sánh mô hình phân loại trạng thái pin; kết hợp mô hình được chọn với giao diện hỗ trợ chẩn đoán.",
+      "contribution_vi": "Nghiên cứu quy trình chẩn đoán hiệu năng pin bằng học máy.",
+      "application_vi": "Giám sát pin xe điện.",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/15435075.2025.2532723",
+      "doi": "10.1080/15435075.2025.2532723",
+      "source_urls": [
+        "https://www.tandfonline.com/doi/abs/10.1080/15435075.2025.2532723"
+      ],
+      "institution_evidence_vi": "Thông tin cơ quan tác giả được lập chỉ mục từ nhà xuất bản ghi Tien Thinh Le thuộc Mechanical and Mechatronics Engineering, Phenikaa University.",
+      "reading_depth": "indexed_abstract_and_affiliations",
+      "verification_note_vi": "International Journal of Green Energy 22(16), năm 2025. Nhà xuất bản chặn truy cập trực tiếp; đọc abstract và cơ quan được lập chỉ mục. Không nêu tên thuật toán cụ thể khi chưa xác minh.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search"
+    }
+  ],
+  "school_audit": [
+    {
+      "school": "USTH",
+      "queries": [
+        "site:usth.edu.vn \"machine learning\" (energy OR fault OR forecasting) 2025"
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Truy vấn chưa cung cấp bằng chứng đủ chắc cho một công trình G7 trong lượt này. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "HUST",
+      "queries": [
+        "\"Hanoi University of Science and Technology\" \"machine learning\" energy 2025"
+      ],
+      "source_urls": [
+        "https://jst.vn/index.php/ssad/article/view/1259"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Có bài microgrid đồng tác giả với DUT. Các mục HUST do nhóm tổng hợp kiểm tra riêng không được sao chép vào tệp này. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "UET",
+      "queries": [
+        "\"VNU University of Engineering and Technology\" \"deep learning\" energy 2025",
+        "\"Deep learning-enhanced defects detection for printed circuit boards\""
+      ],
+      "source_urls": [
+        "https://shibaura.elsevierpure.com/en/publications/deep-learning-enhanced-defects-detection-for-printed-circuit-boar/",
+        "https://pure.qub.ac.uk/files/631105026/1-s2.0-S2590123025001550-main.pdf"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "HCMUT",
+      "queries": [
+        "site:hpcc.hcmut.edu.vn \"2025\" (energy OR scheduling OR power)"
+      ],
+      "source_urls": [
+        "https://link.springer.com/chapter/10.1007/978-981-95-4960-3_33",
+        "https://hpcc.hcmut.edu.vn/publications",
+        "https://ist.hcmut.edu.vn/~thanhhoang/papers/dream2026.pdf",
+        "https://ist.hcmut.edu.vn/~thanhhoang/"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "UIT",
+      "queries": [
+        "\"University of Information Technology\" \"Vietnam\" \"deep learning\" \"load forecasting\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Chưa xác minh được công trình đúng cơ quan UIT và có ứng dụng vận hành năng lượng/kỹ thuật rõ ràng. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "PTIT",
+      "queries": [
+        "\"Posts and Telecommunications Institute of Technology\" \"predictive maintenance\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Có đầu mối nhà kính/TinyML từ danh mục trước; chưa nâng mục chỉ có tiêu đề vào danh sách xác minh G7 này. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "DUT",
+      "queries": [
+        "\"University of Science and Technology\" \"Danang\" \"microgrid\" \"2025\""
+      ],
+      "source_urls": [
+        "https://jst-ud.vn/jst-ud/article/view/10204",
+        "https://jst-ud.vn/jst-ud/article/view/9828",
+        "https://jst.vn/index.php/ssad/article/view/1259"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 3 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "VKU",
+      "queries": [
+        "\"Vietnam Korea University\" \"machine learning\" \"energy\"",
+        "\"Application of Statistical and Machine Learning Models in Vietnam’s Energy Consumption Demand Forecasting\""
+      ],
+      "source_urls": [
+        "https://elib.vku.udn.vn/handle/123456789/7663"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "HCMUTE",
+      "queries": [
+        "\"Ho Chi Minh City University of Technology and Education\" \"machine learning\" \"fault\" \"2025\""
+      ],
+      "source_urls": [
+        "https://www.jte.edu.vn/index.php/jte/article/view/1901",
+        "https://etasr.com/index.php/ETASR/article/view/10711"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "VLUTE",
+      "queries": [
+        "\"Vinh Long University of Technology Education\" \"deep learning\" \"fault\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Chưa xác minh được công trình đủ thông tin về phương pháp học máy và ứng dụng G7. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "MTA",
+      "queries": [
+        "\"Military Technical Academy\" \"machine learning\" \"fault\" \"2025\""
+      ],
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Đã loại kết quả của Military Technical Academy tại Romania; mục giữ lại dựa vào bằng chứng cơ quan Việt Nam trong bộ dữ liệu đã kiểm tra. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "KMA",
+      "queries": [
+        "\"Academy of Cryptography Techniques\" \"machine learning\" \"energy\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Chưa có bằng chứng gắn học máy với vận hành năng lượng/kỹ thuật; nghiên cứu an ninh mạng chung không tự động vào G7. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "UTC",
+      "queries": [
+        "\"University of Transport and Communications\" \"deep learning\" \"traffic\" \"2025\""
+      ],
+      "source_urls": [
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2613",
+        "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2759"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "HUMG",
+      "queries": [
+        "\"Hanoi University of Mining and Geology\" \"machine learning\" \"blasting\" \"2025\""
+      ],
+      "source_urls": [
+        "https://jmes.humg.edu.vn/en/archives?article=1648&s=3"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "HUCE",
+      "queries": [
+        "\"Hanoi University of Civil Engineering\" \"machine learning\" \"building\" \"2025\""
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-48743-5",
+        "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+        "https://fit.huce.edu.vn/danh-muc-ca",
+        "https://stce.huce.edu.vn/index.php/en/article/view/3248"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "FPT",
+      "queries": [
+        "\"FPT University\" \"deep learning\" \"energy\" \"2025\""
+      ],
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s42452-026-08766-z"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Phenikaa",
+      "queries": [
+        "\"Phenikaa University\" \"machine learning\" \"fault\" \"2025\"",
+        "\"Machine learning-driven diagnosis of lithium-ion battery performance in electric vehicles\""
+      ],
+      "source_urls": [
+        "https://www.tandfonline.com/doi/abs/10.1080/15435075.2025.2532723"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "MIT",
+      "queries": [
+        "site:mit.edu \"2025\" \"reinforcement learning\" \"energy\"",
+        "\"Active ramp-down control and trajectory design for tokamaks with neural differential equations and reinforcement learning\""
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s42005-025-02146-6",
+        "https://www.psfc.mit.edu/about/people/researchers/cristina-rea"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Caltech",
+      "queries": [
+        "site:caltech.edu \"2025\" \"learning\" \"power grid\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Kết quả tìm chưa đủ metadata và bằng chứng phù hợp để thêm công trình G7. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Georgia Tech",
+      "queries": [
+        "site:gatech.edu \"2025\" \"machine learning\" \"manufacturing\"",
+        "\"Physics-Informed Weakly-Supervised Learning for Quality Prediction of Manufacturing Processes\""
+      ],
+      "source_urls": [
+        "https://sites.gatech.edu/jianjun-shi/files/2025/02/Physics-Informed_Weakly-Supervised_Learning_for_Quality_Prediction_of_Manufacturing_Processes.pdf",
+        "https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/4/216/files/2025/02/Physics-Informed_Weakly-Supervised_Learning_for_Quality_Prediction_of_Manufacturing_Processes.pdf"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "CMU",
+      "queries": [
+        "site:cmu.edu \"2025\" \"reinforcement learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://arxiv.org/abs/2510.01475",
+        "https://energy.cmu.edu/news/2026/01/08-berges-ibex-rl.html"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Purdue",
+      "queries": [
+        "site:purdue.edu \"2025\" \"machine learning\" \"fault detection\""
+      ],
+      "source_urls": [
+        "https://www.mdpi.com/1996-1073/18/9/2286",
+        "https://engineering.purdue.edu/AISL/publications"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "RPI",
+      "queries": [
+        "site:rpi.edu \"2025\" \"machine learning\" \"manufacturing\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Chưa xác minh được công trình cụ thể từ kết quả truy vấn sản xuất và học máy. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Virginia Tech",
+      "queries": [
+        "site:vt.edu \"2025\" \"reinforcement learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://vtechworks.lib.vt.edu/items/cb7e6699-ffc9-4486-b302-018640fb7ebb"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Texas A&M",
+      "queries": [
+        "site:tamu.edu \"2025\" \"deep learning\" \"fault\""
+      ],
+      "source_urls": [
+        "https://arxiv.org/abs/2409.13104",
+        "https://dl.acm.org/doi/10.1145/3671127.3698186",
+        "https://github.com/LENSS/ERIC-BuildSys2024",
+        "https://engineering.tamu.edu/news/2025/07/the-key-to-lowering-your-water-bill-may-already-be-at-your-door.html"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Stevens",
+      "queries": [
+        "site:stevens.edu \"2025\" \"machine learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://researchwith.stevens.edu/en/publications/integrating-machine-learning-with-multimodal-monitoring-system-ut/"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "IIT",
+      "queries": [
+        "site:iit.edu \"2025\" \"reinforcement learning\" \"power\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Không đưa lập lịch FPGA bằng tối ưu cổ điển và bài mạng chung vào G7 nếu chưa có học máy gắn với vận hành năng lượng/kỹ thuật. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "ETH Zurich",
+      "queries": [
+        "site:ethz.ch \"2025\" \"reinforcement learning\" \"energy\"",
+        "\"Practical deployment of reinforcement learning for building controls using an imitation learning approach\""
+      ],
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/ff2717a6-1b04-4d58-9244-e2364482c352",
+        "https://www.research-collection.ethz.ch/bitstreams/a1bf0254-c93a-400e-b98f-53521f2ac344/download"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "EPFL",
+      "queries": [
+        "site:epfl.ch \"2025\" \"learning\" \"power grid\""
+      ],
+      "source_urls": [],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Chưa xác minh được bài phù hợp về vận hành lưới; các bài vật liệu/hoá học không tự động thuộc G7. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Imperial",
+      "queries": [
+        "\"Imperial College\" \"2025\" \"machine learning\" \"battery\""
+      ],
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+        "https://api.crossref.org/works/10.1016/j.energy.2025.134592",
+        "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+        "https://www.sciencedirect.com/science/article/pii/S2666546826000728"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "TU Delft",
+      "queries": [
+        "site:research.tudelft.nl \"2025\" \"reinforcement learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://research.tudelft.nl/en/publications/rl-adn-a-high-performance-deep-reinforcement-learning-environment/"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "TU/e",
+      "queries": [
+        "site:research.tue.nl \"2025\" \"learning\" \"fault\""
+      ],
+      "source_urls": [
+        "https://research.tue.nl/en/publications/neural-augmented-kalman-filters-for-road-network-assisted-gnss-po/",
+        "https://icml.cc/virtual/2025/47044",
+        "https://research.tue.nl/en/publications/neural-combinatorial-optimization-for-stochastic-flexible-job-sho/"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "RWTH Aachen",
+      "queries": [
+        "site:publications.rwth-aachen.de \"2025\" \"learning\" \"predictive maintenance\""
+      ],
+      "source_urls": [
+        "https://publications.rwth-aachen.de/record/1009539",
+        "https://publications.rwth-aachen.de/record/1009539/files/1009539.pdf"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "TUM",
+      "queries": [
+        "site:mediatum.ub.tum.de \"2025\" \"learning\" \"battery\"",
+        "\"Boosting the Performance of Deep Reinforcement Learning for Energy Management Systems using Behavior Cloning\""
+      ],
+      "source_urls": [
+        "https://mediatum.ub.tum.de/doc/1832932/document.pdf"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "TU Berlin",
+      "queries": [
+        "site:tu.berlin \"2025\" \"learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+        "https://api.datacite.org/dois/10.14279/depositonce-24638"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "KTH",
+      "queries": [
+        "site:kth.diva-portal.org \"2025\" \"reinforcement learning\" \"energy\"",
+        "\"Offline to Online Reinforcement Learning for Optimizing FACTS Setpoints\""
+      ],
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1979922",
+        "https://www.sciencedirect.com/science/article/abs/pii/S2352467725002085"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Chalmers",
+      "queries": [
+        "site:research.chalmers.se \"2025\" \"learning\" \"battery\""
+      ],
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/543531",
+        "https://research.chalmers.se/en/publication/547452",
+        "https://api.crossref.org/works/10.1016/j.ensm.2025.104410"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Aalto",
+      "queries": [
+        "site:research.aalto.fi \"2025\" \"learning\" \"energy management\""
+      ],
+      "source_urls": [
+        "https://research.aalto.fi/fi/publications/safe-reinforcement-learning-for-ship-energy-management-optimizati/"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 1 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Politecnico di Milano",
+      "queries": [
+        "site:re.public.polimi.it \"2025\" \"learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1290369",
+        "https://www.sciencedirect.com/science/article/pii/S0045782525003020",
+        "https://re.public.polimi.it/handle/11311/1270148",
+        "https://re.public.polimi.it/handle/11311/1295842"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 3 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "Politecnico di Torino",
+      "queries": [
+        "site:iris.polito.it \"2025\" \"learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/ff2717a6-1b04-4d58-9244-e2364482c352",
+        "https://www.research-collection.ethz.ch/bitstreams/a1bf0254-c93a-400e-b98f-53521f2ac344/download",
+        "https://iris.polito.it/handle/11583/2995379",
+        "https://iris.polito.it/handle/11583/3001325"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 3 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    },
+    {
+      "school": "TU Wien",
+      "queries": [
+        "site:tuwien.at \"2025\" \"learning\" \"energy\""
+      ],
+      "source_urls": [
+        "https://ieeexplore.ieee.org/document/11044556/",
+        "https://repositum.tuwien.at/handle/20.500.12708/218535",
+        "https://www.tuwien.at/en/mwbw/mec/e325-04-research-unit-of-control-and-process-automation/research-projects/furnaice"
+      ],
+      "result_note_vi": "Đã thực hiện truy vấn đích cho trường. Giữ 2 công trình phù hợp, gồm nguồn đã kiểm tra trước và/hoặc nguồn mới. Chưa tìm thấy hoặc số lượng ít không có nghĩa trường không nghiên cứu hướng này; lượt tìm không bảo đảm bao quát toàn bộ công bố."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-30",
+  "review_scope": "22 existing core Vietnamese records; no new research items; aggregate files not edited",
+  "changes": [
+    {
+      "record": "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation",
+      "change": "Xác nhận affiliation UET bằng metadata IEEE/Crossref; phân biệt Viet-Ha Nguyen với Viet-Cuong Nguyen."
+    },
+    {
+      "record": "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+      "change": "Sửa year 2025 thành 2026 theo ngày first online; lưu conference_year 2025 và publisher_citation_year 2027; xác minh tác giả UET và đọc abstract."
+    },
+    {
+      "record": "Domain-Oriented GCN Method for Sentiment Analysis",
+      "change": "Bổ sung bằng chứng trực tiếp Springer về affiliation, ngày công bố và abstract; đánh dấu CV hỏng."
+    },
+    {
+      "record": "Nonlinear model predictive control for trajectory tracking and dynamic obstacle avoidance in differential-drive mobile robots",
+      "change": "Nâng bằng chứng affiliation từ email lên thông tin trực tiếp ở trang đầu PDF; giữ full_text_read=false."
+    },
+    {
+      "record": "PTIT: 2 accepted conference papers",
+      "change": "Giữ trạng thái accepted; thêm year_basis=conference_year, publication_year=null và ngày bản tin 2026-02-26 để không hiểu nhầm đã xuất bản năm 2025."
+    },
+    {
+      "record": "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+      "change": "Bổ sung DOI sau đối chiếu tiêu đề và mã tài liệu IEEE/PII Elsevier với metadata Crossref do nhà xuất bản đăng ký."
+    },
+    {
+      "record": "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+      "change": "Bổ sung DOI sau đối chiếu tiêu đề và mã tài liệu IEEE/PII Elsevier với metadata Crossref do nhà xuất bản đăng ký."
+    }
+  ],
+  "limitations": [
+    "PTIT greenhouse source could not be fetched during final recheck (502/DNS); previous bibliography-only record retained with uncertainty.",
+    "Bibliography-only affiliation remains uncertain where no publisher/first-page affiliation was verified."
+  ],
+  "coverage": {
+    "schools_total": 41,
+    "items_total": 87,
+    "by_part": {
+      "vn_core_research.json": [
+        9,
+        22
+      ],
+      "vn_research.json": [
+        8,
+        17
+      ],
+      "us_research.json": [
+        10,
+        20
+      ],
+      "eu_research.json": [
+        14,
+        28
+      ]
+    },
+    "exact_domain_alias_needed": {
+      "daihoc.fpt.edu.vn": "fpt.edu.vn"
+    },
+    "missing_institutions_after_alias": []
+  }
+}

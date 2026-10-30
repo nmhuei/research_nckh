@@ -1,0 +1,121 @@
+[
+  {
+    "url": "https://api.crossref.org/works/10.1109/lra.2025.3594984",
+    "title_match": true,
+    "title": "Rambo: RL-Augmented Model-Based Whole-Body Control for Loco-Manipulation",
+    "authors": [
+      "Jin Cheng",
+      "Dongho Kang",
+      "Gabriele Fadini",
+      "Guanya Shi",
+      "Stelian Coros"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1109/ICRA55743.2025.11128474",
+    "title_match": true,
+    "title": "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+    "authors": [
+      "Davide Plozza",
+      "Patricia Apostol",
+      "Paul Joseph",
+      "Simon Schläpfer",
+      "Michele Magno"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.energy.2025.134592",
+    "title_match": true,
+    "title": "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+    "authors": [
+      "Gangan Zhang",
+      "Wei Li",
+      "Desong Yang",
+      "Zengchao Chen",
+      "Christos N. Markides",
+      "Wentao Ji",
+      "Wenquan Tao"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.egyai.2026.100746",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1016/j.egyai.2026.100746"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1007/s12369-025-01332-4",
+    "title_match": true,
+    "title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+    "authors": [
+      "Angelo Caregnato-Neto",
+      "Luciano Cavalcante Siebert",
+      "Arkady Zgonnikov",
+      "Marcos R. O. A. Maximo",
+      "Rubens J. M. Afonso"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.knosys.2025.115147",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1016/j.knosys.2025.115147"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.14279/depositonce-24638",
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.14279/depositonce-24638"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1145/3733965.3733966",
+    "title_match": true,
+    "title": "AttentionGuard: Transformer-based Misbehavior Detection for Secure Vehicular Platoons",
+    "authors": [
+      "Hexu Li",
+      "Konstantinos Kalogiannis",
+      "Ahmed Mohamed Hussain",
+      "Panos Papadimitratos"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1109/IWCMC65282.2025.11059726",
+    "title_match": true,
+    "title": "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+    "authors": [
+      "Ahmed Hussain",
+      "Nada Abughanam",
+      "Panos Papadimitratos"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.ensm.2024.103877",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1016/j.ensm.2024.103877"
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.ensm.2025.104410",
+    "title_match": true,
+    "title": "Smart sensing breaks the accuracy barrier in battery state monitoring",
+    "authors": [
+      "Xiaolei Bian",
+      "Changfu Zou",
+      "Björn Fridholm",
+      "Christian Sundvall",
+      "Torsten Wik"
+    ],
+    "status": 200
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1016/j.robot.2025.104992",
+    "title_match": true,
+    "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+    "authors": [
+      "Mohammad Jabari",
+      "Andrea Botta",
+      "Luigi Tagliavini",
+      "Carmen Visconte",
+      "Giuseppe Quaglia"
+    ],
+    "status": 200
+  }
+]

@@ -1,0 +1,1444 @@
+{
+  "checked_on": "2026-10-30",
+  "schools": [
+    {
+      "short_name": "USTH",
+      "name": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+      "domain": "usth.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Công bố Khoa Công nghệ và Kỹ thuật",
+          "url": "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+        },
+        {
+          "title": "Công bố Khoa Công nghệ Hóa học và Môi trường",
+          "url": "https://usth.edu.vn/en/publications-4442/"
+        }
+      ],
+      "items": [
+        {
+          "title": "A Novel Pretrained General-purpose Vision Language Model for the Vietnamese Language",
+          "year": 2024,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Dinh Anh Vu",
+            "Quang Nhat Minh Pham",
+            "Giang Son Tran"
+          ],
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "NLP_SPEECH",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Tiếng Việt",
+            "Hỏi đáp bằng ảnh",
+            "Sinh chú thích ảnh"
+          ],
+          "ai_method_vi": "VisualRoBERTa kết hợp CNN và Transformer, tiền huấn luyện ảnh–văn bản rồi tinh chỉnh cho VQA và sinh chú thích.",
+          "problem_vi": "Xây dựng mô hình ảnh–ngôn ngữ cho tiếng Việt khi dữ liệu và mô hình nền tảng còn hạn chế.",
+          "summary_vi": "Giới thiệu VisualRoBERTa và dữ liệu ảnh–chú thích dịch sang tiếng Việt; đánh giá hỏi đáp ảnh và sinh chú thích ảnh.",
+          "url": "https://dl.acm.org/doi/10.1145/3654796",
+          "doi": "10.1145/3654796",
+          "source_urls": [
+            "https://dl.acm.org/doi/10.1145/3654796",
+            "https://api.crossref.org/works/10.1145/3654796",
+            "https://www.sontg.net/"
+          ],
+          "verification_note": "Đọc abstract và metadata do ACM gửi Crossref; ACM trực tiếp trả403. Crossref ghi Dinh Anh Vu và Giang Son Tran thuộc USTH, Quang Nhat Minh Pham thuộc Aimesoft. Không đọc toàn văn.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Hai tác giả có affiliation USTH trong metadata nhà xuất bản/Crossref.",
+          "ai_methods": [
+            "VisualRoBERTa",
+            "CNN",
+            "Transformer",
+            "Vision-language pretraining"
+          ]
+        },
+        {
+          "title": "Apply a CNN-Based Ensemble Model to Chest-X Ray Image-Based Pneumonia Classification",
+          "year": 2024,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Ngoc Ha Pham",
+            "Giang Son Tran"
+          ],
+          "ai_topic_codes": [
+            "HEALTH_BIOAI",
+            "VISION_MULTIMODAL"
+          ],
+          "application_domains": [
+            "Ảnh X-quang",
+            "Hỗ trợ phân loại viêm phổi"
+          ],
+          "ai_method_vi": "Học tổ hợp các CNN InceptionResNetV2, DenseNet201 và VGG16.",
+          "problem_vi": "Phân biệt ảnh X-quang có dấu hiệu viêm phổi và ảnh bình thường.",
+          "summary_vi": "So sánh mô hình CNN đơn lẻ với mô hình tổ hợp để phân loại ảnh ngực; đây là đánh giá nghiên cứu, chưa xác nhận triển khai lâm sàng.",
+          "url": "https://www.jait.us/show-246-1597-1.html",
+          "doi": "10.12720/jait.15.11.1205-1214",
+          "source_urls": [
+            "https://www.jait.us/show-246-1597-1.html"
+          ],
+          "verification_note": "Đã đọc abstract và affiliation trên trang nhà xuất bản. Ngoc Ha Pham đồng thời thuộc USTH và FPT; Giang Son Tran thuộc USTH. Không đọc toàn văn.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Affiliation công khai xác nhận USTH và đồng tác giả FPT.",
+          "published_date": "2024-11-08",
+          "ai_methods": [
+            "CNN ensemble",
+            "InceptionResNetV2",
+            "DenseNet201",
+            "VGG16"
+          ]
+        },
+        {
+          "title": "Pneu-ConViT: A CLAHE-Enhanced Hybrid CNN–Vision Transformer Ensemble for Pneumonia Classification",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Ngoc Ha Pham",
+            "Giang Son Tran",
+            "Antoine Doucet"
+          ],
+          "ai_topic_codes": [
+            "HEALTH_BIOAI",
+            "VISION_MULTIMODAL"
+          ],
+          "application_domains": [
+            "Ảnh y khoa",
+            "X-quang ngực"
+          ],
+          "ai_method_vi": "Tiền xử lý CLAHE và kết hợp nhiều CNN với Vision Transformer; giải thích bằng Grad-CAM và attention.",
+          "problem_vi": "Cải thiện phân loại ảnh viêm phổi và kiểm tra khả năng chuyển sang bộ dữ liệu khác.",
+          "summary_vi": "Kết hợp đặc trưng cục bộ của CNN và ngữ cảnh toàn cục của ViT; đánh giá trên Kermany và kiểm tra ngoài bộ dữ liệu bằng RSNA.",
+          "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.70434",
+          "doi": "10.1049/ipr2.70434",
+          "source_urls": [
+            "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.70434",
+            "https://api.crossref.org/works/10.1049/ipr2.70434"
+          ],
+          "verification_note": "Đọc abstract và một số phần phương pháp qua chỉ mục nhà xuất bản; đối chiếu affiliation và ngày online17/07/2026 từ Crossref. Các phiên bản metadata/nội dung có khác biệt số đo, nên không chép chỉ số hiệu năng vào bản tóm tắt. Chưa thẩm định toàn văn.",
+          "reading_depth": "abstract_and_selected_methods",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Metadata nhà xuất bản xác nhận USTH, FPT và La Rochelle.",
+          "published_date": "2026-07-17",
+          "ai_methods": [
+            "CLAHE",
+            "CNN–Vision Transformer ensemble",
+            "Grad-CAM"
+          ]
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    },
+    {
+      "short_name": "HUST",
+      "name": "Đại học Bách khoa Hà Nội (HUST)",
+      "domain": "hust.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Nghiên cứu HUST",
+          "url": "https://www.hust.edu.vn/vi/nghien-cuu/"
+        },
+        {
+          "title": "Công bố SoICT năm2025",
+          "url": "https://soict.hust.edu.vn/en/2025-publications.html"
+        }
+      ],
+      "items": [
+        {
+          "title": "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+          "year": 2025,
+          "type": "journal_article",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Phân loại lưu lượng mã hóa bằng mạng thích nghi miền học sâu. Hướng ứng dụng thuộc phân tích lưu lượng và an ninh mạng; chưa xác minh dữ liệu thực nghiệm.",
+          "url": "https://ieeexplore.ieee.org/document/10855613",
+          "doi": "10.1109/TNSM.2025.3534791",
+          "source_urls": [
+            "https://ieeexplore.ieee.org/document/10855613",
+            "https://soict.hust.edu.vn/en/2025-publications.html",
+            "https://api.crossref.org/works/10.1109%2FTNSM.2025.3534791"
+          ],
+          "verification_note": "Đối chiếu tên, năm 2025, DOI và mã IEEE 10855613 qua metadata IEEE/Crossref; affiliation HUST được ghi cho bốn tác giả. Chưa đọc abstract/toàn văn IEEE.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "university_attribution": "Metadata IEEE/Crossref ghi Van Tong, Hai-Anh Tran, Duc Tran và Huynh Thi Thanh Binh thuộc SoICT, Hanoi University of Science and Technology.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Đại học Bách khoa Hà Nội (HUST)",
+          "short_name": "HUST",
+          "school_domain": "hust.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "An ninh mạng và mật mã",
+          "topic_labels_vi": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "bibliography_only",
+          "ai_method_vi": "Mạng thích nghi miền học sâu kết hợp hàm đặc trưng trơn.",
+          "problem_vi": "Phân loại lưu lượng mã hóa trong các miền dữ liệu khác nhau.",
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "An ninh mạng",
+            "Phân tích lưu lượng"
+          ],
+          "school_attribution": "Metadata IEEE/Crossref ghi Van Tong, Hai-Anh Tran, Duc Tran và Huynh Thi Thanh Binh thuộc SoICT, Hanoi University of Science and Technology.",
+          "reading_depth": "bibliography_only",
+          "status": "published",
+          "source_record_id": "T005",
+          "ai_methods": [
+            "Deep domain adaptation",
+            "Smooth characteristic function"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+          "year": 2025,
+          "type": "journal_article",
+          "topic_codes": [
+            "COMPUTING",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "COMPUTING",
+          "topics": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Kết hợp học tổ hợp và mô hình ngôn ngữ lập trình nhằm phát hiện code smell trong mã nguồn. Phân loại chất lượng phần mềm và AI dựa theo tiêu đề thư mục.",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0164121225000433",
+          "doi": "10.1016/j.jss.2025.112375",
+          "source_urls": [
+            "https://www.sciencedirect.com/science/article/pii/S0164121225000433",
+            "https://soict.hust.edu.vn/en/2025-publications.html",
+            "https://api.crossref.org/works/10.1016%2Fj.jss.2025.112375",
+            "https://arxiv.org/abs/2502.05012",
+            "https://api.matisse-kdt.eu/uploads/1_s2_0_S0164121225000433_main_695055eed2.pdf"
+          ],
+          "verification_note": "Đã đọc abstract arXiv và trang đầu PDF bản tác giả/nhà xuất bản. Xác nhận affiliationHUST và DOI tạp chí; chưa thẩm định toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Đại học Bách khoa Hà Nội (HUST)",
+          "short_name": "HUST",
+          "school_domain": "hust.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Phần mềm, hệ thống tính toán và mạng",
+          "topic_labels_vi": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "bibliography_only",
+          "ai_method_vi": "Kết hợp đặc trưng cấu trúc/thiết kế phần mềm với biểu diễn ngữ nghĩa từ mô hình ngôn ngữ lập trình trong kiến trúc học tổ hợp sâu.",
+          "problem_vi": "Phát hiện code smell tự động để hỗ trợ đánh giá chất lượng mã nguồn.",
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "NLP_SPEECH"
+          ],
+          "application_domains": [
+            "Kỹ thuật phần mềm"
+          ],
+          "school_attribution": "Trang đầu bản tác giả ghi Anh M. T. Bui thuộc Hanoi University of Science and Technology; công trình hợp tác với các trường khác.",
+          "reading_depth": "abstract_and_first_page_affiliations",
+          "status": "published",
+          "source_record_id": "T006",
+          "ai_methods": [
+            "Deep ensemble",
+            "Pretrained programming-language models",
+            "Structural feature fusion"
+          ],
+          "authors": [
+            "Anh Ho",
+            "Anh M. T. Bui",
+            "Phuong T. Nguyen",
+            "Amleto Di Salle",
+            "Bach Le"
+          ],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ.",
+          "code_url": "https://github.com/brojackvn/JSS-EnseSmells",
+          "datasets": [
+            "MLCQ"
+          ]
+        },
+        {
+          "title": "Certified Unlearning for Federated Recommendation",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Thanh Trung Huynh",
+            "Trong Bang Nguyen",
+            "Thanh Toan Nguyen",
+            "Phi Le Nguyen",
+            "Hongzhi Yin",
+            "Quoc Viet Hung Nguyen",
+            "Thanh Tam Nguyen"
+          ],
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY",
+            "FORECAST_RECOMMEND",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Hệ gợi ý",
+            "Học liên kết",
+            "Quyền riêng tư"
+          ],
+          "ai_method_vi": "CFRU loại ảnh hưởng cập nhật của người dùng, lấy mẫu lịch sử cập nhật quan trọng và bù sai lệch bằng ước lượng có bảo đảm.",
+          "problem_vi": "Xóa đóng góp của người dùng khỏi hệ gợi ý liên kết mà không phải huấn luyện lại từ đầu.",
+          "summary_vi": "Đề xuất cơ chế unlearning cho hệ gợi ý liên kết, phân tích sai lệch và đánh giá trên MovieLens/Pinterest với mô hình NCF và LightGCN.",
+          "url": "https://dl.acm.org/doi/10.1145/3706419",
+          "doi": "10.1145/3706419",
+          "source_urls": [
+            "https://dl.acm.org/doi/10.1145/3706419",
+            "https://soict.hust.edu.vn/en/2025-publications.html"
+          ],
+          "verification_note": "Đọc abstract và các phần mô tả cơ chế/thực nghiệm trên trang ACM công khai. HUST xác nhận trong danh mục SoICT2025; đây là công trình hợp tác. Không tái lập kết quả.",
+          "reading_depth": "abstract_and_selected_methods",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Danh mục công bố chính thức SoICT HUST liệt kê công trình và nhóm tác giả.",
+          "code_url": "https://github.com/thanhtrunghuynh93/CFRU",
+          "datasets": [
+            "MovieLens",
+            "Pinterest"
+          ],
+          "published_date": "2025-01-17",
+          "ai_methods": [
+            "Certified federated unlearning",
+            "CFRU"
+          ]
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    },
+    {
+      "short_name": "UET",
+      "name": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+      "domain": "uet.vnu.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Trang nghiên cứu và công bố Nguyễn Việt Cường",
+          "url": "https://uet.vnu.edu.vn/~cuongnv/"
+        }
+      ],
+      "items": [
+        {
+          "title": "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation",
+          "year": 2024,
+          "type": "conference_paper",
+          "topic_codes": [
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "topics": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "summary_vi": "So sánh tinh chỉnh mô hình ngôn ngữ và truy xuất tăng cường cho dữ liệu luật tiếng Việt. Không rút ra mô hình tốt hơn vì chưa đọc phần thực nghiệm.",
+          "url": "https://doi.org/10.1109/KSE63888.2024.11063566",
+          "doi": "10.1109/KSE63888.2024.11063566",
+          "source_urls": [
+            "https://doi.org/10.1109/KSE63888.2024.11063566",
+            "https://uet.vnu.edu.vn/~cuongnv/",
+            "https://api.crossref.org/works/10.1109%2FKSE63888.2024.11063566"
+          ],
+          "verification_note": "Đối chiếu đúng tiêu đề, DOI và năm KSE 2024 qua metadata IEEE tại Crossref; metadata ghi affiliation UET của Viet-Ha Nguyen. Trang IEEE yêu cầu JavaScript; chưa đọc abstract/toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "university_attribution": "Metadata do IEEE đăng ký tại Crossref ghi Viet-Ha Nguyen thuộc Institute for Artificial Intelligence, VNU University of Engineering and Technology. Viet-Cuong Nguyen ghi đơn vị INT2; không dùng hồ sơ giảng viên để thay thế affiliation của bài.",
+          "secondary_topic_codes": [
+            "COMPUTING"
+          ],
+          "school": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+          "short_name": "UET",
+          "school_domain": "uet.vnu.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "AI, học máy và dữ liệu",
+          "topic_labels_vi": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "bibliography_only",
+          "ai_method_vi": "Tinh chỉnh mô hình ngôn ngữ và Retrieval-Augmented Generation.",
+          "problem_vi": "So sánh hai cách thích ứng LLM với văn bản luật tiếng Việt.",
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "NLP_SPEECH"
+          ],
+          "application_domains": [
+            "Tiếng Việt",
+            "Tra cứu pháp luật"
+          ],
+          "school_attribution": "Metadata do IEEE đăng ký tại Crossref ghi Viet-Ha Nguyen thuộc Institute for Artificial Intelligence, VNU University of Engineering and Technology. Viet-Cuong Nguyen ghi đơn vị INT2; không dùng hồ sơ giảng viên để thay thế affiliation của bài.",
+          "reading_depth": "bibliography_only",
+          "status": "published",
+          "source_record_id": "T007",
+          "ai_methods": [
+            "LLM fine-tuning",
+            "Retrieval-Augmented Generation"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+          "year": 2026,
+          "type": "conference_paper",
+          "topic_codes": [
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "topics": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "summary_vi": "Khung hỏi đáp sản phẩm phối hợp nhiều tác tử, truy xuất cơ sở dữ liệu sản phẩm, nhật ký hỏi đáp và nội dung web. Bộ lập kế hoạch chia nhỏ câu hỏi và hạn chế hành động dư thừa; abstract mô tả đánh giá trên ba miền sản phẩm.",
+          "url": "https://doi.org/10.1007/978-981-92-2590-3_24",
+          "doi": "10.1007/978-981-92-2590-3_24",
+          "source_urls": [
+            "https://doi.org/10.1007/978-981-92-2590-3_24",
+            "https://uet.vnu.edu.vn/~cuongnv/",
+            "https://link.springer.com/chapter/10.1007/978-981-92-2590-3_24"
+          ],
+          "verification_note": "Đã đọc abstract và Authors and Affiliations trên Springer. Hội nghị SOICT 2025; First Online/Published 02/09/2026; mục Cite this paper và copyright lại ghi 2027. Trường year dùng năm công bố online 2026 và lưu riêng năm hội nghị/năm trích dẫn. Chưa đọc toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "year_basis": "first_online",
+          "conference_year": 2025,
+          "online_publication_date": "2026-09-02",
+          "publisher_citation_year": 2027,
+          "university_attribution": "Springer ghi Huu-Dung Nguyen, Tri-Dung Do và Duc-Trong Le thuộc VNU University of Engineering and Technology. Viet Cuong Nguyen thuộc VNU Information Technology Institute trong bài này.",
+          "abstract_read": true,
+          "secondary_topic_codes": [
+            "COMPUTING"
+          ],
+          "school": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+          "short_name": "UET",
+          "school_domain": "uet.vnu.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "AI, học máy và dữ liệu",
+          "topic_labels_vi": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "Lập kế hoạch đa tác tử và truy xuất tri thức động từ cơ sở dữ liệu, nhật ký hỏi đáp và web.",
+          "problem_vi": "Trả lời câu hỏi sản phẩm phức tạp bằng cách chia nhỏ tác vụ và tìm bằng chứng phù hợp.",
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "NLP_SPEECH"
+          ],
+          "application_domains": [
+            "Hỏi đáp sản phẩm",
+            "Thương mại điện tử"
+          ],
+          "school_attribution": "Springer ghi Huu-Dung Nguyen, Tri-Dung Do và Duc-Trong Le thuộc VNU University of Engineering and Technology. Viet Cuong Nguyen thuộc VNU Information Technology Institute trong bài này.",
+          "reading_depth": "source_content_reviewed",
+          "status": "published",
+          "source_record_id": "T008",
+          "ai_methods": [
+            "Multi-agent planning",
+            "Dynamic knowledge retrieval"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn. Không gán ViLLM-Eval cho UET vì chưa thấy affiliation UET trong bản bài báo, dù có tên trong danh mục cá nhân giảng viên."
+    },
+    {
+      "short_name": "HCMUT",
+      "name": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+      "domain": "hcmut.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Nghiên cứu HPCC",
+          "url": "https://hpcc.hcmut.edu.vn/research"
+        },
+        {
+          "title": "Công bố HPCC",
+          "url": "https://hpcc.hcmut.edu.vn/publications"
+        },
+        {
+          "title": "Công bố Địa chất–Dầu khí",
+          "url": "https://geopet.hcmut.edu.vn/en/nghien-cuu/cong-bo-khoa-hoc?year=2025"
+        }
+      ],
+      "items": [
+        {
+          "title": "Toward Sustainable and Cost-Efficient HPC Systems: A Deep Reinforcement Learning Job Scheduling Approach",
+          "year": 2025,
+          "type": "conference_paper",
+          "topic_codes": [
+            "COMPUTING",
+            "AI_DATA",
+            "ENERGY"
+          ],
+          "primary_topic_code": "COMPUTING",
+          "topics": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu",
+            "Năng lượng và công nghệ điện"
+          ],
+          "summary_vi": "Đưa mô hình chi phí năng lượng hỗn hợp vào môi trường lập lịch, đánh giá trên dấu vết tải HPC quy mô thực và dữ liệu tái tạo đo được.",
+          "url": "https://link.springer.com/chapter/10.1007/978-981-95-4960-3_33",
+          "doi": "10.1007/978-981-95-4960-3_33",
+          "source_urls": [
+            "https://link.springer.com/chapter/10.1007/978-981-95-4960-3_33",
+            "https://hpcc.hcmut.edu.vn/publications"
+          ],
+          "verification_note": "Đã nâng từ danh mục HPCC sang abstract và metadata Springer: conference paper, first online27/11/2025, MIWAI2025, trang409–420. Chưa đọc toàn văn trả phí.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "university_attribution": "Công trình được liệt kê trong danh mục chính thức của đơn vị thuộc trường; chưa đối chiếu affiliation trong bản bài báo.",
+          "secondary_topic_codes": [
+            "AI_DATA",
+            "ENERGY"
+          ],
+          "school": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+          "short_name": "HCMUT",
+          "school_domain": "hcmut.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Phần mềm, hệ thống tính toán và mạng",
+          "topic_labels_vi": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu",
+            "Năng lượng và công nghệ điện"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "bibliography_only",
+          "ai_method_vi": "Học tăng cường sâu với nhiều hành động tách chọn tác vụ và trì hoãn chạy; hàm thưởng xét giá điện biến thiên và nguồn tái tạo.",
+          "problem_vi": "Điều chỉnh thời điểm và thứ tự chạy tác vụ HPC theo năng lượng tái tạo và giá điện mà vẫn duy trì khả năng đáp ứng.",
+          "ai_topic_codes": [
+            "ROBOTICS_RL",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Siêu máy tính",
+            "Lập lịch"
+          ],
+          "school_attribution": "Springer ghi nhóm tác giả thuộc HCMUT/VNU-HCM; đồng thời có danh mục chính thức HPCC.",
+          "reading_depth": "abstract_and_metadata",
+          "status": "published",
+          "source_record_id": "T009",
+          "ai_methods": [
+            "Deep reinforcement learning",
+            "Multi-action scheduling",
+            "Cost-aware reward"
+          ],
+          "authors": [
+            "Thanh Hoang Le Hai",
+            "Nhan Nguyen Phuc",
+            "Mai Nguyen Tran Phuong",
+            "Minh Bui Ngoc",
+            "Nam Thoai"
+          ],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ.",
+          "published_date": "2025-11-27"
+        },
+        {
+          "title": "Fine-Tuned Sentence-BERT for HPC Job Outcome Prediction via Textual Feature Embedding",
+          "year": 2026,
+          "type": "workshop_paper",
+          "topic_codes": [
+            "COMPUTING",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "COMPUTING",
+          "topics": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Tinh chỉnh mô hình nhúng cho dữ liệu chuyên ngành HPC, rồi kết hợp đặc trưng văn bản và số. Bản tác giả mô tả đánh giá trên log của hai siêu máy tính.",
+          "url": "https://ist.hcmut.edu.vn/~thanhhoang/papers/dream2026.pdf",
+          "doi": null,
+          "source_urls": [
+            "https://ist.hcmut.edu.vn/~thanhhoang/papers/dream2026.pdf",
+            "https://ist.hcmut.edu.vn/~thanhhoang/",
+            "https://hpcc.hcmut.edu.vn/publications"
+          ],
+          "verification_note": "Đã đọc abstract, affiliation trang đầu và một số phần phương pháp của bản tác giả trên tên miềnHCMUT. PDF còn mẫu năm2018/DOIXXXX, không dùng làm dữ liệu công bố; năm2026 và việc trình bày DREAM được xác nhận trên trang tác giả. Chưa đối chiếu bản kỷ yếu cuối cùng.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "university_attribution": "Công trình được liệt kê trong danh mục chính thức của đơn vị thuộc trường; chưa đối chiếu affiliation trong bản bài báo.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+          "short_name": "HCMUT",
+          "school_domain": "hcmut.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Phần mềm, hệ thống tính toán và mạng",
+          "topic_labels_vi": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "bibliography_only",
+          "ai_method_vi": "HPCBERT+ tinh chỉnh Sentence-BERT trên log HPC bằng mục tiêu contrastive và phân loại; kết hợp nhúng văn bản với đặc trưng số cho bộ dự đoán.",
+          "problem_vi": "Khai thác ngữ nghĩa mô tả tác vụ để dự báo thời gian chạy, năng lượng và lớp kết quả trước khi lập lịch.",
+          "ai_topic_codes": [
+            "NLP_SPEECH",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Siêu máy tính",
+            "Dự đoán tác vụ"
+          ],
+          "school_attribution": "Trang đầu PDF ghi cả5 tác giả thuộc Ho Chi Minh City University of Technology.",
+          "reading_depth": "abstract_first_page_and_selected_methods",
+          "status": "presented_workshop_paper",
+          "source_record_id": "T010",
+          "ai_methods": [
+            "Sentence-BERT",
+            "Contrastive fine-tuning",
+            "Text embedding",
+            "Supervised prediction"
+          ],
+          "authors": [
+            "Thanh Hoang Le Hai",
+            "Huy Nguyen Tuan",
+            "Bao Tran Dang",
+            "Bao Vo Thuong",
+            "Nam Thoai"
+          ],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ.",
+          "datasets": [
+            "F-DATA (Fugaku)",
+            "PM100 (Marconi100)"
+          ]
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn. Hai mục HPCC mới ở mức danh mục phòng thí nghiệm; chưa đọc abstract/toàn văn. Không đưa bài cảng container vào vì affiliation tại thời điểm công bố chưa được xác nhận."
+    },
+    {
+      "short_name": "UIT",
+      "name": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+      "domain": "uit.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Phòng ĐTSĐH & KHCN",
+          "url": "https://khcn.uit.edu.vn/"
+        },
+        {
+          "title": "Công bố và tin nghiên cứu UIT",
+          "url": "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+        }
+      ],
+      "items": [
+        {
+          "title": "Fusurge: An Accelerated Query-Driven System for Multimodal Information Retrieval",
+          "year": 2025,
+          "type": "conference_paper",
+          "topic_codes": [
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "topics": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "summary_vi": "Hệ thống tìm kiếm video đa phương thức kết hợp lấy khung hình, OCR, nhận dạng tiếng nói, bộ mã hóa CLIP và xếp hạng lại theo tương tác người dùng.",
+          "url": "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025",
+          "doi": null,
+          "source_urls": [
+            "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+          ],
+          "verification_note": "Đã đọc abstract được UIT đăng kèm danh sách tác giả/sinh viên. Hội nghị SOICT2025, bản tin05/01/2026. Chưa đối chiếu kỷ yếu/DOI; chưa đọc toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "year_basis": "conference_year",
+          "secondary_topic_codes": [
+            "COMPUTING"
+          ],
+          "school": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+          "short_name": "UIT",
+          "school_domain": "uit.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "AI, học máy và dữ liệu",
+          "topic_labels_vi": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "Hợp nhất bộ mã hóa CLIP, OCR, nhận dạng tiếng nói và mô hình thị giác–ngôn ngữ.",
+          "problem_vi": "Tìm kiếm và hỏi đáp video đa phương thức theo truy vấn người dùng.",
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "NLP_SPEECH",
+            "LLM_RAG_AGENTS"
+          ],
+          "application_domains": [
+            "Tìm kiếm video",
+            "Truy xuất thông tin"
+          ],
+          "school_attribution": "Bản tin nghiên cứu chính thức UIT đăng abstract và danh sách tác giả/sinh viên của công trình; chưa đối chiếu affiliation trong kỷ yếu.",
+          "reading_depth": "source_content_reviewed",
+          "status": "published",
+          "source_record_id": "T012",
+          "ai_methods": [
+            "CLIP",
+            "OCR",
+            "Speech recognition",
+            "Multimodal retrieval"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "From Prediction to Understanding: A Robustness and Explainability Study of LLM-Based Vulnerability Detection",
+          "year": 2026,
+          "type": "accepted_conference_paper",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Đánh giá khả năng phát hiện lỗ hổng và độ ổn định của giải thích khi mã nguồn bị viết lại. Nguồn mô tả đánh giá sáu mô hình trên C/C++ và Java.",
+          "url": "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem",
+          "doi": null,
+          "source_urls": [
+            "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem"
+          ],
+          "verification_note": "Bản tinUIT10/10/2026 nói đã được chấp nhận tại ICPADS2026; chưa xác nhận xuất bản kỷ yếu. Đã đọc tóm tắt, chưa đọc toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+          "short_name": "UIT",
+          "school_domain": "uit.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "An ninh mạng và mật mã",
+          "topic_labels_vi": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "Mô hình ngôn ngữ cho mã nguồn, kiểm tra độ bền vững và Explainable AI.",
+          "problem_vi": "Kiểm tra liệu phát hiện lỗ hổng và giải thích của mô hình còn ổn định khi mã nguồn bị viết lại.",
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY",
+            "LLM_RAG_AGENTS"
+          ],
+          "application_domains": [
+            "An ninh phần mềm"
+          ],
+          "school_attribution": "Bản tin chính thức UIT giới thiệu công trình của cộng tác viên UIT; xác nhận quan hệ qua bản tin trường, chưa đối chiếu affiliation trong bản kỷ yếu.",
+          "reading_depth": "source_content_reviewed",
+          "status": "accepted",
+          "source_record_id": "T013",
+          "ai_methods": [
+            "LLM-based vulnerability detection",
+            "Explainable AI",
+            "Robustness evaluation"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    },
+    {
+      "short_name": "PTIT",
+      "name": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "domain": "ptit.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Công bố Khoa Viễn thông1",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+        },
+        {
+          "title": "Dự án Khoa Viễn thông1",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/du-an-khoa-hoc/"
+        }
+      ],
+      "items": [
+        {
+          "title": "AUTOGENT: Multi-Agent AI Framework for Automated Vulnerability Detection and Security Alerting in Networked Systems",
+          "year": 2025,
+          "type": "accepted_conference_paper",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "topics": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Khung AI đa tác tử cho thu thập dữ liệu, phát hiện lỗ hổng và tạo cảnh báo an ninh mạng. Nguồn là bản tin nghiên cứu của chương trình UDU.",
+          "url": "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/",
+          "doi": null,
+          "source_urls": [
+            "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/"
+          ],
+          "verification_note": "Bản tin chính thức xác nhận tác giả và người hướng dẫn; loại ghi nhận là bài đã được chấp nhận, chưa xác minh DOI/xuất bản chính thức. Nguồn gọi là multi-agent AI nhưng chưa công khai rõ mô hình nền hay LLM; nhãn hệ đa tác tử không khẳng định sử dụng một LLM cụ thể.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "year_basis": "conference_year",
+          "conference_year": 2025,
+          "publication_year": null,
+          "publication_status": "accepted",
+          "source_publication_date": "2026-02-26",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+          "short_name": "PTIT",
+          "school_domain": "ptit.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "An ninh mạng và mật mã",
+          "topic_labels_vi": [
+            "An ninh mạng và mật mã",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "Khung AI đa tác tử phối hợp phân tích dữ liệu và cảnh báo.",
+          "problem_vi": "Tự động phát hiện lỗ hổng và tạo cảnh báo an ninh mạng.",
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "An ninh mạng"
+          ],
+          "school_attribution": "Bản tin chương trình UDU thuộc PTIT xác nhận nhóm sinh viên, người hướng dẫn và bài được chấp nhận; chưa đối chiếu affiliation ở bản xuất bản cuối.",
+          "reading_depth": "source_content_reviewed",
+          "status": "accepted",
+          "source_record_id": "T015",
+          "ai_methods": [
+            "Multi-agent AI"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "MULTI-LEVEL STACKING ENSEMBLE LEARNING FOR ENHANCED ECG-BASED ARRHYTHMIA DETECTION",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Huu-Cam Nguyen",
+            "Thu-Trang T. Nguyen",
+            "Hai-Long Nguyen",
+            "Ngoc-Anh T. Phung",
+            "Anh-Thu Pham"
+          ],
+          "ai_topic_codes": [
+            "HEALTH_BIOAI",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Điện tâm đồ",
+            "Phân loại rối loạn nhịp"
+          ],
+          "ai_method_vi": "Stacking nhiều tầng với Random Forest, XGBoost, SVM, KNN, AdaBoost, Decision Tree và mô hình tổng hợp Logistic Regression.",
+          "problem_vi": "Phân loại rối loạn nhịp từ dữ liệu ECG12 chuyển đạo.",
+          "summary_vi": "Kết hợp dự đoán của nhiều bộ phân loại để khai thác tín hiệu ECG; abstract báo cáo so sánh các thước đo phân loại.",
+          "url": "https://tapchi.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1676",
+          "doi": null,
+          "source_urls": [
+            "https://tapchi.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1676",
+            "https://jstic.ptit.edu.vn/jstic-ptit/index.php/jstic/article/download/1676/486/6594"
+          ],
+          "verification_note": "Đã đọc abstract trang tạp chí và trang đầu PDF xác nhận các tác giả thuộc PTIT. Trang ghi published15/09/2025 nhưng số tạp chí/PDF ghi2024; năm chính lấy ngày online, giữ năm số tạp chí ở alternative_years. Chưa đọc toàn văn.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Trang đầu PDF ghi Posts and Telecommunications Institute of Technology, Hanoi, Vietnam.",
+          "alternative_years": [
+            2024
+          ],
+          "published_date": "2025-09-15",
+          "ai_methods": [
+            "Multi-level stacking",
+            "Random Forest",
+            "XGBoost",
+            "SVM",
+            "KNN",
+            "AdaBoost",
+            "Decision Tree",
+            "Logistic Regression"
+          ]
+        },
+        {
+          "title": "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+          "year": 2025,
+          "type": "journal_article",
+          "topic_codes": [
+            "AGRI_FOOD",
+            "AI_DATA",
+            "ENVIRONMENT"
+          ],
+          "primary_topic_code": "AGRI_FOOD",
+          "topics": [
+            "Công nghệ nông nghiệp và thực phẩm",
+            "AI, học máy và dữ liệu",
+            "Môi trường, khí hậu và tài nguyên"
+          ],
+          "summary_vi": "Dự báo trạng thái môi trường nhà kính bằng mô hình học máy. Chủ đề suy ra từ tiêu đề được khoa đưa trong danh mục công bố.",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/",
+          "doi": null,
+          "source_urls": [
+            "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+          ],
+          "verification_note": "Danh mục Khoa Viễn thông1 ghi tác giảNguyễn Thanh Trà, năm2025, JSTIC/PTIT. Chưa đọc abstract/toàn văn, chưa tìm được DOI.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "review_access_note": "Khi kiểm tra lại 30/10/2026, nguồn khoa bị lỗi 502/DNS; giữ thông tin thư mục và giới hạn xác minh đã ghi, không nâng mức xác nhận affiliation/nội dung.",
+          "university_attribution": "Công trình được liệt kê trong danh mục chính thức của đơn vị thuộc trường; chưa đối chiếu affiliation trong bản bài báo.",
+          "secondary_topic_codes": [
+            "AI_DATA",
+            "ENVIRONMENT"
+          ],
+          "school": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+          "short_name": "PTIT",
+          "school_domain": "ptit.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Công nghệ nông nghiệp và thực phẩm",
+          "topic_labels_vi": [
+            "Công nghệ nông nghiệp và thực phẩm",
+            "AI, học máy và dữ liệu",
+            "Môi trường, khí hậu và tài nguyên"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "bibliography_only",
+          "ai_method_vi": "Mô hình học máy dự báo trạng thái môi trường; danh mục chưa nêu kiến trúc cụ thể.",
+          "problem_vi": "Dự báo môi trường nhà kính để hỗ trợ giám sát nông nghiệp.",
+          "ai_topic_codes": [
+            "FORECAST_RECOMMEND",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Nông nghiệp thông minh",
+            "Nhà kính"
+          ],
+          "school_attribution": "Công trình được liệt kê trong danh mục chính thức của đơn vị thuộc trường; chưa đối chiếu affiliation trong bản bài báo.",
+          "reading_depth": "bibliography_only",
+          "status": "published",
+          "source_record_id": "T016",
+          "ai_methods": [
+            "Machine learning; kiến trúc chưa được nguồn thư mục nêu"
+          ],
+          "authors": [
+            "Nguyễn Thanh Trà"
+          ]
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    },
+    {
+      "short_name": "DUT",
+      "name": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+      "domain": "dut.udn.vn",
+      "ai_portals": [
+        {
+          "title": "Phòng KHCN và HTQT",
+          "url": "https://dut.udn.vn/Phong/Khoahoc"
+        },
+        {
+          "title": "Danh mục công bố2025–2026",
+          "url": "https://dut.udn.vn/Phong/Khoahoc/Thongbao/id/12140"
+        }
+      ],
+      "items": [
+        {
+          "title": "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+          "year": 2025,
+          "type": "journal_article",
+          "topic_codes": [
+            "ROBOTICS",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "topics": [
+            "Robot, điều khiển và tự động hóa",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Thiết kế tay máy sáu bậc tự do với hai camera để nhận dạng bao gói và tư thế lon trên băng chuyền. Abstract có mô tả chế tạo, hệ truyền động và thử nghiệm nhận dạng.",
+          "url": "https://jst-ud.vn/jst-ud/article/view/10204",
+          "doi": "10.31130/ud-jst.2025.23(9D).555E",
+          "source_urls": [
+            "https://jst-ud.vn/jst-ud/article/view/10204"
+          ],
+          "verification_note": "Đã đọc abstract và affiliation: ba tác giảDUT, một tác giảChungnam. Xuất bản30/09/2025; chưa đọc toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+          "short_name": "DUT",
+          "school_domain": "dut.udn.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Robot, điều khiển và tự động hóa",
+          "topic_labels_vi": [
+            "Robot, điều khiển và tự động hóa",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "Xử lý ảnh và bộ nhận dạng AI cho tư thế sản phẩm; abstract chưa nêu kiến trúc mô hình.",
+          "problem_vi": "Robot xác định loại bao gói và tư thế lon trên băng chuyền để gắp đúng vị trí.",
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "Tự động hóa sản xuất"
+          ],
+          "school_attribution": "Trang tạp chí ghi ba tác giả thuộc DUT và một tác giả thuộc Chungnam; đã kiểm tra affiliation theo ghi chú nguồn.",
+          "reading_depth": "source_content_reviewed",
+          "status": "published",
+          "source_record_id": "T017",
+          "ai_methods": [
+            "AI image recognition; kiến trúc chưa được abstract nêu"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "Hybrid deep learning model for improving the operational efficiency of microgrids",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Hong Duy An Nguyen",
+            "Trong Nhan Van",
+            "Thi Cat Tuong Nguyen",
+            "Ngoc Thien Nam Tran",
+            "Minh Quan Duong"
+          ],
+          "ai_topic_codes": [
+            "FORECAST_RECOMMEND",
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Điện gió",
+            "Điện mặt trời",
+            "Lưới điện nhỏ"
+          ],
+          "ai_method_vi": "Kết hợp LSTM với Inductive Conformal Prediction để dự báo kèm khoảng tin cậy.",
+          "problem_vi": "Dự báo công suất tái tạo theo nhiều chân trời và biểu diễn độ bất định phục vụ vận hành microgrid.",
+          "summary_vi": "Đánh giá LSTM+ICP trên dữ liệu nhà máy điện gió và mặt trời ở Việt Nam, đối chiếu Random Forest và LSTM cơ sở.",
+          "url": "https://jst-ud.vn/jst-ud/article/view/9828",
+          "doi": "10.31130/ud-jst.2025.23(6A).214E",
+          "source_urls": [
+            "https://jst-ud.vn/jst-ud/article/view/9828"
+          ],
+          "verification_note": "Đã đọc abstract, affiliation và ngày xuất bản30/06/2025. Bốn tác giả thuộc DUT, một tác giả Delta Electronic. Chưa đọc toàn văn.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Affiliation tác giả trên trang tạp chí xác nhận DUT.",
+          "published_date": "2025-06-30",
+          "ai_methods": [
+            "LSTM",
+            "Inductive Conformal Prediction"
+          ]
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    },
+    {
+      "short_name": "VKU",
+      "name": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+      "domain": "vku.udn.vn",
+      "ai_portals": [
+        {
+          "title": "Kho tài nguyên số VKU",
+          "url": "https://elib.vku.udn.vn/community-list?locale=vi"
+        },
+        {
+          "title": "Bài báo2025",
+          "url": "https://elib.vku.udn.vn/handle/123456789/5064"
+        }
+      ],
+      "items": [
+        {
+          "title": "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+          "year": 2025,
+          "type": "conference_paper",
+          "topic_codes": [
+            "COMPUTING",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "COMPUTING",
+          "topics": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Kết hợp thuật toán tối ưu Walrus với các mô hình học sâu để ước lượng nỗ lực phát triển phần mềm. Abstract nêu đánh giá trên năm bộ dữ liệu SEE và nhiều thước đo sai số.",
+          "url": "https://elib.vku.udn.vn/handle/123456789/7683",
+          "doi": "10.1109/RIVF68649.2025.11365197",
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7683"
+          ],
+          "verification_note": "Đã đọc metadata/abstract ở bộ sưu tập bài báoVKU, RIVF2025. Toàn văn yêu cầu đăng nhập; quy thuộc theo kho cơ quan, chưa đối chiếu từng affiliation.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+          "short_name": "VKU",
+          "school_domain": "vku.udn.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Phần mềm, hệ thống tính toán và mạng",
+          "topic_labels_vi": [
+            "Phần mềm, hệ thống tính toán và mạng",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "CNN/RNN/LSTM/BiLSTM/MLP kết hợp Walrus Optimization cho lựa chọn siêu tham số.",
+          "problem_vi": "Ước lượng nỗ lực phát triển phần mềm bằng mô hình học sâu tối ưu.",
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "FORECAST_RECOMMEND"
+          ],
+          "application_domains": [
+            "Kỹ thuật phần mềm",
+            "Ước lượng chi phí"
+          ],
+          "school_attribution": "Bản ghi trong bộ sưu tập bài báo của kho VKU; đã đọc metadata/abstract, chưa đối chiếu từng affiliation trong toàn văn.",
+          "reading_depth": "source_content_reviewed",
+          "status": "published",
+          "source_record_id": "T019",
+          "ai_methods": [
+            "CNN",
+            "RNN",
+            "LSTM",
+            "BiLSTM",
+            "MLP",
+            "Walrus Optimization"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+          "year": 2025,
+          "type": "conference_paper",
+          "topic_codes": [
+            "ELECTRONICS_TELECOM",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "ELECTRONICS_TELECOM",
+          "topics": [
+            "Điện tử, bán dẫn, viễn thông và IoT",
+            "AI, học máy và dữ liệu"
+          ],
+          "summary_vi": "Kết hợp camera và cảm biến môi trường để nhận diện cháy, giảm báo động giả. Kết quả từ hai mô hình được đối chiếu; trường hợp không thống nhất cần người dùng xác nhận.",
+          "url": "https://elib.vku.udn.vn/handle/123456789/7663",
+          "doi": "10.1109/ATC67618.2025.11268781",
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7663"
+          ],
+          "verification_note": "Đã đọc metadata/abstract ở khoVKU, ATC2025; toàn văn yêu cầu đăng nhập. Không suy ra độ chính xác cụ thể từ nhận xét định tính trong abstract.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "secondary_topic_codes": [
+            "AI_DATA"
+          ],
+          "school": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+          "short_name": "VKU",
+          "school_domain": "vku.udn.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "Điện tử, bán dẫn, viễn thông và IoT",
+          "topic_labels_vi": [
+            "Điện tử, bán dẫn, viễn thông và IoT",
+            "AI, học máy và dữ liệu"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "CNN xử lý ảnh kết hợp Random Forest trên dữ liệu cảm biến môi trường.",
+          "problem_vi": "Kết hợp hai nguồn dữ liệu để phát hiện cháy và giảm báo động giả.",
+          "ai_topic_codes": [
+            "VISION_MULTIMODAL",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "Phòng cháy",
+            "IoT"
+          ],
+          "school_attribution": "Bản ghi trong bộ sưu tập bài báo của kho VKU; đã đọc metadata/abstract, chưa đối chiếu từng affiliation trong toàn văn.",
+          "reading_depth": "source_content_reviewed",
+          "status": "published",
+          "source_record_id": "T020",
+          "ai_methods": [
+            "CNN",
+            "Random Forest",
+            "Multimodal fusion"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "A Novel Hybrid Deep Learning Framework for Automated Malaria Parasite Detection in Microscopic Blood Smear Images",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Vu Thu Nguyet Pham",
+            "Quang Vu Nguyen"
+          ],
+          "ai_topic_codes": [
+            "HEALTH_BIOAI",
+            "VISION_MULTIMODAL"
+          ],
+          "application_domains": [
+            "Ảnh kính hiển vi",
+            "Sốt rét"
+          ],
+          "ai_method_vi": "CNN trích đặc trưng, chọn đặc trưng bằng Levy-flight Grey Wolf Optimization rồi phân loại SVM.",
+          "problem_vi": "Phát hiện ký sinh trùng sốt rét từ ảnh tiêu bản máu.",
+          "summary_vi": "Đề xuất chuỗi tiền xử lý, trích/chọn đặc trưng và phân loại; abstract báo cáo đánh giá trên các bộ dữ liệu ảnh sốt rét công khai.",
+          "url": "https://elib.vku.udn.vn/handle/123456789/7671",
+          "doi": "10.1007/978-3-032-10209-6_17",
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7671"
+          ],
+          "verification_note": "Đọc metadata/abstract từ khoVKU, ICCCI2025. Toàn văn yêu cầu đăng nhập; quy thuộc qua bộ sưu tập cơ quan, chưa đối chiếu trang affiliation của PDF.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Kho tài nguyên sốVKU, bộ sưu tập bài báo2025.",
+          "ai_methods": [
+            "CNN",
+            "Levy-flight Grey Wolf Optimization",
+            "SVM"
+          ]
+        },
+        {
+          "title": "DWACE: Enhancing Graph Clustering via Autoencoder and Contrastive Learning Refinement of DeepWalk Embeddings",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Nguyen Xuan Thao Mai",
+            "Cong Phap Huynh",
+            "Kunchan Supeeti",
+            "Dai Tho Dang"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Phân cụm đồ thị",
+            "Học biểu diễn"
+          ],
+          "ai_method_vi": "Autoencoder phi tuyến khử nhiễu/nén nhúng DeepWalk, kết hợp mục tiêu contrastive learning.",
+          "problem_vi": "Giảm nhiễu và dư thừa của biểu diễn nút nhằm cải thiện phân cụm cộng đồng đồ thị.",
+          "summary_vi": "Kết hợp bảo toàn cấu trúc đồ thị và tính nhất quán của biểu diễn; abstract nêu đánh giá trên năm bộ dữ liệu chuẩn.",
+          "url": "https://elib.vku.udn.vn/handle/123456789/7667",
+          "doi": "10.1007/978-981-95-3358-9_27",
+          "source_urls": [
+            "https://elib.vku.udn.vn/handle/123456789/7667"
+          ],
+          "verification_note": "Đọc metadata/abstract khoVKU. Năm2025 theo hội nghị/bộ sưu tập; chưa đối chiếu năm phát hành sách Springer. Trường trang trong kho có lỗi372–338 nên không sử dụng.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Kho tài nguyên sốVKU, bộ sưu tập bài báo2025.",
+          "ai_methods": [
+            "DeepWalk",
+            "Autoencoder",
+            "Contrastive learning"
+          ],
+          "year_basis": "conference_year_as_listed",
+          "conference_year": 2025
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    },
+    {
+      "short_name": "HCMUTE",
+      "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+      "domain": "hcmute.edu.vn",
+      "ai_portals": [
+        {
+          "title": "Khoa CNTT",
+          "url": "https://fit.hcmute.edu.vn/"
+        },
+        {
+          "title": "Danh mục công bố giảng viên Trần Quang Khải",
+          "url": "https://fit.hcmute.edu.vn/Resources/Docs/SubDomain/fit/2025/HCMUTE_SCIENTIFIC_CV_TranQuangKhai.pdf",
+          "access_note": "Kiểm tra 30/10/2026: URL trả trang HTML không tìm thấy trang, không phải PDF. Công bố GCN được xác minh lại trực tiếp trên Springer."
+        },
+        {
+          "title": "Computer Vision & Intelligent Systems Laboratory",
+          "url": "https://cvis.hcmute.edu.vn/Research"
+        }
+      ],
+      "items": [
+        {
+          "title": "Domain-Oriented GCN Method for Sentiment Analysis",
+          "year": 2025,
+          "type": "conference_paper",
+          "topic_codes": [
+            "AI_DATA",
+            "COMPUTING"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "topics": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "summary_vi": "Phân tích cảm xúc đa miền: DomBert tạo biểu diễn theo miền, mạng tích chập đồ thị trích xuất đặc trưng, rồi các bộ phân loại softmax được kết hợp qua lớp hợp nhất.",
+          "url": "https://doi.org/10.1007/978-981-96-6005-6_29",
+          "doi": "10.1007/978-981-96-6005-6_29",
+          "source_urls": [
+            "https://doi.org/10.1007/978-981-96-6005-6_29",
+            "https://fit.hcmute.edu.vn/Resources/Docs/SubDomain/fit/2025/HCMUTE_SCIENTIFIC_CV_TranQuangKhai.pdf",
+            "https://link.springer.com/chapter/10.1007/978-981-96-6005-6_29"
+          ],
+          "verification_note": "Đã đọc abstract và affiliation trên Springer; đúng DOI, ACIIDS 2025, trang 408–419, first online 21/04/2025. URL CV cũ hiện trả trang không tìm thấy; dùng metadata nhà xuất bản làm bằng chứng. Chưa đọc toàn văn.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "classification_method": "Phân loại thủ công theo nguồn đã đọc; nhiều nhãn khi liên ngành.",
+          "university_attribution": "Springer ghi Huyen Trang Phan và Quang Khai Tran thuộc Faculty of Information Technology, HCMC University of Technology and Education, Ho Chi Minh City, Vietnam (tên cũ của HCM-UTE).",
+          "abstract_read": true,
+          "online_publication_date": "2025-04-21",
+          "secondary_topic_codes": [
+            "COMPUTING"
+          ],
+          "school": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+          "short_name": "HCMUTE",
+          "school_domain": "hcmute.edu.vn",
+          "country_code": "VN",
+          "region": "Việt Nam",
+          "primary_topic_vi": "AI, học máy và dữ liệu",
+          "topic_labels_vi": [
+            "AI, học máy và dữ liệu",
+            "Phần mềm, hệ thống tính toán và mạng"
+          ],
+          "technology_relevance": "included_after_content_relevance_review",
+          "evidence_level": "source_content_reviewed",
+          "ai_method_vi": "DomBert biểu diễn theo miền, GCN trích đặc trưng, hợp nhất bộ phân loại.",
+          "problem_vi": "Phân tích cảm xúc có xét khác biệt miền dữ liệu.",
+          "ai_topic_codes": [
+            "NLP_SPEECH",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "Phân tích cảm xúc"
+          ],
+          "school_attribution": "Springer ghi Huyen Trang Phan và Quang Khai Tran thuộc Faculty of Information Technology, HCMC University of Technology and Education, Ho Chi Minh City, Vietnam (tên cũ của HCM-UTE).",
+          "reading_depth": "source_content_reviewed",
+          "status": "published",
+          "source_record_id": "T021",
+          "ai_methods": [
+            "DomBert",
+            "GCN",
+            "Classifier fusion"
+          ],
+          "authors": [],
+          "authors_note_vi": "Danh sách tác giả chưa được trích vào bản ghi này; xem nguồn gốc để tra danh sách đầy đủ."
+        },
+        {
+          "title": "Enhanced Monthly Load Forecasting With RapidMiner-Based Deep Learning",
+          "year": 2026,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Gia-Tue Tang",
+            "Dinh-Nhon Truong"
+          ],
+          "ai_topic_codes": [
+            "FORECAST_RECOMMEND",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "Dự báo phụ tải điện",
+            "Hệ thống điện"
+          ],
+          "ai_method_vi": "Mạng học sâu trên RapidMiner với dữ liệu tiêu thụ điện và thời tiết.",
+          "problem_vi": "Dự báo phụ tải điện ngày qua nhiều tháng để hỗ trợ lập kế hoạch vận hành.",
+          "summary_vi": "Huấn luyện và kiểm tra mô hình trên một nghiên cứu trường hợp tại TP.HCM; so sánh với Decision Tree và SVM.",
+          "url": "https://www.jte.edu.vn/index.php/jte/article/view/1901",
+          "doi": "10.54644/jte.2025.1901",
+          "source_urls": [
+            "https://www.jte.edu.vn/index.php/jte/article/view/1901"
+          ],
+          "verification_note": "Đọc abstract, affiliation và metadata. Trang ghi xuất bản28/08/2026, số21(03)2026; DOI chứa2025 không được dùng để suy ra năm công bố. Chưa đọc toàn văn.",
+          "reading_depth": "abstract_and_metadata",
+          "checked_on": "2026-10-30",
+          "full_text_read": false,
+          "school_attribution": "Trang tác giả xác nhận cả hai thuộc HCM-UTE.",
+          "published_date": "2026-08-28",
+          "ai_methods": [
+            "Deep learning on RapidMiner"
+          ]
+        }
+      ],
+      "search_note_vi": "Tìm công trình AI trên nguồn trường, nhóm nghiên cứu và nhà xuất bản; các hướng chỉ phản ánh các công trình được chọn."
+    }
+  ]
+}

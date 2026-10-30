@@ -1,0 +1,29 @@
+{
+  "keep": [
+    "MULTI-LEVEL STACKING ENSEMBLE LEARNING FOR ENHANCED ECG-BASED ARRHYTHMIA DETECTION",
+    "PERFORMANCE OF MULTI RIS AIDED UPLINK WIRELESS SYSTEMS WITH SHORT PACKET COMMUNICATIONS",
+    "Ăng ten MIMO 2×2 băng siêu rộng có hệ số cách ly cao ứng dụng cho truyền thông 5G băng tần dưới 6GHz",
+    "Electrocardiogram Based Heartbeat Detection Using Deep Learning",
+    "A Perception-Driven Framework for Robust V2V Cooperative Localization",
+    "MACHINE LEARNING-BASED PREDICTION OF HEART FAILURE USING GENETIC DATA",
+    "IDENTIFYING RISK FACTORS AND SURVIVAL PREDICTION OF HEART FAILURE PATIENTS USING MACHINE LEARNING",
+    "EXPERIMENTAL PERFORMANCE EVALUATION OF WIREGUARD PROTOCOL COMPARED TO OPENVPN AND IPsec IN VIRTUAL PRIVATE NETWORKS",
+    "Outage Probability of Adaptive RIS-NOMA Downlink System with Channel-Aware Scheduling for Heterogeneous Users",
+    "Hiệu năng chiến lược chuyển giao phổ tần trong mạng vô tuyến hợp tác nhận thức hỗ trợ IoT",
+    "Performance Analysis of RIS-UAV-Assisted Cooperative NOMA with Two-Phase Transmission for Finite Blocklength Communications",
+    "Improving the performance of FBG optical sensor networks integrated with DWDM optical transmission networks",
+    "ECG-Based Arrhythmia Classification with Principal Component Analysis and Machine Learning",
+    "Đánh giá hiệu năng mạng cảm biến đa sự kiện sử dụng giao thức PMME thích nghi",
+    "Design of a Multi-Band RF-DC Circuit for Energy Harvesting in IoT Sensor Systems",
+    "Thiết kế nền tảng thực hành trực tuyến AIoT",
+    "Ứng dụng Lý thuyết Dấu ấn trong xây dựng mô hình phân tích dữ liệu thời gian thực.",
+    "NGHIÊN CỨU ỨNG DỤNG HỌC MÁY NHỎ TINYML CHO NÔNG NGHIỆP VÀ SẢN XUẤT CÔNG NGHIỆP",
+    "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+    "Design and Performance Analysis of an SCM-Integrated SIKD Satellite FSO System Using Dual-Threshold CV-QKD",
+    "KỸ THUẬT MIMO CỠ LỚN PHI TẾ BÀO VÀ ỨNG DỤNG TRONG MẠNG TRUYỀN THÔNG VỆ TINH QUỸ ĐẠO THẤP",
+    "Secure Block-Error Rate in Cooperative SPC Systems with Collaborative Jamming",
+    "A Study on Feature Selection Algorithms for Machine Learning-based ALS Diagnosis"
+  ],
+  "exclude": [],
+  "uncertain": []
+}

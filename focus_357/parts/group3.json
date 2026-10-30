@@ -1,0 +1,1597 @@
+{
+  "group_code": "G3",
+  "group_name_vi": "AI tiết kiệm tài nguyên và AI trên thiết bị/biên",
+  "scope_note_vi": "Khảo sát có giới hạn trên đủ 41 trường, ưu tiên 2024–2026 và mốc 30/10/2026. Giữ 12 công trình phù hợp từ catalog 87 công trình đã kiểm chứng, bổ sung 21 công trình/dự án nguồn sơ cấp. Không khẳng định thu thập tuyệt đối đầy đủ. Chỉ giữ đóng góp liên quan nén, giảm tính toán/bộ nhớ/năng lượng hoặc triển khai tại biên; phân biệt dự án, preprint, accepted và published. Hai mục nén tensor/mô hình giảm bậc nằm ở ranh giới với AI khoa học và được mô tả đúng phạm vi; không suy ra mọi ứng dụng AI là AI hiệu quả. Tóm tắt từ abstract/đoạn chọn lọc, không đọc toàn văn. Ngày 01/01 trong kho chỉ dùng để lấy năm.",
+  "items": [
+    {
+      "title": "Certified Unlearning for Federated Recommendation",
+      "year": 2025,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Học liên kết",
+        "Unlearning tránh huấn luyện lại"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Xóa đóng góp của người dùng khỏi hệ gợi ý liên kết mà không phải huấn luyện lại từ đầu.",
+      "ai_methods": [
+        "Certified federated unlearning",
+        "CFRU"
+      ],
+      "method_vi": "CFRU loại ảnh hưởng cập nhật của người dùng, lấy mẫu lịch sử cập nhật quan trọng và bù sai lệch bằng ước lượng có bảo đảm.",
+      "contribution_vi": "Đề xuất cơ chế unlearning cho hệ gợi ý liên kết, phân tích sai lệch và đánh giá trên MovieLens/Pinterest với mô hình NCF và LightGCN.",
+      "application_vi": "Hệ gợi ý; Học liên kết; Quyền riêng tư",
+      "url": "https://dl.acm.org/doi/10.1145/3706419",
+      "doi": "10.1145/3706419",
+      "source_urls": [
+        "https://dl.acm.org/doi/10.1145/3706419",
+        "https://soict.hust.edu.vn/en/2025-publications.html"
+      ],
+      "institution_evidence_vi": "Danh mục công bố chính thức SoICT HUST liệt kê công trình và nhóm tác giả.",
+      "reading_depth": "abstract_and_selected_methods",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đọc abstract và các phần mô tả cơ chế/thực nghiệm trên trang ACM công khai. HUST xác nhận trong danh mục SoICT2025; đây là công trình hợp tác. Không tái lập kết quả.",
+      "full_text_read": false,
+      "code_url": "https://github.com/thanhtrunghuynh93/CFRU"
+    },
+    {
+      "title": "NGHIÊN CỨU NÂNG CAO HIỆU QUẢ PHÁT HIỆN MÃ ĐỘC IOT DỰA TRÊN HỌC MÁY SỬ DỤNG CÁC ĐẶC TRƯNG CỦA TẬP TIN THỰC THI",
+      "year": 2024,
+      "schools": [
+        "KMA"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Học máy gọn cho IoT",
+        "Giảm đặc trưng và chi phí suy luận"
+      ],
+      "type": "doctoral_thesis",
+      "status": "doctoral_thesis_defended_per_official_notice",
+      "problem_vi": "Giảm chi phí thu thập đặc trưng và kích thước mô hình trong khi phát hiện mã độc trên một hoặc nhiều kiến trúc CPU.",
+      "ai_methods": [
+        "Học máy có giám sát",
+        "SVM",
+        "Random Forest",
+        "Naive Bayes",
+        "Biểu diễn đặc trưng"
+      ],
+      "method_vi": "Biểu diễn đặc trưng chuỗi lời gọi hệ thống/opcode; thử nghiệm SVM, Random Forest, Naive Bayes và ánh xạ không gian biểu diễn giữa kiến trúc.",
+      "contribution_vi": "Phát triển mô hình phát hiện mã độc trên thiết bị IoT từ đặc trưng tập tin thực thi, xét nhiều kiến trúc vi xử lý và giới hạn tài nguyên.",
+      "application_vi": "An ninh mạng; Mã độc IoT; Thiết bị tài nguyên hạn chế",
+      "url": "https://actvn.edu.vn/Images/Uploadfiles/Lu%E1%BA%ADn%20%C3%A1n%20ch%C3%ADnh%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20To%C3%A0n-12-12-2024.pdf",
+      "doi": null,
+      "source_urls": [
+        "https://actvn.edu.vn/Images/Uploadfiles/Lu%E1%BA%ADn%20%C3%A1n%20ch%C3%ADnh%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20To%C3%A0n-12-12-2024.pdf",
+        "https://actvn.edu.vn/News/Detail?NewsId=28387"
+      ],
+      "institution_evidence_vi": "Trang tên PDF ghi Học viện Kỹ thuật Mật mã, luận án tiến sĩ ngành An toàn thông tin, Nguyễn Ngọc Toàn, Hà Nội 2024.",
+      "reading_depth": "pdf_selected_sections",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã kiểm tra trang tên, mục tiêu/phạm vi, mô tả thử nghiệm và một số đoạn kết luận của PDF 157 trang. Không tuyên bố đọc toàn bộ hoặc xác nhận ngày bảo vệ. Tìm mới tin chính thức xác nhận tổ chức bảo vệ cấp Học viện ngày 25/10/2024; chưa kiểm tra quyết định cấp bằng.",
+      "full_text_read": false
+    },
+    {
+      "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+      "year": 2026,
+      "schools": [
+        "HUCE",
+        "USTH"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "VLM gọn",
+        "Fine-tuning tiết kiệm tham số"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Phân biệt không cháy, lửa có kiểm soát và cháy nguy hiểm trong nhà theo ngữ cảnh.",
+      "ai_methods": [
+        "Vision-language models",
+        "Multimodal classification"
+      ],
+      "method_vi": "Mô hình ngôn ngữ–thị giác gọn kết hợp thông tin hình ảnh và ngữ nghĩa. Tin USTH mô tả fine-tuning LoRA để cải thiện hiệu năng mà hạn chế tăng chi phí tính toán.",
+      "contribution_vi": "Kết hợp thông tin hình ảnh và ngữ nghĩa để phân biệt không cháy, lửa được kiểm soát và cháy nguy hiểm trong nhà.",
+      "application_vi": "Phát hiện cháy; An toàn công trình",
+      "url": "https://www.nature.com/articles/s41598-026-48743-5",
+      "doi": "10.1038/s41598-026-48743-5",
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-48743-5",
+        "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+        "https://fit.huce.edu.vn/danh-muc-ca",
+        "https://usth.edu.vn/cong-bo-quoc-te-tren-tap-chi-q1-voi-mo-hinh-ai-biet-suy-luan-cua-nam-sinh-usth-31252/"
+      ],
+      "institution_evidence_vi": "Bản tác giả của nhà xuất bản ghi Trần Khánh Dung thuộc HUCE; có đồng tác giả USTH và Lyon. Tin chính thức USTH xác nhận Trần Minh Dương và dẫn tới bài.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã đọc abstract và xác nhận Trần Khánh Dung thuộc HUCE trong bản tác giả của nhà xuất bản; đồng tác giả từ USTH và Lyon. Chưa đọc toàn văn.",
+      "full_text_read": false
+    },
+    {
+      "title": "LightEdit: Textual Image Editing With Lightweight Stable Diffusion",
+      "year": 2025,
+      "schools": [
+        "Phenikaa"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Diffusion nhẹ",
+        "Chưng cất tri thức"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Giảm tài nguyên tính toán khi chỉnh sửa đúng vùng ảnh theo câu lệnh.",
+      "ai_methods": [
+        "Diffusion models",
+        "U-Net",
+        "Attention",
+        "Knowledge distillation"
+      ],
+      "method_vi": "U-Net chuyên biệt với attention và chưng cất tri thức từ nhiều mô hình thầy theo giai đoạn.",
+      "contribution_vi": "Mô hình diffusion gọn chỉnh sửa ảnh theo chỉ dẫn văn bản, hướng đến giảm số tham số mà vẫn bảo toàn cấu trúc ảnh.",
+      "application_vi": "Chỉnh sửa ảnh; AI tạo sinh",
+      "url": "https://ieeexplore.ieee.org/document/11152344/",
+      "doi": "10.1109/access.2025.3606427",
+      "source_urls": [
+        "https://ieeexplore.ieee.org/document/11152344/",
+        "https://api.crossref.org/works/10.1109/ACCESS.2025.3606427",
+        "https://icslab.phenikaa-uni.edu.vn/news-events"
+      ],
+      "institution_evidence_vi": "Metadata IEEE đăng ký tại Crossref ghi Thuy Phuong Vu, Minhhuy Le và Phan Xuan Tan thuộc Phenikaa; ICSLab xác nhận công trình của nghiên cứu viên Vu Phuong Thuy.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã đọc abstract IEEE, ngày xuất bản 05/09/2025 và metadata affiliation Crossref. Tin ICSLab chỉ ghi accepted nhưng nhà xuất bản xác nhận đã xuất bản; chưa đọc toàn văn.",
+      "full_text_read": false
+    },
+    {
+      "title": "Tensor Learning and Compression of N-Phonon Interactions",
+      "year": 2025,
+      "schools": [
+        "Caltech"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Học tensor hạng thấp",
+        "Nén biểu diễn tính toán"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Tính tương tác nhiều phonon và truyền nhiệt đòi hỏi tensor rất lớn.",
+      "ai_methods": [
+        "Tensor learning tìm xấp xỉ hạng thấp và nén các tensor hằng số lực liên nguyên tử."
+      ],
+      "method_vi": "Tensor learning tìm xấp xỉ hạng thấp và nén các tensor hằng số lực liên nguyên tử.",
+      "contribution_vi": "Học và nén tensor biểu diễn tương tác phonon để giảm chi phí tính toán tính chất nhiệt của vật liệu. Phương pháp giữ độ chính xác cao khi tính tốc độ tán xạ phonon và độ dẫn nhiệt trên các vật liệu được khảo sát.",
+      "application_vi": "Mô phỏng vật liệu; Truyền nhiệt",
+      "url": "https://doi.org/10.1103/nmgj-yq1g",
+      "doi": "10.1103/nmgj-yq1g",
+      "source_urls": [
+        "https://doi.org/10.1103/nmgj-yq1g",
+        "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+        "https://journals.aps.org/prl/abstract/10.1103/nmgj-yq1g",
+        "https://arxiv.org/abs/2503.05913",
+        "https://journals.aps.org/prl/supplemental/10.1103/nmgj-yq1g/Supplementary_Information_for_compressing_n_ph_interactions.pdf"
+      ],
+      "institution_evidence_vi": "Bản tin Caltech và trang Physical Review Letters ghi nhóm Marco Bernardi, Yao Luo cùng các tác giả thuộc Caltech.",
+      "reading_depth": "publisher_abstract_and_affiliation",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã đọc bản tin và abstract nhà xuất bản; chưa đọc phần toàn văn có yêu cầu quyền truy cập.",
+      "full_text_read": false
+    },
+    {
+      "title": "Semantic Agreement Enables Efficient Open-Ended LLM Cascades",
+      "year": 2025,
+      "schools": [
+        "CMU"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "LLM cascades",
+        "Định tuyến mô hình theo độ khó"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Giảm chi phí và độ trễ trong tác vụ sinh câu trả lời mở mà vẫn giữ chất lượng.",
+      "ai_methods": [
+        "Ensemble và đo đồng thuận ngữ nghĩa làm tín hiệu định tuyến; không cần huấn luyện thêm hoặc truy cập trọng số."
+      ],
+      "method_vi": "Ensemble và đo đồng thuận ngữ nghĩa làm tín hiệu định tuyến; không cần huấn luyện thêm hoặc truy cập trọng số.",
+      "contribution_vi": "Dùng sự đồng thuận về ý nghĩa giữa các câu trả lời để quyết định khi nào chuyển yêu cầu từ LLM nhỏ sang LLM lớn.",
+      "application_vi": "Hệ thống phục vụ LLM; Định tuyến truy vấn",
+      "url": "https://aclanthology.org/2025.emnlp-industry.171/",
+      "doi": "10.18653/v1/2025.emnlp-industry.171",
+      "source_urls": [
+        "https://aclanthology.org/2025.emnlp-industry.171/",
+        "https://aclanthology.org/2025.emnlp-industry.171.pdf"
+      ],
+      "institution_evidence_vi": "Cả ba tác giả ghi Carnegie Mellon University trên trang đầu bài báo.",
+      "reading_depth": "abstract_and_first_page",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã đọc tóm tắt và thông tin công bố; chưa đánh giá toàn văn hoặc khả năng tái lập.",
+      "full_text_read": false
+    },
+    {
+      "title": "LLMs Can Reason Faster Only If We Let Them",
+      "year": 2025,
+      "schools": [
+        "Virginia Tech"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Suy luận LLM ít bước",
+        "Tối ưu chiều dài lập luận"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Suy luận theo cây hoặc thuật toán thường sinh lời giải dài và tăng chi phí.",
+      "ai_methods": [
+        "Tinh chỉnh có giám sát trên kế hoạch Algorithm-of-Thoughts, sau đó học tăng cường thưởng lời giải ngắn và đúng."
+      ],
+      "method_vi": "Tinh chỉnh có giám sát trên kế hoạch Algorithm-of-Thoughts, sau đó học tăng cường thưởng lời giải ngắn và đúng.",
+      "contribution_vi": "AoT-O3 huấn luyện LLM tìm kế hoạch ngắn hơn nhưng vẫn hợp lệ, hướng đến suy luận ít tốn tài nguyên hơn.",
+      "application_vi": "Lập kế hoạch tự động; Hiệu quả suy luận LLM",
+      "url": "https://proceedings.mlr.press/v267/sel25a.html",
+      "doi": null,
+      "source_urls": [
+        "https://proceedings.mlr.press/v267/sel25a.html",
+        "https://people.cs.vt.edu/~naren/papers/LLMs_Faster_ICML25.pdf",
+        "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sel25a/sel25a.pdf"
+      ],
+      "institution_evidence_vi": "Sel, Ramakrishnan, Jia và Jin thuộc Virginia Tech; Huang thuộc University of California, Davis.",
+      "reading_depth": "abstract_and_first_page",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã đọc abstract PMLR và trang đầu PDF xác nhận affiliation. Không thấy DOI bài trên PMLR; RL là phương pháp, chưa phải thử nghiệm robot.",
+      "full_text_read": false
+    },
+    {
+      "title": "Policy-Guided Search on Tree-of-Thoughts for Efficient Problem Solving with Bounded Language Model Queries",
+      "year": 2025,
+      "schools": [
+        "Texas A&M"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Tìm kiếm tiết kiệm truy vấn LLM"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Tìm kiếm Tree-of-Thoughts tốn nhiều lượt gọi để sinh và chấm điểm nhánh.",
+      "ai_methods": [
+        "Điều chỉnh Levin Tree Search cho cây suy nghĩ; dùng LM làm policy và phân tích chặn số bước mở rộng."
+      ],
+      "method_vi": "Điều chỉnh Levin Tree Search cho cây suy nghĩ; dùng LM làm policy và phân tích chặn số bước mở rộng.",
+      "contribution_vi": "Dùng xác suất do mô hình ngôn ngữ gán cho các bước suy nghĩ để dẫn hướng tìm kiếm trong ngân sách truy vấn cố định.",
+      "application_vi": "Suy luận LLM; Tìm kiếm và lập kế hoạch",
+      "url": "https://people.engr.tamu.edu/guni/papers/TMLR25_Sumedh.pdf",
+      "doi": null,
+      "source_urls": [
+        "https://people.engr.tamu.edu/guni/papers/TMLR25_Sumedh.pdf",
+        "https://openreview.net/forum?id=Rlk1bWe2ii",
+        "https://people.engr.tamu.edu/guni/group.html"
+      ],
+      "institution_evidence_vi": "Cả hai tác giả ghi Department of Computer Science & Engineering, Texas A&M University.",
+      "reading_depth": "abstract_first_page_and_introduction",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Bản tác giả ghi Published in TMLR (12/2025); xác nhận affiliation trên trang đầu. Không thấy DOI riêng; giữ liên kết OpenReview.",
+      "full_text_read": false
+    },
+    {
+      "title": "Deep Learning Scheduling on a Field-Programmable Gate Array Cluster Using Configurable Deep Learning Accelerators",
+      "year": 2025,
+      "schools": [
+        "IIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Tăng tốc DNN bằng FPGA",
+        "Lập lịch suy luận"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Triển khai mô hình học sâu ở biên bị giới hạn tài nguyên và độ trễ.",
+      "ai_methods": [
+        "Phân hoạch đồ thị tính toán DNN, pipeline và phân bổ tác vụ trên các kiến trúc tăng tốc cấu hình được."
+      ],
+      "method_vi": "Phân hoạch đồ thị tính toán DNN, pipeline và phân bổ tác vụ trên các kiến trúc tăng tốc cấu hình được.",
+      "contribution_vi": "Xây dựng và đánh giá cụm FPGA để phân phối suy luận mạng nơ-ron, giảm độ trễ bằng các cách lập lịch và cấu hình bộ tăng tốc.",
+      "application_vi": "Phần cứng tăng tốc AI; Suy luận ở biên",
+      "url": "https://www.mdpi.com/2078-2489/16/4/298",
+      "doi": "10.3390/info16040298",
+      "source_urls": [
+        "https://www.mdpi.com/2078-2489/16/4/298",
+        "https://ecasp.ece.iit.edu/publications/2012-present/2025-02.pdf",
+        "https://ecasp.ece.iit.edu/2012-present.html"
+      ],
+      "institution_evidence_vi": "Toàn bộ tác giả ghi Department of Electrical and Computer Engineering, Illinois Institute of Technology.",
+      "reading_depth": "abstract_first_page_and_results_excerpt",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đã đọc abstract, affiliation và trích đoạn đánh giá. Đây là nghiên cứu hệ thống triển khai AI; bộ lập lịch không được mô tả là tự học bằng AI.",
+      "full_text_read": false
+    },
+    {
+      "title": "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+      "year": 2025,
+      "schools": [
+        "ETH Zurich"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Học tăng cường trên robot tài nguyên hạn chế"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Làm sao robot bốn chân nhỏ vượt địa hình khó với năng lực tính toán hạn chế?",
+      "ai_methods": [
+        "Học tăng cường cho điều khiển di chuyển, kết hợp cảm biến chiều sâu và bản đồ độ cao."
+      ],
+      "method_vi": "Học tăng cường cho điều khiển di chuyển, kết hợp cảm biến chiều sâu và bản đồ độ cao.",
+      "contribution_vi": "Phát triển điều khiển di chuyển bằng học tăng cường cho robot bốn chân nhỏ, kết hợp bản đồ độ cao và cảm biến chiều sâu nhằm vượt địa hình khó với tài nguyên tính toán hạn chế.",
+      "application_vi": "robot tự hành; thiết bị tính toán hạn chế",
+      "url": "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b",
+      "doi": "10.1109/icra55743.2025.11128474",
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b",
+        "https://api.crossref.org/works/10.1109/ICRA55743.2025.11128474"
+      ],
+      "institution_evidence_vi": "Kho ETH ghi Conference Paper, ICRA 2025, đơn vị D-ITET Center for Project-Based Learning; DOI và tóm tắt có trong bản được lập chỉ mục. Truy cập trực tiếp sau đó trả HTTP 403.",
+      "reading_depth": "indexed_official_repository_abstract_and_metadata",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Kho ETH ghi Conference Paper, ICRA 2025, đơn vị D-ITET Center for Project-Based Learning; DOI và tóm tắt có trong bản được lập chỉ mục. Truy cập trực tiếp sau đó trả HTTP 403. Giữ nguyên mức chứng cứ từ lần đọc trước; không tuyên bố đã đọc toàn văn.",
+      "full_text_read": false
+    },
+    {
+      "title": "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+      "year": 2025,
+      "schools": [
+        "KTH"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Mô hình học sâu nhẹ",
+        "TensorFlow Lite tại biên"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Làm sao xác thực thiết bị IoT từ tín hiệu vô tuyến trên phần cứng biên hạn chế?",
+      "ai_methods": [
+        "Học sâu trên mẫu tín hiệu I/Q để nhận dạng dấu vân tay RF; triển khai gọn bằng TensorFlow Lite trên Raspberry Pi."
+      ],
+      "method_vi": "Học sâu trên mẫu tín hiệu I/Q để nhận dạng dấu vân tay RF; triển khai gọn bằng TensorFlow Lite trên Raspberry Pi.",
+      "contribution_vi": "Xác thực thiết bị IoT qua dấu vân tay tín hiệu vô tuyến bằng mô hình học sâu gọn nhẹ. Nghiên cứu chuyển mô hình sang TensorFlow Lite và thử nghiệm trên Raspberry Pi.",
+      "application_vi": "IoT; xác thực vô tuyến",
+      "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481",
+      "doi": "10.1109/iwcmc65282.2025.11059726",
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481",
+        "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person:117623",
+        "https://api.crossref.org/works/10.1109/IWCMC65282.2025.11059726"
+      ],
+      "institution_evidence_vi": "Trang tác giả KTH DiVA ghi conference paper phản biện tại IWCMC 2025, tác giả Ahmed Mohamed Hussain và Panos Papadimitratos thuộc KTH EECS. Trang record trực tiếp có chặn Anubis; DOI và nội dung đối chiếu từ trang tác giả.",
+      "reading_depth": "official_author_portal_abstract_and_metadata",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Trang tác giả KTH DiVA ghi conference paper phản biện tại IWCMC 2025, tác giả Ahmed Mohamed Hussain và Panos Papadimitratos thuộc KTH EECS. Trang record trực tiếp có chặn Anubis; DOI và nội dung đối chiếu từ trang tác giả.",
+      "full_text_read": false
+    },
+    {
+      "title": "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Milano"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Mô hình học sâu giảm bậc",
+        "Nén trạng thái điều khiển"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao tránh mô phỏng phương trình vi phân tốn kém mỗi lần cần cập nhật điều khiển cho một kịch bản mới?",
+      "ai_methods": [
+        "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn."
+      ],
+      "method_vi": "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn.",
+      "contribution_vi": "Nén trạng thái và điều khiển hệ phân bố nhiều chiều vào không gian ẩn để tính điều khiển vòng kín thời gian thực, kể cả khi không có đầy đủ phép đo trạng thái.",
+      "application_vi": "điều khiển hệ phân bố; mô phỏng chất lưu; mô hình giảm bậc",
+      "url": "https://re.public.polimi.it/handle/11311/1290369",
+      "doi": "10.1016/j.cma.2025.118030",
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1290369",
+        "https://www.sciencedirect.com/science/article/pii/S0045782525003020"
+      ],
+      "institution_evidence_vi": "Kho RE.PUBLIC@POLIMI ghi công trình của Tomasetto, Braghin và Manzoni với liên kết tác giả nội bộ.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật.",
+      "full_text_read": false
+    },
+    {
+      "title": "DPaI: Differentiable Pruning at Initialization with Node-Path Balance Principle",
+      "year": 2025,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Tỉa mạng trước huấn luyện",
+        "Tối ưu mặt nạ khả vi"
+      ],
+      "ai_methods": [
+        "Tỉa mạng trước huấn luyện",
+        "Tối ưu mặt nạ khả vi"
+      ],
+      "method_vi": "Tối ưu mặt nạ pruning liên tục theo nguyên lý cân bằng nút–đường đi; dùng gradient thay bài toán rời rạc.",
+      "problem_vi": "Chi phí huấn luyện và suy luận của mạng dày; khó tối ưu cấu trúc mạng thưa trước huấn luyện.",
+      "contribution_vi": "Tìm mạng con thưa có khả năng huấn luyện, đánh giá trên CNN và Vision Transformer.",
+      "application_vi": "Nén mô hình thị giác và giảm tài nguyên huấn luyện.",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/0faea6a1535bae3c818eebcca275ae46-Paper-Conference.pdf",
+      "doi": null,
+      "source_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/0faea6a1535bae3c818eebcca275ae46-Paper-Conference.pdf",
+        "https://openreview.net/pdf?id=hvLBTpiDt3"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi HUST, Warwick và FPT Software AI Center; FPT Software không phải FPT University.",
+      "reading_depth": "abstract_first_page_and_introduction",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published",
+      "code_url": "https://github.com/QuanNguyen-Tri/DPaI"
+    },
+    {
+      "title": "EMO: Embedding Model Distillation via Intra-Model Relation and Optimal Transport Alignments",
+      "year": 2025,
+      "schools": [
+        "HUST"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Chưng cất mô hình embedding",
+        "Chưng cất giữa tokenizer khác nhau"
+      ],
+      "ai_methods": [
+        "Chưng cất mô hình embedding",
+        "Chưng cất giữa tokenizer khác nhau"
+      ],
+      "method_vi": "Ghép token bằng khoảng cách chỉnh sửa; căn chỉnh attention qua CKA và hidden states qua optimal transport.",
+      "problem_vi": "Khác biệt tokenizer cản trở chuyển tri thức từ mô hình embedding lớn sang nhỏ.",
+      "contribution_vi": "Bảo toàn quan hệ biểu diễn để tạo embedding model gọn, đánh giá các tác vụ phân loại và tương đồng câu.",
+      "application_vi": "Tìm kiếm và biểu diễn văn bản tiết kiệm tài nguyên.",
+      "url": "https://aclanthology.org/2025.emnlp-main.385/",
+      "doi": "10.18653/v1/2025.emnlp-main.385",
+      "source_urls": [
+        "https://aclanthology.org/2025.emnlp-main.385/",
+        "https://soict.hust.edu.vn/en/2025-publications.html"
+      ],
+      "institution_evidence_vi": "Danh sách công bố SoICT HUST năm 2025 liệt kê công trình và tác giả Linh Ngo Van.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published"
+    },
+    {
+      "title": "MTMLD-AWSR: A Novel Multi-Teacher Multi-Level Distillation Approach for Class Incremental Learning in Edge-Cloud Systems",
+      "year": 2025,
+      "schools": [
+        "HUST",
+        "HUCE"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Chưng cất nhiều mô hình thầy",
+        "Học tăng dần tại biên–đám mây"
+      ],
+      "ai_methods": [
+        "Chưng cất nhiều mô hình thầy",
+        "Học tăng dần tại biên–đám mây"
+      ],
+      "method_vi": "Chưng cất feature, logit, attention; tái sử dụng student làm teacher và quản lý số teacher.",
+      "problem_vi": "Dữ liệu IoT sinh thêm lớp mới gây quên tri thức; nhiều teacher gây chi phí tính toán dư thừa.",
+      "contribution_vi": "Kết hợp giữ tri thức với cơ chế giảm dư thừa teacher trong học lớp tăng dần.",
+      "application_vi": "Phân loại IoT và học liên tục ở hệ biên–đám mây.",
+      "url": "https://pure.psu.edu/en/publications/mtmld-awsr-a-novel-multi-teacher-multi-level-distillation-approac/",
+      "doi": "10.1109/Cloud-Summit64795.2025.00022",
+      "source_urls": [
+        "https://pure.psu.edu/en/publications/mtmld-awsr-a-novel-multi-teacher-multi-level-distillation-approac/",
+        "https://soict.hust.edu.vn/en/2025-publications.html",
+        "https://fit.huce.edu.vn/danh-muc-ca"
+      ],
+      "institution_evidence_vi": "SoICT HUST và danh mục khoa CNTT HUCE cùng ghi công trình; abstract và thông tin xuất bản lấy từ kho đồng tác giả Penn State.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published"
+    },
+    {
+      "title": "FusionNet: A latency-aware hybrid transformer architecture for efficient leaf disease detection on the IoT edge",
+      "year": 2026,
+      "schools": [
+        "UIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Kiến trúc CNN–Transformer tối ưu độ trễ",
+        "Suy luận tại biên"
+      ],
+      "ai_methods": [
+        "Kiến trúc CNN–Transformer tối ưu độ trễ",
+        "Suy luận tại biên"
+      ],
+      "method_vi": "Đo độ trễ từng lớp, thiết kế ShuffleBlock và MetaFormer rồi ghép thành FusionNet.",
+      "problem_vi": "Mô hình phát hiện bệnh lá cần chạy nhanh trên thiết bị IoT giới hạn tính toán.",
+      "contribution_vi": "Thiết kế kiến trúc dựa trên độ trễ thực tế và đánh giá cân bằng độ chính xác–thời gian suy luận.",
+      "application_vi": "Nông nghiệp thông minh trên thiết bị biên.",
+      "url": "https://doi.org/10.1016/j.iot.2026.101974",
+      "doi": "10.1016/j.iot.2026.101974",
+      "source_urls": [
+        "https://doi.org/10.1016/j.iot.2026.101974",
+        "https://iec.uit.edu.vn/publications",
+        "https://api.crossref.org/works/10.1016/j.iot.2026.101974"
+      ],
+      "institution_evidence_vi": "Trang công bố chính thức nhóm IEC UIT ghi Huy-Tan Thai, Van-Linh Truong-Dang, Kim-Hung Le và abstract.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả. Crossref của nhà xuất bản xác nhận năm/tháng công bố 07/2026, metadata tạo 19/05/2026, nằm trong mốc khảo sát.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "CoFANN: A collaborative framework for accelerating DNN inference in drone-based agricultural monitoring systems",
+      "year": 2025,
+      "schools": [
+        "UIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Suy luận cộng tác thiết bị–biên",
+        "Phân hoạch DNN thích ứng"
+      ],
+      "ai_methods": [
+        "Suy luận cộng tác thiết bị–biên",
+        "Phân hoạch DNN thích ứng"
+      ],
+      "method_vi": "Tìm chiến lược phân hoạch qua không gian khả vi và tối ưu gradient; chia mô hình theo tài nguyên và trạng thái mạng.",
+      "problem_vi": "Drone và IoT thiếu tài nguyên; chuyển mọi phép tính lên máy chủ gây độ trễ.",
+      "contribution_vi": "Phân chia các thành phần DNN giữa thiết bị để giảm độ trễ suy luận trong điều kiện mạng thay đổi.",
+      "application_vi": "Giám sát bệnh lá bằng drone.",
+      "url": "https://doi.org/10.1016/j.simpat.2025.103176",
+      "doi": "10.1016/j.simpat.2025.103176",
+      "source_urls": [
+        "https://doi.org/10.1016/j.simpat.2025.103176",
+        "https://iec.uit.edu.vn/publications"
+      ],
+      "institution_evidence_vi": "Trang công bố IEC UIT ghi Nhu-Y Tran-Van, Kim-Hung Le và abstract.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "A multimodal skin lesion classification through cross-attention fusion and collaborative edge computing",
+      "year": 2025,
+      "schools": [
+        "UIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Suy luận đa phương thức cộng tác",
+        "Tính toán biên"
+      ],
+      "ai_methods": [
+        "Suy luận đa phương thức cộng tác",
+        "Tính toán biên"
+      ],
+      "method_vi": "Kết hợp ảnh da và metadata qua cross-attention, phân phối tính toán giữa IoT và edge.",
+      "problem_vi": "Mô hình hỗ trợ phân loại tổn thương da gặp giới hạn độ trễ khi triển khai cloud.",
+      "contribution_vi": "Đồng thiết kế mô hình đa phương thức và cơ chế phân phối suy luận tại biên.",
+      "application_vi": "Hỗ trợ phân loại tổn thương da; chưa coi là triển khai lâm sàng.",
+      "url": "https://doi.org/10.1016/j.compmedimag.2025.102588",
+      "doi": "10.1016/j.compmedimag.2025.102588",
+      "source_urls": [
+        "https://doi.org/10.1016/j.compmedimag.2025.102588",
+        "https://iec.uit.edu.vn/publications"
+      ],
+      "institution_evidence_vi": "Trang công bố IEC UIT ghi Nhu-Y Tran-Van và Kim-Hung Le, kèm abstract.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "TinyML-Based Vietnamese Keyword Recognition for Smart Home Voice Control",
+      "year": 2025,
+      "schools": [
+        "PTIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "TinyML",
+        "Nhận dạng từ khóa trên vi điều khiển"
+      ],
+      "ai_methods": [
+        "TinyML",
+        "Nhận dạng từ khóa trên vi điều khiển"
+      ],
+      "method_vi": "Kết hợp xử lý tín hiệu/MFCC và mô hình học máy triển khai trên ESP32-S3.",
+      "problem_vi": "Nhận lệnh giọng nói tiếng Việt ngay trên thiết bị giá thấp, không phụ thuộc Internet.",
+      "contribution_vi": "Xây dựng dữ liệu một từ đánh thức và tám câu lệnh; đánh giá suy luận thời gian thực trên MCU.",
+      "application_vi": "Điều khiển nhà thông minh bằng tiếng Việt.",
+      "url": "https://jstic.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1668",
+      "doi": null,
+      "source_urls": [
+        "https://jstic.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1668",
+        "https://sea.ptit.edu.vn/ths-luong-cong-duan/"
+      ],
+      "institution_evidence_vi": "Bài ghi Duan Luong Cong, Nguyễn Ngọc Minh, Cuong Chu Van; trang nhân sự PTIT xác nhận Lương Công Duẩn thuộc khoa Kỹ thuật điện tử 1.",
+      "reading_depth": "publisher_abstract_and_official_staff_profile",
+      "verification_note_vi": "Trang bài ghi ngày xuất bản 18/09/2025; PDF tải lỗi nên chứng cứ đơn vị từ trang nhân sự, không suy ra chỉ từ nơi xuất bản tạp chí.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "Resource-Efficient Federated Multimodal Learning via Layer-Wise and Progressive Training",
+      "year": 2025,
+      "schools": [
+        "VKU"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Huấn luyện học liên kết theo lớp",
+        "Giảm bộ nhớ và truyền thông"
+      ],
+      "ai_methods": [
+        "Huấn luyện học liên kết theo lớp",
+        "Giảm bộ nhớ và truyền thông"
+      ],
+      "method_vi": "LW-FedMML huấn luyện từng phần mô hình và chỉ truyền phần đang học; Prog-FedMML mở rộng dần phạm vi huấn luyện.",
+      "problem_vi": "Mô hình nhiều modality quá tốn bộ nhớ, FLOPs và truyền thông cho client tài nguyên hạn chế.",
+      "contribution_vi": "Đánh giá hai chiến lược huấn luyện giảm gánh nặng tài nguyên so với huấn luyện end-to-end.",
+      "application_vi": "Học liên kết đa phương thức trên IoT và thiết bị người dùng.",
+      "url": "https://elib.vku.udn.vn/handle/123456789/5899",
+      "doi": "10.1109/JIOT.2025.3554541",
+      "source_urls": [
+        "https://elib.vku.udn.vn/handle/123456789/5899",
+        "https://arxiv.org/html/2407.15426v2"
+      ],
+      "institution_evidence_vi": "ArXiv v2 ghi Minh N. H. Nguyen thuộc Vietnam–Korea University of Information and Communication Technology; kho VKU ghi IEEE IoT Journal tháng 7/2025.",
+      "reading_depth": "abstract_and_affiliation",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving",
+      "year": 2024,
+      "schools": [
+        "MIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Lượng tử hóa 4/8 bit",
+        "Nén KV cache",
+        "Đồng thiết kế hệ thống suy luận"
+      ],
+      "ai_methods": [
+        "Lượng tử hóa 4/8 bit",
+        "Nén KV cache",
+        "Đồng thiết kế hệ thống suy luận"
+      ],
+      "method_vi": "QoQ dùng weight4bit,activation8bit,KV4bit; SmoothAttention, sắp xếp trọng số và kernel giảm overhead giải lượng tử.",
+      "problem_vi": "Lượng tử INT4 có thể tốn thời gian giải lượng tử và không tăng tốc phục vụ batch lớn.",
+      "contribution_vi": "Kết hợp thuật toán lượng tử hóa với thư viện suy luận GPU để tăng thông lượng phục vụ LLM.",
+      "application_vi": "Phục vụ LLM trên GPU.",
+      "url": "https://hanlab.mit.edu/projects/qserve",
+      "doi": null,
+      "source_urls": [
+        "https://hanlab.mit.edu/projects/qserve",
+        "https://arxiv.org/abs/2405.04532"
+      ],
+      "institution_evidence_vi": "Trang dự án ghi rõ nhiều tác giả thuộc MIT, Song Han đồng affiliation MIT/NVIDIA.",
+      "reading_depth": "official_project_abstract_and_affiliation",
+      "verification_note_vi": "Trang dự án trích dẫn bản arXiv 2024; chưa xác minh bản hội nghị sau đó, không tự nâng trạng thái.",
+      "full_text_read": false,
+      "type": "preprint",
+      "status": "preprint"
+    },
+    {
+      "title": "LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention",
+      "year": 2025,
+      "schools": [
+        "MIT"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Attention thưa",
+        "Cắt tỉa KV cache",
+        "Suy luận LLM ngữ cảnh dài"
+      ],
+      "ai_methods": [
+        "Attention thưa",
+        "Cắt tỉa KV cache",
+        "Suy luận LLM ngữ cảnh dài"
+      ],
+      "method_vi": "Kết hợp sparsity tĩnh và động trong prefill/decode; chọn KV pages phân cấp theo độ tương đồng với truy vấn.",
+      "problem_vi": "Chi phí attention bậc hai và bộ nhớ KV tăng theo ngữ cảnh dài.",
+      "contribution_vi": "Khung attention thưa thống nhất và cơ chế chọn cache theo phần cứng để tăng tốc phục vụ.",
+      "application_vi": "LLM xử lý chuỗi dài.",
+      "url": "https://hanlab.mit.edu/projects/lserve",
+      "doi": null,
+      "source_urls": [
+        "https://hanlab.mit.edu/projects/lserve",
+        "https://arxiv.org/abs/2502.14866"
+      ],
+      "institution_evidence_vi": "Trang dự án liệt kê affiliation MIT, NVIDIA và SJTU.",
+      "reading_depth": "official_project_abstract_and_affiliation",
+      "verification_note_vi": "Trang dự án ghi bản arXiv 2025; chưa kiểm tra bản xuất bản sau đó.",
+      "full_text_read": false,
+      "type": "preprint",
+      "status": "preprint"
+    },
+    {
+      "title": "Lynx: Enabling Efficient MoE Inference through Dynamic Batch-Aware Expert Selection",
+      "year": 2024,
+      "schools": [
+        "Georgia Tech"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Mixture-of-Experts hiệu quả",
+        "Chọn expert theo batch"
+      ],
+      "ai_methods": [
+        "Mixture-of-Experts hiệu quả",
+        "Chọn expert theo batch"
+      ],
+      "method_vi": "Giảm số expert hoạt động một cách động theo token và giai đoạn suy luận.",
+      "problem_vi": "Batching khi phục vụ MoE có thể kích hoạt mọi expert và làm mất lợi ích thưa.",
+      "contribution_vi": "Cơ chế chọn expert nhận biết batch nhằm giảm độ trễ mà duy trì chất lượng.",
+      "application_vi": "Phục vụ LLM MoE, gồm sinh mã và suy luận toán.",
+      "url": "https://arxiv.org/abs/2411.08982",
+      "doi": null,
+      "source_urls": [
+        "https://arxiv.org/abs/2411.08982",
+        "https://nexs.scs.gatech.edu/publications/2024-lynx.html"
+      ],
+      "institution_evidence_vi": "Trang nhóm NEXS Georgia Tech liệt kê Vima Gupta, Kartik Sinha, Ada Gavrilovska, Anand Iyer và công trình.",
+      "reading_depth": "indexed_official_lab_abstract_and_author_preprint",
+      "verification_note_vi": "Trang lab bản lập chỉ mục ghi arXiv 2024; truy cập trực tiếp trả 404. Abstract được đối chiếu arXiv.",
+      "full_text_read": false,
+      "type": "preprint",
+      "status": "preprint"
+    },
+    {
+      "title": "Key-Value Cache Compression for Memory-Efficient Large Language Model Inference",
+      "year": 2025,
+      "schools": [
+        "RPI"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Nén KV cache",
+        "Giảm bộ nhớ suy luận LLM"
+      ],
+      "ai_methods": [
+        "Nén KV cache",
+        "Giảm bộ nhớ suy luận LLM"
+      ],
+      "method_vi": "Nén key-value cache; trang dự án chưa công bố thuật toán cụ thể.",
+      "problem_vi": "Bộ nhớ cache của LLM gây giới hạn tài nguyên suy luận.",
+      "contribution_vi": "Mục tiêu dự án: giảm bộ nhớ suy luận bằng nén KV cache; không coi là kết quả thực nghiệm đã công bố.",
+      "application_vi": "Hệ thống suy luận LLM.",
+      "url": "https://fcrc.rpi.edu/research/ai-algorithms/key-value-cache-compression-memory-efficient-large-language-model-inference",
+      "doi": null,
+      "source_urls": [
+        "https://fcrc.rpi.edu/research/ai-algorithms/key-value-cache-compression-memory-efficient-large-language-model-inference"
+      ],
+      "institution_evidence_vi": "Trang hợp tác nghiên cứu RPI–IBM ghi PI RPI Mohammad Mohammadi Amiri và Project Year 2025.",
+      "reading_depth": "official_project_record",
+      "verification_note_vi": "Nguồn chỉ có tên, năm, PI; phương pháp chi tiết và kết quả chưa có trên trang.",
+      "full_text_read": false,
+      "type": "research_project",
+      "status": "listed_on_official_project_portal"
+    },
+    {
+      "title": "Efficient Large Language Model Inference with Neural Block Linearization",
+      "year": 2025,
+      "schools": [
+        "EPFL"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Tuyến tính hóa attention",
+        "Tăng tốc LLM không fine-tune"
+      ],
+      "ai_methods": [
+        "Tuyến tính hóa attention",
+        "Tăng tốc LLM không fine-tune"
+      ],
+      "method_vi": "Thay các lớp self-attention phù hợp bằng xấp xỉ LMMSE, chọn lớp qua chặn sai số từ canonical correlation analysis.",
+      "problem_vi": "Suy luận Transformer tốn tài nguyên; cần tăng tốc mà không huấn luyện lại.",
+      "contribution_vi": "Neural Block Linearization thay chọn lọc các block để giảm tính toán và đánh giá trên benchmark suy luận.",
+      "application_vi": "Phục vụ LLM.",
+      "url": "https://graphsearch.epfl.ch/en/publication/9d754564-b341-4453-a848-9a9eb7d5809e",
+      "doi": null,
+      "source_urls": [
+        "https://graphsearch.epfl.ch/en/publication/9d754564-b341-4453-a848-9a9eb7d5809e",
+        "https://actu.epfl.ch/news/epfl-neurips-2025-2/",
+        "https://infoscience.epfl.ch/entities/publication/9d754564-b341-4453-a848-9a9eb7d5809e"
+      ],
+      "institution_evidence_vi": "Tin EPFL liệt kê bài NeurIPS 2025 có tác giả EPFL: Mete Erdogan, Francesco Tonin, Volkan Cevher.",
+      "reading_depth": "official_abstract_and_acceptance_record",
+      "verification_note_vi": "Tin trường xác nhận accepted tại NeurIPS 2025; chưa đối chiếu trang proceedings để nâng trạng thái published. Infoscience trả 429; abstract đọc từ Graph Search EPFL.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "accepted",
+      "code_url": "https://github.com/LIONS-EPFL/NBL"
+    },
+    {
+      "title": "ITERA-LLM: Boosting sub-8-bit large language model inference via iterative tensor decomposition",
+      "year": 2025,
+      "schools": [
+        "Imperial"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Lượng tử dưới 8 bit",
+        "Phân rã tensor hạng thấp",
+        "Đồng thiết kế phần cứng"
+      ],
+      "ai_methods": [
+        "Lượng tử dưới 8 bit",
+        "Phân rã tensor hạng thấp",
+        "Đồng thiết kế phần cứng"
+      ],
+      "method_vi": "Kết hợp quantization với SVD lặp để bù sai số; tìm không gian thiết kế nhận biết phần cứng.",
+      "problem_vi": "Lượng tử dưới 8 bit dễ giảm độ chính xác khi đưa LLM lên nền tảng hạn chế.",
+      "contribution_vi": "Giảm độ phức tạp và độ trễ lớp tuyến tính, tối ưu cân bằng accuracy–latency–resource.",
+      "application_vi": "Tăng tốc LLM trên phần cứng khả trình.",
+      "url": "https://spiral.imperial.ac.uk/entities/publication/e34e7207-8b74-4df6-9675-d1bea51a719c",
+      "doi": "10.1109/FCCM62733.2025.00046",
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/e34e7207-8b74-4df6-9675-d1bea51a719c"
+      ],
+      "institution_evidence_vi": "Kho Imperial Spiral lưu accepted manuscript và bản ghi công bố nhóm Huang, Zheng, Yu, Bouganis.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published"
+    },
+    {
+      "title": "Cooperative Edge Inferences With Online Learning",
+      "year": 2025,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Phân bổ suy luận biên",
+        "Online convex optimization"
+      ],
+      "ai_methods": [
+        "Phân bổ suy luận biên",
+        "Online convex optimization"
+      ],
+      "method_vi": "Gán tác vụ động giữa các nút bằng online convex optimization, có ràng buộc cân bằng chi phí năng lượng.",
+      "problem_vi": "Nút biên khác nhau về năng lượng và tài nguyên, trong khi suy luận dòng dữ liệu nhạy độ trễ.",
+      "contribution_vi": "Tối ưu phối hợp accuracy, latency và năng lượng trong điều kiện tài nguyên biến đổi chưa biết trước.",
+      "application_vi": "Mạng thiết bị biên chia sẻ mô hình và tác vụ suy luận.",
+      "url": "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832",
+      "doi": "10.1109/JIOT.2025.3610695",
+      "source_urls": [
+        "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832"
+      ],
+      "institution_evidence_vi": "Kho TU Delft ghi cả Mengyuan Li, R. Venkatesha Prasad và George Iosifidis thuộc TU Delft EEMCS.",
+      "reading_depth": "indexed_official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc bản lập chỉ mục đầy đủ abstract và metadata; mở trực tiếp timeout.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "POQ: Is There a Pareto-Optimal Quantization Strategy for Deep Neural Networks?",
+      "year": 2025,
+      "schools": [
+        "TU/e"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Lượng tử hóa nhận biết năng lượng",
+        "Tìm biên Pareto"
+      ],
+      "ai_methods": [
+        "Lượng tử hóa nhận biết năng lượng",
+        "Tìm biên Pareto"
+      ],
+      "method_vi": "Mô hình năng lượng bộ xử lý kết hợp thay đổi độ rộng kênh để so sánh iso-accuracy và iso-energy.",
+      "problem_vi": "Chọn bitwidth chỉ bằng chỉ số thay thế có thể không phản ánh năng lượng thật.",
+      "contribution_vi": "Quy trình tìm lượng tử tối ưu Pareto theo kiến trúc và nền tảng phần cứng.",
+      "application_vi": "Triển khai MobileNetV2 và DNN trên thiết bị hạn chế.",
+      "url": "https://research.tue.nl/en/publications/poq-is-there-a-pareto-optimal-quantization-strategy-for-deep-neur/",
+      "doi": "10.1109/ACCESS.2025.3567046",
+      "source_urls": [
+        "https://research.tue.nl/en/publications/poq-is-there-a-pareto-optimal-quantization-strategy-for-deep-neur/"
+      ],
+      "institution_evidence_vi": "Kho TU/e ghi Floran de Putter, Sherif Eissa, Henk Corporaal thuộc Electronic Systems.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published"
+    },
+    {
+      "title": "Energy-Efficient Neural Network Inference through Golomb-Rice Compression of Activations for Edge Devices",
+      "year": 2025,
+      "schools": [
+        "TUM",
+        "RWTH Aachen"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Nén activation không mất dữ liệu",
+        "Tăng tốc phần cứng AI"
+      ],
+      "ai_methods": [
+        "Nén activation không mất dữ liệu",
+        "Tăng tốc phần cứng AI"
+      ],
+      "method_vi": "Nén/giải nén Golomb-Rice tại thời điểm chạy, tích hợp module xử lý activation vào bộ tăng tốc.",
+      "problem_vi": "Truy cập bộ nhớ làm tăng năng lượng suy luận DNN trên thiết bị biên.",
+      "contribution_vi": "Thiết kế phần cứng giảm lưu lượng bộ nhớ cho activation, đánh giá bằng TinyML anomaly detection.",
+      "application_vi": "Bộ tăng tốc mạng nơ-ron tại biên.",
+      "url": "https://portal.fis.tum.de/en/publications/energy-efficient-neural-network-inference-through-golomb-rice-com/",
+      "doi": "10.1109/DDECS63720.2025.11006805",
+      "source_urls": [
+        "https://portal.fis.tum.de/en/publications/energy-efficient-neural-network-inference-through-golomb-rice-com/"
+      ],
+      "institution_evidence_vi": "Kho TUM ghi Wolfgang Ecker và các đơn vị TUM, RWTH Aachen, Infineon cho công trình.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published"
+    },
+    {
+      "title": "Optimizing event-driven spiking neural network with regularization and cutoff",
+      "year": 2025,
+      "schools": [
+        "Chalmers"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Spiking neural networks",
+        "Suy luận dừng sớm"
+      ],
+      "ai_methods": [
+        "Spiking neural networks",
+        "Suy luận dừng sớm"
+      ],
+      "method_vi": "Regularization khi huấn luyện kết hợp Top-K cutoff khi suy luận; dùng cả ANN-to-SNN và huấn luyện trực tiếp.",
+      "problem_vi": "SNN chạy số timestep cố định làm mất cơ hội suy luận thích ứng tiết kiệm tính toán.",
+      "contribution_vi": "Cơ chế dừng suy luận động nhằm giảm số timestep và độ trễ.",
+      "application_vi": "Phân loại dữ liệu ảnh và camera sự kiện.",
+      "url": "https://research.chalmers.se/en/publication/545522",
+      "doi": "10.3389/fnins.2025.1522788",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/545522"
+      ],
+      "institution_evidence_vi": "Trang kho ghi Han Yu thuộc Chalmers Electrical Engineering.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published",
+      "code_url": "https://github.com/Dengyu-Wu/SNNCutoff"
+    },
+    {
+      "title": "ELMO: Efficiency via Low-precision and Peak Memory Optimization in Large Output Spaces",
+      "year": 2025,
+      "schools": [
+        "Aalto"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Huấn luyện Float8",
+        "Giảm bộ nhớ đỉnh GPU"
+      ],
+      "ai_methods": [
+        "Huấn luyện Float8",
+        "Giảm bộ nhớ đỉnh GPU"
+      ],
+      "method_vi": "Dùng BFloat16/Float8, Kahan summation, stochastic rounding, gradient fusion và chunking.",
+      "problem_vi": "Đầu phân loại hàng triệu nhãn chi phối chi phí tính toán và bộ nhớ.",
+      "contribution_vi": "Huấn luyện mô hình extreme multilabel trong độ chính xác thấp mà không cần master weights FP32.",
+      "application_vi": "Gắn nhãn quy mô lớn và gợi ý sản phẩm.",
+      "url": "https://research.aalto.fi/en/publications/elmo-efficiency-via-low-precision-and-peak-memory-optimization-in/",
+      "doi": null,
+      "source_urls": [
+        "https://research.aalto.fi/en/publications/elmo-efficiency-via-low-precision-and-peak-memory-optimization-in/",
+        "https://proceedings.mlr.press/v267/zhang25bv.html"
+      ],
+      "institution_evidence_vi": "Kho Aalto ghi Jinbin Zhang, Nasib Ullah và đơn vị Department of Computer Science; công bố ICML 2025.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published"
+    },
+    {
+      "title": "CEED: Collaborative Early Exit Neural Network Inference at the Edge",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Milano"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Early-exit neural networks",
+        "Suy luận biên cộng tác"
+      ],
+      "ai_methods": [
+        "Early-exit neural networks",
+        "Suy luận biên cộng tác"
+      ],
+      "method_vi": "Dự báo EENN và tỷ lệ mất tác vụ để chọn ngưỡng thoát sớm và gán job cho thiết bị.",
+      "problem_vi": "Ngưỡng cố định và giả định luồng tác vụ đều có thể gây mất dữ liệu khi bộ nhớ biên hữu hạn.",
+      "contribution_vi": "Tối ưu phối hợp accuracy và tỷ lệ mất tác vụ; kiểm thử trên testbed vật lý.",
+      "application_vi": "Hạ tầng biên nhiều tầng.",
+      "url": "https://re.public.polimi.it/handle/11311/1309041",
+      "doi": null,
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1309041"
+      ],
+      "institution_evidence_vi": "Kho Polimi ghi Manuel Roveri và Giuliano Casale là tác giả nội bộ của công trình INFOCOM 2025.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "conference_paper",
+      "status": "published"
+    },
+    {
+      "title": "Investigating Energy Efficiency and Performance Trade-offs in LLM Inference Across Tasks and DVFS Settings",
+      "year": 2025,
+      "schools": [
+        "TU Wien"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Tối ưu năng lượng suy luận LLM",
+        "Dynamic voltage and frequency scaling"
+      ],
+      "ai_methods": [
+        "Tối ưu năng lượng suy luận LLM",
+        "Dynamic voltage and frequency scaling"
+      ],
+      "method_vi": "Benchmark nhiều LLM/tác vụ, phân tích đặc trưng đầu vào và cấu hình xung GPU.",
+      "problem_vi": "Cần xác định yếu tố ảnh hưởng năng lượng và độ trễ suy luận mà vẫn giữ chất lượng.",
+      "contribution_vi": "Phân tích thực nghiệm đánh đổi năng lượng–hiệu năng và cấu hình DVFS.",
+      "application_vi": "Vận hành LLM tiết kiệm điện.",
+      "url": "https://repositum.tuwien.at/handle/20.500.12708/224781",
+      "doi": "10.48550/arXiv.2501.08219",
+      "source_urls": [
+        "https://repositum.tuwien.at/handle/20.500.12708/224781"
+      ],
+      "institution_evidence_vi": "Kho TU Wien ghi Paul Joe Maliakel, Shashikant Ilager, Ivona Brandic cùng đơn vị Computational Sustainability.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "preprint",
+      "status": "preprint"
+    }
+  ],
+  "school_audit": [
+    {
+      "school": "USTH",
+      "queries": [
+        "site:usth.edu.vn efficient compact VLM fire"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-48743-5",
+        "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+        "https://fit.huce.edu.vn/danh-muc-ca",
+        "https://usth.edu.vn/cong-bo-quoc-te-tren-tap-chi-q1-voi-mo-hinh-ai-biet-suy-luan-cua-nam-sinh-usth-31252/"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "HUST",
+      "queries": [
+        "site:hust.edu.vn DPaI distillation 2025"
+      ],
+      "source_urls": [
+        "https://dl.acm.org/doi/10.1145/3706419",
+        "https://soict.hust.edu.vn/en/2025-publications.html",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/0faea6a1535bae3c818eebcca275ae46-Paper-Conference.pdf",
+        "https://openreview.net/pdf?id=hvLBTpiDt3",
+        "https://aclanthology.org/2025.emnlp-main.385/",
+        "https://pure.psu.edu/en/publications/mtmld-awsr-a-novel-multi-teacher-multi-level-distillation-approac/",
+        "https://fit.huce.edu.vn/danh-muc-ca"
+      ],
+      "result_note_vi": "Giữ 4 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "UET",
+      "queries": [
+        "site:uet.vnu.edu.vn knowledge distillation"
+      ],
+      "source_urls": [
+        "https://uet.vnu.edu.vn/~lhquynh/"
+      ],
+      "result_note_vi": "Tìm thấy FedCKD và công bố continual learning/chưng cất, nhưng chưa xác minh đóng góp giảm tài nguyên hoặc triển khai biên trong lượt đọc này."
+    },
+    {
+      "school": "HCMUT",
+      "queries": [
+        "site:hcmut.edu.vn neural network quantization"
+      ],
+      "source_urls": [
+        "https://hpcc.hcmut.edu.vn/"
+      ],
+      "result_note_vi": "Các bài HPC scheduling và dự đoán job đã có thuộc tối ưu hệ thống bằng AI; chưa đủ bằng chứng về giảm tài nguyên của chính AI để giữ vào G3."
+    },
+    {
+      "school": "UIT",
+      "queries": [
+        "site:uit.edu.vn model distillation"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1016/j.iot.2026.101974",
+        "https://iec.uit.edu.vn/publications",
+        "https://doi.org/10.1016/j.simpat.2025.103176",
+        "https://doi.org/10.1016/j.compmedimag.2025.102588"
+      ],
+      "result_note_vi": "Giữ 3 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "PTIT",
+      "queries": [
+        "site:ptit.edu.vn TinyML research 2025"
+      ],
+      "source_urls": [
+        "https://jstic.ptit.edu.vn/jstic-ptit/index.php/jstic/article/view/1668",
+        "https://sea.ptit.edu.vn/ths-luong-cong-duan/"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "DUT",
+      "queries": [
+        "site:dut.udn.vn lightweight neural network edge"
+      ],
+      "source_urls": [],
+      "result_note_vi": "Truy vấn tập trung vào lightweight/edge chưa cho công trình đủ bằng chứng; không suy ra trường không nghiên cứu nhóm này."
+    },
+    {
+      "school": "VKU",
+      "queries": [
+        "site:vku.udn.vn \"Resource-Efficient\""
+      ],
+      "source_urls": [
+        "https://elib.vku.udn.vn/handle/123456789/5899",
+        "https://arxiv.org/html/2407.15426v2"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "HCMUTE",
+      "queries": [
+        "site:hcmute.edu.vn quantization neural network"
+      ],
+      "source_urls": [
+        "https://cvis.hcmute.edu.vn/Seminars/Details/19",
+        "https://feee.hcmute.edu.vn/Resources/Docs/SubDomain/feee/Bai%20bao%20WoS-Scopus/Bai%20bao%20WoS-Scopus%202020.pdf"
+      ],
+      "result_note_vi": "Tìm được đầu mối cũ về ternary quantization và Raspberry Pi ở danh mục 2020; chưa đọc abstract/affiliation nên chưa đưa thành mục đã kiểm chứng."
+    },
+    {
+      "school": "VLUTE",
+      "queries": [
+        "site:vlute.edu.vn TinyML"
+      ],
+      "source_urls": [],
+      "result_note_vi": "Kết quả chủ yếu chương trình đào tạo và ứng dụng AI; chưa tìm được công trình có đóng góp giảm tài nguyên AI trong phạm vi lượt tìm."
+    },
+    {
+      "school": "MTA",
+      "queries": [
+        "site:mta.edu.vn neural network FPGA"
+      ],
+      "source_urls": [
+        "https://fre.lqdtu.edu.vn/staff/292"
+      ],
+      "result_note_vi": "Có đầu mối trang cán bộ về binarized/spiking network; chưa mở được công trình để xác minh phương pháp và năm, không đưa vào danh sách chính."
+    },
+    {
+      "school": "KMA",
+      "queries": [
+        "site:actvn.edu.vn học máy tài nguyên IoT"
+      ],
+      "source_urls": [
+        "https://actvn.edu.vn/Images/Uploadfiles/Lu%E1%BA%ADn%20%C3%A1n%20ch%C3%ADnh%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20To%C3%A0n-12-12-2024.pdf",
+        "https://actvn.edu.vn/News/Detail?NewsId=28387"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "UTC",
+      "queries": [
+        "site:utc.edu.vn knowledge distillation"
+      ],
+      "source_urls": [
+        "https://khcn.utc.edu.vn/node/72142",
+        "https://www.utc.edu.vn/doi-ngu-giang-vien/0849"
+      ],
+      "result_note_vi": "Tìm thấy công bố/đề tài nhận dạng hành động sớm dùng chưng cất; chưa xác minh đó là nén/tăng tốc mô hình thay vì chuyển tri thức cho nhận dạng sớm."
+    },
+    {
+      "school": "HUMG",
+      "queries": [
+        "site:humg.edu.vn lightweight neural network"
+      ],
+      "source_urls": [
+        "https://jmes.humg.edu.vn/en/archives?article=1641"
+      ],
+      "result_note_vi": "Các kết quả là dự báo bằng mạng nơ-ron; chưa thể hiện đóng góp nén hoặc triển khai AI hiệu quả."
+    },
+    {
+      "school": "HUCE",
+      "queries": [
+        "site:huce.edu.vn Efficient Federated Learning Convergence Epoch Adaptation"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-026-48743-5",
+        "https://www.nature.com/articles/s41598-026-48743-5_reference.pdf",
+        "https://fit.huce.edu.vn/danh-muc-ca",
+        "https://usth.edu.vn/cong-bo-quoc-te-tren-tap-chi-q1-voi-mo-hinh-ai-biet-suy-luan-cua-nam-sinh-usth-31252/",
+        "https://pure.psu.edu/en/publications/mtmld-awsr-a-novel-multi-teacher-multi-level-distillation-approac/",
+        "https://soict.hust.edu.vn/en/2025-publications.html"
+      ],
+      "result_note_vi": "Giữ 2 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "FPT",
+      "queries": [
+        "site:science.fpt.edu.vn Jetson nén ảnh AI"
+      ],
+      "source_urls": [
+        "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+      ],
+      "result_note_vi": "Truy vấn registry dự án và Jetson chưa xác nhận công trình giảm tài nguyên AI; DPaI ghi FPT Software AI Center nên không gán FPT University."
+    },
+    {
+      "school": "Phenikaa",
+      "queries": [
+        "site:phenikaa-uni.edu.vn LightEdit"
+      ],
+      "source_urls": [
+        "https://ieeexplore.ieee.org/document/11152344/",
+        "https://api.crossref.org/works/10.1109/ACCESS.2025.3606427",
+        "https://icslab.phenikaa-uni.edu.vn/news-events"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "MIT",
+      "queries": [
+        "site:mit.edu 2025 efficient LLM inference quantization"
+      ],
+      "source_urls": [
+        "https://hanlab.mit.edu/projects/qserve",
+        "https://arxiv.org/abs/2405.04532",
+        "https://hanlab.mit.edu/projects/lserve",
+        "https://arxiv.org/abs/2502.14866"
+      ],
+      "result_note_vi": "Giữ 2 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Caltech",
+      "queries": [
+        "site:caltech.edu 2025 neural network compression"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1103/nmgj-yq1g",
+        "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+        "https://journals.aps.org/prl/abstract/10.1103/nmgj-yq1g",
+        "https://arxiv.org/abs/2503.05913",
+        "https://journals.aps.org/prl/supplemental/10.1103/nmgj-yq1g/Supplementary_Information_for_compressing_n_ph_interactions.pdf"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Georgia Tech",
+      "queries": [
+        "site:gatech.edu 2025 LLM inference efficient"
+      ],
+      "source_urls": [
+        "https://arxiv.org/abs/2411.08982",
+        "https://nexs.scs.gatech.edu/publications/2024-lynx.html"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "CMU",
+      "queries": [
+        "site:cmu.edu 2025 efficient LLM cascades"
+      ],
+      "source_urls": [
+        "https://aclanthology.org/2025.emnlp-industry.171/",
+        "https://aclanthology.org/2025.emnlp-industry.171.pdf"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Purdue",
+      "queries": [
+        "site:purdue.edu 2025 efficient federated learning resource"
+      ],
+      "source_urls": [
+        "https://engineering.purdue.edu/NRL/Research/TrustAI_html"
+      ],
+      "result_note_vi": "CoPreFL đã có tập trung thích ứng và công bằng client, chưa đủ bằng chứng tiết kiệm tài nguyên. Lab NRL có nhiều đầu mối hiệu quả nhưng chưa xác minh từng bài."
+    },
+    {
+      "school": "RPI",
+      "queries": [
+        "site:rpi.edu 2025 model compression inference"
+      ],
+      "source_urls": [
+        "https://fcrc.rpi.edu/research/ai-algorithms/key-value-cache-compression-memory-efficient-large-language-model-inference"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Virginia Tech",
+      "queries": [
+        "site:vt.edu \"LLMs Can Reason Faster\""
+      ],
+      "source_urls": [
+        "https://proceedings.mlr.press/v267/sel25a.html",
+        "https://people.cs.vt.edu/~naren/papers/LLMs_Faster_ICML25.pdf",
+        "https://raw.githubusercontent.com/mlresearch/v267/main/assets/sel25a/sel25a.pdf"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Texas A&M",
+      "queries": [
+        "site:tamu.edu \"Policy-Guided Search\""
+      ],
+      "source_urls": [
+        "https://people.engr.tamu.edu/guni/papers/TMLR25_Sumedh.pdf",
+        "https://openreview.net/forum?id=Rlk1bWe2ii",
+        "https://people.engr.tamu.edu/guni/group.html"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Stevens",
+      "queries": [
+        "site:stevens.edu 2025 efficient inference edge AI"
+      ],
+      "source_urls": [
+        "https://stage.stevens.edu/news/stevens-researchers-develop-a-novel-approach-to-training-ai-that-saves-energy-improves-speed-and-minimizes-amount-of-data-sent-across-networks"
+      ],
+      "result_note_vi": "Tìm thấy tin thuật toán huấn luyện tiết kiệm năng lượng năm 2026 nhưng liên kết trả 404; chưa xác minh tên bài và nguồn công bố."
+    },
+    {
+      "school": "IIT",
+      "queries": [
+        "site:iit.edu FPGA deep learning scheduling"
+      ],
+      "source_urls": [
+        "https://www.mdpi.com/2078-2489/16/4/298",
+        "https://ecasp.ece.iit.edu/publications/2012-present/2025-02.pdf",
+        "https://ecasp.ece.iit.edu/2012-present.html"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "ETH Zurich",
+      "queries": [
+        "site:ethz.ch 2025 quantization LLM"
+      ],
+      "source_urls": [
+        "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b",
+        "https://api.crossref.org/works/10.1109/ICRA55743.2025.11128474"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "EPFL",
+      "queries": [
+        "site:epfl.ch 2025 efficient LLM inference"
+      ],
+      "source_urls": [
+        "https://graphsearch.epfl.ch/en/publication/9d754564-b341-4453-a848-9a9eb7d5809e",
+        "https://actu.epfl.ch/news/epfl-neurips-2025-2/",
+        "https://infoscience.epfl.ch/entities/publication/9d754564-b341-4453-a848-9a9eb7d5809e"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Imperial",
+      "queries": [
+        "site:imperial.ac.uk 2025 efficient LLM inference compression"
+      ],
+      "source_urls": [
+        "https://spiral.imperial.ac.uk/entities/publication/e34e7207-8b74-4df6-9675-d1bea51a719c"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "TU Delft",
+      "queries": [
+        "site:tudelft.nl 2025 efficient neural inference edge"
+      ],
+      "source_urls": [
+        "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832"
+      ],
+      "result_note_vi": "Đã giữ bài cooperative edge inference. Loại đầu mối MLCKD vì kho ghi năm 2027, chưa xác minh ngày online trước 30/10/2026."
+    },
+    {
+      "school": "TU/e",
+      "queries": [
+        "site:tue.nl 2025 quantization neural network"
+      ],
+      "source_urls": [
+        "https://research.tue.nl/en/publications/poq-is-there-a-pareto-optimal-quantization-strategy-for-deep-neur/"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "RWTH Aachen",
+      "queries": [
+        "site:rwth-aachen.de 2025 efficient LLM inference"
+      ],
+      "source_urls": [
+        "https://portal.fis.tum.de/en/publications/energy-efficient-neural-network-inference-through-golomb-rice-com/"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "TUM",
+      "queries": [
+        "site:tum.de 2025 efficient neural network quantization"
+      ],
+      "source_urls": [
+        "https://portal.fis.tum.de/en/publications/energy-efficient-neural-network-inference-through-golomb-rice-com/"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "TU Berlin",
+      "queries": [
+        "site:tu.berlin 2025 efficient LLM inference"
+      ],
+      "source_urls": [
+        "https://www.tu.berlin/en/ak/news-details/5th-ieee-is2-paper-ueber-echtzeit-inferenz-in-audio-anwendungen-mit-industry-award-ausgezeichnet"
+      ],
+      "result_note_vi": "Tìm thấy đầu mối suy luận âm thanh thời gian thực và danh mục nhóm; chưa đọc bài cụ thể đủ metadata."
+    },
+    {
+      "school": "KTH",
+      "queries": [
+        "site:kth.se \"Lightweight Edge AI\""
+      ],
+      "source_urls": [
+        "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481",
+        "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person:117623",
+        "https://api.crossref.org/works/10.1109/IWCMC65282.2025.11059726"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Chalmers",
+      "queries": [
+        "site:chalmers.se 2025 TinyML efficient inference"
+      ],
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/545522"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Aalto",
+      "queries": [
+        "site:aalto.fi 2025 efficient LLM quantization"
+      ],
+      "source_urls": [
+        "https://research.aalto.fi/en/publications/elmo-efficiency-via-low-precision-and-peak-memory-optimization-in/",
+        "https://proceedings.mlr.press/v267/zhang25bv.html"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Politecnico di Milano",
+      "queries": [
+        "site:polimi.it 2025 efficient edge AI"
+      ],
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1290369",
+        "https://www.sciencedirect.com/science/article/pii/S0045782525003020",
+        "https://re.public.polimi.it/handle/11311/1309041"
+      ],
+      "result_note_vi": "Giữ 2 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    },
+    {
+      "school": "Politecnico di Torino",
+      "queries": [
+        "site:polito.it 2025 neural network compression edge"
+      ],
+      "source_urls": [
+        "https://det.polito.it/en/research-and-innovation/research-groups/intelligent-integrated-systems"
+      ],
+      "result_note_vi": "Trang nhóm Intelligent Integrated Systems xác nhận hướng nén và edge AI; chưa xác minh công trình cụ thể trong thời gian tìm."
+    },
+    {
+      "school": "TU Wien",
+      "queries": [
+        "site:tuwien.at 2025 efficient LLM inference"
+      ],
+      "source_urls": [
+        "https://repositum.tuwien.at/handle/20.500.12708/224781"
+      ],
+      "result_note_vi": "Giữ 1 công trình/dự án có nguồn phù hợp G3. Phạm vi là kết quả truy vấn có giới hạn, không phải toàn bộ công bố của trường."
+    }
+  ]
+}

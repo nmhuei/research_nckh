@@ -1,0 +1,332 @@
+{
+  "keep": [
+    "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+    "A TRIZ-Based Experimental Design Approach to Enhance Wave Soldering Efficiency in Electronics Manufacturing",
+    "Üng dung chuyén giao trong phåt hien nguy co chåy rừng",
+    "A Novel Hybrid Deep Learning Framework for Automated Malaria Parasite Detection in Microscopic Blood Smear Images",
+    "Improving Machine Learning-based Test Smell Prediction using Data Processing Techniques",
+    "Detecting ODE Mells in Java Rojects: A Omparative Tudy of Raditional Achine Earning and EEP Earning Approaches",
+    "A Hybrid Deep Learning Architecture for Multi-Task Financial Forecasting: Integrating Bi-LSTM and Hierarchical Attention",
+    "DWACE: Enhancing Graph Clustering via Autoencoder and Contrastive Learning Refinement of DeepWalk Embeddings",
+    "Performance Analysis of Wireless Optical Link with RIS Aided and the Implications of using Gaussian Q-function",
+    "Enhancing Software Fault Prediction using Wrapper-based Metaheuristic Feature Selection Methods",
+    "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+    "Applications of Artificial Intelligence in Indoor Fire Prevention and Fighting",
+    "Test Smell Prediction Via Automated Machine Learning",
+    "Intellectual Rooms based on AmI and IoT technologies",
+    "Detecting Abnormal Cervical Cells Based on Segmentation of Overlapping Cells",
+    "Combining Lightweight Deep Learning Models with Data Augmentation for Analysis of Cervical Cells",
+    "Cross-modal prototype based multimodal federated learning under severely missing modality",
+    "Analysis and evaluation about the dimmable light affect positioning-based MISO visible light communication",
+    "Resource-Efficient Federated Multimodal Learning via Layer-Wise and Progressive Training",
+    "A Comparative Study of Deep Learning Methods for Cyberbullying Detection",
+    "Research and implementation a contactless delivery system utilizing IoT technology",
+    "Design And Implementation of a Smart Parking System",
+    "Enhancing Age and Gender Detection Performance in CNNs Through Optimization of Batch Normalization and Dropout Settings with Iterative Parameter",
+    "A Study on the Benefits and Effectiveness of a Deep Analysis Model in Implementing Hands-on Exercises for DDoS Attack Detection and Prevention",
+    "AnImproved the Fractional- Order Accumulated Grey Model by Trigonometric series and Its Application in Tourism Industry",
+    "Animproved the prediction accuracy of the Fractional- order accumulated Grey model by Fourier series and Its application in Container Throughput Forecasting in Danang Port, Vietnam",
+    "Hybrid Number Theoretic Transform Architecture for Homomorphic Encryption",
+    "Effects of atmospheric turbulence and reconfigurable intelligent surfaces on near terrestrial optical link for internet of things",
+    "Some applications of Normal distribution in Machine Learning algorithms",
+    "Facial Expression Recognition: A Lite Deep Learning-Based Approach",
+    "Fake News Detection System, based on CBOW and BERT",
+    "FedMEKT: Distillation-based embedding knowledge transfer for multimodal federated learning",
+    "Utilization of Abductive Reasoning for Finding Missing Information in Gene Networks",
+    "Enhancing Data Security in Federated Learning with Dilithium",
+    "Enhancing Software Fault Localization with Variational Autoencoder and Residual Neural Networks",
+    "Performance Analysis of Deep Learning Models for Software Fault Prediction Using the BugHunter Dataset",
+    "A comparative study of handling imbalanced data using generative adversarial networks for machine learning based software fault prediction",
+    "SPARTA-GEMSTONE: A two-phase approach for efficient node placement in 3D WSNs under Q-Coverage and Q-Connectivity constraints",
+    "Deep learning model to identify Vietnamese historical figures",
+    "E2v-PhoBERT: A Fine-Tuned PhoBERT Model with Enhanced Accuracy for High-Performance Vietnamese Sentiment Analysis"
+  ],
+  "exclude": [
+    {
+      "title": "Applying Practical Approaches in Teaching General Physics – Mechanics to Enhance Students’ Engagement At the Vietnam–Korea University of Information and Communication Technology",
+      "reason_vi": "Nghiên cứu phương pháp giảng dạy vật lý và mức độ tham gia/sáng tạo của sinh viên; không phải nghiên cứu thiết bị, thuật toán hoặc công nghệ vật lý."
+    },
+    {
+      "title": "Legal Framework for Electronic Labor Contracts in Enterprises",
+      "reason_vi": "Nghiên cứu khung pháp luật cho hợp đồng lao động điện tử; không trình bày đóng góp công nghệ hợp đồng hay an toàn hệ thống."
+    },
+    {
+      "title": "Verb Form Errors Made by Non-English Major University Students in Vietnam",
+      "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+    },
+    {
+      "title": "The Role of Green Finance in Sustainable Development and Climate Change Adaptation in Danang City",
+      "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+    },
+    {
+      "title": "Application of Blockchain Technology in Developing Supply Chain Finance Products for Commercial Banks in Vietnam",
+      "reason_vi": "Đã đọc abstract: đánh giá khái niệm, lợi ích, rào cản và khuyến nghị quản trị/pháp lý cho blockchain trong tài trợ chuỗi cung ứng; không thiết kế thuật toán, giao thức hoặc hệ thống blockchain."
+    },
+    {
+      "title": "Special Issue on “Simulation, Modeling, and Decision-Making Processes in Manufacturing Systems and Industrial Engineering”",
+      "reason_vi": "Mục giới thiệu số chuyên đề (special issue/editorial), không phải một công trình nghiên cứu công nghệ cụ thể."
+    },
+    {
+      "title": "OMO Education Model-flexible and Comprehenshive Learning Solution in Current Open Education",
+      "reason_vi": "Mô hình tổ chức giáo dục OMO và giải pháp học tập; tiêu đề không nêu thiết kế phần mềm, thuật toán hoặc hạ tầng kỹ thuật cụ thể."
+    },
+    {
+      "title": "Enhancing Speaking skills for ESL Learners",
+      "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+    },
+    {
+      "title": "Influences Of Destination Experience And Destination Service Factors On Domestic Tourists’ Revisiting Intention To Danang City And How To Increase Their 2nd Time Rate: A Case Study Of Beach Destinations",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Bảo vệ môi trường, sức khỏe và tăng trưởng kinh tế: Định hướng chính sách phát triển bền vững của Việt Nam",
+      "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+    },
+    {
+      "title": "The Role of Artificial Intelligence (AI) in Educational and Vocational Guidance for Students",
+      "reason_vi": "Đã đọc abstract: khảo sát nhận thức, kỳ vọng và ý định dùng tư vấn AI, kèm phân tích thang đo; không xây dựng hoặc đánh giá thuật toán/hệ thống tư vấn AI."
+    },
+    {
+      "title": "The Influence of University Branding on high School Students' Academic Major and Institution Choice",
+      "reason_vi": "Nghiên cứu thương hiệu đại học và quyết định chọn trường/ngành; thuộc marketing/giáo dục, không phải công nghệ."
+    },
+    {
+      "title": "The Impact of University Branding on High School Students' College Choice",
+      "reason_vi": "Nghiên cứu thương hiệu đại học và quyết định chọn trường/ngành; thuộc marketing/giáo dục, không phải công nghệ."
+    },
+    {
+      "title": "The Impact of Information Technology in Educational Counseling for High School Students",
+      "reason_vi": "Đã đọc abstract: bàn về lợi ích, thách thức và khuyến nghị sử dụng CNTT trong tư vấn giáo dục; không có hệ thống hay phương pháp tính toán được triển khai."
+    },
+    {
+      "title": "Tổng quan về kế toán xanh qua phân tích trắc lượng thư mục",
+      "reason_vi": "Tổng quan trắc lượng thư mục về kế toán xanh; sử dụng công cụ phân tích tài liệu không tự tạo thành đóng góp công nghệ."
+    },
+    {
+      "title": "Does Age Impact Work-life Balance? Perspective on Remote Work in Polish Public Institutions",
+      "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+    },
+    {
+      "title": "Learning Outcomes Assessment for Students of International Studies: Situation and Solutions",
+      "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+    },
+    {
+      "title": "Độ mở kinh tế tỉnh Quảng Nam (2010-2024): Tác động của xuất nhập khẩu và đầu tư trực tiếp nước ngoài",
+      "reason_vi": "Nghiên cứu kinh tế, thương mại và đầu tư; không nêu đóng góp công nghệ hoặc phương pháp tính toán mới."
+    },
+    {
+      "title": "Ứng dụng Padlet trong giảng dạy các học phần Tiếng Anh nâng cao tại Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",
+      "reason_vi": "Nghiên cứu sử dụng nền tảng Padlet có sẵn để dạy tiếng Anh; thuộc sư phạm ứng dụng công cụ, không phát triển công nghệ."
+    },
+    {
+      "title": "Building Personal Brand: Advantage and Method in Marketing",
+      "reason_vi": "Nghiên cứu chiến lược marketing, sử dụng công cụ quảng cáo hoặc phát triển sản phẩm du lịch; không phát triển thuật toán/hệ thống kỹ thuật."
+    },
+    {
+      "title": "The Impacts of Total Quality Management (TQM) on Employee’s Productivity",
+      "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+    },
+    {
+      "title": "The Impact of Digital Influence on Tourist Decision-Making Behavior",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Investigating the role of DCM to consumer behavioral intention: A study on the Vietnamese tourism industry",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Some Solutions to Improve the Effectiveness of Legal Education for Students of Vietnam-Korea University of Information and Communication Technology",
+      "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+    },
+    {
+      "title": "Deepfake Identity Risks and Its Financial Impact in Vietnam's Digital Era",
+      "reason_vi": "Đã đọc abstract: phân tích rủi ro/thiệt hại deepfake và đưa khuyến nghị pháp lý, nhận thức, phối hợp; không thiết kế hoặc kiểm thử cơ chế phát hiện/xác thực kỹ thuật."
+    },
+    {
+      "title": "The Impact of Artificial Intelligence on Personalizing User Experience in E-Commerce Platforms in Vietnam",
+      "reason_vi": "Đã đọc abstract: nghiên cứu tình huống và phản hồi người dùng về tác động AI đến trải nghiệm/mua sắm; không phát triển hệ gợi ý, mô hình AI hoặc chatbot."
+    },
+    {
+      "title": "Application Of Blockchain Technology in Vietnamese Logistics Enterprises: Current Situation and Solutions",
+      "reason_vi": "Đã đọc abstract: tổng quan tình hình, lợi ích và rào cản chấp nhận blockchain tại doanh nghiệp logistics; đóng góp là giải pháp quản trị, không phải thuật toán/giao thức/hệ thống."
+    },
+    {
+      "title": "Vietnam’s Merchandise Exports in the Current Context: Opportunities And Challenges",
+      "reason_vi": "Nghiên cứu kinh tế, thương mại và đầu tư; không nêu đóng góp công nghệ hoặc phương pháp tính toán mới."
+    },
+    {
+      "title": "Targeting Features in Google Ads: A Strategic Approach for Vietnamese Businesses",
+      "reason_vi": "Nghiên cứu chiến lược marketing, sử dụng công cụ quảng cáo hoặc phát triển sản phẩm du lịch; không phát triển thuật toán/hệ thống kỹ thuật."
+    },
+    {
+      "title": "A Study on the Integration of Multiple Intelligences-Oriented Activities into the Development of Speaking Skills Among Non-English Major Sophomores at Vietnam-Korea University of Information and Communication Technology",
+      "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+    },
+    {
+      "title": "Strategic Recommendations for Enhancing the Development of Unique Tourism Products in Da Nang, Vietnam",
+      "reason_vi": "Nghiên cứu chiến lược marketing, sử dụng công cụ quảng cáo hoặc phát triển sản phẩm du lịch; không phát triển thuật toán/hệ thống kỹ thuật."
+    },
+    {
+      "title": "Price Discrimination and the Influence on Foreign Tourists’ Decision of Returning in Hoi An Ancient Town, Vietnam",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Using AHP Technology to Analysis Factors Affecting to Innovative Business Model of Start-Ups in Viet Nam",
+      "reason_vi": "Đã đọc abstract: dùng AHP có sẵn trên khảo sát chuyên gia để xếp hạng yếu tố mô hình kinh doanh; đóng góp chính là quản trị khởi nghiệp, không cải tiến thuật toán AHP."
+    },
+    {
+      "title": "Stimulate Students' Thinking and Creativity by Active Teaching Methods in the Content Section \"Electromagnetic Induction\" - General Physics",
+      "reason_vi": "Nghiên cứu phương pháp giảng dạy vật lý và mức độ tham gia/sáng tạo của sinh viên; không phải nghiên cứu thiết bị, thuật toán hoặc công nghệ vật lý."
+    },
+    {
+      "title": "Research on Customer Satisfaction with Service Quality at Da Nang Food Tour Festival 2025",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Model of Factors Influencing Rural Tourism Development in Vietnam",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "The Current State of Smart Tourism in Da Nang City and a Proposed Model for Measuring Tourist Satisfaction via Destination Image, Perceived Smart Tourism Technologies, and Memorable Tourism Experiences",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Comparison of the impact of Korean and Chinese tourists on the economy of Da Nang city, Vietnam",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "The Impact of Macroenvironment to Sustainable Tourism Development",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Artificial Intelligence in Higher Education: Opportunities and Challenges from the Perspective of the Information Technology Industry",
+      "reason_vi": "Đã đọc abstract: tổng quan cơ hội, thách thức, đạo đức và khung đào tạo khi sử dụng AI ở đại học; không trình bày công nghệ hay hệ thống AI cụ thể được phát triển."
+    },
+    {
+      "title": "Potential Application of the Transtheoretical Model of Behavior Change (TTM) in the Study of the Motivation of Social Entrepreneurs",
+      "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+    },
+    {
+      "title": "Empowering Women in Entrepreneurship: Lessons and Recommendations for Vietnam",
+      "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+    },
+    {
+      "title": "Why do clients switch? An empirical study on third-party logistics (3PL) service providers’ loyalty in Vietnam",
+      "reason_vi": "Nghiên cứu hành vi, sự hài lòng, lòng trung thành hoặc yếu tố kinh tế/quản trị du lịch và dịch vụ; không phải phát triển hay đánh giá công nghệ kỹ thuật."
+    },
+    {
+      "title": "Topic-Comment Sentences in English and Vietnamese: A Contrastive Analysis",
+      "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+    },
+    {
+      "title": "Các hoạt động nhằm tăng tính hứng thú cho giờ học đọc hiểu ở các lớp không chuyên tiếng Anh tại Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",
+      "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+    },
+    {
+      "title": "Nâng cao nhận thức của sinh viên về chủ nghĩa xã hội và con đường đi lên xã hội chủ nghĩa ở Việt Nam trong bối cảnh hiện nay",
+      "reason_vi": "Nghiên cứu chính trị, tư tưởng hoặc triết học; không liên quan đến nghiên cứu công nghệ."
+    },
+    {
+      "title": "Triết lý \"Khổ tận cam lai\" từ Nguyễn Du đến Hồ Chí Minh",
+      "reason_vi": "Nghiên cứu chính trị, tư tưởng hoặc triết học; không liên quan đến nghiên cứu công nghệ."
+    },
+    {
+      "title": "Negative Transfer of Topic-Comment Structures: Causes and Implications",
+      "reason_vi": "Nghiên cứu ngôn ngữ hoặc sư phạm ngoại ngữ; không có dấu hiệu phát triển phương pháp xử lý ngôn ngữ bằng máy hay hệ thống công nghệ."
+    },
+    {
+      "title": "Ứng dụng chatbot trong bán lẻ trực tuyến tại Việt Nam: Các yếu tố quyết định và tác động đến trải nghiệm người dùng",
+      "reason_vi": "Đã đọc abstract: dùng TAM/UTAUT nghiên cứu sự chấp nhận chatbot và trải nghiệm khách hàng; không phát triển chatbot hay thuật toán ngôn ngữ."
+    },
+    {
+      "title": "Chiến lược phát triển năng lực số trong giáo dục Việt Nam: Bài học quốc tế và định hướng thực tiễn",
+      "reason_vi": "Chiến lược phát triển năng lực số trong giáo dục; thuộc chính sách/đào tạo, không nghiên cứu kỹ thuật số cụ thể."
+    },
+    {
+      "title": "Các yếu tố tác động đến ý định chuyển đổi số trong hoạt động tài chính - kế toán của doanh nghiệp",
+      "reason_vi": "Nghiên cứu ý định chuyển đổi số hoặc hiệu quả doanh nghiệp tài chính/kế toán; không có đóng góp thuật toán, phần mềm hoặc hệ thống."
+    },
+    {
+      "title": "Phân tích và dự đoán dữ liệu từ các hệ thống IoT sử dụng Big Data trong giáo dục đại học",
+      "reason_vi": "Đã đọc abstract: nội dung là tổng quan ứng dụng công nghệ số, IoT và Big Data để nâng chất lượng giáo dục; không có thiết kế pipeline dữ liệu, mô hình dự đoán hoặc hệ thống được kiểm thử."
+    },
+    {
+      "title": "Public service motivation in Vietnam: Insights from a Q-methodology approach",
+      "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+    },
+    {
+      "title": "Impact of Artificial Intelligence Technology on English Language Teaching and Learning",
+      "reason_vi": "Đánh giá tác động của công cụ AI/hợp tác trực tuyến trong dạy học; không thể hiện phát triển công nghệ hay phương pháp tính toán."
+    },
+    {
+      "title": "Green Economy in the Modern Economy: A Comprehensive Study on Its Role and Impact in the Contemporary World",
+      "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+    },
+    {
+      "title": "Impact of Digital Transformation on the Performance of Accounting Service Enterprises",
+      "reason_vi": "Nghiên cứu ý định chuyển đổi số hoặc hiệu quả doanh nghiệp tài chính/kế toán; không có đóng góp thuật toán, phần mềm hoặc hệ thống."
+    },
+    {
+      "title": "Research on the Impact of Electronic Word-of-Mouth (EWOM), User-Generated Content and Subjective Norm on the Intention to Purchase Vegan Cosmetics of Gen Z Women Through Social Media Platforms in Vietnam",
+      "reason_vi": "Nghiên cứu hành vi mua hàng, ảnh hưởng truyền thông và mức sẵn sàng chi trả; thuộc marketing/kinh tế tiêu dùng."
+    },
+    {
+      "title": "Exploring Italian consumers’ willingness to pay for sustainable fashion: the roles of eco‑consciousness and vintage preference",
+      "reason_vi": "Nghiên cứu hành vi mua hàng, ảnh hưởng truyền thông và mức sẵn sàng chi trả; thuộc marketing/kinh tế tiêu dùng."
+    },
+    {
+      "title": "Bàn về phát triển bền vững và kinh tế xanh ở Việt Nam",
+      "reason_vi": "Nghiên cứu tài chính, chính sách hoặc kinh tế xanh/phát triển bền vững; không phải kỹ thuật năng lượng hay môi trường."
+    },
+    {
+      "title": "Applying Inquiry Based Learningmethod in Teaching Marketing Essentialssubject At Vietnam - Korea University of Information and Communication Technology - University of Da Nang",
+      "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+    },
+    {
+      "title": "Giải pháp hỗ trợ tạo động lực cho hiện thực hóa ý tưởng khởi sự kinh doanh trong sinh viên",
+      "reason_vi": "Giải pháp tạo động lực khởi sự kinh doanh cho sinh viên; không phải công trình công nghệ."
+    },
+    {
+      "title": "Các mô hình đào tạo nhân lực du lịch đạt chuẩn quốc tế - Bài học rút ra từ các nước phát triển",
+      "reason_vi": "Nghiên cứu đánh giá/đào tạo/phương pháp giáo dục; không đề xuất thuật toán, hệ thống phần mềm hoặc thiết bị phục vụ giáo dục."
+    },
+    {
+      "title": "Tác động của các công cụ hợp tác trực tuyến trong giáo dục đại học",
+      "reason_vi": "Đánh giá tác động của công cụ AI/hợp tác trực tuyến trong dạy học; không thể hiện phát triển công nghệ hay phương pháp tính toán."
+    },
+    {
+      "title": "How Does Public Service Motivation Mediate the Relationship between Adaptive and Authentic Leadership and Employee Outcomes? Empirical Evidence in Vietnam",
+      "reason_vi": "Nghiên cứu quản trị, lãnh đạo, động lực hoặc hành vi lao động/khởi nghiệp; không có đóng góp công nghệ cụ thể."
+    }
+  ],
+  "uncertain": [
+    {
+      "title": "Application of Grey forecasting model to estimate the Cargo throughput in Vietnam seaports",
+      "reason_vi": "Tóm tắt chỉ áp dụng và so sánh GM/FGM có sẵn để dự báo hàng hóa cho quy hoạch cảng; chưa xác định được đóng góp mới về thuật toán, phần mềm hoặc hệ thống kỹ thuật. Tạm loại khỏi dữ liệu chính."
+    },
+    {
+      "title": "Sử dụng mô hình Xám để dự báo giá trị kim ngạch xuất khẩu của Việt Nam giai đoạn 2025-2030",
+      "reason_vi": "Tóm tắt chủ yếu dự báo kim ngạch xuất khẩu bằng GM/DGM có sẵn để hỗ trợ hoạch định kinh tế; chưa đủ bằng chứng về đóng góp phương pháp tính toán hoặc công nghệ. Tạm loại khỏi dữ liệu chính."
+    },
+    {
+      "title": "A Data-Driven Approach to Business Intelligence for Evaluating Football Player Performance",
+      "reason_vi": "Tóm tắt nêu khung phân tích KPI cầu thủ và advanced analytics nhưng không chỉ rõ thuật toán, hệ thống hay cải tiến kỹ thuật; chưa phân biệt được nghiên cứu công nghệ với báo cáo phân tích thể thao. Tạm loại khỏi dữ liệu chính."
+    },
+    {
+      "title": "Short-Term Forecasting of Student Dropout Trends Using Minimal-Data Predictive Modeling",
+      "reason_vi": "Tóm tắt mô tả áp dụng GM(1,1) có sẵn cho dự báo bỏ học và khuyến nghị quản lý; chưa thấy đóng góp về thuật toán, phần mềm hoặc hệ thống giáo dục thông minh. Tạm loại khỏi dữ liệu chính."
+    },
+    {
+      "title": "Ứng dụng mô hình Xám để dự đoán lượng hàng hóa lưu thông qua cảng biển ở Việt Nam",
+      "reason_vi": "Tóm tắt áp dụng GM/DGM có sẵn để dự báo hàng hóa phục vụ chính sách và quản lý cảng; chưa đủ bằng chứng đóng góp kỹ thuật của phương pháp hay hệ thống. Tạm loại khỏi dữ liệu chính."
+    },
+    {
+      "title": "Supplier selection through an integrated multi-criteria decision-making model: A study on barge service providers in the Mekong Delta of Vietnam",
+      "reason_vi": "Tóm tắt nêu mô hình MCDM tích hợp để chọn nhà cung cấp vận tải nhưng không đủ chi tiết xác nhận cải tiến thuật toán hoặc hệ thống quyết định; có thể chỉ là ứng dụng phương pháp quản trị. Tạm loại khỏi dữ liệu chính."
+    },
+    {
+      "title": "Ứng dụng mô hình Xám để dự đoán lượng hàng hóa lưu thông qua cảng biển ở Việt Nam",
+      "reason_vi": "Tóm tắt áp dụng GM/DGM có sẵn để dự báo hàng hóa phục vụ chính sách và quản lý cảng; chưa đủ bằng chứng đóng góp kỹ thuật của phương pháp hay hệ thống. Tạm loại khỏi dữ liệu chính."
+    }
+  ]
+}

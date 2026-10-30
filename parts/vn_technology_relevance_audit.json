@@ -1,0 +1,525 @@
+{
+  "reviewed_at": "2026-10-30",
+  "scope_vi": "Rà thủ công tính phù hợp công nghệ của 39 mục nghiên cứu VN và 23 bản ghi thư mục PTIT. Đây là kiểm tra phạm vi chủ đề, không nâng mức xác minh khoa học hoặc khẳng định đã đọc toàn văn.",
+  "criteria_vi": "Giữ đóng góp kỹ thuật về thuật toán/phương pháp tính toán, phần mềm, bảo mật, điện tử, robot, vật liệu, năng lượng/môi trường kỹ thuật hoặc công nghệ y sinh. Ứng dụng kỹ thuật trong giáo dục, luật và tài chính vẫn thuộc phạm vi. Loại khảo sát hành vi/quản lý không có đóng góp kỹ thuật cụ thể.",
+  "source_files_sha256": {
+    "/home/ubuntu/university_research/parts/vn_research.json": "c30ae4641b872d06beaae2b1aeee758c6e432d6309c6979b1dc0f03e7d0651fe",
+    "/home/ubuntu/university_research/parts/vn_core_research.json": "ac9d7d96e149bbcc260c6cd9158e48c3b79d0bb36cc2f11897cd15cfb693f49d",
+    "/home/ubuntu/university_research/bibliography_classified.json": "3c8a7a180558ef2fa4ec960db20193203b73f9ab4826919bc7fb57fe0bec0d7b"
+  },
+  "items": [
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "title": "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+      "decision": "keep",
+      "reason_vi": "Mô hình học sâu có khả năng giải thích cho ảnh MRI và hỗ trợ chẩn đoán; đóng góp phương pháp AI/y sinh.",
+      "source_url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/323"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "title": "BLOOD CELL DETECTION AND CLASSIFICATION USING FASTER R-CNN, RETINANET, AND YOLOv12",
+      "decision": "keep",
+      "reason_vi": "So sánh các kiến trúc phát hiện vật thể cho ảnh tế bào máu; kỹ thuật thị giác máy tính/y sinh.",
+      "source_url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/326"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "title": "ANALYSIS OF BRAKING DYNAMICS AND THERMAL CHARACTERISTICS IN PASSENGER CARS BASED ON A BIDIRECTIONAL INTERACTION MODEL",
+      "decision": "keep",
+      "reason_vi": "Mô hình tương tác động lực học–nhiệt để mô phỏng phanh ô tô bằng MATLAB và Ansys; kỹ thuật cơ khí.",
+      "source_url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi/article/view/175"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+      "title": "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+      "decision": "keep",
+      "reason_vi": "Mạng U-Net cải tiến dự báo trường dòng chảy quanh cánh máy bay; phương pháp tính toán phục vụ kỹ thuật hàng không.",
+      "source_url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/1909"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+      "title": "Research on sustainable aspects in wire arc additive manufacturing of nickel-based alloy components",
+      "decision": "keep",
+      "reason_vi": "Đánh giá quy trình chế tạo đắp dây hồ quang và CNC cho chi tiết hợp kim; trọng tâm kỹ thuật chế tạo và tác động của quy trình dù có thành phần chi phí.",
+      "source_url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/2382"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+      "title": "Phát triển giao thức tính toán bảo mật và ứng dụng cho hệ tư vấn người dùng có đảm bảo tính riêng tư",
+      "decision": "keep",
+      "reason_vi": "Phát triển giao thức tính toán bảo mật cho hệ tư vấn có bảo vệ riêng tư; mật mã và hệ thống tính toán.",
+      "source_url": "https://actvn.edu.vn/Images/Uploadfiles/To%C3%A0n%20v%C4%83n%20Lu%E1%BA%ADn%20%C3%81n.pdf"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+      "title": "Nghiên cứu xây dựng công cụ kiểm tra an toàn cho mã nguồn sinh bởi LLM",
+      "decision": "keep",
+      "reason_vi": "Xây dựng công cụ kiểm tra an toàn mã nguồn do LLM sinh; kỹ thuật phần mềm/an ninh mạng, dù mới xác nhận metadata đồ án.",
+      "source_url": "https://thuvien.actvn.edu.vn/"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Giao thông vận tải (UTC)",
+      "title": "Tính chất cơ - lý của vữa rót giữ nước sử dụng phụ phẩm công nghiệp cho mặt đường bán mềm",
+      "decision": "keep",
+      "reason_vi": "Thiết kế/thử nghiệm thành phần vữa cho mặt đường và tính chất cơ lý; kỹ thuật vật liệu xây dựng.",
+      "source_url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3123"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Giao thông vận tải (UTC)",
+      "title": "Đánh giá nhận thức về rủi ro an toàn giao thông trong hoạt động tìm kiếm chỗ đỗ và đỗ xe trên đường tại Hà Nội theo cách tiếp cận đa chiều",
+      "decision": "exclude",
+      "reason_vi": "Khảo sát nhận thức và hành vi về rủi ro đỗ xe trên 485 người; dùng thống kê để mô tả vấn đề quản lý/an toàn giao thông. Tóm tắt không xác lập đóng góp về thuật toán, hệ thống số, cảm biến, thiết bị, vật liệu hoặc phương pháp thiết kế kỹ thuật. Loại theo phạm vi công nghệ chặt chẽ của yêu cầu mới.",
+      "source_url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3056"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Mỏ - Địa chất (HUMG)",
+      "title": "Nghiên cứu ứng dụng điện toán đám mây và công nghệ Internet vạn vật (IoT) trong quan trắc dao động thời gian thực công trình cầu dây văng ở Việt Nam",
+      "decision": "keep",
+      "reason_vi": "Tích hợp GNSS-RTK, IoT và điện toán đám mây để quan trắc kết cấu cầu theo thời gian thực; hệ thống cảm biến kỹ thuật.",
+      "source_url": "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9399"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Mỏ - Địa chất (HUMG)",
+      "title": "Nghiên cứu chế tạo sơn lót bảo vệ chống ăn mòn thép CT3 trên cơ sở nhựa epoxy và chất ức chế hạt nano SiO2 biến tính 3,5 - dinitrobenzoic axit",
+      "decision": "keep",
+      "reason_vi": "Chế tạo lớp phủ epoxy với hạt nano biến tính để chống ăn mòn thép; kỹ thuật vật liệu/hóa học.",
+      "source_url": "https://humg.edu.vn/tin-tuc/pages/khoa-hoc-cong-nghe.aspx?ItemID=9430"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+      "title": "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+      "decision": "keep",
+      "reason_vi": "Mô hình học tổ hợp LSTM phát hiện tấn công MITM trong ICS; thuật toán bảo mật hệ điều khiển.",
+      "source_url": "https://isj.vn/index.php/journal_STIS/article/view/1137"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+      "title": "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+      "decision": "keep",
+      "reason_vi": "Kiến trúc VLM gọn phân biệt bối cảnh cháy trong nhà; kỹ thuật AI/thị giác máy tính.",
+      "source_url": "https://www.nature.com/articles/s41598-026-48743-5"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học FPT",
+      "title": "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+      "decision": "keep",
+      "reason_vi": "Đề tài dự kiến xây dựng mô hình AI và ứng dụng web cá nhân hóa học tập; giữ vì có sản phẩm phần mềm/mô hình kỹ thuật, không phải khảo sát giáo dục đơn thuần.",
+      "source_url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học FPT",
+      "title": "Nghiên cứu phát triển mô hình Transformer sử dụng WiFi Fingerprinting cho định vị trong nhà",
+      "decision": "keep",
+      "reason_vi": "Phát triển Transformer cho định vị trong nhà từ WiFi fingerprinting; thuật toán AI và vô tuyến.",
+      "source_url": "https://science.fpt.edu.vn/articles/khoa-hoc-cong-nghe/e-tai-nghien-cuu-khoa-hoc-2020---2025"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Đại học Phenikaa",
+      "title": "Nghiên cứu phát triển các giải pháp định vị hiệu quả cho ứng dụng robot di động tự hành (ARM) tích hợp công nghệ Ultrawideband (UWB) trong các nhà máy thông minh",
+      "decision": "keep",
+      "reason_vi": "Phát triển giải pháp định vị UWB cho robot tự hành trong nhà máy; robot và điện tử/viễn thông.",
+      "source_url": "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Đại học Phenikaa",
+      "title": "Thiết kế và mô phỏng vật liệu hai chiều boron-nitride dang hexagon ứng dụng trong linh kiện trở nhớ",
+      "decision": "keep",
+      "reason_vi": "Thiết kế/mô phỏng vật liệu hai chiều cho linh kiện trở nhớ; vật liệu và linh kiện điện tử, có ứng dụng kỹ thuật cụ thể.",
+      "source_url": "https://pse.phenikaa-uni.edu.vn/vi/post/nghien-cuu/san-pham-khoa-hoc-cong-nghe/danh-sach-de-tai-nafosted-cua-truong-ky-thuat-phenikaa-nam-2025"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+      "title": "Synthesis of an imine-type nickel complex and investigation of its electrocatalytic activity for H2 evolution",
+      "decision": "keep",
+      "reason_vi": "Tổng hợp và đánh giá xúc tác điện hóa tạo hydro; ứng dụng năng lượng cụ thể, không phải nghiên cứu hóa học nền tảng không có đích công nghệ.",
+      "source_url": "https://pubs.rsc.org/en/content/articlelanding/2025/ra/d4ra08116a"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+      "title": "Design and Development of a Fuzzy-PID Controller with Integrated Wind Estimation for UAV Hexacopter Stabilization",
+      "decision": "keep",
+      "reason_vi": "Thiết kế bộ điều khiển Fuzzy-PID và ước lượng gió ổn định UAV; điều khiển tự động.",
+      "source_url": "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+      "title": "Vehicle Detection and Tracking in Vietnam’s Complex Urban Traffic",
+      "decision": "keep",
+      "reason_vi": "Phát hiện và theo dõi phương tiện bằng phương pháp xử lý dữ liệu hình ảnh; kỹ thuật nhận dạng phục vụ giao thông.",
+      "source_url": "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Đại học Bách khoa Hà Nội (HUST)",
+      "title": "Improving computational drug repositioning through multi-source disease similarity networks",
+      "decision": "keep",
+      "reason_vi": "Thuật toán mạng tương đồng bệnh và Random Walk with Restart để dự đoán liên hệ thuốc–bệnh; tin sinh học/tính toán y sinh.",
+      "source_url": "https://www.nature.com/articles/s41598-025-04772-0"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Đại học Bách khoa Hà Nội (HUST)",
+      "title": "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+      "decision": "keep",
+      "reason_vi": "Mạng thích nghi miền học sâu phân loại lưu lượng mã hóa; thuật toán AI và mạng.",
+      "source_url": "https://ieeexplore.ieee.org/document/10855613"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Đại học Bách khoa Hà Nội (HUST)",
+      "title": "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+      "decision": "keep",
+      "reason_vi": "Kết hợp học tổ hợp/mô hình ngôn ngữ lập trình để phát hiện code smell; kỹ thuật chất lượng phần mềm.",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0164121225000433"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+      "title": "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation",
+      "decision": "keep",
+      "reason_vi": "So sánh tinh chỉnh LLM và RAG trên dữ liệu luật tiếng Việt; đóng góp phương pháp AI dù miền ứng dụng là pháp luật.",
+      "source_url": "https://doi.org/10.1109/KSE63888.2024.11063566"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+      "title": "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+      "decision": "keep",
+      "reason_vi": "Khung hỏi đáp đa tác tử với lập kế hoạch và truy xuất tri thức động; thuật toán/hệ thống AI.",
+      "source_url": "https://doi.org/10.1007/978-981-92-2590-3_24"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+      "title": "Toward Sustainable and Cost-Efficient HPC Systems: A Deep Reinforcement Learning Job Scheduling Approach",
+      "decision": "keep",
+      "reason_vi": "Học tăng cường sâu cho lập lịch trên HPC; đóng góp thuật toán hệ thống tính toán, không phải quản trị chi phí đơn thuần.",
+      "source_url": "https://hpcc.hcmut.edu.vn/publications"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+      "title": "Fine-Tuned Sentence-BERT for HPC Job Outcome Prediction via Textual Feature Embedding",
+      "decision": "keep",
+      "reason_vi": "Tinh chỉnh Sentence-BERT tạo đặc trưng dự đoán kết quả tác vụ HPC; AI và tính toán hiệu năng cao.",
+      "source_url": "https://hpcc.hcmut.edu.vn/publications"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+      "title": "AI- and GIS-based Flood Warning System for Ho Chi Minh City",
+      "decision": "keep",
+      "reason_vi": "Hệ thống cảnh báo ngập tích hợp AI/GIS; kỹ thuật môi trường và hệ thống thông tin.",
+      "source_url": "https://hpcc.hcmut.edu.vn/research"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+      "title": "Fusurge: An Accelerated Query-Driven System for Multimodal Information Retrieval",
+      "decision": "keep",
+      "reason_vi": "Hệ thống truy xuất đa phương thức tích hợp OCR, nhận dạng tiếng nói và CLIP; kỹ thuật tìm kiếm thông tin.",
+      "source_url": "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+      "title": "From Prediction to Understanding: A Robustness and Explainability Study of LLM-Based Vulnerability Detection",
+      "decision": "keep",
+      "reason_vi": "Đánh giá độ bền và khả năng giải thích của LLM phát hiện lỗ hổng mã; kỹ thuật an toàn phần mềm.",
+      "source_url": "https://www.uit.edu.vn/bai-viet/cong-tac-vien-uit-nghien-cuu-ket-hop-llm-va-xai-trong-phat-hien-dien-giai-va-xac-thuc-lo-hong-phan-mem"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "title": "Proposed Data Roaming Network Simulation Environment for 5G Network",
+      "decision": "keep",
+      "reason_vi": "Môi trường mô phỏng roaming dữ liệu mạng 5G; phần mềm và mạng viễn thông.",
+      "source_url": "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "title": "AUTOGENT: Multi-Agent AI Framework for Automated Vulnerability Detection and Security Alerting in Networked Systems",
+      "decision": "keep",
+      "reason_vi": "Khung đa tác tử tự động phát hiện lỗ hổng và phát cảnh báo; an ninh mạng/AI.",
+      "source_url": "https://udu.ptit.edu.vn/chuc-mung-sinh-vien-chuong-trinh-cong-nghe-thong-tin-dinh-huong-ung-dung-ptit-co-bai-bao-khoa-hoc-duoc-chap-nhan-tai-hoi-thao-nam-2025/"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "title": "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+      "decision": "keep",
+      "reason_vi": "Mô hình học máy dự báo điều kiện môi trường nhà kính; phương pháp tính toán cho nông nghiệp thông minh.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+      "title": "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+      "decision": "keep",
+      "reason_vi": "Thiết kế/chế tạo tay máy sáu bậc tự do tích hợp camera và AI; robot/tự động hóa.",
+      "source_url": "https://jst-ud.vn/jst-ud/article/view/10204"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+      "title": "Model-based design of a ballbot system controlled by mindstorms EV3",
+      "decision": "keep",
+      "reason_vi": "Thiết kế dựa trên mô hình, mô phỏng và sinh mã cho robot cân bằng dùng PID/LQR; điều khiển và hệ nhúng.",
+      "source_url": "https://jst-ud.vn/jst-ud/article/view/10268"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+      "title": "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+      "decision": "keep",
+      "reason_vi": "Thuật toán tối ưu Walrus kết hợp học sâu dự báo nỗ lực phần mềm; giữ vì đánh giá mô hình dự đoán cụ thể, không phải quản trị dự án thuần túy.",
+      "source_url": "https://elib.vku.udn.vn/handle/123456789/7683"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+      "title": "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+      "decision": "keep",
+      "reason_vi": "Hệ phát hiện cháy kết hợp xử lý ảnh, học máy và cảm biến IoT; hệ thống kỹ thuật tích hợp.",
+      "source_url": "https://elib.vku.udn.vn/handle/123456789/7663"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+      "title": "Domain-Oriented GCN Method for Sentiment Analysis",
+      "decision": "keep",
+      "reason_vi": "Mô hình GCN theo miền kết hợp DomBert để phân tích cảm xúc; thuật toán xử lý ngôn ngữ.",
+      "source_url": "https://doi.org/10.1007/978-981-96-6005-6_29"
+    },
+    {
+      "group": "vn_research_and_core",
+      "school": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+      "title": "Nonlinear model predictive control for trajectory tracking and dynamic obstacle avoidance in differential-drive mobile robots",
+      "decision": "keep",
+      "reason_vi": "Điều khiển dự báo phi tuyến cho bám quỹ đạo/tránh vật cản của robot; mô phỏng ROS/Gazebo và thử robot thực.",
+      "source_url": "https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/inPress/8547"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "MULTI-LEVEL STACKING ENSEMBLE LEARNING FOR ENHANCED ECG-BASED ARRHYTHMIA DETECTION",
+      "decision": "keep",
+      "reason_vi": "Học tổ hợp stacking nhiều tầng phát hiện rối loạn nhịp từ ECG; thuật toán AI/y sinh.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "PERFORMANCE OF MULTI RIS AIDED UPLINK WIRELESS SYSTEMS WITH SHORT PACKET COMMUNICATIONS",
+      "decision": "keep",
+      "reason_vi": "Phân tích hiệu năng hệ vô tuyến có nhiều RIS và truyền gói ngắn; kỹ thuật viễn thông.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Ăng ten MIMO 2×2 băng siêu rộng có hệ số cách ly cao ứng dụng cho truyền thông 5G băng tần dưới 6GHz",
+      "decision": "keep",
+      "reason_vi": "Thiết kế ăng ten MIMO băng siêu rộng và cách ly cao cho 5G; điện tử/viễn thông.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Electrocardiogram Based Heartbeat Detection Using Deep Learning",
+      "decision": "keep",
+      "reason_vi": "Phát hiện nhịp tim bằng học sâu trên ECG; kỹ thuật xử lý tín hiệu y sinh.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "A Perception-Driven Framework for Robust V2V Cooperative Localization",
+      "decision": "keep",
+      "reason_vi": "Khung định vị hợp tác V2V dựa trên nhận thức; thuật toán định vị/hệ giao thông thông minh.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "MACHINE LEARNING-BASED PREDICTION OF HEART FAILURE USING GENETIC DATA",
+      "decision": "keep",
+      "reason_vi": "Mô hình học máy dự báo suy tim từ dữ liệu di truyền; AI/tin sinh học có mục tiêu chẩn đoán.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "IDENTIFYING RISK FACTORS AND SURVIVAL PREDICTION OF HEART FAILURE PATIENTS USING MACHINE LEARNING",
+      "decision": "keep",
+      "reason_vi": "Mô hình học máy dự báo sống còn và xác định yếu tố đầu vào trong suy tim; kỹ thuật dự đoán y sinh, không chỉ nghiên cứu lâm sàng mô tả.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "EXPERIMENTAL PERFORMANCE EVALUATION OF WIREGUARD PROTOCOL COMPARED TO OPENVPN AND IPsec IN VIRTUAL PRIVATE NETWORKS",
+      "decision": "keep",
+      "reason_vi": "Đánh giá thực nghiệm giao thức VPN WireGuard, OpenVPN và IPsec; kỹ thuật mạng/bảo mật.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Outage Probability of Adaptive RIS-NOMA Downlink System with Channel-Aware Scheduling for Heterogeneous Users",
+      "decision": "keep",
+      "reason_vi": "Lập lịch dựa trên kênh và xác suất gián đoạn trong hệ RIS-NOMA; kỹ thuật truyền thông.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Hiệu năng chiến lược chuyển giao phổ tần trong mạng vô tuyến hợp tác nhận thức hỗ trợ IoT",
+      "decision": "keep",
+      "reason_vi": "Chiến lược chuyển giao phổ trong vô tuyến nhận thức hỗ trợ IoT; giao thức và kỹ thuật mạng.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Performance Analysis of RIS-UAV-Assisted Cooperative NOMA with Two-Phase Transmission for Finite Blocklength Communications",
+      "decision": "keep",
+      "reason_vi": "Phân tích hệ truyền NOMA hợp tác dùng RIS-UAV với độ dài khối hữu hạn; kỹ thuật viễn thông.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Improving the performance of FBG optical sensor networks integrated with DWDM optical transmission networks",
+      "decision": "keep",
+      "reason_vi": "Cải thiện mạng cảm biến quang FBG tích hợp DWDM; kỹ thuật quang và truyền thông.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "ECG-Based Arrhythmia Classification with Principal Component Analysis and Machine Learning",
+      "decision": "keep",
+      "reason_vi": "PCA và học máy phân loại rối loạn nhịp từ ECG; phương pháp xử lý tín hiệu/AI.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Đánh giá hiệu năng mạng cảm biến đa sự kiện sử dụng giao thức PMME thích nghi",
+      "decision": "keep",
+      "reason_vi": "Giao thức PMME thích nghi và hiệu năng mạng cảm biến đa sự kiện; kỹ thuật giao thức.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Design of a Multi-Band RF-DC Circuit for Energy Harvesting in IoT Sensor Systems",
+      "decision": "keep",
+      "reason_vi": "Thiết kế mạch RF-DC đa băng thu năng lượng cho cảm biến IoT; mạch điện tử/năng lượng.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Thiết kế nền tảng thực hành trực tuyến AIoT",
+      "decision": "keep",
+      "reason_vi": "Thiết kế nền tảng thực hành AIoT trực tuyến; đối tượng đóng góp là nền tảng kỹ thuật. Chỉ xác nhận tiêu đề/thư mục từ khoa và danh sách nghiên cứu chính thức; chưa đọc abstract/toàn văn.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Ứng dụng Lý thuyết Dấu ấn trong xây dựng mô hình phân tích dữ liệu thời gian thực.",
+      "decision": "keep",
+      "reason_vi": "Mô hình tính toán kết hợp Signature Theory và Rough Fractional Stochastic Volatility để cập nhật/dự báo dữ liệu tài chính trực tuyến; có đóng góp phương pháp tính toán rõ trong abstract, nên giữ dù ứng dụng tài chính.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "NGHIÊN CỨU ỨNG DỤNG HỌC MÁY NHỎ TINYML CHO NÔNG NGHIỆP VÀ SẢN XUẤT CÔNG NGHIỆP",
+      "decision": "keep",
+      "reason_vi": "Ứng dụng TinyML trong nông nghiệp và sản xuất; học máy trên thiết bị tài nguyên hạn chế.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+      "decision": "keep",
+      "reason_vi": "Mô hình học máy dự báo môi trường nhà kính; kỹ thuật AI cho nông nghiệp thông minh.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Design and Performance Analysis of an SCM-Integrated SIKD Satellite FSO System Using Dual-Threshold CV-QKD",
+      "decision": "keep",
+      "reason_vi": "Thiết kế/phân tích hệ thông tin quang vệ tinh kết hợp phân phối khóa lượng tử CV-QKD; truyền thông và bảo mật.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "KỸ THUẬT MIMO CỠ LỚN PHI TẾ BÀO VÀ ỨNG DỤNG TRONG MẠNG TRUYỀN THÔNG VỆ TINH QUỸ ĐẠO THẤP",
+      "decision": "keep",
+      "reason_vi": "MIMO phi tế bào cho truyền thông vệ tinh quỹ đạo thấp; kỹ thuật viễn thông.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "Secure Block-Error Rate in Cooperative SPC Systems with Collaborative Jamming",
+      "decision": "keep",
+      "reason_vi": "Phân tích lỗi khối với gây nhiễu hợp tác trong truyền thông bảo mật; kỹ thuật truyền thông/bảo mật.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    },
+    {
+      "group": "ptit_bibliography",
+      "school": "PTIT",
+      "title": "A Study on Feature Selection Algorithms for Machine Learning-based ALS Diagnosis",
+      "decision": "keep",
+      "reason_vi": "Thuật toán chọn đặc trưng cho chẩn đoán ALS bằng học máy; AI/y sinh.",
+      "source_url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+    }
+  ],
+  "additional_evidence": [
+    {
+      "title": "Đánh giá nhận thức về rủi ro an toàn giao thông trong hoạt động tìm kiếm chỗ đỗ và đỗ xe trên đường tại Hà Nội theo cách tiếp cận đa chiều",
+      "url": "https://tcsj.utc.edu.vn/index.php/tcgtvt/article/view/3056",
+      "evidence_vi": "Abstract nêu khảo sát 485 phiếu, 30 tình huống rủi ro, Cronbach alpha; trọng tâm nhận thức rủi ro đỗ xe."
+    },
+    {
+      "title": "Thiết kế nền tảng thực hành trực tuyến AIoT",
+      "url": "https://khcn.ptit.edu.vn/khcn/danh-sach-bai-bao-cong-bo-tren-cac-tap-chi-khoa-hoc-trong-nuoc-nam-2025/",
+      "evidence_vi": "Danh mục chính thức mục 173 xác nhận tên bài về thiết kế nền tảng AIoT, số 04 (CS.01) 2025, trang 88–95. Không có nội dung abstract trong trang danh mục."
+    },
+    {
+      "title": "Ứng dụng Lý thuyết Dấu ấn trong xây dựng mô hình phân tích dữ liệu thời gian thực.",
+      "url": "https://www.vjol.info.vn/3126-3445/article/view/258017/",
+      "evidence_vi": "Abstract tạp chí qua chỉ mục tìm kiếm nêu kết hợp Signature Theory và RFSV, ước lượng/cập nhật trực tuyến cho dữ liệu giá–khối lượng, thực nghiệm VN30. Mở trực tiếp trả 502; không tuyên bố đọc toàn văn. Metadata tạp chí ghi 2026 nhưng danh mục khoa ghi 2025; cần giữ ghi chú năm nguồn khác nhau."
+    }
+  ]
+}

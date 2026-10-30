@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-10-30",
+  "record_count": 265,
+  "primary_source": "https://en.naric.edu.vn/vietnam-recognised-bodies",
+  "secondary_reference": "https://vqa.moet.gov.vn/vi/thong-bao-quan-ly-bao-dam/",
+  "extraction": "Downloaded public VN-NARIC HTML pages 0..37 and extracted table name, English name, short name, website and address. Excluded college and vocational rows; merged identical hosts and known historical/alternate domains; added KMA official domain; retained provenance per record.",
+  "source_rows_downloaded": 750,
+  "raw_name_domain_pairs_before_cleaning": 406,
+  "rejected_incorrect_mapping_pairs": 48,
+  "limitations": [
+    "Not a claim of a complete current legal institution census. Registry mixes historical names, duplicate records, branches, constituent schools and tertiary/vocational providers.",
+    "Registry contains substantive errors: hcmiu.edu.vn reused for dozens of unrelated institutions; hpmu.edu.vn reused for Thai Nguyen agriculture; these erroneous mappings removed, not trusted merely because source official.",
+    "Page0 and page1 return same rows; last pages overlap; published row numbers start21. First20 records cannot be confirmed from pagination.",
+    "TLS certificate for en.naric.edu.vn has hostname mismatch; read-only public fetch used verify=False, content provenance preserved.",
+    "Institution websites not individually inspected for all rows; HTTP retrieval status does not establish current accreditation, degree authority, completeness or name currency.",
+    "Historical/alternate domains retained as aliases where known; some renamed/merged institutions remain requiring review.",
+    "University systems and member institutions are separate records; branch and constituent types marked when apparent."
+  ],
+  "institution_type_counts": {
+    "academy": 33,
+    "regional_academy": 1,
+    "constituent_school_or_institute": 2,
+    "branch_campus": 2,
+    "university": 220,
+    "constituent_school": 1,
+    "historical_institution": 1,
+    "university_system": 5
+  },
+  "files": {
+    "raw_pages": "parts/vn_sources/naric*.html",
+    "raw_rows": "parts/vn_sources/naric_all_rows.json",
+    "rejected_mappings": "parts/vn_sources/naric_rejected_mapping_rows.json",
+    "extract_script": "parts/extract_vietnam.py",
+    "clean_script": "parts/clean_vietnam.py"
+  }
+}

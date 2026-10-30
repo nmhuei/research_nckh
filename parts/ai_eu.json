@@ -1,0 +1,1285 @@
+{
+  "metadata": {
+    "checked_on": "2026-10-30",
+    "scope_note_vi": "Mẫu công trình AI có phương pháp hoặc đóng góp AI rõ ràng của 14 trường châu Âu. Không đại diện toàn bộ công trình, không xếp hạng chất lượng, không coi sự hiện diện trong kho là đủ nếu thiếu liên kết tác giả/đơn vị. reading_depth ghi mức đọc thực tế; full_text_read=false cho tất cả.",
+    "inclusion_rule_vi": "Giữ học máy, học tăng cường, mô hình ngôn ngữ, nền tảng hoặc kiểm chứng mạng nơ-ron; loại công trình quang tử, pin, hydro nếu không có thành phần AI rõ.",
+    "gaps_vi": [
+      "Chỉ 2 công trình mỗi trường; không quét toàn bộ phòng thí nghiệm.",
+      "Một công trình Imperial mới đối chiếu metadata và nhan đề, chưa đọc được abstract đầy đủ để xác định từng thuật toán thành phần.",
+      "Một số kho chặn truy cập trực tiếp; nguồn đối chiếu và mức đọc được ghi theo từng mục.",
+      "Một bài EPFL có danh sách tác giả dài; trường authors chỉ ghi một số tác giả và authors_complete=false."
+    ]
+  },
+  "schools": [
+    {
+      "short_name": "ETH Zurich",
+      "name": "ETH Zürich",
+      "domain": "ethz.ch",
+      "ai_portals": [
+        {
+          "url": "https://www.research-collection.ethz.ch/",
+          "title": "ETH Research Collection"
+        }
+      ],
+      "items": [
+        {
+          "title": "Rambo: RL-Augmented Model-Based Whole-Body Control for Loco-Manipulation",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457",
+          "doi": "10.1109/lra.2025.3594984",
+          "summary_vi": "Kết hợp điều khiển toàn thân dựa trên mô hình với học tăng cường để robot chân vừa di chuyển vừa thao tác đồ vật. Thử nghiệm gồm đẩy xe đẩy, giữ đĩa và cầm vật mềm.",
+          "verification_note": "ETH Research Collection ghi Journal Article, ETH Bibliography: yes, tháng 9/2025; nội dung truy xuất từ chỉ mục công khai của kho. Truy cập trực tiếp sau đó trả HTTP 403. Giữ nguyên mức chứng cứ từ lần đọc trước; không tuyên bố đã đọc toàn văn.",
+          "status": "published",
+          "authors": [
+            "Jin Cheng",
+            "Dongho Kang",
+            "Gabriele Fadini",
+            "Guanya Shi",
+            "Stelian Coros"
+          ],
+          "attribution": "ETH Research Collection ghi Journal Article, ETH Bibliography: yes, tháng 9/2025; nội dung truy xuất từ chỉ mục công khai của kho. Truy cập trực tiếp sau đó trả HTTP 403.",
+          "problem_vi": "Làm sao robot có chân vừa giữ thăng bằng, vừa di chuyển và thao tác đồ vật?",
+          "ai_method_vi": "Kết hợp điều khiển toàn thân dựa trên mô hình với chính sách học tăng cường.",
+          "reading_depth": "indexed_official_repository_abstract_and_metadata",
+          "source_urls": [
+            "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457",
+            "https://api.crossref.org/works/10.1109/lra.2025.3594984"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "robot có chân",
+            "thao tác đồ vật"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "IEEE Robotics and Automation Letters",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1109/lra.2025.3594984",
+          "authors_complete": true
+        },
+        {
+          "title": "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+          "year": 2025,
+          "type": "conference_paper",
+          "url": "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b",
+          "doi": "10.1109/ICRA55743.2025.11128474",
+          "summary_vi": "Phát triển điều khiển di chuyển bằng học tăng cường cho robot bốn chân nhỏ, kết hợp bản đồ độ cao và cảm biến chiều sâu nhằm vượt địa hình khó với tài nguyên tính toán hạn chế.",
+          "verification_note": "Kho ETH ghi Conference Paper, ICRA 2025, đơn vị D-ITET Center for Project-Based Learning; DOI và tóm tắt có trong bản được lập chỉ mục. Truy cập trực tiếp sau đó trả HTTP 403. Giữ nguyên mức chứng cứ từ lần đọc trước; không tuyên bố đã đọc toàn văn.",
+          "status": "published",
+          "authors": [
+            "Davide Plozza",
+            "Patricia Apostol",
+            "Paul Joseph",
+            "Simon Schläpfer",
+            "Michele Magno"
+          ],
+          "attribution": "Kho ETH ghi Conference Paper, ICRA 2025, đơn vị D-ITET Center for Project-Based Learning; DOI và tóm tắt có trong bản được lập chỉ mục. Truy cập trực tiếp sau đó trả HTTP 403.",
+          "problem_vi": "Làm sao robot bốn chân nhỏ vượt địa hình khó với năng lực tính toán hạn chế?",
+          "ai_method_vi": "Học tăng cường cho điều khiển di chuyển, kết hợp cảm biến chiều sâu và bản đồ độ cao.",
+          "reading_depth": "indexed_official_repository_abstract_and_metadata",
+          "source_urls": [
+            "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b",
+            "https://api.crossref.org/works/10.1109/ICRA55743.2025.11128474"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL",
+            "EDGE_SYSTEMS"
+          ],
+          "application_domains": [
+            "robot tự hành",
+            "thiết bị tính toán hạn chế"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "2025 IEEE International Conference on Robotics and Automation",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1109/ICRA55743.2025.11128474",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "EPFL",
+      "name": "EPFL",
+      "domain": "epfl.ch",
+      "ai_portals": [
+        {
+          "url": "https://infoscience.epfl.ch/",
+          "title": "Infoscience – EPFL"
+        },
+        {
+          "url": "https://www.epfl.ch/labs/lsmo/",
+          "title": "EPFL LSMO publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "Assessment of fine-tuned large language models for real-world chemistry and material science applications",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Joren Van Herck",
+            "María Victoria Gil",
+            "Kevin Maik Jablonka",
+            "Berend Smit"
+          ],
+          "attribution": "Trang công bố của LSMO–EPFL ghi công trình; bản tác giả ghi Laboratory of Molecular Simulation, EPFL cho nhiều tác giả, gồm Berend Smit.",
+          "url": "https://www.epfl.ch/labs/lsmo/assessment-of-fine-tuned-large-language-models-for-real-world-chemistry-and-material-science-applications/",
+          "doi": "10.1039/D4SC04401K",
+          "summary_vi": "Đánh giá tinh chỉnh GPT-J, Llama và Mistral trên các bài toán hóa học, vật liệu với dữ liệu thực tế; so sánh với học máy truyền thống và chỉ ra giới hạn khi dữ liệu ít hoặc mất cân bằng.",
+          "problem_vi": "LLM tinh chỉnh với tập dữ liệu hóa học nhỏ có dự đoán hữu ích được tính chất vật liệu và kết quả phản ứng không?",
+          "ai_method_vi": "Fine-tuning LLM từ biểu diễn văn bản của dữ liệu hóa học; đánh giá phân loại, dự đoán và so sánh mô hình ML chuyên biệt.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Trang phòng thí nghiệm chính thức có tác giả, DOI, năm 2025 và abstract. Danh sách authors ở đây chỉ ghi một số tác giả, không phải toàn bộ. Bài tạp chí Chemical Science 16(2):670–684; không nhầm với bản ChemRxiv 2024.",
+          "source_urls": [
+            "https://pubs.rsc.org/en/content/articlepdf/2025/sc/d4sc04401k",
+            "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/668bd7385101a2ffa8c1e559/original/assessment-of-fine-tuned-large-language-models-for-real-world-chemistry-and-material-science-applications.pdf",
+            "https://www.epfl.ch/labs/lsmo/assessment-of-fine-tuned-large-language-models-for-real-world-chemistry-and-material-science-applications/"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "hóa học",
+            "khoa học vật liệu"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Chemical Science",
+          "authors_complete": false
+        },
+        {
+          "title": "Text-Graph Encoders and Retrieval-Augmented Generation",
+          "year": 2025,
+          "type": "doctoral_thesis",
+          "status": "thesis_published",
+          "authors": [
+            "Andrei Catalin Coman"
+          ],
+          "attribution": "Idiap Publications xác nhận School: EPFL, tác giả Andrei Catalin Coman và loại Thesis; EPFL Graph Search dẫn đúng bản Infoscience.",
+          "url": "https://infoscience.epfl.ch/entities/publication/84fa2f0d-2f23-49d2-916b-316a71c932d0",
+          "doi": null,
+          "summary_vi": "Luận án cải thiện truy xuất, xếp hạng lại và tạo câu trả lời trong RAG; đồng thời phát triển bộ mã hóa kết hợp văn bản với đồ thị tri thức và cách đánh giá câu trả lời bám bằng chứng.",
+          "problem_vi": "Làm sao RAG truy xuất đủ bằng chứng, giảm độ trễ và xử lý tri thức quan hệ hoặc thực thể chưa gặp khi huấn luyện?",
+          "ai_method_vi": "Retriever–reranker–reader; tinh chỉnh có mục tiêu; reward model theo bằng chứng; Transformer kết hợp văn bản và đồ thị.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đọc abstract và metadata trên EPFL Graph Search, đối chiếu mục luận án của Idiap. Infoscience trực tiếp trả HTTP 405; không tuyên bố đọc toàn văn. Đây là luận án, không phải bài hội nghị.",
+          "source_urls": [
+            "https://publications.idiap.ch/publications/show/5803",
+            "https://graphsearch.epfl.ch/en/publication/84fa2f0d-2f23-49d2-916b-316a71c932d0",
+            "https://infoscience.epfl.ch/entities/publication/84fa2f0d-2f23-49d2-916b-316a71c932d0"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "NLP_SPEECH"
+          ],
+          "application_domains": [
+            "hỏi đáp hội thoại",
+            "truy xuất thông tin",
+            "đồ thị tri thức"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "Imperial",
+      "name": "Imperial College London",
+      "domain": "imperial.ac.uk",
+      "ai_portals": [
+        {
+          "url": "https://spiral.imperial.ac.uk/",
+          "title": "Spiral – Imperial institutional repository"
+        }
+      ],
+      "items": [
+        {
+          "title": "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+          "doi": "10.1016/j.energy.2025.134592",
+          "summary_vi": "Ứng dụng mô hình học máy tích hợp để nghiên cứu truyền nhiệt của dòng ngưng tụ trong ống trơn và ống tăng cường truyền nhiệt.",
+          "verification_note": "Spiral ghi Journal Article, xuất bản 15/02/2025, đồng tác giả Christos N. Markides; có bản accepted manuscript theo chính sách Open Access của Imperial. Tóm tắt công khai của record chỉ lặp lại tiêu đề nên mô tả không suy diễn kết quả. Chỉ mô tả mục tiêu theo nhan đề và metadata; không suy diễn kiến trúc hoặc hiệu quả định lượng.",
+          "status": "published",
+          "authors": [
+            "Gangan Zhang",
+            "Wei Li",
+            "Desong Yang",
+            "Zengchao Chen",
+            "Christos N. Markides",
+            "Wentao Ji",
+            "Wenquan Tao"
+          ],
+          "attribution": "Spiral ghi Journal Article, xuất bản 15/02/2025, đồng tác giả Christos N. Markides; có bản accepted manuscript theo chính sách Open Access của Imperial. Tóm tắt công khai của record chỉ lặp lại tiêu đề nên mô tả không suy diễn kết quả.",
+          "problem_vi": "Làm sao dự đoán hệ số truyền nhiệt khi dòng lưu chất ngưng tụ trong các cấu hình ống khác nhau?",
+          "ai_method_vi": "Mô hình học máy tích hợp; nguồn tóm tắt hiện có chưa đủ để ghi chắc tên từng thuật toán thành phần.",
+          "reading_depth": "official_repository_metadata_limited_abstract",
+          "source_urls": [
+            "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+            "https://api.crossref.org/works/10.1016/j.energy.2025.134592"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "kỹ thuật nhiệt",
+            "thiết bị trao đổi nhiệt"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Energy 317, 134592",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1016/j.energy.2025.134592",
+          "authors_complete": true
+        },
+        {
+          "title": "Machine learning tabulation of thermochemistry: transfer learning for non-adiabatic flames",
+          "year": 2026,
+          "type": "journal_article",
+          "url": "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+          "doi": "10.1016/j.egyai.2026.100746",
+          "summary_vi": "Dùng mạng nơ-ron tăng tốc tính toán nhiệt hóa học và mở rộng dữ liệu huấn luyện cho ngọn lửa có trao đổi nhiệt; kiểm tra khả năng chuyển giao sang bài toán buồng đốt tua-bin khí.",
+          "verification_note": "Kho Spiral ghi tác giả A. Darzi, W. P. Jones, S. Rigopoulos; Journal Article, số tạp chí tháng 5/2026 và ngày online 20/04/2026. Attribution dựa trên hồ sơ trong kho nghiên cứu chính thức của Imperial. Đợt AI đã đọc abstract và các đoạn phương pháp trên publisher, đối chiếu tác giả trong CRediT; chưa đọc toàn bài.",
+          "status": "published",
+          "authors": [
+            "Alireza Darzi",
+            "W. P. Jones",
+            "Stelios Rigopoulos"
+          ],
+          "attribution": "Kho Spiral ghi tác giả A. Darzi, W. P. Jones, S. Rigopoulos; Journal Article, số tạp chí tháng 5/2026 và ngày online 20/04/2026. Attribution dựa trên hồ sơ trong kho nghiên cứu chính thức của Imperial.",
+          "problem_vi": "Làm sao giảm chi phí tính nhiệt hóa học trong mô phỏng đốt cháy có mất nhiệt?",
+          "ai_method_vi": "Mạng MLP lập bảng nhiệt hóa học; tạo dữ liệu Hybrid Flamelet/Random Data mở rộng bằng kiểm soát phân bố nhiệt độ để học chuyển giao sang ngọn lửa không đoạn nhiệt.",
+          "reading_depth": "abstract_and_selected_methods_sections",
+          "source_urls": [
+            "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+            "https://www.sciencedirect.com/science/article/pii/S2666546826000728"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "mô phỏng đốt cháy",
+            "tua-bin khí"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Energy and AI 24(1), 100746",
+          "authors_complete": true,
+          "author_metadata_source_url": "https://www.sciencedirect.com/science/article/pii/S2666546826000728"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "TU Delft",
+      "name": "Delft University of Technology",
+      "domain": "tudelft.nl",
+      "ai_portals": [
+        {
+          "url": "https://research.tudelft.nl/",
+          "title": "TU Delft Research Portal"
+        }
+      ],
+      "items": [
+        {
+          "title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+          "doi": "10.1007/s12369-025-01332-4",
+          "summary_vi": "Kết hợp học tăng cường nghịch đảo và điều khiển dự báo để nhóm robot hỗ trợ con người trong nhiệm vụ thăm dò. Đánh giá mô phỏng xem xét tránh va chạm và duy trì kết nối mạng.",
+          "verification_note": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+          "status": "published",
+          "authors": [
+            "Angelo Caregnato-Neto",
+            "Luciano Cavalcante Siebert",
+            "Arkady Zgonnikov",
+            "Marcos R. O. A. Maximo",
+            "Rubens J. M. Afonso"
+          ],
+          "attribution": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+          "problem_vi": "Làm sao dự đoán hành động của con người để đội robot hỗ trợ khám phá an toàn và duy trì kết nối?",
+          "ai_method_vi": "Học tăng cường nghịch đảo đối kháng kết hợp điều khiển dự báo theo mô hình (MPC).",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+            "https://api.crossref.org/works/10.1007/s12369-025-01332-4"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "tương tác người–robot",
+            "phối hợp nhiều robot"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "International Journal of Social Robotics 17(12), 3173–3189",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1007/s12369-025-01332-4",
+          "authors_complete": true
+        },
+        {
+          "title": "DRONE-RL: Dynamic reinforcement learning for online navigation of UAVs in evolving environments",
+          "year": 2026,
+          "type": "journal_article",
+          "url": "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/",
+          "doi": "10.1016/j.knosys.2025.115147",
+          "summary_vi": "Huấn luyện trước nhiều chính sách điều hướng UAV rồi chọn chính sách trực tuyến khi môi trường thay đổi, nhằm tăng khả năng thích nghi mà không phải huấn luyện lại ngay lúc vận hành.",
+          "verification_note": "Hồ sơ TU Delft ghi Published – 2026, Knowledge-Based Systems 334, 115147. DOI chứa 2025 nhưng không được dùng để suy ra năm xuất bản; năm ở đây theo metadata của trường.",
+          "status": "published",
+          "authors": [
+            "Noor Khial",
+            "Mhd Saria Allahham",
+            "Naram Mhaisen",
+            "Loay Ismail",
+            "Mohamed Mabrok",
+            "Amr Mohamed"
+          ],
+          "attribution": "Cổng TU Delft liên kết tác giả Naram Mhaisen với nhóm Networked Systems; không gán mọi đồng tác giả cho TU Delft.",
+          "problem_vi": "Làm sao UAV thích nghi khi môi trường đổi mà không huấn luyện lại chính sách từ đầu?",
+          "ai_method_vi": "Các chính sách DDPG huấn luyện trước và tối ưu lồi trực tuyến để lựa chọn, thích nghi chính sách.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "UAV",
+            "điều hướng tự chủ"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Knowledge-Based Systems 334, 115147",
+          "authors_complete": true,
+          "author_metadata_source_url": "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "TU/e",
+      "name": "Eindhoven University of Technology",
+      "domain": "tue.nl",
+      "ai_portals": [
+        {
+          "url": "https://research.tue.nl/",
+          "title": "TU/e Research Portal"
+        }
+      ],
+      "items": [
+        {
+          "title": "Neural Combinatorial Optimization for Stochastic Flexible Job Shop Scheduling Problems",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Igor G. Smit",
+            "Yaoxin Wu",
+            "Pavel Troubil",
+            "Yingqian Zhang",
+            "Wim P. M. Nuijten"
+          ],
+          "attribution": "Cổng TU/e ghi tác giả cùng các đơn vị Process Analytics, Information Systems IE&IS và EAISI.",
+          "url": "https://research.tue.nl/en/publications/neural-combinatorial-optimization-for-stochastic-flexible-job-sho/",
+          "doi": "10.1609/aaai.v39i25.34870",
+          "summary_vi": "Bổ sung mô-đun attention xử lý các kịch bản ngẫu nhiên để mạng học chính sách lập lịch sản xuất khi thời gian gia công không chắc chắn.",
+          "problem_vi": "Làm sao lập lịch job shop linh hoạt khi thời gian xử lý biến động, với mục tiêu thời gian hoàn thành hoặc rủi ro?",
+          "ai_method_vi": "Neural combinatorial optimization; attention-based scenario processing module; huấn luyện chính sách theo expected makespan hoặc Value-at-Risk.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đọc abstract, tác giả, DOI và trạng thái Published 11/04/2025 trên cổng TU/e; bài AAAI 2025 có phản biện.",
+          "source_urls": [
+            "https://research.tue.nl/en/publications/neural-combinatorial-optimization-for-stochastic-flexible-job-sho/"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "lập lịch sản xuất",
+            "tối ưu tổ hợp"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "AAAI 2025",
+          "authors_complete": true
+        },
+        {
+          "title": "Neural Augmented Kalman Filters for Road Network assisted GNSS positioning",
+          "year": 2025,
+          "type": "workshop_paper",
+          "status": "published_workshop_paper",
+          "authors": [
+            "Hans van Gorp",
+            "Davide Belli",
+            "A. Jalalirad",
+            "Bence Major"
+          ],
+          "attribution": "Cổng TU/e ghi Hans van Gorp và các đơn vị BioMedical Diagnostics, Signal Processing Systems.",
+          "url": "https://research.tue.nl/en/publications/neural-augmented-kalman-filters-for-road-network-assisted-gnss-po/",
+          "doi": null,
+          "summary_vi": "Mạng đồ thị theo thời gian dự đoán đoạn đường và độ bất định, rồi đưa kết quả vào bộ lọc Kalman để cải thiện định vị GNSS trong đô thị.",
+          "problem_vi": "Làm sao giảm sai số GNSS do đa đường và che khuất bằng cách tận dụng mạng đường?",
+          "ai_method_vi": "Temporal Graph Neural Network kết hợp bước cập nhật đo của Kalman Filter.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Cổng chính thức ghi bài workshop ML4Wireless thuộc ICML 2025 ngày 18/07/2025. Không gọi đây là bài main-track ICML; chưa thấy DOI trên hồ sơ.",
+          "source_urls": [
+            "https://icml.cc/virtual/2025/47044",
+            "https://research.tue.nl/en/publications/neural-augmented-kalman-filters-for-road-network-assisted-gnss-po/"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "định vị GNSS",
+            "giao thông",
+            "hợp nhất cảm biến"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "RWTH Aachen",
+      "name": "RWTH Aachen University",
+      "domain": "rwth-aachen.de",
+      "ai_portals": [
+        {
+          "url": "https://publications.rwth-aachen.de/",
+          "title": "RWTH Publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "Exploring data augmentation: Multi-task methods for molecular property prediction",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Muhammad bin Javaid",
+            "Timo Gervens",
+            "Alexander Mitsos",
+            "Martin Grohe",
+            "Jan G. Rittig"
+          ],
+          "attribution": "Trang đầu PDF ghi Lehrstuhl Informatik 7 và Process Systems Engineering, RWTH Aachen cho các tác giả; hồ sơ RWTH đánh dấu liên kết tác giả nội bộ.",
+          "url": "https://publications.rwth-aachen.de/record/1014359",
+          "doi": "10.1016/j.compchemeng.2025.109253",
+          "summary_vi": "Phân tích khi nào dữ liệu phụ trợ thưa hoặc chỉ liên quan yếu giúp mô hình học đa nhiệm dự đoán tính chất phân tử; kiểm chứng với QM9 và dữ liệu tính chất bắt cháy nhiên liệu.",
+          "problem_vi": "Làm sao cải thiện dự đoán phân tử khi dữ liệu thí nghiệm ít và nhiều thuộc tính bị thiếu?",
+          "ai_method_vi": "Mạng nơ-ron đồ thị, học đa nhiệm và bổ sung dữ liệu thuộc tính phụ trợ.",
+          "reading_depth": "abstract_and_first_page_affiliations",
+          "verification_note": "Đã đọc trang đầu PDF gồm abstract, tác giả, affiliation, DOI và ngày online 02/07/2025; hồ sơ ghi peer reviewed article. Chưa đọc toàn bộ 12 trang.",
+          "source_urls": [
+            "https://publications.rwth-aachen.de/record/1014359/files/1014359.pdf",
+            "https://publications.rwth-aachen.de/record/1014359"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "tính chất phân tử",
+            "thiết kế nhiên liệu",
+            "hóa kỹ thuật"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Computers & Chemical Engineering",
+          "authors_complete": true
+        },
+        {
+          "title": "Explainable neural network for time series-based condition monitoring in sheet metal shearing",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Marco Becker",
+            "Philipp Niemietz",
+            "Thomas Bergs"
+          ],
+          "attribution": "Trang đầu PDF ghi Manufacturing Technology Institute, RWTH Aachen cho cả ba tác giả.",
+          "url": "https://publications.rwth-aachen.de/record/1009539",
+          "doi": "10.1007/s10845-025-02596-3",
+          "summary_vi": "Học biểu diễn nhân quả từ tín hiệu lực đột để tách ảnh hưởng của mài mòn dụng cụ và sai lệch đo; kết hợp với mạng dự đoán mòn nhằm giải thích và kiểm tra độ tin cậy.",
+          "problem_vi": "Làm sao biết mạng dự đoán mòn dụng cụ dựa trên dấu hiệu vật lý thật hay sai lệch trong phép đo?",
+          "ai_method_vi": "Variational autoencoder cho causal representation learning, mô hình biến ẩn và mạng dự đoán độ mòn.",
+          "reading_depth": "abstract_and_first_page_affiliations",
+          "verification_note": "Đã đọc abstract và affiliation trang đầu. Online 28/03/2025; hồ sơ hiện gán tập 37(3), 2026, nên year dùng năm online 2025 và ghi rõ năm số báo 2026.",
+          "source_urls": [
+            "https://publications.rwth-aachen.de/record/1009539/files/1009539.pdf",
+            "https://publications.rwth-aachen.de/record/1009539"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "gia công kim loại",
+            "bảo trì dự đoán",
+            "AI có thể giải thích"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Journal of Intelligent Manufacturing",
+          "alternative_years": [
+            2026
+          ],
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "TUM",
+      "name": "Technical University of Munich",
+      "domain": "tum.de",
+      "ai_portals": [
+        {
+          "url": "https://mediatum.ub.tum.de/",
+          "title": "mediaTUM – TUM publication repository"
+        }
+      ],
+      "items": [
+        {
+          "title": "Zono-Conformal Prediction: Zonotope-Based Uncertainty Quantification for Regression and Classification Tasks",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://mediatum.ub.tum.de/doc/1793700/kz2rmzi7ls47ch7vdmshwjxd0.25-1161_published.pdf",
+          "doi": null,
+          "summary_vi": "Biểu diễn tập dự đoán bằng zonotope để lượng hóa độ bất định cho hồi quy và phân loại, với bảo đảm xác suất bao phủ; phương pháp xét cả quan hệ giữa các đầu ra nhiều chiều.",
+          "verification_note": "Trang đầu bản toàn văn ghi Journal of Machine Learning Research 26 (2025), Published 11/25; tác giả có School of Computation, Information and Technology, TUM và Munich Center for Machine Learning. Không thấy DOI trong phần metadata đã đọc.",
+          "status": "published",
+          "authors": [
+            "Laura Lützow",
+            "Michael Eichelbeck",
+            "Mykel J. Kochenderfer",
+            "Matthias Althoff"
+          ],
+          "attribution": "Trang đầu bản toàn văn ghi Journal of Machine Learning Research 26 (2025), Published 11/25; tác giả có School of Computation, Information and Technology, TUM và Munich Center for Machine Learning. Không thấy DOI trong phần metadata đã đọc.",
+          "problem_vi": "Làm sao tạo tập dự đoán có độ bao phủ thống kê, kể cả đầu ra nhiều chiều có phụ thuộc?",
+          "ai_method_vi": "Dự đoán conformal với biểu diễn zonotope để định lượng độ bất định cho hồi quy và phân loại.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://mediatum.ub.tum.de/doc/1793700/kz2rmzi7ls47ch7vdmshwjxd0.25-1161_published.pdf",
+            "https://jmlr.org/papers/v26/25-1161.html"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "độ tin cậy mô hình",
+            "hồi quy và phân loại"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Journal of Machine Learning Research 26 (2025)",
+          "authors_complete": true,
+          "author_metadata_source_url": "https://jmlr.org/papers/v26/25-1161.html"
+        },
+        {
+          "title": "Machine Learning Driven Materials Design from the Perspective of Charge Transport",
+          "year": 2025,
+          "type": "doctoral_thesis",
+          "url": "https://mediatum.ub.tum.de/1785191",
+          "doi": null,
+          "summary_vi": "Dùng học máy dự đoán đặc tính vận chuyển điện tích trong khung hữu cơ cộng hóa trị và perovskite lai, đồng thời phân tích đặc trưng cấu trúc để hỗ trợ tối ưu vật liệu.",
+          "verification_note": "mediaTUM ghi Dissertation của Yuxuan Yao, TUM School of Natural Sciences, Professur für Theoretische Chemie; công bố 25/09/2025. Đây là luận án tiến sĩ, không phải bài báo tạp chí.",
+          "status": "thesis_published",
+          "authors": [
+            "Yuxuan Yao"
+          ],
+          "attribution": "Trang bìa luận án ghi Yuxuan Yao, TUM School of Natural Sciences, Technische Universität München; nộp 07/07/2025 và được chấp thuận 19/08/2025.",
+          "problem_vi": "Làm sao học quan hệ giữa cấu trúc và vận chuyển điện tích để hỗ trợ thiết kế vật liệu?",
+          "ai_method_vi": "Học máy dự đoán vận chuyển điện tích và phân tích đặc trưng cấu trúc có thể giải thích.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://mediatum.ub.tum.de/1785191",
+            "https://mediatum.ub.tum.de/doc/1785191/1785191.pdf"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "thiết kế vật liệu",
+            "vật liệu dẫn điện",
+            "perovskite"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "TUM School of Natural Sciences",
+          "authors_complete": true,
+          "author_metadata_source_url": "https://mediatum.ub.tum.de/doc/1785191/1785191.pdf"
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "TU Berlin",
+      "name": "Technische Universität Berlin",
+      "domain": "tu.berlin",
+      "ai_portals": [
+        {
+          "url": "https://depositonce.tu-berlin.de/",
+          "title": "DepositOnce – TU Berlin"
+        },
+        {
+          "url": "https://ml.tu-berlin.de/publication/",
+          "title": "TU Berlin Machine Learning publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments",
+          "year": 2025,
+          "type": "doctoral_thesis",
+          "url": "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+          "doi": "10.14279/depositonce-24638",
+          "summary_vi": "Đề xuất lập kế hoạch chuyển động bằng học tăng cường sâu cho robot công nghiệp trong môi trường hợp tác; dùng thông tin khoảng cách để giảm khối lượng dữ liệu và chuyển mô hình từ mô phỏng sang robot thật.",
+          "verification_note": "DepositOnce ghi Doctoral Thesis của Teham Bhuiyan, năm 2025, Inst. Telekommunikationssysteme. DOI là DOI luận án trong kho, không phải DOI bài báo.",
+          "status": "thesis_published",
+          "authors": [
+            "Teham Bhuiyan"
+          ],
+          "attribution": "DepositOnce ghi Doctoral Thesis của Teham Bhuiyan, năm 2025, Inst. Telekommunikationssysteme. DOI là DOI luận án trong kho, không phải DOI bài báo.",
+          "problem_vi": "Làm sao robot công nghiệp lập quỹ đạo khi môi trường thay đổi và chuyển chính sách từ mô phỏng sang thực tế?",
+          "ai_method_vi": "Học tăng cường sâu dùng thông tin khoảng cách và camera chiều sâu cho lập kế hoạch chuyển động.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+            "https://api.datacite.org/dois/10.14279/depositonce-24638"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "robot công nghiệp",
+            "môi trường cộng tác"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "TU Berlin doctoral thesis",
+          "authors_complete": true,
+          "author_metadata_source_url": "https://api.datacite.org/dois/10.14279/depositonce-24638"
+        },
+        {
+          "title": "Neural Proxies for Sound Synthesizers: Learning Perceptually Informed Preset Representations",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Paolo Combes",
+            "Stefan Weinzierl",
+            "Klaus Obermayer"
+          ],
+          "attribution": "Tin công bố và trang cá nhân Paolo Combes trên TU Berlin liên kết công trình; tác giả gồm Combes, Weinzierl và Obermayer.",
+          "url": "https://aes.org/publications/elibrary-page/?id=22956",
+          "doi": "10.17743/jaes.2022.0219",
+          "summary_vi": "Huấn luyện mạng ánh xạ tham số bộ tổng hợp âm thanh sang embedding âm thanh từ mô hình tiền huấn luyện, tạo mô hình thay thế khả vi cho các bộ tổng hợp hộp đen.",
+          "problem_vi": "Làm sao đưa bộ tổng hợp âm thanh không khả vi vào quá trình huấn luyện mạng tự động tìm tham số âm sắc?",
+          "ai_method_vi": "Neural surrogate/proxy và audio embeddings từ mô hình tiền huấn luyện; hàm mất mát theo biểu diễn cảm nhận.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Publisher AES xác nhận Journal Article, tập 73(9), 561–577, năm 2025. Chuỗi DOI chứa 2022 nhưng không dùng phần đó để suy ra năm xuất bản. Đọc abstract và mô tả nghiên cứu chính thức, không truy cập toàn văn trả phí.",
+          "source_urls": [
+            "https://www.tu.berlin/en/ak/news-details/neue-veroeffentlichung-neural-proxies-for-sound-synthesizers",
+            "https://www.tu.berlin/en/ak/about/team/paolo-combes",
+            "https://aes.org/publications/elibrary-page/?id=22956"
+          ],
+          "ai_topic_codes": [
+            "NLP_SPEECH",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "âm thanh và âm nhạc",
+            "tổng hợp âm thanh"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Journal of the Audio Engineering Society",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng. Không đưa SVN-ICP vào tập AI nghiêm ngặt: mô tả hiện có nêu ước lượng xác suất số nhưng chưa chứng minh thành phần học máy."
+    },
+    {
+      "short_name": "KTH",
+      "name": "KTH Royal Institute of Technology",
+      "domain": "kth.se",
+      "ai_portals": [
+        {
+          "url": "https://kth.diva-portal.org/",
+          "title": "KTH DiVA publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "AttentionGuard: Transformer-based Misbehavior Detection for Secure Vehicular Platoons",
+          "year": 2025,
+          "type": "conference_paper",
+          "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301",
+          "doi": "10.1145/3733965.3733966",
+          "summary_vi": "Dùng mô hình Transformer phát hiện dữ liệu chuyển động giả mạo trong đoàn xe kết nối V2X. Đánh giá dựa trên dữ liệu mô phỏng các kiểu tấn công và thao tác đoàn xe.",
+          "verification_note": "Trang tác giả chính thức KTH DiVA cung cấp tiêu đề, DOI, năm, tóm tắt và affiliation KTH EECS cho các tác giả. Trang record trực tiếp có chặn Anubis; không vượt qua chặn.",
+          "status": "published",
+          "authors": [
+            "Hexu Li",
+            "Konstantinos Kalogiannis",
+            "Ahmed Mohamed Hussain",
+            "Panos Papadimitratos"
+          ],
+          "attribution": "Trang tác giả chính thức KTH DiVA cung cấp tiêu đề, DOI, năm, tóm tắt và affiliation KTH EECS cho các tác giả. Trang record trực tiếp có chặn Anubis; không vượt qua chặn.",
+          "problem_vi": "Làm sao phát hiện dữ liệu chuyển động giả gây rủi ro cho đoàn xe kết nối?",
+          "ai_method_vi": "Transformer phát hiện hành vi bất thường trong dữ liệu trao đổi của đoàn xe.",
+          "reading_depth": "official_author_portal_abstract_and_metadata",
+          "source_urls": [
+            "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301",
+            "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person:117623",
+            "https://api.crossref.org/works/10.1145/3733965.3733966"
+          ],
+          "ai_topic_codes": [
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "an ninh V2X",
+            "đoàn xe kết nối"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "ACM WISEML 2025",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1145/3733965.3733966",
+          "authors_complete": true
+        },
+        {
+          "title": "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+          "year": 2025,
+          "type": "conference_paper",
+          "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481",
+          "doi": "10.1109/IWCMC65282.2025.11059726",
+          "summary_vi": "Xác thực thiết bị IoT qua dấu vân tay tín hiệu vô tuyến bằng mô hình học sâu gọn nhẹ. Nghiên cứu chuyển mô hình sang TensorFlow Lite và thử nghiệm trên Raspberry Pi.",
+          "verification_note": "Trang tác giả KTH DiVA ghi conference paper phản biện tại IWCMC 2025, tác giả Ahmed Mohamed Hussain và Panos Papadimitratos thuộc KTH EECS. Trang record trực tiếp có chặn Anubis; DOI và nội dung đối chiếu từ trang tác giả.",
+          "status": "published",
+          "authors": [
+            "Ahmed Hussain",
+            "Nada Abughanam",
+            "Panos Papadimitratos"
+          ],
+          "attribution": "Trang tác giả KTH DiVA ghi conference paper phản biện tại IWCMC 2025, tác giả Ahmed Mohamed Hussain và Panos Papadimitratos thuộc KTH EECS. Trang record trực tiếp có chặn Anubis; DOI và nội dung đối chiếu từ trang tác giả.",
+          "problem_vi": "Làm sao xác thực thiết bị IoT từ tín hiệu vô tuyến trên phần cứng biên hạn chế?",
+          "ai_method_vi": "Học sâu trên mẫu tín hiệu I/Q để nhận dạng dấu vân tay RF; triển khai gọn bằng TensorFlow Lite trên Raspberry Pi.",
+          "reading_depth": "official_author_portal_abstract_and_metadata",
+          "source_urls": [
+            "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481",
+            "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person:117623",
+            "https://api.crossref.org/works/10.1109/IWCMC65282.2025.11059726"
+          ],
+          "ai_topic_codes": [
+            "EDGE_SYSTEMS",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "IoT",
+            "xác thực vô tuyến"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "2025 International Wireless Communications and Mobile Computing",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1109/IWCMC65282.2025.11059726",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "Chalmers",
+      "name": "Chalmers University of Technology",
+      "domain": "chalmers.se",
+      "ai_portals": [
+        {
+          "url": "https://research.chalmers.se/",
+          "title": "Chalmers Research"
+        }
+      ],
+      "items": [
+        {
+          "title": "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://research.chalmers.se/en/publication/543531",
+          "doi": "10.1016/j.ensm.2024.103877",
+          "summary_vi": "Ước lượng nguy cơ mạ lithium bằng học máy để điều khiển sạc pin nhanh hơn nhưng vẫn chú ý tuổi thọ; phương pháp sử dụng dữ liệu pin có thể thu được trên xe điện.",
+          "verification_note": "Chalmers Research ghi Journal article, 2025; Yizhou Zhang, Torsten Wik, Changfu Zou thuộc Electrical Engineering, Systems and Control. DOI chứa 2024 nhưng năm số tạp chí ghi 2025.",
+          "status": "published",
+          "authors": [
+            "Yizhou Zhang",
+            "Torsten Wik",
+            "John Bergström",
+            "Changfu Zou"
+          ],
+          "attribution": "Cổng Chalmers ghi Yizhou Zhang, Torsten Wik và Changfu Zou thuộc Electrical Engineering, Systems and Control; John Bergström thuộc Zeekr Technology EU.",
+          "problem_vi": "Làm sao sạc pin nhanh mà vẫn tránh mạ lithium khi pin già hóa?",
+          "ai_method_vi": "Học máy ước lượng điện thế liên quan đến mạ lithium từ dữ liệu pin khả dụng để hỗ trợ chiến lược sạc.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://research.chalmers.se/en/publication/543531"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "pin lithium-ion",
+            "sạc nhanh",
+            "xe điện"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Energy Storage Materials 74, 103877",
+          "authors_complete": true,
+          "author_metadata_source_url": "https://research.chalmers.se/en/publication/543531"
+        },
+        {
+          "title": "Smart sensing breaks the accuracy barrier in battery state monitoring",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://research.chalmers.se/en/publication/547452",
+          "doi": "10.1016/j.ensm.2025.104410",
+          "summary_vi": "Kết hợp cảm biến cơ học, nhiệt, khí, quang và điện với học máy có khả năng giải thích để ước lượng trạng thái sạc pin; nghiên cứu xây dựng ba bộ dữ liệu đa cảm biến.",
+          "verification_note": "Chalmers Research ghi Journal article, 2025; các tác giả Xiaolei Bian, Changfu Zou và Torsten Wik thuộc Electrical Engineering, Systems and Control.",
+          "status": "published",
+          "authors": [
+            "Xiaolei Bian",
+            "Changfu Zou",
+            "Björn Fridholm",
+            "Christian Sundvall",
+            "Torsten Wik"
+          ],
+          "attribution": "Chalmers Research ghi Journal article, 2025; các tác giả Xiaolei Bian, Changfu Zou và Torsten Wik thuộc Electrical Engineering, Systems and Control.",
+          "problem_vi": "Những loại cảm biến nào giúp ước lượng trạng thái pin chính xác hơn dữ liệu điện đơn thuần?",
+          "ai_method_vi": "Hợp nhất dữ liệu cảm biến cơ, nhiệt, khí, quang và điện với học máy có khả năng giải thích.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://research.chalmers.se/en/publication/547452",
+            "https://api.crossref.org/works/10.1016/j.ensm.2025.104410"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "giám sát pin",
+            "cảm biến đa phương thức"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Energy Storage Materials 80, 104410",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1016/j.ensm.2025.104410",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "Aalto",
+      "name": "Aalto University",
+      "domain": "aalto.fi",
+      "ai_portals": [
+        {
+          "url": "https://research.aalto.fi/",
+          "title": "Aalto Research Portal"
+        },
+        {
+          "url": "https://quml.aalto.fi/publication/",
+          "title": "Aalto QuML publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "Equivariant Denoisers Cannot Copy Graphs: Align Your Graph Diffusion Models",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Najwa Laabid",
+            "Severi Rissanen",
+            "Markus Heinonen",
+            "Arno Solin",
+            "Vikas Garg"
+          ],
+          "attribution": "Trang công trình của nhóm QuML thuộc Aalto liệt kê đủ tác giả và liên hệ Vikas Garg @aalto.fi.",
+          "url": "https://quml.aalto.fi/publication/diffalign/",
+          "doi": null,
+          "summary_vi": "Chỉ ra giới hạn đối xứng của bộ khử nhiễu đồ thị và căn chỉnh đồ thị đầu vào–đích để cải thiện mô hình khuếch tán cho bài toán suy ngược phản ứng hóa học.",
+          "problem_vi": "Làm sao mô hình khuếch tán chuyển đổi đồ thị khi tính bất biến theo hoán vị khiến nó không thể phân biệt các cấu trúc cần thiết?",
+          "ai_method_vi": "Graph diffusion, permutation-equivariant denoising và căn chỉnh input–target để phá đối xứng phù hợp.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Trang phòng thí nghiệm ghi ICLR và năm 2025, có abstract. Chưa thấy DOI; không thêm DOI arXiv thay cho DOI hội nghị.",
+          "source_urls": [
+            "https://quml.aalto.fi/publication/diffalign/"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "retrosynthesis",
+            "thiết kế phân tử"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "ICLR 2025",
+          "authors_complete": true
+        },
+        {
+          "title": "Reinforcement learning with non-ergodic reward increments: robustness via ergodicity transformations",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Dominik Baumann",
+            "Erfaun Noorani",
+            "James Price",
+            "Ole Peters",
+            "Colm Connaughton",
+            "Thomas B. Schön"
+          ],
+          "attribution": "Cổng Aalto liệt kê Dominik Baumann, Department of Electrical Engineering and Automation và nhóm Cyber-physical Systems; các tác giả khác có liên kết tổ chức riêng.",
+          "url": "https://research.aalto.fi/en/publications/reinforcement-learning-with-non-ergodic-reward-increments-robustn/",
+          "doi": null,
+          "summary_vi": "Đề xuất biến đổi học từ dữ liệu để tác tử tối ưu hiệu quả dài hạn của từng quỹ đạo, thay vì chỉ kỳ vọng lợi ích; đánh giá trong môi trường có phân phối đuôi nặng và benchmark RL.",
+          "problem_vi": "Làm sao học chính sách bền vững khi tối ưu lợi ích kỳ vọng không phản ánh kết quả dài hạn của một tác tử?",
+          "ai_method_vi": "Reinforcement learning với ergodicity transformation học từ dữ liệu và mục tiêu tăng trưởng theo thời gian.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Hồ sơ ghi Published 11/01/2025, TMLR, journal article-refereed; đọc abstract và metadata. Không đồng nhất tất cả tác giả với Aalto.",
+          "source_urls": [
+            "https://openreview.net/pdf?id=eakh1Edffd",
+            "https://research.aalto.fi/en/publications/reinforcement-learning-with-non-ergodic-reward-increments-robustn/"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "ROBOTICS_RL"
+          ],
+          "application_domains": [
+            "lý thuyết học tăng cường",
+            "quyết định dưới bất định"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Transactions on Machine Learning Research",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "Politecnico di Milano",
+      "name": "Politecnico di Milano",
+      "domain": "polimi.it",
+      "ai_portals": [
+        {
+          "url": "https://re.public.polimi.it/",
+          "title": "RE.PUBLIC@POLIMI"
+        }
+      ],
+      "items": [
+        {
+          "title": "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Matteo Tomasetto",
+            "Francesco Braghin",
+            "Andrea Manzoni"
+          ],
+          "attribution": "Kho RE.PUBLIC@POLIMI ghi công trình của Tomasetto, Braghin và Manzoni với liên kết tác giả nội bộ.",
+          "url": "https://re.public.polimi.it/handle/11311/1290369",
+          "doi": "10.1016/j.cma.2025.118030",
+          "summary_vi": "Nén trạng thái và điều khiển hệ phân bố nhiều chiều vào không gian ẩn để tính điều khiển vòng kín thời gian thực, kể cả khi không có đầy đủ phép đo trạng thái.",
+          "problem_vi": "Làm sao tránh mô phỏng phương trình vi phân tốn kém mỗi lần cần cập nhật điều khiển cho một kịch bản mới?",
+          "ai_method_vi": "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật.",
+          "source_urls": [
+            "https://www.sciencedirect.com/science/article/pii/S0045782525003020",
+            "https://re.public.polimi.it/handle/11311/1290369"
+          ],
+          "ai_topic_codes": [
+            "SCIENTIFIC_INDUSTRIAL_AI"
+          ],
+          "application_domains": [
+            "điều khiển hệ phân bố",
+            "mô phỏng chất lưu",
+            "mô hình giảm bậc"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Computer Methods in Applied Mechanics and Engineering",
+          "authors_complete": true
+        },
+        {
+          "title": "A neural-network approach for predicting time to cardiovascular diseases in HIV patients based on real-world data",
+          "year": 2025,
+          "type": "journal_article",
+          "status": "published",
+          "authors": [
+            "Agostino Lurani Cernuschi",
+            "Chiara Masci",
+            "Federica Corso",
+            "Camilla Muccini",
+            "Daniele Ceccarelli",
+            "Laura Galli",
+            "Francesca Ieva",
+            "Antonella Castagna",
+            "Anna Maria Paganoni"
+          ],
+          "attribution": "Publisher ghi MOX – Department of Mathematics, Politecnico di Milano cho Agostino Lurani Cernuschi, Chiara Masci, Federica Corso, Francesca Ieva và Anna Maria Paganoni; các đồng tác giả còn lại có affiliation riêng.",
+          "url": "https://link.springer.com/article/10.1007/s12351-025-00972-8",
+          "doi": "10.1007/s12351-025-00972-8",
+          "summary_vi": "Sử dụng mạng nơ-ron phân tích sống còn để dự đoán thời điểm biến cố tim mạch ở người sống với HIV, đưa vào các yếu tố thay đổi theo thời gian và so sánh với phương pháp thống kê cổ điển.",
+          "problem_vi": "Làm sao dự báo thời gian xuất hiện bệnh tim mạch khi các yếu tố nguy cơ thay đổi và giả định tuyến tính, nguy cơ tỷ lệ không phù hợp?",
+          "ai_method_vi": "Neural survival analysis và mô hình DeepHit/Dynamic DeepHit cho dữ liệu có biến theo thời gian.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "Publisher ghi Original Paper, Published 24/09/2025 và DOI; đã đọc abstract, chú thích phương pháp và metadata. Toàn văn publisher cần thuê bao, PDF kho trả 403 khi mở; không tuyên bố đọc toàn bài hoặc kiểm chứng lâm sàng độc lập.",
+          "source_urls": [
+            "https://re.public.polimi.it/retrieve/c8837952-31c6-4d18-b70d-0d3a7a9ba49e/OR_2025.pdf",
+            "https://re.public.polimi.it/browse?authority=rp08590&order=DESC&rpp=50&sort_by=2&type=author",
+            "https://link.springer.com/article/10.1007/s12351-025-00972-8"
+          ],
+          "ai_topic_codes": [
+            "HEALTH_BIOAI",
+            "FORECAST_RECOMMEND"
+          ],
+          "application_domains": [
+            "dự báo nguy cơ lâm sàng",
+            "dữ liệu y tế"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "Operational Research",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "Politecnico di Torino",
+      "name": "Politecnico di Torino",
+      "domain": "polito.it",
+      "ai_portals": [
+        {
+          "url": "https://iris.polito.it/",
+          "title": "PORTO – Politecnico di Torino institutional repository"
+        }
+      ],
+      "items": [
+        {
+          "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+          "year": 2025,
+          "type": "journal_article",
+          "url": "https://iris.polito.it/handle/11583/3005921",
+          "doi": "10.1016/j.robot.2025.104992",
+          "summary_vi": "Kết hợp ràng buộc sai số bám với học tăng cường actor–critic để điều khiển robot phẫu thuật dạng liên tục. Nguồn mô tả đánh giá bằng mô phỏng robot hai đoạn, chưa phải thử nghiệm điều trị trên người.",
+          "verification_note": "PORTO ghi Articolo in rivista, năm 2025; tác giả Jabari, Botta, Tagliavini, Visconte, Quaglia. Tóm tắt chỉ khẳng định kết quả mô phỏng. Kết quả được mô tả dựa trên mô phỏng; không suy ra đã kiểm chứng lâm sàng.",
+          "status": "published",
+          "authors": [
+            "Mohammad Jabari",
+            "Andrea Botta",
+            "Luigi Tagliavini",
+            "Carmen Visconte",
+            "Giuseppe Quaglia"
+          ],
+          "attribution": "PORTO ghi Articolo in rivista, năm 2025; tác giả Jabari, Botta, Tagliavini, Visconte, Quaglia. Tóm tắt chỉ khẳng định kết quả mô phỏng.",
+          "problem_vi": "Làm sao robot liên tục bám quỹ đạo chính xác, giữ sai số trong giới hạn và hội tụ theo thời gian đặt trước?",
+          "ai_method_vi": "Học tăng cường actor–critic cho điều khiển tối ưu, kết hợp biên ống đơn điệu và điều khiển theo thời gian quy định.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "source_urls": [
+            "https://iris.polito.it/handle/11583/3005921",
+            "https://api.crossref.org/works/10.1016/j.robot.2025.104992"
+          ],
+          "ai_topic_codes": [
+            "ROBOTICS_RL",
+            "HEALTH_BIOAI"
+          ],
+          "application_domains": [
+            "robot phẫu thuật",
+            "điều khiển an toàn"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "retained_previous_source_review",
+          "full_text_read": false,
+          "venue": "Robotics and Autonomous Systems 190, 104992",
+          "author_metadata_source_url": "https://api.crossref.org/works/10.1016/j.robot.2025.104992",
+          "authors_complete": true
+        },
+        {
+          "title": "It is not a piece of cake for GPT: Explaining Textual Entailment Recognition in the presence of Figurative Language",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Giuseppe Gallipoli",
+            "Luca Cagliero"
+          ],
+          "attribution": "PDF công bố ghi Giuseppe Gallipoli và Luca Cagliero, Politecnico di Torino, email @polito.it; kho IRIS có bản chính thức.",
+          "url": "https://aclanthology.org/2025.coling-main.646/",
+          "doi": null,
+          "summary_vi": "Đánh giá LLM nhận diện suy diễn, mâu thuẫn và giải thích câu có ẩn dụ hoặc thành ngữ; so sánh prompting zero/few-shot, chain-of-thought và fine-tuning.",
+          "problem_vi": "Làm sao mô hình hiểu nghĩa bóng và tạo lời giải thích đúng, thay vì chỉ dựa vào nghĩa đen của câu?",
+          "ai_method_vi": "In-context learning, chain-of-thought prompting và fine-tuning LLM cho textual entailment kèm giải thích.",
+          "reading_depth": "abstract_and_first_page_affiliations",
+          "verification_note": "ACL Anthology xác nhận COLING 2025, trang 9656–9674, tác giả và abstract; trường DOI để trống trên hồ sơ nên giữ null. Đã đọc abstract và trang đầu PDF.",
+          "source_urls": [
+            "https://iris.polito.it/handle/11583/2996043",
+            "https://iris.polito.it/retrieve/handle/11583/2996043/1867b608-cb76-4ce7-b34c-4c118b49a105/2025.coling-main.646.pdf",
+            "https://aclanthology.org/2025.coling-main.646/"
+          ],
+          "ai_topic_codes": [
+            "NLP_SPEECH",
+            "LLM_RAG_AGENTS"
+          ],
+          "application_domains": [
+            "hiểu ngôn ngữ tự nhiên",
+            "nghĩa bóng và thành ngữ"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "COLING 2025",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    },
+    {
+      "short_name": "TU Wien",
+      "name": "TU Wien",
+      "domain": "tuwien.at",
+      "ai_portals": [
+        {
+          "url": "https://informatics.tuwien.ac.at/",
+          "title": "TU Wien Informatics"
+        },
+        {
+          "url": "https://repositum.tuwien.at/",
+          "title": "reposiTUm"
+        }
+      ],
+      "items": [
+        {
+          "title": "Exact Upper and Lower Bounds for the Output Distribution of Neural Networks with Random Inputs",
+          "year": 2025,
+          "type": "conference_paper",
+          "status": "published",
+          "authors": [
+            "Andrey Kofnov",
+            "Daniel Kapla",
+            "Ezio Bartocci",
+            "Efstathia Bura"
+          ],
+          "attribution": "ReposiTUm ghi tác giả cùng các đơn vị TU Wien Cyber-Physical Systems, Applied Statistics và SecInt; PDF ghi affiliation TU Wien.",
+          "url": "https://proceedings.mlr.press/v267/kofnov25a.html",
+          "doi": null,
+          "summary_vi": "Xây dựng cận trên và dưới có bảo đảm cho phân phối đầu ra mạng nơ-ron khi đầu vào ngẫu nhiên; dùng các mạng ReLU làm công cụ chặn mạng tổng quát.",
+          "problem_vi": "Làm sao định lượng chắc chắn độ bất định đầu ra của mạng khi cảm biến hoặc dữ liệu đầu vào có nhiễu?",
+          "ai_method_vi": "Phân hoạch miền đầu vào, chặn mạng tổng quát bằng mạng ReLU và tính cận cho hàm phân phối tích lũy đầu ra.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note": "PMLR xác nhận bài ICML 2025 đã xuất bản, tập 267, trang 31133–31157; không chỉ dựa vào tin accepted trước hội nghị. Trang trường nêu giới hạn hiện tại ở mạng nhỏ, chưa áp dụng quy mô LLM.",
+          "source_urls": [
+            "https://repositum.tuwien.at/handle/20.500.12708/219936",
+            "https://www.tuwien.at/en/all-news/news/tu-wien-macht-unsicherheit-in-kuenstlicher-intelligenz-berechenbar",
+            "https://proceedings.mlr.press/v267/kofnov25a.html"
+          ],
+          "ai_topic_codes": [
+            "ML_FOUNDATIONS",
+            "SECURITY_TRUST_PRIVACY"
+          ],
+          "application_domains": [
+            "độ tin cậy AI",
+            "kiểm chứng mạng nơ-ron"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "ICML 2025",
+          "authors_complete": true
+        },
+        {
+          "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+          "year": 2026,
+          "type": "workshop_paper",
+          "status": "presented_workshop_paper",
+          "authors": [
+            "Paulius Skaisgiris",
+            "Max Heisinger",
+            "Mykyta Ielanskyi",
+            "Erich Kobler",
+            "Thomas Pammer",
+            "Veronika Semmelrock"
+          ],
+          "attribution": "Tin chính thức TU Wien Informatics xác nhận tác giả Paulius Skaisgiris là nghiên cứu sinh của trường và nêu rõ liên kết tổ chức khác của các đồng tác giả.",
+          "url": "https://openreview.net/pdf?id=Bmokm1COHQ",
+          "doi": null,
+          "summary_vi": "Kết hợp LLM phân tích câu đố logic viết bằng ngôn ngữ tự nhiên với bộ giải Exact Cover; mô hình chuyển các ràng buộc trích xuất thành lời gọi công cụ có cấu trúc.",
+          "problem_vi": "Làm sao tận dụng khả năng hiểu văn bản của LLM mà giữ tính nhất quán logic của bộ giải ký hiệu?",
+          "ai_method_vi": "Neuro-symbolic AI: LLM semantic parsing, structured tool calls và deterministic Exact Cover solver.",
+          "reading_depth": "official_university_reproduced_abstract_and_metadata",
+          "verification_note": "Trang trường ngày 21/05/2026 dẫn bài và abstract, xác nhận trình bày tại workshop Logical Reasoning of Large Language Models thuộc ICLR 2026. Không gán main-track ICLR. OpenReview yêu cầu xác minh trình duyệt, nên phần nội dung dựa trên abstract trường đăng.",
+          "source_urls": [
+            "https://informatics.tuwien.ac.at/news/3170",
+            "https://openreview.net/pdf?id=Bmokm1COHQ"
+          ],
+          "ai_topic_codes": [
+            "LLM_RAG_AGENTS",
+            "NLP_SPEECH",
+            "ML_FOUNDATIONS"
+          ],
+          "application_domains": [
+            "suy luận logic",
+            "giải ràng buộc"
+          ],
+          "checked_on": "2026-10-30",
+          "evidence_origin": "new_targeted_primary_source_search",
+          "full_text_read": false,
+          "venue": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+          "authors_complete": true
+        }
+      ],
+      "search_note_vi": "Hai công trình AI minh họa trong giai đoạn 2024–2026, lựa chọn theo bằng chứng truy cập được; không phải xếp hạng hay danh mục đầy đủ của trường. Đã loại công trình không có phương pháp AI rõ ràng."
+    }
+  ]
+}

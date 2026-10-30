@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "date": "2026-10-30",
+  "unique_works": 122,
+  "technology_families_retained": 5,
+  "supporting_works": 14,
+  "direct_triple_group_works": 3,
+  "scope_schools": 41,
+  "school_group_search_records": 123,
+  "group_counts": {
+    "G3": 40,
+    "G5": 44,
+    "G7": 58
+  },
+  "bibliographic_leads": 39,
+  "file_formats_checked": [
+    "JSON",
+    "CSV",
+    "XLSX",
+    "DOCX",
+    "ZIP"
+  ]
+}

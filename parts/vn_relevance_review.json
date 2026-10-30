@@ -1,0 +1,49 @@
+{
+  "keep": [
+    "AN EXPLAINABLE DEEP LEARNING MODEL FOR ALZHEIMER’S DIAGNOSIS",
+    "BLOOD CELL DETECTION AND CLASSIFICATION USING FASTER R-CNN, RETINANET, AND YOLOv12",
+    "ANALYSIS OF BRAKING DYNAMICS AND THERMAL CHARACTERISTICS IN PASSENGER CARS BASED ON A BIDIRECTIONAL INTERACTION MODEL",
+    "Convolutional neural network for determining the flow field around an airfoil and blunt-based models",
+    "Research on sustainable aspects in wire arc additive manufacturing of nickel-based alloy components",
+    "Phát triển giao thức tính toán bảo mật và ứng dụng cho hệ tư vấn người dùng có đảm bảo tính riêng tư",
+    "Nghiên cứu xây dựng công cụ kiểm tra an toàn cho mã nguồn sinh bởi LLM",
+    "Tính chất cơ - lý của vữa rót giữ nước sử dụng phụ phẩm công nghiệp cho mặt đường bán mềm",
+    "Nghiên cứu ứng dụng điện toán đám mây và công nghệ Internet vạn vật (IoT) trong quan trắc dao động thời gian thực công trình cầu dây văng ở Việt Nam",
+    "Nghiên cứu chế tạo sơn lót bảo vệ chống ăn mòn thép CT3 trên cơ sở nhựa epoxy và chất ức chế hạt nano SiO2 biến tính 3,5 - dinitrobenzoic axit",
+    "Enhancing MITM Attack Detection Mechanism for ICS using LSTM-based Hybrid Ensemble Learning",
+    "Towards efficient context-aware classification with compact VLM architectures: indoor fire case study",
+    "Nghiên cứu ứng dụng AI và Machine Learning trong cá nhân hóa trải nghiệm học tập tại Đại học FPT",
+    "Nghiên cứu phát triển mô hình Transformer sử dụng WiFi Fingerprinting cho định vị trong nhà",
+    "Nghiên cứu phát triển các giải pháp định vị hiệu quả cho ứng dụng robot di động tự hành (ARM) tích hợp công nghệ Ultrawideband (UWB) trong các nhà máy thông minh",
+    "Thiết kế và mô phỏng vật liệu hai chiều boron-nitride dang hexagon ứng dụng trong linh kiện trở nhớ",
+    "Synthesis of an imine-type nickel complex and investigation of its electrocatalytic activity for H2 evolution",
+    "Design and Development of a Fuzzy-PID Controller with Integrated Wind Estimation for UAV Hexacopter Stabilization",
+    "Vehicle Detection and Tracking in Vietnam’s Complex Urban Traffic",
+    "Improving computational drug repositioning through multi-source disease similarity networks",
+    "Encrypted Traffic Classification Through Deep Domain Adaptation Network With Smooth Characteristic Function",
+    "EnseSmells: Deep ensemble and programming language models for automated code smells detection",
+    "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation",
+    "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+    "Toward Sustainable and Cost-Efficient HPC Systems: A Deep Reinforcement Learning Job Scheduling Approach",
+    "Fine-Tuned Sentence-BERT for HPC Job Outcome Prediction via Textual Feature Embedding",
+    "AI- and GIS-based Flood Warning System for Ho Chi Minh City",
+    "Fusurge: An Accelerated Query-Driven System for Multimodal Information Retrieval",
+    "From Prediction to Understanding: A Robustness and Explainability Study of LLM-Based Vulnerability Detection",
+    "Proposed Data Roaming Network Simulation Environment for 5G Network",
+    "AUTOGENT: Multi-Agent AI Framework for Automated Vulnerability Detection and Security Alerting in Networked Systems",
+    "Toward Smart Greenhouses Machine Learning Models in Environmental Status Forecast",
+    "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+    "Model-based design of a ballbot system controlled by mindstorms EV3",
+    "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+    "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+    "Domain-Oriented GCN Method for Sentiment Analysis",
+    "Nonlinear model predictive control for trajectory tracking and dynamic obstacle avoidance in differential-drive mobile robots"
+  ],
+  "exclude": [
+    {
+      "title": "Đánh giá nhận thức về rủi ro an toàn giao thông trong hoạt động tìm kiếm chỗ đỗ và đỗ xe trên đường tại Hà Nội theo cách tiếp cận đa chiều",
+      "reason_vi": "Khảo sát nhận thức và hành vi về rủi ro đỗ xe trên 485 người; dùng thống kê để mô tả vấn đề quản lý/an toàn giao thông. Tóm tắt không xác lập đóng góp về thuật toán, hệ thống số, cảm biến, thiết bị, vật liệu hoặc phương pháp thiết kế kỹ thuật. Loại theo phạm vi công nghệ chặt chẽ của yêu cầu mới."
+    }
+  ],
+  "uncertain": []
+}

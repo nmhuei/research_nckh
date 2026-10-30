@@ -1,0 +1,21 @@
+{
+  "reviewed_on": "2026-10-30",
+  "file": "parts/ai_vn_core.json",
+  "before_sha256": "afc622676b7354764e3180b24dc250c3bd68d6a88c6e2f12b5f98db521549837",
+  "after_sha256": "5b417eba07b1472654d4622980ee50c4579a336639dc7fd085dd668fd2580ac0",
+  "item_count": 23,
+  "changes_vi": [
+    "PTIT ECG: thay FORECAST_RECOMMEND bằng ML_FOUNDATIONS; bài phân loại rối loạn nhịp, không dự báo.",
+    "Bổ sung ai_methods dạng mảng cho 23 mục từ mô tả phương pháp sẵn có.",
+    "Chuẩn hóa authors vắng thành mảng rỗng kèm ghi chú chưa trích; bổ sung Nguyễn Thanh Trà cho bài nhà kính từ thông tin thư mục hiện có.",
+    "Thay sáu ghi chú quy thuộc chung chung bằng loại chứng cứ cụ thể đã có; không nâng mức xác minh.",
+    "Gắn year_basis cho DWACE để phân biệt năm hội nghị 2025 với năm sách chưa xác minh."
+  ],
+  "confirmed_unchanged_vi": [
+    "HCMUTE phụ tải giữ năm 2026 theo metadata online; không dùng 2025 trong DOI làm năm xuất bản.",
+    "HCMUT HPC scheduling/Sentence-BERT vẫn bibliography_only trong lượt này; root sẽ nâng chứng cứ sau.",
+    "USTH VisualRoBERTa/Pneu-ConViT có metadata affiliation trong ai_work; giữ ghi chú khác biệt phiên bản và không thêm chỉ số kết quả.",
+    "Không thêm lại UET ViLLMEval khi chưa xác nhận affiliation.",
+    "Giữ đủ 23 mục; accepted papers vẫn accepted."
+  ]
+}

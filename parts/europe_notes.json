@@ -1,0 +1,896 @@
+{
+  "retrieved_on": "2026-10-30",
+  "sources": [
+    {
+      "name": "EQAR Database of External Quality Assurance Results (DEQAR), HEI export",
+      "landing_url": "https://www.eqar.eu/qa-results/download-data-sets/",
+      "download_url": "https://backend.deqar.eu/static/daily-csv/deqar-institutions.csv",
+      "last_modified_http": "2026-10-30T13:00:27Z",
+      "license": "Open Data Commons PDDL",
+      "coverage": "Source intends comprehensive tertiary-institution coverage of EHEA, based on ETER/OrgReg plus agency input; source also contains non-European records. This file selects European/EHEA countries including Türkiye, Armenia, Azerbaijan, Georgia, Kazakhstan; excludes unspecified country and closed institutions.",
+      "raw_rows": 9037,
+      "filters_excluded": {
+        "closed": 304,
+        "outside_scope_or_missing_country": 2064,
+        "missing_or_invalid_website": 301,
+        "constituent_no_eter_with_parent": 1131,
+        "duplicate_deqar_id": 32
+      },
+      "limitations": [
+        "DEQAR inclusion is not itself proof of recognised degree-awarding powers or active accreditation.",
+        "URLs inherited from a registry can be stale; no bulk live HTTP/DNS check performed.",
+        "Faculties/campuses with no ETER ID and a parent institution excluded to reduce department duplication. This heuristic can exclude some affiliated providers.",
+        "Missing-country records excluded rather than guessing location from ETER ID.",
+        "XK for Kosovo is user-assigned and not formally ISO2."
+      ]
+    },
+    {
+      "name": "French Ministry: Principaux établissements d’enseignement supérieur",
+      "landing_url": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-principaux-etablissements-enseignement-superieur/",
+      "download_url": "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-principaux-etablissements-enseignement-superieur/exports/json",
+      "raw_rows": 245,
+      "corroborated_rows": 168,
+      "additional_rows": 75,
+      "metadata_modified": "2025-02-26T13:10:40Z",
+      "data_processed": "2026-10-30T04:01:57Z",
+      "license": "Licence Ouverte v2.0 (Etalab)",
+      "limitations": [
+        "Main institutions only, not all French higher education providers.",
+        "Excludes constituent establishments of experimental or formerly experimental public institutions.",
+        "French scope includes overseas territories; country here records national education-system affiliation, not a strict geographic classification."
+      ]
+    }
+  ],
+  "not_ingested": [
+    {
+      "name": "HRK Hochschulkompass",
+      "url": "https://www.hochschulkompass.de/en/higher-education-institutions/downloads.html",
+      "reason": "Public bulk download exists; page limits free use to personal use and requires permission for other reuse. Retained as verification route rather than importing bulk rows."
+    },
+    {
+      "name": "European Higher Education Sector Observatory / former ETER",
+      "url": "https://national-policies.eacea.ec.europa.eu/eheso",
+      "reason": "Former eter-project.com redirects to EHESO. Public benchmarking pages found; DEQAR supplies accessible ETER/OrgReg-derived institution dump, so a separate EHESO institution export was not ingested."
+    }
+  ],
+  "national_verification_index": [
+    {
+      "country": "Austria",
+      "verification_url": "https://www.enic-naric.net/page-Austria",
+      "directory_links": [
+        {
+          "label": "Public universities (English)",
+          "url": "https://www.bmfwf.gv.at/en/science/higher-education-system/universities/list-universities.html"
+        },
+        {
+          "label": "Universitäten (German)",
+          "url": "https://www.bmfwf.gv.at/wissenschaft/hochschulsystem/unis/unis-liste.html"
+        },
+        {
+          "label": "Universities of applied sciences (English)",
+          "url": "https://www.bmfwf.gv.at/en/science/higher-education-system/unis-applied-sciences/list-unis-applied-sciences.html"
+        },
+        {
+          "label": "Fachhochschulen (German)",
+          "url": "https://www.bmfwf.gv.at/wissenschaft/hochschulsystem/fh/fh-liste.html"
+        },
+        {
+          "label": "Private universities (English)",
+          "url": "https://www.bmfwf.gv.at/en/science/higher-education-system/private-higher-education-institutions/list-private-universities.html"
+        },
+        {
+          "label": "Privatuniversitäten (German)",
+          "url": "https://www.bmfwf.gv.at/wissenschaft/hochschulsystem/privatunis/privatunis-liste.html"
+        },
+        {
+          "label": "University colleges of teacher education (English)",
+          "url": "https://www.bmb.gv.at/en/Topics/school/teachers/ucte.html"
+        },
+        {
+          "label": "Pädagogische Hochschulen (German)",
+          "url": "https://www.bmb.gv.at/Themen/schule/fpp/ph/pv_verb.html"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Belgium",
+      "verification_url": "https://www.enic-naric.net/page-Belgium",
+      "directory_links": [],
+      "http_status": 200
+    },
+    {
+      "country": "Bulgaria",
+      "verification_url": "https://www.enic-naric.net/page-Bulgaria",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://neaa.government.bg/en/accredited-higher-education-institutions/higher-institutions"
+        },
+        {
+          "label": "Bulgarian",
+          "url": "https://www.neaa.government.bg/akreditirani-institucii/visshi-uchilischa"
+        },
+        {
+          "label": "English",
+          "url": "https://rvu.nacid.bg/home"
+        },
+        {
+          "label": "Bulgarian",
+          "url": "https://rvu.nacid.bg/home"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Croatia",
+      "verification_url": "https://www.enic-naric.net/page-Croatia",
+      "directory_links": [
+        {
+          "label": "Croatian",
+          "url": "https://hko.srce.hr/usp/index?lang=hr"
+        },
+        {
+          "label": "English",
+          "url": "https://hko.srce.hr/usp/index?lang=en"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Cyprus",
+      "verification_url": "https://www.enic-naric.net/page-Cyprus",
+      "directory_links": [
+        {
+          "label": "Greek",
+          "url": "https://www.highereducation.ac.cy/index.php/el"
+        },
+        {
+          "label": "English",
+          "url": "https://www.highereducation.ac.cy/index.php/en/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Czech Republic",
+      "verification_url": "https://www.enic-naric.net/page-Czech-Republic",
+      "directory_links": [
+        {
+          "label": "https://www.msmt.cz/areas-of-work/tertiary-education/public-higher-education-institutions-websites",
+          "url": "https://www.msmt.cz/areas-of-work/tertiary-education/public-higher-education-institutions-websites"
+        },
+        {
+          "label": "https://regvssp.msmt.cz/registrvssp/csplist.aspx",
+          "url": "https://regvssp.msmt.cz/registrvssp/csplist.aspx"
+        },
+        {
+          "label": "Czech",
+          "url": "http://www.msmt.cz/vzdelavani/vysoke-skolstvi/prehled-vysokych-skol-v-cr-3"
+        },
+        {
+          "label": "English",
+          "url": "http://www.msmt.cz/areas-of-work/tertiary-education/overview-of-higher-education-institutions"
+        },
+        {
+          "label": "English",
+          "url": "https://www.studyin.cz/publications/32-catalogue-of-higher-education-institutions/"
+        },
+        {
+          "label": "English",
+          "url": "http://www.msmt.cz/areas-of-work/tertiary-education/public-higher-education-institutions-websites"
+        },
+        {
+          "label": "English",
+          "url": "http://www.msmt.cz/areas-of-work/tertiary-education/overview-of-private-higher-education-institutions"
+        },
+        {
+          "label": "English",
+          "url": "http://www.msmt.cz/areas-of-work/tertiary-education/state-higher-education-institutions-websites"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Denmark",
+      "verification_url": "https://www.enic-naric.net/page-Denmark",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://ufsn.dk/english/education/the-higher-education-system/hei-list/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Estonia",
+      "verification_url": "https://www.enic-naric.net/page-Estonia",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://harno.ee/en/development-and-qualifications/qualifications/estonian-education-system#higher-education-ins"
+        },
+        {
+          "label": "Estonian",
+          "url": "https://harno.ee/arenguvoimalused-ja-kvalifikatsioonid/valisriigi-kvalifikatsioonide-tunnustamine/eesti#korgkoolid"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Finland",
+      "verification_url": "https://www.enic-naric.net/page-Finland",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "http://minedu.fi/en/universities-of-applied-sciences"
+        },
+        {
+          "label": "Finnish",
+          "url": "http://minedu.fi/ammattikorkeakoulut"
+        },
+        {
+          "label": "Swedish",
+          "url": "http://minedu.fi/sv/yrkeshogskolor"
+        },
+        {
+          "label": "English",
+          "url": "http://minedu.fi/en/universities"
+        },
+        {
+          "label": "Finnish",
+          "url": "http://minedu.fi/yliopistot"
+        },
+        {
+          "label": "Swedish",
+          "url": "http://minedu.fi/sv/universitet"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "France",
+      "verification_url": "https://www.enic-naric.net/page-France",
+      "directory_links": [
+        {
+          "label": "French",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/fr/formations-diplomes-etablissements-50297"
+        },
+        {
+          "label": "French",
+          "url": "https://www.cefdg.fr/fr/ecoles-et-formations-visees"
+        },
+        {
+          "label": "French",
+          "url": "https://www.cti-commission.fr/accreditation"
+        },
+        {
+          "label": "English",
+          "url": "https://www.cti-commission.fr/en/accreditation"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Germany",
+      "verification_url": "https://www.enic-naric.net/page-Germany",
+      "directory_links": [
+        {
+          "label": "German",
+          "url": "http://www.hochschulkompass.de/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.hochschulkompass.de/en/study-in-germany.html"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Greece",
+      "verification_url": "https://www.enic-naric.net/page-Greece",
+      "directory_links": [
+        {
+          "label": "Greek",
+          "url": "https://www.doatap.gr/enhmerosh/idrumata-ellados"
+        },
+        {
+          "label": "English",
+          "url": "https://www.doatap.gr/home_english/hellenic-institutions/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Hungary",
+      "verification_url": "https://www.enic-naric.net/page-Hungary",
+      "directory_links": [
+        {
+          "label": "Hungarian",
+          "url": "https://firgraf.oh.gov.hu/tematikus-lista/magyar-felsooktatasi-intezmenyek/html"
+        },
+        {
+          "label": "English",
+          "url": "https://firgraf.oh.gov.hu/tematikus-lista/hungarian-higher-education-institutions/html"
+        },
+        {
+          "label": "Hungarian",
+          "url": "https://firgraf.oh.gov.hu/tematikus-lista/magyarorszagon-engedellyel-mukodo-kulfoldi-intezmenyek/html"
+        },
+        {
+          "label": "English",
+          "url": "https://firgraf.oh.gov.hu/tematikus-lista/foreign-higher-education-institutions/html"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Iceland",
+      "verification_url": "https://www.enic-naric.net/page-Iceland",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://english.enicnaric.is/universities.html"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Ireland",
+      "verification_url": "https://www.enic-naric.net/page-Ireland",
+      "directory_links": [
+        {
+          "label": "Technological University of Dublin",
+          "url": "https://www.tudublin.ie/"
+        },
+        {
+          "label": "Munster Technological University",
+          "url": "https://www.mtu.ie/"
+        },
+        {
+          "label": "Technological University of the Shannon: Midlands Midwest",
+          "url": "https://www.ait.ie/"
+        },
+        {
+          "label": "Atlantic Technological University",
+          "url": "http://www.atu.ie"
+        },
+        {
+          "label": "South East Technological University",
+          "url": "http://www.setu.ie"
+        },
+        {
+          "label": "www.iadt.ie",
+          "url": "https://iadt.ie/"
+        },
+        {
+          "label": "www.dkit.ie",
+          "url": "https://www.dkit.ie/"
+        },
+        {
+          "label": "www.dit.ie",
+          "url": "https://www.tudublin.ie/"
+        },
+        {
+          "label": "www.ait.ie",
+          "url": "https://www.ait.ie/"
+        },
+        {
+          "label": "www.cit.ie",
+          "url": "https://www.cit.ie/"
+        },
+        {
+          "label": "www.dkit.ie",
+          "url": "https://www.dkit.ie/"
+        },
+        {
+          "label": "www.gmit.ie",
+          "url": "https://www.gmit.ie/"
+        },
+        {
+          "label": "www.itb.ie",
+          "url": "https://www.tudublin.ie/"
+        },
+        {
+          "label": "www.itcarlow.ie",
+          "url": "https://www.itcarlow.ie/"
+        },
+        {
+          "label": "www.itsligo.ie",
+          "url": "https://www.itsligo.ie/"
+        },
+        {
+          "label": "www.it-tallaght.ie",
+          "url": "https://www.tudublin.ie/"
+        },
+        {
+          "label": "www.ittralee.ie",
+          "url": "https://www.ittralee.ie/en/"
+        },
+        {
+          "label": "www.lyit.ie",
+          "url": "https://www.lyit.ie/"
+        },
+        {
+          "label": "www.lit.ie",
+          "url": "https://lit.ie/"
+        },
+        {
+          "label": "TUS | About (lit.ie)",
+          "url": "https://tus.ie/campuses/thurles/"
+        },
+        {
+          "label": "www.wit.ie",
+          "url": "https://www.wit.ie/"
+        },
+        {
+          "label": "www.ipa.ie",
+          "url": "https://www.ipa.ie/"
+        },
+        {
+          "label": "www.milltown-institute.ie",
+          "url": "https://jesuit.ie/education/"
+        },
+        {
+          "label": "www.ncad.ie",
+          "url": "http://www.ncad.ie/"
+        },
+        {
+          "label": "www.rcsi.ie",
+          "url": "https://www.rcsi.com/dublin"
+        },
+        {
+          "label": "Shannon College of Hotel Management - NUI Galway",
+          "url": "https://www.nuigalway.ie/shannoncollege/"
+        },
+        {
+          "label": "www.maynoothunivsersity.ie",
+          "url": "https://www.maynoothuniversity.ie/"
+        },
+        {
+          "label": "www.mie.ie",
+          "url": "https://www.mie.ie/en/"
+        },
+        {
+          "label": "St Angela's College - ATU",
+          "url": "https://www.stangelas.ie/"
+        },
+        {
+          "label": "https://www.dcu.ie/instituteofeducation",
+          "url": "https://www.dcu.ie/instituteofeducation"
+        },
+        {
+          "label": "www.mic.ul.ie",
+          "url": "https://www.mic.ul.ie/"
+        },
+        {
+          "label": "www.materdei.ie",
+          "url": "https://www.dcu.ie/mdcce"
+        },
+        {
+          "label": "www.dias.ie",
+          "url": "https://www.dias.ie/"
+        },
+        {
+          "label": "www.garda.ie",
+          "url": "https://www.garda.ie/en/careers/the-garda-college/"
+        },
+        {
+          "label": "www.military.ie",
+          "url": "https://www.military.ie/en/#1"
+        },
+        {
+          "label": "www.ncirl.ie",
+          "url": "https://www.ncirl.ie/"
+        },
+        {
+          "label": "www.maynoothcollege.ie",
+          "url": "https://maynoothcollege.ie/"
+        },
+        {
+          "label": "www.riam.ie",
+          "url": "https://www.riam.ie/"
+        },
+        {
+          "label": "www.carlowcollege.ie",
+          "url": "https://carlowcollege.ie/"
+        },
+        {
+          "label": "www.kingsinns.ie",
+          "url": "https://www.kingsinns.ie/"
+        },
+        {
+          "label": "www.lawsociety.ie",
+          "url": "https://www.lawsociety.ie/"
+        },
+        {
+          "label": "Irish Register of Qualifications",
+          "url": "https://irq.ie/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Italy",
+      "verification_url": "https://www.enic-naric.net/page-Italy",
+      "directory_links": [
+        {
+          "label": "Italian",
+          "url": "http://www.cimea.it/it/servizi/il-sistema-italiano-di-istruzione-superiore/istituzioni-riconosciute-e-corsi-accreditati.aspx"
+        },
+        {
+          "label": "English",
+          "url": "https://www.cimea.it/EN/pagina-istituzioni-riconosciute-e-corsi-accreditati"
+        },
+        {
+          "label": "Italian, English",
+          "url": "https://www.universitaly.it/cerca-istituzioni"
+        },
+        {
+          "label": "English",
+          "url": "https://www1.eplo.int"
+        },
+        {
+          "label": "English",
+          "url": "https://www.eui.eu/en/home"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Latvia",
+      "verification_url": "https://www.enic-naric.net/page-Latvia",
+      "directory_links": [
+        {
+          "label": "Latvian",
+          "url": "https://eplatforma.aika.lv/index.php?r=site%2Findex"
+        },
+        {
+          "label": "English",
+          "url": "https://eplatforma.aika.lv/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Liechtenstein",
+      "verification_url": "https://www.enic-naric.net/page-Liechtenstein",
+      "directory_links": [
+        {
+          "label": "German",
+          "url": "https://www.llv.li/de/landesverwaltung/schulamt/bildungsbereiche/bildungswesen-schularten/hochschulwesen"
+        },
+        {
+          "label": "English",
+          "url": "https://www.llv.li/en/national-administration/office-of-education/educational-areas/education-schools/higher-education"
+        },
+        {
+          "label": "German",
+          "url": "http://www.uni.li/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.uni.li/en"
+        },
+        {
+          "label": "German",
+          "url": "http://www.ufl.li/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.ufl.li/en/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Lithuania",
+      "verification_url": "https://www.enic-naric.net/page-Lithuania",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://www.aikos.smm.lt/en/StudyProgramm/EducationProviders/SitePages/Home.aspx?ss=b7e7fa9e-6097-4fac-80c2-f13c7040fbe1"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Luxembourg",
+      "verification_url": "https://www.enic-naric.net/page-Luxembourg",
+      "directory_links": [
+        {
+          "label": "French",
+          "url": "https://mesr.gouvernement.lu/fr/demarches/reconnaissance-academique/diplomes-nationaux/liste-des-formations-d-enseignement-superieur-reconnues.html"
+        },
+        {
+          "label": "English",
+          "url": "https://mesr.gouvernement.lu/en/demarches/reconnaissance-academique/diplomes-nationaux/liste-des-formations-d-enseignement-superieur-reconnues.html"
+        },
+        {
+          "label": "German",
+          "url": "https://mesr.gouvernement.lu/de/demarches/reconnaissance-academique/diplomes-nationaux/liste-des-formations-d-enseignement-superieur-reconnues.html"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Malta",
+      "verification_url": "https://www.enic-naric.net/page-Malta",
+      "directory_links": [
+        {
+          "label": "Subsidiary Legislation 327.433 Licensing, Accreditation and Quality Assurance",
+          "url": "https://legislation.mt/eli/sl/607.3/eng"
+        },
+        {
+          "label": "here",
+          "url": "https://mfhea.mt/list-of-licensed-providers-and-accredited-programmes/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Netherlands",
+      "verification_url": "https://www.enic-naric.net/page-Netherlands",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://www.nvao.net/en/decisions/institutions?"
+        },
+        {
+          "label": "Dutch",
+          "url": "https://www.nvao.net/nl/besluiten/instellingen"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Norway",
+      "verification_url": "https://www.enic-naric.net/page-Norway",
+      "directory_links": [
+        {
+          "label": "Norwegian",
+          "url": "https://www.nokut.no/hogare-utdanning/akkrediterte-institusjonar/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.nokut.no/en/higher-education/higher-education-institutions/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Poland",
+      "verification_url": "https://www.enic-naric.net/page-Poland",
+      "directory_links": [
+        {
+          "label": "Polish",
+          "url": "https://radon.nauka.gov.pl/dane/instytucje-systemu-szkolnictwa-wyzszego-i-nauki"
+        },
+        {
+          "label": "Polish",
+          "url": "https://radon.nauka.gov.pl/dane/szkoly-doktorskie"
+        },
+        {
+          "label": "Polish",
+          "url": "https://radon.nauka.gov.pl/dane/studia-prowadzone-na-okreslonym-kierunku"
+        },
+        {
+          "label": "Polish",
+          "url": "https://radon.nauka.gov.pl/dane/filie-instytucji-systemu-szkolnictwa-wyzszego-i-nauki"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Portugal",
+      "verification_url": "https://www.enic-naric.net/page-Portugal",
+      "directory_links": [
+        {
+          "label": "Portuguese",
+          "url": "https://www.dges.gov.pt/pt/pesquisa_cursos_instituicoes?plid=372"
+        },
+        {
+          "label": "English",
+          "url": "https://www.dges.gov.pt/en/pesquisa_cursos_instituicoes"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Romania",
+      "verification_url": "https://www.enic-naric.net/page-Romania",
+      "directory_links": [
+        {
+          "label": "Multilingual",
+          "url": "http://www.edu.ro/institutii-invatamant-superior"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Slovak Republic",
+      "verification_url": "https://www.enic-naric.net/page-Slovak-Republic",
+      "directory_links": [
+        {
+          "label": "Slovak",
+          "url": "http://www.minedu.sk/vysoke-skoly-v-slovenskej-republike/"
+        },
+        {
+          "label": "Slovak",
+          "url": "https://www.portalvs.sk/sk/informacie-o-vysokych-skolach"
+        },
+        {
+          "label": "English",
+          "url": "https://www.portalvs.sk/en/informacie-o-vysokych-skolach"
+        },
+        {
+          "label": "Slovak",
+          "url": "https://www.portalvs.sk/sk/morho"
+        },
+        {
+          "label": "English",
+          "url": "https://www.portalvs.sk/en/morho"
+        },
+        {
+          "label": "Slovak",
+          "url": "https://www.portalvs.sk/sk/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.portalvs.sk/en/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Slovenia",
+      "verification_url": "https://www.enic-naric.net/page-Slovenia",
+      "directory_links": [
+        {
+          "label": "Slovene",
+          "url": "https://portal.nakvis.si/brskalnik-visokosolski-zavodi"
+        },
+        {
+          "label": "English",
+          "url": "https://portal.nakvis.si/brskalnik-visokosolski-zavodi"
+        },
+        {
+          "label": "Slovene",
+          "url": "https://portal.nakvis.si/iskalnik-studijskih-programov"
+        },
+        {
+          "label": "English",
+          "url": "https://portal.nakvis.si/iskalnik-studijskih-programov"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Spain",
+      "verification_url": "https://www.enic-naric.net/page-Spain",
+      "directory_links": [
+        {
+          "label": "Spanish",
+          "url": "https://universidades.sede.gob.es/pagina/index/directorio/Proc_Ruct"
+        },
+        {
+          "label": "Spanish",
+          "url": "https://www.universidades.gob.es/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Sweden",
+      "verification_url": "https://www.enic-naric.net/page-Sweden",
+      "directory_links": [
+        {
+          "label": "UHR list - English",
+          "url": "https://www.uhr.se/en/start/recognition-of-foreign-qualifications/enic-naric-sweden/higher-education-institutions-in-sweden/"
+        },
+        {
+          "label": "UKÄ database - Swedish",
+          "url": "https://www.uka.se/swedish-higher-education-authority/about-higher-education/universities-university-colleges-and-other-education-providers/higher-education-institutions"
+        },
+        {
+          "label": "UHR list - English (scroll down)",
+          "url": "https://www.uhr.se/en/start/recognition-of-foreign-qualifications/enic-naric-sweden/higher-education-institutions-in-sweden/"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "Switzerland",
+      "verification_url": "https://www.enic-naric.net/page-Switzerland",
+      "directory_links": [
+        {
+          "label": "English, German, French",
+          "url": "https://www.swissuniversities.ch/en/topics/studying/accredited-swiss-higher-education-institutions"
+        }
+      ],
+      "http_status": 200
+    },
+    {
+      "country": "United Kingdom",
+      "verification_url": "https://www.enic-naric.net/page-United-Kingdom",
+      "directory_links": [
+        {
+          "label": "English",
+          "url": "https://www.officeforstudents.org.uk/for-providers/regulatory-resources/the-ofs-register/#/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.economy-ni.gov.uk/articles/higher-education-policy"
+        },
+        {
+          "label": "English",
+          "url": "https://www.gov.scot/policies/universities/"
+        },
+        {
+          "label": "English",
+          "url": "https://www.gov.uk/check-university-award-degree/recognised-bodies-wales"
+        },
+        {
+          "label": "English",
+          "url": "https://www.gov.uk/check-university-award-degree"
+        }
+      ],
+      "http_status": 200
+    }
+  ],
+  "national_index_note": "ENIC-NARIC official country pages list national recognised-institution directories; links extracted from their Recognised Higher Education Institutions section. All EU27, UK, Switzerland, Norway, Iceland and Liechtenstein covered. These are verification routes, not evidence that each compiled institution was individually checked.",
+  "total_rows": 5280,
+  "country_counts": {
+    "Albania": 40,
+    "Andorra": 8,
+    "Armenia": 57,
+    "Austria": 80,
+    "Azerbaijan": 13,
+    "Belarus": 51,
+    "Belgium": 173,
+    "Bosnia and Herzegovina": 46,
+    "Bulgaria": 102,
+    "Croatia": 45,
+    "Cyprus": 48,
+    "Czech Republic": 54,
+    "Denmark": 42,
+    "Estonia": 17,
+    "Finland": 44,
+    "France": 598,
+    "Georgia": 83,
+    "Germany": 494,
+    "Greece": 51,
+    "Holy See": 11,
+    "Hungary": 64,
+    "Iceland": 9,
+    "Ireland": 32,
+    "Italy": 251,
+    "Kazakhstan": 163,
+    "Kosovo": 32,
+    "Latvia": 53,
+    "Liechtenstein": 2,
+    "Lithuania": 31,
+    "Luxembourg": 21,
+    "Malta": 16,
+    "Moldova": 21,
+    "Monaco": 1,
+    "Montenegro": 7,
+    "Netherlands": 119,
+    "North Macedonia": 17,
+    "Norway": 46,
+    "Poland": 474,
+    "Portugal": 106,
+    "Romania": 88,
+    "Russia": 75,
+    "San Marino": 1,
+    "Serbia": 42,
+    "Slovakia": 33,
+    "Slovenia": 93,
+    "Spain": 132,
+    "Sweden": 47,
+    "Switzerland": 67,
+    "Türkiye": 210,
+    "Ukraine": 678,
+    "United Kingdom": 292
+  }
+}

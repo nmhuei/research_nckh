@@ -1,0 +1,217 @@
+{
+  "schools": [
+    {
+      "short_name": "MIT",
+      "domain": "mit.edu",
+      "directions_vi": [
+        "Thiết kế hình học robot bằng AI tạo sinh kết hợp mô phỏng vật lý.",
+        "Mật mã đồng cấu để tính toán trên dữ liệu vẫn được mã hóa.",
+        "Thiết bị y sinh thu nhỏ và công nghệ đưa thuốc chính xác.",
+        "Công nghệ năng lượng nhiệt hạch."
+      ],
+      "problems_vi": [
+        "Tối ưu robot nhảy để tăng độ cao và tiếp đất ổn định.",
+        "Thực hiện truy vấn hoặc phép tính trên dữ liệu nhạy cảm mà không phải giải mã."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.mit.edu/research/",
+        "https://news.mit.edu/2025/using-generative-ai-help-robots-jump-higher-land-safely-0627",
+        "https://doi.org/10.1109/ICRA55743.2025.11128113",
+        "https://news.mit.edu/2025/security-scheme-could-protect-sensitive-data-during-cloud-computation-0319",
+        "https://people.csail.mit.edu/vinodv/pubs.html",
+        "https://link.springer.com/chapter/10.1007/978-3-031-91124-8_1"
+      ],
+      "scope_note_vi": "Đã đối chiếu trang tổng quan nghiên cứu chính thức và các công trình mẫu; các hướng được chọn để minh họa, không phải danh mục đầy đủ hay xếp hạng ưu tiên của trường. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "Caltech",
+      "domain": "caltech.edu",
+      "directions_vi": [
+        "Học và nén tensor để tính tương tác nguyên tử và truyền nhiệt trong vật liệu.",
+        "Tính toán phân tử bằng mạng nơ-ron DNA học từ ví dụ.",
+        "Robot đeo và thiết bị hỗ trợ phục hồi khả năng đi lại.",
+        "Chụp ảnh y sinh bằng quang âm và kỹ thuật quan sát mô.",
+        "Phát triển vật liệu phục vụ nhiên liệu mặt trời."
+      ],
+      "problems_vi": [
+        "Giảm chi phí tính độ dẫn nhiệt mà vẫn giữ độ chính xác.",
+        "Làm cho hệ phân tử DNA học được mẫu mới từ dữ liệu hóa học."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.caltech.edu/research",
+        "https://www.caltech.edu/about/news/new-ai-technique-unravels-quantum-atomic-vibrations-in-materials",
+        "https://journals.aps.org/prl/abstract/10.1103/nmgj-yq1g",
+        "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+        "https://www.nature.com/articles/s41586-025-09479-w"
+      ],
+      "scope_note_vi": "Đã đối chiếu trang tổng quan nghiên cứu chính thức và các công trình mẫu; các hướng được chọn để minh họa, không phải danh mục đầy đủ hay xếp hạng ưu tiên của trường. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "Georgia Tech",
+      "domain": "gatech.edu",
+      "directions_vi": [
+        "Robot học thao tác từ con người và điều khiển bộ khung trợ lực.",
+        "Tính toán hiệu năng cao, mô phỏng khoa học và phân tích dữ liệu lớn.",
+        "An ninh hệ thống vật lý số và bảo vệ quyền riêng tư.",
+        "Kỹ thuật phần mềm, kiến trúc máy tính và hệ thống mạng.",
+        "Tự động hóa thiết kế, chế tạo và xây dựng công trình thông minh."
+      ],
+      "problems_vi": [
+        "Cho robot thực hiện thao tác nhanh hơn bản trình diễn mà vẫn bám quỹ đạo.",
+        "Điều khiển thiết bị trợ lực mới với ít dữ liệu thu riêng cho từng người dùng."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://research.gatech.edu/colleges-schools",
+        "https://www.gatech.edu/news/2026/03/19/smarter-faster-and-more-human-leap-toward-general-purpose-robots",
+        "https://www.epic.gatech.edu/keaton-and-carlos-published-a-new-paper-in-science-roboitcs/"
+      ],
+      "scope_note_vi": "Đã đối chiếu trang tổng quan nghiên cứu chính thức và các công trình mẫu; các hướng được chọn để minh họa, không phải danh mục đầy đủ hay xếp hạng ưu tiên của trường. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "CMU",
+      "domain": "cmu.edu",
+      "directions_vi": [
+        "AI có khả năng giải thích, chịu tấn công và vận hành ở quy mô lớn.",
+        "Robot tương tác với con người, cảm nhận môi trường và thao tác vật thể.",
+        "Công nghệ ngôn ngữ đa ngữ, tiếng nói và AI đa phương thức.",
+        "Kỹ thuật phần mềm an toàn, quyền riêng tư và kiểm thử đối kháng hệ thống AI.",
+        "Tin sinh học cho hệ gen, phát hiện kháng thể và phân tích bệnh."
+      ],
+      "problems_vi": [
+        "Đo kỹ năng an ninh mạng từ dữ liệu hành vi trong môi trường diễn tập tạm thời.",
+        "Chuyển kinh nghiệm red teaming an ninh mạng sang kiểm thử AI tạo sinh."
+      ],
+      "scope": "official_institution_overview_verified",
+      "source_urls": [
+        "https://www.cs.cmu.edu/research/",
+        "https://www.sei.cmu.edu/library/sabermetrics-for-cyber-collecting-and-analyzing-user-activity-data-from-ephemeral-exercises/",
+        "https://sei.cmu.edu/library/what-can-generative-ai-red-teaming-learn-from-cyber-red-teaming/"
+      ],
+      "scope_note_vi": "Đã đối chiếu tổng quan chính thức của School of Computer Science, kết hợp các công trình SEI; không đại diện toàn bộ các khoa của CMU. Các bài toán cụ thể lấy từ mẫu đã rà soát."
+    },
+    {
+      "short_name": "Purdue",
+      "domain": "purdue.edu",
+      "directions_vi": [
+        "Chế tạo vải ống nano nitride bo bằng kéo sợi điện.",
+        "Điều chỉnh hướng và liên kết sợi để thiết kế vật liệu quản lý nhiệt.",
+        "Mô hình hóa điện khí hóa sản xuất thép bằng hydro và tác động khí hậu."
+      ],
+      "problems_vi": [
+        "Điều khiển độ dẫn nhiệt của vật liệu thông qua cấu trúc mạng ống nano.",
+        "Xác định cơ cấu nguồn điện và vận hành điện phân phù hợp để giảm phát thải ngành thép."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://engineering.purdue.edu/MTEC/publications/electrospun-boron-nitride-nanotube-fabrics-tunable-thermal-conductivity-through-controlled-nanotube-orientation",
+        "https://engineering.purdue.edu/ETSL/publication.html",
+        "https://pubs.acs.org/doi/10.1021/acsenergylett.5c01961"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "RPI",
+      "domain": "rpi.edu",
+      "directions_vi": [
+        "Tách màng tinh thể siêu mỏng bằng kỹ thuật xử lý bề mặt tiếp xúc.",
+        "Vật liệu và cấu trúc cảm biến hồng ngoại không cần làm lạnh.",
+        "Kiến trúc mạng nơ-ron khai thác cấu trúc không gian và phản hồi theo thời gian."
+      ],
+      "problems_vi": [
+        "Tách màng epitaxy mà không cần lớp giải phóng nhân tạo.",
+        "Thiết kế mạng nơ-ron có khả năng biểu diễn tốt hơn và sử dụng tài nguyên hiệu quả hơn."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://news.rpi.edu/2025/08/18/nanomanufacturing-breakthrough-could-revolutionize-night-vision-technology-other-fields",
+        "https://www.nature.com/articles/s41586-025-08874-7",
+        "https://news.rpi.edu/2025/06/16/ai-rethought-rpi-researchers-propose-more-effective-human-approach",
+        "https://doi.org/10.1016/j.patter.2025.101231"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "Virginia Tech",
+      "domain": "vt.edu",
+      "directions_vi": [
+        "Tay kẹp robot kết hợp cấu trúc cứng và vật liệu mềm.",
+        "Điều khiển bám dính có thể bật/tắt để thao tác nhiều loại vật thể.",
+        "Phòng thủ đánh lừa đối phương bằng lý thuyết trò chơi và học máy cho hệ thống vật lý số."
+      ],
+      "problems_vi": [
+        "Giúp robot cầm nắm và di chuyển các vật thể khác nhau trong công việc hằng ngày.",
+        "Duy trì nhiệm vụ của IoT, UAV và nhóm người–robot khi bị đe dọa an ninh mạng."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/07/eng-me-losey-bartlett-pizza-robot.html",
+        "https://journals.sagepub.com/doi/abs/10.1089/soro.2024.0062",
+        "https://vtechworks.lib.vt.edu/items/c5ae72d9-407f-420b-940b-878c7ca919ff"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "Texas A&M",
+      "domain": "tamu.edu",
+      "directions_vi": [
+        "Pin hữu cơ hai ion kết hợp khả năng tích trữ điện và chịu lực.",
+        "Thiết kế điện cực polymer và chất điện phân hoạt động ở nhiệt độ thấp.",
+        "Tổng hợp graphene oxide từ methane tại bề mặt tiếp xúc plasma–nước, đồng thời tạo hydro."
+      ],
+      "problems_vi": [
+        "Giữ pin hoạt động trong điều kiện lạnh đồng thời tăng độ bền cơ học.",
+        "Tạo vật liệu carbon có giá trị từ nguyên liệu khí bằng quy trình plasma không nhiệt."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://stories.tamu.edu/news/2026/02/11/building-batteries-that-dont-break-in-the-cold/",
+        "https://news.engineering.tamu.edu/news/2026/07/03/unexpected-discovery-yields-new-graphene-oxide-production-method/",
+        "https://www.nature.com/articles/s41467-026-69831-0",
+        "https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41467-026-69831-0"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    },
+    {
+      "short_name": "Stevens",
+      "domain": "stevens.edu",
+      "directions_vi": [
+        "Học biểu diễn chuỗi thời gian cảm biến bằng phương pháp tự giám sát.",
+        "Học tương phản dựa trên quan hệ theo thời gian giữa các tín hiệu.",
+        "Kết hợp nhiều cảm biến để nhận dạng hoạt động con người với ít dữ liệu gán nhãn."
+      ],
+      "problems_vi": [
+        "Giảm công sức gán nhãn dữ liệu nhận dạng hoạt động.",
+        "Khai thác thông tin bổ sung giữa các kênh cảm biến và các thời điểm."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://researchwith.stevens.edu/en/publications/temporal-contrastive-learning-for-sensor-based-human-activity-rec/"
+      ],
+      "scope_note_vi": "Suy ra từ 1 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường. Ba hướng là các khía cạnh của cùng một công trình, không phải ba chương trình nghiên cứu độc lập."
+    },
+    {
+      "short_name": "IIT",
+      "domain": "iit.edu",
+      "directions_vi": [
+        "Mô hình hóa mối đe dọa đối với hệ thống AI trong toàn bộ vòng đời.",
+        "Thiết kế mạng anion của chất điện phân rắn oxyhalide để tăng dẫn ion lithium.",
+        "Phát triển vật liệu pin thể rắn có khả năng hoạt động ở nhiệt độ thấp."
+      ],
+      "problems_vi": [
+        "Nhận diện rủi ro kỹ thuật của AI cùng các yếu tố con người và tổ chức liên quan.",
+        "Tạo đường dẫn ion hiệu quả trong chất điện phân rắn để cải thiện hoạt động của pin."
+      ],
+      "scope": "sample_based",
+      "source_urls": [
+        "https://www.iit.edu/news/researchers-introduce-socio-technical-approach-ai-threat-modeling",
+        "https://www.igi-global.com/viewtitle.aspx?titleid=370967",
+        "https://www.iit.edu/news/tracking-hidden-highways-build-better-batteries",
+        "https://www.science.org/doi/10.1126/science.adt9678"
+      ],
+      "scope_note_vi": "Suy ra từ 2 công trình công nghệ trong tập mẫu đã rà soát; không đại diện đầy đủ định hướng hoặc năng lực nghiên cứu của trường."
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "school": "Massachusetts Institute of Technology",
+    "doi": "10.1109/ICRA55743.2025.11128113",
+    "status": 200,
+    "supplied_title": "Generative-AI-Driven Jumping Robot Design Using Diffusion Models",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Generative-AI-Driven Jumping Robot Design Using Diffusion Models"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "registry_type": "proceedings-article"
+  },
+  {
+    "school": "Massachusetts Institute of Technology",
+    "doi": "10.1007/978-3-031-91124-8_1",
+    "status": 200,
+    "supplied_title": "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Somewhat Homomorphic Encryption from Linear Homomorphism and Sparse LPN"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "registry_type": "book-chapter"
+  },
+  {
+    "school": "California Institute of Technology",
+    "doi": "10.1103/nmgj-yq1g",
+    "status": 429,
+    "supplied_title": "Tensor Learning and Compression of N-Phonon Interactions",
+    "supplied_year": 2025
+  },
+  {
+    "school": "California Institute of Technology",
+    "doi": "10.1038/s41586-025-09479-w",
+    "status": 429,
+    "supplied_title": "Supervised learning in DNA neural networks",
+    "supplied_year": 2025
+  },
+  {
+    "school": "Georgia Institute of Technology",
+    "doi": "10.48550/arXiv.2506.11948",
+    "status": 200,
+    "supplied_title": "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies",
+    "supplied_year": 2025,
+    "registry_title": [
+      {
+        "title": "SAIL: Faster-than-Demonstration Execution of Imitation Learning Policies"
+      }
+    ],
+    "registry_year": 2025
+  },
+  {
+    "school": "Georgia Institute of Technology",
+    "doi": "10.1126/scirobotics.ads8652",
+    "status": 200,
+    "supplied_title": "Deep domain adaptation eliminates costly data required for task-agnostic wearable robotic control",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Deep domain adaptation eliminates costly data required for task-agnostic wearable robotic control"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          19
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Carnegie Mellon University",
+    "doi": "10.34190/eccws.24.1.3354",
+    "status": 429,
+    "supplied_title": "Sabermetrics for Cyber: Collecting and Analyzing User Activity Data from Ephemeral Exercises",
+    "supplied_year": 2025
+  },
+  {
+    "school": "Carnegie Mellon University",
+    "doi": "10.1184/R1/29410136",
+    "status": 200,
+    "supplied_title": "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming?",
+    "supplied_year": 2025,
+    "registry": "DataCite",
+    "registry_title": [
+      {
+        "title": "What Can Generative AI Red-Teaming Learn from Cyber Red-Teaming?"
+      }
+    ],
+    "registry_year": 2025
+  },
+  {
+    "school": "Purdue University",
+    "doi": "10.1002/adem.202500703",
+    "status": 200,
+    "supplied_title": "Electrospun Boron Nitride Nanotube Fabrics: Tunable Thermal Conductivity through Controlled Nanotube Orientation",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Electrospun Boron Nitride Nanotube Fabrics: Tunable Thermal Conductivity through Controlled Nanotube Orientation"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          21
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Purdue University",
+    "doi": "10.1021/acsenergylett.5c01961",
+    "status": 429,
+    "supplied_title": "Consequential Climate and Energy Analysis of Steel Electrification via Hydrogen Direct Reduction",
+    "supplied_year": 2025
+  },
+  {
+    "school": "Rensselaer Polytechnic Institute",
+    "doi": "10.1038/s41586-025-08874-7",
+    "status": 200,
+    "supplied_title": "Atomic lift-off of epitaxial membranes for cooling-free infrared detection",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Atomic lift-off of epitaxial membranes for cooling-free infrared detection"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Rensselaer Polytechnic Institute",
+    "doi": "10.1016/j.patter.2025.101231",
+    "status": 200,
+    "supplied_title": "Dimensionality and dynamics for next-generation artificial neural networks",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Dimensionality and dynamics for next-generation artificial neural networks"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Virginia Polytechnic Institute and State University",
+    "doi": "10.1089/soro.2024.0062",
+    "status": 200,
+    "supplied_title": "Combining and Decoupling Rigid and Soft Grippers to Enhance Robotic Manipulation",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Combining and Decoupling Rigid and Soft Grippers to Enhance Robotic Manipulation"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          10
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Texas A&M University",
+    "doi": "10.1039/D5TA01626F",
+    "status": 200,
+    "supplied_title": "Organic dual-ion batteries with low-temperature operability and structural reinforcement",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Organic dual-ion batteries with low-temperature operability and structural reinforcement"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Texas A&M University",
+    "doi": "10.1038/s41467-026-69831-0",
+    "status": 429,
+    "supplied_title": "Graphene oxide synthesis at a nonthermal plasma-water interface",
+    "supplied_year": 2026
+  },
+  {
+    "school": "Stevens Institute of Technology",
+    "doi": "10.1103/q188-b1cr",
+    "status": 429,
+    "supplied_title": "Probing Curved Spacetime with a Distributed Atomic Processor Clock",
+    "supplied_year": 2025
+  },
+  {
+    "school": "Stevens Institute of Technology",
+    "doi": "10.1109/JSEN.2024.3491933",
+    "status": 200,
+    "supplied_title": "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Temporal Contrastive Learning for Sensor-Based Human Activity Recognition: A Self-Supervised Approach"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          1
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Illinois Institute of Technology",
+    "doi": "10.4018/IJIIT.370967",
+    "status": 200,
+    "supplied_title": "STRIFE: A Socio-Technical Framework for Threat Modeling of Artificial Intelligence Systems",
+    "supplied_year": 2025,
+    "registry_title": [
+      "STRIFE: A Socio-Technical Framework for Threat Modeling of Artificial Intelligence Systems"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          14
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  },
+  {
+    "school": "Illinois Institute of Technology",
+    "doi": "10.1126/science.adt9678",
+    "status": 200,
+    "supplied_title": "Anion sublattice design enables superionic conductivity in crystalline oxyhalides",
+    "supplied_year": 2025,
+    "registry_title": [
+      "Anion sublattice design enables superionic conductivity in crystalline oxyhalides"
+    ],
+    "registry_date": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ]
+    },
+    "registry_type": "journal-article"
+  }
+]

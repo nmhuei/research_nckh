@@ -1,0 +1,879 @@
+[
+  {
+    "domain": "usth.edu.vn",
+    "doi": "10.1039/D4RA08116A",
+    "supplied_title": "Synthesis of an imine-type nickel complex and investigation of its electrocatalytic activity for H2 evolution",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "Synthesis of an imine-type nickel complex and investigation of its electrocatalytic activity for H\n                    <sub>2</sub>\n                    evolution"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-3003-8137",
+        "authenticated-orcid": false,
+        "given": "Lan H.",
+        "family": "Le",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Science and Technology of Hanoi, Vietnam Academy of Science and Technology, 18 Hoang Quoc Viet, Hanoi, Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ngoc H.",
+        "family": "Pham",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Science and Technology of Hanoi, Vietnam Academy of Science and Technology, 18 Hoang Quoc Viet, Hanoi, Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9561-6881",
+        "authenticated-orcid": false,
+        "given": "Phong D.",
+        "family": "Tran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Science and Technology of Hanoi, Vietnam Academy of Science and Technology, 18 Hoang Quoc Viet, Hanoi, Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6673-3539",
+        "authenticated-orcid": false,
+        "given": "Tung H.",
+        "family": "To",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Science and Technology of Hanoi, Vietnam Academy of Science and Technology, 18 Hoang Quoc Viet, Hanoi, Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1039/d4ra08116a"
+  },
+  {
+    "domain": "hust.edu.vn",
+    "doi": "10.1038/s41598-025-04772-0",
+    "supplied_title": "Improving computational drug repositioning through multi-source disease similarity networks",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "Improving computational drug repositioning through multi-source disease similarity networks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "given": "Duc-Hau",
+        "family": "Le",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1038/s41598-025-04772-0"
+  },
+  {
+    "domain": "uet.vnu.edu.vn",
+    "doi": "10.1109/KSE63888.2024.11063566",
+    "supplied_title": "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation",
+    "supplied_year": 2024,
+    "status": 200,
+    "title": [
+      "Adapting Large Language Models to Vietnamese Law: Pretrained LLM Refinement vs Retrieval Augmented Generation"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "published_online": null,
+    "event": {
+      "name": "2024 16th International Conference on Knowledge and System Engineering (KSE)",
+      "location": "Kuala Lumpur, Malaysia",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            5
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            7
+          ]
+        ]
+      }
+    },
+    "authors": [
+      {
+        "given": "Nguyen P.",
+        "family": "Nguyen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Ton Duc Thang University,Natural Language Processing and Knowledge Discovery Laboratory, Faculty of Information Technology,Ho Chi Minh City,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thang V.Q.",
+        "family": "Le",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ton Duc Thang University,Natural Language Processing and Knowledge Discovery Laboratory, Faculty of Information Technology,Ho Chi Minh City,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anh-Cuong",
+        "family": "Le",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ton Duc Thang University,Natural Language Processing and Knowledge Discovery Laboratory, Faculty of Information Technology,Ho Chi Minh City,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Viet-Ha",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Artificial Intelligence, VNU University of Engineering and Technology,Hanoi,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Viet-Cuong",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Intelligent Integration Co., Ltd (INT2),Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1109/kse63888.2024.11063566"
+  },
+  {
+    "domain": "uet.vnu.edu.vn",
+    "doi": "10.1007/978-981-92-2590-3_24",
+    "supplied_title": "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "PRADA-QA: Product QA with Multi-Agent Planning and Dynamic Knowledge Retrieval"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "given": "Huu-Dung",
+        "family": "Nguyen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tri-Dung",
+        "family": "Do",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Viet Cuong",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Oanh Thi",
+        "family": "Tran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Duc-Trong",
+        "family": "Le",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1007/978-981-92-2590-3_24"
+  },
+  {
+    "domain": "dut.udn.vn",
+    "doi": "10.31130/ud-jst.2025.23(9D).555E",
+    "supplied_title": "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "Design and implementation of an AI-integrated 6-DOF robotic arm for automated package and orientation recognition"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "given": "Van Thuong",
+        "family": "Nguyen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tien Ton",
+        "family": "That",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nhu Thanh",
+        "family": "Vo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ba Hoa",
+        "family": "Thai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.31130/ud-jst.2025.23(9d).555e"
+  },
+  {
+    "domain": "dut.udn.vn",
+    "doi": "10.31130/ud-jst.2026.24(1).617E",
+    "supplied_title": "Model-based design of a ballbot system controlled by mindstorms EV3",
+    "supplied_year": 2026,
+    "status": 200,
+    "title": [
+      "Model-based design of a ballbot system controlled by mindstorms EV3"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          28
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          28
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "given": "Ngoc Huy",
+        "family": "Duong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Minh Quan",
+        "family": "Dinh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Pham",
+        "family": "Anh-Duc",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.31130/ud-jst.2026.24(1).617e"
+  },
+  {
+    "domain": "vku.udn.vn",
+    "doi": "10.1109/RIVF68649.2025.11365197",
+    "supplied_title": "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "An Experimental Study of Walrus Optimization-Based Deep Learning Models for Software Effort Estimation"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ]
+    },
+    "published_online": null,
+    "event": {
+      "name": "2025 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+      "location": "Ho Chi Minh City, Vietnam",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            20
+          ]
+        ]
+      }
+    },
+    "authors": [
+      {
+        "given": "Duy Khanh",
+        "family": "Nguyen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Vietnam - Korea University of Information and Communication Technology, The University of Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Khanh Duy",
+        "family": "Dao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vietnam - Korea University of Information and Communication Technology, The University of Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Thi Kim Ngan",
+        "family": "Dang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vietnam - Korea University of Information and Communication Technology, The University of Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Thi Minh Phuong",
+        "family": "Ha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vietnam - Korea University of Information and Communication Technology, The University of Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ngoc Tho",
+        "family": "Huynh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vietnam - Korea University of Information and Communication Technology, The University of Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1109/rivf68649.2025.11365197"
+  },
+  {
+    "domain": "vku.udn.vn",
+    "doi": "10.1109/ATC67618.2025.11268781",
+    "supplied_title": "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "A Multimodal ML-based Indoor Fire Detection and Alarm System Using Image Processing and IoT–based Environmental Sensing"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          16
+        ]
+      ]
+    },
+    "published_online": null,
+    "event": {
+      "name": "2025 International Conference on Advanced Technologies for Communications (ATC)",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            16
+          ]
+        ]
+      },
+      "location": "Hanoi, Vietnam",
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            18
+          ]
+        ]
+      }
+    },
+    "authors": [
+      {
+        "given": "Tran The",
+        "family": "Son",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Vietnam-Korea University of Information and Communication Technology,Faculty of Computer Engineering and Electronics,Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tran Huynh Anh",
+        "family": "Nhat",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vietnam-Korea University of Information and Communication Technology,Faculty of Computer Engineering and Electronics,Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Dat",
+        "family": "Vuong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vietnam-Korea University of Information and Communication Technology,Faculty of Computer Engineering and Electronics,Da Nang,Vietnam"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1109/atc67618.2025.11268781"
+  },
+  {
+    "domain": "hcmute.edu.vn",
+    "doi": "10.1007/978-981-96-6005-6_29",
+    "supplied_title": "Domain-Oriented GCN Method for Sentiment Analysis",
+    "supplied_year": 2025,
+    "status": 200,
+    "title": [
+      "Domain-Oriented GCN Method for Sentiment Analysis"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7466-9562",
+        "authenticated-orcid": false,
+        "given": "Huyen Trang",
+        "family": "Phan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-0804-6550",
+        "authenticated-orcid": false,
+        "given": "Quang Khai",
+        "family": "Tran",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3247-2948",
+        "authenticated-orcid": false,
+        "given": "Ngoc Thanh",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.1007/978-981-96-6005-6_29"
+  },
+  {
+    "domain": "hcmute.edu.vn",
+    "doi": "10.22144/ctujos.2026.075",
+    "supplied_title": "Nonlinear model predictive control for trajectory tracking and dynamic obstacle avoidance in differential-drive mobile robots",
+    "supplied_year": 2026,
+    "status": 200,
+    "title": [
+      "Điều khiển dự báo phi tuyến cho bám quỹ đạo và tránh vật cản động trên robot di động lái vi sai"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          22
+        ]
+      ]
+    },
+    "event": null,
+    "authors": [
+      {
+        "given": "Ngọc Thiện",
+        "family": "Nguyễn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lê Bảo Duy",
+        "family": "Đoàn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nguyễn Thanh Duy",
+        "family": "Huỳnh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Đức Thiện",
+        "family": "Trần",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "URL": "https://doi.org/10.22144/ctujos.2026.075"
+  }
+]

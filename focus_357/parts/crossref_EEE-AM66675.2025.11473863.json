@@ -1,0 +1,311 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        10
+      ]
+    ],
+    "date-time": "2026-04-10T06:10:53Z",
+    "timestamp": 1775801453471,
+    "version": "3.50.1"
+  },
+  "reference-count": 13,
+  "publisher": "IEEE",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T00:00:00Z",
+        "timestamp": 1762300800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ],
+        "date-time": "2025-11-05T00:00:00Z",
+        "timestamp": 1762300800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        5
+      ]
+    ]
+  },
+  "DOI": "10.1109/eee-am66675.2025.11473863",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        9
+      ]
+    ],
+    "date-time": "2026-04-09T19:42:34Z",
+    "timestamp": 1775763754000
+  },
+  "page": "1-6",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "Deep Learning-Based Auto Meter Reading for Industrial Gas Meters"
+  ],
+  "prefix": "10.1109",
+  "author": [
+    {
+      "given": "Hoang-Anh",
+      "family": "Dang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Hanoi University of Science and Technology,School of Electrical and Electronic Engineering,Hanoi,Vietnam"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Van Quang",
+      "family": "Nguyen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Hanoi University of Science and Technology,School of Electrical and Electronic Engineering,Hanoi,Vietnam"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Van Dung",
+      "family": "Dao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Hanoi University of Science and Technology,School of Electrical and Electronic Engineering,Hanoi,Vietnam"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Chi Dung",
+      "family": "Dang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Hanoi University of Science and Technology,School of Electrical and Electronic Engineering,Hanoi,Vietnam"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Anh Dai",
+      "family": "Tran",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Hanoi University of Science and Technology,School of Electrical and Electronic Engineering,Hanoi,Vietnam"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "article-title": "Sobia Barkat Automated Meter Reading System",
+      "author": "Barkat",
+      "year": "2024"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SURV.2011.041110.00058"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SCEECS54111.2022.9740911"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/engproc2022020025"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDAR.2009.144"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/iSemantic59612.2023.10295287"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ACCESS.2022.3201235"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICDAR.2009.144"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/engproc2022020032"
+    },
+    {
+      "key": "ref10",
+      "article-title": "Optical Character Recognition",
+      "author": "Mithe",
+      "year": "2013"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/1.JEI.28.1.013023"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s40745-020-00253-5"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/CVPR.2018.00474"
+    }
+  ],
+  "event": {
+    "name": "2025 Asia Meeting on Environment and Electrical Engineering (EEE-AM)",
+    "location": "Hanoi, Vietnam",
+    "start": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ]
+    },
+    "end": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          7
+        ]
+      ]
+    }
+  },
+  "container-title": [
+    "2025 Asia Meeting on Environment and Electrical Engineering (EEE-AM)"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/11473318/11473322/11473863.pdf?arnumber=11473863",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        10
+      ]
+    ],
+    "date-time": "2026-04-10T05:21:56Z",
+    "timestamp": 1775798516000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11473863/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        5
+      ]
+    ]
+  },
+  "references-count": 13,
+  "URL": "https://doi.org/10.1109/eee-am66675.2025.11473863",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        5
+      ]
+    ]
+  }
+}

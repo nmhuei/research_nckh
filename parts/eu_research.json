@@ -1,0 +1,781 @@
+{
+  "retrieved_on": "2026-10-30",
+  "scope_note_vi": "28 mục có nguồn kiểm tra từ 14 trường. Đây là mẫu công trình theo chủ đề tìm kiếm, không phải thống kê toàn bộ sản lượng hay đánh giá thế mạnh/xếp hạng của trường. Tóm tắt dựa trên metadata, abstract hoặc thông tin dự án công khai; không khẳng định đã đọc toàn văn tất cả bài. Năm xuất bản theo record/nhà xuất bản, phân biệt với năm nạp kho và năm xuất hiện trong DOI.",
+  "schools": [
+    {
+      "name": "ETH Zürich",
+      "domain": "ethz.ch",
+      "research_portals": [
+        {
+          "url": "https://www.research-collection.ethz.ch/",
+          "title": "ETH Research Collection"
+        }
+      ],
+      "items": [
+        {
+          "title": "Rambo: RL-Augmented Model-Based Whole-Body Control for Loco-Manipulation",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Robot & tự động hóa"
+          ],
+          "summary_vi": "Kết hợp điều khiển toàn thân dựa trên mô hình với học tăng cường để robot chân vừa di chuyển vừa thao tác đồ vật. Thử nghiệm gồm đẩy xe đẩy, giữ đĩa và cầm vật mềm.",
+          "url": "https://www.research-collection.ethz.ch/entities/publication/9721c627-62cd-4e5e-80ee-8e41117c4457",
+          "doi": "10.1109/lra.2025.3594984",
+          "verification_note": "ETH Research Collection ghi Journal Article, ETH Bibliography: yes, tháng 9/2025; nội dung truy xuất từ chỉ mục công khai của kho. Truy cập trực tiếp sau đó trả HTTP 403.",
+          "venue": "IEEE Robotics and Automation Letters",
+          "topic_codes": [
+            "AI_DATA",
+            "ROBOTICS"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Robust Reinforcement Learning-Based Locomotion for Resource-Constrained Quadrupeds with Exteroceptive Sensing",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "AI & dữ liệu",
+            "Robot & tự động hóa"
+          ],
+          "summary_vi": "Phát triển điều khiển di chuyển bằng học tăng cường cho robot bốn chân nhỏ, kết hợp bản đồ độ cao và cảm biến chiều sâu nhằm vượt địa hình khó với tài nguyên tính toán hạn chế.",
+          "url": "https://www.research-collection.ethz.ch/entities/publication/72082752-8d43-4dd4-9f5c-b3ee52447e7b",
+          "doi": "10.1109/ICRA55743.2025.11128474",
+          "verification_note": "Kho ETH ghi Conference Paper, ICRA 2025, đơn vị D-ITET Center for Project-Based Learning; DOI và tóm tắt có trong bản được lập chỉ mục. Truy cập trực tiếp sau đó trả HTTP 403.",
+          "venue": "2025 IEEE International Conference on Robotics and Automation",
+          "topic_codes": [
+            "AI_DATA",
+            "ROBOTICS"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "EPFL",
+      "domain": "epfl.ch",
+      "research_portals": [
+        {
+          "url": "https://infoscience.epfl.ch/",
+          "title": "Infoscience – EPFL"
+        }
+      ],
+      "items": [
+        {
+          "title": "Techno-economic analysis framework for perovskite solar module production at various manufacturing capacities",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng",
+            "Vật liệu"
+          ],
+          "summary_vi": "Mô hình hóa chi phí chế tạo mô-đun pin mặt trời perovskite theo vật liệu, công nghệ, quy mô và mức tự động hóa; phân tích độ nhạy để xác định điểm nghẽn khi mở rộng sản xuất.",
+          "url": "https://infoscience.epfl.ch/bitstreams/274f1852-8680-43df-867a-91945191f191/download",
+          "doi": "10.1016/j.renene.2025.123752",
+          "verification_note": "Bản bài báo trên kho EPFL ghi tác giả thuộc Industrial Process and Energy Systems Engineering và Institute of Chemical Sciences and Engineering, EPFL. Năm số tạp chí là 2026; online lần đầu 24/06/2025.",
+          "venue": "Renewable Energy 256, 123752",
+          "topic_codes": [
+            "ENERGY",
+            "MATERIALS"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Electroactive naphthalimide and naphthalenediimide interlayers for inverted perovskite solar cells",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Vật liệu",
+            "Năng lượng",
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Thiết kế lớp tiếp xúc có hoạt tính điện tử nhằm hỗ trợ truyền điện tích trong pin mặt trời perovskite đảo cấu trúc; nghiên cứu báo cáo cải thiện hiệu suất và độ ổn định vận hành.",
+          "url": "https://infoscience.epfl.ch/bitstreams/2215a38e-8549-4842-ba53-488fce913c09/download",
+          "doi": "10.1039/d5tc01418b",
+          "verification_note": "Bản toàn văn trên Infoscience nêu Laboratory of Photonics and Interfaces, EPFL và đồng tác giả Michael Grätzel; công bố online 30/09/2025.",
+          "venue": "Journal of Materials Chemistry C 13, 20040",
+          "topic_codes": [
+            "MATERIALS",
+            "ENERGY",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "MATERIALS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Imperial College London",
+      "domain": "imperial.ac.uk",
+      "research_portals": [
+        {
+          "url": "https://spiral.imperial.ac.uk/",
+          "title": "Spiral – Imperial institutional repository"
+        }
+      ],
+      "items": [
+        {
+          "title": "Integrated machine learning model for condensation flow heat transfer in smooth and enhanced tubes",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Năng lượng"
+          ],
+          "summary_vi": "Ứng dụng mô hình học máy tích hợp để nghiên cứu truyền nhiệt của dòng ngưng tụ trong ống trơn và ống tăng cường truyền nhiệt.",
+          "url": "https://spiral.imperial.ac.uk/entities/publication/538ddb31-c857-47c9-9fed-2c57f293592a",
+          "doi": "10.1016/j.energy.2025.134592",
+          "verification_note": "Spiral ghi Journal Article, xuất bản 15/02/2025, đồng tác giả Christos N. Markides; có bản accepted manuscript theo chính sách Open Access của Imperial. Tóm tắt công khai của record chỉ lặp lại tiêu đề nên mô tả không suy diễn kết quả.",
+          "venue": "Energy 317, 134592",
+          "topic_codes": [
+            "AI_DATA",
+            "ENERGY"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Machine learning tabulation of thermochemistry: transfer learning for non-adiabatic flames",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Năng lượng"
+          ],
+          "summary_vi": "Dùng mạng nơ-ron tăng tốc tính toán nhiệt hóa học và mở rộng dữ liệu huấn luyện cho ngọn lửa có trao đổi nhiệt; kiểm tra khả năng chuyển giao sang bài toán buồng đốt tua-bin khí.",
+          "url": "https://spiral.imperial.ac.uk/entities/publication/fd5d43a0-b5ea-4d96-9deb-8e7ea591c905",
+          "doi": "10.1016/j.egyai.2026.100746",
+          "verification_note": "Kho Spiral ghi tác giả A. Darzi, W. P. Jones, S. Rigopoulos; Journal Article, số tạp chí tháng 5/2026 và ngày online 20/04/2026. Attribution dựa trên hồ sơ trong kho nghiên cứu chính thức của Imperial.",
+          "venue": "Energy and AI 24(1), 100746",
+          "topic_codes": [
+            "AI_DATA",
+            "ENERGY"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Delft University of Technology",
+      "domain": "tudelft.nl",
+      "research_portals": [
+        {
+          "url": "https://research.tudelft.nl/",
+          "title": "TU Delft Research Portal"
+        }
+      ],
+      "items": [
+        {
+          "title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Robot & tự động hóa"
+          ],
+          "summary_vi": "Kết hợp học tăng cường nghịch đảo và điều khiển dự báo để nhóm robot hỗ trợ con người trong nhiệm vụ thăm dò. Đánh giá mô phỏng xem xét tránh va chạm và duy trì kết nối mạng.",
+          "url": "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+          "doi": "10.1007/s12369-025-01332-4",
+          "verification_note": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+          "venue": "International Journal of Social Robotics 17(12), 3173–3189",
+          "topic_codes": [
+            "AI_DATA",
+            "ROBOTICS"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "DRONE-RL: Dynamic reinforcement learning for online navigation of UAVs in evolving environments",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Robot & tự động hóa"
+          ],
+          "summary_vi": "Huấn luyện trước nhiều chính sách điều hướng UAV rồi chọn chính sách trực tuyến khi môi trường thay đổi, nhằm tăng khả năng thích nghi mà không phải huấn luyện lại ngay lúc vận hành.",
+          "url": "https://research.tudelft.nl/en/publications/drone-rl-dynamic-reinforcement-learning-for-online-navigation-of-/",
+          "doi": "10.1016/j.knosys.2025.115147",
+          "verification_note": "Hồ sơ TU Delft ghi Published – 2026, Knowledge-Based Systems 334, 115147. DOI chứa 2025 nhưng không được dùng để suy ra năm xuất bản; năm ở đây theo metadata của trường.",
+          "venue": "Knowledge-Based Systems 334, 115147",
+          "topic_codes": [
+            "AI_DATA",
+            "ROBOTICS"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Eindhoven University of Technology",
+      "domain": "tue.nl",
+      "research_portals": [
+        {
+          "url": "https://research.tue.nl/",
+          "title": "TU/e Research Portal"
+        }
+      ],
+      "items": [
+        {
+          "title": "InP Temperature Sensor with Si-CMOS Interface for Photonic Integrated Circuits",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Ghép hai diode InP trên mạch quang tích hợp với chip Si-CMOS để tạo cảm biến nhiệt độ có đầu ra số; nghiên cứu đánh giá độ phân giải và sai số trong dải nhiệt vận hành.",
+          "url": "https://research.tue.nl/en/publications/inp-temperature-sensor-with-si-cmos-interface-for-photonic-integr/",
+          "doi": "10.1109/ECOC66593.2025.11263152",
+          "verification_note": "Portal TU/e ghi conference contribution phản biện, Published 05/12/2025, ECOC 2025; các đơn vị gồm Integrated Circuits, Photonic Integration và Electrical Engineering.",
+          "venue": "2025 European Conference on Optical Communications",
+          "topic_codes": [
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "ELECTRONICS_TELECOM",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Challenges in Insertion Loss-Based Characterization of InP Technology for Sub-THz Antenna Systems",
+          "year": 2026,
+          "type": "conference_paper",
+          "topics": [
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Đo suy hao chèn của cấu trúc dẫn sóng trên InP ở các dải sóng milimét và dưới THz; phân tích yêu cầu hiệu chuẩn và mô phỏng điện từ khi thiết kế anten tích hợp.",
+          "url": "https://research.tue.nl/en/publications/challenges-in-insertion-loss-based-characterization-of-inp-techno/",
+          "doi": "10.1109/CAMA65664.2025.11335176",
+          "verification_note": "TU/e ghi ngày công bố 21/01/2026, dù hội nghị CAMA diễn ra tháng 11/2025. Tác giả trong hồ sơ TU/e gồm Jordi C. F. Zandboer, Ulf Johannsen và A. B. Smolders. Crossref ghi published 18/11/2025 (ngày hội nghị), khác với năm 2026 trên portal; giữ năm portal và ghi nhận khác biệt.",
+          "venue": "2025 IEEE Conference on Antenna Measurements and Applications",
+          "topic_codes": [
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "ELECTRONICS_TELECOM",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository",
+          "alternative_years": [
+            2025
+          ],
+          "year_basis": "Institutional portal publication date 2026-01-21; conference year and Crossref published date are 2025."
+        }
+      ]
+    },
+    {
+      "name": "RWTH Aachen University",
+      "domain": "rwth-aachen.de",
+      "research_portals": [
+        {
+          "url": "https://publications.rwth-aachen.de/",
+          "title": "RWTH Publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "The hydrogen supply chain — A comprehensive literature review incorporating purity analysis",
+          "year": 2025,
+          "type": "review_article",
+          "topics": [
+            "Năng lượng",
+            "Môi trường"
+          ],
+          "summary_vi": "Tổng quan các mắt xích của chuỗi cung ứng hydro, bổ sung góc nhìn về độ tinh khiết để xem xét yêu cầu xử lý và sử dụng hydro.",
+          "url": "https://publications.rwth-aachen.de/record/1018025",
+          "doi": "10.1016/j.ijhydene.2025.04.532",
+          "verification_note": "RWTH Publications ghi Journal Article (Review Article), peer reviewed, năm 2025; đánh dấu các tác giả RWTH và đơn vị Lehrstuhl für Brennstoffzellen (FZ Jülich).",
+          "venue": "International Journal of Hydrogen Energy 164, 149367",
+          "topic_codes": [
+            "ENERGY",
+            "ENVIRONMENT"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Optimal control of an over-actuated spark-ignited hydrogen engine",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng",
+            "Robot & tự động hóa",
+            "Xây dựng & giao thông"
+          ],
+          "summary_vi": "Nghiên cứu điều khiển tối ưu động cơ hydro đánh lửa cưỡng bức có nhiều cơ cấu chấp hành, gắn với phát triển hệ động lực sử dụng hydro.",
+          "url": "https://publications.rwth-aachen.de/record/1012916",
+          "doi": "10.1016/j.ijhydene.2025.05.171",
+          "verification_note": "RWTH Publications ghi năm 2025, DOI, tác giả có dấu RWTH và đơn vị Lehrstuhl und Institut für Regelungstechnik; mô tả dựa trên tiêu đề và metadata, không suy diễn mức cải thiện hiệu suất.",
+          "venue": "International Journal of Hydrogen Energy 145, 267–279",
+          "topic_codes": [
+            "ENERGY",
+            "ROBOTICS",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Technical University of Munich",
+      "domain": "tum.de",
+      "research_portals": [
+        {
+          "url": "https://mediatum.ub.tum.de/",
+          "title": "mediaTUM – TUM publication repository"
+        }
+      ],
+      "items": [
+        {
+          "title": "Zono-Conformal Prediction: Zonotope-Based Uncertainty Quantification for Regression and Classification Tasks",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Khoa học cơ bản"
+          ],
+          "summary_vi": "Biểu diễn tập dự đoán bằng zonotope để lượng hóa độ bất định cho hồi quy và phân loại, với bảo đảm xác suất bao phủ; phương pháp xét cả quan hệ giữa các đầu ra nhiều chiều.",
+          "url": "https://mediatum.ub.tum.de/doc/1793700/kz2rmzi7ls47ch7vdmshwjxd0.25-1161_published.pdf",
+          "doi": null,
+          "verification_note": "Trang đầu bản toàn văn ghi Journal of Machine Learning Research 26 (2025), Published 11/25; tác giả có School of Computation, Information and Technology, TUM và Munich Center for Machine Learning. Không thấy DOI trong phần metadata đã đọc.",
+          "venue": "Journal of Machine Learning Research 26 (2025)",
+          "publisher_url": "https://jmlr.org/papers/v26/25-1161.html",
+          "topic_codes": [
+            "AI_DATA",
+            "BASIC_SCIENCE"
+          ],
+          "primary_topic_code": "AI_DATA",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Machine Learning Driven Materials Design from the Perspective of Charge Transport",
+          "year": 2025,
+          "type": "doctoral_thesis",
+          "topics": [
+            "AI & dữ liệu",
+            "Vật liệu",
+            "Năng lượng"
+          ],
+          "summary_vi": "Dùng học máy dự đoán đặc tính vận chuyển điện tích trong khung hữu cơ cộng hóa trị và perovskite lai, đồng thời phân tích đặc trưng cấu trúc để hỗ trợ tối ưu vật liệu.",
+          "url": "https://mediatum.ub.tum.de/1785191",
+          "doi": null,
+          "verification_note": "mediaTUM ghi Dissertation của Yuxuan Yao, TUM School of Natural Sciences, Professur für Theoretische Chemie; công bố 25/09/2025. Đây là luận án tiến sĩ, không phải bài báo tạp chí.",
+          "venue": "TUM School of Natural Sciences",
+          "topic_codes": [
+            "AI_DATA",
+            "MATERIALS",
+            "ENERGY"
+          ],
+          "primary_topic_code": "MATERIALS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Technische Universität Berlin",
+      "domain": "tu.berlin",
+      "research_portals": [
+        {
+          "url": "https://depositonce.tu-berlin.de/",
+          "title": "DepositOnce – TU Berlin"
+        }
+      ],
+      "items": [
+        {
+          "title": "SVN-ICP: Uncertainty estimation of ICP-based LiDAR odometry using Stein Variational Newton",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Robot & tự động hóa",
+            "AI & dữ liệu"
+          ],
+          "summary_vi": "Ước lượng đồng thời vị trí và độ bất định cho định vị LiDAR bằng ICP và suy luận Stein Variational Newton; kết hợp với IMU để đánh giá trong nhiều môi trường.",
+          "url": "https://depositonce.tu-berlin.de/items/8b5fd8c1-bb27-42f2-a79b-bfa997b81604",
+          "doi": "10.1109/lra.2025.3619836",
+          "verification_note": "DepositOnce ghi Article, Published Version, Date Issued 09/10/2025; tác giả Shiping Ma, Haoming Zhang, Marc Toussaint, đơn vị Inst. Technische Informatik und Mikroelektronik. Ngày nạp kho 2026 không dùng làm năm bài báo.",
+          "venue": "IEEE Robotics and Automation Letters",
+          "topic_codes": [
+            "ROBOTICS",
+            "AI_DATA"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Towards deep-reinforcement-learning-based motion planning for industrial robots in collaborative environments",
+          "year": 2025,
+          "type": "doctoral_thesis",
+          "topics": [
+            "AI & dữ liệu",
+            "Robot & tự động hóa"
+          ],
+          "summary_vi": "Đề xuất lập kế hoạch chuyển động bằng học tăng cường sâu cho robot công nghiệp trong môi trường hợp tác; dùng thông tin khoảng cách để giảm khối lượng dữ liệu và chuyển mô hình từ mô phỏng sang robot thật.",
+          "url": "https://depositonce.tu-berlin.de/items/6fa1250f-1cd2-488f-931c-6851186de220",
+          "doi": "10.14279/depositonce-24638",
+          "verification_note": "DepositOnce ghi Doctoral Thesis của Teham Bhuiyan, năm 2025, Inst. Telekommunikationssysteme. DOI là DOI luận án trong kho, không phải DOI bài báo.",
+          "venue": "TU Berlin doctoral thesis",
+          "topic_codes": [
+            "AI_DATA",
+            "ROBOTICS"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "KTH Royal Institute of Technology",
+      "domain": "kth.se",
+      "research_portals": [
+        {
+          "url": "https://kth.diva-portal.org/",
+          "title": "KTH DiVA publications"
+        }
+      ],
+      "items": [
+        {
+          "title": "AttentionGuard: Transformer-based Misbehavior Detection for Secure Vehicular Platoons",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "An toàn thông tin",
+            "AI & dữ liệu",
+            "Xây dựng & giao thông"
+          ],
+          "summary_vi": "Dùng mô hình Transformer phát hiện dữ liệu chuyển động giả mạo trong đoàn xe kết nối V2X. Đánh giá dựa trên dữ liệu mô phỏng các kiểu tấn công và thao tác đoàn xe.",
+          "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2022301",
+          "doi": "10.1145/3733965.3733966",
+          "verification_note": "Trang tác giả chính thức KTH DiVA cung cấp tiêu đề, DOI, năm, tóm tắt và affiliation KTH EECS cho các tác giả. Trang record trực tiếp có chặn Anubis; không vượt qua chặn.",
+          "venue": "ACM WISEML 2025",
+          "attribution_url": "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person:117623",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Towards a Lightweight Edge AI-based Radio Frequency Fingerprinting",
+          "year": 2025,
+          "type": "conference_paper",
+          "topics": [
+            "An toàn thông tin",
+            "AI & dữ liệu",
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Xác thực thiết bị IoT qua dấu vân tay tín hiệu vô tuyến bằng mô hình học sâu gọn nhẹ. Nghiên cứu chuyển mô hình sang TensorFlow Lite và thử nghiệm trên Raspberry Pi.",
+          "url": "https://kth.diva-portal.org/smash/record.jsf?pid=diva2:2027481",
+          "doi": "10.1109/IWCMC65282.2025.11059726",
+          "verification_note": "Trang tác giả KTH DiVA ghi conference paper phản biện tại IWCMC 2025, tác giả Ahmed Mohamed Hussain và Panos Papadimitratos thuộc KTH EECS. Trang record trực tiếp có chặn Anubis; DOI và nội dung đối chiếu từ trang tác giả.",
+          "venue": "2025 International Wireless Communications and Mobile Computing",
+          "attribution_url": "https://kth.diva-portal.org/smash/person.jsf?pid=authority-person:117623",
+          "topic_codes": [
+            "CYBERSECURITY",
+            "AI_DATA",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "CYBERSECURITY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "domain": "chalmers.se",
+      "research_portals": [
+        {
+          "url": "https://research.chalmers.se/",
+          "title": "Chalmers Research"
+        }
+      ],
+      "items": [
+        {
+          "title": "Machine learning-based lifelong estimation of lithium plating potential: A path to health-aware fastest battery charging",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Năng lượng",
+            "Xây dựng & giao thông"
+          ],
+          "summary_vi": "Ước lượng nguy cơ mạ lithium bằng học máy để điều khiển sạc pin nhanh hơn nhưng vẫn chú ý tuổi thọ; phương pháp sử dụng dữ liệu pin có thể thu được trên xe điện.",
+          "url": "https://research.chalmers.se/en/publication/543531",
+          "doi": "10.1016/j.ensm.2024.103877",
+          "verification_note": "Chalmers Research ghi Journal article, 2025; Yizhou Zhang, Torsten Wik, Changfu Zou thuộc Electrical Engineering, Systems and Control. DOI chứa 2024 nhưng năm số tạp chí ghi 2025.",
+          "venue": "Energy Storage Materials 74, 103877",
+          "topic_codes": [
+            "AI_DATA",
+            "ENERGY",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Smart sensing breaks the accuracy barrier in battery state monitoring",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Năng lượng",
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Kết hợp cảm biến cơ học, nhiệt, khí, quang và điện với học máy có khả năng giải thích để ước lượng trạng thái sạc pin; nghiên cứu xây dựng ba bộ dữ liệu đa cảm biến.",
+          "url": "https://research.chalmers.se/en/publication/547452",
+          "doi": "10.1016/j.ensm.2025.104410",
+          "verification_note": "Chalmers Research ghi Journal article, 2025; các tác giả Xiaolei Bian, Changfu Zou và Torsten Wik thuộc Electrical Engineering, Systems and Control.",
+          "venue": "Energy Storage Materials 80, 104410",
+          "topic_codes": [
+            "AI_DATA",
+            "ENERGY",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Aalto University",
+      "domain": "aalto.fi",
+      "research_portals": [
+        {
+          "url": "https://research.aalto.fi/",
+          "title": "Aalto Research Portal"
+        }
+      ],
+      "items": [
+        {
+          "title": "Probing fast quantum circuit refrigeration in the quantum regime",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Khoa học cơ bản",
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Thực nghiệm làm lạnh nhanh mạch lượng tử bằng xuyên hầm hỗ trợ photon; sử dụng qubit làm đầu dò để theo dõi số photon trong bộ cộng hưởng siêu dẫn.",
+          "url": "https://research.aalto.fi/en/publications/probing-fast-quantum-circuit-refrigeration-in-the-quantum-regime/",
+          "doi": "10.1103/PhysRevApplied.23.L011003",
+          "verification_note": "Aalto Research Portal ghi bài báo phản biện, Published Jan 2025, đơn vị Quantum Phenomena and Devices và Department of Applied Physics, có đồng tác giả Jukka Pekola.",
+          "venue": "Physical Review Applied 23(1), L011003",
+          "topic_codes": [
+            "BASIC_SCIENCE",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "ELECTRONICS_TELECOM",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Thermal spectrometer for superconducting circuits",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Khoa học cơ bản",
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Dùng phép đo nhiệt bằng tín hiệu DC và bolometer trên chip để xác định tần số cộng hưởng và dạng phổ của mạch siêu dẫn, như một lựa chọn thay thế cách đọc phổ RF truyền thống.",
+          "url": "https://research.aalto.fi/fi/publications/thermal-spectrometer-for-superconducting-circuits/",
+          "doi": "10.1038/s41467-025-58919-8",
+          "verification_note": "Portal Aalto ghi bài báo phản biện, năm 2025, Nature Communications 16, 4435; đơn vị Quantum Phenomena and Devices, Department of Applied Physics và OtaNano. Chỉ giữ năm vì metadata tháng có thể là tháng của số tạp chí. Crossref xác nhận ngày công bố online 13/05/2025; nhãn tháng 12 trên portal không được sử dụng.",
+          "venue": "Nature Communications 16, 4435",
+          "topic_codes": [
+            "BASIC_SCIENCE",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "ELECTRONICS_TELECOM",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Politecnico di Milano",
+      "domain": "polimi.it",
+      "research_portals": [
+        {
+          "url": "https://re.public.polimi.it/",
+          "title": "RE.PUBLIC@POLIMI"
+        }
+      ],
+      "items": [
+        {
+          "title": "Blueish hydrogen production via methane pyrolysis and remote CO2 capture and storage",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng",
+            "Môi trường"
+          ],
+          "summary_vi": "Đánh giá quy trình sản xuất hydro từ nhiệt phân methane, vận chuyển carbon rắn sang cơ sở oxy hóa tập trung rồi thu giữ CO₂; xem xét hiệu quả năng lượng, chi phí và phát thải trong kịch bản cụ thể.",
+          "url": "https://re.public.polimi.it/handle/11311/1293138",
+          "doi": "10.1016/j.ijhydene.2025.05.353",
+          "verification_note": "Hồ sơ RE.PUBLIC@POLIMI và bản bài báo ghi năm 2025, đồng tác giả thuộc Department of Energy, Politecnico di Milano; không khái quát kết quả kịch bản thành hiệu quả thương mại phổ quát.",
+          "venue": "International Journal of Hydrogen Energy 146, 149723",
+          "topic_codes": [
+            "ENERGY",
+            "ENVIRONMENT"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "Energy and economic assessment of LH2, NH3, TOL/MCH and H0-DBT/H18-DBT for large-scale hydrogen transport",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Năng lượng",
+            "Xây dựng & giao thông"
+          ],
+          "summary_vi": "So sánh chuỗi chuyển đổi, lưu trữ, vận tải biển và hoàn nguyên hydro dùng nhiều chất mang trong tuyến Bắc Phi–Ý; lựa chọn kinh tế phụ thuộc vào mục đích sử dụng hydro cuối cùng.",
+          "url": "https://re.public.polimi.it/handle/11311/1295776",
+          "doi": "10.1016/j.mtsust.2025.101187",
+          "verification_note": "Hồ sơ RE.PUBLIC@POLIMI ghi năm 2025; bản toàn văn nêu nhóm GASP, Politecnico di Milano cho Restelli, Spatolisano và Pellegrini. DOI đối chiếu cả bản toàn văn và trang nhà xuất bản.",
+          "venue": "Materials Today Sustainability 31, 101187",
+          "topic_codes": [
+            "ENERGY",
+            "CONSTRUCTION_TRANSPORT"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "Politecnico di Torino",
+      "domain": "polito.it",
+      "research_portals": [
+        {
+          "url": "https://iris.polito.it/",
+          "title": "PORTO – Politecnico di Torino institutional repository"
+        }
+      ],
+      "items": [
+        {
+          "title": "The collaboration scale: A novel approach for assessing robotic systems collaboration capabilities",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "Robot & tự động hóa"
+          ],
+          "summary_vi": "Đề xuất thang đánh giá khả năng cộng tác của hệ robot trên năm chiều: nhận biết tình huống, thích nghi, giao tiếp, học và di chuyển; phục vụ so sánh hệ thống tương tác người–robot.",
+          "url": "https://iris.polito.it/handle/11583/3000290",
+          "doi": "10.1016/j.rcim.2025.103062",
+          "verification_note": "PORTO ghi Articolo in rivista, năm 2025; bản toàn văn nêu bốn tác giả thuộc Dipartimento di Ingegneria Gestionale e della Produzione, Politecnico di Torino.",
+          "venue": "Robotics and Computer-Integrated Manufacturing 96, 103062",
+          "topic_codes": [
+            "ROBOTICS"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        },
+        {
+          "title": "A Safe, high-precision reinforcement learning-based optimal control of surgical continuum robots: A monotone tube boundary approach with prescribed-time control capability",
+          "year": 2025,
+          "type": "journal_article",
+          "topics": [
+            "AI & dữ liệu",
+            "Robot & tự động hóa",
+            "Công nghệ sinh học & y sinh"
+          ],
+          "summary_vi": "Kết hợp ràng buộc sai số bám với học tăng cường actor–critic để điều khiển robot phẫu thuật dạng liên tục. Nguồn mô tả đánh giá bằng mô phỏng robot hai đoạn, chưa phải thử nghiệm điều trị trên người.",
+          "url": "https://iris.polito.it/handle/11583/3005921",
+          "doi": "10.1016/j.robot.2025.104992",
+          "verification_note": "PORTO ghi Articolo in rivista, năm 2025; tác giả Jabari, Botta, Tagliavini, Visconte, Quaglia. Tóm tắt chỉ khẳng định kết quả mô phỏng.",
+          "venue": "Robotics and Autonomous Systems 190, 104992",
+          "topic_codes": [
+            "AI_DATA",
+            "ROBOTICS",
+            "BIOTECH_HEALTH"
+          ],
+          "primary_topic_code": "ROBOTICS",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_university_repository"
+        }
+      ]
+    },
+    {
+      "name": "TU Wien",
+      "domain": "tuwien.at",
+      "research_portals": [
+        {
+          "url": "https://www.tuwien.at/en/research",
+          "title": "TU Wien Research"
+        }
+      ],
+      "items": [
+        {
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "year": 2026,
+          "type": "journal_article",
+          "topics": [
+            "Khoa học cơ bản",
+            "Điện tử & viễn thông"
+          ],
+          "summary_vi": "Thực hiện đồng hồ hạt nhân thorium-229 với vòng phản hồi ổn định laser theo chuyển mức hạt nhân trong tinh thể; nghiên cứu đánh giá độ ổn định và phép kiểm tra vật lý cơ bản.",
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "doi": "10.1038/s41586-026-11084-4",
+          "verification_note": "Trang Nature ghi Published 07/10/2026. Tin chính thức TU Wien 08/10/2026 liên kết bài gốc và xác nhận nhóm Thorsten Schumm, Institute of Atomic and Subatomic Physics cùng đối tác PTB; không nhầm tiêu đề tin với tiêu đề bài báo.",
+          "venue": "Nature 658, 897–902",
+          "attribution_url": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/die-erste-selbststabilisierende-atomkernuhr-tickt-in-wien",
+          "topic_codes": [
+            "BASIC_SCIENCE",
+            "ELECTRONICS_TELECOM"
+          ],
+          "primary_topic_code": "BASIC_SCIENCE",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "publisher_and_university"
+        },
+        {
+          "title": "Advanced Bioenergy Lab Austria – Phase 1",
+          "year": 2026,
+          "type": "research_project",
+          "topics": [
+            "Năng lượng",
+            "Môi trường"
+          ],
+          "summary_vi": "Dự án xây dựng hạ tầng thí nghiệm sản xuất nhiên liệu bền vững từ sinh khối lâm nghiệp và phụ phẩm sinh học, gồm diesel Fischer–Tropsch và khí tự nhiên tổng hợp.",
+          "url": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/reallabor-fuer-nachhaltige-treibstoffe",
+          "doi": null,
+          "verification_note": "Tin chính thức TU Wien ngày 27/10/2026 nêu tên dự án, việc trường nhận vai trò dẫn đầu consortium vào mùa thu 2026 và mục tiêu hạ tầng. Đây là dự án được mô tả qua tin chính thức, không phải bài báo khoa học.",
+          "source_page_title": "Real-world laboratory for sustainable fuels",
+          "topic_codes": [
+            "ENERGY",
+            "ENVIRONMENT"
+          ],
+          "primary_topic_code": "ENERGY",
+          "retrieved_on": "2026-10-30",
+          "source_kind": "official_project_announcement"
+        }
+      ]
+    }
+  ],
+  "metadata_validation_note_vi": "Đã kiểm tra bổ sung DOI qua Crossref: 17 tiêu đề khớp, 7 yêu cầu bị giới hạn tốc độ; một DOI luận án thuộc DataCite. Năm TU/e CAMA khác nhau giữa portal (2026) và ngày hội nghị/Crossref (2025), được ghi rõ trong mục tương ứng. Không coi lỗi truy cập hoặc rate limit là DOI không hợp lệ."
+}

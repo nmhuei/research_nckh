@@ -1,0 +1,22 @@
+{
+  "dataset": "NCES IPEDS HD2025 Directory information",
+  "dataset_year": 2025,
+  "collection_year": "2025–26",
+  "release_type": "provisional",
+  "checked_on": "2026-10-30",
+  "status": "official_download_unavailable_from_runtime",
+  "source_urls": [
+    "https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?gotoReportId=7",
+    "https://nces.ed.gov/ipeds/datacenter/data/HD2025.zip",
+    "https://nces.ed.gov/ipeds/datacenter/data/HD2025_Dict.zip",
+    "https://nces.ed.gov/ipeds/survey-components"
+  ],
+  "directory_count": null,
+  "downloaded_count": 0,
+  "filter_planned": "Active degree-granting institutions: CYACTIVE=1, DEGGRANT=1, ACT in A/N/R, SECTOR in 1–6, and no reported closure date. Separate bachelor-or-above subset using HDEGOFR1 in 11/12/13/14/20/30. Geographic scope must explicitly decide US territories and exclude freely associated independent countries FM/MH/PW.",
+  "limitations": [
+    "Official NCES search listing confirms HD2025 is published, but direct NCES file and page requests repeatedly timed out in this runtime. No normalized IPEDS rows were produced; do not count this as registry ingestion.",
+    "The directory describes the 2025–26 reporting period, not a live guarantee of institutional status or URL reachability.",
+    "The intended all-degree-granting filter includes associate-degree colleges as well as universities."
+  ]
+}

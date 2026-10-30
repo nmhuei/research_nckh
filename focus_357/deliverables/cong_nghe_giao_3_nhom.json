@@ -1,0 +1,1748 @@
+{
+  "date": "2026-10-30",
+  "scope_note_vi": "Lọc ở cấp họ công nghệ trên G3/G5/G7 và công trình gốc bổ sung. Năm họ vào bộ lọc chính; học liên kết còn thiếu bằng chứng robot. Giao trực tiếp có ba bài: neuromorphic drone (G7 là năng lượng khối tính toán), robot mềm autoencoder (G7 là tối ưu mô hình kỹ thuật), và G&CNet (có mục tiêu tối ưu năng lượng bay). Phạm vi G7 được tách rõ, không suy diễn từ mô hình nhanh sang pin robot tiết kiệm. Họ MPC nhúng dựa một phần vào luận văn thạc sĩ, được ghi đúng loại và mức kiểm chứng. Mỗi tên công trình có nguồn riêng để ghép vào catalog.",
+  "selection_note_vi": "Giữ họ công nghệ có bằng chứng ở ba nhóm; ghi riêng công trình thực sự có đủ ba nhãn và công nghệ có bằng chứng qua nhiều công trình. G7 được chú thích rõ là năng lượng suy luận, năng lượng vận hành hoặc tối ưu mô hình/hệ thống kỹ thuật.",
+  "technologies": [
+    {
+      "technology_id": "TI05",
+      "name_vi": "Thị giác sự kiện và mạng nơ-ron xung cho điều khiển bay trên chip neuromorphic",
+      "concrete_technologies": [
+        "Event camera",
+        "Spiking neural network",
+        "Intel Loihi",
+        "Học tự giám sát ego-motion",
+        "Điều khiển học bằng evolutionary algorithm",
+        "Top-K cutoff cho SNN"
+      ],
+      "role_g3_vi": "Xử lý sự kiện thưa, SNN và bộ xử lý neuromorphic cho suy luận trên drone; nghiên cứu Chalmers thêm cơ chế dừng SNN sớm.",
+      "role_g5_vi": "TU Delft trình diễn pipeline từ camera sự kiện đến lệnh điều khiển trên drone bay thật.",
+      "role_g7_vi": "Tối ưu năng lượng của khối tính toán điều khiển nhúng, có số đo năng lượng suy luận trên phần cứng; chưa xác nhận giảm tổng năng lượng bay.",
+      "mechanism_vi": "Camera phát sự kiện thay khung hình; SNN học ước lượng chuyển động và điều khiển, chạy trực tiếp trên Loihi. Xử lý thưa tránh tính toán đều đặn trên mọi pixel.",
+      "work_title_evidence": {
+        "G3": [
+          "Fully neuromorphic vision and control for autonomous drone flight",
+          "Optimizing event-driven spiking neural network with regularization and cutoff"
+        ],
+        "G5": [
+          "Fully neuromorphic vision and control for autonomous drone flight"
+        ],
+        "G7": [
+          "Fully neuromorphic vision and control for autonomous drone flight"
+        ]
+      },
+      "source_urls": [
+        "https://arxiv.org/abs/2303.08778",
+        "https://doi.org/10.1126/scirobotics.adi0591",
+        "https://repository.tudelft.nl/file/File_83437854-175e-4467-a55f-c045534cb542",
+        "https://doi.org/10.3389/fnins.2025.1522788"
+      ],
+      "evidence_note_vi": "Giao trực tiếp trong một công trình nếu G7 bao gồm tối ưu năng lượng phần cứng điều khiển: SNN chạy onboard, drone bay thật và năng lượng suy luận được báo cáo. Không đồng nhất số đo này với điện năng motor, pin toàn drone hay thời gian bay. Bản arXiv 2023, bài Science Robotics 2024.",
+      "maturity_note_vi": "Nguyên mẫu nghiên cứu bay thật; không khẳng định công nghệ đã sẵn sàng cho sản phẩm thương mại, drone swarm hoặc tối ưu pin toàn hệ.",
+      "selection_status": "confirmed_single_work_compute_energy_scope",
+      "strong_filter": true,
+      "single_paper_all_three_confirmed": true,
+      "reading_depth": "author_preprint_abstract_and_indexed_published_paper",
+      "full_text_read": false,
+      "single_paper_all_three_titles": [
+        "Fully neuromorphic vision and control for autonomous drone flight"
+      ],
+      "work_ids_by_group": {
+        "G3": [
+          "F087",
+          "F103"
+        ],
+        "G5": [
+          "F087"
+        ],
+        "G7": [
+          "F087"
+        ]
+      },
+      "unmatched_titles": [],
+      "all_work_ids": [
+        "F087",
+        "F103"
+      ],
+      "direct_triple_work_ids": [
+        "F087"
+      ]
+    },
+    {
+      "technology_id": "TI01",
+      "name_vi": "Mô hình giảm bậc học bằng autoencoder cho mô phỏng và điều khiển",
+      "concrete_technologies": [
+        "Autoencoder tham số hóa biến dạng",
+        "POD kết hợp deep autoencoder",
+        "Bảo toàn cấu trúc Lagrange",
+        "Điều khiển phản hồi trong không gian ẩn"
+      ],
+      "role_g3_vi": "Giảm số biến trạng thái và chi phí mô phỏng/điều khiển nhờ biểu diễn ẩn gọn.",
+      "role_g5_vi": "TU Delft dùng autoencoder xây mô hình robot mềm dẫn động bằng cáp; kiểm chứng cả mô phỏng và robot thực.",
+      "role_g7_vi": "Polimi dùng mô hình giảm bậc học sâu để tính phản hồi nhanh cho hệ phân bố và bài toán kỹ thuật nhiều kịch bản.",
+      "mechanism_vi": "Huấn luyện biểu diễn nhỏ từ dữ liệu hệ vật lý, duy trì cấu trúc động lực cần thiết, rồi mô phỏng hoặc tính điều khiển trên không gian đó. Cùng công nghệ giảm bậc xuất hiện trong hai ứng dụng; không phải cùng một mô hình đã chuyển trực tiếp giữa chúng.",
+      "work_title_evidence": {
+        "G3": [
+          "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+          "Structure-Preserving Model Order Reduction of Slender Soft Robots via Autoencoder-Parameterized Strain"
+        ],
+        "G5": [
+          "Structure-Preserving Model Order Reduction of Slender Soft Robots via Autoencoder-Parameterized Strain"
+        ],
+        "G7": [
+          "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models"
+        ]
+      },
+      "source_urls": [
+        "https://doi.org/10.1109/LRA.2025.3606389",
+        "https://pure.tudelft.nl/ws/portalfiles/portal/257289069/Structure-Preserving_Model_Order_Reduction_of_Slender_Soft_Robots_via_Autoencoder-Parameterized_Strain.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0045782525003020",
+        "https://re.public.polimi.it/handle/11311/1290369"
+      ],
+      "evidence_note_vi": "Giao ba nhóm ở cấp họ công nghệ qua các công trình gốc. Robot mềm: IEEE RA-L 2025, DOI 10.1109/LRA.2025.3606389; Polimi: CMAME 2025, DOI 10.1016/j.cma.2025.118030. Không suy ra tiết kiệm điện của robot từ việc mô phỏng nhanh hơn. Bài robot mềm trực tiếp giao G3/G5/G7 khi G7 gồm tối ưu mô hình kỹ thuật và giảm chi phí tính toán; đây không phải bằng chứng giảm năng lượng vật lý.",
+      "maturity_note_vi": "Có kiểm chứng robot mềm thực và mô phỏng bài toán kỹ thuật; chưa xác nhận sản phẩm thương mại hoặc một triển khai chung cho cả ba nhóm.",
+      "selection_status": "confirmed_family_across_all_three",
+      "strong_filter": true,
+      "single_paper_all_three_confirmed": true,
+      "reading_depth": "original_paper_abstracts_and_selected_first_page",
+      "full_text_read": false,
+      "single_paper_all_three_titles": [
+        "Structure-Preserving Model Order Reduction of Slender Soft Robots via Autoencoder-Parameterized Strain"
+      ],
+      "work_ids_by_group": {
+        "G3": [
+          "F114",
+          "F085"
+        ],
+        "G5": [
+          "F085"
+        ],
+        "G7": [
+          "F114",
+          "F085"
+        ]
+      },
+      "unmatched_titles": [],
+      "all_work_ids": [
+        "F114",
+        "F085"
+      ],
+      "direct_triple_work_ids": [
+        "F085"
+      ]
+    },
+    {
+      "technology_id": "TI02",
+      "name_vi": "Bộ điều khiển nơ-ron học từ bộ giải, mô hình vật lý và chính sách",
+      "concrete_technologies": [
+        "G&CNet học có giám sát từ quỹ đạo tối ưu năng lượng",
+        "Behavior cloning từ nghiệm quy hoạch tuyến tính",
+        "PPO khởi tạo bằng hành vi tối ưu",
+        "CLF-guided reward shaping",
+        "Chính sách neural chạy trực tiếp sau huấn luyện"
+      ],
+      "role_g3_vi": "G&CNet thay tính điều khiển tối ưu online bằng ánh xạ nơ-ron từ trạng thái sang rpm, chạy onboard; CLF-RL để tham chiếu/CLF ở khâu huấn luyện nên policy triển khai nhẹ; BC từ LP giảm bước học PPO.",
+      "role_g5_vi": "G&CNet được thử trên quadcopter bay thật; CLF-RL trên Unitree G1; Stable-BC cung cấp thêm bằng chứng học bắt chước cho robot.",
+      "role_g7_vi": "G&CNet học chính sách tối ưu năng lượng cho chuyển động hover-to-hover và có đối chiếu trên bay thật; TUM dùng BC+PPO quản lý điện mặt trời–pin.",
+      "mechanism_vi": "Tạo nghiệm hoặc tín hiệu huấn luyện bằng bộ giải/mô hình vật lý, sau đó học ánh xạ điều khiển. Phải tách ba biến thể: G&CNet là học có giám sát từ quỹ đạo tối ưu; CLF-RL dùng reward shaping khi học tăng cường; BC từ LP khởi tạo PPO. Không gọi tất cả là RL.",
+      "work_title_evidence": {
+        "G3": [
+          "End-to-end neural network based optimal quadcopter control",
+          "CLF-RL: Control Lyapunov Function Guided Reinforcement Learning",
+          "Boosting the Performance of Deep Reinforcement Learning for Energy Management Systems using Behavior Cloning from Linear Programming Solutions"
+        ],
+        "G5": [
+          "End-to-end neural network based optimal quadcopter control",
+          "CLF-RL: Control Lyapunov Function Guided Reinforcement Learning",
+          "Stable-BC: Controlling Covariate Shift with Stable Behavior Cloning"
+        ],
+        "G7": [
+          "End-to-end neural network based optimal quadcopter control",
+          "Boosting the Performance of Deep Reinforcement Learning for Energy Management Systems using Behavior Cloning from Linear Programming Solutions"
+        ]
+      },
+      "source_urls": [
+        "https://doi.org/10.1016/j.robot.2023.104588",
+        "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+        "https://doi.org/10.1109/LRA.2026.3653329",
+        "https://arxiv.org/abs/2508.09354",
+        "https://authors.library.caltech.edu/records/n1jqg-78512",
+        "https://arxiv.org/abs/2408.06246",
+        "https://mediatum.ub.tum.de/doc/1832932/document.pdf",
+        "https://doi.org/10.1145/3679240.3734605"
+      ],
+      "evidence_note_vi": "Có giao trực tiếp trong G&CNet (RAS 172, 2024, 104588), bên cạnh bằng chứng cấp họ từ Caltech/VT/TUM. Bay tối ưu năng lượng trong G&CNet là đối tượng riêng, không suy rộng kết quả đó sang CLF-RL. Root quản lý bản ghi G&CNet để tránh trùng additional_items.",
+      "maturity_note_vi": "G&CNet và CLF-RL có thử nghiệm robot thực. Nghiên cứu năng lượng TUM dùng dữ liệu microgrid thực, chưa đồng nghĩa triển khai đóng vòng tại nhà máy.",
+      "selection_status": "confirmed_family_across_all_three",
+      "strong_filter": true,
+      "single_paper_all_three_confirmed": true,
+      "reading_depth": "original_paper_abstracts_and_publication_metadata",
+      "full_text_read": false,
+      "single_paper_all_three_titles": [
+        "End-to-end neural network based optimal quadcopter control"
+      ],
+      "work_ids_by_group": {
+        "G3": [
+          "F086",
+          "F048",
+          "F095"
+        ],
+        "G5": [
+          "F086",
+          "F048",
+          "F063"
+        ],
+        "G7": [
+          "F086",
+          "F095"
+        ]
+      },
+      "unmatched_titles": [],
+      "all_work_ids": [
+        "F086",
+        "F048",
+        "F095",
+        "F063"
+      ],
+      "direct_triple_work_ids": [
+        "F086"
+      ]
+    },
+    {
+      "technology_id": "TI03",
+      "name_vi": "Điều khiển dự báo MPC kết hợp mô hình học và triển khai nhúng",
+      "concrete_technologies": [
+        "RNN dự báo cục bộ",
+        "MPC tối ưu lồi trên gateway nhúng",
+        "Adversarial inverse reinforcement learning kết hợp MPC",
+        "PPO kết hợp MPC cho đỗ xe"
+      ],
+      "role_g3_vi": "Luận văn TU Delft thực thi dự báo và MPC trên phần cứng gateway hạn chế tài nguyên, vận hành bằng dữ liệu cục bộ khi không có cloud.",
+      "role_g5_vi": "ARMCHAIR dùng mô hình học hành vi và MPC để đội robot hỗ trợ con người, tránh va chạm và duy trì kết nối; UTC kết hợp PPO–MPC cho đỗ xe.",
+      "role_g7_vi": "RNN–MPC của TU Delft dự báo phụ tải, PV và giá điện để quản lý pin, sạc xe điện và ràng buộc lưới.",
+      "mechanism_vi": "Mô hình học cung cấp dự báo hoặc mô tả hành vi; MPC giải bài toán điều khiển có ràng buộc theo cửa sổ trượt. Phân tách thành phần học và bộ tối ưu cho phép kiểm soát yêu cầu tính toán của triển khai nhúng.",
+      "work_title_evidence": {
+        "G3": [
+          "Non-Exogenous Embedded Control of Microgrids"
+        ],
+        "G5": [
+          "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+          "Model predictive control combined reinforcement learning for automatic vehicles applied in intelligent transportation system"
+        ],
+        "G7": [
+          "Non-Exogenous Embedded Control of Microgrids"
+        ]
+      },
+      "source_urls": [
+        "https://repository.tudelft.nl/record/uuid:a111bca9-d20a-4613-b019-489084f4dbd6",
+        "https://arxiv.org/abs/2402.19128",
+        "https://doi.org/10.1007/s12369-025-01332-4",
+        "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/download/25274/11855"
+      ],
+      "evidence_note_vi": "Giao cấp họ công nghệ, không phải một hệ thống robot–microgrid chung. Non-Exogenous Embedded Control of Microgrids là luận văn thạc sĩ TU Delft năm 2025 của R. Marsman; nguồn xác nhận chạy được trên phần cứng nhúng. Bài ARMCHAIR và UTC là đánh giá mô phỏng.",
+      "maturity_note_vi": "Có bằng chứng triển khai phần tính toán trên gateway; bài microgrid kiểm chứng bằng dữ liệu lịch sử, không khẳng định đã vận hành nhà máy thời gian thực. Chân robot của bằng chứng ở mức mô phỏng.",
+      "selection_status": "confirmed_family_across_all_three",
+      "strong_filter": true,
+      "single_paper_all_three_confirmed": false,
+      "reading_depth": "original_thesis_abstract_and_original_article_abstracts",
+      "full_text_read": false,
+      "work_ids_by_group": {
+        "G3": [
+          "F083"
+        ],
+        "G5": [
+          "F081",
+          "F036"
+        ],
+        "G7": [
+          "F083"
+        ]
+      },
+      "unmatched_titles": [],
+      "all_work_ids": [
+        "F083",
+        "F081",
+        "F036"
+      ],
+      "direct_triple_work_ids": []
+    },
+    {
+      "technology_id": "TI04",
+      "name_vi": "Phân chia suy luận và học liên tục giữa phương tiện, biên và đám mây",
+      "concrete_technologies": [
+        "Phân hoạch DNN thích ứng",
+        "Tìm chiến lược phân chia bằng gradient",
+        "Gán tác vụ biên bằng online convex optimization",
+        "Học kỹ năng lái xe trên cloud rồi cập nhật policy"
+      ],
+      "role_g3_vi": "CoFANN chia tính toán DNN theo thiết bị/mạng; bài TU Delft gán suy luận theo độ trễ, năng lượng và năng lực từng nút.",
+      "role_g5_vi": "Có ứng dụng giám sát bằng drone trong CoFANN và học liên tục xe tự hành trong nghiên cứu Chalmers.",
+      "role_g7_vi": "TU Delft tối ưu đồng thời chất lượng suy luận, độ trễ và năng lượng tính toán/truyền dữ liệu, có cân bằng chi phí năng lượng giữa nút. Đây là tối ưu hạ tầng kỹ thuật, chưa phải giảm tổng năng lượng bay.",
+      "mechanism_vi": "Đặt phần việc phù hợp ở thiết bị, edge hoặc cloud; điều chỉnh theo tài nguyên và điều kiện mạng, cập nhật mô hình/chính sách khi cần.",
+      "work_title_evidence": {
+        "G3": [
+          "CoFANN: A collaborative framework for accelerating DNN inference in drone-based agricultural monitoring systems",
+          "Cooperative Edge Inferences With Online Learning"
+        ],
+        "G5": [
+          "CoFANN: A collaborative framework for accelerating DNN inference in drone-based agricultural monitoring systems",
+          "Skill-abstracting continual reinforcement learning for safe, efficient, and comfortable autonomous driving through vehicle-cloud collaboration"
+        ],
+        "G7": [
+          "Cooperative Edge Inferences With Online Learning"
+        ]
+      },
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S1569190X2500111X",
+        "https://doi.org/10.1109/JIOT.2025.3610695",
+        "https://doi.org/10.1111/mice.13503",
+        "https://research.chalmers.se/en/publication/546686"
+      ],
+      "evidence_note_vi": "Giao cấp họ công nghệ qua CoFANN, xe–cloud và tối ưu suy luận biên của TU Delft. CoFANN có G3/G5; bài TU Delft có G3/G7 về chi phí năng lượng mạng biên. Không có một bài ở đây xác nhận giảm điện năng toàn drone hoặc tăng thời gian bay.",
+      "maturity_note_vi": "Vehicle-cloud của Chalmers đánh giá trong mô phỏng với dữ liệu thực; không coi đó là xe đã chạy thử policy ngoài đường.",
+      "selection_status": "confirmed_family_across_all_three",
+      "strong_filter": true,
+      "single_paper_all_three_confirmed": false,
+      "reading_depth": "original_article_abstracts_and_existing_verified_records",
+      "full_text_read": false,
+      "work_ids_by_group": {
+        "G3": [
+          "F020",
+          "F082"
+        ],
+        "G5": [
+          "F020",
+          "F104"
+        ],
+        "G7": [
+          "F082"
+        ]
+      },
+      "unmatched_titles": [],
+      "all_work_ids": [
+        "F020",
+        "F082",
+        "F104"
+      ],
+      "direct_triple_work_ids": []
+    }
+  ],
+  "supporting_works": [
+    {
+      "title": "CoFANN: A collaborative framework for accelerating DNN inference in drone-based agricultural monitoring systems",
+      "year": 2025,
+      "schools": [
+        "UIT"
+      ],
+      "group_codes": [
+        "G3",
+        "G5"
+      ],
+      "subtopics_vi": [
+        "Suy luận cộng tác thiết bị–biên",
+        "Phân hoạch DNN thích ứng"
+      ],
+      "ai_methods": [
+        "Suy luận cộng tác thiết bị–biên",
+        "Phân hoạch DNN thích ứng"
+      ],
+      "method_vi": "Tìm chiến lược phân hoạch qua không gian khả vi và tối ưu gradient; chia mô hình theo tài nguyên và trạng thái mạng.",
+      "problem_vi": "Drone và IoT thiếu tài nguyên; chuyển mọi phép tính lên máy chủ gây độ trễ.",
+      "contribution_vi": "Phân chia các thành phần DNN giữa thiết bị để giảm độ trễ suy luận trong điều kiện mạng thay đổi.",
+      "application_vi": "Giám sát bệnh lá bằng drone.",
+      "url": "https://doi.org/10.1016/j.simpat.2025.103176",
+      "doi": "10.1016/j.simpat.2025.103176",
+      "source_urls": [
+        "https://doi.org/10.1016/j.simpat.2025.103176",
+        "https://iec.uit.edu.vn/publications"
+      ],
+      "institution_evidence_vi": "Trang công bố IEC UIT ghi Nhu-Y Tran-Van, Kim-Hung Le và abstract.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published",
+      "part": "group3",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "CoFANN: A collaborative framework for accelerating DNN inference in drone-based agricultural monitoring systems",
+          "year": 2025,
+          "schools": [
+            "UIT"
+          ],
+          "group_codes": [
+            "G3"
+          ],
+          "subtopics_vi": [
+            "Suy luận cộng tác thiết bị–biên",
+            "Phân hoạch DNN thích ứng"
+          ],
+          "ai_methods": [
+            "Suy luận cộng tác thiết bị–biên",
+            "Phân hoạch DNN thích ứng"
+          ],
+          "method_vi": "Tìm chiến lược phân hoạch qua không gian khả vi và tối ưu gradient; chia mô hình theo tài nguyên và trạng thái mạng.",
+          "problem_vi": "Drone và IoT thiếu tài nguyên; chuyển mọi phép tính lên máy chủ gây độ trễ.",
+          "contribution_vi": "Phân chia các thành phần DNN giữa thiết bị để giảm độ trễ suy luận trong điều kiện mạng thay đổi.",
+          "application_vi": "Giám sát bệnh lá bằng drone.",
+          "url": "https://doi.org/10.1016/j.simpat.2025.103176",
+          "doi": "10.1016/j.simpat.2025.103176",
+          "source_urls": [
+            "https://doi.org/10.1016/j.simpat.2025.103176",
+            "https://iec.uit.edu.vn/publications"
+          ],
+          "institution_evidence_vi": "Trang công bố IEC UIT ghi Nhu-Y Tran-Van, Kim-Hung Le và abstract.",
+          "reading_depth": "official_repository_abstract_and_metadata",
+          "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+          "full_text_read": false,
+          "type": "journal_article",
+          "status": "published",
+          "part": "group3",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI cho robot và hệ thống tự hành"
+      ],
+      "regions": [
+        "Việt Nam"
+      ],
+      "country_codes": [
+        "VN"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+        "Rà soát giao công nghệ: G5 là thành phần nhận thức học sâu của hệ giám sát bằng drone; kết quả đánh giá suy luận trên dữ liệu, chưa xác nhận điều khiển bay hay giảm năng lượng bay."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F020"
+    },
+    {
+      "title": "Model predictive control combined reinforcement learning for automatic vehicles applied in intelligent transportation system",
+      "year": 2024,
+      "schools": [
+        "UTC"
+      ],
+      "subtopics_vi": [
+        "Học tăng cường cho xe tự hành",
+        "Đỗ xe tự động"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Theo dõi quỹ đạo và thực hiện thao tác đỗ xe tự động.",
+      "ai_methods": [
+        "PPO",
+        "Model predictive control"
+      ],
+      "method_vi": "MPC hỗ trợ bám quỹ đạo và xác định vị trí đỗ; PPO học điều khiển trong nhiệm vụ đỗ xe.",
+      "contribution_vi": "Kết hợp điều khiển dự báo và học tăng cường, đánh giá trong MATLAB/Simulink.",
+      "application_vi": "Hệ thống giao thông thông minh và đỗ xe tự động.",
+      "url": "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/25274",
+      "doi": "10.12928/telkomnika.v22i2.25274",
+      "source_urls": [
+        "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/25274",
+        "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/download/25274/11855"
+      ],
+      "institution_evidence_vi": "Trang đầu bài ghi Vo Thanh Ha thuộc University of Transport and Communications; đồng tác giả Chu Thi Thuy thuộc trường khác.",
+      "reading_depth": "abstract_and_affiliation_page",
+      "verification_note_vi": "Bài tạp chí năm 2024. Kết quả là mô phỏng, chưa xác nhận thử nghiệm trên đường.",
+      "group_codes": [
+        "G5"
+      ],
+      "full_text_read": false,
+      "part": "group5",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Model predictive control combined reinforcement learning for automatic vehicles applied in intelligent transportation system",
+          "year": 2024,
+          "schools": [
+            "UTC"
+          ],
+          "subtopics_vi": [
+            "Học tăng cường cho xe tự hành",
+            "Đỗ xe tự động"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Theo dõi quỹ đạo và thực hiện thao tác đỗ xe tự động.",
+          "ai_methods": [
+            "PPO",
+            "Model predictive control"
+          ],
+          "method_vi": "MPC hỗ trợ bám quỹ đạo và xác định vị trí đỗ; PPO học điều khiển trong nhiệm vụ đỗ xe.",
+          "contribution_vi": "Kết hợp điều khiển dự báo và học tăng cường, đánh giá trong MATLAB/Simulink.",
+          "application_vi": "Hệ thống giao thông thông minh và đỗ xe tự động.",
+          "url": "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/25274",
+          "doi": "10.12928/telkomnika.v22i2.25274",
+          "source_urls": [
+            "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/25274",
+            "https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/download/25274/11855"
+          ],
+          "institution_evidence_vi": "Trang đầu bài ghi Vo Thanh Ha thuộc University of Transport and Communications; đồng tác giả Chu Thi Thuy thuộc trường khác.",
+          "reading_depth": "abstract_and_affiliation_page",
+          "verification_note_vi": "Bài tạp chí năm 2024. Kết quả là mô phỏng, chưa xác nhận thử nghiệm trên đường.",
+          "group_codes": [
+            "G5"
+          ],
+          "full_text_read": false,
+          "part": "group5",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI cho robot và hệ thống tự hành"
+      ],
+      "regions": [
+        "Việt Nam"
+      ],
+      "country_codes": [
+        "VN"
+      ],
+      "source_years": [
+        2024
+      ],
+      "verification_notes_vi": [
+        "Bài tạp chí năm 2024. Kết quả là mô phỏng, chưa xác nhận thử nghiệm trên đường."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F036"
+    },
+    {
+      "title": "CLF-RL: Control Lyapunov Function Guided Reinforcement Learning",
+      "year": 2026,
+      "schools": [
+        "Caltech"
+      ],
+      "subtopics_vi": [
+        "Học tăng cường có hướng dẫn ổn định",
+        "Robot hình người"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Học điều khiển robot hình người ổn định với chi phí suy luận thấp.",
+      "ai_methods": [
+        "Reinforcement learning",
+        "Control Lyapunov function reward shaping"
+      ],
+      "method_vi": "Dùng chuyển động tham chiếu và hàm Lyapunov để định hình phần thưởng khi huấn luyện; chính sách triển khai không cần giải lại bộ điều khiển đó.",
+      "contribution_vi": "Kết hợp kiến thức ổn định với học chính sách, đánh giá mô phỏng và trên Unitree G1.",
+      "application_vi": "Di chuyển robot hình người.",
+      "url": "https://authors.library.caltech.edu/records/n1jqg-78512",
+      "doi": "10.1109/lra.2026.3653329",
+      "source_urls": [
+        "https://authors.library.caltech.edu/records/n1jqg-78512"
+      ],
+      "institution_evidence_vi": "CaltechAUTHORS ghi Kejun Li, Zachary Olkin, Yisong Yue và Aaron Ames thuộc Caltech.",
+      "reading_depth": "repository_abstract_and_metadata",
+      "verification_note_vi": "IEEE RA-L 11(3), 2026; bản chính thức khả dụng 30/01/2026. DOI là bài báo, không phải DOI video bổ sung. Giao G3 vì reference/CLF chỉ dùng khi huấn luyện, để lại chính sách nhẹ lúc triển khai; không suy ra mức giảm điện năng.",
+      "group_codes": [
+        "G3",
+        "G5"
+      ],
+      "full_text_read": false,
+      "part": "group5",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "CLF-RL: Control Lyapunov Function Guided Reinforcement Learning",
+          "year": 2026,
+          "schools": [
+            "Caltech"
+          ],
+          "subtopics_vi": [
+            "Học tăng cường có hướng dẫn ổn định",
+            "Robot hình người"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Học điều khiển robot hình người ổn định với chi phí suy luận thấp.",
+          "ai_methods": [
+            "Reinforcement learning",
+            "Control Lyapunov function reward shaping"
+          ],
+          "method_vi": "Dùng chuyển động tham chiếu và hàm Lyapunov để định hình phần thưởng khi huấn luyện; chính sách triển khai không cần giải lại bộ điều khiển đó.",
+          "contribution_vi": "Kết hợp kiến thức ổn định với học chính sách, đánh giá mô phỏng và trên Unitree G1.",
+          "application_vi": "Di chuyển robot hình người.",
+          "url": "https://authors.library.caltech.edu/records/n1jqg-78512",
+          "doi": "10.1109/lra.2026.3653329",
+          "source_urls": [
+            "https://authors.library.caltech.edu/records/n1jqg-78512"
+          ],
+          "institution_evidence_vi": "CaltechAUTHORS ghi Kejun Li, Zachary Olkin, Yisong Yue và Aaron Ames thuộc Caltech.",
+          "reading_depth": "repository_abstract_and_metadata",
+          "verification_note_vi": "IEEE RA-L 11(3), 2026; bản chính thức khả dụng 30/01/2026. DOI là bài báo, không phải DOI video bổ sung. Giao G3 vì reference/CLF chỉ dùng khi huấn luyện, để lại chính sách nhẹ lúc triển khai; không suy ra mức giảm điện năng.",
+          "group_codes": [
+            "G3",
+            "G5"
+          ],
+          "full_text_read": false,
+          "part": "group5",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI cho robot và hệ thống tự hành"
+      ],
+      "regions": [
+        "Hoa Kỳ"
+      ],
+      "country_codes": [
+        "US"
+      ],
+      "source_years": [
+        2026
+      ],
+      "verification_notes_vi": [
+        "IEEE RA-L 11(3), 2026; bản chính thức khả dụng 30/01/2026. DOI là bài báo, không phải DOI video bổ sung. Giao G3 vì reference/CLF chỉ dùng khi huấn luyện, để lại chính sách nhẹ lúc triển khai; không suy ra mức giảm điện năng."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F048"
+    },
+    {
+      "title": "Stable-BC: Controlling Covariate Shift with Stable Behavior Cloning",
+      "year": 2025,
+      "schools": [
+        "Virginia Tech"
+      ],
+      "subtopics_vi": [
+        "Học bắt chước ổn định",
+        "Giảm lệch phân bố khi triển khai"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Hạn chế lỗi tích lũy khi robot học bắt chước gặp trạng thái khác dữ liệu mẫu.",
+      "ai_methods": [
+        "Behavior cloning",
+        "Error-dynamics stability regularization"
+      ],
+      "method_vi": "Bổ sung điều kiện ổn định của động lực sai số vào học bắt chước hành vi.",
+      "contribution_vi": "Đánh giá trên bài toán xe, quadrotor mô phỏng và tay máy chơi khúc côn cầu trên bàn.",
+      "application_vi": "Chính sách điều khiển robot và phương tiện tự hành.",
+      "url": "https://collab.me.vt.edu/Stable-BC/",
+      "doi": null,
+      "source_urls": [
+        "https://collab.me.vt.edu/Stable-BC/",
+        "https://arxiv.org/abs/2408.06246"
+      ],
+      "institution_evidence_vi": "Trang dự án Virginia Tech ghi ba tác giả VT và hai đồng tác giả University of Southern California.",
+      "reading_depth": "author_project_abstract_and_metadata",
+      "verification_note_vi": "Trang tác giả ghi IEEE RA-L 2025; bản arXiv đầu tiên năm 2024. Chưa xác minh DOI tạp chí.",
+      "group_codes": [
+        "G5"
+      ],
+      "full_text_read": false,
+      "part": "group5",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Stable-BC: Controlling Covariate Shift with Stable Behavior Cloning",
+          "year": 2025,
+          "schools": [
+            "Virginia Tech"
+          ],
+          "subtopics_vi": [
+            "Học bắt chước ổn định",
+            "Giảm lệch phân bố khi triển khai"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Hạn chế lỗi tích lũy khi robot học bắt chước gặp trạng thái khác dữ liệu mẫu.",
+          "ai_methods": [
+            "Behavior cloning",
+            "Error-dynamics stability regularization"
+          ],
+          "method_vi": "Bổ sung điều kiện ổn định của động lực sai số vào học bắt chước hành vi.",
+          "contribution_vi": "Đánh giá trên bài toán xe, quadrotor mô phỏng và tay máy chơi khúc côn cầu trên bàn.",
+          "application_vi": "Chính sách điều khiển robot và phương tiện tự hành.",
+          "url": "https://collab.me.vt.edu/Stable-BC/",
+          "doi": null,
+          "source_urls": [
+            "https://collab.me.vt.edu/Stable-BC/",
+            "https://arxiv.org/abs/2408.06246"
+          ],
+          "institution_evidence_vi": "Trang dự án Virginia Tech ghi ba tác giả VT và hai đồng tác giả University of Southern California.",
+          "reading_depth": "author_project_abstract_and_metadata",
+          "verification_note_vi": "Trang tác giả ghi IEEE RA-L 2025; bản arXiv đầu tiên năm 2024. Chưa xác minh DOI tạp chí.",
+          "group_codes": [
+            "G5"
+          ],
+          "full_text_read": false,
+          "part": "group5",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI cho robot và hệ thống tự hành"
+      ],
+      "regions": [
+        "Hoa Kỳ"
+      ],
+      "country_codes": [
+        "US"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Trang tác giả ghi IEEE RA-L 2025; bản arXiv đầu tiên năm 2024. Chưa xác minh DOI tạp chí."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F063"
+    },
+    {
+      "title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+      "year": 2025,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G5"
+      ],
+      "subtopics_vi": [
+        "Học tăng cường nghịch đảo",
+        "Hợp tác người–robot"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao dự đoán hành động của con người để đội robot hỗ trợ khám phá an toàn và duy trì kết nối?",
+      "ai_methods": [
+        "Adversarial inverse reinforcement learning",
+        "Model predictive control"
+      ],
+      "method_vi": "Học tăng cường nghịch đảo đối kháng kết hợp điều khiển dự báo theo mô hình (MPC).",
+      "contribution_vi": "Kết hợp học tăng cường nghịch đảo và điều khiển dự báo để nhóm robot hỗ trợ con người trong nhiệm vụ thăm dò. Đánh giá mô phỏng xem xét tránh va chạm và duy trì kết nối mạng.",
+      "application_vi": "tương tác người–robot; phối hợp nhiều robot",
+      "url": "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+      "doi": "10.1007/s12369-025-01332-4",
+      "source_urls": [
+        "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+        "https://api.crossref.org/works/10.1007/s12369-025-01332-4"
+      ],
+      "institution_evidence_vi": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+      "reading_depth": "abstract_and_metadata_reviewed_previously",
+      "verification_note_vi": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+      "full_text_read": false,
+      "existing_work_id": "AI066",
+      "part": "group5",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "ARMCHAIR: Integrated Inverse Reinforcement Learning and Model Predictive Control for Human-Robot Collaboration",
+          "year": 2025,
+          "schools": [
+            "TU Delft"
+          ],
+          "group_codes": [
+            "G5"
+          ],
+          "subtopics_vi": [
+            "Học tăng cường nghịch đảo",
+            "Hợp tác người–robot"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Làm sao dự đoán hành động của con người để đội robot hỗ trợ khám phá an toàn và duy trì kết nối?",
+          "ai_methods": [
+            "Adversarial inverse reinforcement learning",
+            "Model predictive control"
+          ],
+          "method_vi": "Học tăng cường nghịch đảo đối kháng kết hợp điều khiển dự báo theo mô hình (MPC).",
+          "contribution_vi": "Kết hợp học tăng cường nghịch đảo và điều khiển dự báo để nhóm robot hỗ trợ con người trong nhiệm vụ thăm dò. Đánh giá mô phỏng xem xét tránh va chạm và duy trì kết nối mạng.",
+          "application_vi": "tương tác người–robot; phối hợp nhiều robot",
+          "url": "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+          "doi": "10.1007/s12369-025-01332-4",
+          "source_urls": [
+            "https://research.tudelft.nl/en/publications/armchair-integrated-inverse-reinforcement-learning-and-model-pred/",
+            "https://api.crossref.org/works/10.1007/s12369-025-01332-4"
+          ],
+          "institution_evidence_vi": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+          "reading_depth": "abstract_and_metadata_reviewed_previously",
+          "verification_note_vi": "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại.",
+          "full_text_read": false,
+          "existing_work_id": "AI066",
+          "part": "group5",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI cho robot và hệ thống tự hành"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "NL"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Portal TU Delft ghi bài báo phản biện, năm 2025 và đơn vị Interactive Intelligence, Human-Robot Interaction. Kết quả nêu ở đây là mô phỏng, không khẳng định triển khai lâm sàng hay thương mại."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F081"
+    },
+    {
+      "title": "Cooperative Edge Inferences With Online Learning",
+      "year": 2025,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Phân bổ suy luận biên",
+        "Online convex optimization"
+      ],
+      "ai_methods": [
+        "Phân bổ suy luận biên",
+        "Online convex optimization"
+      ],
+      "method_vi": "Gán tác vụ động giữa các nút bằng online convex optimization, có ràng buộc cân bằng chi phí năng lượng.",
+      "problem_vi": "Nút biên khác nhau về năng lượng và tài nguyên, trong khi suy luận dòng dữ liệu nhạy độ trễ.",
+      "contribution_vi": "Tối ưu phối hợp accuracy, latency và năng lượng trong điều kiện tài nguyên biến đổi chưa biết trước.",
+      "application_vi": "Mạng thiết bị biên chia sẻ mô hình và tác vụ suy luận.",
+      "url": "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832",
+      "doi": "10.1109/jiot.2025.3610695",
+      "source_urls": [
+        "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832"
+      ],
+      "institution_evidence_vi": "Kho TU Delft ghi cả Mengyuan Li, R. Venkatesha Prasad và George Iosifidis thuộc TU Delft EEMCS.",
+      "reading_depth": "indexed_official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc bản lập chỉ mục đầy đủ abstract và metadata; mở trực tiếp timeout.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published",
+      "part": "group3",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Cooperative Edge Inferences With Online Learning",
+          "year": 2025,
+          "schools": [
+            "TU Delft"
+          ],
+          "group_codes": [
+            "G3"
+          ],
+          "subtopics_vi": [
+            "Phân bổ suy luận biên",
+            "Online convex optimization"
+          ],
+          "ai_methods": [
+            "Phân bổ suy luận biên",
+            "Online convex optimization"
+          ],
+          "method_vi": "Gán tác vụ động giữa các nút bằng online convex optimization, có ràng buộc cân bằng chi phí năng lượng.",
+          "problem_vi": "Nút biên khác nhau về năng lượng và tài nguyên, trong khi suy luận dòng dữ liệu nhạy độ trễ.",
+          "contribution_vi": "Tối ưu phối hợp accuracy, latency và năng lượng trong điều kiện tài nguyên biến đổi chưa biết trước.",
+          "application_vi": "Mạng thiết bị biên chia sẻ mô hình và tác vụ suy luận.",
+          "url": "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832",
+          "doi": "10.1109/jiot.2025.3610695",
+          "source_urls": [
+            "https://repository.tudelft.nl/record/uuid%3A8957bb44-d07c-4484-b0a0-753abd429832"
+          ],
+          "institution_evidence_vi": "Kho TU Delft ghi cả Mengyuan Li, R. Venkatesha Prasad và George Iosifidis thuộc TU Delft EEMCS.",
+          "reading_depth": "indexed_official_repository_abstract_and_metadata",
+          "verification_note_vi": "Đọc bản lập chỉ mục đầy đủ abstract và metadata; mở trực tiếp timeout.",
+          "full_text_read": false,
+          "type": "journal_article",
+          "status": "published",
+          "part": "group3",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "NL"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Đọc bản lập chỉ mục đầy đủ abstract và metadata; mở trực tiếp timeout.",
+        "Rà soát giao công nghệ: G7 là tối ưu năng lượng và độ trễ của hạ tầng suy luận biên, không phải năng lượng động cơ robot."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F082"
+    },
+    {
+      "title": "Non-Exogenous Embedded Control of Microgrids",
+      "year": 2025,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển microgrid nhúng",
+        "RNN dự báo cục bộ",
+        "MPC có ràng buộc"
+      ],
+      "type": "masters_thesis",
+      "status": "completed_thesis",
+      "problem_vi": "Vận hành microgrid công nghiệp khi cloud mất kết nối với gateway hạn chế tài nguyên.",
+      "ai_methods": [
+        "Recurrent neural networks",
+        "Learning-assisted model predictive control"
+      ],
+      "method_vi": "RNN dự báo phụ tải, PV và giá điện cục bộ; bộ MPC tối ưu lồi cân bằng chi phí điện, suy giảm pin và ràng buộc lưới.",
+      "contribution_vi": "Kiểm chứng bằng dữ liệu lịch sử bảy microgrid và xác nhận thực thi trên nền tảng nhúng.",
+      "application_vi": "Điều phối pin, điện mặt trời và sạc EV; chế độ dự phòng khi mất cloud.",
+      "url": "https://repository.tudelft.nl/record/uuid:a111bca9-d20a-4613-b019-489084f4dbd6",
+      "doi": null,
+      "source_urls": [
+        "https://repository.tudelft.nl/record/uuid:a111bca9-d20a-4613-b019-489084f4dbd6"
+      ],
+      "institution_evidence_vi": "Kho trường ghi R. Marsman, TU Delft EEMCS, chương trình Electrical Engineering/Embedded Systems; ngày tốt nghiệp 03/07/2025.",
+      "reading_depth": "original_thesis_abstract_and_metadata",
+      "verification_note_vi": "Luận văn thạc sĩ, không phải bài tạp chí phản biện. Đọc abstract và metadata; nguồn xác nhận chạy phần mềm trên phần cứng nhúng. Kiểm chứng microgrid dùng dữ liệu lịch sử, chưa xác nhận triển khai điều khiển nhà máy thật.",
+      "full_text_read": false,
+      "part": "technology_additions",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Non-Exogenous Embedded Control of Microgrids",
+          "year": 2025,
+          "schools": [
+            "TU Delft"
+          ],
+          "group_codes": [
+            "G3",
+            "G7"
+          ],
+          "subtopics_vi": [
+            "Điều khiển microgrid nhúng",
+            "RNN dự báo cục bộ",
+            "MPC có ràng buộc"
+          ],
+          "type": "masters_thesis",
+          "status": "completed_thesis",
+          "problem_vi": "Vận hành microgrid công nghiệp khi cloud mất kết nối với gateway hạn chế tài nguyên.",
+          "ai_methods": [
+            "Recurrent neural networks",
+            "Learning-assisted model predictive control"
+          ],
+          "method_vi": "RNN dự báo phụ tải, PV và giá điện cục bộ; bộ MPC tối ưu lồi cân bằng chi phí điện, suy giảm pin và ràng buộc lưới.",
+          "contribution_vi": "Kiểm chứng bằng dữ liệu lịch sử bảy microgrid và xác nhận thực thi trên nền tảng nhúng.",
+          "application_vi": "Điều phối pin, điện mặt trời và sạc EV; chế độ dự phòng khi mất cloud.",
+          "url": "https://repository.tudelft.nl/record/uuid:a111bca9-d20a-4613-b019-489084f4dbd6",
+          "doi": null,
+          "source_urls": [
+            "https://repository.tudelft.nl/record/uuid:a111bca9-d20a-4613-b019-489084f4dbd6"
+          ],
+          "institution_evidence_vi": "Kho trường ghi R. Marsman, TU Delft EEMCS, chương trình Electrical Engineering/Embedded Systems; ngày tốt nghiệp 03/07/2025.",
+          "reading_depth": "original_thesis_abstract_and_metadata",
+          "verification_note_vi": "Luận văn thạc sĩ, không phải bài tạp chí phản biện. Đọc abstract và metadata; nguồn xác nhận chạy phần mềm trên phần cứng nhúng. Kiểm chứng microgrid dùng dữ liệu lịch sử, chưa xác nhận triển khai điều khiển nhà máy thật.",
+          "full_text_read": false,
+          "part": "technology_additions",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "NL"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Luận văn thạc sĩ, không phải bài tạp chí phản biện. Đọc abstract và metadata; nguồn xác nhận chạy phần mềm trên phần cứng nhúng. Kiểm chứng microgrid dùng dữ liệu lịch sử, chưa xác nhận triển khai điều khiển nhà máy thật."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F083"
+    },
+    {
+      "title": "Structure-Preserving Model Order Reduction of Slender Soft Robots via Autoencoder-Parameterized Strain",
+      "year": 2025,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3",
+        "G5",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Autoencoder giảm bậc mô hình",
+        "Robot mềm",
+        "Tối ưu chi phí mô phỏng"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Mô hình robot mềm nhiều bậc tự do quá tốn tính toán cho mô phỏng và thiết kế điều khiển.",
+      "ai_methods": [
+        "Autoencoders",
+        "Nonlinear model order reduction",
+        "Structure-preserving learning"
+      ],
+      "method_vi": "Học tham số biến dạng thấp chiều bằng autoencoder trong khung Geometric Variable Strain, bảo toàn cấu trúc Lagrange.",
+      "contribution_vi": "So sánh với POD và mô hình bậc cao; kiểm chứng giảm chi phí tính toán qua mô phỏng và manipulator mềm dẫn động bằng cáp thực.",
+      "application_vi": "Mô hình hóa robot mềm và thiết kế hệ điều khiển kỹ thuật.",
+      "url": "https://doi.org/10.1109/LRA.2025.3606389",
+      "doi": "10.1109/lra.2025.3606389",
+      "source_urls": [
+        "https://doi.org/10.1109/LRA.2025.3606389",
+        "https://research.tudelft.nl/en/publications/structure-preserving-model-order-reduction-of-slender-soft-robots/",
+        "https://pure.tudelft.nl/ws/portalfiles/portal/257289069/Structure-Preserving_Model_Order_Reduction_of_Slender_Soft_Robots_via_Autoencoder-Parameterized_Strain.pdf"
+      ],
+      "institution_evidence_vi": "Kho TU Delft ghi Daniel Feliu-Talegon là tác giả nội bộ thuộc Learning & Autonomous Control; trang đầu PDF ghi Department of Cognitive Robotics, Delft University of Technology.",
+      "reading_depth": "original_article_abstract_and_indexed_first_page",
+      "verification_note_vi": "IEEE Robotics and Automation Letters10(10),11006–11013,2025. G7 là tối ưu mô hình kỹ thuật và chi phí mô phỏng, không phải bằng chứng giảm điện năng robot. Không tuyên bố đã triển khai controller thời gian thực chỉ từ việc mô hình chạy nhanh hơn.",
+      "full_text_read": false,
+      "part": "technology_additions",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Structure-Preserving Model Order Reduction of Slender Soft Robots via Autoencoder-Parameterized Strain",
+          "year": 2025,
+          "schools": [
+            "TU Delft"
+          ],
+          "group_codes": [
+            "G3",
+            "G5",
+            "G7"
+          ],
+          "subtopics_vi": [
+            "Autoencoder giảm bậc mô hình",
+            "Robot mềm",
+            "Tối ưu chi phí mô phỏng"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Mô hình robot mềm nhiều bậc tự do quá tốn tính toán cho mô phỏng và thiết kế điều khiển.",
+          "ai_methods": [
+            "Autoencoders",
+            "Nonlinear model order reduction",
+            "Structure-preserving learning"
+          ],
+          "method_vi": "Học tham số biến dạng thấp chiều bằng autoencoder trong khung Geometric Variable Strain, bảo toàn cấu trúc Lagrange.",
+          "contribution_vi": "So sánh với POD và mô hình bậc cao; kiểm chứng giảm chi phí tính toán qua mô phỏng và manipulator mềm dẫn động bằng cáp thực.",
+          "application_vi": "Mô hình hóa robot mềm và thiết kế hệ điều khiển kỹ thuật.",
+          "url": "https://doi.org/10.1109/LRA.2025.3606389",
+          "doi": "10.1109/lra.2025.3606389",
+          "source_urls": [
+            "https://doi.org/10.1109/LRA.2025.3606389",
+            "https://research.tudelft.nl/en/publications/structure-preserving-model-order-reduction-of-slender-soft-robots/",
+            "https://pure.tudelft.nl/ws/portalfiles/portal/257289069/Structure-Preserving_Model_Order_Reduction_of_Slender_Soft_Robots_via_Autoencoder-Parameterized_Strain.pdf"
+          ],
+          "institution_evidence_vi": "Kho TU Delft ghi Daniel Feliu-Talegon là tác giả nội bộ thuộc Learning & Autonomous Control; trang đầu PDF ghi Department of Cognitive Robotics, Delft University of Technology.",
+          "reading_depth": "original_article_abstract_and_indexed_first_page",
+          "verification_note_vi": "IEEE Robotics and Automation Letters10(10),11006–11013,2025. G7 là tối ưu mô hình kỹ thuật và chi phí mô phỏng, không phải bằng chứng giảm điện năng robot. Không tuyên bố đã triển khai controller thời gian thực chỉ từ việc mô hình chạy nhanh hơn.",
+          "full_text_read": false,
+          "part": "technology_additions",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI cho robot và hệ thống tự hành",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "NL"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "IEEE Robotics and Automation Letters10(10),11006–11013,2025. G7 là tối ưu mô hình kỹ thuật và chi phí mô phỏng, không phải bằng chứng giảm điện năng robot. Không tuyên bố đã triển khai controller thời gian thực chỉ từ việc mô hình chạy nhanh hơn."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F085"
+    },
+    {
+      "title": "End-to-end neural network based optimal quadcopter control",
+      "year": 2024,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3",
+        "G5",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Điều khiển drone",
+        "Tối ưu năng lượng vận hành",
+        "Suy luận điều khiển trên thiết bị"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Tạo điều khiển quadcopter tối ưu năng lượng đủ nhẹ để chạy trên robot và thích nghi sai lệch mô hình.",
+      "ai_methods": [
+        "Supervised learning",
+        "Guidance and Control Networks",
+        "Energy-optimal control",
+        "Sim-to-real adaptation"
+      ],
+      "method_vi": "G&CNet học ánh xạ trạng thái sang tốc độ quay động cơ từ dữ liệu quỹ đạo tối ưu; nhánh thích nghi nhận ước lượng mô-men chưa mô hình hóa.",
+      "contribution_vi": "Đánh giá bay thật giữa các trạng thái treo và qua waypoint; mạng chạy onboard, thay phần tính tối ưu trực tuyến bằng chính sách đã học.",
+      "application_vi": "Điều khiển drone; Tối ưu năng lượng vận hành; Suy luận điều khiển trên thiết bị",
+      "url": "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+      "doi": "10.1016/j.robot.2023.104588",
+      "source_urls": [
+        "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+        "https://mavlab.tudelft.nl/end-to-end-neural-network-based-optimal-quadcopter-control/"
+      ],
+      "institution_evidence_vi": "Kho TU Delft ghi Ferede,de Croon,De Wagter thuộc nhóm Control & Simulation; hợp tác với Dario Izzo của ESA.",
+      "reading_depth": "official_abstract_and_lab_description",
+      "verification_note_vi": "Đọc abstract và metadata kho trường cùng bản tin MAVLab về tính toán onboard. Đây là học có giám sát từ nghiệm tối ưu, không gán nhầm là RL. Năm số tạp chí2024 dù DOI có2023. Không ghi mức giảm năng lượng định lượng khi chưa đọc đầy đủ thiết lập.",
+      "full_text_read": false,
+      "checked_on": "2026-10-30",
+      "part": "root_verified",
+      "evidence_records": [
+        {
+          "title": "End-to-end neural network based optimal quadcopter control",
+          "year": 2024,
+          "schools": [
+            "TU Delft"
+          ],
+          "group_codes": [
+            "G3",
+            "G5",
+            "G7"
+          ],
+          "subtopics_vi": [
+            "Điều khiển drone",
+            "Tối ưu năng lượng vận hành",
+            "Suy luận điều khiển trên thiết bị"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Tạo điều khiển quadcopter tối ưu năng lượng đủ nhẹ để chạy trên robot và thích nghi sai lệch mô hình.",
+          "ai_methods": [
+            "Supervised learning",
+            "Guidance and Control Networks",
+            "Energy-optimal control",
+            "Sim-to-real adaptation"
+          ],
+          "method_vi": "G&CNet học ánh xạ trạng thái sang tốc độ quay động cơ từ dữ liệu quỹ đạo tối ưu; nhánh thích nghi nhận ước lượng mô-men chưa mô hình hóa.",
+          "contribution_vi": "Đánh giá bay thật giữa các trạng thái treo và qua waypoint; mạng chạy onboard, thay phần tính tối ưu trực tuyến bằng chính sách đã học.",
+          "application_vi": "Điều khiển drone; Tối ưu năng lượng vận hành; Suy luận điều khiển trên thiết bị",
+          "url": "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+          "doi": "10.1016/j.robot.2023.104588",
+          "source_urls": [
+            "https://research.tudelft.nl/en/publications/end-to-end-neural-network-based-optimal-quadcopter-control/",
+            "https://mavlab.tudelft.nl/end-to-end-neural-network-based-optimal-quadcopter-control/"
+          ],
+          "institution_evidence_vi": "Kho TU Delft ghi Ferede,de Croon,De Wagter thuộc nhóm Control & Simulation; hợp tác với Dario Izzo của ESA.",
+          "reading_depth": "official_abstract_and_lab_description",
+          "verification_note_vi": "Đọc abstract và metadata kho trường cùng bản tin MAVLab về tính toán onboard. Đây là học có giám sát từ nghiệm tối ưu, không gán nhầm là RL. Năm số tạp chí2024 dù DOI có2023. Không ghi mức giảm năng lượng định lượng khi chưa đọc đầy đủ thiết lập.",
+          "full_text_read": false,
+          "checked_on": "2026-10-30",
+          "part": "root_verified"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI cho robot và hệ thống tự hành",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "NL"
+      ],
+      "source_years": [
+        2024
+      ],
+      "verification_notes_vi": [
+        "Đọc abstract và metadata kho trường cùng bản tin MAVLab về tính toán onboard. Đây là học có giám sát từ nghiệm tối ưu, không gán nhầm là RL. Năm số tạp chí2024 dù DOI có2023. Không ghi mức giảm năng lượng định lượng khi chưa đọc đầy đủ thiết lập."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F086"
+    },
+    {
+      "title": "Fully neuromorphic vision and control for autonomous drone flight",
+      "year": 2024,
+      "schools": [
+        "TU Delft"
+      ],
+      "group_codes": [
+        "G3",
+        "G5",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Thị giác sự kiện",
+        "SNN trên chip neuromorphic",
+        "Năng lượng suy luận trên drone"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Thực thi nhận thức và điều khiển tự hành trên drone có tài nguyên tính toán hạn chế.",
+      "ai_methods": [
+        "Spiking neural networks",
+        "Self-supervised learning",
+        "Evolutionary learning"
+      ],
+      "method_vi": "SNN ước lượng ego-motion từ camera sự kiện bằng học tự giám sát; lớp điều khiển học trong mô phỏng bằng thuật toán tiến hóa, chạy trên Intel Loihi.",
+      "contribution_vi": "Trình diễn pipeline nhận thức–điều khiển hoàn toàn neuromorphic trên drone bay thật và đo năng lượng suy luận.",
+      "application_vi": "Bay treo, hạ cánh và điều khiển chuyển động drone; tối ưu năng lượng khối xử lý.",
+      "url": "https://doi.org/10.1126/scirobotics.adi0591",
+      "doi": "10.1126/scirobotics.adi0591",
+      "source_urls": [
+        "https://doi.org/10.1126/scirobotics.adi0591",
+        "https://arxiv.org/abs/2303.08778",
+        "https://repository.tudelft.nl/file/File_83437854-175e-4467-a55f-c045534cb542"
+      ],
+      "institution_evidence_vi": "Bản bài xuất bản lưu ở TU Delft; nhóm Paredes-Vallés, Hagenaars, Dupeyroux, Stroobants, Xu và de Croon thuộc hệ nghiên cứu MAVLab TU Delft.",
+      "reading_depth": "author_preprint_abstract_and_indexed_published_paper",
+      "verification_note_vi": "Bản đầu arXiv 2023; bài Science Robotics 9,eadi0591 năm 2024. G7 chỉ xác nhận năng lượng của khối suy luận, không khẳng định giảm điện năng motor, tổng năng lượng bay hoặc tăng thời lượng pin. Không chuyển chỉ số giữa các phiên bản.",
+      "full_text_read": false,
+      "part": "technology_additions",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Fully neuromorphic vision and control for autonomous drone flight",
+          "year": 2024,
+          "schools": [
+            "TU Delft"
+          ],
+          "group_codes": [
+            "G3",
+            "G5",
+            "G7"
+          ],
+          "subtopics_vi": [
+            "Thị giác sự kiện",
+            "SNN trên chip neuromorphic",
+            "Năng lượng suy luận trên drone"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Thực thi nhận thức và điều khiển tự hành trên drone có tài nguyên tính toán hạn chế.",
+          "ai_methods": [
+            "Spiking neural networks",
+            "Self-supervised learning",
+            "Evolutionary learning"
+          ],
+          "method_vi": "SNN ước lượng ego-motion từ camera sự kiện bằng học tự giám sát; lớp điều khiển học trong mô phỏng bằng thuật toán tiến hóa, chạy trên Intel Loihi.",
+          "contribution_vi": "Trình diễn pipeline nhận thức–điều khiển hoàn toàn neuromorphic trên drone bay thật và đo năng lượng suy luận.",
+          "application_vi": "Bay treo, hạ cánh và điều khiển chuyển động drone; tối ưu năng lượng khối xử lý.",
+          "url": "https://doi.org/10.1126/scirobotics.adi0591",
+          "doi": "10.1126/scirobotics.adi0591",
+          "source_urls": [
+            "https://doi.org/10.1126/scirobotics.adi0591",
+            "https://arxiv.org/abs/2303.08778",
+            "https://repository.tudelft.nl/file/File_83437854-175e-4467-a55f-c045534cb542"
+          ],
+          "institution_evidence_vi": "Bản bài xuất bản lưu ở TU Delft; nhóm Paredes-Vallés, Hagenaars, Dupeyroux, Stroobants, Xu và de Croon thuộc hệ nghiên cứu MAVLab TU Delft.",
+          "reading_depth": "author_preprint_abstract_and_indexed_published_paper",
+          "verification_note_vi": "Bản đầu arXiv 2023; bài Science Robotics 9,eadi0591 năm 2024. G7 chỉ xác nhận năng lượng của khối suy luận, không khẳng định giảm điện năng motor, tổng năng lượng bay hoặc tăng thời lượng pin. Không chuyển chỉ số giữa các phiên bản.",
+          "full_text_read": false,
+          "part": "technology_additions",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI cho robot và hệ thống tự hành",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "NL"
+      ],
+      "source_years": [
+        2024
+      ],
+      "verification_notes_vi": [
+        "Bản đầu arXiv 2023; bài Science Robotics 9,eadi0591 năm 2024. G7 chỉ xác nhận năng lượng của khối suy luận, không khẳng định giảm điện năng motor, tổng năng lượng bay hoặc tăng thời lượng pin. Không chuyển chỉ số giữa các phiên bản."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F087"
+    },
+    {
+      "title": "Boosting the Performance of Deep Reinforcement Learning for Energy Management Systems using Behavior Cloning from Linear Programming Solutions",
+      "year": 2025,
+      "schools": [
+        "TUM"
+      ],
+      "group_codes": [
+        "G3",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Quản lý hệ điện mặt trời và pin",
+        "Khởi tạo chính sách RL"
+      ],
+      "type": "conference_paper",
+      "status": "published",
+      "problem_vi": "Cải thiện hiệu quả huấn luyện RL cho quản lý năng lượng khi có giá điện biến động.",
+      "ai_methods": [
+        "Behavior cloning",
+        "Proximal policy optimization"
+      ],
+      "method_vi": "Khởi tạo chính sách PPO bằng behavior cloning từ nghiệm quy hoạch tuyến tính.",
+      "contribution_vi": "Đánh giá cách sử dụng lời giải tối ưu để hỗ trợ học chính sách quản lý năng lượng.",
+      "application_vi": "Quản lý điện mặt trời, pin và chi phí điện.",
+      "url": "https://mediatum.ub.tum.de/doc/1832932/document.pdf",
+      "doi": "10.1145/3679240.3734605",
+      "source_urls": [
+        "https://mediatum.ub.tum.de/doc/1832932/document.pdf"
+      ],
+      "institution_evidence_vi": "Trang đầu PDF ghi Christoph Goebel thuộc TUM; Sheng Yin và Holger Hesse thuộc Kempten.",
+      "reading_depth": "indexed_abstract_and_first_page_affiliations",
+      "verification_note_vi": "Bài ACM e-Energy 2025, hội nghị 17–20/06/2025. Truy cập PDF trực tiếp bị giới hạn; đọc nội dung abstract và trang đầu được lập chỉ mục.",
+      "full_text_read": false,
+      "evidence_origin": "new_targeted_primary_source_search",
+      "part": "group7",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Boosting the Performance of Deep Reinforcement Learning for Energy Management Systems using Behavior Cloning from Linear Programming Solutions",
+          "year": 2025,
+          "schools": [
+            "TUM"
+          ],
+          "group_codes": [
+            "G7"
+          ],
+          "subtopics_vi": [
+            "Quản lý hệ điện mặt trời và pin",
+            "Khởi tạo chính sách RL"
+          ],
+          "type": "conference_paper",
+          "status": "published",
+          "problem_vi": "Cải thiện hiệu quả huấn luyện RL cho quản lý năng lượng khi có giá điện biến động.",
+          "ai_methods": [
+            "Behavior cloning",
+            "Proximal policy optimization"
+          ],
+          "method_vi": "Khởi tạo chính sách PPO bằng behavior cloning từ nghiệm quy hoạch tuyến tính.",
+          "contribution_vi": "Đánh giá cách sử dụng lời giải tối ưu để hỗ trợ học chính sách quản lý năng lượng.",
+          "application_vi": "Quản lý điện mặt trời, pin và chi phí điện.",
+          "url": "https://mediatum.ub.tum.de/doc/1832932/document.pdf",
+          "doi": "10.1145/3679240.3734605",
+          "source_urls": [
+            "https://mediatum.ub.tum.de/doc/1832932/document.pdf"
+          ],
+          "institution_evidence_vi": "Trang đầu PDF ghi Christoph Goebel thuộc TUM; Sheng Yin và Holger Hesse thuộc Kempten.",
+          "reading_depth": "indexed_abstract_and_first_page_affiliations",
+          "verification_note_vi": "Bài ACM e-Energy 2025, hội nghị 17–20/06/2025. Truy cập PDF trực tiếp bị giới hạn; đọc nội dung abstract và trang đầu được lập chỉ mục.",
+          "full_text_read": false,
+          "evidence_origin": "new_targeted_primary_source_search",
+          "part": "group7",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "DE"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Bài ACM e-Energy 2025, hội nghị 17–20/06/2025. Truy cập PDF trực tiếp bị giới hạn; đọc nội dung abstract và trang đầu được lập chỉ mục.",
+        "Rà soát giao công nghệ: G3 là giảm số bước huấn luyện chính sách nhờ behavior cloning; không khẳng định chạy trên vi điều khiển."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F095"
+    },
+    {
+      "title": "Optimizing event-driven spiking neural network with regularization and cutoff",
+      "year": 2025,
+      "schools": [
+        "Chalmers"
+      ],
+      "group_codes": [
+        "G3"
+      ],
+      "subtopics_vi": [
+        "Spiking neural networks",
+        "Suy luận dừng sớm"
+      ],
+      "ai_methods": [
+        "Spiking neural networks",
+        "Suy luận dừng sớm"
+      ],
+      "method_vi": "Regularization khi huấn luyện kết hợp Top-K cutoff khi suy luận; dùng cả ANN-to-SNN và huấn luyện trực tiếp.",
+      "problem_vi": "SNN chạy số timestep cố định làm mất cơ hội suy luận thích ứng tiết kiệm tính toán.",
+      "contribution_vi": "Cơ chế dừng suy luận động nhằm giảm số timestep và độ trễ.",
+      "application_vi": "Phân loại dữ liệu ảnh và camera sự kiện.",
+      "url": "https://research.chalmers.se/en/publication/545522",
+      "doi": "10.3389/fnins.2025.1522788",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/545522"
+      ],
+      "institution_evidence_vi": "Trang kho ghi Han Yu thuộc Chalmers Electrical Engineering.",
+      "reading_depth": "official_repository_abstract_and_metadata",
+      "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+      "full_text_read": false,
+      "type": "journal_article",
+      "status": "published",
+      "code_url": "https://github.com/Dengyu-Wu/SNNCutoff",
+      "part": "group3",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Optimizing event-driven spiking neural network with regularization and cutoff",
+          "year": 2025,
+          "schools": [
+            "Chalmers"
+          ],
+          "group_codes": [
+            "G3"
+          ],
+          "subtopics_vi": [
+            "Spiking neural networks",
+            "Suy luận dừng sớm"
+          ],
+          "ai_methods": [
+            "Spiking neural networks",
+            "Suy luận dừng sớm"
+          ],
+          "method_vi": "Regularization khi huấn luyện kết hợp Top-K cutoff khi suy luận; dùng cả ANN-to-SNN và huấn luyện trực tiếp.",
+          "problem_vi": "SNN chạy số timestep cố định làm mất cơ hội suy luận thích ứng tiết kiệm tính toán.",
+          "contribution_vi": "Cơ chế dừng suy luận động nhằm giảm số timestep và độ trễ.",
+          "application_vi": "Phân loại dữ liệu ảnh và camera sự kiện.",
+          "url": "https://research.chalmers.se/en/publication/545522",
+          "doi": "10.3389/fnins.2025.1522788",
+          "source_urls": [
+            "https://research.chalmers.se/en/publication/545522"
+          ],
+          "institution_evidence_vi": "Trang kho ghi Han Yu thuộc Chalmers Electrical Engineering.",
+          "reading_depth": "official_repository_abstract_and_metadata",
+          "verification_note_vi": "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả.",
+          "full_text_read": false,
+          "type": "journal_article",
+          "status": "published",
+          "code_url": "https://github.com/Dengyu-Wu/SNNCutoff",
+          "part": "group3",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "SE"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Đọc tóm tắt và metadata nguồn sơ cấp; chưa đọc toàn văn hoặc tái lập kết quả."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F103"
+    },
+    {
+      "title": "Skill-abstracting continual reinforcement learning for safe, efficient, and comfortable autonomous driving through vehicle-cloud collaboration",
+      "year": 2025,
+      "schools": [
+        "Chalmers"
+      ],
+      "subtopics_vi": [
+        "Học tăng cường liên tục",
+        "Tránh quên kỹ năng lái xe"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Học thêm tình huống lái xe mà không quên kỹ năng đã có.",
+      "ai_methods": [
+        "Hierarchical reinforcement learning",
+        "Continual learning",
+        "Skill abstraction"
+      ],
+      "method_vi": "Tổ chức kỹ năng ở nhiều mức, phối hợp xe và đám mây cùng dữ liệu chuyên gia để cập nhật chính sách.",
+      "contribution_vi": "Đánh giá độ an toàn, hiệu quả và êm ái trong mô phỏng với dữ liệu giao thông và mặt đường thực.",
+      "application_vi": "Phương tiện tự hành học liên tục.",
+      "url": "https://research.chalmers.se/en/publication/546686",
+      "doi": "10.1111/mice.13503",
+      "source_urls": [
+        "https://research.chalmers.se/en/publication/546686"
+      ],
+      "institution_evidence_vi": "Hồ sơ Chalmers gắn công trình với Kun Gao; có đồng tác giả Tongji University.",
+      "reading_depth": "institutional_abstract_and_metadata",
+      "verification_note_vi": "Bài tạp chí năm 2025. Dữ liệu đầu vào thực không có nghĩa đã triển khai chính sách trên xe chạy đường thật.",
+      "group_codes": [
+        "G5"
+      ],
+      "full_text_read": false,
+      "part": "group5",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Skill-abstracting continual reinforcement learning for safe, efficient, and comfortable autonomous driving through vehicle-cloud collaboration",
+          "year": 2025,
+          "schools": [
+            "Chalmers"
+          ],
+          "subtopics_vi": [
+            "Học tăng cường liên tục",
+            "Tránh quên kỹ năng lái xe"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Học thêm tình huống lái xe mà không quên kỹ năng đã có.",
+          "ai_methods": [
+            "Hierarchical reinforcement learning",
+            "Continual learning",
+            "Skill abstraction"
+          ],
+          "method_vi": "Tổ chức kỹ năng ở nhiều mức, phối hợp xe và đám mây cùng dữ liệu chuyên gia để cập nhật chính sách.",
+          "contribution_vi": "Đánh giá độ an toàn, hiệu quả và êm ái trong mô phỏng với dữ liệu giao thông và mặt đường thực.",
+          "application_vi": "Phương tiện tự hành học liên tục.",
+          "url": "https://research.chalmers.se/en/publication/546686",
+          "doi": "10.1111/mice.13503",
+          "source_urls": [
+            "https://research.chalmers.se/en/publication/546686"
+          ],
+          "institution_evidence_vi": "Hồ sơ Chalmers gắn công trình với Kun Gao; có đồng tác giả Tongji University.",
+          "reading_depth": "institutional_abstract_and_metadata",
+          "verification_note_vi": "Bài tạp chí năm 2025. Dữ liệu đầu vào thực không có nghĩa đã triển khai chính sách trên xe chạy đường thật.",
+          "group_codes": [
+            "G5"
+          ],
+          "full_text_read": false,
+          "part": "group5",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI cho robot và hệ thống tự hành"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "SE"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Bài tạp chí năm 2025. Dữ liệu đầu vào thực không có nghĩa đã triển khai chính sách trên xe chạy đường thật."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F104"
+    },
+    {
+      "title": "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+      "year": 2025,
+      "schools": [
+        "Politecnico di Milano"
+      ],
+      "group_codes": [
+        "G3",
+        "G7"
+      ],
+      "subtopics_vi": [
+        "Mô hình học sâu giảm bậc",
+        "Nén trạng thái điều khiển",
+        "điều khiển hệ phân bố",
+        "mô phỏng chất lưu",
+        "mô hình giảm bậc"
+      ],
+      "type": "journal_article",
+      "status": "published",
+      "problem_vi": "Làm sao tránh mô phỏng phương trình vi phân tốn kém mỗi lần cần cập nhật điều khiển cho một kịch bản mới?",
+      "ai_methods": [
+        "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn."
+      ],
+      "method_vi": "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn.",
+      "contribution_vi": "Nén trạng thái và điều khiển hệ phân bố nhiều chiều vào không gian ẩn để tính điều khiển vòng kín thời gian thực, kể cả khi không có đầy đủ phép đo trạng thái.",
+      "application_vi": "điều khiển hệ phân bố; mô phỏng chất lưu; mô hình giảm bậc",
+      "url": "https://re.public.polimi.it/handle/11311/1290369",
+      "doi": "10.1016/j.cma.2025.118030",
+      "source_urls": [
+        "https://re.public.polimi.it/handle/11311/1290369",
+        "https://www.sciencedirect.com/science/article/pii/S0045782525003020"
+      ],
+      "institution_evidence_vi": "Kho RE.PUBLIC@POLIMI ghi công trình của Tomasetto, Braghin và Manzoni với liên kết tác giả nội bộ.",
+      "reading_depth": "abstract_and_metadata",
+      "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật.",
+      "full_text_read": false,
+      "part": "group3",
+      "checked_on": "2026-10-30",
+      "evidence_records": [
+        {
+          "title": "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+          "year": 2025,
+          "schools": [
+            "Politecnico di Milano"
+          ],
+          "group_codes": [
+            "G3"
+          ],
+          "subtopics_vi": [
+            "Mô hình học sâu giảm bậc",
+            "Nén trạng thái điều khiển"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Làm sao tránh mô phỏng phương trình vi phân tốn kém mỗi lần cần cập nhật điều khiển cho một kịch bản mới?",
+          "ai_methods": [
+            "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn."
+          ],
+          "method_vi": "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn.",
+          "contribution_vi": "Nén trạng thái và điều khiển hệ phân bố nhiều chiều vào không gian ẩn để tính điều khiển vòng kín thời gian thực, kể cả khi không có đầy đủ phép đo trạng thái.",
+          "application_vi": "điều khiển hệ phân bố; mô phỏng chất lưu; mô hình giảm bậc",
+          "url": "https://re.public.polimi.it/handle/11311/1290369",
+          "doi": "10.1016/j.cma.2025.118030",
+          "source_urls": [
+            "https://re.public.polimi.it/handle/11311/1290369",
+            "https://www.sciencedirect.com/science/article/pii/S0045782525003020"
+          ],
+          "institution_evidence_vi": "Kho RE.PUBLIC@POLIMI ghi công trình của Tomasetto, Braghin và Manzoni với liên kết tác giả nội bộ.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note_vi": "Giữ từ danh mục AI đã kiểm chứng; Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật.",
+          "full_text_read": false,
+          "part": "group3",
+          "checked_on": "2026-10-30"
+        },
+        {
+          "title": "Latent feedback control of distributed systems in multiple scenarios through deep learning-based reduced order models",
+          "year": 2025,
+          "schools": [
+            "Politecnico di Milano"
+          ],
+          "group_codes": [
+            "G7"
+          ],
+          "subtopics_vi": [
+            "điều khiển hệ phân bố",
+            "mô phỏng chất lưu",
+            "mô hình giảm bậc"
+          ],
+          "type": "journal_article",
+          "status": "published",
+          "problem_vi": "Làm sao tránh mô phỏng phương trình vi phân tốn kém mỗi lần cần cập nhật điều khiển cho một kịch bản mới?",
+          "ai_methods": [
+            "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn."
+          ],
+          "method_vi": "Proper Orthogonal Decomposition kết hợp deep autoencoder và mạng feedforward học chính sách trong không gian ẩn.",
+          "contribution_vi": "Nén trạng thái và điều khiển hệ phân bố nhiều chiều vào không gian ẩn để tính điều khiển vòng kín thời gian thực, kể cả khi không có đầy đủ phép đo trạng thái.",
+          "application_vi": "điều khiển hệ phân bố; mô phỏng chất lưu; mô hình giảm bậc",
+          "url": "https://re.public.polimi.it/handle/11311/1290369",
+          "doi": "10.1016/j.cma.2025.118030",
+          "source_urls": [
+            "https://re.public.polimi.it/handle/11311/1290369",
+            "https://www.sciencedirect.com/science/article/pii/S0045782525003020"
+          ],
+          "institution_evidence_vi": "Kho RE.PUBLIC@POLIMI ghi công trình của Tomasetto, Braghin và Manzoni với liên kết tác giả nội bộ.",
+          "reading_depth": "abstract_and_metadata",
+          "verification_note_vi": "Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc.",
+          "full_text_read": false,
+          "evidence_origin": "previous_verified_catalog",
+          "part": "group7",
+          "checked_on": "2026-10-30"
+        }
+      ],
+      "group_names_vi": [
+        "AI tiết kiệm tài nguyên và chạy trên thiết bị",
+        "AI tối ưu năng lượng và hệ thống kỹ thuật"
+      ],
+      "regions": [
+        "Châu Âu"
+      ],
+      "country_codes": [
+        "IT"
+      ],
+      "source_years": [
+        2025
+      ],
+      "verification_notes_vi": [
+        "Giữ từ danh mục AI đã kiểm chứng; Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật.",
+        "Đọc abstract trên kho trường; publisher xác nhận DOI, số bài 118030, tập 442, năm 2025. Trường ngày 01/01 trong kho chỉ dùng để lấy năm, không coi là ngày xuất bản thật. Giữ từ tập AI đã kiểm tra trước; không nâng mức đọc."
+      ],
+      "evidence_level": "abstract_or_content_reviewed",
+      "work_id": "F114"
+    }
+  ],
+  "not_retained": [
+    {
+      "technology_id": "TI06",
+      "name_vi": "Học liên kết theo lớp và theo cụm để giảm tải huấn luyện phân tán",
+      "concrete_technologies": [
+        "LW-FedMML",
+        "Prog-FedMML",
+        "Huấn luyện từng phần mô hình",
+        "Periodicity-based clustering",
+        "Federated LSTM"
+      ],
+      "role_g3_vi": "VKU giảm phần mô hình phải huấn luyện/truyền ở mỗi client qua học theo lớp hoặc tăng dần.",
+      "role_g5_vi": "Chưa xác nhận công trình robot trong bộ bằng chứng áp dụng cùng công nghệ và đánh giá triển khai.",
+      "role_g7_vi": "FedPC của HUST dùng học liên kết và phân cụm chu kỳ cho dự báo tải CPU hạ tầng cloud.",
+      "mechanism_vi": "Giữ dữ liệu tại client, chỉ cập nhật phần mô hình cần thiết hoặc gộp client tương đồng; các biến thể phục vụ mục tiêu khác nhau và chưa được kiểm chứng chung trên robot.",
+      "work_title_evidence": {
+        "G3": [
+          "Resource-Efficient Federated Multimodal Learning via Layer-Wise and Progressive Training"
+        ],
+        "G5": [],
+        "G7": [
+          "FedPC Cloud CPU Forecasting using Federated Learning and Periodicity-based Clustering"
+        ]
+      },
+      "source_urls": [
+        "https://arxiv.org/html/2407.15426v2",
+        "https://doi.org/10.1109/JIOT.2025.3554541",
+        "https://isj.vn/index.php/journal_STIS/article/view/1115"
+      ],
+      "evidence_note_vi": "not_confirmed_all_three: thiếu chân G5; dự báo CPU không chứng minh giảm năng lượng nếu chưa có kiểm chứng điều phối/vận hành.",
+      "maturity_note_vi": "Nghiên cứu thuật toán và đánh giá dữ liệu; chưa xác minh triển khai phân tán trên đội robot hoặc nhà máy.",
+      "selection_status": "not_confirmed_all_three",
+      "strong_filter": false,
+      "single_paper_all_three_confirmed": false,
+      "reading_depth": "original_article_abstracts_and_existing_verified_records",
+      "full_text_read": false,
+      "work_ids_by_group": {
+        "G3": [
+          "F027"
+        ],
+        "G5": [],
+        "G7": [
+          "F010"
+        ]
+      },
+      "unmatched_titles": [],
+      "all_work_ids": [
+        "F027",
+        "F010"
+      ],
+      "direct_triple_work_ids": []
+    }
+  ]
+}

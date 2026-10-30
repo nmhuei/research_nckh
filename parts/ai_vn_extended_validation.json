@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-30",
+  "checks": {
+    "all_8_schools": true,
+    "all_have_2_to_3": true,
+    "all_affiliation_evidence": true,
+    "all_status_and_depth": true,
+    "two_axes_present": true,
+    "all_source_urls": true,
+    "no_generic_iot_or_materials_retained": true
+  },
+  "records": 18,
+  "unique_works": 17,
+  "limitations_vi": [
+    "Đây là mẫu có chứng cứ, không phải kiểm kê toàn bộ AI của tám trường.",
+    "Các bài chủ yếu được đọc abstract/metadata; luận án kiểm tra chọn lọc, không thẩm định toàn văn.",
+    "Đồ án KMA nghiên cứu an toàn mã sinh bởi LLM; chưa xác định bản thân công cụ kiểm tra dùng thuật toán AI nào.",
+    "Các đề tài FPT giữ trạng thái theo ngày công bố danh mục; đề tài HUCE chỉ xác nhận được phê duyệt.",
+    "Bài hạn hán có đồng tác giả MTA/HUMG xuất hiện ở hai trường nhưng là một công trình; bài FPT–USTH cần tiếp tục khử trùng khi hợp nhất toàn bộ."
+  ],
+  "file_sha256": "2e6586e31bada8052eb8106eb7aa95c945eea0fe0bf37ee6c78c19fb8115f9df"
+}

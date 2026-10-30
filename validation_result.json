@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "schools": 41,
+  "technology_work_records": 85,
+  "technology_bibliography_records": 287,
+  "removed_detailed": 2,
+  "removed_bibliography": 79,
+  "primary_topics": 11,
+  "works_with_doi": 63,
+  "xlsx_docx_zip_readable": true,
+  "excluded_titles_absent": true,
+  "scope_complete_worldwide": false,
+  "full_text_review_complete": false
+}

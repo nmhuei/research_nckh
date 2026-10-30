@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-30",
+  "scope": "technology_only",
+  "schools": 41,
+  "selected_work_records": 85,
+  "works_with_doi": 63,
+  "regions": [
+    {
+      "region": "Việt Nam",
+      "schools": 17,
+      "items": 38
+    },
+    {
+      "region": "Hoa Kỳ",
+      "schools": 10,
+      "items": 19
+    },
+    {
+      "region": "Châu Âu",
+      "schools": 14,
+      "items": 28
+    }
+  ],
+  "primary_topic_counts": {
+    "ENERGY": 12,
+    "ROBOTICS": 18,
+    "AI_DATA": 15,
+    "BIOTECH_HEALTH": 2,
+    "CYBERSECURITY": 13,
+    "COMPUTING": 4,
+    "ENVIRONMENT": 1,
+    "ELECTRONICS_TELECOM": 8,
+    "AGRI_FOOD": 1,
+    "CONSTRUCTION_TRANSPORT": 2,
+    "MATERIALS": 9
+  },
+  "all_topic_counts": {
+    "ENERGY": 18,
+    "MATERIALS": 15,
+    "ROBOTICS": 19,
+    "CONSTRUCTION_TRANSPORT": 12,
+    "AI_DATA": 49,
+    "BIOTECH_HEALTH": 6,
+    "COMPUTING": 19,
+    "CYBERSECURITY": 13,
+    "ENVIRONMENT": 8,
+    "ELECTRONICS_TELECOM": 18,
+    "AGRI_FOOD": 1
+  },
+  "work_types": {
+    "journal_article": 49,
+    "conference_paper": 17,
+    "book_chapter": 1,
+    "institutional_research_project": 3,
+    "accepted_conference_paper": 3,
+    "doctoral_thesis": 3,
+    "student_graduation_project": 1,
+    "funded_research_project": 4,
+    "technical_report": 1,
+    "doctoral_dissertation": 1,
+    "review_article": 1,
+    "research_project": 1
+  },
+  "evidence_levels": {
+    "source_content_reviewed": 76,
+    "bibliography_only": 9
+  },
+  "bibliography_kept": 287,
+  "bibliography_removed_or_uncertain": 79,
+  "detailed_works_removed_or_uncertain": 2
+}

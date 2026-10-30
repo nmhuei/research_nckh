@@ -1,0 +1,689 @@
+[
+  {
+    "short_name": "USTH",
+    "name": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+    "domain": "usth.edu.vn",
+    "website": "https://usth.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Công bố Khoa Công nghệ và Kỹ thuật",
+        "url": "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+      },
+      {
+        "title": "Công bố Khoa Công nghệ Hóa học và Môi trường",
+        "url": "https://usth.edu.vn/en/publications-4442/"
+      }
+    ]
+  },
+  {
+    "short_name": "HUST",
+    "name": "Đại học Bách khoa Hà Nội (HUST)",
+    "domain": "hust.edu.vn",
+    "website": "https://hust.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Nghiên cứu HUST",
+        "url": "https://www.hust.edu.vn/vi/nghien-cuu/"
+      },
+      {
+        "title": "Công bố SoICT năm2025",
+        "url": "https://soict.hust.edu.vn/en/2025-publications.html"
+      }
+    ]
+  },
+  {
+    "short_name": "UET",
+    "name": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+    "domain": "uet.vnu.edu.vn",
+    "website": "https://uet.vnu.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Trang nghiên cứu và công bố Nguyễn Việt Cường",
+        "url": "https://uet.vnu.edu.vn/~cuongnv/"
+      }
+    ]
+  },
+  {
+    "short_name": "HCMUT",
+    "name": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+    "domain": "hcmut.edu.vn",
+    "website": "https://hcmut.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Nghiên cứu HPCC",
+        "url": "https://hpcc.hcmut.edu.vn/research"
+      },
+      {
+        "title": "Công bố HPCC",
+        "url": "https://hpcc.hcmut.edu.vn/publications"
+      },
+      {
+        "title": "Công bố Địa chất–Dầu khí",
+        "url": "https://geopet.hcmut.edu.vn/en/nghien-cuu/cong-bo-khoa-hoc?year=2025"
+      }
+    ]
+  },
+  {
+    "short_name": "UIT",
+    "name": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+    "domain": "uit.edu.vn",
+    "website": "https://uit.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Phòng ĐTSĐH & KHCN",
+        "url": "https://khcn.uit.edu.vn/"
+      },
+      {
+        "title": "Công bố và tin nghiên cứu UIT",
+        "url": "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+      }
+    ]
+  },
+  {
+    "short_name": "PTIT",
+    "name": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+    "domain": "ptit.edu.vn",
+    "website": "https://ptit.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Công bố Khoa Viễn thông1",
+        "url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+      },
+      {
+        "title": "Dự án Khoa Viễn thông1",
+        "url": "https://tel.ptit.edu.vn/nghien-cuu/du-an-khoa-hoc/"
+      }
+    ]
+  },
+  {
+    "short_name": "DUT",
+    "name": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+    "domain": "dut.udn.vn",
+    "website": "https://dut.udn.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Phòng KHCN và HTQT",
+        "url": "https://dut.udn.vn/Phong/Khoahoc"
+      },
+      {
+        "title": "Danh mục công bố2025–2026",
+        "url": "https://dut.udn.vn/Phong/Khoahoc/Thongbao/id/12140"
+      }
+    ]
+  },
+  {
+    "short_name": "VKU",
+    "name": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+    "domain": "vku.udn.vn",
+    "website": "https://vku.udn.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Kho tài nguyên số VKU",
+        "url": "https://elib.vku.udn.vn/community-list?locale=vi"
+      },
+      {
+        "title": "Bài báo2025",
+        "url": "https://elib.vku.udn.vn/handle/123456789/5064"
+      }
+    ]
+  },
+  {
+    "short_name": "HCMUTE",
+    "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+    "domain": "hcmute.edu.vn",
+    "website": "https://hcmute.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "Khoa CNTT",
+        "url": "https://fit.hcmute.edu.vn/"
+      },
+      {
+        "title": "Danh mục công bố giảng viên Trần Quang Khải",
+        "url": "https://fit.hcmute.edu.vn/Resources/Docs/SubDomain/fit/2025/HCMUTE_SCIENTIFIC_CV_TranQuangKhai.pdf",
+        "access_note": "Kiểm tra 30/10/2026: URL trả trang HTML không tìm thấy trang, không phải PDF. Công bố GCN được xác minh lại trực tiếp trên Springer."
+      },
+      {
+        "title": "Computer Vision & Intelligent Systems Laboratory",
+        "url": "https://cvis.hcmute.edu.vn/Research"
+      }
+    ]
+  },
+  {
+    "short_name": "VLUTE",
+    "name": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+    "domain": "vlute.edu.vn",
+    "website": "https://vlute.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://qlkh.vlute.edu.vn/",
+        "title": "Cơ sở dữ liệu khoa học công nghệ VLUTE"
+      },
+      {
+        "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi",
+        "title": "Tạp chí Khoa học VLUTE"
+      }
+    ]
+  },
+  {
+    "short_name": "MTA",
+    "name": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+    "domain": "mta.edu.vn",
+    "website": "https://mta.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://jst.lqdtu.edu.vn/index.php/jst",
+        "title": "Journal of Science and Technique"
+      },
+      {
+        "url": "https://sdh.mta.edu.vn/",
+        "title": "Cổng thông tin sau đại học và nghiên cứu"
+      }
+    ]
+  },
+  {
+    "short_name": "KMA",
+    "name": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+    "domain": "actvn.edu.vn",
+    "website": "https://actvn.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://actvn.edu.vn/",
+        "title": "Cổng thông tin Học viện — Nghiên cứu"
+      },
+      {
+        "url": "https://thuvien.actvn.edu.vn/",
+        "title": "Thư viện và danh mục luận án, đồ án"
+      }
+    ]
+  },
+  {
+    "short_name": "UTC",
+    "name": "Trường Đại học Giao thông vận tải (UTC)",
+    "domain": "utc.edu.vn",
+    "website": "https://utc.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://tcsj.utc.edu.vn/",
+        "title": "Tạp chí Khoa học Giao thông vận tải"
+      },
+      {
+        "url": "https://khcn.utc.edu.vn/",
+        "title": "Cổng Khoa học công nghệ"
+      },
+      {
+        "title": "TCSJ: công trình AI phải kiểm tra affiliation",
+        "url": "https://tcsj.utc.edu.vn/"
+      }
+    ]
+  },
+  {
+    "short_name": "HUMG",
+    "name": "Trường Đại học Mỏ - Địa chất (HUMG)",
+    "domain": "humg.edu.vn",
+    "website": "https://humg.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://humg.edu.vn/tin-tuc/Pages/khoa-hoc-cong-nghe.aspx",
+        "title": "Tin và kết quả khoa học công nghệ"
+      },
+      {
+        "url": "https://qlkh.humg.edu.vn/",
+        "title": "Quản lý khoa học công nghệ"
+      },
+      {
+        "title": "Tạp chí KHKT Mỏ–Địa chất: kiểm tra affiliation từng bài",
+        "url": "https://tapchi.humg.edu.vn/"
+      }
+    ]
+  },
+  {
+    "short_name": "HUCE",
+    "name": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+    "domain": "huce.edu.vn",
+    "website": "https://huce.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://khcn.huce.edu.vn/",
+        "title": "Phòng Khoa học công nghệ"
+      },
+      {
+        "url": "https://fit.huce.edu.vn/danh-muc-ca",
+        "title": "Danh mục công trình khoa học Khoa CNTT 2025–2026"
+      }
+    ]
+  },
+  {
+    "short_name": "FPT",
+    "name": "Trường Đại học FPT",
+    "domain": "daihoc.fpt.edu.vn",
+    "website": "https://daihoc.fpt.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "url": "https://science.fpt.edu.vn/",
+        "title": "Cổng khoa học Tổ chức Giáo dục FPT"
+      },
+      {
+        "url": "https://daihoc.fpt.edu.vn/nghien-cuu-doi-moi/",
+        "title": "Nghiên cứu và Đổi mới của Đại học FPT"
+      }
+    ]
+  },
+  {
+    "short_name": "Phenikaa",
+    "name": "Đại học Phenikaa",
+    "domain": "phenikaa-uni.edu.vn",
+    "website": "https://phenikaa-uni.edu.vn/",
+    "region": "Việt Nam",
+    "country_code": "VN",
+    "ai_portals": [
+      {
+        "title": "ORLab / công bố Canh V. Pham",
+        "url": "https://cvpham1989.github.io/publications/"
+      },
+      {
+        "title": "ICSLab News and Events",
+        "url": "https://icslab.phenikaa-uni.edu.vn/news-events"
+      }
+    ]
+  },
+  {
+    "short_name": "MIT",
+    "name": "Massachusetts Institute of Technology",
+    "domain": "mit.edu",
+    "website": "https://www.mit.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "MIT News — nghiên cứu AI",
+        "url": "https://news.mit.edu/"
+      }
+    ]
+  },
+  {
+    "short_name": "Caltech",
+    "name": "California Institute of Technology",
+    "domain": "caltech.edu",
+    "website": "https://www.caltech.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "Caltech — nghiên cứu",
+        "url": "https://www.caltech.edu/research"
+      },
+      {
+        "title": "Qian Lab — tài liệu nghiên cứu DNA neural networks",
+        "url": "https://www.qianlab.caltech.edu/41586_2025_9479_MOESM1_ESM.pdf"
+      }
+    ]
+  },
+  {
+    "short_name": "Georgia Tech",
+    "name": "Georgia Institute of Technology",
+    "domain": "gatech.edu",
+    "website": "https://www.gatech.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "EPIC Lab",
+        "url": "https://www.epic.gatech.edu/"
+      }
+    ]
+  },
+  {
+    "short_name": "CMU",
+    "name": "Carnegie Mellon University",
+    "domain": "cmu.edu",
+    "website": "https://www.cmu.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "Virginia Smith — công bố về học máy và LLM",
+        "url": "https://www.cs.cmu.edu/~smithv/index.html"
+      },
+      {
+        "title": "CMU SEI — thư viện nghiên cứu",
+        "url": "https://www.sei.cmu.edu/library/"
+      }
+    ]
+  },
+  {
+    "short_name": "Purdue",
+    "name": "Purdue University",
+    "domain": "purdue.edu",
+    "website": "https://www.purdue.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "AI Systems Lab — công bố",
+        "url": "https://engineering.purdue.edu/AISL/publications"
+      }
+    ]
+  },
+  {
+    "short_name": "RPI",
+    "name": "Rensselaer Polytechnic Institute",
+    "domain": "rpi.edu",
+    "website": "https://www.rpi.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "Mohammed J. Zaki — công bố",
+        "url": "https://www.cs.rpi.edu/~zaki/publications/"
+      },
+      {
+        "title": "FCRC — công bố",
+        "url": "https://fcrc.rpi.edu/research-outcomes/publications"
+      }
+    ]
+  },
+  {
+    "short_name": "Virginia Tech",
+    "name": "Virginia Polytechnic Institute and State University",
+    "domain": "vt.edu",
+    "website": "https://www.vt.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "VTechWorks — kho nghiên cứu",
+        "url": "https://vtechworks.lib.vt.edu/"
+      }
+    ]
+  },
+  {
+    "short_name": "Texas A&M",
+    "name": "Texas A&M University",
+    "domain": "tamu.edu",
+    "website": "https://www.tamu.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "Guni Sharon — nhóm nghiên cứu",
+        "url": "https://people.engr.tamu.edu/guni/group.html"
+      },
+      {
+        "title": "Texas A&M Engineering — nghiên cứu ERIC",
+        "url": "https://engineering.tamu.edu/news/2025/07/the-key-to-lowering-your-water-bill-may-already-be-at-your-door.html"
+      }
+    ]
+  },
+  {
+    "short_name": "Stevens",
+    "name": "Stevens Institute of Technology",
+    "domain": "stevens.edu",
+    "website": "https://www.stevens.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "Stevens Research Portal",
+        "url": "https://researchwith.stevens.edu/en/"
+      }
+    ]
+  },
+  {
+    "short_name": "IIT",
+    "name": "Illinois Institute of Technology",
+    "domain": "iit.edu",
+    "website": "https://www.iit.edu/",
+    "region": "Hoa Kỳ",
+    "country_code": "US",
+    "ai_portals": [
+      {
+        "title": "ECASP Laboratory — công bố",
+        "url": "https://ecasp.ece.iit.edu/2012-present.html"
+      }
+    ]
+  },
+  {
+    "short_name": "ETH Zurich",
+    "name": "ETH Zürich",
+    "domain": "ethz.ch",
+    "website": "https://ethz.ch/",
+    "region": "Châu Âu",
+    "country_code": "CH",
+    "ai_portals": [
+      {
+        "url": "https://www.research-collection.ethz.ch/",
+        "title": "ETH Research Collection"
+      }
+    ]
+  },
+  {
+    "short_name": "EPFL",
+    "name": "EPFL",
+    "domain": "epfl.ch",
+    "website": "https://epfl.ch/",
+    "region": "Châu Âu",
+    "country_code": "CH",
+    "ai_portals": [
+      {
+        "url": "https://infoscience.epfl.ch/",
+        "title": "Infoscience – EPFL"
+      },
+      {
+        "url": "https://www.epfl.ch/labs/lsmo/",
+        "title": "EPFL LSMO publications"
+      }
+    ]
+  },
+  {
+    "short_name": "Imperial",
+    "name": "Imperial College London",
+    "domain": "imperial.ac.uk",
+    "website": "https://imperial.ac.uk/",
+    "region": "Châu Âu",
+    "country_code": "GB",
+    "ai_portals": [
+      {
+        "url": "https://spiral.imperial.ac.uk/",
+        "title": "Spiral – Imperial institutional repository"
+      }
+    ]
+  },
+  {
+    "short_name": "TU Delft",
+    "name": "Delft University of Technology",
+    "domain": "tudelft.nl",
+    "website": "https://tudelft.nl/",
+    "region": "Châu Âu",
+    "country_code": "NL",
+    "ai_portals": [
+      {
+        "url": "https://research.tudelft.nl/",
+        "title": "TU Delft Research Portal"
+      }
+    ]
+  },
+  {
+    "short_name": "TU/e",
+    "name": "Eindhoven University of Technology",
+    "domain": "tue.nl",
+    "website": "https://tue.nl/",
+    "region": "Châu Âu",
+    "country_code": "NL",
+    "ai_portals": [
+      {
+        "url": "https://research.tue.nl/",
+        "title": "TU/e Research Portal"
+      }
+    ]
+  },
+  {
+    "short_name": "RWTH Aachen",
+    "name": "RWTH Aachen University",
+    "domain": "rwth-aachen.de",
+    "website": "https://rwth-aachen.de/",
+    "region": "Châu Âu",
+    "country_code": "DE",
+    "ai_portals": [
+      {
+        "url": "https://publications.rwth-aachen.de/",
+        "title": "RWTH Publications"
+      }
+    ]
+  },
+  {
+    "short_name": "TUM",
+    "name": "Technical University of Munich",
+    "domain": "tum.de",
+    "website": "https://tum.de/",
+    "region": "Châu Âu",
+    "country_code": "DE",
+    "ai_portals": [
+      {
+        "url": "https://mediatum.ub.tum.de/",
+        "title": "mediaTUM – TUM publication repository"
+      }
+    ]
+  },
+  {
+    "short_name": "TU Berlin",
+    "name": "Technische Universität Berlin",
+    "domain": "tu.berlin",
+    "website": "https://tu.berlin/",
+    "region": "Châu Âu",
+    "country_code": "DE",
+    "ai_portals": [
+      {
+        "url": "https://depositonce.tu-berlin.de/",
+        "title": "DepositOnce – TU Berlin"
+      },
+      {
+        "url": "https://ml.tu-berlin.de/publication/",
+        "title": "TU Berlin Machine Learning publications"
+      }
+    ]
+  },
+  {
+    "short_name": "KTH",
+    "name": "KTH Royal Institute of Technology",
+    "domain": "kth.se",
+    "website": "https://kth.se/",
+    "region": "Châu Âu",
+    "country_code": "SE",
+    "ai_portals": [
+      {
+        "url": "https://kth.diva-portal.org/",
+        "title": "KTH DiVA publications"
+      }
+    ]
+  },
+  {
+    "short_name": "Chalmers",
+    "name": "Chalmers University of Technology",
+    "domain": "chalmers.se",
+    "website": "https://chalmers.se/",
+    "region": "Châu Âu",
+    "country_code": "SE",
+    "ai_portals": [
+      {
+        "url": "https://research.chalmers.se/",
+        "title": "Chalmers Research"
+      }
+    ]
+  },
+  {
+    "short_name": "Aalto",
+    "name": "Aalto University",
+    "domain": "aalto.fi",
+    "website": "https://aalto.fi/",
+    "region": "Châu Âu",
+    "country_code": "FI",
+    "ai_portals": [
+      {
+        "url": "https://research.aalto.fi/",
+        "title": "Aalto Research Portal"
+      },
+      {
+        "url": "https://quml.aalto.fi/publication/",
+        "title": "Aalto QuML publications"
+      }
+    ]
+  },
+  {
+    "short_name": "Politecnico di Milano",
+    "name": "Politecnico di Milano",
+    "domain": "polimi.it",
+    "website": "https://polimi.it/",
+    "region": "Châu Âu",
+    "country_code": "IT",
+    "ai_portals": [
+      {
+        "url": "https://re.public.polimi.it/",
+        "title": "RE.PUBLIC@POLIMI"
+      }
+    ]
+  },
+  {
+    "short_name": "Politecnico di Torino",
+    "name": "Politecnico di Torino",
+    "domain": "polito.it",
+    "website": "https://polito.it/",
+    "region": "Châu Âu",
+    "country_code": "IT",
+    "ai_portals": [
+      {
+        "url": "https://iris.polito.it/",
+        "title": "PORTO – Politecnico di Torino institutional repository"
+      }
+    ]
+  },
+  {
+    "short_name": "TU Wien",
+    "name": "TU Wien",
+    "domain": "tuwien.at",
+    "website": "https://tuwien.at/",
+    "region": "Châu Âu",
+    "country_code": "AT",
+    "ai_portals": [
+      {
+        "url": "https://informatics.tuwien.ac.at/",
+        "title": "TU Wien Informatics"
+      },
+      {
+        "url": "https://repositum.tuwien.at/",
+        "title": "reposiTUm"
+      }
+    ]
+  }
+]

@@ -1,0 +1,880 @@
+{
+  "metadata": {
+    "date": "2026-10-30",
+    "statistics": {
+      "date": "2026-10-30",
+      "scope": "technology_only",
+      "schools": 41,
+      "selected_work_records": 85,
+      "works_with_doi": 63,
+      "regions": [
+        {
+          "region": "Việt Nam",
+          "schools": 17,
+          "items": 38
+        },
+        {
+          "region": "Hoa Kỳ",
+          "schools": 10,
+          "items": 19
+        },
+        {
+          "region": "Châu Âu",
+          "schools": 14,
+          "items": 28
+        }
+      ],
+      "primary_topic_counts": {
+        "ENERGY": 12,
+        "ROBOTICS": 18,
+        "AI_DATA": 15,
+        "BIOTECH_HEALTH": 2,
+        "CYBERSECURITY": 13,
+        "COMPUTING": 4,
+        "ENVIRONMENT": 1,
+        "ELECTRONICS_TELECOM": 8,
+        "AGRI_FOOD": 1,
+        "CONSTRUCTION_TRANSPORT": 2,
+        "MATERIALS": 9
+      },
+      "all_topic_counts": {
+        "ENERGY": 18,
+        "MATERIALS": 15,
+        "ROBOTICS": 19,
+        "CONSTRUCTION_TRANSPORT": 12,
+        "AI_DATA": 49,
+        "BIOTECH_HEALTH": 6,
+        "COMPUTING": 19,
+        "CYBERSECURITY": 13,
+        "ENVIRONMENT": 8,
+        "ELECTRONICS_TELECOM": 18,
+        "AGRI_FOOD": 1
+      },
+      "work_types": {
+        "journal_article": 49,
+        "conference_paper": 17,
+        "book_chapter": 1,
+        "institutional_research_project": 3,
+        "accepted_conference_paper": 3,
+        "doctoral_thesis": 3,
+        "student_graduation_project": 1,
+        "funded_research_project": 4,
+        "technical_report": 1,
+        "doctoral_dissertation": 1,
+        "review_article": 1,
+        "research_project": 1
+      },
+      "evidence_levels": {
+        "source_content_reviewed": 76,
+        "bibliography_only": 9
+      },
+      "bibliography_kept": 287,
+      "bibliography_removed_or_uncertain": 79,
+      "detailed_works_removed_or_uncertain": 2
+    },
+    "inclusion_exclusion_rules_vi": [
+      "Giữ nghiên cứu có đóng góp về thuật toán, phần mềm, tính toán, an ninh mạng, điện tử–bán dẫn–viễn thông, robot–điều khiển, vật liệu, năng lượng, kỹ thuật môi trường, công nghệ sinh học/y sinh, xây dựng–giao thông hoặc công nghệ nông nghiệp.",
+      "Loại nội dung thuần quản trị, kinh tế, xã hội, ngôn ngữ, giáo dục, tuyển sinh, sự kiện, lời mời hội nghị, quảng bá và khoa học cơ bản không thấy đóng góp công nghệ. Mục mơ hồ được loại khỏi kết quả chính.",
+      "Nghiên cứu dùng công nghệ trong tài chính, giáo dục, pháp luật hoặc y tế vẫn được giữ nếu có phương pháp/hệ thống kỹ thuật cụ thể. Không loại chỉ vì lĩnh vực ứng dụng ngoài công nghệ.",
+      "Các công trình lượng tử được xét theo đóng góp cụ thể: giữ thiết bị/hệ thống đo lường có triển khai, loại đề xuất chủ yếu nhằm kiểm tra vật lý cơ bản khi chưa thấy đóng góp công nghệ ứng dụng.",
+      "Danh sách trường trong bản này chỉ gồm trường có công trình công nghệ phù hợp đã đọc nguồn. Danh bạ rộng và các đầu mối chưa xác minh được lưu trong hồ sơ làm việc, không đưa vào bộ kết quả chính."
+    ],
+    "limitations_vi": [
+      "Báo cáo là mẫu công trình có nguồn của các trường được rà soát, chưa bao phủ mọi trường công nghệ trên thế giới hoặc toàn bộ 589 trường được nêu trong thống kê ban đầu. Không có tệp nguồn 589/5.021 trường để đối chiếu đầy đủ.",
+      "Các mục chi tiết gồm bài công bố, bài đã chấp nhận, báo cáo, luận án, đồ án và dự án; có cột phân biệt. Phần lớn chỉ đọc abstract/bản tin cơ quan; một số mới xác nhận thông tin thư mục. Chưa thẩm định toàn văn hay khả năng tái lập.",
+      "Nguồn chính thức có thể có lỗi, ngày hội nghị và ngày xuất bản có thể khác nhau; thông tin chưa chắc được giữ trong ghi chú. Không suy ra tác giả thuộc trường chỉ vì bài đăng trên tạp chí của trường; trường hợp chỉ có email hoặc kho cơ quan được nêu rõ.",
+      "Phụ lục thư mục đã lọc liên quan công nghệ và gán nhóm theo tiêu đề, một số có đọc thêm abstract để xử lý trường hợp khó. Chưa kiểm tra đầy đủ nội dung từng bài. Không cộng trực tiếp số phụ lục với các mục chi tiết vì có thể trùng công trình.",
+      "Một công trình có nhãn chính và nhiều nhãn phụ. Số mẫu không phản ánh tổng sản lượng, thế mạnh hoặc thứ hạng của trường. Trường đa ngành vẫn xuất hiện nếu có công trình công nghệ phù hợp.",
+      "Website trường và cổng nghiên cứu được dẫn theo nguồn; không khẳng định đã rà soát mọi subdomain hay toàn bộ PDF. Không truy cập nội dung yêu cầu đăng nhập."
+    ],
+    "topic_taxonomy": {
+      "AI_DATA": "AI, học máy và dữ liệu",
+      "CYBERSECURITY": "An ninh mạng và mật mã",
+      "COMPUTING": "Phần mềm, hệ thống tính toán và mạng",
+      "ELECTRONICS_TELECOM": "Điện tử, bán dẫn, viễn thông và IoT",
+      "ROBOTICS": "Robot, điều khiển và tự động hóa",
+      "MATERIALS": "Vật liệu, nano và công nghệ hóa học",
+      "ENERGY": "Năng lượng và công nghệ điện",
+      "ENVIRONMENT": "Môi trường, khí hậu và tài nguyên",
+      "BIOTECH_HEALTH": "Công nghệ sinh học và kỹ thuật y sinh",
+      "CONSTRUCTION_TRANSPORT": "Xây dựng, giao thông và cơ khí",
+      "AGRI_FOOD": "Công nghệ nông nghiệp và thực phẩm"
+    }
+  },
+  "technology_universities": [
+    {
+      "name": "Trường Đại học Khoa học và Công nghệ Hà Nội (USTH)",
+      "domain": "usth.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://usth.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Công bố Khoa Công nghệ và Kỹ thuật",
+          "url": "https://usth.edu.vn/en/publications-of-department-of-technology-and-engineering-4274/"
+        },
+        {
+          "title": "Công bố Khoa Công nghệ Hóa học và Môi trường",
+          "url": "https://usth.edu.vn/en/publications-4442/"
+        }
+      ],
+      "seed_order": 0,
+      "short_name": "USTH",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Đại học Bách khoa Hà Nội (HUST)",
+      "domain": "hust.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://hust.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Nghiên cứu HUST",
+          "url": "https://www.hust.edu.vn/vi/nghien-cuu/"
+        },
+        {
+          "title": "Công bố SoICT năm2025",
+          "url": "https://soict.hust.edu.vn/en/2025-publications.html"
+        }
+      ],
+      "seed_order": 1,
+      "short_name": "HUST",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Công nghệ – ĐHQG Hà Nội (UET)",
+      "domain": "uet.vnu.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://uet.vnu.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Trang nghiên cứu và công bố Nguyễn Việt Cường",
+          "url": "https://uet.vnu.edu.vn/~cuongnv/"
+        }
+      ],
+      "seed_order": 2,
+      "short_name": "UET",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Bách khoa – ĐHQG TP.HCM (HCMUT)",
+      "domain": "hcmut.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://hcmut.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Nghiên cứu HPCC",
+          "url": "https://hpcc.hcmut.edu.vn/research"
+        },
+        {
+          "title": "Công bố HPCC",
+          "url": "https://hpcc.hcmut.edu.vn/publications"
+        },
+        {
+          "title": "Công bố Địa chất–Dầu khí",
+          "url": "https://geopet.hcmut.edu.vn/en/nghien-cuu/cong-bo-khoa-hoc?year=2025"
+        }
+      ],
+      "seed_order": 3,
+      "short_name": "HCMUT",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Công nghệ Thông tin – ĐHQG TP.HCM (UIT)",
+      "domain": "uit.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://uit.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Phòng ĐTSĐH & KHCN",
+          "url": "https://khcn.uit.edu.vn/"
+        },
+        {
+          "title": "Công bố và tin nghiên cứu UIT",
+          "url": "https://www.uit.edu.vn/bai-viet/chuc-mung-nhom-sinh-vien-uit-co-bai-bao-khoa-hoc-duoc-cong-bo-tai-hoi-nghi-quoc-te-soict-2025"
+        }
+      ],
+      "seed_order": 4,
+      "short_name": "UIT",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Học viện Công nghệ Bưu chính Viễn thông (PTIT)",
+      "domain": "ptit.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://ptit.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Công bố Khoa Viễn thông1",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/bai-bao-tap-chi-trong-nuoc/"
+        },
+        {
+          "title": "Dự án Khoa Viễn thông1",
+          "url": "https://tel.ptit.edu.vn/nghien-cuu/du-an-khoa-hoc/"
+        }
+      ],
+      "seed_order": 5,
+      "short_name": "PTIT",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Bách khoa – Đại học Đà Nẵng (DUT)",
+      "domain": "dut.udn.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://dut.udn.vn/",
+      "research_portals": [
+        {
+          "title": "Phòng KHCN và HTQT",
+          "url": "https://dut.udn.vn/Phong/Khoahoc"
+        },
+        {
+          "title": "Danh mục công bố2025–2026",
+          "url": "https://dut.udn.vn/Phong/Khoahoc/Thongbao/id/12140"
+        }
+      ],
+      "seed_order": 6,
+      "short_name": "DUT",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học CNTT và Truyền thông Việt–Hàn (VKU)",
+      "domain": "vku.udn.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://vku.udn.vn/",
+      "research_portals": [
+        {
+          "title": "Kho tài nguyên số VKU",
+          "url": "https://elib.vku.udn.vn/community-list?locale=vi"
+        },
+        {
+          "title": "Bài báo2025",
+          "url": "https://elib.vku.udn.vn/handle/123456789/5064"
+        }
+      ],
+      "seed_order": 7,
+      "short_name": "VKU",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Công nghệ Kỹ thuật TP.HCM (HCM-UTE; tên cũ Sư phạm Kỹ thuật)",
+      "domain": "hcmute.edu.vn",
+      "country_code": "VN",
+      "country": "Viet Nam",
+      "website": "https://hcmute.edu.vn/",
+      "research_portals": [
+        {
+          "title": "Khoa CNTT",
+          "url": "https://fit.hcmute.edu.vn/"
+        },
+        {
+          "title": "Danh mục công bố giảng viên Trần Quang Khải",
+          "url": "https://fit.hcmute.edu.vn/Resources/Docs/SubDomain/fit/2025/HCMUTE_SCIENTIFIC_CV_TranQuangKhai.pdf",
+          "access_note": "Kiểm tra 30/10/2026: URL trả trang HTML không tìm thấy trang, không phải PDF. Công bố GCN được xác minh lại trực tiếp trên Springer."
+        }
+      ],
+      "naming_note": "Tên hiện hành được xác nhận theo thông báo chính thức về Quyết định 2809/QĐ-TTg ngày 26/12/2025; bài báo có thể còn dùng tên cũ Ho Chi Minh City University of Technology and Education.",
+      "naming_source_url": "https://sdh.hcmute.edu.vn/Resources/Docs/SubDomain/sdh/Thong%20Bao/2026/TB%20doi%20ten%20truong%20su%20dung%20con%20dau%20gia%20tri%20phap%20ly%20cua%20VBCC%20ho%20so%20nguoi%20hoc%20-%20Signed%20%283%29.pdf",
+      "seed_order": 8,
+      "short_name": "HCMUTE",
+      "region": "Việt Nam",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Công nghệ Kỹ thuật Vĩnh Long (VLUTE; tên cũ: Sư phạm Kỹ thuật Vĩnh Long)",
+      "domain": "vlute.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://qlkh.vlute.edu.vn/",
+          "title": "Cơ sở dữ liệu khoa học công nghệ VLUTE"
+        },
+        {
+          "url": "https://vlutejs.vlute.edu.vn/jsvi/index.php/tc/vi",
+          "title": "Tạp chí Khoa học VLUTE"
+        }
+      ],
+      "seed_order": 9,
+      "short_name": "VLUTE",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://vlute.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Học viện Kỹ thuật Quân sự / Đại học Kỹ thuật Lê Quý Đôn (MTA/LQDTU)",
+      "domain": "mta.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://jst.lqdtu.edu.vn/index.php/jst",
+          "title": "Journal of Science and Technique"
+        },
+        {
+          "url": "https://sdh.mta.edu.vn/",
+          "title": "Cổng thông tin sau đại học và nghiên cứu"
+        }
+      ],
+      "seed_order": 10,
+      "short_name": "MTA",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://mta.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Học viện Kỹ thuật Mật mã (KMA/ACT)",
+      "domain": "actvn.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://actvn.edu.vn/",
+          "title": "Cổng thông tin Học viện — Nghiên cứu"
+        },
+        {
+          "url": "https://thuvien.actvn.edu.vn/",
+          "title": "Thư viện và danh mục luận án, đồ án"
+        }
+      ],
+      "seed_order": 11,
+      "short_name": "KMA",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://actvn.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Giao thông vận tải (UTC)",
+      "domain": "utc.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://tcsj.utc.edu.vn/",
+          "title": "Tạp chí Khoa học Giao thông vận tải"
+        },
+        {
+          "url": "https://khcn.utc.edu.vn/",
+          "title": "Cổng Khoa học công nghệ"
+        }
+      ],
+      "seed_order": 12,
+      "short_name": "UTC",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://utc.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Mỏ - Địa chất (HUMG)",
+      "domain": "humg.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://humg.edu.vn/tin-tuc/Pages/khoa-hoc-cong-nghe.aspx",
+          "title": "Tin và kết quả khoa học công nghệ"
+        },
+        {
+          "url": "https://qlkh.humg.edu.vn/",
+          "title": "Quản lý khoa học công nghệ"
+        }
+      ],
+      "seed_order": 13,
+      "short_name": "HUMG",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://humg.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học Xây dựng Hà Nội (HUCE)",
+      "domain": "huce.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://khcn.huce.edu.vn/",
+          "title": "Phòng Khoa học công nghệ"
+        },
+        {
+          "url": "https://fit.huce.edu.vn/danh-muc-ca",
+          "title": "Danh mục công trình khoa học Khoa CNTT 2025–2026"
+        }
+      ],
+      "seed_order": 14,
+      "short_name": "HUCE",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://huce.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Trường Đại học FPT",
+      "domain": "daihoc.fpt.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://science.fpt.edu.vn/",
+          "title": "Cổng khoa học Tổ chức Giáo dục FPT"
+        },
+        {
+          "url": "https://daihoc.fpt.edu.vn/nghien-cuu-doi-moi/",
+          "title": "Nghiên cứu và Đổi mới của Đại học FPT"
+        }
+      ],
+      "seed_order": 15,
+      "short_name": "FPT",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://daihoc.fpt.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Đại học Phenikaa",
+      "domain": "phenikaa-uni.edu.vn",
+      "research_portals": [
+        {
+          "url": "https://pse.phenikaa-uni.edu.vn/",
+          "title": "Trường Kỹ thuật Phenikaa — Nghiên cứu"
+        },
+        {
+          "url": "https://phenikaa-uni.edu.vn/vi/category/nghien-cuu/tin-tuc/tu-hao-phenikaa",
+          "title": "Tin nghiên cứu Phenikaa"
+        }
+      ],
+      "seed_order": 16,
+      "short_name": "Phenikaa",
+      "country_code": "VN",
+      "region": "Việt Nam",
+      "website": "https://phenikaa-uni.edu.vn/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "mit.edu",
+      "website": "https://www.mit.edu/",
+      "research_portals": [
+        {
+          "title": "MIT News — nghiên cứu",
+          "url": "https://news.mit.edu/"
+        },
+        {
+          "title": "Danh mục công bố của nhóm Vinod Vaikuntanathan, CSAIL",
+          "url": "https://people.csail.mit.edu/vinodv/pubs.html"
+        }
+      ],
+      "seed_order": 17,
+      "short_name": "MIT",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "California Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "caltech.edu",
+      "website": "https://www.caltech.edu/",
+      "research_portals": [
+        {
+          "title": "Caltech — tin nghiên cứu chính thức",
+          "url": "https://www.caltech.edu/about/news"
+        },
+        {
+          "title": "Caltech Research",
+          "url": "https://www.caltech.edu/research"
+        }
+      ],
+      "seed_order": 18,
+      "short_name": "Caltech",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "gatech.edu",
+      "website": "https://www.gatech.edu/",
+      "research_portals": [
+        {
+          "title": "Georgia Tech — tin nghiên cứu",
+          "url": "https://news.gatech.edu/"
+        },
+        {
+          "title": "EPIC Lab — công bố và dự án",
+          "url": "https://www.epic.gatech.edu/"
+        }
+      ],
+      "seed_order": 19,
+      "short_name": "Georgia Tech",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "cmu.edu",
+      "website": "https://www.cmu.edu/",
+      "research_portals": [
+        {
+          "title": "Software Engineering Institute — thư viện công bố",
+          "url": "https://www.sei.cmu.edu/library/"
+        }
+      ],
+      "seed_order": 20,
+      "short_name": "CMU",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Purdue University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "purdue.edu",
+      "website": "https://www.purdue.edu/",
+      "research_portals": [
+        {
+          "title": "Energy and Transport Sciences Laboratory — Publications",
+          "url": "https://engineering.purdue.edu/ETSL/publication.html"
+        },
+        {
+          "title": "Marconnet Thermal and Energy Conversion Lab",
+          "url": "https://engineering.purdue.edu/MTEC/"
+        }
+      ],
+      "seed_order": 21,
+      "short_name": "Purdue",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Rensselaer Polytechnic Institute",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "rpi.edu",
+      "website": "https://www.rpi.edu/",
+      "research_portals": [
+        {
+          "title": "RPI — tin nghiên cứu chính thức",
+          "url": "https://news.rpi.edu/"
+        }
+      ],
+      "seed_order": 22,
+      "short_name": "RPI",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Virginia Polytechnic Institute and State University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "vt.edu",
+      "website": "https://www.vt.edu/",
+      "research_portals": [
+        {
+          "title": "VTechWorks — kho nghiên cứu Virginia Tech",
+          "url": "https://vtechworks.lib.vt.edu/"
+        },
+        {
+          "title": "Virginia Tech News",
+          "url": "https://news.vt.edu/"
+        }
+      ],
+      "seed_order": 23,
+      "short_name": "Virginia Tech",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Texas A&M University",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "tamu.edu",
+      "website": "https://www.tamu.edu/",
+      "research_portals": [
+        {
+          "title": "Texas A&M Engineering News",
+          "url": "https://news.engineering.tamu.edu/"
+        },
+        {
+          "title": "Texas A&M Stories",
+          "url": "https://stories.tamu.edu/"
+        }
+      ],
+      "seed_order": 24,
+      "short_name": "Texas A&M",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Stevens Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "stevens.edu",
+      "website": "https://www.stevens.edu/",
+      "research_portals": [
+        {
+          "title": "Stevens Research Portal",
+          "url": "https://researchwith.stevens.edu/en/"
+        }
+      ],
+      "seed_order": 25,
+      "short_name": "Stevens",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Illinois Institute of Technology",
+      "country": "United States",
+      "country_code": "US",
+      "domain": "iit.edu",
+      "website": "https://www.iit.edu/",
+      "research_portals": [
+        {
+          "title": "Illinois Tech — nghiên cứu",
+          "url": "https://www.iit.edu/research"
+        },
+        {
+          "title": "Illinois Tech — tin chính thức",
+          "url": "https://www.iit.edu/news"
+        }
+      ],
+      "seed_order": 26,
+      "short_name": "IIT",
+      "region": "Hoa Kỳ",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "ETH Zürich",
+      "domain": "ethz.ch",
+      "research_portals": [
+        {
+          "url": "https://www.research-collection.ethz.ch/",
+          "title": "ETH Research Collection"
+        }
+      ],
+      "seed_order": 27,
+      "short_name": "ETH Zurich",
+      "country_code": "CH",
+      "region": "Châu Âu",
+      "website": "https://ethz.ch/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "EPFL",
+      "domain": "epfl.ch",
+      "research_portals": [
+        {
+          "url": "https://infoscience.epfl.ch/",
+          "title": "Infoscience – EPFL"
+        }
+      ],
+      "seed_order": 28,
+      "short_name": "EPFL",
+      "country_code": "CH",
+      "region": "Châu Âu",
+      "website": "https://epfl.ch/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Imperial College London",
+      "domain": "imperial.ac.uk",
+      "research_portals": [
+        {
+          "url": "https://spiral.imperial.ac.uk/",
+          "title": "Spiral – Imperial institutional repository"
+        }
+      ],
+      "seed_order": 29,
+      "short_name": "Imperial",
+      "country_code": "GB",
+      "region": "Châu Âu",
+      "website": "https://imperial.ac.uk/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Delft University of Technology",
+      "domain": "tudelft.nl",
+      "research_portals": [
+        {
+          "url": "https://research.tudelft.nl/",
+          "title": "TU Delft Research Portal"
+        }
+      ],
+      "seed_order": 30,
+      "short_name": "TU Delft",
+      "country_code": "NL",
+      "region": "Châu Âu",
+      "website": "https://tudelft.nl/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Eindhoven University of Technology",
+      "domain": "tue.nl",
+      "research_portals": [
+        {
+          "url": "https://research.tue.nl/",
+          "title": "TU/e Research Portal"
+        }
+      ],
+      "seed_order": 31,
+      "short_name": "TU/e",
+      "country_code": "NL",
+      "region": "Châu Âu",
+      "website": "https://tue.nl/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "RWTH Aachen University",
+      "domain": "rwth-aachen.de",
+      "research_portals": [
+        {
+          "url": "https://publications.rwth-aachen.de/",
+          "title": "RWTH Publications"
+        }
+      ],
+      "seed_order": 32,
+      "short_name": "RWTH Aachen",
+      "country_code": "DE",
+      "region": "Châu Âu",
+      "website": "https://rwth-aachen.de/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Technical University of Munich",
+      "domain": "tum.de",
+      "research_portals": [
+        {
+          "url": "https://mediatum.ub.tum.de/",
+          "title": "mediaTUM – TUM publication repository"
+        }
+      ],
+      "seed_order": 33,
+      "short_name": "TUM",
+      "country_code": "DE",
+      "region": "Châu Âu",
+      "website": "https://tum.de/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Technische Universität Berlin",
+      "domain": "tu.berlin",
+      "research_portals": [
+        {
+          "url": "https://depositonce.tu-berlin.de/",
+          "title": "DepositOnce – TU Berlin"
+        }
+      ],
+      "seed_order": 34,
+      "short_name": "TU Berlin",
+      "country_code": "DE",
+      "region": "Châu Âu",
+      "website": "https://tu.berlin/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "KTH Royal Institute of Technology",
+      "domain": "kth.se",
+      "research_portals": [
+        {
+          "url": "https://kth.diva-portal.org/",
+          "title": "KTH DiVA publications"
+        }
+      ],
+      "seed_order": 35,
+      "short_name": "KTH",
+      "country_code": "SE",
+      "region": "Châu Âu",
+      "website": "https://kth.se/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "domain": "chalmers.se",
+      "research_portals": [
+        {
+          "url": "https://research.chalmers.se/",
+          "title": "Chalmers Research"
+        }
+      ],
+      "seed_order": 36,
+      "short_name": "Chalmers",
+      "country_code": "SE",
+      "region": "Châu Âu",
+      "website": "https://chalmers.se/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Aalto University",
+      "domain": "aalto.fi",
+      "research_portals": [
+        {
+          "url": "https://research.aalto.fi/",
+          "title": "Aalto Research Portal"
+        }
+      ],
+      "seed_order": 37,
+      "short_name": "Aalto",
+      "country_code": "FI",
+      "region": "Châu Âu",
+      "website": "https://aalto.fi/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Politecnico di Milano",
+      "domain": "polimi.it",
+      "research_portals": [
+        {
+          "url": "https://re.public.polimi.it/",
+          "title": "RE.PUBLIC@POLIMI"
+        }
+      ],
+      "seed_order": 38,
+      "short_name": "Politecnico di Milano",
+      "country_code": "IT",
+      "region": "Châu Âu",
+      "website": "https://polimi.it/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "Politecnico di Torino",
+      "domain": "polito.it",
+      "research_portals": [
+        {
+          "url": "https://iris.polito.it/",
+          "title": "PORTO – Politecnico di Torino institutional repository"
+        }
+      ],
+      "seed_order": 39,
+      "short_name": "Politecnico di Torino",
+      "country_code": "IT",
+      "region": "Châu Âu",
+      "website": "https://polito.it/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    },
+    {
+      "name": "TU Wien",
+      "domain": "tuwien.at",
+      "research_portals": [
+        {
+          "url": "https://www.tuwien.at/en/research",
+          "title": "TU Wien Research"
+        }
+      ],
+      "seed_order": 40,
+      "short_name": "TU Wien",
+      "country_code": "AT",
+      "region": "Châu Âu",
+      "website": "https://tuwien.at/",
+      "technology_evidence": "Có công trình công nghệ–kỹ thuật phù hợp trong tập nguồn đã đọc; không đồng nghĩa trường chỉ chuyên ngành công nghệ."
+    }
+  ]
+}

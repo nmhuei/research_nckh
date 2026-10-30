@@ -1,0 +1,12 @@
+NGHIEN CUU AI NHOM 3, 5, 7 - 30/10/2026
+122 cong trinh chinh; 39 dau moi thu muc; pham vi41truong.
+Excel: loc theo truong, nhom, chu de, nam, trang thai; cac sheet nhom co ID trung vi cong trinh co the nhieu nhan.
+Word: danh muc theo nhom va mo ta tung cong trinh. JSON/CSV: du lieu de truy van.
+Xem Huong_dan, Dau_moi_can_doi_chieu va Kiem_chung_truong de danh gia muc bang chung va pham vi.
+Phạm vi là 41 trường có tên cụ thể trong danh sách hiện có, không phải toàn bộ các trường trên thế giới hay danh sách 589 trường chưa được cung cấp dưới dạng tệp.
+Đã chạy truy vấn theo từng trường và từng nhóm, rà danh mục AI cũ cùng 287 bản ghi thư mục công nghệ. Tìm kiếm web có giới hạn truy cập và lập chỉ mục: đây là danh mục tìm được, chưa đủ căn cứ khẳng định đã thu toàn bộ sản lượng nghiên cứu của mỗi trường.
+Ưu tiên công trình 2024–2026, đến ngày 30/10/2026; giữ một số công trình nền tảng cũ hơn khi tìm thấy và phù hợp. Không áp dụng giới hạn năm tuyệt đối để loại bài có liên quan.
+Mức đọc và bằng chứng được ghi theo từng mục. Nội dung có thể chỉ là abstract, phần chọn lọc hoặc metadata/đăng ký đề tài chính thức; không khẳng định đã đọc hoặc tái lập toàn văn.
+Đề tài được duyệt, dự án đang triển khai, bản tiền công bố, bài được chấp nhận và bài đã công bố được giữ đúng trạng thái nguồn. Mục tiêu dự án không được trình bày thành kết quả đã đạt.
+Đầu mối chỉ có thư mục/tiêu đề được đặt trong phụ lục riêng và không cộng vào tổng công trình chính. Không tìm thấy ở một truy vấn không có nghĩa trường không có nghiên cứu ở nhóm đó.
+Số mục trong danh mục phụ thuộc phạm vi nguồn và cách tìm; không dùng để xếp hạng trường hoặc tính tốc độ tăng của lĩnh vực. Tổng số mục từng nhóm có thể lớn hơn tổng duy nhất vì nhãn giao nhau.
